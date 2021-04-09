@@ -1,0 +1,445 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="DataSubscriber1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>433, 17</value>
+  </metadata>
+  <metadata name="EthernetIPforCLXCom1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>225, 17</value>
+  </metadata>
+  <assembly alias="MfgControl.AdvancedHMI.Drivers" name="MfgControl.AdvancedHMI.Drivers, Version=3.99.19.2, Culture=neutral, PublicKeyToken=null" />
+  <data name="DataSubscriber1.PLCAddressValue" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>HMI_Last10KO[0]</value>
+  </data>
+  <metadata name="DataSubscriber2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>597, 17</value>
+  </metadata>
+  <data name="DataSubscriber2.PLCAddressValue" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>HMI_Last10KO[1]</value>
+  </data>
+  <metadata name="DataSubscriber3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>761, 17</value>
+  </metadata>
+  <data name="DataSubscriber3.PLCAddressValue" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>HMI_Last10KO[2]</value>
+  </data>
+  <metadata name="DataSubscriber4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>925, 17</value>
+  </metadata>
+  <data name="DataSubscriber4.PLCAddressValue" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>HMI_Last10KO[3]</value>
+  </data>
+  <metadata name="DataSubscriber5.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1089, 17</value>
+  </metadata>
+  <data name="DataSubscriber5.PLCAddressValue" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>HMI_Last10KO[4]</value>
+  </data>
+  <metadata name="DataSubscriber6.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1253, 17</value>
+  </metadata>
+  <data name="DataSubscriber6.PLCAddressValue" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>HMI_Last10KO[5]</value>
+  </data>
+  <metadata name="DataSubscriber7.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 60</value>
+  </metadata>
+  <data name="DataSubscriber7.PLCAddressValue" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>HMI_Last10KO[6]</value>
+  </data>
+  <metadata name="DataSubscriber8.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>181, 60</value>
+  </metadata>
+  <data name="DataSubscriber8.PLCAddressValue" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>HMI_Last10KO[7]</value>
+  </data>
+  <metadata name="DataSubscriber9.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>345, 60</value>
+  </metadata>
+  <data name="DataSubscriber9.PLCAddressValue" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>HMI_Last10KO[8]</value>
+  </data>
+  <metadata name="DataSubscriber10.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>509, 60</value>
+  </metadata>
+  <data name="DataSubscriber10.PLCAddressValue" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>HMI_Last10KO[9]</value>
+  </data>
+  <metadata name="DataSubscriber11.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>681, 60</value>
+  </metadata>
+  <data name="DataSubscriber11.PLCAddressValue" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>HMI_Last10Time[0]</value>
+  </data>
+  <metadata name="DataSubscriber12.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>853, 60</value>
+  </metadata>
+  <data name="DataSubscriber12.PLCAddressValue" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>HMI_Last10Time[1]</value>
+  </data>
+  <metadata name="DataSubscriber13.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1025, 60</value>
+  </metadata>
+  <data name="DataSubscriber13.PLCAddressValue" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>HMI_Last10Time[2]</value>
+  </data>
+  <metadata name="DataSubscriber14.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1197, 60</value>
+  </metadata>
+  <data name="DataSubscriber14.PLCAddressValue" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>HMI_Last10Time[3]</value>
+  </data>
+  <metadata name="DataSubscriber15.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 103</value>
+  </metadata>
+  <data name="DataSubscriber15.PLCAddressValue" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>HMI_Last10Time[4]</value>
+  </data>
+  <metadata name="DataSubscriber16.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>189, 103</value>
+  </metadata>
+  <data name="DataSubscriber16.PLCAddressValue" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>HMI_Last10Time[5]</value>
+  </data>
+  <metadata name="DataSubscriber17.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>361, 103</value>
+  </metadata>
+  <data name="DataSubscriber17.PLCAddressValue" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>HMI_Last10Time[6]</value>
+  </data>
+  <metadata name="DataSubscriber18.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>533, 103</value>
+  </metadata>
+  <data name="DataSubscriber18.PLCAddressValue" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>HMI_Last10Time[7]</value>
+  </data>
+  <metadata name="DataSubscriber19.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>705, 103</value>
+  </metadata>
+  <data name="DataSubscriber19.PLCAddressValue" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>HMI_Last10Time[8]</value>
+  </data>
+  <metadata name="DataSubscriber20.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>877, 103</value>
+  </metadata>
+  <data name="DataSubscriber20.PLCAddressValue" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>HMI_Last10Time[9]</value>
+  </data>
+  <metadata name="DataSubscriber21.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1049, 103</value>
+  </metadata>
+  <data name="DataSubscriber21.PLCAddressValue" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>Event_ActiveEvents[0]</value>
+  </data>
+  <metadata name="DataSubscriber22.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1221, 103</value>
+  </metadata>
+  <data name="DataSubscriber22.PLCAddressValue" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>Event_ActiveEvents[1]</value>
+  </data>
+  <metadata name="DataSubscriber23.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 146</value>
+  </metadata>
+  <data name="DataSubscriber23.PLCAddressValue" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>Event_ActiveEvents[2]</value>
+  </data>
+  <metadata name="DataSubscriber24.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>189, 146</value>
+  </metadata>
+  <data name="DataSubscriber24.PLCAddressValue" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>Event_ActiveEvents[3]</value>
+  </data>
+  <metadata name="DataSubscriber25.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>361, 146</value>
+  </metadata>
+  <data name="DataSubscriber25.PLCAddressValue" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>Event_ActiveEvents[4]</value>
+  </data>
+  <metadata name="DataSubscriber26.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>533, 146</value>
+  </metadata>
+  <data name="DataSubscriber26.PLCAddressValue" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>Event_ActiveEvents[5]</value>
+  </data>
+  <metadata name="DataSubscriber27.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>705, 146</value>
+  </metadata>
+  <data name="DataSubscriber27.PLCAddressValue" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>Event_ActiveEvents[6]</value>
+  </data>
+  <metadata name="DataSubscriber28.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>877, 146</value>
+  </metadata>
+  <data name="DataSubscriber28.PLCAddressValue" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>Event_ActiveEvents[7]</value>
+  </data>
+  <metadata name="DataSubscriber29.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1049, 146</value>
+  </metadata>
+  <data name="DataSubscriber29.PLCAddressValue" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>Event_ActiveEvents[8]</value>
+  </data>
+  <metadata name="DataSubscriber30.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1221, 146</value>
+  </metadata>
+  <data name="DataSubscriber30.PLCAddressValue" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>Event_ActiveEvents[9]</value>
+  </data>
+  <metadata name="DataSubscriber31.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 189</value>
+  </metadata>
+  <data name="DataSubscriber31.PLCAddressValue" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>Packages[0].WmsData.KO</value>
+  </data>
+  <metadata name="DataSubscriber32.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>189, 189</value>
+  </metadata>
+  <data name="DataSubscriber32.PLCAddressValue" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>Packages[1].WmsData.KO</value>
+  </data>
+  <metadata name="DataSubscriber33.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>361, 189</value>
+  </metadata>
+  <data name="DataSubscriber33.PLCAddressValue" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>Packages[2].WmsData.KO</value>
+  </data>
+  <metadata name="DataSubscriber34.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>533, 189</value>
+  </metadata>
+  <data name="DataSubscriber34.PLCAddressValue" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>Packages[3].WmsData.KO</value>
+  </data>
+  <metadata name="DataSubscriber35.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>705, 189</value>
+  </metadata>
+  <data name="DataSubscriber35.PLCAddressValue" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>Packages[4].WmsData.KO</value>
+  </data>
+  <metadata name="DataSubscriber36.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>877, 189</value>
+  </metadata>
+  <data name="DataSubscriber36.PLCAddressValue" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>Packages[5].WmsData.KO</value>
+  </data>
+  <metadata name="DataSubscriber37.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1049, 189</value>
+  </metadata>
+  <data name="DataSubscriber37.PLCAddressValue" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>Packages[6].WmsData.KO</value>
+  </data>
+  <metadata name="DataSubscriber38.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1221, 189</value>
+  </metadata>
+  <data name="DataSubscriber38.PLCAddressValue" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>Packages[7].WmsData.KO</value>
+  </data>
+  <metadata name="DataSubscriber39.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 232</value>
+  </metadata>
+  <data name="DataSubscriber39.PLCAddressValue" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>Packages[8].WmsData.KO</value>
+  </data>
+  <metadata name="DataSubscriber40.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>189, 232</value>
+  </metadata>
+  <data name="DataSubscriber40.PLCAddressValue" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>Packages[9].WmsData.KO</value>
+  </data>
+  <metadata name="DataSubscriber41.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>361, 232</value>
+  </metadata>
+  <data name="DataSubscriber41.PLCAddressValue" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>Packages[10].WmsData.KO</value>
+  </data>
+  <metadata name="DataSubscriber42.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>533, 232</value>
+  </metadata>
+  <data name="DataSubscriber42.PLCAddressValue" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>Packages[11].WmsData.KO</value>
+  </data>
+  <metadata name="DataSubscriber43.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>705, 232</value>
+  </metadata>
+  <data name="DataSubscriber43.PLCAddressValue" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>Packages[12].WmsData.KO</value>
+  </data>
+  <metadata name="DataSubscriber44.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>877, 232</value>
+  </metadata>
+  <data name="DataSubscriber44.PLCAddressValue" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>Packages[13].WmsData.KO</value>
+  </data>
+  <metadata name="DataSubscriber45.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1049, 232</value>
+  </metadata>
+  <data name="DataSubscriber45.PLCAddressValue" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>Packages[14].WmsData.KO</value>
+  </data>
+  <metadata name="DataSubscriber46.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1221, 232</value>
+  </metadata>
+  <data name="DataSubscriber46.PLCAddressValue" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>Packages[15].WmsData.KO</value>
+  </data>
+  <metadata name="DataSubscriber47.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 275</value>
+  </metadata>
+  <data name="DataSubscriber47.PLCAddressValue" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>Packages[16].WmsData.KO</value>
+  </data>
+  <metadata name="DataSubscriber48.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>189, 275</value>
+  </metadata>
+  <data name="DataSubscriber48.PLCAddressValue" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>Packages[17].WmsData.KO</value>
+  </data>
+  <metadata name="DataSubscriber49.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>361, 275</value>
+  </metadata>
+  <data name="DataSubscriber49.PLCAddressValue" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>Packages[18].WmsData.KO</value>
+  </data>
+  <metadata name="DataSubscriber50.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>533, 275</value>
+  </metadata>
+  <data name="DataSubscriber50.PLCAddressValue" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>Packages[19].WmsData.KO</value>
+  </data>
+  <metadata name="DataSubscriber51.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>705, 275</value>
+  </metadata>
+  <data name="DataSubscriber51.PLCAddressValue" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>HMI_ParcelCount</value>
+  </data>
+  <metadata name="DataSubscriber52.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>877, 275</value>
+  </metadata>
+  <data name="DataSubscriber52.PLCAddressValue" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>HMI_KickoutCount</value>
+  </data>
+  <metadata name="DataSubscriber53.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1049, 275</value>
+  </metadata>
+  <data name="DataSubscriber53.PLCAddressValue" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>AuditValueDint[0]</value>
+  </data>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>443</value>
+  </metadata>
+</root>

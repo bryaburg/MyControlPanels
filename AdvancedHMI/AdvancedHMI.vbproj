@@ -23,6 +23,8 @@
     <UpgradeBackupLocation>
     </UpgradeBackupLocation>
     <OldToolsVersion>3.5</OldToolsVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -35,10 +37,8 @@
     <MapFileExtensions>true</MapFileExtensions>
     <ApplicationRevision>0</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
-    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -95,10 +95,24 @@
     <Import Include="System.Windows.Forms" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\..\..\Desktop\CP_31.Designer.vb">
+    <Compile Include="..\..\..\Desktop\Advanced HMI\CP_31.Designer.vb">
       <DependentUpon>CP_31.vb</DependentUpon>
     </Compile>
-    <Compile Include="..\..\..\Desktop\CP_31.vb">
+    <Compile Include="..\..\..\Desktop\Advanced HMI\CP_31.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="..\..\..\Desktop\Advanced HMI\Excel.Designer.vb">
+      <DependentUpon>Excel.vb</DependentUpon>
+      <Link>Excel.Designer.vb</Link>
+    </Compile>
+    <Compile Include="..\..\..\Desktop\Advanced HMI\Excel.vb">
+      <SubType>Form</SubType>
+      <Link>Excel.vb</Link>
+    </Compile>
+    <Compile Include="BaCoRdr.Designer.vb">
+      <DependentUpon>BaCoRdr.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BaCoRdr.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormChangeControls\FormChangeButton.vb">
@@ -116,10 +130,17 @@
     <Compile Include="FormChangeControls\MainMenuDriven\MainMenuButton.vb">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Login.Designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
       <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <Compile Include="My Project\Resources.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -131,19 +152,29 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="Page2.Designer.vb">
-      <DependentUpon>Page2.vb</DependentUpon>
+    <Compile Include="Register.Designer.vb">
+      <DependentUpon>Register.vb</DependentUpon>
     </Compile>
-    <Compile Include="Page2.vb">
+    <Compile Include="Register.vb">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="..\..\..\Desktop\CP_31.resx">
+    <EmbeddedResource Include="..\..\..\Desktop\Advanced HMI\CP_31.resx">
       <DependentUpon>CP_31.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\..\Desktop\Advanced HMI\Excel.resx">
+      <DependentUpon>Excel.vb</DependentUpon>
+      <Link>Excel.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaCoRdr.resx">
+      <DependentUpon>BaCoRdr.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormChangeControls\MainMenuDriven\MainMenu.resx">
       <DependentUpon>MainMenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -151,9 +182,8 @@
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="Page2.resx">
-      <DependentUpon>Page2.vb</DependentUpon>
-      <SubType>Designer</SubType>
+    <EmbeddedResource Include="Register.resx">
+      <DependentUpon>Register.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -199,7 +229,44 @@
     <None Include="Resources\AdvancedHMILogoBR.png" />
     <Content Include="UsageAndLicense.txt" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>9</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Office">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
       <Visible>False</Visible>
