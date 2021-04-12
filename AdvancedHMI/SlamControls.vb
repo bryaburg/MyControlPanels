@@ -557,6 +557,7 @@ Public Class SlamControls
                 openComms.Visible = True
                 openPtrCMD.Visible = True
                 opsExit.Visible = True
+                rstCount.Visible = True
             End If
         Catch ex As Exception
             MessageBox.Show("Error", ex.Message)
@@ -576,6 +577,7 @@ Public Class SlamControls
             openComms.Visible = False
             openPtrCMD.Visible = False
             opsExit.Visible = False
+            rstCount.Visible = False
         Catch ex As Exception
             MessageBox.Show("Error", ex.Message)
         End Try

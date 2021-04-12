@@ -218,6 +218,7 @@ Partial Class SlamControls
         Me.plStart = New AdvancedHMIControls.PilotLight()
         Me.plStop = New AdvancedHMIControls.PilotLight()
         Me.openDSM5 = New AdvancedHMIControls.BasicButton()
+        Me.rstCount = New AdvancedHMIControls.BasicButton()
         CType(Me.EthernetIPforCLXCom1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DataSubscriber23, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DataSubscriber22, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -353,7 +354,7 @@ Partial Class SlamControls
         Me.opsExit.ForeColorAltername = System.Drawing.Color.Black
         Me.opsExit.Highlight = False
         Me.opsExit.HighlightColor = System.Drawing.Color.Green
-        Me.opsExit.Location = New System.Drawing.Point(1550, 139)
+        Me.opsExit.Location = New System.Drawing.Point(1550, 249)
         Me.opsExit.MaximumHoldTime = 3000
         Me.opsExit.MinimumHoldTime = 500
         Me.opsExit.Name = "opsExit"
@@ -4810,19 +4811,40 @@ Partial Class SlamControls
         Me.openDSM5.UseVisualStyleBackColor = False
         Me.openDSM5.ValueToWrite = 0
         '
+        'rstCount
+        '
+        Me.rstCount.BackColor = System.Drawing.Color.Black
+        Me.rstCount.ComComponent = Me.EthernetIPforCLXCom1
+        Me.rstCount.ForeColor = System.Drawing.Color.Black
+        Me.rstCount.ForeColorAltername = System.Drawing.Color.Black
+        Me.rstCount.Highlight = False
+        Me.rstCount.HighlightColor = System.Drawing.Color.Green
+        Me.rstCount.Location = New System.Drawing.Point(1550, 138)
+        Me.rstCount.MaximumHoldTime = 3000
+        Me.rstCount.MinimumHoldTime = 500
+        Me.rstCount.Name = "rstCount"
+        Me.rstCount.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentaryReset
+        Me.rstCount.PLCAddressClick = "HMI_RunCountReset"
+        Me.rstCount.PLCAddressSelectTextAlternate = "HMI_RunCountReset"
+        Me.rstCount.SelectTextAlternate = False
+        Me.rstCount.Size = New System.Drawing.Size(112, 82)
+        Me.rstCount.TabIndex = 1437
+        Me.rstCount.Text = "Reset Counters"
+        Me.rstCount.TextAlternate = "Counter Reset"
+        Me.rstCount.UseVisualStyleBackColor = True
+        Me.rstCount.ValueToWrite = 0
+        Me.rstCount.Visible = False
+        '
         'SlamControls
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.MidnightBlue
         Me.ClientSize = New System.Drawing.Size(1682, 853)
-        Me.Controls.Add(Me.openDSM5)
-        Me.Controls.Add(Me.DigitalPanelMeter44)
-        Me.Controls.Add(Me.DigitalPanelMeter45)
-        Me.Controls.Add(Me.DigitalPanelMeter43)
-        Me.Controls.Add(Me.DigitalPanelMeter46)
-        Me.Controls.Add(Me.opsExit)
         Me.Controls.Add(Me.btnSlamOps)
+        Me.Controls.Add(Me.rstCount)
+        Me.Controls.Add(Me.openDSM5)
+        Me.Controls.Add(Me.opsExit)
         Me.Controls.Add(Me.openPtrCMD)
         Me.Controls.Add(Me.openComms)
         Me.Controls.Add(Me.openSortOvRide)
@@ -5003,6 +5025,10 @@ Partial Class SlamControls
         Me.Controls.Add(Me.plReset)
         Me.Controls.Add(Me.plStart)
         Me.Controls.Add(Me.plStop)
+        Me.Controls.Add(Me.DigitalPanelMeter44)
+        Me.Controls.Add(Me.DigitalPanelMeter45)
+        Me.Controls.Add(Me.DigitalPanelMeter43)
+        Me.Controls.Add(Me.DigitalPanelMeter46)
         Me.Name = "SlamControls"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "SlamControls"
@@ -5212,4 +5238,5 @@ Partial Class SlamControls
     Friend WithEvents DataSubscriber210 As AdvancedHMIControls.DataSubscriber2
     Friend WithEvents DataSubscriber24 As AdvancedHMIControls.DataSubscriber2
     Friend WithEvents openDSM5 As AdvancedHMIControls.BasicButton
+    Friend WithEvents rstCount As AdvancedHMIControls.BasicButton
 End Class
