@@ -41,7 +41,7 @@ Partial Class MainMenu
         Me.MainMenuButton8.ComComponent = Nothing
         Me.MainMenuButton8.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.MainMenuButton8.ForeColor = System.Drawing.Color.Black
-        Me.MainMenuButton8.FormToOpen = GetType(MfgControl.AdvancedHMI.MainForm)
+        Me.MainMenuButton8.FormToOpen = GetType(MfgControl.AdvancedHMI.DSM5_ControlPanels)
         Me.MainMenuButton8.KeypadWidth = 300
         Me.MainMenuButton8.Location = New System.Drawing.Point(2, 12)
         Me.MainMenuButton8.Name = "MainMenuButton8"

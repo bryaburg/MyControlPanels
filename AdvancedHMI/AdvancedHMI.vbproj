@@ -95,25 +95,33 @@
     <Import Include="System.Windows.Forms" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\..\..\Desktop\Advanced HMI\CP_31.Designer.vb">
-      <DependentUpon>CP_31.vb</DependentUpon>
+    <Compile Include="BeltSpeeds.Designer.vb">
+      <DependentUpon>BeltSpeeds.vb</DependentUpon>
     </Compile>
-    <Compile Include="..\..\..\Desktop\Advanced HMI\CP_31.vb">
+    <Compile Include="BeltSpeeds.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="..\..\..\Desktop\Advanced HMI\Excel.Designer.vb">
-      <DependentUpon>Excel.vb</DependentUpon>
-      <Link>Excel.Designer.vb</Link>
+    <Compile Include="Communications.Designer.vb">
+      <DependentUpon>Communications.vb</DependentUpon>
     </Compile>
-    <Compile Include="..\..\..\Desktop\Advanced HMI\Excel.vb">
+    <Compile Include="Communications.vb">
       <SubType>Form</SubType>
-      <Link>Excel.vb</Link>
     </Compile>
-    <Compile Include="BaCoRdr.Designer.vb">
+    <Compile Include="D:\BaCoRdr.Designer.vb">
       <DependentUpon>BaCoRdr.vb</DependentUpon>
+      <Link>BaCoRdr.Designer.vb</Link>
     </Compile>
-    <Compile Include="BaCoRdr.vb">
+    <Compile Include="D:\BaCoRdr.vb">
       <SubType>Form</SubType>
+      <Link>BaCoRdr.vb</Link>
+    </Compile>
+    <Compile Include="DSM5_Controls.Designer.vb">
+      <DependentUpon>DSM5_Controls.vb</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="DSM5_Controls.vb">
+      <SubType>Form</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Compile>
     <Compile Include="FormChangeControls\FormChangeButton.vb">
       <SubType>Component</SubType>
@@ -130,11 +138,13 @@
     <Compile Include="FormChangeControls\MainMenuDriven\MainMenuButton.vb">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="Login.Designer.vb">
+    <Compile Include="D:\Login.Designer.vb">
       <DependentUpon>Login.vb</DependentUpon>
+      <Link>Login.Designer.vb</Link>
     </Compile>
-    <Compile Include="Login.vb">
+    <Compile Include="D:\Login.vb">
       <SubType>Form</SubType>
+      <Link>Login.vb</Link>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
@@ -152,29 +162,72 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="Register.Designer.vb">
+    <Compile Include="D:\Register.Designer.vb">
       <DependentUpon>Register.vb</DependentUpon>
+      <Link>Register.Designer.vb</Link>
     </Compile>
-    <Compile Include="Register.vb">
+    <Compile Include="D:\Register.vb">
+      <SubType>Form</SubType>
+      <Link>Register.vb</Link>
+    </Compile>
+    <Compile Include="PrinterCMD.Designer.vb">
+      <DependentUpon>PrinterCMD.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PrinterCMD.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Profiler.Designer.vb">
+      <DependentUpon>Profiler.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Profiler.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SlamControls.Designer.vb">
+      <DependentUpon>SlamControls.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SlamControls.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SorterOvRide.Designer.vb">
+      <DependentUpon>SorterOvRide.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SorterOvRide.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TampConfig.Designer.vb">
+      <DependentUpon>TampConfig.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TampConfig.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Training.Designer.vb">
+      <DependentUpon>Training.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Training.vb">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="..\..\..\Desktop\Advanced HMI\CP_31.resx">
-      <DependentUpon>CP_31.vb</DependentUpon>
+    <EmbeddedResource Include="BeltSpeeds.resx">
+      <DependentUpon>BeltSpeeds.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="..\..\..\Desktop\Advanced HMI\Excel.resx">
-      <DependentUpon>Excel.vb</DependentUpon>
-      <Link>Excel.resx</Link>
+    <EmbeddedResource Include="Communications.resx">
+      <DependentUpon>Communications.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="BaCoRdr.resx">
+    <EmbeddedResource Include="D:\BaCoRdr.resx">
       <DependentUpon>BaCoRdr.vb</DependentUpon>
+      <Link>BaCoRdr.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DSM5_Controls.resx">
+      <DependentUpon>DSM5_Controls.vb</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="FormChangeControls\MainMenuDriven\MainMenu.resx">
       <DependentUpon>MainMenu.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Login.resx">
+    <EmbeddedResource Include="D:\Login.resx">
       <DependentUpon>Login.vb</DependentUpon>
+      <Link>Login.resx</Link>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -182,8 +235,27 @@
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="Register.resx">
+    <EmbeddedResource Include="D:\Register.resx">
       <DependentUpon>Register.vb</DependentUpon>
+      <Link>Register.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrinterCMD.resx">
+      <DependentUpon>PrinterCMD.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Profiler.resx">
+      <DependentUpon>Profiler.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SlamControls.resx">
+      <DependentUpon>SlamControls.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SorterOvRide.resx">
+      <DependentUpon>SorterOvRide.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TampConfig.resx">
+      <DependentUpon>TampConfig.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Training.resx">
+      <DependentUpon>Training.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
