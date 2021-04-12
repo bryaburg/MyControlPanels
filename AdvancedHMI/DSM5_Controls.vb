@@ -36,7 +36,7 @@
     End Sub
 
     Private Sub BasicButton1_Click(sender As Object, e As EventArgs) Handles BasicButton1.Click
-        Excel.Close()
+        SlamControls.Close()
         Register.Close()
         Login.Close()
         Me.Close()

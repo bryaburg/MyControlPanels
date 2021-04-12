@@ -2,7 +2,7 @@
 
     '//Handles Loading Profiler Form
     Private Sub Profiler_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        Me.EthernetIPforCLXCom1.IPAddress = Excel.EthernetIPforCLXCom1.IPAddress
+        Me.EthernetIPforCLXCom1.IPAddress = SlamControls.EthernetIPforCLXCom1.IPAddress
     End Sub
 
     '//Handles Exiting the Profiler Form!

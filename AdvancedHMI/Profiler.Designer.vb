@@ -260,7 +260,7 @@ Partial Class Profiler
         Me.ChartBySampling1.BackColor = System.Drawing.Color.Gray
         Me.ChartBySampling1.BorderlineColor = System.Drawing.Color.DimGray
         Me.ChartBySampling1.BorderSkin.PageColor = System.Drawing.Color.Gray
-        ChartArea1.AxisY.Maximum = 1500.0R
+        ChartArea1.AxisY.Maximum = 600.0R
         ChartArea1.AxisY.Minimum = 0R
         ChartArea1.BackSecondaryColor = System.Drawing.Color.Gray
         ChartArea1.Name = "ChartArea1"
@@ -270,13 +270,13 @@ Partial Class Profiler
         Legend1.Name = "Legend1"
         Me.ChartBySampling1.Legends.Add(Legend1)
         Me.ChartBySampling1.Location = New System.Drawing.Point(12, 47)
-        Me.ChartBySampling1.MaximumActivePoints = 2500
+        Me.ChartBySampling1.MaximumActivePoints = 30
         Me.ChartBySampling1.Name = "ChartBySampling1"
         Me.ChartBySampling1.PLCAddressItems.Add(CType(resources.GetObject("ChartBySampling1.PLCAddressItems"), MfgControl.AdvancedHMI.Drivers.PLCAddressItem))
         Me.ChartBySampling1.PLCAddressItems.Add(CType(resources.GetObject("ChartBySampling1.PLCAddressItems1"), MfgControl.AdvancedHMI.Drivers.PLCAddressItem))
         Me.ChartBySampling1.PLCAddressYAxisMax = Nothing
         Me.ChartBySampling1.PLCAddressYAxisMin = Nothing
-        Series1.BorderWidth = 2
+        Series1.BorderWidth = 4
         Series1.ChartArea = "ChartArea1"
         Series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.FastLine
         Series1.Color = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
@@ -296,7 +296,7 @@ Partial Class Profiler
         Me.ChartBySampling1.Size = New System.Drawing.Size(776, 271)
         Me.ChartBySampling1.TabIndex = 10
         Me.ChartBySampling1.Text = "ChartBySampling1"
-        Me.ChartBySampling1.YAxisMax = 1500.0R
+        Me.ChartBySampling1.YAxisMax = 600.0R
         Me.ChartBySampling1.YAxisMin = 0R
         '
         'Profiler
