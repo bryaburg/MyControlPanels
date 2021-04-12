@@ -95,6 +95,12 @@
     <Import Include="System.Windows.Forms" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BaCoRdr1.Designer.vb">
+      <DependentUpon>BaCoRdr1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BaCoRdr1.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="BeltSpeeds.Designer.vb">
       <DependentUpon>BeltSpeeds.vb</DependentUpon>
     </Compile>
@@ -106,14 +112,6 @@
     </Compile>
     <Compile Include="Communications.vb">
       <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="D:\BaCoRdr.Designer.vb">
-      <DependentUpon>BaCoRdr.vb</DependentUpon>
-      <Link>BaCoRdr.Designer.vb</Link>
-    </Compile>
-    <Compile Include="D:\BaCoRdr.vb">
-      <SubType>Form</SubType>
-      <Link>BaCoRdr.vb</Link>
     </Compile>
     <Compile Include="DSM5_Controls.Designer.vb">
       <DependentUpon>DSM5_Controls.vb</DependentUpon>
@@ -138,13 +136,11 @@
     <Compile Include="FormChangeControls\MainMenuDriven\MainMenuButton.vb">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="D:\Login.Designer.vb">
-      <DependentUpon>Login.vb</DependentUpon>
-      <Link>Login.Designer.vb</Link>
+    <Compile Include="Login1.Designer.vb">
+      <DependentUpon>Login1.vb</DependentUpon>
     </Compile>
-    <Compile Include="D:\Login.vb">
+    <Compile Include="Login1.vb">
       <SubType>Form</SubType>
-      <Link>Login.vb</Link>
     </Compile>
     <Compile Include="MachineDisplay.Designer.vb">
       <DependentUpon>MachineDisplay.vb</DependentUpon>
@@ -168,14 +164,6 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="D:\Register.Designer.vb">
-      <DependentUpon>Register.vb</DependentUpon>
-      <Link>Register.Designer.vb</Link>
-    </Compile>
-    <Compile Include="D:\Register.vb">
-      <SubType>Form</SubType>
-      <Link>Register.vb</Link>
-    </Compile>
     <Compile Include="PrinterCMD.Designer.vb">
       <DependentUpon>PrinterCMD.vb</DependentUpon>
     </Compile>
@@ -186,6 +174,12 @@
       <DependentUpon>Profiler.vb</DependentUpon>
     </Compile>
     <Compile Include="Profiler.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Register1.Designer.vb">
+      <DependentUpon>Register1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Register1.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="SlamControls.Designer.vb">
@@ -214,15 +208,14 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="BaCoRdr1.resx">
+      <DependentUpon>BaCoRdr1.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="BeltSpeeds.resx">
       <DependentUpon>BeltSpeeds.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Communications.resx">
       <DependentUpon>Communications.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="D:\BaCoRdr.resx">
-      <DependentUpon>BaCoRdr.vb</DependentUpon>
-      <Link>BaCoRdr.resx</Link>
     </EmbeddedResource>
     <EmbeddedResource Include="DSM5_Controls.resx">
       <DependentUpon>DSM5_Controls.vb</DependentUpon>
@@ -231,9 +224,8 @@
     <EmbeddedResource Include="FormChangeControls\MainMenuDriven\MainMenu.resx">
       <DependentUpon>MainMenu.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="D:\Login.resx">
-      <DependentUpon>Login.vb</DependentUpon>
-      <Link>Login.resx</Link>
+    <EmbeddedResource Include="Login1.resx">
+      <DependentUpon>Login1.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MachineDisplay.resx">
       <DependentUpon>MachineDisplay.vb</DependentUpon>
@@ -244,15 +236,14 @@
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="D:\Register.resx">
-      <DependentUpon>Register.vb</DependentUpon>
-      <Link>Register.resx</Link>
-    </EmbeddedResource>
     <EmbeddedResource Include="PrinterCMD.resx">
       <DependentUpon>PrinterCMD.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Profiler.resx">
       <DependentUpon>Profiler.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Register1.resx">
+      <DependentUpon>Register1.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SlamControls.resx">
       <DependentUpon>SlamControls.vb</DependentUpon>
