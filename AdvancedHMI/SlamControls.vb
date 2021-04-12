@@ -512,7 +512,7 @@ Public Class SlamControls
 
     '//Subs For My Option Buttons
     Private Sub bOpenBCR_Click(sender As Object, e As EventArgs) Handles bOpenBCR.Click
-        BaCoRdr.Show()
+        BaCoRder.Show()
     End Sub
 
     Private Sub openBeltSpeeds_Click(sender As Object, e As EventArgs) Handles openBeltSpeeds.Click
