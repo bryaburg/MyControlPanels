@@ -7213,7 +7213,6 @@ Partial Class DSM5_Controls
         Me.Name = "DSM5_Controls"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "DSM5_Controls"
-        Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         CType(Me.EthernetIPforCLXCom23, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.EthernetIPforCLXCom33, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.EthernetIPforCLXCom25, System.ComponentModel.ISupportInitialize).EndInit()

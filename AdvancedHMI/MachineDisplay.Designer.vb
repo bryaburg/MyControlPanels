@@ -64,6 +64,7 @@ Partial Class MachineDisplay
         Me.Controls.Add(Me.LbDate)
         Me.Controls.Add(Me.LbClk)
         Me.Name = "MachineDisplay"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "MachineDisplay"
         Me.ResumeLayout(False)
         Me.PerformLayout()

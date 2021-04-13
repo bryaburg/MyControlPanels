@@ -5064,7 +5064,6 @@ Partial Class SlamControls
         Me.Name = "SlamControls"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "SlamControls"
-        Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         CType(Me.EthernetIPforCLXCom1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.DataSubscriber23, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.DataSubscriber22, System.ComponentModel.ISupportInitialize).EndInit()
