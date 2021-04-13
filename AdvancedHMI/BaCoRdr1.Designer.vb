@@ -34,6 +34,9 @@ Partial Class BaCoRdr1
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.LbClk = New System.Windows.Forms.Label()
+        Me.TiClk = New System.Windows.Forms.Timer(Me.components)
+        Me.LbDate = New System.Windows.Forms.Label()
         CType(Me.EthernetIPforCLXCom1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -236,12 +239,41 @@ Partial Class BaCoRdr1
         Me.Label1.TabIndex = 16
         Me.Label1.Text = "Scale Barcode Reader"
         '
+        'LbClk
+        '
+        Me.LbClk.AutoSize = True
+        Me.LbClk.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LbClk.ForeColor = System.Drawing.Color.GhostWhite
+        Me.LbClk.Location = New System.Drawing.Point(610, 335)
+        Me.LbClk.Name = "LbClk"
+        Me.LbClk.Size = New System.Drawing.Size(130, 25)
+        Me.LbClk.TabIndex = 25
+        Me.LbClk.Text = "xx:xx:xx PM"
+        '
+        'TiClk
+        '
+        Me.TiClk.Enabled = True
+        Me.TiClk.Interval = 1000
+        '
+        'LbDate
+        '
+        Me.LbDate.AutoSize = True
+        Me.LbDate.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LbDate.ForeColor = System.Drawing.Color.GhostWhite
+        Me.LbDate.Location = New System.Drawing.Point(610, 310)
+        Me.LbDate.Name = "LbDate"
+        Me.LbDate.Size = New System.Drawing.Size(114, 25)
+        Me.LbDate.TabIndex = 1440
+        Me.LbDate.Text = "xx/xx/xxxx"
+        '
         'BaCoRdr1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.MidnightBlue
         Me.ClientSize = New System.Drawing.Size(766, 380)
+        Me.Controls.Add(Me.LbDate)
+        Me.Controls.Add(Me.LbClk)
         Me.Controls.Add(Me.DistFromTrans)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label6)
@@ -252,6 +284,7 @@ Partial Class BaCoRdr1
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Name = "BaCoRdr1"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "BaCoRdr1"
         CType(Me.EthernetIPforCLXCom1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
@@ -269,4 +302,7 @@ Partial Class BaCoRdr1
     Friend WithEvents Label5 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Label1 As Label
+    Friend WithEvents LbClk As Label
+    Friend WithEvents TiClk As Timer
+    Friend WithEvents LbDate As Label
 End Class

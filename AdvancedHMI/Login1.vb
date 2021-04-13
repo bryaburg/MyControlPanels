@@ -26,7 +26,7 @@
 
     '//New Register Link Label
     Private Sub RegLogin_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles RegLogin.LinkClicked
-        Register.Show()
+        Register1.Show()
         Me.Hide()
     End Sub
 

@@ -42,6 +42,9 @@ Partial Class Training
         Me.AnalogValueDisplay13 = New AdvancedHMIControls.AnalogValueDisplay()
         Me.AnalogValueDisplay14 = New AdvancedHMIControls.AnalogValueDisplay()
         Me.bOverRide = New AdvancedHMIControls.BasicButton()
+        Me.LbDate = New System.Windows.Forms.Label()
+        Me.LbClk = New System.Windows.Forms.Label()
+        Me.TiClk = New System.Windows.Forms.Timer(Me.components)
         CType(Me.EthernetIPforCLXCom1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -134,7 +137,7 @@ Partial Class Training
         Me.AnalogValueDisplay1.AutoSize = True
         Me.AnalogValueDisplay1.ComComponent = Me.EthernetIPforCLXCom1
         Me.AnalogValueDisplay1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.AnalogValueDisplay1.ForeColor = System.Drawing.Color.DimGray
+        Me.AnalogValueDisplay1.ForeColor = System.Drawing.Color.Gold
         Me.AnalogValueDisplay1.ForeColorInLimits = System.Drawing.Color.Gold
         Me.AnalogValueDisplay1.ForeColorOverLimit = System.Drawing.Color.Red
         Me.AnalogValueDisplay1.ForeColorUnderLimit = System.Drawing.Color.Yellow
@@ -607,12 +610,41 @@ Partial Class Training
         Me.bOverRide.UseVisualStyleBackColor = False
         Me.bOverRide.ValueToWrite = 0
         '
+        'LbDate
+        '
+        Me.LbDate.AutoSize = True
+        Me.LbDate.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LbDate.ForeColor = System.Drawing.Color.GhostWhite
+        Me.LbDate.Location = New System.Drawing.Point(25, 388)
+        Me.LbDate.Name = "LbDate"
+        Me.LbDate.Size = New System.Drawing.Size(114, 25)
+        Me.LbDate.TabIndex = 1442
+        Me.LbDate.Text = "xx/xx/xxxx"
+        '
+        'LbClk
+        '
+        Me.LbClk.AutoSize = True
+        Me.LbClk.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LbClk.ForeColor = System.Drawing.Color.GhostWhite
+        Me.LbClk.Location = New System.Drawing.Point(25, 413)
+        Me.LbClk.Name = "LbClk"
+        Me.LbClk.Size = New System.Drawing.Size(130, 25)
+        Me.LbClk.TabIndex = 1441
+        Me.LbClk.Text = "xx:xx:xx PM"
+        '
+        'TiClk
+        '
+        Me.TiClk.Enabled = True
+        Me.TiClk.Interval = 1000
+        '
         'Training
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.MidnightBlue
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.LbDate)
+        Me.Controls.Add(Me.LbClk)
         Me.Controls.Add(Me.bOverRide)
         Me.Controls.Add(Me.AnalogValueDisplay13)
         Me.Controls.Add(Me.AnalogValueDisplay14)
@@ -657,4 +689,7 @@ Partial Class Training
     Friend WithEvents AnalogValueDisplay13 As AdvancedHMIControls.AnalogValueDisplay
     Friend WithEvents AnalogValueDisplay14 As AdvancedHMIControls.AnalogValueDisplay
     Friend WithEvents bOverRide As AdvancedHMIControls.BasicButton
+    Friend WithEvents LbDate As Label
+    Friend WithEvents LbClk As Label
+    Friend WithEvents TiClk As Timer
 End Class

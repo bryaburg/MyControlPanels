@@ -126,6 +126,7 @@ Partial Class Login1
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Name = "Login1"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Login1"
         Me.ResumeLayout(False)
         Me.PerformLayout()

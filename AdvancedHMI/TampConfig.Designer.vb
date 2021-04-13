@@ -48,6 +48,9 @@ Partial Class TampConfig
         Me.AnalogValueDisplay12 = New AdvancedHMIControls.AnalogValueDisplay()
         Me.AnalogValueDisplay13 = New AdvancedHMIControls.AnalogValueDisplay()
         Me.AnalogValueDisplay14 = New AdvancedHMIControls.AnalogValueDisplay()
+        Me.TiClk = New System.Windows.Forms.Timer(Me.components)
+        Me.LbDate = New System.Windows.Forms.Label()
+        Me.LbClk = New System.Windows.Forms.Label()
         CType(Me.EthernetIPforCLXCom1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -261,7 +264,7 @@ Partial Class TampConfig
         Me.AnalogValueDisplay3.ValueLimitLower = 0R
         Me.AnalogValueDisplay3.ValueLimitUpper = 1000.0R
         Me.AnalogValueDisplay3.ValuePrefix = "Override  "
-        Me.AnalogValueDisplay3.ValueSuffix = ""
+        Me.AnalogValueDisplay3.ValueSuffix = Nothing
         Me.AnalogValueDisplay3.VisibleControl = AdvancedHMIControls.AnalogValueDisplay.VisibleControlEnum.Always
         '
         'bOverRide
@@ -707,7 +710,7 @@ Partial Class TampConfig
         Me.AnalogValueDisplay14.AutoSize = True
         Me.AnalogValueDisplay14.ComComponent = Me.EthernetIPforCLXCom1
         Me.AnalogValueDisplay14.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.AnalogValueDisplay14.ForeColor = System.Drawing.Color.DimGray
+        Me.AnalogValueDisplay14.ForeColor = System.Drawing.Color.GhostWhite
         Me.AnalogValueDisplay14.ForeColorInLimits = System.Drawing.Color.GhostWhite
         Me.AnalogValueDisplay14.ForeColorOverLimit = System.Drawing.Color.Red
         Me.AnalogValueDisplay14.ForeColorUnderLimit = System.Drawing.Color.Yellow
@@ -737,12 +740,41 @@ Partial Class TampConfig
         Me.AnalogValueDisplay14.ValueSuffix = " Inches (5 Inches Recommended) "
         Me.AnalogValueDisplay14.VisibleControl = AdvancedHMIControls.AnalogValueDisplay.VisibleControlEnum.Always
         '
+        'TiClk
+        '
+        Me.TiClk.Enabled = True
+        Me.TiClk.Interval = 1000
+        '
+        'LbDate
+        '
+        Me.LbDate.AutoSize = True
+        Me.LbDate.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LbDate.ForeColor = System.Drawing.Color.GhostWhite
+        Me.LbDate.Location = New System.Drawing.Point(647, 440)
+        Me.LbDate.Name = "LbDate"
+        Me.LbDate.Size = New System.Drawing.Size(114, 25)
+        Me.LbDate.TabIndex = 1444
+        Me.LbDate.Text = "xx/xx/xxxx"
+        '
+        'LbClk
+        '
+        Me.LbClk.AutoSize = True
+        Me.LbClk.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LbClk.ForeColor = System.Drawing.Color.GhostWhite
+        Me.LbClk.Location = New System.Drawing.Point(647, 465)
+        Me.LbClk.Name = "LbClk"
+        Me.LbClk.Size = New System.Drawing.Size(130, 25)
+        Me.LbClk.TabIndex = 1443
+        Me.LbClk.Text = "xx:xx:xx PM"
+        '
         'TampConfig
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.MidnightBlue
         Me.ClientSize = New System.Drawing.Size(800, 502)
+        Me.Controls.Add(Me.LbDate)
+        Me.Controls.Add(Me.LbClk)
         Me.Controls.Add(Me.AnalogValueDisplay14)
         Me.Controls.Add(Me.AnalogValueDisplay8)
         Me.Controls.Add(Me.AnalogValueDisplay9)
@@ -799,4 +831,7 @@ Partial Class TampConfig
     Friend WithEvents AnalogValueDisplay12 As AdvancedHMIControls.AnalogValueDisplay
     Friend WithEvents AnalogValueDisplay13 As AdvancedHMIControls.AnalogValueDisplay
     Friend WithEvents AnalogValueDisplay14 As AdvancedHMIControls.AnalogValueDisplay
+    Friend WithEvents TiClk As Timer
+    Friend WithEvents LbDate As Label
+    Friend WithEvents LbClk As Label
 End Class

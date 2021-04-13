@@ -139,4 +139,7 @@
   <data name="ChartBySampling1.PLCAddressItems1" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
     <value>ProfilerInduct.In_Height2</value>
   </data>
+  <metadata name="TiClk.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>492, 17</value>
+  </metadata>
 </root>

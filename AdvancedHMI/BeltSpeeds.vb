@@ -10,6 +10,12 @@
         Me.Close()
     End Sub
 
-    '//Handles My Commands for Analog Displays!
+    '//Handles Date and Time
+    Private Sub TiClk_Tick(sender As Object, e As EventArgs) Handles TiClk.Tick
+        Dim cuDate As Date = Date.Now
+        Dim sDate As String = cuDate.ToString("MMM-dd-yyyy")
+        LbDate.Text = sDate
+        LbClk.Text = TimeOfDay
+    End Sub
 
 End Class

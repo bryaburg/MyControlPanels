@@ -139,6 +139,7 @@ Partial Class Register1
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Name = "Register1"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Register1"
         Me.ResumeLayout(False)
         Me.PerformLayout()

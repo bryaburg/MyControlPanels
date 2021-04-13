@@ -28,6 +28,14 @@ Public Class SlamControls
         End Try
     End Sub
 
+    '//Handles Date and Time
+    Private Sub TiClk_Tick(sender As Object, e As EventArgs) Handles TiClk.Tick
+        Dim cuDate As Date = Date.Now
+        Dim sDate As String = cuDate.ToString("MMM-dd-yyyy")
+        LbDate.Text = sDate
+        LbClk.Text = TimeOfDay
+    End Sub
+
     '//Button to Load Chosen Slam!
     Private Sub BasicButton1_Click(sender As Object, e As EventArgs) Handles BasicButton1.Click
         Try
@@ -512,7 +520,7 @@ Public Class SlamControls
 
     '//Subs For My Option Buttons
     Private Sub bOpenBCR_Click(sender As Object, e As EventArgs) Handles bOpenBCR.Click
-        BaCoRder.Show()
+        BaCoRdr1.Show()
     End Sub
 
     Private Sub openBeltSpeeds_Click(sender As Object, e As EventArgs) Handles openBeltSpeeds.Click

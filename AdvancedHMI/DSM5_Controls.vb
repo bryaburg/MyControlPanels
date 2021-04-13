@@ -37,13 +37,21 @@
 
     Private Sub BasicButton1_Click(sender As Object, e As EventArgs) Handles BasicButton1.Click
         SlamControls.Close()
-        Register.Close()
-        Login.Close()
+        Register1.Close()
+        Login1.Close()
         Me.Close()
     End Sub
 
     Private Sub openSlamCon_Click(sender As Object, e As EventArgs) Handles openSlamCon.Click
         SlamControls.Show()
         Me.Hide()
+    End Sub
+
+    '//Handles Time
+    Private Sub TiClk_Tick(sender As Object, e As EventArgs) Handles TiClk.Tick
+        Dim cuDate As Date = Date.Now
+        Dim sDate As String = cuDate.ToString("MMM-dd-yyyy")
+        LbDate.Text = sDate
+        LbClk.Text = TimeOfDay
     End Sub
 End Class

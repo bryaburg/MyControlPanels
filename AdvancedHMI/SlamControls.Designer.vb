@@ -219,6 +219,9 @@ Partial Class SlamControls
         Me.plStop = New AdvancedHMIControls.PilotLight()
         Me.openDSM5 = New AdvancedHMIControls.BasicButton()
         Me.rstCount = New AdvancedHMIControls.BasicButton()
+        Me.LbClk = New System.Windows.Forms.Label()
+        Me.TiClk = New System.Windows.Forms.Timer(Me.components)
+        Me.LbDate = New System.Windows.Forms.Label()
         CType(Me.EthernetIPforCLXCom1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DataSubscriber23, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DataSubscriber22, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -4835,12 +4838,41 @@ Partial Class SlamControls
         Me.rstCount.ValueToWrite = 0
         Me.rstCount.Visible = False
         '
+        'LbClk
+        '
+        Me.LbClk.AutoSize = True
+        Me.LbClk.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LbClk.ForeColor = System.Drawing.Color.GhostWhite
+        Me.LbClk.Location = New System.Drawing.Point(1523, 819)
+        Me.LbClk.Name = "LbClk"
+        Me.LbClk.Size = New System.Drawing.Size(130, 25)
+        Me.LbClk.TabIndex = 1438
+        Me.LbClk.Text = "xx:xx:xx PM"
+        '
+        'TiClk
+        '
+        Me.TiClk.Enabled = True
+        Me.TiClk.Interval = 1000
+        '
+        'LbDate
+        '
+        Me.LbDate.AutoSize = True
+        Me.LbDate.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LbDate.ForeColor = System.Drawing.Color.GhostWhite
+        Me.LbDate.Location = New System.Drawing.Point(1523, 788)
+        Me.LbDate.Name = "LbDate"
+        Me.LbDate.Size = New System.Drawing.Size(114, 25)
+        Me.LbDate.TabIndex = 1439
+        Me.LbDate.Text = "xx/xx/xxxx"
+        '
         'SlamControls
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.MidnightBlue
         Me.ClientSize = New System.Drawing.Size(1682, 853)
+        Me.Controls.Add(Me.LbDate)
+        Me.Controls.Add(Me.LbClk)
         Me.Controls.Add(Me.btnSlamOps)
         Me.Controls.Add(Me.rstCount)
         Me.Controls.Add(Me.openDSM5)
@@ -5041,6 +5073,7 @@ Partial Class SlamControls
         CType(Me.DataSubscriber210, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.DataSubscriber24, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
 
@@ -5239,4 +5272,7 @@ Partial Class SlamControls
     Friend WithEvents DataSubscriber24 As AdvancedHMIControls.DataSubscriber2
     Friend WithEvents openDSM5 As AdvancedHMIControls.BasicButton
     Friend WithEvents rstCount As AdvancedHMIControls.BasicButton
+    Friend WithEvents LbClk As Label
+    Friend WithEvents TiClk As Timer
+    Friend WithEvents LbDate As Label
 End Class

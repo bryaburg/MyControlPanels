@@ -166,4 +166,7 @@
   <data name="AnalogValueDisplay14.PLCAddressValue" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
     <value>HMI_StopToApplyGap</value>
   </data>
+  <metadata name="TiClk.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>403, 17</value>
+  </metadata>
 </root>

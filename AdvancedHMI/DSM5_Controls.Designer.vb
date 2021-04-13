@@ -312,6 +312,9 @@ Partial Class DSM5_Controls
         Me.PilotLight1 = New AdvancedHMIControls.PilotLight()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.openSlamCon = New AdvancedHMIControls.BasicButton()
+        Me.LbClk = New System.Windows.Forms.Label()
+        Me.TiClk = New System.Windows.Forms.Timer(Me.components)
+        Me.LbDate = New System.Windows.Forms.Label()
         CType(Me.EthernetIPforCLXCom23, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.EthernetIPforCLXCom33, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.EthernetIPforCLXCom25, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -6921,12 +6924,41 @@ Partial Class DSM5_Controls
         Me.openSlamCon.UseVisualStyleBackColor = False
         Me.openSlamCon.ValueToWrite = 0
         '
+        'LbClk
+        '
+        Me.LbClk.AutoSize = True
+        Me.LbClk.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LbClk.ForeColor = System.Drawing.Color.GhostWhite
+        Me.LbClk.Location = New System.Drawing.Point(32, 739)
+        Me.LbClk.Name = "LbClk"
+        Me.LbClk.Size = New System.Drawing.Size(130, 25)
+        Me.LbClk.TabIndex = 2075
+        Me.LbClk.Text = "xx:xx:xx PM"
+        '
+        'TiClk
+        '
+        Me.TiClk.Enabled = True
+        Me.TiClk.Interval = 1000
+        '
+        'LbDate
+        '
+        Me.LbDate.AutoSize = True
+        Me.LbDate.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LbDate.ForeColor = System.Drawing.Color.GhostWhite
+        Me.LbDate.Location = New System.Drawing.Point(32, 714)
+        Me.LbDate.Name = "LbDate"
+        Me.LbDate.Size = New System.Drawing.Size(114, 25)
+        Me.LbDate.TabIndex = 2076
+        Me.LbDate.Text = "xx/xx/xxxx"
+        '
         'DSM5_Controls
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.MidnightBlue
         Me.ClientSize = New System.Drawing.Size(1782, 773)
+        Me.Controls.Add(Me.LbDate)
+        Me.Controls.Add(Me.LbClk)
         Me.Controls.Add(Me.openSlamCon)
         Me.Controls.Add(Me.PilotLight213)
         Me.Controls.Add(Me.PilotLight214)
@@ -7220,6 +7252,7 @@ Partial Class DSM5_Controls
         CType(Me.EthernetIPforCLXCom13, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.EthernetIPforCLXCom12, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
 
@@ -7512,4 +7545,7 @@ Partial Class DSM5_Controls
     Friend WithEvents PilotLight1 As AdvancedHMIControls.PilotLight
     Friend WithEvents Label1 As Label
     Friend WithEvents openSlamCon As AdvancedHMIControls.BasicButton
+    Friend WithEvents LbClk As Label
+    Friend WithEvents TiClk As Timer
+    Friend WithEvents LbDate As Label
 End Class

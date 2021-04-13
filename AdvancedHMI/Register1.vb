@@ -22,7 +22,7 @@
             My.Settings.Password = TbUsPw1.Text
             My.Settings.Save()
             MessageBox.Show("Register was Successful", "Register")
-            Login.Show()
+            Login1.Show()
             Me.Hide()
         Else
             MessageBox.Show("Must Complete both Fields", "Register")

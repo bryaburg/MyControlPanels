@@ -51,6 +51,9 @@ Partial Class BeltSpeeds
         Me.Label8 = New System.Windows.Forms.Label()
         Me.cmdDMC = New AdvancedHMIControls.AnalogValueDisplay()
         Me.Label9 = New System.Windows.Forms.Label()
+        Me.TiClk = New System.Windows.Forms.Timer(Me.components)
+        Me.LbDate = New System.Windows.Forms.Label()
+        Me.LbClk = New System.Windows.Forms.Label()
         CType(Me.EthernetIPforCLXCom1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -759,12 +762,41 @@ Partial Class BeltSpeeds
         Me.Label9.TabIndex = 34
         Me.Label9.Text = "Belt Speeds"
         '
+        'TiClk
+        '
+        Me.TiClk.Enabled = True
+        Me.TiClk.Interval = 1000
+        '
+        'LbDate
+        '
+        Me.LbDate.AutoSize = True
+        Me.LbDate.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LbDate.ForeColor = System.Drawing.Color.GhostWhite
+        Me.LbDate.Location = New System.Drawing.Point(638, 377)
+        Me.LbDate.Name = "LbDate"
+        Me.LbDate.Size = New System.Drawing.Size(114, 25)
+        Me.LbDate.TabIndex = 1446
+        Me.LbDate.Text = "xx/xx/xxxx"
+        '
+        'LbClk
+        '
+        Me.LbClk.AutoSize = True
+        Me.LbClk.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LbClk.ForeColor = System.Drawing.Color.GhostWhite
+        Me.LbClk.Location = New System.Drawing.Point(638, 402)
+        Me.LbClk.Name = "LbClk"
+        Me.LbClk.Size = New System.Drawing.Size(130, 25)
+        Me.LbClk.TabIndex = 1445
+        Me.LbClk.Text = "xx:xx:xx PM"
+        '
         'BeltSpeeds
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.MidnightBlue
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.LbDate)
+        Me.Controls.Add(Me.LbClk)
         Me.Controls.Add(Me.Label9)
         Me.Controls.Add(Me.AnalogValueDisplay13)
         Me.Controls.Add(Me.Label8)
@@ -827,4 +859,7 @@ Partial Class BeltSpeeds
     Friend WithEvents cmdDMC As AdvancedHMIControls.AnalogValueDisplay
     Friend WithEvents Label9 As Label
     Friend WithEvents AnalogValueDisplay1 As AdvancedHMIControls.AnalogValueDisplay
+    Friend WithEvents TiClk As Timer
+    Friend WithEvents LbDate As Label
+    Friend WithEvents LbClk As Label
 End Class
