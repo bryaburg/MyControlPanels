@@ -137,15 +137,6 @@ Public Class SlamControls
         oXL = Nothing
     End Sub
 
-    '//Exit Scada Button Sub
-    Public Sub BasicButton4_Click(sender As Object, e As EventArgs) Handles BasicButton4.Click
-        oWB.Close()
-        oWB = Nothing
-        oXL.Quit()
-        oXL = Nothing
-        Me.Close()
-    End Sub
-
     '//Sub to read data from the CLX
     Private Sub EthernetIPforCLXCom1_DataReceived(sender As Object, e As PlcComEventArgs) Handles EthernetIPforCLXCom1.DataReceived
 
@@ -546,7 +537,6 @@ Public Class SlamControls
 
     Private Sub btnSlamOps_Click(sender As Object, e As EventArgs) Handles btnSlamOps.Click
         Try
-            btnSlamOps.Hide()
             input = InputBox("Please Provide Password", "Password", "Enter Password", MessageBoxButtons.OKCancel)
             If input = My.Settings.Password Then
                 bOpenBCR.Visible = True
@@ -559,6 +549,7 @@ Public Class SlamControls
                 openPtrCMD.Visible = True
                 opsExit.Visible = True
                 rstCount.Visible = True
+                btnSlamOps.Visible = False
             End If
         Catch ex As Exception
             MessageBox.Show("Error", ex.Message)
@@ -658,6 +649,10 @@ Public Class SlamControls
         Me.Hide()
     End Sub
 
+    Private Sub LbDate_Click(sender As Object, e As EventArgs) Handles LbDate.Click
+
+    End Sub
+
     Private Sub BasicIndicator79_Click(sender As Object, e As EventArgs) Handles BasicIndicator79.Click
 
     End Sub
@@ -682,14 +677,4 @@ Public Class SlamControls
 
     End Sub
 
-    '//Handles Closing Form
-    Private Sub SlamControls_Closing(sender As Object, e As CancelEventArgs) Handles Me.Closing
-        Dim index2 As Integer
-        While index2 < My.Application.OpenForms.Count
-            If My.Application.OpenForms(index2) IsNot Me Then
-                My.Application.OpenForms(index2).Close()
-            End If
-            index2 += 1
-        End While
-    End Sub
 End Class

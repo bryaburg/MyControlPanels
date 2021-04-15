@@ -39,7 +39,6 @@ Partial Class SlamControls
         Me.bOpenPro = New AdvancedHMIControls.BasicButton()
         Me.openBeltSpeeds = New AdvancedHMIControls.BasicButton()
         Me.bOpenBCR = New AdvancedHMIControls.BasicButton()
-        Me.BasicButton4 = New AdvancedHMIControls.BasicButton()
         Me.BasicButton3 = New AdvancedHMIControls.BasicButton()
         Me.BasicButton2 = New AdvancedHMIControls.BasicButton()
         Me.BasicButton1 = New AdvancedHMIControls.BasicButton()
@@ -578,29 +577,6 @@ Partial Class SlamControls
         Me.bOpenBCR.UseVisualStyleBackColor = True
         Me.bOpenBCR.ValueToWrite = 0
         Me.bOpenBCR.Visible = False
-        '
-        'BasicButton4
-        '
-        Me.BasicButton4.BackColor = System.Drawing.Color.Blue
-        Me.BasicButton4.ComComponent = Me.EthernetIPforCLXCom1
-        Me.BasicButton4.Font = New System.Drawing.Font("Magneto", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BasicButton4.ForeColor = System.Drawing.Color.GhostWhite
-        Me.BasicButton4.ForeColorAltername = System.Drawing.Color.Black
-        Me.BasicButton4.Highlight = False
-        Me.BasicButton4.HighlightColor = System.Drawing.Color.Green
-        Me.BasicButton4.Location = New System.Drawing.Point(20, 686)
-        Me.BasicButton4.MaximumHoldTime = 3000
-        Me.BasicButton4.MinimumHoldTime = 500
-        Me.BasicButton4.Name = "BasicButton4"
-        Me.BasicButton4.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
-        Me.BasicButton4.PLCAddressClick = ""
-        Me.BasicButton4.SelectTextAlternate = False
-        Me.BasicButton4.Size = New System.Drawing.Size(220, 147)
-        Me.BasicButton4.TabIndex = 1425
-        Me.BasicButton4.Text = "Exit Scada"
-        Me.BasicButton4.TextAlternate = Nothing
-        Me.BasicButton4.UseVisualStyleBackColor = False
-        Me.BasicButton4.ValueToWrite = 0
         '
         'BasicButton3
         '
@@ -4843,7 +4819,7 @@ Partial Class SlamControls
         Me.LbClk.AutoSize = True
         Me.LbClk.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LbClk.ForeColor = System.Drawing.Color.GhostWhite
-        Me.LbClk.Location = New System.Drawing.Point(1523, 819)
+        Me.LbClk.Location = New System.Drawing.Point(15, 808)
         Me.LbClk.Name = "LbClk"
         Me.LbClk.Size = New System.Drawing.Size(130, 25)
         Me.LbClk.TabIndex = 1438
@@ -4859,7 +4835,7 @@ Partial Class SlamControls
         Me.LbDate.AutoSize = True
         Me.LbDate.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LbDate.ForeColor = System.Drawing.Color.GhostWhite
-        Me.LbDate.Location = New System.Drawing.Point(1523, 788)
+        Me.LbDate.Location = New System.Drawing.Point(15, 777)
         Me.LbDate.Name = "LbDate"
         Me.LbDate.Size = New System.Drawing.Size(114, 25)
         Me.LbDate.TabIndex = 1439
@@ -4886,7 +4862,6 @@ Partial Class SlamControls
         Me.Controls.Add(Me.bOpenPro)
         Me.Controls.Add(Me.openBeltSpeeds)
         Me.Controls.Add(Me.bOpenBCR)
-        Me.Controls.Add(Me.BasicButton4)
         Me.Controls.Add(Me.BasicButton3)
         Me.Controls.Add(Me.BasicButton2)
         Me.Controls.Add(Me.BasicButton1)
@@ -5092,7 +5067,6 @@ Partial Class SlamControls
     Friend WithEvents bOpenPro As AdvancedHMIControls.BasicButton
     Friend WithEvents openBeltSpeeds As AdvancedHMIControls.BasicButton
     Friend WithEvents bOpenBCR As AdvancedHMIControls.BasicButton
-    Friend WithEvents BasicButton4 As AdvancedHMIControls.BasicButton
     Friend WithEvents BasicButton3 As AdvancedHMIControls.BasicButton
     Friend WithEvents BasicButton2 As AdvancedHMIControls.BasicButton
     Friend WithEvents BasicButton1 As AdvancedHMIControls.BasicButton
