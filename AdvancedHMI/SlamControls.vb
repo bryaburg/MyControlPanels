@@ -13,20 +13,11 @@ Public Class SlamControls
     Private cVal As Microsoft.Office.Interop.Excel.Range
     Private cX, cX1, cX2 As Integer
     Private index, index1, dex, input, myCom As String
+    Private btnBool As Boolean = False
 
     '//Handles Loading Slam Controls and Excel Form!
     Private Sub SlamControls_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        Try
-            ' Start Excel and get Application object.
-            oXL = CreateObject("Excel.Application")
 
-            ' Get a new workbook.
-            oWB = oXL.Workbooks.Add
-            cSh = oWB.ActiveSheet
-
-        Catch ex As Exception
-            MessageBox.Show("Error", ex.Message)
-        End Try
     End Sub
 
     '//Handles Date and Time
@@ -124,17 +115,31 @@ Public Class SlamControls
         End Try
     End Sub
 
-    '//Open Excel Button Sub
-    Private Sub BasicButton2_Click(sender As Object, e As EventArgs) Handles BasicButton2.Click
-        oXL.Visible = True
-    End Sub
+    '//Opening and Closing Excel Sub
+    Private Sub opExChBox_CheckedChanged(sender As Object, e As EventArgs) Handles opExChBox.CheckedChanged
+        Try
+            If Me.opExChBox.CheckState = CheckState.Checked Then
+                ' Start Excel and get Application object.
+                oXL = CreateObject("Excel.Application")
 
-    '//Exit Excel Button Sub
-    Private Sub BasicButton3_Click(sender As Object, e As EventArgs) Handles BasicButton3.Click
-        oWB.Close()
-        oWB = Nothing
-        oXL.Quit()
-        oXL = Nothing
+                ' Get a new workbook.
+                oWB = oXL.Workbooks.Add
+                cSh = oWB.ActiveSheet
+
+                Me.oXL.Visible = True
+                btnBool = True
+                opExChBox.Text = "Excel Opened"
+            ElseIf opExChBox.CheckState = CheckState.Unchecked Then
+                btnBool = False
+                Me.opExChBox.Text = "Open Excel"
+                Me.oWB.Close()
+                Me.oWB = Nothing
+                Me.oXL.Quit()
+                Me.oXL = Nothing
+            End If
+        Catch ex As Exception
+            MessageBox.Show("Error", ex.Message)
+        End Try
     End Sub
 
     '//Sub to read data from the CLX
@@ -144,304 +149,314 @@ Public Class SlamControls
 
     '//last 10 kickout codes
     Private Sub DataSubscriber210_DataChanged(sender As Object, e As PlcComEventArgs) Handles DataSubscriber210.DataChanged
-        Try
-            clxVal = e.PlcAddress
-            plcAdd = {"HMI_Last10KO[0]", "HMI_Last10KO[1]", "HMI_Last10KO[2]", "HMI_Last10KO[3]", "HMI_Last10KO[4]", "HMI_Last10KO[5]",
+        If btnBool = True Then
+            Try
+                clxVal = e.PlcAddress
+                plcAdd = {"HMI_Last10KO[0]", "HMI_Last10KO[1]", "HMI_Last10KO[2]", "HMI_Last10KO[3]", "HMI_Last10KO[4]", "HMI_Last10KO[5]",
             "HMI_Last10KO[6]", "HMI_Last10KO[7]", "HMI_Last10KO[8]", "HMI_Last10KO[9]"}
-            cVal = cSh.Cells
-            pVal = e.Values(0)
-            cX = 3
-        Catch ex As Exception
-            MsgBox("Last 10 KO Variables", ex.Message)
-        End Try
+                cVal = cSh.Cells
+                pVal = e.Values(0)
+                cX = 3
+            Catch ex As Exception
+                MsgBox("Last 10 KO Variables", ex.Message)
+            End Try
 
-        Try
-            For Each index In plcAdd
-                If clxVal = index Then
-                    cVal(cX, 2) = pVal
-                End If
-                cX += 1
-            Next
-        Catch ex As Exception
-            MsgBox("Last 10 KO Codes", ex.Message)
-        End Try
-
+            Try
+                For Each index In plcAdd
+                    If clxVal = index Then
+                        cVal(cX, 2) = pVal
+                    End If
+                    cX += 1
+                Next
+            Catch ex As Exception
+                MsgBox("Last 10 KO Codes", ex.Message)
+            End Try
+        End If
     End Sub
 
     ''//Kickout TimeStamps
     Private Sub DataSubscriber211_DataChanged(sender As Object, e As PlcComEventArgs) Handles DataSubscriber211.DataChanged
-        Try
-            clxVal = e.PlcAddress
-            plcAdd = {"HMI_Last10Time[0]", "HMI_Last10Time[1]", "HMI_Last10Time[2]", "HMI_Last10Time[3]", "HMI_Last10Time[4]", "HMI_Last10Time[5]",
-            "HMI_Last10Time[6]", "HMI_Last10Time[7]", "HMI_Last10Time[8]", "HMI_Last10Time[9]"}
-            cVal = cSh.Cells
-            pVal = e.Values(0)
-            cX = 3
-        Catch ex As Exception
-            MsgBox("Kickout TimeStamps Variables", ex.Message)
-        End Try
+        If btnBool = True Then
+            Try
+                clxVal = e.PlcAddress
+                plcAdd = {"HMI_Last10Time[0]", "HMI_Last10Time[1]", "HMI_Last10Time[2]", "HMI_Last10Time[3]", "HMI_Last10Time[4]", "HMI_Last10Time[5]",
+                "HMI_Last10Time[6]", "HMI_Last10Time[7]", "HMI_Last10Time[8]", "HMI_Last10Time[9]"}
+                cVal = cSh.Cells
+                pVal = e.Values(0)
+                cX = 3
+            Catch ex As Exception
+                MsgBox("Kickout TimeStamps Variables", ex.Message)
+            End Try
 
-        Try
-            For Each index In plcAdd
-                If clxVal = index Then
-                    cVal(cX, 1) = pVal
-                End If
-                cX += 1
-            Next
-        Catch ex As Exception
-            MsgBox("Time of KO", ex.Message)
-        End Try
+            Try
+                For Each index In plcAdd
+                    If clxVal = index Then
+                        cVal(cX, 1) = pVal
+                    End If
+                    cX += 1
+                Next
+            Catch ex As Exception
+                MsgBox("Time of KO", ex.Message)
+            End Try
+        End If
     End Sub
 
     ''///event message display
     Private Sub DataSubscriber21_DataChanged(sender As Object, e As PlcComEventArgs) Handles DataSubscriber21.DataChanged
-        Try
-            clxVal = e.PlcAddress
-            plcAdd = {"Event_ActiveEvents[0]", "Event_ActiveEvents[1]", "Event_ActiveEvents[2]", "Event_ActiveEvents[3]", "Event_ActiveEvents[4]",
-            "Event_ActiveEvents[5]", "Event_ActiveEvents[6]", "Event_ActiveEvents[7]", "Event_ActiveEvents[8]", "Event_ActiveEvents[9]"}
-            cVal = cSh.Cells
-            pVal = e.Values(0)
-            cX = 3
-        Catch ex As Exception
-            MsgBox("Event Display Variables", ex.Message)
-        End Try
+        If btnBool = True Then
+            Try
+                clxVal = e.PlcAddress
+                plcAdd = {"Event_ActiveEvents[0]", "Event_ActiveEvents[1]", "Event_ActiveEvents[2]", "Event_ActiveEvents[3]", "Event_ActiveEvents[4]",
+                "Event_ActiveEvents[5]", "Event_ActiveEvents[6]", "Event_ActiveEvents[7]", "Event_ActiveEvents[8]", "Event_ActiveEvents[9]"}
+                cVal = cSh.Cells
+                pVal = e.Values(0)
+                cX = 3
+            Catch ex As Exception
+                MsgBox("Event Display Variables", ex.Message)
+            End Try
 
-        Try
-            For Each index In plcAdd
-                If clxVal = index Then
-                    cVal(cX, 4) = pVal
-                End If
-                cX += 1
-            Next
-        Catch ex As Exception
-            MsgBox("Events Display", ex.Message)
-        End Try
+            Try
+                For Each index In plcAdd
+                    If clxVal = index Then
+                        cVal(cX, 4) = pVal
+                    End If
+                    cX += 1
+                Next
+            Catch ex As Exception
+                MsgBox("Events Display", ex.Message)
+            End Try
+        End If
     End Sub
 
     ''//subscribers for package success or failure.
     Private Sub DataSubscriber22_DataChanged(sender As Object, e As PlcComEventArgs) Handles DataSubscriber22.DataChanged
-        Try
-            clxVal = e.PlcAddress
-            plcAdd = {"Packages[0].WmsData.KO", "Packages[1].WmsData.KO", "Packages[2].WmsData.KO", "Packages[3].WmsData.KO", "Packages[4].WmsData.KO",
-            "Packages[5].WmsData.KO", "Packages[6].WmsData.KO", "Packages[7].WmsData.KO", "Packages[8].WmsData.KO", "Packages[9].WmsData.KO",
-            "Packages[10].WmsData.KO", "Packages[11].WmsData.KO", "Packages[12].WmsData.KO", "Packages[13].WmsData.KO", "Packages[14].WmsData.KO",
-            "Packages[15].WmsData.KO", "Packages[16].WmsData.KO", "Packages[17].WmsData.KO", "Packages[18].WmsData.KO", "Packages[19].WmsData.KO"}
-            cVal = cSh.Cells
-            pVal = e.Values(0)
-            cX = 15
-        Catch ex As Exception
-            MsgBox("1st S/F Variables", ex.Message)
-        End Try
+        If btnBool = True Then
+            Try
+                clxVal = e.PlcAddress
+                plcAdd = {"Packages[0].WmsData.KO", "Packages[1].WmsData.KO", "Packages[2].WmsData.KO", "Packages[3].WmsData.KO", "Packages[4].WmsData.KO",
+                "Packages[5].WmsData.KO", "Packages[6].WmsData.KO", "Packages[7].WmsData.KO", "Packages[8].WmsData.KO", "Packages[9].WmsData.KO",
+                "Packages[10].WmsData.KO", "Packages[11].WmsData.KO", "Packages[12].WmsData.KO", "Packages[13].WmsData.KO", "Packages[14].WmsData.KO",
+                "Packages[15].WmsData.KO", "Packages[16].WmsData.KO", "Packages[17].WmsData.KO", "Packages[18].WmsData.KO", "Packages[19].WmsData.KO"}
+                cVal = cSh.Cells
+                pVal = e.Values(0)
+                cX = 15
+            Catch ex As Exception
+                MsgBox("1st S/F Variables", ex.Message)
+            End Try
 
-        Try
-            For Each index In plcAdd
-                If clxVal = index Then
-                    cVal(cX, 1) = pVal
-                End If
-                cX += 1
-            Next
-        Catch ex As Exception
-            MsgBox("1st Success/Failure array", ex.Message)
-        End Try
+            Try
+                For Each index In plcAdd
+                    If clxVal = index Then
+                        cVal(cX, 1) = pVal
+                    End If
+                    cX += 1
+                Next
+            Catch ex As Exception
+                MsgBox("1st Success/Failure array", ex.Message)
+            End Try
+        End If
     End Sub
 
     '//Total Packages and Kickouts
     Private Sub DataSubscriber24_DataChanged(sender As Object, e As PlcComEventArgs) Handles DataSubscriber24.DataChanged
-        Try
-            clxVal = e.PlcAddress
-            plcAdd = {"HMI_ParcelCount", "HMI_KickoutCount", "AuditValueDint[0]"}
-            cVal = cSh.Cells
-            pVal = e.Values(0)
-            cX = 3
-        Catch ex As Exception
-            MsgBox("Total P & K Variables", ex.Message)
-        End Try
+        If btnBool = True Then
+            Try
+                clxVal = e.PlcAddress
+                plcAdd = {"HMI_ParcelCount", "HMI_KickoutCount", "AuditValueDint[0]"}
+                cVal = cSh.Cells
+                pVal = e.Values(0)
+                cX = 3
+            Catch ex As Exception
+                MsgBox("Total P & K Variables", ex.Message)
+            End Try
 
-        Try
-            For Each index In plcAdd
-                If clxVal = index Then
-                    cVal(cX, 6) = pVal
-                End If
-                If cX = 4 Then
-                    cX += 2
-                Else
-                    cX += 1
-                End If
-            Next
-        Catch ex As Exception
-            MsgBox("Total Packages and Kickouts", ex.Message)
-        End Try
+            Try
+                For Each index In plcAdd
+                    If clxVal = index Then
+                        cVal(cX, 6) = pVal
+                    End If
+                    If cX = 4 Then
+                        cX += 2
+                    Else
+                        cX += 1
+                    End If
+                Next
+            Catch ex As Exception
+                MsgBox("Total Packages and Kickouts", ex.Message)
+            End Try
+        End If
     End Sub
 
 
     '//Scale Scanner BarCodes!!
     Private Sub DataSubscriber23_DataChanged(sender As Object, e As PlcComEventArgs) Handles DataSubscriber23.DataChanged
-        Try
-            plcAdd = {"Packages[0].ScaleScan.Barcodes.DATA[4]", "Packages[0].ScaleScan.Barcodes.DATA[5]", "Packages[0].ScaleScan.Barcodes.DATA[6]",
-                "Packages[0].ScaleScan.Barcodes.DATA[7]", "Packages[0].ScaleScan.Barcodes.DATA[8]", "Packages[0].ScaleScan.Barcodes.DATA[9]",
-                "Packages[0].ScaleScan.Barcodes.DATA[10]", "Packages[0].ScaleScan.Barcodes.DATA[11]", "Packages[0].ScaleScan.Barcodes.DATA[12]",
-                "Packages[0].ScaleScan.Barcodes.DATA[13]", "Packages[0].ScaleScan.Barcodes.DATA[14]", "Packages[1].ScaleScan.Barcodes.DATA[4]",
-                "Packages[1].ScaleScan.Barcodes.DATA[5]", "Packages[1].ScaleScan.Barcodes.DATA[6]", "Packages[1].ScaleScan.Barcodes.DATA[7]",
-                "Packages[1].ScaleScan.Barcodes.DATA[8]", "Packages[1].ScaleScan.Barcodes.DATA[9]", "Packages[1].ScaleScan.Barcodes.DATA[10]",
-                "Packages[1].ScaleScan.Barcodes.DATA[11]", "Packages[1].ScaleScan.Barcodes.DATA[12]", "Packages[1].ScaleScan.Barcodes.DATA[13]",
-                "Packages[1].ScaleScan.Barcodes.DATA[14]", "Packages[2].ScaleScan.Barcodes.DATA[4]", "Packages[2].ScaleScan.Barcodes.DATA[5]", "Packages[2].ScaleScan.Barcodes.DATA[6]",
-                "Packages[2].ScaleScan.Barcodes.DATA[7]", "Packages[2].ScaleScan.Barcodes.DATA[8]", "Packages[2].ScaleScan.Barcodes.DATA[9]",
-                "Packages[2].ScaleScan.Barcodes.DATA[10]", "Packages[2].ScaleScan.Barcodes.DATA[11]", "Packages[2].ScaleScan.Barcodes.DATA[12]",
-                "Packages[2].ScaleScan.Barcodes.DATA[13]", "Packages[2].ScaleScan.Barcodes.DATA[14]", "Packages[3].ScaleScan.Barcodes.DATA[4]",
-                "Packages[3].ScaleScan.Barcodes.DATA[5]", "Packages[3].ScaleScan.Barcodes.DATA[6]", "Packages[3].ScaleScan.Barcodes.DATA[7]",
-                "Packages[3].ScaleScan.Barcodes.DATA[8]", "Packages[3].ScaleScan.Barcodes.DATA[9]", "Packages[3].ScaleScan.Barcodes.DATA[10]",
-                "Packages[3].ScaleScan.Barcodes.DATA[11]", "Packages[3].ScaleScan.Barcodes.DATA[12]", "Packages[3].ScaleScan.Barcodes.DATA[13]",
-                "Packages[3].ScaleScan.Barcodes.DATA[14]", "Packages[4].ScaleScan.Barcodes.DATA[4]", "Packages[4].ScaleScan.Barcodes.DATA[5]", "Packages[4].ScaleScan.Barcodes.DATA[6]",
-                "Packages[4].ScaleScan.Barcodes.DATA[7]", "Packages[4].ScaleScan.Barcodes.DATA[8]", "Packages[4].ScaleScan.Barcodes.DATA[9]",
-                "Packages[4].ScaleScan.Barcodes.DATA[10]", "Packages[4].ScaleScan.Barcodes.DATA[11]", "Packages[4].ScaleScan.Barcodes.DATA[12]",
-                "Packages[4].ScaleScan.Barcodes.DATA[13]", "Packages[4].ScaleScan.Barcodes.DATA[14]", "Packages[5].ScaleScan.Barcodes.DATA[4]",
-                "Packages[5].ScaleScan.Barcodes.DATA[5]", "Packages[5].ScaleScan.Barcodes.DATA[6]", "Packages[5].ScaleScan.Barcodes.DATA[7]",
-                "Packages[5].ScaleScan.Barcodes.DATA[8]", "Packages[5].ScaleScan.Barcodes.DATA[9]", "Packages[5].ScaleScan.Barcodes.DATA[10]",
-                "Packages[5].ScaleScan.Barcodes.DATA[11]", "Packages[5].ScaleScan.Barcodes.DATA[12]", "Packages[5].ScaleScan.Barcodes.DATA[13]",
-                "Packages[5].ScaleScan.Barcodes.DATA[14]", "Packages[6].ScaleScan.Barcodes.DATA[4]", "Packages[6].ScaleScan.Barcodes.DATA[5]", "Packages[6].ScaleScan.Barcodes.DATA[6]",
-                "Packages[6].ScaleScan.Barcodes.DATA[7]", "Packages[6].ScaleScan.Barcodes.DATA[8]", "Packages[6].ScaleScan.Barcodes.DATA[9]",
-                "Packages[6].ScaleScan.Barcodes.DATA[10]", "Packages[6].ScaleScan.Barcodes.DATA[11]", "Packages[6].ScaleScan.Barcodes.DATA[12]",
-                "Packages[6].ScaleScan.Barcodes.DATA[13]", "Packages[6].ScaleScan.Barcodes.DATA[14]", "Packages[7].ScaleScan.Barcodes.DATA[4]",
-                "Packages[7].ScaleScan.Barcodes.DATA[5]", "Packages[7].ScaleScan.Barcodes.DATA[6]", "Packages[7].ScaleScan.Barcodes.DATA[7]",
-                "Packages[7].ScaleScan.Barcodes.DATA[8]", "Packages[7].ScaleScan.Barcodes.DATA[9]", "Packages[7].ScaleScan.Barcodes.DATA[10]",
-                "Packages[7].ScaleScan.Barcodes.DATA[11]", "Packages[7].ScaleScan.Barcodes.DATA[12]", "Packages[7].ScaleScan.Barcodes.DATA[13]",
-                "Packages[7].ScaleScan.Barcodes.DATA[14]", "Packages[8].ScaleScan.Barcodes.DATA[4]", "Packages[8].ScaleScan.Barcodes.DATA[5]", "Packages[8].ScaleScan.Barcodes.DATA[6]",
-                "Packages[8].ScaleScan.Barcodes.DATA[7]", "Packages[8].ScaleScan.Barcodes.DATA[8]", "Packages[8].ScaleScan.Barcodes.DATA[9]",
-                "Packages[8].ScaleScan.Barcodes.DATA[10]", "Packages[8].ScaleScan.Barcodes.DATA[11]", "Packages[8].ScaleScan.Barcodes.DATA[12]",
-                "Packages[8].ScaleScan.Barcodes.DATA[13]", "Packages[8].ScaleScan.Barcodes.DATA[14]", "Packages[9].ScaleScan.Barcodes.DATA[4]",
-                "Packages[9].ScaleScan.Barcodes.DATA[5]", "Packages[9].ScaleScan.Barcodes.DATA[6]", "Packages[9].ScaleScan.Barcodes.DATA[7]",
-                "Packages[9].ScaleScan.Barcodes.DATA[8]", "Packages[9].ScaleScan.Barcodes.DATA[9]", "Packages[9].ScaleScan.Barcodes.DATA[10]",
-                "Packages[9].ScaleScan.Barcodes.DATA[11]", "Packages[9].ScaleScan.Barcodes.DATA[12]", "Packages[9].ScaleScan.Barcodes.DATA[13]",
-                "Packages[9].ScaleScan.Barcodes.DATA[14]", "Packages[10].ScaleScan.Barcodes.DATA[4]", "Packages[10].ScaleScan.Barcodes.DATA[5]", "Packages[10].ScaleScan.Barcodes.DATA[6]",
-                "Packages[10].ScaleScan.Barcodes.DATA[7]", "Packages[10].ScaleScan.Barcodes.DATA[8]", "Packages[10].ScaleScan.Barcodes.DATA[9]",
-                "Packages[10].ScaleScan.Barcodes.DATA[10]", "Packages[10].ScaleScan.Barcodes.DATA[11]", "Packages[10].ScaleScan.Barcodes.DATA[12]",
-                "Packages[10].ScaleScan.Barcodes.DATA[13]", "Packages[10].ScaleScan.Barcodes.DATA[14]", "Packages[11].ScaleScan.Barcodes.DATA[4]",
-                "Packages[11].ScaleScan.Barcodes.DATA[5]", "Packages[11].ScaleScan.Barcodes.DATA[6]", "Packages[11].ScaleScan.Barcodes.DATA[7]",
-                "Packages[11].ScaleScan.Barcodes.DATA[8]", "Packages[11].ScaleScan.Barcodes.DATA[9]", "Packages[11].ScaleScan.Barcodes.DATA[10]",
-                "Packages[11].ScaleScan.Barcodes.DATA[11]", "Packages[11].ScaleScan.Barcodes.DATA[12]", "Packages[11].ScaleScan.Barcodes.DATA[13]",
-                "Packages[11].ScaleScan.Barcodes.DATA[14]", "Packages[12].ScaleScan.Barcodes.DATA[4]", "Packages[12].ScaleScan.Barcodes.DATA[5]", "Packages[12].ScaleScan.Barcodes.DATA[6]",
-                "Packages[12].ScaleScan.Barcodes.DATA[7]", "Packages[12].ScaleScan.Barcodes.DATA[8]", "Packages[12].ScaleScan.Barcodes.DATA[9]",
-                "Packages[12].ScaleScan.Barcodes.DATA[10]", "Packages[12].ScaleScan.Barcodes.DATA[11]", "Packages[12].ScaleScan.Barcodes.DATA[12]",
-                "Packages[12].ScaleScan.Barcodes.DATA[13]", "Packages[12].ScaleScan.Barcodes.DATA[14]", "Packages[13].ScaleScan.Barcodes.DATA[4]",
-                "Packages[13].ScaleScan.Barcodes.DATA[5]", "Packages[13].ScaleScan.Barcodes.DATA[6]", "Packages[13].ScaleScan.Barcodes.DATA[7]",
-                "Packages[13].ScaleScan.Barcodes.DATA[8]", "Packages[13].ScaleScan.Barcodes.DATA[9]", "Packages[13].ScaleScan.Barcodes.DATA[10]",
-                "Packages[13].ScaleScan.Barcodes.DATA[11]", "Packages[13].ScaleScan.Barcodes.DATA[12]", "Packages[13].ScaleScan.Barcodes.DATA[13]",
-                "Packages[13].ScaleScan.Barcodes.DATA[14]", "Packages[14].ScaleScan.Barcodes.DATA[4]", "Packages[14].ScaleScan.Barcodes.DATA[5]", "Packages[14].ScaleScan.Barcodes.DATA[6]",
-                "Packages[14].ScaleScan.Barcodes.DATA[7]", "Packages[14].ScaleScan.Barcodes.DATA[8]", "Packages[14].ScaleScan.Barcodes.DATA[9]",
-                "Packages[14].ScaleScan.Barcodes.DATA[10]", "Packages[14].ScaleScan.Barcodes.DATA[11]", "Packages[14].ScaleScan.Barcodes.DATA[12]",
-                "Packages[14].ScaleScan.Barcodes.DATA[13]", "Packages[14].ScaleScan.Barcodes.DATA[14]", "Packages[15].ScaleScan.Barcodes.DATA[4]",
-                "Packages[15].ScaleScan.Barcodes.DATA[5]", "Packages[15].ScaleScan.Barcodes.DATA[6]", "Packages[15].ScaleScan.Barcodes.DATA[7]",
-                "Packages[15].ScaleScan.Barcodes.DATA[8]", "Packages[15].ScaleScan.Barcodes.DATA[9]", "Packages[15].ScaleScan.Barcodes.DATA[10]",
-                "Packages[15].ScaleScan.Barcodes.DATA[11]", "Packages[15].ScaleScan.Barcodes.DATA[12]", "Packages[15].ScaleScan.Barcodes.DATA[13]",
-                "Packages[15].ScaleScan.Barcodes.DATA[14]", "Packages[16].ScaleScan.Barcodes.DATA[4]", "Packages[16].ScaleScan.Barcodes.DATA[5]", "Packages[16].ScaleScan.Barcodes.DATA[6]",
-                "Packages[16].ScaleScan.Barcodes.DATA[7]", "Packages[16].ScaleScan.Barcodes.DATA[8]", "Packages[16].ScaleScan.Barcodes.DATA[9]",
-                "Packages[16].ScaleScan.Barcodes.DATA[10]", "Packages[16].ScaleScan.Barcodes.DATA[11]", "Packages[16].ScaleScan.Barcodes.DATA[12]",
-                "Packages[16].ScaleScan.Barcodes.DATA[13]", "Packages[16].ScaleScan.Barcodes.DATA[14]", "Packages[17].ScaleScan.Barcodes.DATA[4]",
-                "Packages[17].ScaleScan.Barcodes.DATA[5]", "Packages[17].ScaleScan.Barcodes.DATA[6]", "Packages[17].ScaleScan.Barcodes.DATA[7]",
-                "Packages[17].ScaleScan.Barcodes.DATA[8]", "Packages[17].ScaleScan.Barcodes.DATA[9]", "Packages[17].ScaleScan.Barcodes.DATA[10]",
-                "Packages[17].ScaleScan.Barcodes.DATA[11]", "Packages[17].ScaleScan.Barcodes.DATA[12]", "Packages[17].ScaleScan.Barcodes.DATA[13]",
-                "Packages[17].ScaleScan.Barcodes.DATA[14]", "Packages[18].ScaleScan.Barcodes.DATA[4]", "Packages[18].ScaleScan.Barcodes.DATA[5]", "Packages[18].ScaleScan.Barcodes.DATA[6]",
-                "Packages[18].ScaleScan.Barcodes.DATA[7]", "Packages[18].ScaleScan.Barcodes.DATA[8]", "Packages[18].ScaleScan.Barcodes.DATA[9]",
-                "Packages[18].ScaleScan.Barcodes.DATA[10]", "Packages[18].ScaleScan.Barcodes.DATA[11]", "Packages[18].ScaleScan.Barcodes.DATA[12]",
-                "Packages[18].ScaleScan.Barcodes.DATA[13]", "Packages[18].ScaleScan.Barcodes.DATA[14]", "Packages[19].ScaleScan.Barcodes.DATA[4]",
-                "Packages[19].ScaleScan.Barcodes.DATA[5]", "Packages[19].ScaleScan.Barcodes.DATA[6]", "Packages[19].ScaleScan.Barcodes.DATA[7]",
-                "Packages[19].ScaleScan.Barcodes.DATA[8]", "Packages[19].ScaleScan.Barcodes.DATA[9]", "Packages[19].ScaleScan.Barcodes.DATA[10]",
-                "Packages[19].ScaleScan.Barcodes.DATA[11]", "Packages[19].ScaleScan.Barcodes.DATA[12]", "Packages[19].ScaleScan.Barcodes.DATA[13]",
-                "Packages[19].ScaleScan.Barcodes.DATA[14]", "Packages[0].VerifyScan.Barcodes.DATA[0]", "Packages[0].VerifyScan.Barcodes.DATA[1]", "Packages[0].VerifyScan.Barcodes.DATA[2]",
-                "Packages[0].VerifyScan.Barcodes.DATA[3]", "Packages[0].VerifyScan.Barcodes.DATA[4]", "Packages[0].VerifyScan.Barcodes.DATA[5]",
-                "Packages[0].VerifyScan.Barcodes.DATA[6]", "Packages[0].VerifyScan.Barcodes.DATA[7]", "Packages[0].VerifyScan.Barcodes.DATA[8]",
-                "Packages[0].VerifyScan.Barcodes.DATA[9]", "Packages[0].VerifyScan.Barcodes.DATA[10]", "Packages[1].VerifyScan.Barcodes.DATA[0]",
-                "Packages[1].VerifyScan.Barcodes.DATA[1]", "Packages[1].VerifyScan.Barcodes.DATA[2]", "Packages[1].VerifyScan.Barcodes.DATA[3]",
-                "Packages[1].VerifyScan.Barcodes.DATA[4]", "Packages[1].VerifyScan.Barcodes.DATA[5]", "Packages[1].VerifyScan.Barcodes.DATA[6]",
-                "Packages[1].VerifyScan.Barcodes.DATA[7]", "Packages[1].VerifyScan.Barcodes.DATA[8]", "Packages[1].VerifyScan.Barcodes.DATA[9]",
-                "Packages[1].VerifyScan.Barcodes.DATA[10]", "Packages[2].VerifyScan.Barcodes.DATA[0]", "Packages[2].VerifyScan.Barcodes.DATA[1]", "Packages[2].VerifyScan.Barcodes.DATA[2]",
-                "Packages[2].VerifyScan.Barcodes.DATA[3]", "Packages[2].VerifyScan.Barcodes.DATA[4]", "Packages[2].VerifyScan.Barcodes.DATA[5]",
-                "Packages[2].VerifyScan.Barcodes.DATA[6]", "Packages[2].VerifyScan.Barcodes.DATA[7]", "Packages[2].VerifyScan.Barcodes.DATA[8]",
-                "Packages[2].VerifyScan.Barcodes.DATA[9]", "Packages[2].VerifyScan.Barcodes.DATA[10]", "Packages[3].VerifyScan.Barcodes.DATA[0]",
-                "Packages[3].VerifyScan.Barcodes.DATA[1]", "Packages[3].VerifyScan.Barcodes.DATA[2]", "Packages[3].VerifyScan.Barcodes.DATA[3]",
-                "Packages[3].VerifyScan.Barcodes.DATA[4]", "Packages[3].VerifyScan.Barcodes.DATA[5]", "Packages[3].VerifyScan.Barcodes.DATA[6]",
-                "Packages[3].VerifyScan.Barcodes.DATA[7]", "Packages[3].VerifyScan.Barcodes.DATA[8]", "Packages[3].VerifyScan.Barcodes.DATA[9]",
-                "Packages[3].VerifyScan.Barcodes.DATA[10]", "Packages[4].VerifyScan.Barcodes.DATA[0]", "Packages[4].VerifyScan.Barcodes.DATA[1]", "Packages[4].VerifyScan.Barcodes.DATA[2]",
-                "Packages[4].VerifyScan.Barcodes.DATA[3]", "Packages[4].VerifyScan.Barcodes.DATA[4]", "Packages[4].VerifyScan.Barcodes.DATA[5]",
-                "Packages[4].VerifyScan.Barcodes.DATA[6]", "Packages[4].VerifyScan.Barcodes.DATA[7]", "Packages[4].VerifyScan.Barcodes.DATA[8]",
-                "Packages[4].VerifyScan.Barcodes.DATA[9]", "Packages[4].VerifyScan.Barcodes.DATA[10]", "Packages[5].VerifyScan.Barcodes.DATA[0]",
-                "Packages[5].VerifyScan.Barcodes.DATA[1]", "Packages[5].VerifyScan.Barcodes.DATA[2]", "Packages[5].VerifyScan.Barcodes.DATA[3]",
-                "Packages[5].VerifyScan.Barcodes.DATA[4]", "Packages[5].VerifyScan.Barcodes.DATA[5]", "Packages[5].VerifyScan.Barcodes.DATA[6]",
-                "Packages[5].VerifyScan.Barcodes.DATA[7]", "Packages[5].VerifyScan.Barcodes.DATA[8]", "Packages[5].VerifyScan.Barcodes.DATA[9]",
-                "Packages[5].VerifyScan.Barcodes.DATA[10]", "Packages[6].VerifyScan.Barcodes.DATA[0]", "Packages[6].VerifyScan.Barcodes.DATA[1]", "Packages[6].VerifyScan.Barcodes.DATA[2]",
-                "Packages[6].VerifyScan.Barcodes.DATA[3]", "Packages[6].VerifyScan.Barcodes.DATA[4]", "Packages[6].VerifyScan.Barcodes.DATA[5]",
-                "Packages[6].VerifyScan.Barcodes.DATA[6]", "Packages[6].VerifyScan.Barcodes.DATA[7]", "Packages[6].VerifyScan.Barcodes.DATA[8]",
-                "Packages[6].VerifyScan.Barcodes.DATA[9]", "Packages[6].VerifyScan.Barcodes.DATA[10]", "Packages[7].VerifyScan.Barcodes.DATA[0]",
-                "Packages[7].VerifyScan.Barcodes.DATA[1]", "Packages[7].VerifyScan.Barcodes.DATA[2]", "Packages[7].VerifyScan.Barcodes.DATA[3]",
-                "Packages[7].VerifyScan.Barcodes.DATA[4]", "Packages[7].VerifyScan.Barcodes.DATA[5]", "Packages[7].VerifyScan.Barcodes.DATA[6]",
-                "Packages[7].VerifyScan.Barcodes.DATA[7]", "Packages[7].VerifyScan.Barcodes.DATA[8]", "Packages[7].VerifyScan.Barcodes.DATA[9]",
-                "Packages[7].VerifyScan.Barcodes.DATA[10]", "Packages[8].VerifyScan.Barcodes.DATA[0]", "Packages[8].VerifyScan.Barcodes.DATA[1]", "Packages[8].VerifyScan.Barcodes.DATA[2]",
-                "Packages[8].VerifyScan.Barcodes.DATA[3]", "Packages[8].VerifyScan.Barcodes.DATA[4]", "Packages[8].VerifyScan.Barcodes.DATA[5]",
-                "Packages[8].VerifyScan.Barcodes.DATA[6]", "Packages[8].VerifyScan.Barcodes.DATA[7]", "Packages[8].VerifyScan.Barcodes.DATA[8]",
-                "Packages[8].VerifyScan.Barcodes.DATA[9]", "Packages[8].VerifyScan.Barcodes.DATA[10]", "Packages[9].VerifyScan.Barcodes.DATA[0]",
-                "Packages[9].VerifyScan.Barcodes.DATA[1]", "Packages[9].VerifyScan.Barcodes.DATA[2]", "Packages[9].VerifyScan.Barcodes.DATA[3]",
-                "Packages[9].VerifyScan.Barcodes.DATA[4]", "Packages[9].VerifyScan.Barcodes.DATA[5]", "Packages[9].VerifyScan.Barcodes.DATA[6]",
-                "Packages[9].VerifyScan.Barcodes.DATA[7]", "Packages[9].VerifyScan.Barcodes.DATA[8]", "Packages[9].VerifyScan.Barcodes.DATA[9]",
-                "Packages[9].VerifyScan.Barcodes.DATA[10]", "Packages[10].VerifyScan.Barcodes.DATA[0]", "Packages[10].VerifyScan.Barcodes.DATA[1]", "Packages[10].VerifyScan.Barcodes.DATA[2]",
-                "Packages[10].VerifyScan.Barcodes.DATA[3]", "Packages[10].VerifyScan.Barcodes.DATA[4]", "Packages[10].VerifyScan.Barcodes.DATA[5]",
-                "Packages[10].VerifyScan.Barcodes.DATA[6]", "Packages[10].VerifyScan.Barcodes.DATA[7]", "Packages[10].VerifyScan.Barcodes.DATA[8]",
-                "Packages[10].VerifyScan.Barcodes.DATA[9]", "Packages[10].VerifyScan.Barcodes.DATA[10]", "Packages[11].VerifyScan.Barcodes.DATA[0]",
-                "Packages[11].VerifyScan.Barcodes.DATA[1]", "Packages[11].VerifyScan.Barcodes.DATA[2]", "Packages[11].VerifyScan.Barcodes.DATA[3]",
-                "Packages[11].VerifyScan.Barcodes.DATA[4]", "Packages[11].VerifyScan.Barcodes.DATA[5]", "Packages[11].VerifyScan.Barcodes.DATA[6]",
-                "Packages[11].VerifyScan.Barcodes.DATA[7]", "Packages[11].VerifyScan.Barcodes.DATA[8]", "Packages[11].VerifyScan.Barcodes.DATA[9]",
-                "Packages[11].VerifyScan.Barcodes.DATA[10]", "Packages[12].VerifyScan.Barcodes.DATA[0]", "Packages[12].VerifyScan.Barcodes.DATA[1]", "Packages[12].VerifyScan.Barcodes.DATA[2]",
-                "Packages[12].VerifyScan.Barcodes.DATA[3]", "Packages[12].VerifyScan.Barcodes.DATA[4]", "Packages[12].VerifyScan.Barcodes.DATA[5]",
-                "Packages[12].VerifyScan.Barcodes.DATA[6]", "Packages[12].VerifyScan.Barcodes.DATA[7]", "Packages[12].VerifyScan.Barcodes.DATA[8]",
-                "Packages[12].VerifyScan.Barcodes.DATA[9]", "Packages[12].VerifyScan.Barcodes.DATA[10]", "Packages[13].VerifyScan.Barcodes.DATA[0]",
-                "Packages[13].VerifyScan.Barcodes.DATA[1]", "Packages[13].VerifyScan.Barcodes.DATA[2]", "Packages[13].VerifyScan.Barcodes.DATA[3]",
-                "Packages[13].VerifyScan.Barcodes.DATA[4]", "Packages[13].VerifyScan.Barcodes.DATA[5]", "Packages[13].VerifyScan.Barcodes.DATA[6]",
-                "Packages[13].VerifyScan.Barcodes.DATA[7]", "Packages[13].VerifyScan.Barcodes.DATA[8]", "Packages[13].VerifyScan.Barcodes.DATA[9]",
-                "Packages[13].VerifyScan.Barcodes.DATA[10]", "Packages[14].VerifyScan.Barcodes.DATA[0]", "Packages[14].VerifyScan.Barcodes.DATA[1]", "Packages[14].VerifyScan.Barcodes.DATA[2]",
-                "Packages[14].VerifyScan.Barcodes.DATA[3]", "Packages[14].VerifyScan.Barcodes.DATA[4]", "Packages[14].VerifyScan.Barcodes.DATA[5]",
-                "Packages[14].VerifyScan.Barcodes.DATA[6]", "Packages[14].VerifyScan.Barcodes.DATA[7]", "Packages[14].VerifyScan.Barcodes.DATA[8]",
-                "Packages[14].VerifyScan.Barcodes.DATA[9]", "Packages[14].VerifyScan.Barcodes.DATA[10]", "Packages[15].VerifyScan.Barcodes.DATA[0]",
-                "Packages[15].VerifyScan.Barcodes.DATA[1]", "Packages[15].VerifyScan.Barcodes.DATA[2]", "Packages[15].VerifyScan.Barcodes.DATA[3]",
-                "Packages[15].VerifyScan.Barcodes.DATA[4]", "Packages[15].VerifyScan.Barcodes.DATA[5]", "Packages[15].VerifyScan.Barcodes.DATA[6]",
-                "Packages[15].VerifyScan.Barcodes.DATA[7]", "Packages[15].VerifyScan.Barcodes.DATA[8]", "Packages[15].VerifyScan.Barcodes.DATA[9]",
-                "Packages[15].VerifyScan.Barcodes.DATA[10]", "Packages[16].VerifyScan.Barcodes.DATA[0]", "Packages[16].VerifyScan.Barcodes.DATA[1]", "Packages[16].VerifyScan.Barcodes.DATA[2]",
-                "Packages[16].VerifyScan.Barcodes.DATA[3]", "Packages[16].VerifyScan.Barcodes.DATA[4]", "Packages[16].VerifyScan.Barcodes.DATA[5]",
-                "Packages[16].VerifyScan.Barcodes.DATA[6]", "Packages[16].VerifyScan.Barcodes.DATA[7]", "Packages[16].VerifyScan.Barcodes.DATA[8]",
-                "Packages[16].VerifyScan.Barcodes.DATA[9]", "Packages[16].VerifyScan.Barcodes.DATA[10]", "Packages[17].VerifyScan.Barcodes.DATA[0]",
-                "Packages[17].VerifyScan.Barcodes.DATA[1]", "Packages[17].VerifyScan.Barcodes.DATA[2]", "Packages[17].VerifyScan.Barcodes.DATA[3]",
-                "Packages[17].VerifyScan.Barcodes.DATA[4]", "Packages[17].VerifyScan.Barcodes.DATA[5]", "Packages[17].VerifyScan.Barcodes.DATA[6]",
-                "Packages[17].VerifyScan.Barcodes.DATA[7]", "Packages[17].VerifyScan.Barcodes.DATA[8]", "Packages[17].VerifyScan.Barcodes.DATA[9]",
-                "Packages[17].VerifyScan.Barcodes.DATA[10]", "Packages[18].VerifyScan.Barcodes.DATA[0]", "Packages[18].VerifyScan.Barcodes.DATA[1]", "Packages[18].VerifyScan.Barcodes.DATA[2]",
-                "Packages[18].VerifyScan.Barcodes.DATA[3]", "Packages[18].VerifyScan.Barcodes.DATA[4]", "Packages[18].VerifyScan.Barcodes.DATA[5]",
-                "Packages[18].VerifyScan.Barcodes.DATA[6]", "Packages[18].VerifyScan.Barcodes.DATA[7]", "Packages[18].VerifyScan.Barcodes.DATA[8]",
-                "Packages[18].VerifyScan.Barcodes.DATA[9]", "Packages[18].VerifyScan.Barcodes.DATA[10]", "Packages[19].VerifyScan.Barcodes.DATA[0]",
-                "Packages[19].VerifyScan.Barcodes.DATA[1]", "Packages[19].VerifyScan.Barcodes.DATA[2]", "Packages[19].VerifyScan.Barcodes.DATA[3]",
-                "Packages[19].VerifyScan.Barcodes.DATA[4]", "Packages[19].VerifyScan.Barcodes.DATA[5]", "Packages[19].VerifyScan.Barcodes.DATA[6]",
-                "Packages[19].VerifyScan.Barcodes.DATA[7]", "Packages[19].VerifyScan.Barcodes.DATA[8]", "Packages[19].VerifyScan.Barcodes.DATA[9]",
-                "Packages[19].VerifyScan.Barcodes.DATA[10]"}
-            clxVal = e.PlcAddress
-            cVal = cSh.Cells
-            pVal = e.Values(0)
-            cX = 15
-            cX1 = 5
-        Catch ex As Exception
-            MsgBox("Scale Scanner Variables", ex.Message)
-        End Try
-        Try
-            For Each index In plcAdd
-                If clxVal = index Then
-                    cVal(cX, cX1) = Chr(pVal)
-                End If
-                If cX1 = 15 Then
-                    cX += 2
-                    cX1 -= 10
-                Else
-                    cX1 += 1
-                End If
-            Next
-        Catch ex As Exception
-            MsgBox("Scale Scanner For Loop Full", ex.Message)
-        End Try
-
+        If btnBool = True Then
+            Try
+                plcAdd = {"Packages[0].ScaleScan.Barcodes.DATA[4]", "Packages[0].ScaleScan.Barcodes.DATA[5]", "Packages[0].ScaleScan.Barcodes.DATA[6]",
+                    "Packages[0].ScaleScan.Barcodes.DATA[7]", "Packages[0].ScaleScan.Barcodes.DATA[8]", "Packages[0].ScaleScan.Barcodes.DATA[9]",
+                    "Packages[0].ScaleScan.Barcodes.DATA[10]", "Packages[0].ScaleScan.Barcodes.DATA[11]", "Packages[0].ScaleScan.Barcodes.DATA[12]",
+                    "Packages[0].ScaleScan.Barcodes.DATA[13]", "Packages[0].ScaleScan.Barcodes.DATA[14]", "Packages[1].ScaleScan.Barcodes.DATA[4]",
+                    "Packages[1].ScaleScan.Barcodes.DATA[5]", "Packages[1].ScaleScan.Barcodes.DATA[6]", "Packages[1].ScaleScan.Barcodes.DATA[7]",
+                    "Packages[1].ScaleScan.Barcodes.DATA[8]", "Packages[1].ScaleScan.Barcodes.DATA[9]", "Packages[1].ScaleScan.Barcodes.DATA[10]",
+                    "Packages[1].ScaleScan.Barcodes.DATA[11]", "Packages[1].ScaleScan.Barcodes.DATA[12]", "Packages[1].ScaleScan.Barcodes.DATA[13]",
+                    "Packages[1].ScaleScan.Barcodes.DATA[14]", "Packages[2].ScaleScan.Barcodes.DATA[4]", "Packages[2].ScaleScan.Barcodes.DATA[5]", "Packages[2].ScaleScan.Barcodes.DATA[6]",
+                    "Packages[2].ScaleScan.Barcodes.DATA[7]", "Packages[2].ScaleScan.Barcodes.DATA[8]", "Packages[2].ScaleScan.Barcodes.DATA[9]",
+                    "Packages[2].ScaleScan.Barcodes.DATA[10]", "Packages[2].ScaleScan.Barcodes.DATA[11]", "Packages[2].ScaleScan.Barcodes.DATA[12]",
+                    "Packages[2].ScaleScan.Barcodes.DATA[13]", "Packages[2].ScaleScan.Barcodes.DATA[14]", "Packages[3].ScaleScan.Barcodes.DATA[4]",
+                    "Packages[3].ScaleScan.Barcodes.DATA[5]", "Packages[3].ScaleScan.Barcodes.DATA[6]", "Packages[3].ScaleScan.Barcodes.DATA[7]",
+                    "Packages[3].ScaleScan.Barcodes.DATA[8]", "Packages[3].ScaleScan.Barcodes.DATA[9]", "Packages[3].ScaleScan.Barcodes.DATA[10]",
+                    "Packages[3].ScaleScan.Barcodes.DATA[11]", "Packages[3].ScaleScan.Barcodes.DATA[12]", "Packages[3].ScaleScan.Barcodes.DATA[13]",
+                    "Packages[3].ScaleScan.Barcodes.DATA[14]", "Packages[4].ScaleScan.Barcodes.DATA[4]", "Packages[4].ScaleScan.Barcodes.DATA[5]", "Packages[4].ScaleScan.Barcodes.DATA[6]",
+                    "Packages[4].ScaleScan.Barcodes.DATA[7]", "Packages[4].ScaleScan.Barcodes.DATA[8]", "Packages[4].ScaleScan.Barcodes.DATA[9]",
+                    "Packages[4].ScaleScan.Barcodes.DATA[10]", "Packages[4].ScaleScan.Barcodes.DATA[11]", "Packages[4].ScaleScan.Barcodes.DATA[12]",
+                    "Packages[4].ScaleScan.Barcodes.DATA[13]", "Packages[4].ScaleScan.Barcodes.DATA[14]", "Packages[5].ScaleScan.Barcodes.DATA[4]",
+                    "Packages[5].ScaleScan.Barcodes.DATA[5]", "Packages[5].ScaleScan.Barcodes.DATA[6]", "Packages[5].ScaleScan.Barcodes.DATA[7]",
+                    "Packages[5].ScaleScan.Barcodes.DATA[8]", "Packages[5].ScaleScan.Barcodes.DATA[9]", "Packages[5].ScaleScan.Barcodes.DATA[10]",
+                    "Packages[5].ScaleScan.Barcodes.DATA[11]", "Packages[5].ScaleScan.Barcodes.DATA[12]", "Packages[5].ScaleScan.Barcodes.DATA[13]",
+                    "Packages[5].ScaleScan.Barcodes.DATA[14]", "Packages[6].ScaleScan.Barcodes.DATA[4]", "Packages[6].ScaleScan.Barcodes.DATA[5]", "Packages[6].ScaleScan.Barcodes.DATA[6]",
+                    "Packages[6].ScaleScan.Barcodes.DATA[7]", "Packages[6].ScaleScan.Barcodes.DATA[8]", "Packages[6].ScaleScan.Barcodes.DATA[9]",
+                    "Packages[6].ScaleScan.Barcodes.DATA[10]", "Packages[6].ScaleScan.Barcodes.DATA[11]", "Packages[6].ScaleScan.Barcodes.DATA[12]",
+                    "Packages[6].ScaleScan.Barcodes.DATA[13]", "Packages[6].ScaleScan.Barcodes.DATA[14]", "Packages[7].ScaleScan.Barcodes.DATA[4]",
+                    "Packages[7].ScaleScan.Barcodes.DATA[5]", "Packages[7].ScaleScan.Barcodes.DATA[6]", "Packages[7].ScaleScan.Barcodes.DATA[7]",
+                    "Packages[7].ScaleScan.Barcodes.DATA[8]", "Packages[7].ScaleScan.Barcodes.DATA[9]", "Packages[7].ScaleScan.Barcodes.DATA[10]",
+                    "Packages[7].ScaleScan.Barcodes.DATA[11]", "Packages[7].ScaleScan.Barcodes.DATA[12]", "Packages[7].ScaleScan.Barcodes.DATA[13]",
+                    "Packages[7].ScaleScan.Barcodes.DATA[14]", "Packages[8].ScaleScan.Barcodes.DATA[4]", "Packages[8].ScaleScan.Barcodes.DATA[5]", "Packages[8].ScaleScan.Barcodes.DATA[6]",
+                    "Packages[8].ScaleScan.Barcodes.DATA[7]", "Packages[8].ScaleScan.Barcodes.DATA[8]", "Packages[8].ScaleScan.Barcodes.DATA[9]",
+                    "Packages[8].ScaleScan.Barcodes.DATA[10]", "Packages[8].ScaleScan.Barcodes.DATA[11]", "Packages[8].ScaleScan.Barcodes.DATA[12]",
+                    "Packages[8].ScaleScan.Barcodes.DATA[13]", "Packages[8].ScaleScan.Barcodes.DATA[14]", "Packages[9].ScaleScan.Barcodes.DATA[4]",
+                    "Packages[9].ScaleScan.Barcodes.DATA[5]", "Packages[9].ScaleScan.Barcodes.DATA[6]", "Packages[9].ScaleScan.Barcodes.DATA[7]",
+                    "Packages[9].ScaleScan.Barcodes.DATA[8]", "Packages[9].ScaleScan.Barcodes.DATA[9]", "Packages[9].ScaleScan.Barcodes.DATA[10]",
+                    "Packages[9].ScaleScan.Barcodes.DATA[11]", "Packages[9].ScaleScan.Barcodes.DATA[12]", "Packages[9].ScaleScan.Barcodes.DATA[13]",
+                    "Packages[9].ScaleScan.Barcodes.DATA[14]", "Packages[10].ScaleScan.Barcodes.DATA[4]", "Packages[10].ScaleScan.Barcodes.DATA[5]", "Packages[10].ScaleScan.Barcodes.DATA[6]",
+                    "Packages[10].ScaleScan.Barcodes.DATA[7]", "Packages[10].ScaleScan.Barcodes.DATA[8]", "Packages[10].ScaleScan.Barcodes.DATA[9]",
+                    "Packages[10].ScaleScan.Barcodes.DATA[10]", "Packages[10].ScaleScan.Barcodes.DATA[11]", "Packages[10].ScaleScan.Barcodes.DATA[12]",
+                    "Packages[10].ScaleScan.Barcodes.DATA[13]", "Packages[10].ScaleScan.Barcodes.DATA[14]", "Packages[11].ScaleScan.Barcodes.DATA[4]",
+                    "Packages[11].ScaleScan.Barcodes.DATA[5]", "Packages[11].ScaleScan.Barcodes.DATA[6]", "Packages[11].ScaleScan.Barcodes.DATA[7]",
+                    "Packages[11].ScaleScan.Barcodes.DATA[8]", "Packages[11].ScaleScan.Barcodes.DATA[9]", "Packages[11].ScaleScan.Barcodes.DATA[10]",
+                    "Packages[11].ScaleScan.Barcodes.DATA[11]", "Packages[11].ScaleScan.Barcodes.DATA[12]", "Packages[11].ScaleScan.Barcodes.DATA[13]",
+                    "Packages[11].ScaleScan.Barcodes.DATA[14]", "Packages[12].ScaleScan.Barcodes.DATA[4]", "Packages[12].ScaleScan.Barcodes.DATA[5]", "Packages[12].ScaleScan.Barcodes.DATA[6]",
+                    "Packages[12].ScaleScan.Barcodes.DATA[7]", "Packages[12].ScaleScan.Barcodes.DATA[8]", "Packages[12].ScaleScan.Barcodes.DATA[9]",
+                    "Packages[12].ScaleScan.Barcodes.DATA[10]", "Packages[12].ScaleScan.Barcodes.DATA[11]", "Packages[12].ScaleScan.Barcodes.DATA[12]",
+                    "Packages[12].ScaleScan.Barcodes.DATA[13]", "Packages[12].ScaleScan.Barcodes.DATA[14]", "Packages[13].ScaleScan.Barcodes.DATA[4]",
+                    "Packages[13].ScaleScan.Barcodes.DATA[5]", "Packages[13].ScaleScan.Barcodes.DATA[6]", "Packages[13].ScaleScan.Barcodes.DATA[7]",
+                    "Packages[13].ScaleScan.Barcodes.DATA[8]", "Packages[13].ScaleScan.Barcodes.DATA[9]", "Packages[13].ScaleScan.Barcodes.DATA[10]",
+                    "Packages[13].ScaleScan.Barcodes.DATA[11]", "Packages[13].ScaleScan.Barcodes.DATA[12]", "Packages[13].ScaleScan.Barcodes.DATA[13]",
+                    "Packages[13].ScaleScan.Barcodes.DATA[14]", "Packages[14].ScaleScan.Barcodes.DATA[4]", "Packages[14].ScaleScan.Barcodes.DATA[5]", "Packages[14].ScaleScan.Barcodes.DATA[6]",
+                    "Packages[14].ScaleScan.Barcodes.DATA[7]", "Packages[14].ScaleScan.Barcodes.DATA[8]", "Packages[14].ScaleScan.Barcodes.DATA[9]",
+                    "Packages[14].ScaleScan.Barcodes.DATA[10]", "Packages[14].ScaleScan.Barcodes.DATA[11]", "Packages[14].ScaleScan.Barcodes.DATA[12]",
+                    "Packages[14].ScaleScan.Barcodes.DATA[13]", "Packages[14].ScaleScan.Barcodes.DATA[14]", "Packages[15].ScaleScan.Barcodes.DATA[4]",
+                    "Packages[15].ScaleScan.Barcodes.DATA[5]", "Packages[15].ScaleScan.Barcodes.DATA[6]", "Packages[15].ScaleScan.Barcodes.DATA[7]",
+                    "Packages[15].ScaleScan.Barcodes.DATA[8]", "Packages[15].ScaleScan.Barcodes.DATA[9]", "Packages[15].ScaleScan.Barcodes.DATA[10]",
+                    "Packages[15].ScaleScan.Barcodes.DATA[11]", "Packages[15].ScaleScan.Barcodes.DATA[12]", "Packages[15].ScaleScan.Barcodes.DATA[13]",
+                    "Packages[15].ScaleScan.Barcodes.DATA[14]", "Packages[16].ScaleScan.Barcodes.DATA[4]", "Packages[16].ScaleScan.Barcodes.DATA[5]", "Packages[16].ScaleScan.Barcodes.DATA[6]",
+                    "Packages[16].ScaleScan.Barcodes.DATA[7]", "Packages[16].ScaleScan.Barcodes.DATA[8]", "Packages[16].ScaleScan.Barcodes.DATA[9]",
+                    "Packages[16].ScaleScan.Barcodes.DATA[10]", "Packages[16].ScaleScan.Barcodes.DATA[11]", "Packages[16].ScaleScan.Barcodes.DATA[12]",
+                    "Packages[16].ScaleScan.Barcodes.DATA[13]", "Packages[16].ScaleScan.Barcodes.DATA[14]", "Packages[17].ScaleScan.Barcodes.DATA[4]",
+                    "Packages[17].ScaleScan.Barcodes.DATA[5]", "Packages[17].ScaleScan.Barcodes.DATA[6]", "Packages[17].ScaleScan.Barcodes.DATA[7]",
+                    "Packages[17].ScaleScan.Barcodes.DATA[8]", "Packages[17].ScaleScan.Barcodes.DATA[9]", "Packages[17].ScaleScan.Barcodes.DATA[10]",
+                    "Packages[17].ScaleScan.Barcodes.DATA[11]", "Packages[17].ScaleScan.Barcodes.DATA[12]", "Packages[17].ScaleScan.Barcodes.DATA[13]",
+                    "Packages[17].ScaleScan.Barcodes.DATA[14]", "Packages[18].ScaleScan.Barcodes.DATA[4]", "Packages[18].ScaleScan.Barcodes.DATA[5]", "Packages[18].ScaleScan.Barcodes.DATA[6]",
+                    "Packages[18].ScaleScan.Barcodes.DATA[7]", "Packages[18].ScaleScan.Barcodes.DATA[8]", "Packages[18].ScaleScan.Barcodes.DATA[9]",
+                    "Packages[18].ScaleScan.Barcodes.DATA[10]", "Packages[18].ScaleScan.Barcodes.DATA[11]", "Packages[18].ScaleScan.Barcodes.DATA[12]",
+                    "Packages[18].ScaleScan.Barcodes.DATA[13]", "Packages[18].ScaleScan.Barcodes.DATA[14]", "Packages[19].ScaleScan.Barcodes.DATA[4]",
+                    "Packages[19].ScaleScan.Barcodes.DATA[5]", "Packages[19].ScaleScan.Barcodes.DATA[6]", "Packages[19].ScaleScan.Barcodes.DATA[7]",
+                    "Packages[19].ScaleScan.Barcodes.DATA[8]", "Packages[19].ScaleScan.Barcodes.DATA[9]", "Packages[19].ScaleScan.Barcodes.DATA[10]",
+                    "Packages[19].ScaleScan.Barcodes.DATA[11]", "Packages[19].ScaleScan.Barcodes.DATA[12]", "Packages[19].ScaleScan.Barcodes.DATA[13]",
+                    "Packages[19].ScaleScan.Barcodes.DATA[14]", "Packages[0].VerifyScan.Barcodes.DATA[0]", "Packages[0].VerifyScan.Barcodes.DATA[1]", "Packages[0].VerifyScan.Barcodes.DATA[2]",
+                    "Packages[0].VerifyScan.Barcodes.DATA[3]", "Packages[0].VerifyScan.Barcodes.DATA[4]", "Packages[0].VerifyScan.Barcodes.DATA[5]",
+                    "Packages[0].VerifyScan.Barcodes.DATA[6]", "Packages[0].VerifyScan.Barcodes.DATA[7]", "Packages[0].VerifyScan.Barcodes.DATA[8]",
+                    "Packages[0].VerifyScan.Barcodes.DATA[9]", "Packages[0].VerifyScan.Barcodes.DATA[10]", "Packages[1].VerifyScan.Barcodes.DATA[0]",
+                    "Packages[1].VerifyScan.Barcodes.DATA[1]", "Packages[1].VerifyScan.Barcodes.DATA[2]", "Packages[1].VerifyScan.Barcodes.DATA[3]",
+                    "Packages[1].VerifyScan.Barcodes.DATA[4]", "Packages[1].VerifyScan.Barcodes.DATA[5]", "Packages[1].VerifyScan.Barcodes.DATA[6]",
+                    "Packages[1].VerifyScan.Barcodes.DATA[7]", "Packages[1].VerifyScan.Barcodes.DATA[8]", "Packages[1].VerifyScan.Barcodes.DATA[9]",
+                    "Packages[1].VerifyScan.Barcodes.DATA[10]", "Packages[2].VerifyScan.Barcodes.DATA[0]", "Packages[2].VerifyScan.Barcodes.DATA[1]", "Packages[2].VerifyScan.Barcodes.DATA[2]",
+                    "Packages[2].VerifyScan.Barcodes.DATA[3]", "Packages[2].VerifyScan.Barcodes.DATA[4]", "Packages[2].VerifyScan.Barcodes.DATA[5]",
+                    "Packages[2].VerifyScan.Barcodes.DATA[6]", "Packages[2].VerifyScan.Barcodes.DATA[7]", "Packages[2].VerifyScan.Barcodes.DATA[8]",
+                    "Packages[2].VerifyScan.Barcodes.DATA[9]", "Packages[2].VerifyScan.Barcodes.DATA[10]", "Packages[3].VerifyScan.Barcodes.DATA[0]",
+                    "Packages[3].VerifyScan.Barcodes.DATA[1]", "Packages[3].VerifyScan.Barcodes.DATA[2]", "Packages[3].VerifyScan.Barcodes.DATA[3]",
+                    "Packages[3].VerifyScan.Barcodes.DATA[4]", "Packages[3].VerifyScan.Barcodes.DATA[5]", "Packages[3].VerifyScan.Barcodes.DATA[6]",
+                    "Packages[3].VerifyScan.Barcodes.DATA[7]", "Packages[3].VerifyScan.Barcodes.DATA[8]", "Packages[3].VerifyScan.Barcodes.DATA[9]",
+                    "Packages[3].VerifyScan.Barcodes.DATA[10]", "Packages[4].VerifyScan.Barcodes.DATA[0]", "Packages[4].VerifyScan.Barcodes.DATA[1]", "Packages[4].VerifyScan.Barcodes.DATA[2]",
+                    "Packages[4].VerifyScan.Barcodes.DATA[3]", "Packages[4].VerifyScan.Barcodes.DATA[4]", "Packages[4].VerifyScan.Barcodes.DATA[5]",
+                    "Packages[4].VerifyScan.Barcodes.DATA[6]", "Packages[4].VerifyScan.Barcodes.DATA[7]", "Packages[4].VerifyScan.Barcodes.DATA[8]",
+                    "Packages[4].VerifyScan.Barcodes.DATA[9]", "Packages[4].VerifyScan.Barcodes.DATA[10]", "Packages[5].VerifyScan.Barcodes.DATA[0]",
+                    "Packages[5].VerifyScan.Barcodes.DATA[1]", "Packages[5].VerifyScan.Barcodes.DATA[2]", "Packages[5].VerifyScan.Barcodes.DATA[3]",
+                    "Packages[5].VerifyScan.Barcodes.DATA[4]", "Packages[5].VerifyScan.Barcodes.DATA[5]", "Packages[5].VerifyScan.Barcodes.DATA[6]",
+                    "Packages[5].VerifyScan.Barcodes.DATA[7]", "Packages[5].VerifyScan.Barcodes.DATA[8]", "Packages[5].VerifyScan.Barcodes.DATA[9]",
+                    "Packages[5].VerifyScan.Barcodes.DATA[10]", "Packages[6].VerifyScan.Barcodes.DATA[0]", "Packages[6].VerifyScan.Barcodes.DATA[1]", "Packages[6].VerifyScan.Barcodes.DATA[2]",
+                    "Packages[6].VerifyScan.Barcodes.DATA[3]", "Packages[6].VerifyScan.Barcodes.DATA[4]", "Packages[6].VerifyScan.Barcodes.DATA[5]",
+                    "Packages[6].VerifyScan.Barcodes.DATA[6]", "Packages[6].VerifyScan.Barcodes.DATA[7]", "Packages[6].VerifyScan.Barcodes.DATA[8]",
+                    "Packages[6].VerifyScan.Barcodes.DATA[9]", "Packages[6].VerifyScan.Barcodes.DATA[10]", "Packages[7].VerifyScan.Barcodes.DATA[0]",
+                    "Packages[7].VerifyScan.Barcodes.DATA[1]", "Packages[7].VerifyScan.Barcodes.DATA[2]", "Packages[7].VerifyScan.Barcodes.DATA[3]",
+                    "Packages[7].VerifyScan.Barcodes.DATA[4]", "Packages[7].VerifyScan.Barcodes.DATA[5]", "Packages[7].VerifyScan.Barcodes.DATA[6]",
+                    "Packages[7].VerifyScan.Barcodes.DATA[7]", "Packages[7].VerifyScan.Barcodes.DATA[8]", "Packages[7].VerifyScan.Barcodes.DATA[9]",
+                    "Packages[7].VerifyScan.Barcodes.DATA[10]", "Packages[8].VerifyScan.Barcodes.DATA[0]", "Packages[8].VerifyScan.Barcodes.DATA[1]", "Packages[8].VerifyScan.Barcodes.DATA[2]",
+                    "Packages[8].VerifyScan.Barcodes.DATA[3]", "Packages[8].VerifyScan.Barcodes.DATA[4]", "Packages[8].VerifyScan.Barcodes.DATA[5]",
+                    "Packages[8].VerifyScan.Barcodes.DATA[6]", "Packages[8].VerifyScan.Barcodes.DATA[7]", "Packages[8].VerifyScan.Barcodes.DATA[8]",
+                    "Packages[8].VerifyScan.Barcodes.DATA[9]", "Packages[8].VerifyScan.Barcodes.DATA[10]", "Packages[9].VerifyScan.Barcodes.DATA[0]",
+                    "Packages[9].VerifyScan.Barcodes.DATA[1]", "Packages[9].VerifyScan.Barcodes.DATA[2]", "Packages[9].VerifyScan.Barcodes.DATA[3]",
+                    "Packages[9].VerifyScan.Barcodes.DATA[4]", "Packages[9].VerifyScan.Barcodes.DATA[5]", "Packages[9].VerifyScan.Barcodes.DATA[6]",
+                    "Packages[9].VerifyScan.Barcodes.DATA[7]", "Packages[9].VerifyScan.Barcodes.DATA[8]", "Packages[9].VerifyScan.Barcodes.DATA[9]",
+                    "Packages[9].VerifyScan.Barcodes.DATA[10]", "Packages[10].VerifyScan.Barcodes.DATA[0]", "Packages[10].VerifyScan.Barcodes.DATA[1]", "Packages[10].VerifyScan.Barcodes.DATA[2]",
+                    "Packages[10].VerifyScan.Barcodes.DATA[3]", "Packages[10].VerifyScan.Barcodes.DATA[4]", "Packages[10].VerifyScan.Barcodes.DATA[5]",
+                    "Packages[10].VerifyScan.Barcodes.DATA[6]", "Packages[10].VerifyScan.Barcodes.DATA[7]", "Packages[10].VerifyScan.Barcodes.DATA[8]",
+                    "Packages[10].VerifyScan.Barcodes.DATA[9]", "Packages[10].VerifyScan.Barcodes.DATA[10]", "Packages[11].VerifyScan.Barcodes.DATA[0]",
+                    "Packages[11].VerifyScan.Barcodes.DATA[1]", "Packages[11].VerifyScan.Barcodes.DATA[2]", "Packages[11].VerifyScan.Barcodes.DATA[3]",
+                    "Packages[11].VerifyScan.Barcodes.DATA[4]", "Packages[11].VerifyScan.Barcodes.DATA[5]", "Packages[11].VerifyScan.Barcodes.DATA[6]",
+                    "Packages[11].VerifyScan.Barcodes.DATA[7]", "Packages[11].VerifyScan.Barcodes.DATA[8]", "Packages[11].VerifyScan.Barcodes.DATA[9]",
+                    "Packages[11].VerifyScan.Barcodes.DATA[10]", "Packages[12].VerifyScan.Barcodes.DATA[0]", "Packages[12].VerifyScan.Barcodes.DATA[1]", "Packages[12].VerifyScan.Barcodes.DATA[2]",
+                    "Packages[12].VerifyScan.Barcodes.DATA[3]", "Packages[12].VerifyScan.Barcodes.DATA[4]", "Packages[12].VerifyScan.Barcodes.DATA[5]",
+                    "Packages[12].VerifyScan.Barcodes.DATA[6]", "Packages[12].VerifyScan.Barcodes.DATA[7]", "Packages[12].VerifyScan.Barcodes.DATA[8]",
+                    "Packages[12].VerifyScan.Barcodes.DATA[9]", "Packages[12].VerifyScan.Barcodes.DATA[10]", "Packages[13].VerifyScan.Barcodes.DATA[0]",
+                    "Packages[13].VerifyScan.Barcodes.DATA[1]", "Packages[13].VerifyScan.Barcodes.DATA[2]", "Packages[13].VerifyScan.Barcodes.DATA[3]",
+                    "Packages[13].VerifyScan.Barcodes.DATA[4]", "Packages[13].VerifyScan.Barcodes.DATA[5]", "Packages[13].VerifyScan.Barcodes.DATA[6]",
+                    "Packages[13].VerifyScan.Barcodes.DATA[7]", "Packages[13].VerifyScan.Barcodes.DATA[8]", "Packages[13].VerifyScan.Barcodes.DATA[9]",
+                    "Packages[13].VerifyScan.Barcodes.DATA[10]", "Packages[14].VerifyScan.Barcodes.DATA[0]", "Packages[14].VerifyScan.Barcodes.DATA[1]", "Packages[14].VerifyScan.Barcodes.DATA[2]",
+                    "Packages[14].VerifyScan.Barcodes.DATA[3]", "Packages[14].VerifyScan.Barcodes.DATA[4]", "Packages[14].VerifyScan.Barcodes.DATA[5]",
+                    "Packages[14].VerifyScan.Barcodes.DATA[6]", "Packages[14].VerifyScan.Barcodes.DATA[7]", "Packages[14].VerifyScan.Barcodes.DATA[8]",
+                    "Packages[14].VerifyScan.Barcodes.DATA[9]", "Packages[14].VerifyScan.Barcodes.DATA[10]", "Packages[15].VerifyScan.Barcodes.DATA[0]",
+                    "Packages[15].VerifyScan.Barcodes.DATA[1]", "Packages[15].VerifyScan.Barcodes.DATA[2]", "Packages[15].VerifyScan.Barcodes.DATA[3]",
+                    "Packages[15].VerifyScan.Barcodes.DATA[4]", "Packages[15].VerifyScan.Barcodes.DATA[5]", "Packages[15].VerifyScan.Barcodes.DATA[6]",
+                    "Packages[15].VerifyScan.Barcodes.DATA[7]", "Packages[15].VerifyScan.Barcodes.DATA[8]", "Packages[15].VerifyScan.Barcodes.DATA[9]",
+                    "Packages[15].VerifyScan.Barcodes.DATA[10]", "Packages[16].VerifyScan.Barcodes.DATA[0]", "Packages[16].VerifyScan.Barcodes.DATA[1]", "Packages[16].VerifyScan.Barcodes.DATA[2]",
+                    "Packages[16].VerifyScan.Barcodes.DATA[3]", "Packages[16].VerifyScan.Barcodes.DATA[4]", "Packages[16].VerifyScan.Barcodes.DATA[5]",
+                    "Packages[16].VerifyScan.Barcodes.DATA[6]", "Packages[16].VerifyScan.Barcodes.DATA[7]", "Packages[16].VerifyScan.Barcodes.DATA[8]",
+                    "Packages[16].VerifyScan.Barcodes.DATA[9]", "Packages[16].VerifyScan.Barcodes.DATA[10]", "Packages[17].VerifyScan.Barcodes.DATA[0]",
+                    "Packages[17].VerifyScan.Barcodes.DATA[1]", "Packages[17].VerifyScan.Barcodes.DATA[2]", "Packages[17].VerifyScan.Barcodes.DATA[3]",
+                    "Packages[17].VerifyScan.Barcodes.DATA[4]", "Packages[17].VerifyScan.Barcodes.DATA[5]", "Packages[17].VerifyScan.Barcodes.DATA[6]",
+                    "Packages[17].VerifyScan.Barcodes.DATA[7]", "Packages[17].VerifyScan.Barcodes.DATA[8]", "Packages[17].VerifyScan.Barcodes.DATA[9]",
+                    "Packages[17].VerifyScan.Barcodes.DATA[10]", "Packages[18].VerifyScan.Barcodes.DATA[0]", "Packages[18].VerifyScan.Barcodes.DATA[1]", "Packages[18].VerifyScan.Barcodes.DATA[2]",
+                    "Packages[18].VerifyScan.Barcodes.DATA[3]", "Packages[18].VerifyScan.Barcodes.DATA[4]", "Packages[18].VerifyScan.Barcodes.DATA[5]",
+                    "Packages[18].VerifyScan.Barcodes.DATA[6]", "Packages[18].VerifyScan.Barcodes.DATA[7]", "Packages[18].VerifyScan.Barcodes.DATA[8]",
+                    "Packages[18].VerifyScan.Barcodes.DATA[9]", "Packages[18].VerifyScan.Barcodes.DATA[10]", "Packages[19].VerifyScan.Barcodes.DATA[0]",
+                    "Packages[19].VerifyScan.Barcodes.DATA[1]", "Packages[19].VerifyScan.Barcodes.DATA[2]", "Packages[19].VerifyScan.Barcodes.DATA[3]",
+                    "Packages[19].VerifyScan.Barcodes.DATA[4]", "Packages[19].VerifyScan.Barcodes.DATA[5]", "Packages[19].VerifyScan.Barcodes.DATA[6]",
+                    "Packages[19].VerifyScan.Barcodes.DATA[7]", "Packages[19].VerifyScan.Barcodes.DATA[8]", "Packages[19].VerifyScan.Barcodes.DATA[9]",
+                    "Packages[19].VerifyScan.Barcodes.DATA[10]"}
+                clxVal = e.PlcAddress
+                cVal = cSh.Cells
+                pVal = e.Values(0)
+                cX = 15
+                cX1 = 5
+            Catch ex As Exception
+                MsgBox("Scale Scanner Variables", ex.Message)
+            End Try
+            Try
+                For Each index In plcAdd
+                    If clxVal = index Then
+                        cVal(cX, cX1) = Chr(pVal)
+                    End If
+                    If cX1 = 15 Then
+                        cX += 2
+                        cX1 -= 10
+                    Else
+                        cX1 += 1
+                    End If
+                Next
+            Catch ex As Exception
+                MsgBox("Scale Scanner For Loop Full", ex.Message)
+            End Try
+        End If
     End Sub
 
     '//Subs for Alarm Indicators
