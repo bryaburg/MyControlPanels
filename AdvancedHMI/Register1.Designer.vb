@@ -46,11 +46,11 @@ Partial Class Register1
         '
         'TbUsRe
         '
+        Me.TbUsRe.AcceptsReturn = True
         Me.TbUsRe.BackColor = System.Drawing.Color.Blue
         Me.TbUsRe.Font = New System.Drawing.Font("Magneto", 22.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TbUsRe.ForeColor = System.Drawing.Color.GhostWhite
         Me.TbUsRe.Location = New System.Drawing.Point(191, 200)
-        Me.TbUsRe.Multiline = True
         Me.TbUsRe.Name = "TbUsRe"
         Me.TbUsRe.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.TbUsRe.Size = New System.Drawing.Size(254, 52)
@@ -69,11 +69,11 @@ Partial Class Register1
         '
         'TbUsPw1
         '
+        Me.TbUsPw1.AcceptsReturn = True
         Me.TbUsPw1.BackColor = System.Drawing.Color.Blue
         Me.TbUsPw1.Font = New System.Drawing.Font("Magneto", 22.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TbUsPw1.ForeColor = System.Drawing.Color.GhostWhite
         Me.TbUsPw1.Location = New System.Drawing.Point(191, 142)
-        Me.TbUsPw1.Multiline = True
         Me.TbUsPw1.Name = "TbUsPw1"
         Me.TbUsPw1.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.TbUsPw1.Size = New System.Drawing.Size(254, 52)
@@ -85,7 +85,6 @@ Partial Class Register1
         Me.TbUsName1.Font = New System.Drawing.Font("Magneto", 22.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TbUsName1.ForeColor = System.Drawing.Color.GhostWhite
         Me.TbUsName1.Location = New System.Drawing.Point(191, 84)
-        Me.TbUsName1.Multiline = True
         Me.TbUsName1.Name = "TbUsName1"
         Me.TbUsName1.Size = New System.Drawing.Size(254, 52)
         Me.TbUsName1.TabIndex = 14

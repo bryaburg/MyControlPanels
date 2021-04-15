@@ -1,4 +1,5 @@
-﻿Imports MfgControl.AdvancedHMI.Drivers.Common
+﻿Imports System.ComponentModel
+Imports MfgControl.AdvancedHMI.Drivers.Common
 
 Public Class SlamControls
     Private oXL As Microsoft.Office.Interop.Excel.Application
@@ -142,15 +143,7 @@ Public Class SlamControls
         oWB = Nothing
         oXL.Quit()
         oXL = Nothing
-
-        Dim index2 As Integer
-        While index2 < My.Application.OpenForms.Count
-            If My.Application.OpenForms(index2) IsNot Me Then
-                My.Application.OpenForms(index2).Close()
-            End If
-            index2 += 1
-        End While
-
+        Me.Close()
     End Sub
 
     '//Sub to read data from the CLX
@@ -689,4 +682,14 @@ Public Class SlamControls
 
     End Sub
 
+    '//Handles Closing Form
+    Private Sub SlamControls_Closing(sender As Object, e As CancelEventArgs) Handles Me.Closing
+        Dim index2 As Integer
+        While index2 < My.Application.OpenForms.Count
+            If My.Application.OpenForms(index2) IsNot Me Then
+                My.Application.OpenForms(index2).Close()
+            End If
+            index2 += 1
+        End While
+    End Sub
 End Class

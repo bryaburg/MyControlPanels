@@ -1,4 +1,6 @@
-﻿Public Class DSM5_Controls
+﻿Imports System.ComponentModel
+
+Public Class DSM5_Controls
     '*******************************************************************************
     '* Stop polling when the form is not visible in order to reduce communications
     '* Copy this section of code to every new form created
@@ -53,5 +55,16 @@
         Dim sDate As String = cuDate.ToString("MMM-dd-yyyy")
         LbDate.Text = sDate
         LbClk.Text = TimeOfDay
+    End Sub
+
+    '//Handles Forms Closing
+    Private Sub DSM5_Controls_Closing(sender As Object, e As CancelEventArgs) Handles Me.Closing
+        Dim index As Integer
+        While index < My.Application.OpenForms.Count
+            If My.Application.OpenForms(index) IsNot Me Then
+                My.Application.OpenForms(index).Close()
+            End If
+            index += 1
+        End While
     End Sub
 End Class

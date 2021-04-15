@@ -1,26 +1,33 @@
-﻿Public Class Login1
+﻿Imports System.ComponentModel
+
+Public Class Login1
     Private pS As Integer
-    Private ReadOnly admin As String = "Codezzz"
-    Private ReadOnly code As String = "Codezzz.zack.9"
+    Private Const admin As String = "Codezzz"
+    Private Const code As String = "Codezzz.zack.9"
     '//Login Form Load Handler
     Private Sub Login1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        If My.Settings.Username <> "" Then
+            Me.TbUsName.Text = My.Settings.Username.ToString
+        End If
 
     End Sub
 
     '//Login Button Sub!
     Private Sub LoginBtn_Click(sender As Object, e As EventArgs) Handles LoginBtn.Click
-        If TbUsName.Text = My.Settings.Username Or TbUsName.Text = admin Then
-            pS += 1
-        End If
-        If TbUsPw.Text = My.Settings.Password Or TbUsPw.Text = code Then
-            pS += 1
-        End If
-        If pS = 2 Then
-            MessageBox.Show("Login Successful", "Login:")
+        Dim Iput As Integer
+        If (TbUsName.Text = My.Settings.Username And TbUsPw.Text = My.Settings.Password) Or (TbUsName.Text = admin And TbUsPw.Text = code) Then
             DSM5_Controls.Show()
-            Me.Hide()
+            Me.Close()
         Else
-            Me.Show()
+            Iput = MsgBox("Please Enter Correct Login", vbOKCancel, "Invalid Login Credentials")
+            If Iput = vbOK Then
+                TbUsPw.Clear()
+                MyBase.Activate()
+                Me.TbUsPw.Focus()
+            Else
+                Me.Close
+            End If
+
         End If
     End Sub
 
@@ -30,4 +37,8 @@
         Me.Hide()
     End Sub
 
+    '//Handles Auto Login
+    Private Sub TbUsPw_TextChanged(sender As Object, e As EventArgs) Handles TbUsPw.TextChanged
+        If TbUsPw.Text = My.Settings.Password Or TbUsPw.Text = code Then LoginBtn.Focus()
+    End Sub
 End Class
