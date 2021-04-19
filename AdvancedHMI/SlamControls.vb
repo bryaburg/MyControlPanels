@@ -14,6 +14,8 @@ Public Class SlamControls
     Private cX, cX1, cX2 As Integer
     Private index, index1, dex, input, myCom As String
     Private btnBool As Boolean = False
+    Private btnBool1 As Boolean = False
+    Private errCode() As Integer = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
 
     '//Handles Loading Slam Controls and Excel Form!
     Private Sub SlamControls_Load(sender As Object, e As EventArgs) Handles MyBase.Load
@@ -157,11 +159,6 @@ Public Class SlamControls
                 cVal = cSh.Cells
                 pVal = e.Values(0)
                 cX = 3
-            Catch ex As Exception
-                MsgBox("Last 10 KO Variables", ex.Message)
-            End Try
-
-            Try
                 For Each index In plcAdd
                     If clxVal = index Then
                         cVal(cX, 2) = pVal
@@ -184,11 +181,6 @@ Public Class SlamControls
                 cVal = cSh.Cells
                 pVal = e.Values(0)
                 cX = 3
-            Catch ex As Exception
-                MsgBox("Kickout TimeStamps Variables", ex.Message)
-            End Try
-
-            Try
                 For Each index In plcAdd
                     If clxVal = index Then
                         cVal(cX, 1) = pVal
@@ -211,11 +203,6 @@ Public Class SlamControls
                 cVal = cSh.Cells
                 pVal = e.Values(0)
                 cX = 3
-            Catch ex As Exception
-                MsgBox("Event Display Variables", ex.Message)
-            End Try
-
-            Try
                 For Each index In plcAdd
                     If clxVal = index Then
                         cVal(cX, 4) = pVal
@@ -240,11 +227,6 @@ Public Class SlamControls
                 cVal = cSh.Cells
                 pVal = e.Values(0)
                 cX = 15
-            Catch ex As Exception
-                MsgBox("1st S/F Variables", ex.Message)
-            End Try
-
-            Try
                 For Each index In plcAdd
                     If clxVal = index Then
                         cVal(cX, 1) = pVal
@@ -255,6 +237,7 @@ Public Class SlamControls
                 MsgBox("1st Success/Failure array", ex.Message)
             End Try
         End If
+
     End Sub
 
     '//Total Packages and Kickouts
@@ -266,11 +249,6 @@ Public Class SlamControls
                 cVal = cSh.Cells
                 pVal = e.Values(0)
                 cX = 3
-            Catch ex As Exception
-                MsgBox("Total P & K Variables", ex.Message)
-            End Try
-
-            Try
                 For Each index In plcAdd
                     If clxVal = index Then
                         cVal(cX, 6) = pVal
@@ -438,10 +416,6 @@ Public Class SlamControls
                 pVal = e.Values(0)
                 cX = 15
                 cX1 = 5
-            Catch ex As Exception
-                MsgBox("Scale Scanner Variables", ex.Message)
-            End Try
-            Try
                 For Each index In plcAdd
                     If clxVal = index Then
                         cVal(cX, cX1) = Chr(pVal)
@@ -666,6 +640,77 @@ Public Class SlamControls
 
     Private Sub LbDate_Click(sender As Object, e As EventArgs) Handles LbDate.Click
 
+    End Sub
+
+    '//Handles Counter Enabler
+    Private Sub biKO_Click(sender As Object, e As EventArgs) Handles biKO.Click
+        If Me.biKO.SelectColor2 = True Then
+            btnBool1 = True
+        Else
+            btnBool1 = False
+        End If
+    End Sub
+
+    '//Handles Counter
+    Private Sub DataSubscriber25_DataChanged(sender As Object, e As PlcComEventArgs) Handles DataSubscriber25.DataChanged
+        If btnBool = True Then
+            Try
+                clxVal = e.PlcAddress
+                plcAdd = {"HMI_Last10KO[0]"}
+                cVal = cSh.Cells
+                pVal = e.Values(0)
+                Dim eVal As String
+                Dim currTime As String
+                currTime = Now.Hour & ":" & Now.Minute & ":" & Now.Second
+                For Each index In plcAdd
+                    If clxVal = index Then
+                        eVal = pVal
+                        Select Case eVal
+                            Case "901"
+                                errCode(0) += 1
+                            Case "902"
+                                errCode(1) += 1
+                            Case "903"
+                                errCode(2) += 1
+                            Case "904"
+                                errCode(3) += 1
+                            Case "905"
+                                errCode(4) += 1
+                            Case "906"
+                                errCode(5) += 1
+                            Case "907"
+                                errCode(6) += 1
+                            Case "908"
+                                errCode(7) += 1
+                            Case "909"
+                                errCode(8) += 1
+                            Case "910"
+                                errCode(9) += 1
+                            Case "911"
+                                errCode(10) += 1
+                        End Select
+                    End If
+                Next
+                cVal(3, 8) = errCode(0)
+                cVal(4, 8) = errCode(1)
+                cVal(5, 8) = errCode(2)
+                cVal(6, 8) = errCode(3)
+                cVal(7, 8) = errCode(4)
+                cVal(8, 8) = errCode(5)
+                cVal(9, 8) = errCode(6)
+                cVal(10, 8) = errCode(7)
+                cVal(11, 8) = errCode(8)
+                cVal(12, 8) = errCode(9)
+                cVal(13, 8) = errCode(10)
+                For Each cX In errCode
+                    If cX = 10000 Then
+                        cX = 0
+                    End If
+                Next
+            Catch ex As Exception
+                MsgBox("Error Counter", ex.Message)
+            End Try
+        End If
     End Sub
 
     Private Sub BasicIndicator79_Click(sender As Object, e As EventArgs) Handles BasicIndicator79.Click

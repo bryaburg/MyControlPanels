@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class SlamControls
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class SlamControls
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(SlamControls))
@@ -220,6 +220,8 @@ Partial Class SlamControls
         Me.TiClk = New System.Windows.Forms.Timer(Me.components)
         Me.LbDate = New System.Windows.Forms.Label()
         Me.opExChBox = New System.Windows.Forms.CheckBox()
+        Me.DataSubscriber25 = New AdvancedHMIControls.DataSubscriber2(Me.components)
+        Me.biKO = New AdvancedHMIControls.BasicIndicator()
         CType(Me.EthernetIPforCLXCom1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DataSubscriber23, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DataSubscriber22, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -227,6 +229,7 @@ Partial Class SlamControls
         CType(Me.DataSubscriber211, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DataSubscriber210, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DataSubscriber24, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.DataSubscriber25, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'DigitalPanelMeter44
@@ -4812,6 +4815,34 @@ Partial Class SlamControls
         Me.opExChBox.Text = "Open Excel WB"
         Me.opExChBox.UseVisualStyleBackColor = False
         '
+        'DataSubscriber25
+        '
+        Me.DataSubscriber25.ComComponent = Me.EthernetIPforCLXCom1
+        Me.DataSubscriber25.PLCAddressValueItems.Add(CType(resources.GetObject("DataSubscriber25.PLCAddressValueItems"), MfgControl.AdvancedHMI.Drivers.PLCAddressItem))
+        Me.DataSubscriber25.PollRate = 2000
+        Me.DataSubscriber25.SynchronizingObject = Me
+        Me.DataSubscriber25.Value = Nothing
+        '
+        'biKO
+        '
+        Me.biKO.Color1 = System.Drawing.Color.DarkGray
+        Me.biKO.Color2 = System.Drawing.Color.Green
+        Me.biKO.Color3 = System.Drawing.Color.Red
+        Me.biKO.ComComponent = Me.EthernetIPforCLXCom1
+        Me.biKO.Location = New System.Drawing.Point(72, 472)
+        Me.biKO.Name = "biKO"
+        Me.biKO.OutlineColor = System.Drawing.Color.Transparent
+        Me.biKO.OutlineWidth = 1
+        Me.biKO.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.biKO.PLCAddressSelectColor2 = "ESP_LabelReply.Out_Status"
+        Me.biKO.SelectColor2 = False
+        Me.biKO.SelectColor3 = False
+        Me.biKO.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Round
+        Me.biKO.Size = New System.Drawing.Size(75, 23)
+        Me.biKO.TabIndex = 1442
+        Me.biKO.Text = "BasicIndicator1"
+        Me.biKO.Visible = False
+        '
         'SlamControls
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
@@ -4819,6 +4850,7 @@ Partial Class SlamControls
         Me.AutoSize = True
         Me.BackColor = System.Drawing.Color.MidnightBlue
         Me.ClientSize = New System.Drawing.Size(1682, 853)
+        Me.Controls.Add(Me.biKO)
         Me.Controls.Add(Me.opExChBox)
         Me.Controls.Add(Me.LbDate)
         Me.Controls.Add(Me.LbClk)
@@ -5017,6 +5049,7 @@ Partial Class SlamControls
         CType(Me.DataSubscriber211, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.DataSubscriber210, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.DataSubscriber24, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.DataSubscriber25, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -5218,4 +5251,6 @@ Partial Class SlamControls
     Friend WithEvents TiClk As Timer
     Friend WithEvents LbDate As Label
     Friend WithEvents opExChBox As CheckBox
+    Friend WithEvents DataSubscriber25 As AdvancedHMIControls.DataSubscriber2
+    Friend WithEvents biKO As AdvancedHMIControls.BasicIndicator
 End Class
