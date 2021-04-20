@@ -295,6 +295,7 @@
     <Content Include="icons\AHMI32x32-3.ico" />
     <Content Include="icons\AHMI32x32-4.ico" />
     <Content Include="icons\Credit.txt" />
+    <None Include="Resources\Conv5.bmp" />
     <Content Include="SampleINIfiles\Alarms.txt" />
     <Content Include="ReadMe.txt" />
     <Content Include="ReleaseNotes399.txt" />

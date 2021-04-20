@@ -52,7 +52,7 @@ Partial Class Login1
         Me.TbUsPw.Name = "TbUsPw"
         Me.TbUsPw.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.TbUsPw.Size = New System.Drawing.Size(254, 52)
-        Me.TbUsPw.TabIndex = 15
+        Me.TbUsPw.TabIndex = 0
         '
         'TbUsName
         '
@@ -65,7 +65,7 @@ Partial Class Login1
         Me.TbUsName.Location = New System.Drawing.Point(174, 87)
         Me.TbUsName.Name = "TbUsName"
         Me.TbUsName.Size = New System.Drawing.Size(254, 52)
-        Me.TbUsName.TabIndex = 14
+        Me.TbUsName.TabIndex = 2
         '
         'RegLogin
         '
@@ -74,7 +74,7 @@ Partial Class Login1
         Me.RegLogin.Location = New System.Drawing.Point(171, 261)
         Me.RegLogin.Name = "RegLogin"
         Me.RegLogin.Size = New System.Drawing.Size(92, 17)
-        Me.RegLogin.TabIndex = 19
+        Me.RegLogin.TabIndex = 3
         Me.RegLogin.TabStop = True
         Me.RegLogin.Text = "New Register"
         '
@@ -86,7 +86,7 @@ Partial Class Login1
         Me.LoginBtn.Location = New System.Drawing.Point(174, 297)
         Me.LoginBtn.Name = "LoginBtn"
         Me.LoginBtn.Size = New System.Drawing.Size(106, 34)
-        Me.LoginBtn.TabIndex = 16
+        Me.LoginBtn.TabIndex = 1
         Me.LoginBtn.Text = "Login"
         Me.LoginBtn.UseVisualStyleBackColor = False
         '

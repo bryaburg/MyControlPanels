@@ -141,4 +141,10 @@
   <metadata name="TiClk.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 81</value>
   </metadata>
+  <metadata name="DataSubscriber25.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>106, 81</value>
+  </metadata>
+  <data name="DataSubscriber25.PLCAddressValueItems" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>HMI_Last10KO[0]</value>
+  </data>
 </root>

@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class SlamControls
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class SlamControls
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Me.DigitalPanelMeter44 = New AdvancedHMIControls.DigitalPanelMeter()
@@ -38,9 +38,6 @@ Partial Class SlamControls
         Me.bOpenPro = New AdvancedHMIControls.BasicButton()
         Me.openBeltSpeeds = New AdvancedHMIControls.BasicButton()
         Me.bOpenBCR = New AdvancedHMIControls.BasicButton()
-        Me.BasicButton4 = New AdvancedHMIControls.BasicButton()
-        Me.BasicButton3 = New AdvancedHMIControls.BasicButton()
-        Me.BasicButton2 = New AdvancedHMIControls.BasicButton()
         Me.BasicButton1 = New AdvancedHMIControls.BasicButton()
         Me.BasicIndicator369 = New AdvancedHMIControls.BasicIndicator()
         Me.BasicIndicator368 = New AdvancedHMIControls.BasicIndicator()
@@ -221,6 +218,10 @@ Partial Class SlamControls
         Me.LbClk = New System.Windows.Forms.Label()
         Me.TiClk = New System.Windows.Forms.Timer(Me.components)
         Me.LbDate = New System.Windows.Forms.Label()
+        Me.opExChBox = New System.Windows.Forms.CheckBox()
+        Me.DataSubscriber25 = New AdvancedHMIControls.DataSubscriber2(Me.components)
+        Me.biKO = New AdvancedHMIControls.BasicIndicator()
+        Me.openMacDis = New AdvancedHMIControls.BasicButton()
         CType(Me.EthernetIPforCLXCom1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DataSubscriber23, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DataSubscriber22, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -228,6 +229,7 @@ Partial Class SlamControls
         CType(Me.DataSubscriber211, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DataSubscriber210, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DataSubscriber24, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.DataSubscriber25, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'DigitalPanelMeter44
@@ -360,8 +362,7 @@ Partial Class SlamControls
         Me.opsExit.ForeColorAltername = System.Drawing.Color.Black
         Me.opsExit.Highlight = False
         Me.opsExit.HighlightColor = System.Drawing.Color.Green
-        Me.opsExit.Location = New System.Drawing.Point(1162, 202)
-        Me.opsExit.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.opsExit.Location = New System.Drawing.Point(1550, 249)
         Me.opsExit.MaximumHoldTime = 3000
         Me.opsExit.MinimumHoldTime = 500
         Me.opsExit.Name = "opsExit"
@@ -591,78 +592,6 @@ Partial Class SlamControls
         Me.bOpenBCR.UseVisualStyleBackColor = True
         Me.bOpenBCR.ValueToWrite = 0
         Me.bOpenBCR.Visible = False
-        '
-        'BasicButton4
-        '
-        Me.BasicButton4.BackColor = System.Drawing.Color.Blue
-        Me.BasicButton4.ComComponent = Me.EthernetIPforCLXCom1
-        Me.BasicButton4.Font = New System.Drawing.Font("Magneto", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BasicButton4.ForeColor = System.Drawing.Color.GhostWhite
-        Me.BasicButton4.ForeColorAltername = System.Drawing.Color.Black
-        Me.BasicButton4.Highlight = False
-        Me.BasicButton4.HighlightColor = System.Drawing.Color.Green
-        Me.BasicButton4.Location = New System.Drawing.Point(15, 557)
-        Me.BasicButton4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.BasicButton4.MaximumHoldTime = 3000
-        Me.BasicButton4.MinimumHoldTime = 500
-        Me.BasicButton4.Name = "BasicButton4"
-        Me.BasicButton4.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
-        Me.BasicButton4.PLCAddressClick = ""
-        Me.BasicButton4.SelectTextAlternate = False
-        Me.BasicButton4.Size = New System.Drawing.Size(165, 119)
-        Me.BasicButton4.TabIndex = 1425
-        Me.BasicButton4.Text = "Exit Scada"
-        Me.BasicButton4.TextAlternate = Nothing
-        Me.BasicButton4.UseVisualStyleBackColor = False
-        Me.BasicButton4.ValueToWrite = 0
-        '
-        'BasicButton3
-        '
-        Me.BasicButton3.BackColor = System.Drawing.Color.Blue
-        Me.BasicButton3.ComComponent = Me.EthernetIPforCLXCom1
-        Me.BasicButton3.Font = New System.Drawing.Font("Magneto", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BasicButton3.ForeColor = System.Drawing.Color.GhostWhite
-        Me.BasicButton3.ForeColorAltername = System.Drawing.Color.Black
-        Me.BasicButton3.Highlight = False
-        Me.BasicButton3.HighlightColor = System.Drawing.Color.Green
-        Me.BasicButton3.Location = New System.Drawing.Point(15, 420)
-        Me.BasicButton3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.BasicButton3.MaximumHoldTime = 3000
-        Me.BasicButton3.MinimumHoldTime = 500
-        Me.BasicButton3.Name = "BasicButton3"
-        Me.BasicButton3.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
-        Me.BasicButton3.PLCAddressClick = ""
-        Me.BasicButton3.SelectTextAlternate = False
-        Me.BasicButton3.Size = New System.Drawing.Size(165, 119)
-        Me.BasicButton3.TabIndex = 1424
-        Me.BasicButton3.Text = "Exit Excel"
-        Me.BasicButton3.TextAlternate = Nothing
-        Me.BasicButton3.UseVisualStyleBackColor = False
-        Me.BasicButton3.ValueToWrite = 0
-        '
-        'BasicButton2
-        '
-        Me.BasicButton2.BackColor = System.Drawing.Color.Blue
-        Me.BasicButton2.ComComponent = Me.EthernetIPforCLXCom1
-        Me.BasicButton2.Font = New System.Drawing.Font("Magneto", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BasicButton2.ForeColor = System.Drawing.Color.GhostWhite
-        Me.BasicButton2.ForeColorAltername = System.Drawing.Color.Black
-        Me.BasicButton2.Highlight = False
-        Me.BasicButton2.HighlightColor = System.Drawing.Color.Green
-        Me.BasicButton2.Location = New System.Drawing.Point(15, 284)
-        Me.BasicButton2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.BasicButton2.MaximumHoldTime = 3000
-        Me.BasicButton2.MinimumHoldTime = 500
-        Me.BasicButton2.Name = "BasicButton2"
-        Me.BasicButton2.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
-        Me.BasicButton2.PLCAddressClick = ""
-        Me.BasicButton2.SelectTextAlternate = False
-        Me.BasicButton2.Size = New System.Drawing.Size(165, 119)
-        Me.BasicButton2.TabIndex = 1423
-        Me.BasicButton2.Text = "Open Excel"
-        Me.BasicButton2.TextAlternate = Nothing
-        Me.BasicButton2.UseVisualStyleBackColor = False
-        Me.BasicButton2.ValueToWrite = 0
         '
         'BasicButton1
         '
@@ -4537,8 +4466,7 @@ Partial Class SlamControls
         Me.LbClk.AutoSize = True
         Me.LbClk.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LbClk.ForeColor = System.Drawing.Color.GhostWhite
-        Me.LbClk.Location = New System.Drawing.Point(1142, 665)
-        Me.LbClk.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.LbClk.Location = New System.Drawing.Point(1523, 819)
         Me.LbClk.Name = "LbClk"
         Me.LbClk.Size = New System.Drawing.Size(97, 20)
         Me.LbClk.TabIndex = 1438
@@ -4554,19 +4482,88 @@ Partial Class SlamControls
         Me.LbDate.AutoSize = True
         Me.LbDate.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LbDate.ForeColor = System.Drawing.Color.GhostWhite
-        Me.LbDate.Location = New System.Drawing.Point(1142, 640)
-        Me.LbDate.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.LbDate.Location = New System.Drawing.Point(1523, 788)
         Me.LbDate.Name = "LbDate"
         Me.LbDate.Size = New System.Drawing.Size(83, 20)
         Me.LbDate.TabIndex = 1439
         Me.LbDate.Text = "xx/xx/xxxx"
         '
+        'opExChBox
+        '
+        Me.opExChBox.Appearance = System.Windows.Forms.Appearance.Button
+        Me.opExChBox.AutoSize = True
+        Me.opExChBox.BackColor = System.Drawing.Color.Blue
+        Me.opExChBox.FlatAppearance.BorderColor = System.Drawing.Color.Black
+        Me.opExChBox.FlatAppearance.BorderSize = 6
+        Me.opExChBox.FlatAppearance.CheckedBackColor = System.Drawing.Color.Gold
+        Me.opExChBox.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.opExChBox.Font = New System.Drawing.Font("Magneto", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.opExChBox.ForeColor = System.Drawing.Color.GhostWhite
+        Me.opExChBox.Location = New System.Drawing.Point(20, 359)
+        Me.opExChBox.Name = "opExChBox"
+        Me.opExChBox.Size = New System.Drawing.Size(257, 42)
+        Me.opExChBox.TabIndex = 1441
+        Me.opExChBox.Text = "Open Excel WB"
+        Me.opExChBox.UseVisualStyleBackColor = False
+        '
+        'DataSubscriber25
+        '
+        Me.DataSubscriber25.ComComponent = Me.EthernetIPforCLXCom1
+        Me.DataSubscriber25.PLCAddressValueItems.Add(CType(resources.GetObject("DataSubscriber25.PLCAddressValueItems"), MfgControl.AdvancedHMI.Drivers.PLCAddressItem))
+        Me.DataSubscriber25.PollRate = 2000
+        Me.DataSubscriber25.SynchronizingObject = Me
+        Me.DataSubscriber25.Value = Nothing
+        '
+        'biKO
+        '
+        Me.biKO.Color1 = System.Drawing.Color.DarkGray
+        Me.biKO.Color2 = System.Drawing.Color.Green
+        Me.biKO.Color3 = System.Drawing.Color.Red
+        Me.biKO.ComComponent = Me.EthernetIPforCLXCom1
+        Me.biKO.Location = New System.Drawing.Point(72, 472)
+        Me.biKO.Name = "biKO"
+        Me.biKO.OutlineColor = System.Drawing.Color.Transparent
+        Me.biKO.OutlineWidth = 1
+        Me.biKO.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.biKO.PLCAddressSelectColor2 = "ESP_LabelReply.Out_Status"
+        Me.biKO.SelectColor2 = False
+        Me.biKO.SelectColor3 = False
+        Me.biKO.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Round
+        Me.biKO.Size = New System.Drawing.Size(75, 23)
+        Me.biKO.TabIndex = 1442
+        Me.biKO.Text = "BasicIndicator1"
+        Me.biKO.Visible = False
+        '
+        'openMacDis
+        '
+        Me.openMacDis.BackColor = System.Drawing.Color.Black
+        Me.openMacDis.ComComponent = Me.EthernetIPforCLXCom1
+        Me.openMacDis.ForeColor = System.Drawing.Color.Black
+        Me.openMacDis.ForeColorAltername = System.Drawing.Color.Black
+        Me.openMacDis.Highlight = False
+        Me.openMacDis.HighlightColor = System.Drawing.Color.Green
+        Me.openMacDis.Location = New System.Drawing.Point(1550, 249)
+        Me.openMacDis.MaximumHoldTime = 3000
+        Me.openMacDis.MinimumHoldTime = 500
+        Me.openMacDis.Name = "openMacDis"
+        Me.openMacDis.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.openMacDis.PLCAddressClick = ""
+        Me.openMacDis.SelectTextAlternate = False
+        Me.openMacDis.Size = New System.Drawing.Size(112, 82)
+        Me.openMacDis.TabIndex = 1443
+        Me.openMacDis.Text = "Open Machine Display"
+        Me.openMacDis.TextAlternate = Nothing
+        Me.openMacDis.UseVisualStyleBackColor = True
+        Me.openMacDis.ValueToWrite = 0
+        Me.openMacDis.Visible = False
+        '
         'SlamControls
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.AutoSize = True
         Me.BackColor = System.Drawing.Color.MidnightBlue
-        Me.ClientSize = New System.Drawing.Size(1284, 711)
+        Me.ClientSize = New System.Drawing.Size(1682, 853)
         Me.Controls.Add(Me.LbDate)
         Me.Controls.Add(Me.LbClk)
         Me.Controls.Add(Me.btnSlamOps)
@@ -4581,9 +4578,6 @@ Partial Class SlamControls
         Me.Controls.Add(Me.bOpenPro)
         Me.Controls.Add(Me.openBeltSpeeds)
         Me.Controls.Add(Me.bOpenBCR)
-        Me.Controls.Add(Me.BasicButton4)
-        Me.Controls.Add(Me.BasicButton3)
-        Me.Controls.Add(Me.BasicButton2)
         Me.Controls.Add(Me.BasicButton1)
         Me.Controls.Add(Me.BasicIndicator369)
         Me.Controls.Add(Me.BasicIndicator368)
@@ -4768,6 +4762,7 @@ Partial Class SlamControls
         CType(Me.DataSubscriber211, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.DataSubscriber210, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.DataSubscriber24, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.DataSubscriber25, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -4788,9 +4783,6 @@ Partial Class SlamControls
     Friend WithEvents bOpenPro As AdvancedHMIControls.BasicButton
     Friend WithEvents openBeltSpeeds As AdvancedHMIControls.BasicButton
     Friend WithEvents bOpenBCR As AdvancedHMIControls.BasicButton
-    Friend WithEvents BasicButton4 As AdvancedHMIControls.BasicButton
-    Friend WithEvents BasicButton3 As AdvancedHMIControls.BasicButton
-    Friend WithEvents BasicButton2 As AdvancedHMIControls.BasicButton
     Friend WithEvents BasicButton1 As AdvancedHMIControls.BasicButton
     Friend WithEvents BasicIndicator369 As AdvancedHMIControls.BasicIndicator
     Friend WithEvents BasicIndicator368 As AdvancedHMIControls.BasicIndicator
@@ -4971,4 +4963,8 @@ Partial Class SlamControls
     Friend WithEvents LbClk As Label
     Friend WithEvents TiClk As Timer
     Friend WithEvents LbDate As Label
+    Friend WithEvents opExChBox As CheckBox
+    Friend WithEvents DataSubscriber25 As AdvancedHMIControls.DataSubscriber2
+    Friend WithEvents biKO As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents openMacDis As AdvancedHMIControls.BasicButton
 End Class

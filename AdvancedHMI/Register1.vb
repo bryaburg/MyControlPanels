@@ -1,4 +1,6 @@
-﻿Public Class Register1
+﻿Imports System.ComponentModel
+
+Public Class Register1
     Private pS As Integer
 
     '// Register Form Load Handler!
@@ -23,7 +25,7 @@
             My.Settings.Save()
             MessageBox.Show("Register was Successful", "Register")
             Login1.Show()
-            Me.Hide()
+            Me.Close()
         Else
             MessageBox.Show("Must Complete both Fields", "Register")
         End If
