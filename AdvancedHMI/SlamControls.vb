@@ -538,6 +538,7 @@ Public Class SlamControls
                 openPtrCMD.Visible = True
                 opsExit.Visible = True
                 rstCount.Visible = True
+                openMacDis.Visible = True
                 btnSlamOps.Visible = False
             End If
         Catch ex As Exception
@@ -559,6 +560,7 @@ Public Class SlamControls
             openPtrCMD.Visible = False
             opsExit.Visible = False
             rstCount.Visible = False
+            openMacDis.Visible = False
         Catch ex As Exception
             MessageBox.Show("Error", ex.Message)
         End Try
@@ -711,6 +713,10 @@ Public Class SlamControls
                 MsgBox("Error Counter", ex.Message)
             End Try
         End If
+    End Sub
+
+    Private Sub openMacDis_Click(sender As Object, e As EventArgs) Handles openMacDis.Click
+        MachineDisplay.Show()
     End Sub
 
     Private Sub BasicIndicator79_Click(sender As Object, e As EventArgs) Handles BasicIndicator79.Click

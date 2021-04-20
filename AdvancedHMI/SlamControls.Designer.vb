@@ -222,6 +222,7 @@ Partial Class SlamControls
         Me.opExChBox = New System.Windows.Forms.CheckBox()
         Me.DataSubscriber25 = New AdvancedHMIControls.DataSubscriber2(Me.components)
         Me.biKO = New AdvancedHMIControls.BasicIndicator()
+        Me.openMacDis = New AdvancedHMIControls.BasicButton()
         CType(Me.EthernetIPforCLXCom1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DataSubscriber23, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DataSubscriber22, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -358,7 +359,7 @@ Partial Class SlamControls
         Me.opsExit.ForeColorAltername = System.Drawing.Color.Black
         Me.opsExit.Highlight = False
         Me.opsExit.HighlightColor = System.Drawing.Color.Green
-        Me.opsExit.Location = New System.Drawing.Point(1550, 249)
+        Me.opsExit.Location = New System.Drawing.Point(1550, 356)
         Me.opsExit.MaximumHoldTime = 3000
         Me.opsExit.MinimumHoldTime = 500
         Me.opsExit.Name = "opsExit"
@@ -4843,6 +4844,29 @@ Partial Class SlamControls
         Me.biKO.Text = "BasicIndicator1"
         Me.biKO.Visible = False
         '
+        'openMacDis
+        '
+        Me.openMacDis.BackColor = System.Drawing.Color.Black
+        Me.openMacDis.ComComponent = Me.EthernetIPforCLXCom1
+        Me.openMacDis.ForeColor = System.Drawing.Color.Black
+        Me.openMacDis.ForeColorAltername = System.Drawing.Color.Black
+        Me.openMacDis.Highlight = False
+        Me.openMacDis.HighlightColor = System.Drawing.Color.Green
+        Me.openMacDis.Location = New System.Drawing.Point(1550, 249)
+        Me.openMacDis.MaximumHoldTime = 3000
+        Me.openMacDis.MinimumHoldTime = 500
+        Me.openMacDis.Name = "openMacDis"
+        Me.openMacDis.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.openMacDis.PLCAddressClick = ""
+        Me.openMacDis.SelectTextAlternate = False
+        Me.openMacDis.Size = New System.Drawing.Size(112, 82)
+        Me.openMacDis.TabIndex = 1443
+        Me.openMacDis.Text = "Open Machine Display"
+        Me.openMacDis.TextAlternate = Nothing
+        Me.openMacDis.UseVisualStyleBackColor = True
+        Me.openMacDis.ValueToWrite = 0
+        Me.openMacDis.Visible = False
+        '
         'SlamControls
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
@@ -4850,6 +4874,7 @@ Partial Class SlamControls
         Me.AutoSize = True
         Me.BackColor = System.Drawing.Color.MidnightBlue
         Me.ClientSize = New System.Drawing.Size(1682, 853)
+        Me.Controls.Add(Me.openMacDis)
         Me.Controls.Add(Me.biKO)
         Me.Controls.Add(Me.opExChBox)
         Me.Controls.Add(Me.LbDate)
@@ -5253,4 +5278,5 @@ Partial Class SlamControls
     Friend WithEvents opExChBox As CheckBox
     Friend WithEvents DataSubscriber25 As AdvancedHMIControls.DataSubscriber2
     Friend WithEvents biKO As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents openMacDis As AdvancedHMIControls.BasicButton
 End Class
