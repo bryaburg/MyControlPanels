@@ -139,6 +139,26 @@ Partial Class MachineDisplay
         Dim TranslationScale90 As MfgControl.AdvancedHMI.Controls.TranslationScale = New MfgControl.AdvancedHMI.Controls.TranslationScale()
         Dim TranslationScale91 As MfgControl.AdvancedHMI.Controls.TranslationScale = New MfgControl.AdvancedHMI.Controls.TranslationScale()
         Dim TranslationScale92 As MfgControl.AdvancedHMI.Controls.TranslationScale = New MfgControl.AdvancedHMI.Controls.TranslationScale()
+        Dim RotationScale24 As MfgControl.AdvancedHMI.Controls.RotationScale = New MfgControl.AdvancedHMI.Controls.RotationScale()
+        Dim TranslationScale93 As MfgControl.AdvancedHMI.Controls.TranslationScale = New MfgControl.AdvancedHMI.Controls.TranslationScale()
+        Dim TranslationScale94 As MfgControl.AdvancedHMI.Controls.TranslationScale = New MfgControl.AdvancedHMI.Controls.TranslationScale()
+        Dim TranslationScale95 As MfgControl.AdvancedHMI.Controls.TranslationScale = New MfgControl.AdvancedHMI.Controls.TranslationScale()
+        Dim TranslationScale96 As MfgControl.AdvancedHMI.Controls.TranslationScale = New MfgControl.AdvancedHMI.Controls.TranslationScale()
+        Dim RotationScale25 As MfgControl.AdvancedHMI.Controls.RotationScale = New MfgControl.AdvancedHMI.Controls.RotationScale()
+        Dim TranslationScale97 As MfgControl.AdvancedHMI.Controls.TranslationScale = New MfgControl.AdvancedHMI.Controls.TranslationScale()
+        Dim TranslationScale98 As MfgControl.AdvancedHMI.Controls.TranslationScale = New MfgControl.AdvancedHMI.Controls.TranslationScale()
+        Dim TranslationScale99 As MfgControl.AdvancedHMI.Controls.TranslationScale = New MfgControl.AdvancedHMI.Controls.TranslationScale()
+        Dim TranslationScale100 As MfgControl.AdvancedHMI.Controls.TranslationScale = New MfgControl.AdvancedHMI.Controls.TranslationScale()
+        Dim RotationScale26 As MfgControl.AdvancedHMI.Controls.RotationScale = New MfgControl.AdvancedHMI.Controls.RotationScale()
+        Dim TranslationScale101 As MfgControl.AdvancedHMI.Controls.TranslationScale = New MfgControl.AdvancedHMI.Controls.TranslationScale()
+        Dim TranslationScale102 As MfgControl.AdvancedHMI.Controls.TranslationScale = New MfgControl.AdvancedHMI.Controls.TranslationScale()
+        Dim TranslationScale103 As MfgControl.AdvancedHMI.Controls.TranslationScale = New MfgControl.AdvancedHMI.Controls.TranslationScale()
+        Dim TranslationScale104 As MfgControl.AdvancedHMI.Controls.TranslationScale = New MfgControl.AdvancedHMI.Controls.TranslationScale()
+        Dim RotationScale27 As MfgControl.AdvancedHMI.Controls.RotationScale = New MfgControl.AdvancedHMI.Controls.RotationScale()
+        Dim TranslationScale105 As MfgControl.AdvancedHMI.Controls.TranslationScale = New MfgControl.AdvancedHMI.Controls.TranslationScale()
+        Dim TranslationScale106 As MfgControl.AdvancedHMI.Controls.TranslationScale = New MfgControl.AdvancedHMI.Controls.TranslationScale()
+        Dim TranslationScale107 As MfgControl.AdvancedHMI.Controls.TranslationScale = New MfgControl.AdvancedHMI.Controls.TranslationScale()
+        Dim TranslationScale108 As MfgControl.AdvancedHMI.Controls.TranslationScale = New MfgControl.AdvancedHMI.Controls.TranslationScale()
         Me.TiClk = New System.Windows.Forms.Timer(Me.components)
         Me.LbDate = New System.Windows.Forms.Label()
         Me.LbClk = New System.Windows.Forms.Label()
@@ -167,6 +187,11 @@ Partial Class MachineDisplay
         Me.prtOnePE2 = New AdvancedHMIControls.AnimatingPictureBox()
         Me.scExPE2 = New AdvancedHMIControls.AnimatingPictureBox()
         Me.scInPE2 = New AdvancedHMIControls.AnimatingPictureBox()
+        Me.AnimatingPictureBox2 = New AdvancedHMIControls.AnimatingPictureBox()
+        Me.AnimatingPictureBox3 = New AdvancedHMIControls.AnimatingPictureBox()
+        Me.AnimatingPictureBox10 = New AdvancedHMIControls.AnimatingPictureBox()
+        Me.Prt1RodEx = New AdvancedHMIControls.AnimatingPictureBox()
+        Me.showSlams = New AdvancedHMIControls.BasicButton()
         CType(Me.EthernetIPforCLXCom1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.AnimatingPictureBox6, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.AnimatingPictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -191,6 +216,10 @@ Partial Class MachineDisplay
         CType(Me.prtOnePE2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.scExPE2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.scInPE2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.AnimatingPictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.AnimatingPictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.AnimatingPictureBox10, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Prt1RodEx, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'TiClk
@@ -227,7 +256,7 @@ Partial Class MachineDisplay
         Me.EthernetIPforCLXCom1.DisableSubscriptions = False
         Me.EthernetIPforCLXCom1.IniFileName = ""
         Me.EthernetIPforCLXCom1.IniFileSection = Nothing
-        Me.EthernetIPforCLXCom1.IPAddress = "10.8.236.58"
+        Me.EthernetIPforCLXCom1.IPAddress = "10.8.236.67"
         Me.EthernetIPforCLXCom1.PollRateOverride = 500
         Me.EthernetIPforCLXCom1.Port = 44818
         Me.EthernetIPforCLXCom1.ProcessorSlot = 0
@@ -1162,7 +1191,6 @@ Partial Class MachineDisplay
         Me.strDivPE2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.strDivPE2.TabIndex = 1470
         Me.strDivPE2.TabStop = False
-        Me.strDivPE2.Visible = False
         '
         'koDivPE2
         '
@@ -1221,7 +1249,6 @@ Partial Class MachineDisplay
         Me.koDivPE2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.koDivPE2.TabIndex = 1471
         Me.koDivPE2.TabStop = False
-        Me.koDivPE2.Visible = False
         '
         'sortPE2
         '
@@ -1280,7 +1307,6 @@ Partial Class MachineDisplay
         Me.sortPE2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.sortPE2.TabIndex = 1472
         Me.sortPE2.TabStop = False
-        Me.sortPE2.Visible = False
         '
         'vefInPE2
         '
@@ -1339,7 +1365,6 @@ Partial Class MachineDisplay
         Me.vefInPE2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.vefInPE2.TabIndex = 1473
         Me.vefInPE2.TabStop = False
-        Me.vefInPE2.Visible = False
         '
         'prtTwoPE2
         '
@@ -1398,7 +1423,6 @@ Partial Class MachineDisplay
         Me.prtTwoPE2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.prtTwoPE2.TabIndex = 1474
         Me.prtTwoPE2.TabStop = False
-        Me.prtTwoPE2.Visible = False
         '
         'prtOnePE2
         '
@@ -1457,7 +1481,6 @@ Partial Class MachineDisplay
         Me.prtOnePE2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.prtOnePE2.TabIndex = 1475
         Me.prtOnePE2.TabStop = False
-        Me.prtOnePE2.Visible = False
         '
         'scExPE2
         '
@@ -1516,7 +1539,6 @@ Partial Class MachineDisplay
         Me.scExPE2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.scExPE2.TabIndex = 1476
         Me.scExPE2.TabStop = False
-        Me.scExPE2.Visible = False
         '
         'scInPE2
         '
@@ -1575,7 +1597,257 @@ Partial Class MachineDisplay
         Me.scInPE2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.scInPE2.TabIndex = 1477
         Me.scInPE2.TabStop = False
-        Me.scInPE2.Visible = False
+        '
+        'AnimatingPictureBox2
+        '
+        Me.AnimatingPictureBox2.BackColor = System.Drawing.Color.Transparent
+        Me.AnimatingPictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.AnimatingPictureBox2.ComComponent = Me.EthernetIPforCLXCom1
+        Me.AnimatingPictureBox2.Image = CType(resources.GetObject("AnimatingPictureBox2.Image"), System.Drawing.Image)
+        RotationScale24.RotationCCWAngle = 0!
+        RotationScale24.RotationCWAngle = 90.0!
+        RotationScale24.RotationMaxValueCCW = 0!
+        RotationScale24.RotationMaxValueCW = 90.0!
+        RotationScale24.XPosition = 0
+        RotationScale24.YPosition = 0
+        Me.AnimatingPictureBox2.ImageRotationScale = RotationScale24
+        Me.AnimatingPictureBox2.ImageRotationValue = 0!
+        TranslationScale93.ErrorValue = 1.0R
+        TranslationScale93.InputMaxValue = 1.0R
+        TranslationScale93.InputMinValue = 0R
+        TranslationScale93.OutputMaxValue = 1.0R
+        TranslationScale93.OutputMinValue = 0R
+        Me.AnimatingPictureBox2.ImageSizeXScale = TranslationScale93
+        Me.AnimatingPictureBox2.ImageSizeXValue = 0.3R
+        TranslationScale94.ErrorValue = 1.0R
+        TranslationScale94.InputMaxValue = 1.0R
+        TranslationScale94.InputMinValue = 0R
+        TranslationScale94.OutputMaxValue = 1.0R
+        TranslationScale94.OutputMinValue = 0R
+        Me.AnimatingPictureBox2.ImageSizeYScale = TranslationScale94
+        Me.AnimatingPictureBox2.ImageSizeYValue = 0.2R
+        TranslationScale95.ErrorValue = 0R
+        TranslationScale95.InputMaxValue = 100.0R
+        TranslationScale95.InputMinValue = 0R
+        TranslationScale95.OutputMaxValue = 100.0R
+        TranslationScale95.OutputMinValue = 0R
+        Me.AnimatingPictureBox2.ImageTranslateXScale = TranslationScale95
+        Me.AnimatingPictureBox2.ImageTranslateXValue = 0
+        TranslationScale96.ErrorValue = 0R
+        TranslationScale96.InputMaxValue = 100.0R
+        TranslationScale96.InputMinValue = 0R
+        TranslationScale96.OutputMaxValue = 100.0R
+        TranslationScale96.OutputMinValue = 0R
+        Me.AnimatingPictureBox2.ImageTranslateYScale = TranslationScale96
+        Me.AnimatingPictureBox2.ImageTranslateYValue = 0
+        Me.AnimatingPictureBox2.KeypadFontColor = System.Drawing.Color.WhiteSmoke
+        Me.AnimatingPictureBox2.KeypadMaxValue = 0R
+        Me.AnimatingPictureBox2.KeypadMinValue = 0R
+        Me.AnimatingPictureBox2.KeypadScaleFactor = 1.0R
+        Me.AnimatingPictureBox2.KeypadText = Nothing
+        Me.AnimatingPictureBox2.KeypadWidth = 300
+        Me.AnimatingPictureBox2.Location = New System.Drawing.Point(765, 24)
+        Me.AnimatingPictureBox2.LocationOffsetX = 0
+        Me.AnimatingPictureBox2.LocationOffsetY = 0
+        Me.AnimatingPictureBox2.Name = "AnimatingPictureBox2"
+        Me.AnimatingPictureBox2.Size = New System.Drawing.Size(275, 150)
+        Me.AnimatingPictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.AnimatingPictureBox2.TabIndex = 1478
+        Me.AnimatingPictureBox2.TabStop = False
+        '
+        'AnimatingPictureBox3
+        '
+        Me.AnimatingPictureBox3.BackColor = System.Drawing.Color.Transparent
+        Me.AnimatingPictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.AnimatingPictureBox3.ComComponent = Me.EthernetIPforCLXCom1
+        Me.AnimatingPictureBox3.Image = CType(resources.GetObject("AnimatingPictureBox3.Image"), System.Drawing.Image)
+        RotationScale25.RotationCCWAngle = 0!
+        RotationScale25.RotationCWAngle = 90.0!
+        RotationScale25.RotationMaxValueCCW = 0!
+        RotationScale25.RotationMaxValueCW = 90.0!
+        RotationScale25.XPosition = 0
+        RotationScale25.YPosition = 0
+        Me.AnimatingPictureBox3.ImageRotationScale = RotationScale25
+        Me.AnimatingPictureBox3.ImageRotationValue = 0!
+        TranslationScale97.ErrorValue = 1.0R
+        TranslationScale97.InputMaxValue = 1.0R
+        TranslationScale97.InputMinValue = 0R
+        TranslationScale97.OutputMaxValue = 1.0R
+        TranslationScale97.OutputMinValue = 0R
+        Me.AnimatingPictureBox3.ImageSizeXScale = TranslationScale97
+        Me.AnimatingPictureBox3.ImageSizeXValue = 0.3R
+        TranslationScale98.ErrorValue = 1.0R
+        TranslationScale98.InputMaxValue = 1.0R
+        TranslationScale98.InputMinValue = 0R
+        TranslationScale98.OutputMaxValue = 1.0R
+        TranslationScale98.OutputMinValue = 0R
+        Me.AnimatingPictureBox3.ImageSizeYScale = TranslationScale98
+        Me.AnimatingPictureBox3.ImageSizeYValue = 0.2R
+        TranslationScale99.ErrorValue = 0R
+        TranslationScale99.InputMaxValue = 100.0R
+        TranslationScale99.InputMinValue = 0R
+        TranslationScale99.OutputMaxValue = 100.0R
+        TranslationScale99.OutputMinValue = 0R
+        Me.AnimatingPictureBox3.ImageTranslateXScale = TranslationScale99
+        Me.AnimatingPictureBox3.ImageTranslateXValue = 0
+        TranslationScale100.ErrorValue = 0R
+        TranslationScale100.InputMaxValue = 100.0R
+        TranslationScale100.InputMinValue = 0R
+        TranslationScale100.OutputMaxValue = 100.0R
+        TranslationScale100.OutputMinValue = 0R
+        Me.AnimatingPictureBox3.ImageTranslateYScale = TranslationScale100
+        Me.AnimatingPictureBox3.ImageTranslateYValue = 0
+        Me.AnimatingPictureBox3.KeypadFontColor = System.Drawing.Color.WhiteSmoke
+        Me.AnimatingPictureBox3.KeypadMaxValue = 0R
+        Me.AnimatingPictureBox3.KeypadMinValue = 0R
+        Me.AnimatingPictureBox3.KeypadScaleFactor = 1.0R
+        Me.AnimatingPictureBox3.KeypadText = Nothing
+        Me.AnimatingPictureBox3.KeypadWidth = 300
+        Me.AnimatingPictureBox3.Location = New System.Drawing.Point(1046, 24)
+        Me.AnimatingPictureBox3.LocationOffsetX = 0
+        Me.AnimatingPictureBox3.LocationOffsetY = 0
+        Me.AnimatingPictureBox3.Name = "AnimatingPictureBox3"
+        Me.AnimatingPictureBox3.Size = New System.Drawing.Size(275, 150)
+        Me.AnimatingPictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.AnimatingPictureBox3.TabIndex = 1479
+        Me.AnimatingPictureBox3.TabStop = False
+        '
+        'AnimatingPictureBox10
+        '
+        Me.AnimatingPictureBox10.BackColor = System.Drawing.Color.Transparent
+        Me.AnimatingPictureBox10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.AnimatingPictureBox10.ComComponent = Me.EthernetIPforCLXCom1
+        Me.AnimatingPictureBox10.Image = CType(resources.GetObject("AnimatingPictureBox10.Image"), System.Drawing.Image)
+        RotationScale26.RotationCCWAngle = 0!
+        RotationScale26.RotationCWAngle = 90.0!
+        RotationScale26.RotationMaxValueCCW = 0!
+        RotationScale26.RotationMaxValueCW = 90.0!
+        RotationScale26.XPosition = 0
+        RotationScale26.YPosition = 0
+        Me.AnimatingPictureBox10.ImageRotationScale = RotationScale26
+        Me.AnimatingPictureBox10.ImageRotationValue = 0!
+        TranslationScale101.ErrorValue = 1.0R
+        TranslationScale101.InputMaxValue = 1.0R
+        TranslationScale101.InputMinValue = 0R
+        TranslationScale101.OutputMaxValue = 1.0R
+        TranslationScale101.OutputMinValue = 0R
+        Me.AnimatingPictureBox10.ImageSizeXScale = TranslationScale101
+        Me.AnimatingPictureBox10.ImageSizeXValue = 0.3R
+        TranslationScale102.ErrorValue = 1.0R
+        TranslationScale102.InputMaxValue = 1.0R
+        TranslationScale102.InputMinValue = 0R
+        TranslationScale102.OutputMaxValue = 1.0R
+        TranslationScale102.OutputMinValue = 0R
+        Me.AnimatingPictureBox10.ImageSizeYScale = TranslationScale102
+        Me.AnimatingPictureBox10.ImageSizeYValue = 0.2R
+        TranslationScale103.ErrorValue = 0R
+        TranslationScale103.InputMaxValue = 100.0R
+        TranslationScale103.InputMinValue = 0R
+        TranslationScale103.OutputMaxValue = 100.0R
+        TranslationScale103.OutputMinValue = 0R
+        Me.AnimatingPictureBox10.ImageTranslateXScale = TranslationScale103
+        Me.AnimatingPictureBox10.ImageTranslateXValue = 0
+        TranslationScale104.ErrorValue = 0R
+        TranslationScale104.InputMaxValue = 100.0R
+        TranslationScale104.InputMinValue = 0R
+        TranslationScale104.OutputMaxValue = 100.0R
+        TranslationScale104.OutputMinValue = 0R
+        Me.AnimatingPictureBox10.ImageTranslateYScale = TranslationScale104
+        Me.AnimatingPictureBox10.ImageTranslateYValue = 0
+        Me.AnimatingPictureBox10.KeypadFontColor = System.Drawing.Color.WhiteSmoke
+        Me.AnimatingPictureBox10.KeypadMaxValue = 0R
+        Me.AnimatingPictureBox10.KeypadMinValue = 0R
+        Me.AnimatingPictureBox10.KeypadScaleFactor = 1.0R
+        Me.AnimatingPictureBox10.KeypadText = Nothing
+        Me.AnimatingPictureBox10.KeypadWidth = 300
+        Me.AnimatingPictureBox10.Location = New System.Drawing.Point(1053, 3)
+        Me.AnimatingPictureBox10.LocationOffsetX = 0
+        Me.AnimatingPictureBox10.LocationOffsetY = 0
+        Me.AnimatingPictureBox10.Name = "AnimatingPictureBox10"
+        Me.AnimatingPictureBox10.PLCAddressVisible = "UPTR2_PE_XFR"
+        Me.AnimatingPictureBox10.Size = New System.Drawing.Size(250, 200)
+        Me.AnimatingPictureBox10.TabIndex = 1480
+        Me.AnimatingPictureBox10.TabStop = False
+        Me.AnimatingPictureBox10.Visible = False
+        '
+        'Prt1RodEx
+        '
+        Me.Prt1RodEx.BackColor = System.Drawing.Color.Transparent
+        Me.Prt1RodEx.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Prt1RodEx.ComComponent = Me.EthernetIPforCLXCom1
+        Me.Prt1RodEx.Image = CType(resources.GetObject("Prt1RodEx.Image"), System.Drawing.Image)
+        RotationScale27.RotationCCWAngle = 0!
+        RotationScale27.RotationCWAngle = 90.0!
+        RotationScale27.RotationMaxValueCCW = 0!
+        RotationScale27.RotationMaxValueCW = 90.0!
+        RotationScale27.XPosition = 0
+        RotationScale27.YPosition = 0
+        Me.Prt1RodEx.ImageRotationScale = RotationScale27
+        Me.Prt1RodEx.ImageRotationValue = 0!
+        TranslationScale105.ErrorValue = 1.0R
+        TranslationScale105.InputMaxValue = 1.0R
+        TranslationScale105.InputMinValue = 0R
+        TranslationScale105.OutputMaxValue = 1.0R
+        TranslationScale105.OutputMinValue = 0R
+        Me.Prt1RodEx.ImageSizeXScale = TranslationScale105
+        Me.Prt1RodEx.ImageSizeXValue = 0.3R
+        TranslationScale106.ErrorValue = 1.0R
+        TranslationScale106.InputMaxValue = 1.0R
+        TranslationScale106.InputMinValue = 0R
+        TranslationScale106.OutputMaxValue = 1.0R
+        TranslationScale106.OutputMinValue = 0R
+        Me.Prt1RodEx.ImageSizeYScale = TranslationScale106
+        Me.Prt1RodEx.ImageSizeYValue = 0.2R
+        TranslationScale107.ErrorValue = 0R
+        TranslationScale107.InputMaxValue = 100.0R
+        TranslationScale107.InputMinValue = 0R
+        TranslationScale107.OutputMaxValue = 100.0R
+        TranslationScale107.OutputMinValue = 0R
+        Me.Prt1RodEx.ImageTranslateXScale = TranslationScale107
+        Me.Prt1RodEx.ImageTranslateXValue = 0
+        TranslationScale108.ErrorValue = 0R
+        TranslationScale108.InputMaxValue = 100.0R
+        TranslationScale108.InputMinValue = 0R
+        TranslationScale108.OutputMaxValue = 100.0R
+        TranslationScale108.OutputMinValue = 0R
+        Me.Prt1RodEx.ImageTranslateYScale = TranslationScale108
+        Me.Prt1RodEx.ImageTranslateYValue = 0
+        Me.Prt1RodEx.KeypadFontColor = System.Drawing.Color.WhiteSmoke
+        Me.Prt1RodEx.KeypadMaxValue = 0R
+        Me.Prt1RodEx.KeypadMinValue = 0R
+        Me.Prt1RodEx.KeypadScaleFactor = 1.0R
+        Me.Prt1RodEx.KeypadText = Nothing
+        Me.Prt1RodEx.KeypadWidth = 300
+        Me.Prt1RodEx.Location = New System.Drawing.Point(772, 3)
+        Me.Prt1RodEx.LocationOffsetX = 0
+        Me.Prt1RodEx.LocationOffsetY = 0
+        Me.Prt1RodEx.Name = "Prt1RodEx"
+        Me.Prt1RodEx.Size = New System.Drawing.Size(250, 200)
+        Me.Prt1RodEx.TabIndex = 1481
+        Me.Prt1RodEx.TabStop = False
+        '
+        'showSlams
+        '
+        Me.showSlams.BackColor = System.Drawing.Color.Blue
+        Me.showSlams.ComComponent = Me.EthernetIPforCLXCom1
+        Me.showSlams.Font = New System.Drawing.Font("Magneto", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.showSlams.ForeColor = System.Drawing.Color.GhostWhite
+        Me.showSlams.ForeColorAltername = System.Drawing.Color.Black
+        Me.showSlams.Highlight = False
+        Me.showSlams.HighlightColor = System.Drawing.Color.Green
+        Me.showSlams.Location = New System.Drawing.Point(578, 457)
+        Me.showSlams.MaximumHoldTime = 3000
+        Me.showSlams.MinimumHoldTime = 500
+        Me.showSlams.Name = "showSlams"
+        Me.showSlams.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.showSlams.PLCAddressClick = ""
+        Me.showSlams.SelectTextAlternate = False
+        Me.showSlams.Size = New System.Drawing.Size(384, 56)
+        Me.showSlams.TabIndex = 1482
+        Me.showSlams.Text = "Show Slam Page"
+        Me.showSlams.TextAlternate = Nothing
+        Me.showSlams.UseVisualStyleBackColor = False
+        Me.showSlams.ValueToWrite = 0
         '
         'MachineDisplay
         '
@@ -1584,6 +1856,9 @@ Partial Class MachineDisplay
         Me.AutoSize = True
         Me.BackColor = System.Drawing.Color.Gray
         Me.ClientSize = New System.Drawing.Size(1765, 525)
+        Me.Controls.Add(Me.showSlams)
+        Me.Controls.Add(Me.AnimatingPictureBox3)
+        Me.Controls.Add(Me.AnimatingPictureBox2)
         Me.Controls.Add(Me.scInPE2)
         Me.Controls.Add(Me.scExPE2)
         Me.Controls.Add(Me.prtOnePE2)
@@ -1610,6 +1885,8 @@ Partial Class MachineDisplay
         Me.Controls.Add(Me.AnimatingPictureBox4)
         Me.Controls.Add(Me.LbDate)
         Me.Controls.Add(Me.LbClk)
+        Me.Controls.Add(Me.AnimatingPictureBox10)
+        Me.Controls.Add(Me.Prt1RodEx)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "MachineDisplay"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
@@ -1638,6 +1915,10 @@ Partial Class MachineDisplay
         CType(Me.prtOnePE2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.scExPE2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.scInPE2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.AnimatingPictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.AnimatingPictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.AnimatingPictureBox10, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Prt1RodEx, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -1671,4 +1952,9 @@ Partial Class MachineDisplay
     Friend WithEvents prtOnePE2 As AdvancedHMIControls.AnimatingPictureBox
     Friend WithEvents scExPE2 As AdvancedHMIControls.AnimatingPictureBox
     Friend WithEvents scInPE2 As AdvancedHMIControls.AnimatingPictureBox
+    Friend WithEvents AnimatingPictureBox2 As AdvancedHMIControls.AnimatingPictureBox
+    Friend WithEvents AnimatingPictureBox3 As AdvancedHMIControls.AnimatingPictureBox
+    Friend WithEvents AnimatingPictureBox10 As AdvancedHMIControls.AnimatingPictureBox
+    Friend WithEvents Prt1RodEx As AdvancedHMIControls.AnimatingPictureBox
+    Friend WithEvents showSlams As AdvancedHMIControls.BasicButton
 End Class
