@@ -654,7 +654,7 @@ Public Class SlamControls
     End Sub
 
     '//Handles Counter
-    Private Sub DataSubscriber25_DataChanged(sender As Object, e As PlcComEventArgs) Handles DataSubscriber25.DataChanged
+    Private Sub DataSubscriber25_DataChanged(sender As Object, e As PlcComEventArgs)
         If btnBool = True Then
             Try
                 clxVal = e.PlcAddress
