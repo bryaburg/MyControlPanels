@@ -23,6 +23,7 @@ Partial Class Communications
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Communications))
         Me.EthernetIPforCLXCom1 = New AdvancedHMIDrivers.EthernetIPforCLXCom(Me.components)
         Me.commsExit = New AdvancedHMIControls.BasicButton()
         Me.Label9 = New System.Windows.Forms.Label()
@@ -54,14 +55,15 @@ Partial Class Communications
         Me.commsExit.ForeColorAltername = System.Drawing.Color.Black
         Me.commsExit.Highlight = False
         Me.commsExit.HighlightColor = System.Drawing.Color.Green
-        Me.commsExit.Location = New System.Drawing.Point(56, 261)
+        Me.commsExit.Location = New System.Drawing.Point(42, 212)
+        Me.commsExit.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.commsExit.MaximumHoldTime = 3000
         Me.commsExit.MinimumHoldTime = 500
         Me.commsExit.Name = "commsExit"
         Me.commsExit.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
         Me.commsExit.PLCAddressClick = ""
         Me.commsExit.SelectTextAlternate = False
-        Me.commsExit.Size = New System.Drawing.Size(271, 80)
+        Me.commsExit.Size = New System.Drawing.Size(203, 65)
         Me.commsExit.TabIndex = 45
         Me.commsExit.Text = "Exit Communications"
         Me.commsExit.TextAlternate = Nothing
@@ -74,9 +76,10 @@ Partial Class Communications
         Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, CType(((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic) _
                 Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label9.ForeColor = System.Drawing.Color.GhostWhite
-        Me.Label9.Location = New System.Drawing.Point(71, 9)
+        Me.Label9.Location = New System.Drawing.Point(53, 7)
+        Me.Label9.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(241, 32)
+        Me.Label9.Size = New System.Drawing.Size(190, 26)
         Me.Label9.TabIndex = 46
         Me.Label9.Text = "Communications"
         '
@@ -88,7 +91,8 @@ Partial Class Communications
         Me.BasicIndicator1.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BasicIndicator1.ForeColor = System.Drawing.Color.GhostWhite
-        Me.BasicIndicator1.Location = New System.Drawing.Point(36, 56)
+        Me.BasicIndicator1.Location = New System.Drawing.Point(27, 46)
+        Me.BasicIndicator1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.BasicIndicator1.Name = "BasicIndicator1"
         Me.BasicIndicator1.OutlineColor = System.Drawing.Color.Transparent
         Me.BasicIndicator1.OutlineWidth = 1
@@ -97,7 +101,7 @@ Partial Class Communications
         Me.BasicIndicator1.SelectColor2 = False
         Me.BasicIndicator1.SelectColor3 = False
         Me.BasicIndicator1.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Round
-        Me.BasicIndicator1.Size = New System.Drawing.Size(314, 67)
+        Me.BasicIndicator1.Size = New System.Drawing.Size(236, 54)
         Me.BasicIndicator1.TabIndex = 47
         Me.BasicIndicator1.Text = "Server 1 Online"
         '
@@ -109,7 +113,8 @@ Partial Class Communications
         Me.BasicIndicator2.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BasicIndicator2.ForeColor = System.Drawing.Color.GhostWhite
-        Me.BasicIndicator2.Location = New System.Drawing.Point(34, 143)
+        Me.BasicIndicator2.Location = New System.Drawing.Point(26, 116)
+        Me.BasicIndicator2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.BasicIndicator2.Name = "BasicIndicator2"
         Me.BasicIndicator2.OutlineColor = System.Drawing.Color.Transparent
         Me.BasicIndicator2.OutlineWidth = 1
@@ -118,20 +123,22 @@ Partial Class Communications
         Me.BasicIndicator2.SelectColor2 = False
         Me.BasicIndicator2.SelectColor3 = False
         Me.BasicIndicator2.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Round
-        Me.BasicIndicator2.Size = New System.Drawing.Size(314, 67)
+        Me.BasicIndicator2.Size = New System.Drawing.Size(236, 54)
         Me.BasicIndicator2.TabIndex = 48
         Me.BasicIndicator2.Text = "Server 2 Online"
         '
         'Communications
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.MidnightBlue
-        Me.ClientSize = New System.Drawing.Size(382, 353)
+        Me.ClientSize = New System.Drawing.Size(286, 287)
         Me.Controls.Add(Me.BasicIndicator2)
         Me.Controls.Add(Me.BasicIndicator1)
         Me.Controls.Add(Me.Label9)
         Me.Controls.Add(Me.commsExit)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Name = "Communications"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Communications"

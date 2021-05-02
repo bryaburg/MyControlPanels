@@ -57,14 +57,15 @@ Partial Class Training
         Me.TrainExit.ForeColorAltername = System.Drawing.Color.Black
         Me.TrainExit.Highlight = False
         Me.TrainExit.HighlightColor = System.Drawing.Color.Green
-        Me.TrainExit.Location = New System.Drawing.Point(289, 358)
+        Me.TrainExit.Location = New System.Drawing.Point(217, 291)
+        Me.TrainExit.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TrainExit.MaximumHoldTime = 3000
         Me.TrainExit.MinimumHoldTime = 500
         Me.TrainExit.Name = "TrainExit"
         Me.TrainExit.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
         Me.TrainExit.PLCAddressClick = ""
         Me.TrainExit.SelectTextAlternate = False
-        Me.TrainExit.Size = New System.Drawing.Size(212, 80)
+        Me.TrainExit.Size = New System.Drawing.Size(159, 65)
         Me.TrainExit.TabIndex = 43
         Me.TrainExit.Text = "Exit Training"
         Me.TrainExit.TextAlternate = Nothing
@@ -91,9 +92,10 @@ Partial Class Training
         Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, CType(((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic) _
                 Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label9.ForeColor = System.Drawing.Color.LightSeaGreen
-        Me.Label9.Location = New System.Drawing.Point(340, 9)
+        Me.Label9.Location = New System.Drawing.Point(255, 7)
+        Me.Label9.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(127, 32)
+        Me.Label9.Size = New System.Drawing.Size(97, 26)
         Me.Label9.TabIndex = 44
         Me.Label9.Text = "Training"
         '
@@ -113,7 +115,8 @@ Partial Class Training
         Me.AnalogValueDisplay2.KeypadScaleFactor = 1.0R
         Me.AnalogValueDisplay2.KeypadText = Nothing
         Me.AnalogValueDisplay2.KeypadWidth = 300
-        Me.AnalogValueDisplay2.Location = New System.Drawing.Point(2, 54)
+        Me.AnalogValueDisplay2.Location = New System.Drawing.Point(2, 44)
+        Me.AnalogValueDisplay2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.AnalogValueDisplay2.Name = "AnalogValueDisplay2"
         Me.AnalogValueDisplay2.NumericFormat = Nothing
         Me.AnalogValueDisplay2.PLCAddressKeypad = ""
@@ -122,7 +125,7 @@ Partial Class Training
         Me.AnalogValueDisplay2.PLCAddressValueLimitUpper = Nothing
         Me.AnalogValueDisplay2.PLCAddressVisible = Nothing
         Me.AnalogValueDisplay2.ShowValue = True
-        Me.AnalogValueDisplay2.Size = New System.Drawing.Size(382, 25)
+        Me.AnalogValueDisplay2.Size = New System.Drawing.Size(318, 20)
         Me.AnalogValueDisplay2.TabIndex = 47
         Me.AnalogValueDisplay2.Text = "Profiler To Buffer Sensor 0000 Inches-"
         Me.AnalogValueDisplay2.Value = "0000"
@@ -148,7 +151,8 @@ Partial Class Training
         Me.AnalogValueDisplay1.KeypadScaleFactor = 1.0R
         Me.AnalogValueDisplay1.KeypadText = Nothing
         Me.AnalogValueDisplay1.KeypadWidth = 300
-        Me.AnalogValueDisplay1.Location = New System.Drawing.Point(592, 54)
+        Me.AnalogValueDisplay1.Location = New System.Drawing.Point(444, 44)
+        Me.AnalogValueDisplay1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.AnalogValueDisplay1.Name = "AnalogValueDisplay1"
         Me.AnalogValueDisplay1.NumericFormat = Nothing
         Me.AnalogValueDisplay1.PLCAddressKeypad = ""
@@ -157,7 +161,7 @@ Partial Class Training
         Me.AnalogValueDisplay1.PLCAddressValueLimitUpper = Nothing
         Me.AnalogValueDisplay1.PLCAddressVisible = Nothing
         Me.AnalogValueDisplay1.ShowValue = True
-        Me.AnalogValueDisplay1.Size = New System.Drawing.Size(196, 25)
+        Me.AnalogValueDisplay1.Size = New System.Drawing.Size(162, 20)
         Me.AnalogValueDisplay1.TabIndex = 48
         Me.AnalogValueDisplay1.Text = "Deviation 0000 mm"
         Me.AnalogValueDisplay1.Value = "0000"
@@ -183,7 +187,8 @@ Partial Class Training
         Me.AnalogValueDisplay3.KeypadScaleFactor = 1.0R
         Me.AnalogValueDisplay3.KeypadText = Nothing
         Me.AnalogValueDisplay3.KeypadWidth = 300
-        Me.AnalogValueDisplay3.Location = New System.Drawing.Point(592, 94)
+        Me.AnalogValueDisplay3.Location = New System.Drawing.Point(444, 76)
+        Me.AnalogValueDisplay3.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.AnalogValueDisplay3.Name = "AnalogValueDisplay3"
         Me.AnalogValueDisplay3.NumericFormat = Nothing
         Me.AnalogValueDisplay3.PLCAddressKeypad = ""
@@ -192,7 +197,7 @@ Partial Class Training
         Me.AnalogValueDisplay3.PLCAddressValueLimitUpper = Nothing
         Me.AnalogValueDisplay3.PLCAddressVisible = Nothing
         Me.AnalogValueDisplay3.ShowValue = True
-        Me.AnalogValueDisplay3.Size = New System.Drawing.Size(196, 25)
+        Me.AnalogValueDisplay3.Size = New System.Drawing.Size(162, 20)
         Me.AnalogValueDisplay3.TabIndex = 50
         Me.AnalogValueDisplay3.Text = "Deviation 0000 mm"
         Me.AnalogValueDisplay3.Value = "0000"
@@ -218,7 +223,8 @@ Partial Class Training
         Me.AnalogValueDisplay4.KeypadScaleFactor = 1.0R
         Me.AnalogValueDisplay4.KeypadText = Nothing
         Me.AnalogValueDisplay4.KeypadWidth = 300
-        Me.AnalogValueDisplay4.Location = New System.Drawing.Point(2, 94)
+        Me.AnalogValueDisplay4.Location = New System.Drawing.Point(2, 76)
+        Me.AnalogValueDisplay4.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.AnalogValueDisplay4.Name = "AnalogValueDisplay4"
         Me.AnalogValueDisplay4.NumericFormat = Nothing
         Me.AnalogValueDisplay4.PLCAddressKeypad = ""
@@ -227,7 +233,7 @@ Partial Class Training
         Me.AnalogValueDisplay4.PLCAddressValueLimitUpper = Nothing
         Me.AnalogValueDisplay4.PLCAddressVisible = Nothing
         Me.AnalogValueDisplay4.ShowValue = True
-        Me.AnalogValueDisplay4.Size = New System.Drawing.Size(486, 25)
+        Me.AnalogValueDisplay4.Size = New System.Drawing.Size(402, 20)
         Me.AnalogValueDisplay4.TabIndex = 49
         Me.AnalogValueDisplay4.Text = "Buffer Transfer To Apply 1 Transfer 0000 Inches-"
         Me.AnalogValueDisplay4.Value = "0000"
@@ -253,7 +259,8 @@ Partial Class Training
         Me.AnalogValueDisplay5.KeypadScaleFactor = 1.0R
         Me.AnalogValueDisplay5.KeypadText = Nothing
         Me.AnalogValueDisplay5.KeypadWidth = 300
-        Me.AnalogValueDisplay5.Location = New System.Drawing.Point(592, 134)
+        Me.AnalogValueDisplay5.Location = New System.Drawing.Point(444, 109)
+        Me.AnalogValueDisplay5.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.AnalogValueDisplay5.Name = "AnalogValueDisplay5"
         Me.AnalogValueDisplay5.NumericFormat = Nothing
         Me.AnalogValueDisplay5.PLCAddressKeypad = ""
@@ -262,7 +269,7 @@ Partial Class Training
         Me.AnalogValueDisplay5.PLCAddressValueLimitUpper = Nothing
         Me.AnalogValueDisplay5.PLCAddressVisible = Nothing
         Me.AnalogValueDisplay5.ShowValue = True
-        Me.AnalogValueDisplay5.Size = New System.Drawing.Size(196, 25)
+        Me.AnalogValueDisplay5.Size = New System.Drawing.Size(162, 20)
         Me.AnalogValueDisplay5.TabIndex = 52
         Me.AnalogValueDisplay5.Text = "Deviation 0000 mm"
         Me.AnalogValueDisplay5.Value = "0000"
@@ -288,7 +295,8 @@ Partial Class Training
         Me.AnalogValueDisplay6.KeypadScaleFactor = 1.0R
         Me.AnalogValueDisplay6.KeypadText = Nothing
         Me.AnalogValueDisplay6.KeypadWidth = 300
-        Me.AnalogValueDisplay6.Location = New System.Drawing.Point(2, 134)
+        Me.AnalogValueDisplay6.Location = New System.Drawing.Point(2, 109)
+        Me.AnalogValueDisplay6.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.AnalogValueDisplay6.Name = "AnalogValueDisplay6"
         Me.AnalogValueDisplay6.NumericFormat = Nothing
         Me.AnalogValueDisplay6.PLCAddressKeypad = ""
@@ -297,7 +305,7 @@ Partial Class Training
         Me.AnalogValueDisplay6.PLCAddressValueLimitUpper = Nothing
         Me.AnalogValueDisplay6.PLCAddressVisible = Nothing
         Me.AnalogValueDisplay6.ShowValue = True
-        Me.AnalogValueDisplay6.Size = New System.Drawing.Size(502, 25)
+        Me.AnalogValueDisplay6.Size = New System.Drawing.Size(411, 20)
         Me.AnalogValueDisplay6.TabIndex = 51
         Me.AnalogValueDisplay6.Text = "Apply 1 Transfer To Apply 2 Transfer 0000 Inches-"
         Me.AnalogValueDisplay6.Value = "0000"
@@ -323,7 +331,8 @@ Partial Class Training
         Me.AnalogValueDisplay7.KeypadScaleFactor = 1.0R
         Me.AnalogValueDisplay7.KeypadText = Nothing
         Me.AnalogValueDisplay7.KeypadWidth = 300
-        Me.AnalogValueDisplay7.Location = New System.Drawing.Point(592, 174)
+        Me.AnalogValueDisplay7.Location = New System.Drawing.Point(444, 141)
+        Me.AnalogValueDisplay7.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.AnalogValueDisplay7.Name = "AnalogValueDisplay7"
         Me.AnalogValueDisplay7.NumericFormat = Nothing
         Me.AnalogValueDisplay7.PLCAddressKeypad = ""
@@ -332,7 +341,7 @@ Partial Class Training
         Me.AnalogValueDisplay7.PLCAddressValueLimitUpper = Nothing
         Me.AnalogValueDisplay7.PLCAddressVisible = Nothing
         Me.AnalogValueDisplay7.ShowValue = True
-        Me.AnalogValueDisplay7.Size = New System.Drawing.Size(196, 25)
+        Me.AnalogValueDisplay7.Size = New System.Drawing.Size(162, 20)
         Me.AnalogValueDisplay7.TabIndex = 54
         Me.AnalogValueDisplay7.Text = "Deviation 0000 mm"
         Me.AnalogValueDisplay7.Value = "0000"
@@ -358,7 +367,8 @@ Partial Class Training
         Me.AnalogValueDisplay8.KeypadScaleFactor = 1.0R
         Me.AnalogValueDisplay8.KeypadText = Nothing
         Me.AnalogValueDisplay8.KeypadWidth = 300
-        Me.AnalogValueDisplay8.Location = New System.Drawing.Point(2, 174)
+        Me.AnalogValueDisplay8.Location = New System.Drawing.Point(2, 141)
+        Me.AnalogValueDisplay8.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.AnalogValueDisplay8.Name = "AnalogValueDisplay8"
         Me.AnalogValueDisplay8.NumericFormat = Nothing
         Me.AnalogValueDisplay8.PLCAddressKeypad = ""
@@ -367,7 +377,7 @@ Partial Class Training
         Me.AnalogValueDisplay8.PLCAddressValueLimitUpper = Nothing
         Me.AnalogValueDisplay8.PLCAddressVisible = Nothing
         Me.AnalogValueDisplay8.ShowValue = True
-        Me.AnalogValueDisplay8.Size = New System.Drawing.Size(488, 25)
+        Me.AnalogValueDisplay8.Size = New System.Drawing.Size(402, 20)
         Me.AnalogValueDisplay8.TabIndex = 53
         Me.AnalogValueDisplay8.Text = "Apply 2 Transfer To Sorter Transfer 0000 Inches-"
         Me.AnalogValueDisplay8.Value = "0000"
@@ -393,7 +403,8 @@ Partial Class Training
         Me.AnalogValueDisplay9.KeypadScaleFactor = 1.0R
         Me.AnalogValueDisplay9.KeypadText = Nothing
         Me.AnalogValueDisplay9.KeypadWidth = 300
-        Me.AnalogValueDisplay9.Location = New System.Drawing.Point(592, 214)
+        Me.AnalogValueDisplay9.Location = New System.Drawing.Point(444, 174)
+        Me.AnalogValueDisplay9.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.AnalogValueDisplay9.Name = "AnalogValueDisplay9"
         Me.AnalogValueDisplay9.NumericFormat = Nothing
         Me.AnalogValueDisplay9.PLCAddressKeypad = ""
@@ -402,7 +413,7 @@ Partial Class Training
         Me.AnalogValueDisplay9.PLCAddressValueLimitUpper = Nothing
         Me.AnalogValueDisplay9.PLCAddressVisible = Nothing
         Me.AnalogValueDisplay9.ShowValue = True
-        Me.AnalogValueDisplay9.Size = New System.Drawing.Size(196, 25)
+        Me.AnalogValueDisplay9.Size = New System.Drawing.Size(162, 20)
         Me.AnalogValueDisplay9.TabIndex = 56
         Me.AnalogValueDisplay9.Text = "Deviation 0000 mm"
         Me.AnalogValueDisplay9.Value = "0000"
@@ -428,7 +439,8 @@ Partial Class Training
         Me.AnalogValueDisplay10.KeypadScaleFactor = 1.0R
         Me.AnalogValueDisplay10.KeypadText = Nothing
         Me.AnalogValueDisplay10.KeypadWidth = 300
-        Me.AnalogValueDisplay10.Location = New System.Drawing.Point(2, 214)
+        Me.AnalogValueDisplay10.Location = New System.Drawing.Point(2, 174)
+        Me.AnalogValueDisplay10.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.AnalogValueDisplay10.Name = "AnalogValueDisplay10"
         Me.AnalogValueDisplay10.NumericFormat = Nothing
         Me.AnalogValueDisplay10.PLCAddressKeypad = ""
@@ -437,7 +449,7 @@ Partial Class Training
         Me.AnalogValueDisplay10.PLCAddressValueLimitUpper = Nothing
         Me.AnalogValueDisplay10.PLCAddressVisible = Nothing
         Me.AnalogValueDisplay10.ShowValue = True
-        Me.AnalogValueDisplay10.Size = New System.Drawing.Size(477, 25)
+        Me.AnalogValueDisplay10.Size = New System.Drawing.Size(395, 20)
         Me.AnalogValueDisplay10.TabIndex = 55
         Me.AnalogValueDisplay10.Text = "Sorter Transfer To Divert 1 Sensor 0000 Inches-"
         Me.AnalogValueDisplay10.Value = "0000"
@@ -463,7 +475,8 @@ Partial Class Training
         Me.AnalogValueDisplay11.KeypadScaleFactor = 1.0R
         Me.AnalogValueDisplay11.KeypadText = Nothing
         Me.AnalogValueDisplay11.KeypadWidth = 300
-        Me.AnalogValueDisplay11.Location = New System.Drawing.Point(592, 254)
+        Me.AnalogValueDisplay11.Location = New System.Drawing.Point(444, 206)
+        Me.AnalogValueDisplay11.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.AnalogValueDisplay11.Name = "AnalogValueDisplay11"
         Me.AnalogValueDisplay11.NumericFormat = Nothing
         Me.AnalogValueDisplay11.PLCAddressKeypad = ""
@@ -472,7 +485,7 @@ Partial Class Training
         Me.AnalogValueDisplay11.PLCAddressValueLimitUpper = Nothing
         Me.AnalogValueDisplay11.PLCAddressVisible = Nothing
         Me.AnalogValueDisplay11.ShowValue = True
-        Me.AnalogValueDisplay11.Size = New System.Drawing.Size(196, 25)
+        Me.AnalogValueDisplay11.Size = New System.Drawing.Size(162, 20)
         Me.AnalogValueDisplay11.TabIndex = 58
         Me.AnalogValueDisplay11.Text = "Deviation 0000 mm"
         Me.AnalogValueDisplay11.Value = "0000"
@@ -498,7 +511,8 @@ Partial Class Training
         Me.AnalogValueDisplay12.KeypadScaleFactor = 1.0R
         Me.AnalogValueDisplay12.KeypadText = Nothing
         Me.AnalogValueDisplay12.KeypadWidth = 300
-        Me.AnalogValueDisplay12.Location = New System.Drawing.Point(2, 254)
+        Me.AnalogValueDisplay12.Location = New System.Drawing.Point(2, 206)
+        Me.AnalogValueDisplay12.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.AnalogValueDisplay12.Name = "AnalogValueDisplay12"
         Me.AnalogValueDisplay12.NumericFormat = Nothing
         Me.AnalogValueDisplay12.PLCAddressKeypad = ""
@@ -507,7 +521,7 @@ Partial Class Training
         Me.AnalogValueDisplay12.PLCAddressValueLimitUpper = Nothing
         Me.AnalogValueDisplay12.PLCAddressVisible = Nothing
         Me.AnalogValueDisplay12.ShowValue = True
-        Me.AnalogValueDisplay12.Size = New System.Drawing.Size(477, 25)
+        Me.AnalogValueDisplay12.Size = New System.Drawing.Size(395, 20)
         Me.AnalogValueDisplay12.TabIndex = 57
         Me.AnalogValueDisplay12.Text = "Sorter Transfer To Divert 2 Sensor 0000 Inches-"
         Me.AnalogValueDisplay12.Value = "0000"
@@ -533,7 +547,8 @@ Partial Class Training
         Me.AnalogValueDisplay13.KeypadScaleFactor = 1.0R
         Me.AnalogValueDisplay13.KeypadText = Nothing
         Me.AnalogValueDisplay13.KeypadWidth = 300
-        Me.AnalogValueDisplay13.Location = New System.Drawing.Point(592, 294)
+        Me.AnalogValueDisplay13.Location = New System.Drawing.Point(444, 239)
+        Me.AnalogValueDisplay13.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.AnalogValueDisplay13.Name = "AnalogValueDisplay13"
         Me.AnalogValueDisplay13.NumericFormat = Nothing
         Me.AnalogValueDisplay13.PLCAddressKeypad = ""
@@ -542,7 +557,7 @@ Partial Class Training
         Me.AnalogValueDisplay13.PLCAddressValueLimitUpper = Nothing
         Me.AnalogValueDisplay13.PLCAddressVisible = Nothing
         Me.AnalogValueDisplay13.ShowValue = True
-        Me.AnalogValueDisplay13.Size = New System.Drawing.Size(196, 25)
+        Me.AnalogValueDisplay13.Size = New System.Drawing.Size(162, 20)
         Me.AnalogValueDisplay13.TabIndex = 60
         Me.AnalogValueDisplay13.Text = "Deviation 0000 mm"
         Me.AnalogValueDisplay13.Value = "0000"
@@ -568,7 +583,8 @@ Partial Class Training
         Me.AnalogValueDisplay14.KeypadScaleFactor = 1.0R
         Me.AnalogValueDisplay14.KeypadText = Nothing
         Me.AnalogValueDisplay14.KeypadWidth = 300
-        Me.AnalogValueDisplay14.Location = New System.Drawing.Point(2, 294)
+        Me.AnalogValueDisplay14.Location = New System.Drawing.Point(2, 239)
+        Me.AnalogValueDisplay14.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.AnalogValueDisplay14.Name = "AnalogValueDisplay14"
         Me.AnalogValueDisplay14.NumericFormat = Nothing
         Me.AnalogValueDisplay14.PLCAddressKeypad = ""
@@ -577,7 +593,7 @@ Partial Class Training
         Me.AnalogValueDisplay14.PLCAddressValueLimitUpper = Nothing
         Me.AnalogValueDisplay14.PLCAddressVisible = Nothing
         Me.AnalogValueDisplay14.ShowValue = True
-        Me.AnalogValueDisplay14.Size = New System.Drawing.Size(504, 25)
+        Me.AnalogValueDisplay14.Size = New System.Drawing.Size(418, 20)
         Me.AnalogValueDisplay14.TabIndex = 59
         Me.AnalogValueDisplay14.Text = "Sorter Transfer To Sorter Exit Sensor 0000 Inches-"
         Me.AnalogValueDisplay14.Value = "0000"
@@ -595,7 +611,8 @@ Partial Class Training
         Me.bOverRide.ForeColorAltername = System.Drawing.Color.Gold
         Me.bOverRide.Highlight = False
         Me.bOverRide.HighlightColor = System.Drawing.Color.Green
-        Me.bOverRide.Location = New System.Drawing.Point(611, 358)
+        Me.bOverRide.Location = New System.Drawing.Point(458, 291)
+        Me.bOverRide.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.bOverRide.MaximumHoldTime = 3000
         Me.bOverRide.MinimumHoldTime = 500
         Me.bOverRide.Name = "bOverRide"
@@ -603,7 +620,7 @@ Partial Class Training
         Me.bOverRide.PLCAddressClick = "HMI_TrainingModeRequest"
         Me.bOverRide.PLCAddressSelectTextAlternate = "Sts_TrainingModeActive"
         Me.bOverRide.SelectTextAlternate = False
-        Me.bOverRide.Size = New System.Drawing.Size(161, 55)
+        Me.bOverRide.Size = New System.Drawing.Size(121, 45)
         Me.bOverRide.TabIndex = 61
         Me.bOverRide.Text = "Request Training Mode"
         Me.bOverRide.TextAlternate = "Training Mode Active"
@@ -615,9 +632,10 @@ Partial Class Training
         Me.LbDate.AutoSize = True
         Me.LbDate.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LbDate.ForeColor = System.Drawing.Color.GhostWhite
-        Me.LbDate.Location = New System.Drawing.Point(25, 388)
+        Me.LbDate.Location = New System.Drawing.Point(19, 315)
+        Me.LbDate.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.LbDate.Name = "LbDate"
-        Me.LbDate.Size = New System.Drawing.Size(114, 25)
+        Me.LbDate.Size = New System.Drawing.Size(83, 20)
         Me.LbDate.TabIndex = 1442
         Me.LbDate.Text = "xx/xx/xxxx"
         '
@@ -626,9 +644,10 @@ Partial Class Training
         Me.LbClk.AutoSize = True
         Me.LbClk.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LbClk.ForeColor = System.Drawing.Color.GhostWhite
-        Me.LbClk.Location = New System.Drawing.Point(25, 413)
+        Me.LbClk.Location = New System.Drawing.Point(19, 336)
+        Me.LbClk.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.LbClk.Name = "LbClk"
-        Me.LbClk.Size = New System.Drawing.Size(130, 25)
+        Me.LbClk.Size = New System.Drawing.Size(97, 20)
         Me.LbClk.TabIndex = 1441
         Me.LbClk.Text = "xx:xx:xx PM"
         '
@@ -639,10 +658,10 @@ Partial Class Training
         '
         'Training
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.MidnightBlue
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(600, 366)
         Me.Controls.Add(Me.LbDate)
         Me.Controls.Add(Me.LbClk)
         Me.Controls.Add(Me.bOverRide)
@@ -662,6 +681,8 @@ Partial Class Training
         Me.Controls.Add(Me.AnalogValueDisplay2)
         Me.Controls.Add(Me.Label9)
         Me.Controls.Add(Me.TrainExit)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Name = "Training"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Training"

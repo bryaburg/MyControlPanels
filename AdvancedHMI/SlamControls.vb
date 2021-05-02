@@ -118,9 +118,9 @@ Public Class SlamControls
     End Sub
 
     '//Opening and Closing Excel Sub
-    Private Sub opExChBox_CheckedChanged(sender As Object, e As EventArgs) Handles opExChBox.CheckedChanged
+    Private Sub opExChBox1_CheckedChanged(sender As Object, e As EventArgs) Handles opExChBox1.CheckedChanged
         Try
-            If Me.opExChBox.CheckState = CheckState.Checked Then
+            If Me.opExChBox1.CheckState = CheckState.Checked Then
                 ' Start Excel and get Application object.
                 oXL = CreateObject("Excel.Application")
 
@@ -130,10 +130,10 @@ Public Class SlamControls
 
                 Me.oXL.Visible = True
                 btnBool = True
-                opExChBox.Text = "Excel Opened"
-            ElseIf opExChBox.CheckState = CheckState.Unchecked Then
+                opExChBox1.Text = "Excel Open"
+            ElseIf opExChBox1.CheckState = CheckState.Unchecked Then
                 btnBool = False
-                Me.opExChBox.Text = "Open Excel"
+                Me.opExChBox1.Text = "Open Excel"
                 Me.oWB.Close()
                 Me.oWB = Nothing
                 Me.oXL.Quit()
@@ -538,7 +538,7 @@ Public Class SlamControls
                 openPtrCMD.Visible = True
                 opsExit.Visible = True
                 rstCount.Visible = True
-                openMacDis.Visible = True
+                openMacDis1.Visible = True
                 btnSlamOps.Visible = False
             End If
         Catch ex As Exception
@@ -547,7 +547,7 @@ Public Class SlamControls
 
     End Sub
 
-    Private Sub opsExit_Click(sender As Object, e As EventArgs)
+    Private Sub opsExit_Click_1(sender As Object, e As EventArgs) Handles opsExit.Click
         Try
             btnSlamOps.Visible = True
             bOpenBCR.Visible = False
@@ -560,7 +560,7 @@ Public Class SlamControls
             openPtrCMD.Visible = False
             opsExit.Visible = False
             rstCount.Visible = False
-            openMacDis.Visible = False
+            openMacDis1.Visible = False
         Catch ex As Exception
             MessageBox.Show("Error", ex.Message)
         End Try
@@ -715,7 +715,7 @@ Public Class SlamControls
         End If
     End Sub
 
-    Private Sub openMacDis_Click(sender As Object, e As EventArgs) Handles openMacDis.Click
+    Private Sub openMacDis1_Click(sender As Object, e As EventArgs) Handles openMacDis1.Click
         MachineDisplay.Show()
     End Sub
 

@@ -70,7 +70,8 @@ Partial Class BaCoRdr1
         Me.DistFromTrans.KeypadScaleFactor = 1.0R
         Me.DistFromTrans.KeypadText = Nothing
         Me.DistFromTrans.KeypadWidth = 300
-        Me.DistFromTrans.Location = New System.Drawing.Point(422, 122)
+        Me.DistFromTrans.Location = New System.Drawing.Point(316, 99)
+        Me.DistFromTrans.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.DistFromTrans.Name = "DistFromTrans"
         Me.DistFromTrans.NumericFormat = Nothing
         Me.DistFromTrans.PLCAddressKeypad = "HMI_VerifyDistFromInduct"
@@ -79,7 +80,7 @@ Partial Class BaCoRdr1
         Me.DistFromTrans.PLCAddressValueLimitUpper = Nothing
         Me.DistFromTrans.PLCAddressVisible = Nothing
         Me.DistFromTrans.ShowValue = True
-        Me.DistFromTrans.Size = New System.Drawing.Size(142, 25)
+        Me.DistFromTrans.Size = New System.Drawing.Size(118, 20)
         Me.DistFromTrans.TabIndex = 24
         Me.DistFromTrans.Text = "0000   Inches"
         Me.DistFromTrans.Value = "0000"
@@ -94,9 +95,10 @@ Partial Class BaCoRdr1
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, CType((System.Drawing.FontStyle.Italic Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.WhiteSmoke
-        Me.Label4.Location = New System.Drawing.Point(421, 99)
+        Me.Label4.Location = New System.Drawing.Point(316, 80)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(188, 20)
+        Me.Label4.Size = New System.Drawing.Size(157, 17)
         Me.Label4.TabIndex = 23
         Me.Label4.Text = "Distance From Transfer"
         '
@@ -106,9 +108,10 @@ Partial Class BaCoRdr1
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, CType(((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic) _
                 Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.ForeColor = System.Drawing.Color.WhiteSmoke
-        Me.Label6.Location = New System.Drawing.Point(418, 21)
+        Me.Label6.Location = New System.Drawing.Point(314, 17)
+        Me.Label6.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(322, 32)
+        Me.Label6.Size = New System.Drawing.Size(253, 26)
         Me.Label6.TabIndex = 22
         Me.Label6.Text = "Verify Barcode Reader"
         '
@@ -121,14 +124,15 @@ Partial Class BaCoRdr1
         Me.BCR_Exit.ForeColorAltername = System.Drawing.Color.Black
         Me.BCR_Exit.Highlight = False
         Me.BCR_Exit.HighlightColor = System.Drawing.Color.Green
-        Me.BCR_Exit.Location = New System.Drawing.Point(286, 256)
+        Me.BCR_Exit.Location = New System.Drawing.Point(214, 208)
+        Me.BCR_Exit.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.BCR_Exit.MaximumHoldTime = 3000
         Me.BCR_Exit.MinimumHoldTime = 500
         Me.BCR_Exit.Name = "BCR_Exit"
         Me.BCR_Exit.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
         Me.BCR_Exit.PLCAddressClick = ""
         Me.BCR_Exit.SelectTextAlternate = False
-        Me.BCR_Exit.Size = New System.Drawing.Size(212, 104)
+        Me.BCR_Exit.Size = New System.Drawing.Size(159, 84)
         Me.BCR_Exit.TabIndex = 21
         Me.BCR_Exit.Text = "Exit Barcode Readers"
         Me.BCR_Exit.TextAlternate = Nothing
@@ -151,7 +155,8 @@ Partial Class BaCoRdr1
         Me.boScanDel.KeypadScaleFactor = 1.0R
         Me.boScanDel.KeypadText = Nothing
         Me.boScanDel.KeypadWidth = 300
-        Me.boScanDel.Location = New System.Drawing.Point(31, 201)
+        Me.boScanDel.Location = New System.Drawing.Point(23, 163)
+        Me.boScanDel.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.boScanDel.Name = "boScanDel"
         Me.boScanDel.NumericFormat = Nothing
         Me.boScanDel.PLCAddressKeypad = "HMI_ScaleBottomCameraTriggerDelay"
@@ -160,7 +165,7 @@ Partial Class BaCoRdr1
         Me.boScanDel.PLCAddressValueLimitUpper = Nothing
         Me.boScanDel.PLCAddressVisible = Nothing
         Me.boScanDel.ShowValue = True
-        Me.boScanDel.Size = New System.Drawing.Size(197, 25)
+        Me.boScanDel.Size = New System.Drawing.Size(161, 20)
         Me.boScanDel.TabIndex = 20
         Me.boScanDel.Text = "0000   Milliseconds"
         Me.boScanDel.Value = "0000"
@@ -186,7 +191,8 @@ Partial Class BaCoRdr1
         Me.DistFromPro.KeypadScaleFactor = 1.0R
         Me.DistFromPro.KeypadText = Nothing
         Me.DistFromPro.KeypadWidth = 300
-        Me.DistFromPro.Location = New System.Drawing.Point(31, 122)
+        Me.DistFromPro.Location = New System.Drawing.Point(23, 99)
+        Me.DistFromPro.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.DistFromPro.Name = "DistFromPro"
         Me.DistFromPro.NumericFormat = Nothing
         Me.DistFromPro.PLCAddressKeypad = "HMI_ScaleDistFromInduct"
@@ -195,7 +201,7 @@ Partial Class BaCoRdr1
         Me.DistFromPro.PLCAddressValueLimitUpper = Nothing
         Me.DistFromPro.PLCAddressVisible = Nothing
         Me.DistFromPro.ShowValue = True
-        Me.DistFromPro.Size = New System.Drawing.Size(142, 25)
+        Me.DistFromPro.Size = New System.Drawing.Size(118, 20)
         Me.DistFromPro.TabIndex = 19
         Me.DistFromPro.Text = "0000   Inches"
         Me.DistFromPro.Value = "0000"
@@ -210,9 +216,10 @@ Partial Class BaCoRdr1
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, CType((System.Drawing.FontStyle.Italic Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.Color.Gray
-        Me.Label5.Location = New System.Drawing.Point(30, 181)
+        Me.Label5.Location = New System.Drawing.Point(22, 147)
+        Me.Label5.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(181, 20)
+        Me.Label5.Size = New System.Drawing.Size(151, 17)
         Me.Label5.TabIndex = 18
         Me.Label5.Text = "Bottom Scan On Delay"
         '
@@ -221,9 +228,10 @@ Partial Class BaCoRdr1
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, CType((System.Drawing.FontStyle.Italic Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.Gray
-        Me.Label2.Location = New System.Drawing.Point(30, 99)
+        Me.Label2.Location = New System.Drawing.Point(22, 80)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(179, 20)
+        Me.Label2.Size = New System.Drawing.Size(148, 17)
         Me.Label2.TabIndex = 17
         Me.Label2.Text = "Distance From Profiler"
         '
@@ -233,9 +241,10 @@ Partial Class BaCoRdr1
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, CType(((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic) _
                 Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.Gray
-        Me.Label1.Location = New System.Drawing.Point(27, 21)
+        Me.Label1.Location = New System.Drawing.Point(20, 17)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(320, 32)
+        Me.Label1.Size = New System.Drawing.Size(251, 26)
         Me.Label1.TabIndex = 16
         Me.Label1.Text = "Scale Barcode Reader"
         '
@@ -244,9 +253,10 @@ Partial Class BaCoRdr1
         Me.LbClk.AutoSize = True
         Me.LbClk.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LbClk.ForeColor = System.Drawing.Color.GhostWhite
-        Me.LbClk.Location = New System.Drawing.Point(610, 335)
+        Me.LbClk.Location = New System.Drawing.Point(458, 272)
+        Me.LbClk.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.LbClk.Name = "LbClk"
-        Me.LbClk.Size = New System.Drawing.Size(130, 25)
+        Me.LbClk.Size = New System.Drawing.Size(97, 20)
         Me.LbClk.TabIndex = 25
         Me.LbClk.Text = "xx:xx:xx PM"
         '
@@ -260,18 +270,19 @@ Partial Class BaCoRdr1
         Me.LbDate.AutoSize = True
         Me.LbDate.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LbDate.ForeColor = System.Drawing.Color.GhostWhite
-        Me.LbDate.Location = New System.Drawing.Point(610, 310)
+        Me.LbDate.Location = New System.Drawing.Point(458, 252)
+        Me.LbDate.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.LbDate.Name = "LbDate"
-        Me.LbDate.Size = New System.Drawing.Size(114, 25)
+        Me.LbDate.Size = New System.Drawing.Size(83, 20)
         Me.LbDate.TabIndex = 1440
         Me.LbDate.Text = "xx/xx/xxxx"
         '
         'BaCoRdr1
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.MidnightBlue
-        Me.ClientSize = New System.Drawing.Size(766, 380)
+        Me.ClientSize = New System.Drawing.Size(574, 309)
         Me.Controls.Add(Me.LbDate)
         Me.Controls.Add(Me.LbClk)
         Me.Controls.Add(Me.DistFromTrans)
@@ -283,6 +294,8 @@ Partial Class BaCoRdr1
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Name = "BaCoRdr1"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "BaCoRdr1"

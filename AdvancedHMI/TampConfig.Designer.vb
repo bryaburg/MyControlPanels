@@ -60,9 +60,10 @@ Partial Class TampConfig
         Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, CType(((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic) _
                 Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label9.ForeColor = System.Drawing.Color.GhostWhite
-        Me.Label9.Location = New System.Drawing.Point(253, 9)
+        Me.Label9.Location = New System.Drawing.Point(190, 7)
+        Me.Label9.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(298, 32)
+        Me.Label9.Size = New System.Drawing.Size(232, 26)
         Me.Label9.TabIndex = 36
         Me.Label9.Text = "Tamp Configurations"
         '
@@ -82,7 +83,8 @@ Partial Class TampConfig
         Me.lenInc.KeypadScaleFactor = 1.0R
         Me.lenInc.KeypadText = Nothing
         Me.lenInc.KeypadWidth = 300
-        Me.lenInc.Location = New System.Drawing.Point(12, 57)
+        Me.lenInc.Location = New System.Drawing.Point(9, 46)
+        Me.lenInc.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lenInc.Name = "lenInc"
         Me.lenInc.NumericFormat = Nothing
         Me.lenInc.PLCAddressKeypad = "HMI_TampVelocity"
@@ -91,7 +93,7 @@ Partial Class TampConfig
         Me.lenInc.PLCAddressValueLimitUpper = Nothing
         Me.lenInc.PLCAddressVisible = Nothing
         Me.lenInc.ShowValue = True
-        Me.lenInc.Size = New System.Drawing.Size(308, 25)
+        Me.lenInc.Size = New System.Drawing.Size(251, 20)
         Me.lenInc.TabIndex = 39
         Me.lenInc.Text = "Servo Tamp Velocity 0000 IPS"
         Me.lenInc.Value = "0000"
@@ -131,7 +133,8 @@ Partial Class TampConfig
         Me.AnalogValueDisplay1.KeypadScaleFactor = 1.0R
         Me.AnalogValueDisplay1.KeypadText = Nothing
         Me.AnalogValueDisplay1.KeypadWidth = 300
-        Me.AnalogValueDisplay1.Location = New System.Drawing.Point(384, 57)
+        Me.AnalogValueDisplay1.Location = New System.Drawing.Point(288, 46)
+        Me.AnalogValueDisplay1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.AnalogValueDisplay1.Name = "AnalogValueDisplay1"
         Me.AnalogValueDisplay1.NumericFormat = Nothing
         Me.AnalogValueDisplay1.PLCAddressKeypad = "HMI_AccelDistance"
@@ -140,7 +143,7 @@ Partial Class TampConfig
         Me.AnalogValueDisplay1.PLCAddressValueLimitUpper = Nothing
         Me.AnalogValueDisplay1.PLCAddressVisible = Nothing
         Me.AnalogValueDisplay1.ShowValue = True
-        Me.AnalogValueDisplay1.Size = New System.Drawing.Size(404, 25)
+        Me.AnalogValueDisplay1.Size = New System.Drawing.Size(333, 20)
         Me.AnalogValueDisplay1.TabIndex = 40
         Me.AnalogValueDisplay1.Text = "Servo Tamp Accel Distance 0000 Inches"
         Me.AnalogValueDisplay1.Value = "0000"
@@ -159,14 +162,15 @@ Partial Class TampConfig
         Me.TampConExit.ForeColorAltername = System.Drawing.Color.Black
         Me.TampConExit.Highlight = False
         Me.TampConExit.HighlightColor = System.Drawing.Color.Green
-        Me.TampConExit.Location = New System.Drawing.Point(198, 441)
+        Me.TampConExit.Location = New System.Drawing.Point(148, 358)
+        Me.TampConExit.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TampConExit.MaximumHoldTime = 3000
         Me.TampConExit.MinimumHoldTime = 500
         Me.TampConExit.Name = "TampConExit"
         Me.TampConExit.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
         Me.TampConExit.PLCAddressClick = ""
         Me.TampConExit.SelectTextAlternate = False
-        Me.TampConExit.Size = New System.Drawing.Size(394, 49)
+        Me.TampConExit.Size = New System.Drawing.Size(296, 40)
         Me.TampConExit.TabIndex = 43
         Me.TampConExit.Text = "Exit Tamp Configuration"
         Me.TampConExit.TextAlternate = Nothing
@@ -179,9 +183,10 @@ Partial Class TampConfig
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, CType(((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic) _
                 Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.GhostWhite
-        Me.Label1.Location = New System.Drawing.Point(12, 100)
+        Me.Label1.Location = New System.Drawing.Point(9, 81)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(131, 32)
+        Me.Label1.Size = New System.Drawing.Size(103, 26)
         Me.Label1.TabIndex = 44
         Me.Label1.Text = "Printer 1"
         '
@@ -191,9 +196,10 @@ Partial Class TampConfig
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, CType(((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic) _
                 Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.GhostWhite
-        Me.Label2.Location = New System.Drawing.Point(383, 100)
+        Me.Label2.Location = New System.Drawing.Point(287, 81)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(131, 32)
+        Me.Label2.Size = New System.Drawing.Size(103, 26)
         Me.Label2.TabIndex = 45
         Me.Label2.Text = "Printer 2"
         '
@@ -213,7 +219,8 @@ Partial Class TampConfig
         Me.AnalogValueDisplay2.KeypadScaleFactor = 1.0R
         Me.AnalogValueDisplay2.KeypadText = Nothing
         Me.AnalogValueDisplay2.KeypadWidth = 300
-        Me.AnalogValueDisplay2.Location = New System.Drawing.Point(16, 138)
+        Me.AnalogValueDisplay2.Location = New System.Drawing.Point(12, 112)
+        Me.AnalogValueDisplay2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.AnalogValueDisplay2.Name = "AnalogValueDisplay2"
         Me.AnalogValueDisplay2.NumericFormat = Nothing
         Me.AnalogValueDisplay2.PLCAddressKeypad = ""
@@ -222,7 +229,7 @@ Partial Class TampConfig
         Me.AnalogValueDisplay2.PLCAddressValueLimitUpper = Nothing
         Me.AnalogValueDisplay2.PLCAddressVisible = Nothing
         Me.AnalogValueDisplay2.ShowValue = True
-        Me.AnalogValueDisplay2.Size = New System.Drawing.Size(123, 25)
+        Me.AnalogValueDisplay2.Size = New System.Drawing.Size(102, 20)
         Me.AnalogValueDisplay2.TabIndex = 46
         Me.AnalogValueDisplay2.Text = "Auto  0000 "
         Me.AnalogValueDisplay2.Value = "0000"
@@ -248,7 +255,8 @@ Partial Class TampConfig
         Me.AnalogValueDisplay3.KeypadScaleFactor = 1.0R
         Me.AnalogValueDisplay3.KeypadText = Nothing
         Me.AnalogValueDisplay3.KeypadWidth = 300
-        Me.AnalogValueDisplay3.Location = New System.Drawing.Point(17, 175)
+        Me.AnalogValueDisplay3.Location = New System.Drawing.Point(13, 142)
+        Me.AnalogValueDisplay3.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.AnalogValueDisplay3.Name = "AnalogValueDisplay3"
         Me.AnalogValueDisplay3.NumericFormat = Nothing
         Me.AnalogValueDisplay3.PLCAddressKeypad = "Apply1_Tamp.Val_OverrideScalar"
@@ -257,7 +265,7 @@ Partial Class TampConfig
         Me.AnalogValueDisplay3.PLCAddressValueLimitUpper = Nothing
         Me.AnalogValueDisplay3.PLCAddressVisible = Nothing
         Me.AnalogValueDisplay3.ShowValue = True
-        Me.AnalogValueDisplay3.Size = New System.Drawing.Size(155, 25)
+        Me.AnalogValueDisplay3.Size = New System.Drawing.Size(126, 20)
         Me.AnalogValueDisplay3.TabIndex = 47
         Me.AnalogValueDisplay3.Text = "Override  0000"
         Me.AnalogValueDisplay3.Value = "0000"
@@ -275,7 +283,8 @@ Partial Class TampConfig
         Me.bOverRide.ForeColorAltername = System.Drawing.Color.Black
         Me.bOverRide.Highlight = False
         Me.bOverRide.HighlightColor = System.Drawing.Color.Green
-        Me.bOverRide.Location = New System.Drawing.Point(188, 175)
+        Me.bOverRide.Location = New System.Drawing.Point(141, 142)
+        Me.bOverRide.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.bOverRide.MaximumHoldTime = 3000
         Me.bOverRide.MinimumHoldTime = 500
         Me.bOverRide.Name = "bOverRide"
@@ -284,7 +293,7 @@ Partial Class TampConfig
         Me.bOverRide.PLCAddressSelectTextAlternate = "Apply1_Tamp.In_Override"
         Me.bOverRide.PLCAddressVisible = "gPar_ServoApplicator"
         Me.bOverRide.SelectTextAlternate = False
-        Me.bOverRide.Size = New System.Drawing.Size(75, 23)
+        Me.bOverRide.Size = New System.Drawing.Size(56, 19)
         Me.bOverRide.TabIndex = 48
         Me.bOverRide.Text = "Auto"
         Me.bOverRide.TextAlternate = "Overridden"
@@ -307,7 +316,8 @@ Partial Class TampConfig
         Me.AnalogValueDisplay4.KeypadScaleFactor = 1.0R
         Me.AnalogValueDisplay4.KeypadText = Nothing
         Me.AnalogValueDisplay4.KeypadWidth = 300
-        Me.AnalogValueDisplay4.Location = New System.Drawing.Point(13, 282)
+        Me.AnalogValueDisplay4.Location = New System.Drawing.Point(10, 229)
+        Me.AnalogValueDisplay4.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.AnalogValueDisplay4.Name = "AnalogValueDisplay4"
         Me.AnalogValueDisplay4.NumericFormat = Nothing
         Me.AnalogValueDisplay4.PLCAddressKeypad = "HMI_UPTR1_TampHeight"
@@ -316,7 +326,7 @@ Partial Class TampConfig
         Me.AnalogValueDisplay4.PLCAddressValueLimitUpper = Nothing
         Me.AnalogValueDisplay4.PLCAddressVisible = Nothing
         Me.AnalogValueDisplay4.ShowValue = True
-        Me.AnalogValueDisplay4.Size = New System.Drawing.Size(259, 25)
+        Me.AnalogValueDisplay4.Size = New System.Drawing.Size(215, 20)
         Me.AnalogValueDisplay4.TabIndex = 49
         Me.AnalogValueDisplay4.Text = "Tamp Height 0000 Inches"
         Me.AnalogValueDisplay4.Value = "0000"
@@ -333,7 +343,8 @@ Partial Class TampConfig
         Me.BasicIndicator1.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator1.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator1.ForeColor = System.Drawing.Color.GhostWhite
-        Me.BasicIndicator1.Location = New System.Drawing.Point(21, 204)
+        Me.BasicIndicator1.Location = New System.Drawing.Point(16, 166)
+        Me.BasicIndicator1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.BasicIndicator1.Name = "BasicIndicator1"
         Me.BasicIndicator1.OutlineColor = System.Drawing.Color.Transparent
         Me.BasicIndicator1.OutlineWidth = 1
@@ -342,7 +353,7 @@ Partial Class TampConfig
         Me.BasicIndicator1.SelectColor2 = False
         Me.BasicIndicator1.SelectColor3 = False
         Me.BasicIndicator1.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Round
-        Me.BasicIndicator1.Size = New System.Drawing.Size(250, 39)
+        Me.BasicIndicator1.Size = New System.Drawing.Size(188, 32)
         Me.BasicIndicator1.TabIndex = 50
         Me.BasicIndicator1.Text = "Tamp Active"
         '
@@ -362,7 +373,8 @@ Partial Class TampConfig
         Me.AnalogValueDisplay5.KeypadScaleFactor = 1.0R
         Me.AnalogValueDisplay5.KeypadText = Nothing
         Me.AnalogValueDisplay5.KeypadWidth = 300
-        Me.AnalogValueDisplay5.Location = New System.Drawing.Point(17, 246)
+        Me.AnalogValueDisplay5.Location = New System.Drawing.Point(13, 200)
+        Me.AnalogValueDisplay5.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.AnalogValueDisplay5.Name = "AnalogValueDisplay5"
         Me.AnalogValueDisplay5.NumericFormat = Nothing
         Me.AnalogValueDisplay5.PLCAddressKeypad = ""
@@ -371,7 +383,7 @@ Partial Class TampConfig
         Me.AnalogValueDisplay5.PLCAddressValueLimitUpper = Nothing
         Me.AnalogValueDisplay5.PLCAddressVisible = Nothing
         Me.AnalogValueDisplay5.ShowValue = True
-        Me.AnalogValueDisplay5.Size = New System.Drawing.Size(221, 25)
+        Me.AnalogValueDisplay5.Size = New System.Drawing.Size(181, 20)
         Me.AnalogValueDisplay5.TabIndex = 51
         Me.AnalogValueDisplay5.Text = "Average Scalar 0000 "
         Me.AnalogValueDisplay5.Value = "0000"
@@ -397,7 +409,8 @@ Partial Class TampConfig
         Me.AnalogValueDisplay6.KeypadScaleFactor = 1.0R
         Me.AnalogValueDisplay6.KeypadText = Nothing
         Me.AnalogValueDisplay6.KeypadWidth = 300
-        Me.AnalogValueDisplay6.Location = New System.Drawing.Point(16, 318)
+        Me.AnalogValueDisplay6.Location = New System.Drawing.Point(12, 258)
+        Me.AnalogValueDisplay6.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.AnalogValueDisplay6.Name = "AnalogValueDisplay6"
         Me.AnalogValueDisplay6.NumericFormat = Nothing
         Me.AnalogValueDisplay6.PLCAddressKeypad = "HMI_UPTR1_DistanceFromInduct"
@@ -406,7 +419,7 @@ Partial Class TampConfig
         Me.AnalogValueDisplay6.PLCAddressValueLimitUpper = Nothing
         Me.AnalogValueDisplay6.PLCAddressVisible = Nothing
         Me.AnalogValueDisplay6.ShowValue = True
-        Me.AnalogValueDisplay6.Size = New System.Drawing.Size(274, 25)
+        Me.AnalogValueDisplay6.Size = New System.Drawing.Size(225, 20)
         Me.AnalogValueDisplay6.TabIndex = 52
         Me.AnalogValueDisplay6.Text = "Stop To Apply 0000 Inches"
         Me.AnalogValueDisplay6.Value = "0000"
@@ -432,7 +445,8 @@ Partial Class TampConfig
         Me.AnalogValueDisplay7.KeypadScaleFactor = 1.0R
         Me.AnalogValueDisplay7.KeypadText = Nothing
         Me.AnalogValueDisplay7.KeypadWidth = 300
-        Me.AnalogValueDisplay7.Location = New System.Drawing.Point(16, 353)
+        Me.AnalogValueDisplay7.Location = New System.Drawing.Point(12, 287)
+        Me.AnalogValueDisplay7.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.AnalogValueDisplay7.Name = "AnalogValueDisplay7"
         Me.AnalogValueDisplay7.NumericFormat = Nothing
         Me.AnalogValueDisplay7.PLCAddressKeypad = "HMI_UPTR1_TampDistance"
@@ -441,7 +455,7 @@ Partial Class TampConfig
         Me.AnalogValueDisplay7.PLCAddressValueLimitUpper = Nothing
         Me.AnalogValueDisplay7.PLCAddressVisible = Nothing
         Me.AnalogValueDisplay7.ShowValue = True
-        Me.AnalogValueDisplay7.Size = New System.Drawing.Size(305, 25)
+        Me.AnalogValueDisplay7.Size = New System.Drawing.Size(248, 20)
         Me.AnalogValueDisplay7.TabIndex = 53
         Me.AnalogValueDisplay7.Text = "Apply On The Fly 0000 Inches"
         Me.AnalogValueDisplay7.Value = "0000"
@@ -467,7 +481,8 @@ Partial Class TampConfig
         Me.AnalogValueDisplay8.KeypadScaleFactor = 1.0R
         Me.AnalogValueDisplay8.KeypadText = Nothing
         Me.AnalogValueDisplay8.KeypadWidth = 300
-        Me.AnalogValueDisplay8.Location = New System.Drawing.Point(387, 353)
+        Me.AnalogValueDisplay8.Location = New System.Drawing.Point(290, 287)
+        Me.AnalogValueDisplay8.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.AnalogValueDisplay8.Name = "AnalogValueDisplay8"
         Me.AnalogValueDisplay8.NumericFormat = Nothing
         Me.AnalogValueDisplay8.PLCAddressKeypad = "HMI_UPTR2_TampDistance"
@@ -476,7 +491,7 @@ Partial Class TampConfig
         Me.AnalogValueDisplay8.PLCAddressValueLimitUpper = Nothing
         Me.AnalogValueDisplay8.PLCAddressVisible = Nothing
         Me.AnalogValueDisplay8.ShowValue = True
-        Me.AnalogValueDisplay8.Size = New System.Drawing.Size(305, 25)
+        Me.AnalogValueDisplay8.Size = New System.Drawing.Size(248, 20)
         Me.AnalogValueDisplay8.TabIndex = 61
         Me.AnalogValueDisplay8.Text = "Apply On The Fly 0000 Inches"
         Me.AnalogValueDisplay8.Value = "0000"
@@ -502,7 +517,8 @@ Partial Class TampConfig
         Me.AnalogValueDisplay9.KeypadScaleFactor = 1.0R
         Me.AnalogValueDisplay9.KeypadText = Nothing
         Me.AnalogValueDisplay9.KeypadWidth = 300
-        Me.AnalogValueDisplay9.Location = New System.Drawing.Point(387, 318)
+        Me.AnalogValueDisplay9.Location = New System.Drawing.Point(290, 258)
+        Me.AnalogValueDisplay9.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.AnalogValueDisplay9.Name = "AnalogValueDisplay9"
         Me.AnalogValueDisplay9.NumericFormat = Nothing
         Me.AnalogValueDisplay9.PLCAddressKeypad = "HMI_UPTR2_DistanceFromInduct"
@@ -511,7 +527,7 @@ Partial Class TampConfig
         Me.AnalogValueDisplay9.PLCAddressValueLimitUpper = Nothing
         Me.AnalogValueDisplay9.PLCAddressVisible = Nothing
         Me.AnalogValueDisplay9.ShowValue = True
-        Me.AnalogValueDisplay9.Size = New System.Drawing.Size(274, 25)
+        Me.AnalogValueDisplay9.Size = New System.Drawing.Size(225, 20)
         Me.AnalogValueDisplay9.TabIndex = 60
         Me.AnalogValueDisplay9.Text = "Stop To Apply 0000 Inches"
         Me.AnalogValueDisplay9.Value = "0000"
@@ -537,7 +553,8 @@ Partial Class TampConfig
         Me.AnalogValueDisplay10.KeypadScaleFactor = 1.0R
         Me.AnalogValueDisplay10.KeypadText = Nothing
         Me.AnalogValueDisplay10.KeypadWidth = 300
-        Me.AnalogValueDisplay10.Location = New System.Drawing.Point(388, 246)
+        Me.AnalogValueDisplay10.Location = New System.Drawing.Point(291, 200)
+        Me.AnalogValueDisplay10.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.AnalogValueDisplay10.Name = "AnalogValueDisplay10"
         Me.AnalogValueDisplay10.NumericFormat = Nothing
         Me.AnalogValueDisplay10.PLCAddressKeypad = ""
@@ -546,7 +563,7 @@ Partial Class TampConfig
         Me.AnalogValueDisplay10.PLCAddressValueLimitUpper = Nothing
         Me.AnalogValueDisplay10.PLCAddressVisible = Nothing
         Me.AnalogValueDisplay10.ShowValue = True
-        Me.AnalogValueDisplay10.Size = New System.Drawing.Size(221, 25)
+        Me.AnalogValueDisplay10.Size = New System.Drawing.Size(181, 20)
         Me.AnalogValueDisplay10.TabIndex = 59
         Me.AnalogValueDisplay10.Text = "Average Scalar 0000 "
         Me.AnalogValueDisplay10.Value = "0000"
@@ -563,7 +580,8 @@ Partial Class TampConfig
         Me.BasicIndicator2.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator2.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator2.ForeColor = System.Drawing.Color.GhostWhite
-        Me.BasicIndicator2.Location = New System.Drawing.Point(392, 204)
+        Me.BasicIndicator2.Location = New System.Drawing.Point(294, 166)
+        Me.BasicIndicator2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.BasicIndicator2.Name = "BasicIndicator2"
         Me.BasicIndicator2.OutlineColor = System.Drawing.Color.Transparent
         Me.BasicIndicator2.OutlineWidth = 1
@@ -572,7 +590,7 @@ Partial Class TampConfig
         Me.BasicIndicator2.SelectColor2 = False
         Me.BasicIndicator2.SelectColor3 = False
         Me.BasicIndicator2.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Round
-        Me.BasicIndicator2.Size = New System.Drawing.Size(250, 39)
+        Me.BasicIndicator2.Size = New System.Drawing.Size(188, 32)
         Me.BasicIndicator2.TabIndex = 58
         Me.BasicIndicator2.Text = "Tamp Active"
         '
@@ -592,7 +610,8 @@ Partial Class TampConfig
         Me.AnalogValueDisplay11.KeypadScaleFactor = 1.0R
         Me.AnalogValueDisplay11.KeypadText = Nothing
         Me.AnalogValueDisplay11.KeypadWidth = 300
-        Me.AnalogValueDisplay11.Location = New System.Drawing.Point(384, 282)
+        Me.AnalogValueDisplay11.Location = New System.Drawing.Point(288, 229)
+        Me.AnalogValueDisplay11.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.AnalogValueDisplay11.Name = "AnalogValueDisplay11"
         Me.AnalogValueDisplay11.NumericFormat = Nothing
         Me.AnalogValueDisplay11.PLCAddressKeypad = "HMI_UPTR2_TampHeight"
@@ -601,7 +620,7 @@ Partial Class TampConfig
         Me.AnalogValueDisplay11.PLCAddressValueLimitUpper = Nothing
         Me.AnalogValueDisplay11.PLCAddressVisible = Nothing
         Me.AnalogValueDisplay11.ShowValue = True
-        Me.AnalogValueDisplay11.Size = New System.Drawing.Size(259, 25)
+        Me.AnalogValueDisplay11.Size = New System.Drawing.Size(215, 20)
         Me.AnalogValueDisplay11.TabIndex = 57
         Me.AnalogValueDisplay11.Text = "Tamp Height 0000 Inches"
         Me.AnalogValueDisplay11.Value = "0000"
@@ -619,7 +638,8 @@ Partial Class TampConfig
         Me.BasicButton1.ForeColorAltername = System.Drawing.Color.Black
         Me.BasicButton1.Highlight = False
         Me.BasicButton1.HighlightColor = System.Drawing.Color.Green
-        Me.BasicButton1.Location = New System.Drawing.Point(559, 175)
+        Me.BasicButton1.Location = New System.Drawing.Point(419, 142)
+        Me.BasicButton1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.BasicButton1.MaximumHoldTime = 3000
         Me.BasicButton1.MinimumHoldTime = 500
         Me.BasicButton1.Name = "BasicButton1"
@@ -628,7 +648,7 @@ Partial Class TampConfig
         Me.BasicButton1.PLCAddressSelectTextAlternate = "Apply2_Tamp.In_Override"
         Me.BasicButton1.PLCAddressVisible = "gPar_ServoApplicator"
         Me.BasicButton1.SelectTextAlternate = False
-        Me.BasicButton1.Size = New System.Drawing.Size(75, 23)
+        Me.BasicButton1.Size = New System.Drawing.Size(56, 19)
         Me.BasicButton1.TabIndex = 56
         Me.BasicButton1.Text = "Auto"
         Me.BasicButton1.TextAlternate = "Overridden"
@@ -651,7 +671,8 @@ Partial Class TampConfig
         Me.AnalogValueDisplay12.KeypadScaleFactor = 1.0R
         Me.AnalogValueDisplay12.KeypadText = Nothing
         Me.AnalogValueDisplay12.KeypadWidth = 300
-        Me.AnalogValueDisplay12.Location = New System.Drawing.Point(388, 175)
+        Me.AnalogValueDisplay12.Location = New System.Drawing.Point(291, 142)
+        Me.AnalogValueDisplay12.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.AnalogValueDisplay12.Name = "AnalogValueDisplay12"
         Me.AnalogValueDisplay12.NumericFormat = Nothing
         Me.AnalogValueDisplay12.PLCAddressKeypad = "Apply2_Tamp.Val_OverrideScalar"
@@ -660,7 +681,7 @@ Partial Class TampConfig
         Me.AnalogValueDisplay12.PLCAddressValueLimitUpper = Nothing
         Me.AnalogValueDisplay12.PLCAddressVisible = Nothing
         Me.AnalogValueDisplay12.ShowValue = True
-        Me.AnalogValueDisplay12.Size = New System.Drawing.Size(155, 25)
+        Me.AnalogValueDisplay12.Size = New System.Drawing.Size(126, 20)
         Me.AnalogValueDisplay12.TabIndex = 55
         Me.AnalogValueDisplay12.Text = "Override  0000"
         Me.AnalogValueDisplay12.Value = "0000"
@@ -686,7 +707,8 @@ Partial Class TampConfig
         Me.AnalogValueDisplay13.KeypadScaleFactor = 1.0R
         Me.AnalogValueDisplay13.KeypadText = Nothing
         Me.AnalogValueDisplay13.KeypadWidth = 300
-        Me.AnalogValueDisplay13.Location = New System.Drawing.Point(387, 138)
+        Me.AnalogValueDisplay13.Location = New System.Drawing.Point(290, 112)
+        Me.AnalogValueDisplay13.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.AnalogValueDisplay13.Name = "AnalogValueDisplay13"
         Me.AnalogValueDisplay13.NumericFormat = Nothing
         Me.AnalogValueDisplay13.PLCAddressKeypad = ""
@@ -695,7 +717,7 @@ Partial Class TampConfig
         Me.AnalogValueDisplay13.PLCAddressValueLimitUpper = Nothing
         Me.AnalogValueDisplay13.PLCAddressVisible = Nothing
         Me.AnalogValueDisplay13.ShowValue = True
-        Me.AnalogValueDisplay13.Size = New System.Drawing.Size(123, 25)
+        Me.AnalogValueDisplay13.Size = New System.Drawing.Size(102, 20)
         Me.AnalogValueDisplay13.TabIndex = 54
         Me.AnalogValueDisplay13.Text = "Auto  0000 "
         Me.AnalogValueDisplay13.Value = "0000"
@@ -721,7 +743,8 @@ Partial Class TampConfig
         Me.AnalogValueDisplay14.KeypadScaleFactor = 1.0R
         Me.AnalogValueDisplay14.KeypadText = Nothing
         Me.AnalogValueDisplay14.KeypadWidth = 300
-        Me.AnalogValueDisplay14.Location = New System.Drawing.Point(91, 399)
+        Me.AnalogValueDisplay14.Location = New System.Drawing.Point(68, 324)
+        Me.AnalogValueDisplay14.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.AnalogValueDisplay14.Name = "AnalogValueDisplay14"
         Me.AnalogValueDisplay14.NumericFormat = Nothing
         Me.AnalogValueDisplay14.PLCAddressKeypad = "HMI_StopToApplyGap"
@@ -730,7 +753,7 @@ Partial Class TampConfig
         Me.AnalogValueDisplay14.PLCAddressValueLimitUpper = Nothing
         Me.AnalogValueDisplay14.PLCAddressVisible = Nothing
         Me.AnalogValueDisplay14.ShowValue = True
-        Me.AnalogValueDisplay14.Size = New System.Drawing.Size(655, 25)
+        Me.AnalogValueDisplay14.Size = New System.Drawing.Size(540, 20)
         Me.AnalogValueDisplay14.TabIndex = 62
         Me.AnalogValueDisplay14.Text = "Stop To Apply Gap To Top 0000 Inches (5 Inches Recommended) "
         Me.AnalogValueDisplay14.Value = "0000"
@@ -750,9 +773,10 @@ Partial Class TampConfig
         Me.LbDate.AutoSize = True
         Me.LbDate.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LbDate.ForeColor = System.Drawing.Color.GhostWhite
-        Me.LbDate.Location = New System.Drawing.Point(647, 440)
+        Me.LbDate.Location = New System.Drawing.Point(485, 358)
+        Me.LbDate.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.LbDate.Name = "LbDate"
-        Me.LbDate.Size = New System.Drawing.Size(114, 25)
+        Me.LbDate.Size = New System.Drawing.Size(83, 20)
         Me.LbDate.TabIndex = 1444
         Me.LbDate.Text = "xx/xx/xxxx"
         '
@@ -761,18 +785,19 @@ Partial Class TampConfig
         Me.LbClk.AutoSize = True
         Me.LbClk.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LbClk.ForeColor = System.Drawing.Color.GhostWhite
-        Me.LbClk.Location = New System.Drawing.Point(647, 465)
+        Me.LbClk.Location = New System.Drawing.Point(485, 378)
+        Me.LbClk.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.LbClk.Name = "LbClk"
-        Me.LbClk.Size = New System.Drawing.Size(130, 25)
+        Me.LbClk.Size = New System.Drawing.Size(97, 20)
         Me.LbClk.TabIndex = 1443
         Me.LbClk.Text = "xx:xx:xx PM"
         '
         'TampConfig
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.MidnightBlue
-        Me.ClientSize = New System.Drawing.Size(800, 502)
+        Me.ClientSize = New System.Drawing.Size(600, 408)
         Me.Controls.Add(Me.LbDate)
         Me.Controls.Add(Me.LbClk)
         Me.Controls.Add(Me.AnalogValueDisplay14)
@@ -798,6 +823,8 @@ Partial Class TampConfig
         Me.Controls.Add(Me.AnalogValueDisplay1)
         Me.Controls.Add(Me.lenInc)
         Me.Controls.Add(Me.Label9)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Name = "TampConfig"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Tamp Configuration"

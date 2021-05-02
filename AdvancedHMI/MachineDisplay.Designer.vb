@@ -232,9 +232,10 @@ Partial Class MachineDisplay
         Me.LbDate.AutoSize = True
         Me.LbDate.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LbDate.ForeColor = System.Drawing.Color.GhostWhite
-        Me.LbDate.Location = New System.Drawing.Point(12, 457)
+        Me.LbDate.Location = New System.Drawing.Point(9, 371)
+        Me.LbDate.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.LbDate.Name = "LbDate"
-        Me.LbDate.Size = New System.Drawing.Size(114, 25)
+        Me.LbDate.Size = New System.Drawing.Size(83, 20)
         Me.LbDate.TabIndex = 1444
         Me.LbDate.Text = "xx/xx/xxxx"
         '
@@ -243,9 +244,10 @@ Partial Class MachineDisplay
         Me.LbClk.AutoSize = True
         Me.LbClk.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LbClk.ForeColor = System.Drawing.Color.GhostWhite
-        Me.LbClk.Location = New System.Drawing.Point(12, 482)
+        Me.LbClk.Location = New System.Drawing.Point(9, 392)
+        Me.LbClk.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.LbClk.Name = "LbClk"
-        Me.LbClk.Size = New System.Drawing.Size(130, 25)
+        Me.LbClk.Size = New System.Drawing.Size(97, 20)
         Me.LbClk.TabIndex = 1443
         Me.LbClk.Text = "xx:xx:xx PM"
         '
@@ -311,11 +313,12 @@ Partial Class MachineDisplay
         Me.AnimatingPictureBox6.KeypadScaleFactor = 1.0R
         Me.AnimatingPictureBox6.KeypadText = Nothing
         Me.AnimatingPictureBox6.KeypadWidth = 300
-        Me.AnimatingPictureBox6.Location = New System.Drawing.Point(249, 250)
+        Me.AnimatingPictureBox6.Location = New System.Drawing.Point(187, 203)
         Me.AnimatingPictureBox6.LocationOffsetX = 0
         Me.AnimatingPictureBox6.LocationOffsetY = 0
+        Me.AnimatingPictureBox6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.AnimatingPictureBox6.Name = "AnimatingPictureBox6"
-        Me.AnimatingPictureBox6.Size = New System.Drawing.Size(263, 200)
+        Me.AnimatingPictureBox6.Size = New System.Drawing.Size(197, 162)
         Me.AnimatingPictureBox6.TabIndex = 1450
         Me.AnimatingPictureBox6.TabStop = False
         '
@@ -367,11 +370,12 @@ Partial Class MachineDisplay
         Me.AnimatingPictureBox1.KeypadScaleFactor = 1.0R
         Me.AnimatingPictureBox1.KeypadText = Nothing
         Me.AnimatingPictureBox1.KeypadWidth = 300
-        Me.AnimatingPictureBox1.Location = New System.Drawing.Point(1305, 250)
+        Me.AnimatingPictureBox1.Location = New System.Drawing.Point(979, 203)
         Me.AnimatingPictureBox1.LocationOffsetX = 0
         Me.AnimatingPictureBox1.LocationOffsetY = 0
+        Me.AnimatingPictureBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.AnimatingPictureBox1.Name = "AnimatingPictureBox1"
-        Me.AnimatingPictureBox1.Size = New System.Drawing.Size(214, 200)
+        Me.AnimatingPictureBox1.Size = New System.Drawing.Size(160, 162)
         Me.AnimatingPictureBox1.TabIndex = 1451
         Me.AnimatingPictureBox1.TabStop = False
         '
@@ -423,11 +427,12 @@ Partial Class MachineDisplay
         Me.AnimatingPictureBox4.KeypadScaleFactor = 1.0R
         Me.AnimatingPictureBox4.KeypadText = Nothing
         Me.AnimatingPictureBox4.KeypadWidth = 300
-        Me.AnimatingPictureBox4.Location = New System.Drawing.Point(1520, 250)
+        Me.AnimatingPictureBox4.Location = New System.Drawing.Point(1140, 203)
         Me.AnimatingPictureBox4.LocationOffsetX = 0
         Me.AnimatingPictureBox4.LocationOffsetY = 0
+        Me.AnimatingPictureBox4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.AnimatingPictureBox4.Name = "AnimatingPictureBox4"
-        Me.AnimatingPictureBox4.Size = New System.Drawing.Size(250, 200)
+        Me.AnimatingPictureBox4.Size = New System.Drawing.Size(188, 162)
         Me.AnimatingPictureBox4.TabIndex = 1453
         Me.AnimatingPictureBox4.TabStop = False
         '
@@ -479,11 +484,12 @@ Partial Class MachineDisplay
         Me.AnimatingPictureBox5.KeypadScaleFactor = 1.0R
         Me.AnimatingPictureBox5.KeypadText = Nothing
         Me.AnimatingPictureBox5.KeypadWidth = 300
-        Me.AnimatingPictureBox5.Location = New System.Drawing.Point(0, 250)
+        Me.AnimatingPictureBox5.Location = New System.Drawing.Point(0, 203)
         Me.AnimatingPictureBox5.LocationOffsetX = 0
         Me.AnimatingPictureBox5.LocationOffsetY = 0
+        Me.AnimatingPictureBox5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.AnimatingPictureBox5.Name = "AnimatingPictureBox5"
-        Me.AnimatingPictureBox5.Size = New System.Drawing.Size(248, 200)
+        Me.AnimatingPictureBox5.Size = New System.Drawing.Size(186, 162)
         Me.AnimatingPictureBox5.TabIndex = 1454
         Me.AnimatingPictureBox5.TabStop = False
         '
@@ -535,11 +541,12 @@ Partial Class MachineDisplay
         Me.AnimatingPictureBox9.KeypadScaleFactor = 1.0R
         Me.AnimatingPictureBox9.KeypadText = Nothing
         Me.AnimatingPictureBox9.KeypadWidth = 300
-        Me.AnimatingPictureBox9.Location = New System.Drawing.Point(513, 250)
+        Me.AnimatingPictureBox9.Location = New System.Drawing.Point(385, 203)
         Me.AnimatingPictureBox9.LocationOffsetX = 0
         Me.AnimatingPictureBox9.LocationOffsetY = 0
+        Me.AnimatingPictureBox9.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.AnimatingPictureBox9.Name = "AnimatingPictureBox9"
-        Me.AnimatingPictureBox9.Size = New System.Drawing.Size(263, 200)
+        Me.AnimatingPictureBox9.Size = New System.Drawing.Size(197, 162)
         Me.AnimatingPictureBox9.TabIndex = 1457
         Me.AnimatingPictureBox9.TabStop = False
         '
@@ -591,11 +598,12 @@ Partial Class MachineDisplay
         Me.AnimatingPictureBox7.KeypadScaleFactor = 1.0R
         Me.AnimatingPictureBox7.KeypadText = Nothing
         Me.AnimatingPictureBox7.KeypadWidth = 300
-        Me.AnimatingPictureBox7.Location = New System.Drawing.Point(1041, 250)
+        Me.AnimatingPictureBox7.Location = New System.Drawing.Point(781, 203)
         Me.AnimatingPictureBox7.LocationOffsetX = 0
         Me.AnimatingPictureBox7.LocationOffsetY = 0
+        Me.AnimatingPictureBox7.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.AnimatingPictureBox7.Name = "AnimatingPictureBox7"
-        Me.AnimatingPictureBox7.Size = New System.Drawing.Size(263, 200)
+        Me.AnimatingPictureBox7.Size = New System.Drawing.Size(197, 162)
         Me.AnimatingPictureBox7.TabIndex = 1458
         Me.AnimatingPictureBox7.TabStop = False
         '
@@ -647,11 +655,12 @@ Partial Class MachineDisplay
         Me.AnimatingPictureBox8.KeypadScaleFactor = 1.0R
         Me.AnimatingPictureBox8.KeypadText = Nothing
         Me.AnimatingPictureBox8.KeypadWidth = 300
-        Me.AnimatingPictureBox8.Location = New System.Drawing.Point(777, 250)
+        Me.AnimatingPictureBox8.Location = New System.Drawing.Point(583, 203)
         Me.AnimatingPictureBox8.LocationOffsetX = 0
         Me.AnimatingPictureBox8.LocationOffsetY = 0
+        Me.AnimatingPictureBox8.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.AnimatingPictureBox8.Name = "AnimatingPictureBox8"
-        Me.AnimatingPictureBox8.Size = New System.Drawing.Size(263, 200)
+        Me.AnimatingPictureBox8.Size = New System.Drawing.Size(197, 162)
         Me.AnimatingPictureBox8.TabIndex = 1459
         Me.AnimatingPictureBox8.TabStop = False
         '
@@ -664,14 +673,15 @@ Partial Class MachineDisplay
         Me.MacDisExit.ForeColorAltername = System.Drawing.Color.Black
         Me.MacDisExit.Highlight = False
         Me.MacDisExit.HighlightColor = System.Drawing.Color.Green
-        Me.MacDisExit.Location = New System.Drawing.Point(163, 457)
+        Me.MacDisExit.Location = New System.Drawing.Point(122, 371)
+        Me.MacDisExit.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.MacDisExit.MaximumHoldTime = 3000
         Me.MacDisExit.MinimumHoldTime = 500
         Me.MacDisExit.Name = "MacDisExit"
         Me.MacDisExit.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
         Me.MacDisExit.PLCAddressClick = ""
         Me.MacDisExit.SelectTextAlternate = False
-        Me.MacDisExit.Size = New System.Drawing.Size(384, 56)
+        Me.MacDisExit.Size = New System.Drawing.Size(288, 46)
         Me.MacDisExit.TabIndex = 1460
         Me.MacDisExit.Text = "Exit Machine Display"
         Me.MacDisExit.TextAlternate = Nothing
@@ -726,11 +736,12 @@ Partial Class MachineDisplay
         Me.scInPE.KeypadScaleFactor = 1.0R
         Me.scInPE.KeypadText = Nothing
         Me.scInPE.KeypadWidth = 300
-        Me.scInPE.Location = New System.Drawing.Point(15, 292)
+        Me.scInPE.Location = New System.Drawing.Point(11, 237)
         Me.scInPE.LocationOffsetX = 0
         Me.scInPE.LocationOffsetY = 0
+        Me.scInPE.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.scInPE.Name = "scInPE"
-        Me.scInPE.Size = New System.Drawing.Size(29, 28)
+        Me.scInPE.Size = New System.Drawing.Size(22, 23)
         Me.scInPE.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.scInPE.TabIndex = 1461
         Me.scInPE.TabStop = False
@@ -783,11 +794,12 @@ Partial Class MachineDisplay
         Me.scExPE.KeypadScaleFactor = 1.0R
         Me.scExPE.KeypadText = Nothing
         Me.scExPE.KeypadWidth = 300
-        Me.scExPE.Location = New System.Drawing.Point(240, 292)
+        Me.scExPE.Location = New System.Drawing.Point(180, 237)
         Me.scExPE.LocationOffsetX = 0
         Me.scExPE.LocationOffsetY = 0
+        Me.scExPE.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.scExPE.Name = "scExPE"
-        Me.scExPE.Size = New System.Drawing.Size(29, 28)
+        Me.scExPE.Size = New System.Drawing.Size(22, 23)
         Me.scExPE.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.scExPE.TabIndex = 1462
         Me.scExPE.TabStop = False
@@ -840,11 +852,12 @@ Partial Class MachineDisplay
         Me.prtOnePE.KeypadScaleFactor = 1.0R
         Me.prtOnePE.KeypadText = Nothing
         Me.prtOnePE.KeypadWidth = 300
-        Me.prtOnePE.Location = New System.Drawing.Point(840, 292)
+        Me.prtOnePE.Location = New System.Drawing.Point(630, 237)
         Me.prtOnePE.LocationOffsetX = 0
         Me.prtOnePE.LocationOffsetY = 0
+        Me.prtOnePE.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.prtOnePE.Name = "prtOnePE"
-        Me.prtOnePE.Size = New System.Drawing.Size(29, 28)
+        Me.prtOnePE.Size = New System.Drawing.Size(22, 23)
         Me.prtOnePE.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.prtOnePE.TabIndex = 1463
         Me.prtOnePE.TabStop = False
@@ -897,11 +910,12 @@ Partial Class MachineDisplay
         Me.prtTwoPE.KeypadScaleFactor = 1.0R
         Me.prtTwoPE.KeypadText = Nothing
         Me.prtTwoPE.KeypadWidth = 300
-        Me.prtTwoPE.Location = New System.Drawing.Point(1110, 292)
+        Me.prtTwoPE.Location = New System.Drawing.Point(832, 237)
         Me.prtTwoPE.LocationOffsetX = 0
         Me.prtTwoPE.LocationOffsetY = 0
+        Me.prtTwoPE.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.prtTwoPE.Name = "prtTwoPE"
-        Me.prtTwoPE.Size = New System.Drawing.Size(29, 28)
+        Me.prtTwoPE.Size = New System.Drawing.Size(22, 23)
         Me.prtTwoPE.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.prtTwoPE.TabIndex = 1464
         Me.prtTwoPE.TabStop = False
@@ -954,11 +968,12 @@ Partial Class MachineDisplay
         Me.sortInPE.KeypadScaleFactor = 1.0R
         Me.sortInPE.KeypadText = Nothing
         Me.sortInPE.KeypadWidth = 300
-        Me.sortInPE.Location = New System.Drawing.Point(1575, 292)
+        Me.sortInPE.Location = New System.Drawing.Point(1181, 237)
         Me.sortInPE.LocationOffsetX = 0
         Me.sortInPE.LocationOffsetY = 0
+        Me.sortInPE.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.sortInPE.Name = "sortInPE"
-        Me.sortInPE.Size = New System.Drawing.Size(29, 28)
+        Me.sortInPE.Size = New System.Drawing.Size(22, 23)
         Me.sortInPE.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.sortInPE.TabIndex = 1465
         Me.sortInPE.TabStop = False
@@ -1011,11 +1026,12 @@ Partial Class MachineDisplay
         Me.verInPE.KeypadScaleFactor = 1.0R
         Me.verInPE.KeypadText = Nothing
         Me.verInPE.KeypadWidth = 300
-        Me.verInPE.Location = New System.Drawing.Point(1380, 292)
+        Me.verInPE.Location = New System.Drawing.Point(1035, 237)
         Me.verInPE.LocationOffsetX = 0
         Me.verInPE.LocationOffsetY = 0
+        Me.verInPE.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.verInPE.Name = "verInPE"
-        Me.verInPE.Size = New System.Drawing.Size(29, 28)
+        Me.verInPE.Size = New System.Drawing.Size(22, 23)
         Me.verInPE.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.verInPE.TabIndex = 1466
         Me.verInPE.TabStop = False
@@ -1068,11 +1084,12 @@ Partial Class MachineDisplay
         Me.koDivPE.KeypadScaleFactor = 1.0R
         Me.koDivPE.KeypadText = Nothing
         Me.koDivPE.KeypadWidth = 300
-        Me.koDivPE.Location = New System.Drawing.Point(1736, 292)
+        Me.koDivPE.Location = New System.Drawing.Point(1302, 237)
         Me.koDivPE.LocationOffsetX = 0
         Me.koDivPE.LocationOffsetY = 0
+        Me.koDivPE.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.koDivPE.Name = "koDivPE"
-        Me.koDivPE.Size = New System.Drawing.Size(29, 28)
+        Me.koDivPE.Size = New System.Drawing.Size(22, 23)
         Me.koDivPE.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.koDivPE.TabIndex = 1467
         Me.koDivPE.TabStop = False
@@ -1125,11 +1142,12 @@ Partial Class MachineDisplay
         Me.strDivPE.KeypadScaleFactor = 1.0R
         Me.strDivPE.KeypadText = Nothing
         Me.strDivPE.KeypadWidth = 300
-        Me.strDivPE.Location = New System.Drawing.Point(1736, 220)
+        Me.strDivPE.Location = New System.Drawing.Point(1302, 179)
         Me.strDivPE.LocationOffsetX = 0
         Me.strDivPE.LocationOffsetY = 0
+        Me.strDivPE.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.strDivPE.Name = "strDivPE"
-        Me.strDivPE.Size = New System.Drawing.Size(29, 28)
+        Me.strDivPE.Size = New System.Drawing.Size(22, 23)
         Me.strDivPE.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.strDivPE.TabIndex = 1468
         Me.strDivPE.TabStop = False
@@ -1182,12 +1200,13 @@ Partial Class MachineDisplay
         Me.strDivPE2.KeypadScaleFactor = 1.0R
         Me.strDivPE2.KeypadText = Nothing
         Me.strDivPE2.KeypadWidth = 300
-        Me.strDivPE2.Location = New System.Drawing.Point(1736, 220)
+        Me.strDivPE2.Location = New System.Drawing.Point(1302, 179)
         Me.strDivPE2.LocationOffsetX = 0
         Me.strDivPE2.LocationOffsetY = 0
+        Me.strDivPE2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.strDivPE2.Name = "strDivPE2"
         Me.strDivPE2.PLCAddressVisible = "USORT2_PE_UD"
-        Me.strDivPE2.Size = New System.Drawing.Size(29, 28)
+        Me.strDivPE2.Size = New System.Drawing.Size(22, 23)
         Me.strDivPE2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.strDivPE2.TabIndex = 1470
         Me.strDivPE2.TabStop = False
@@ -1240,12 +1259,13 @@ Partial Class MachineDisplay
         Me.koDivPE2.KeypadScaleFactor = 1.0R
         Me.koDivPE2.KeypadText = Nothing
         Me.koDivPE2.KeypadWidth = 300
-        Me.koDivPE2.Location = New System.Drawing.Point(1736, 292)
+        Me.koDivPE2.Location = New System.Drawing.Point(1302, 237)
         Me.koDivPE2.LocationOffsetX = 0
         Me.koDivPE2.LocationOffsetY = 0
+        Me.koDivPE2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.koDivPE2.Name = "koDivPE2"
         Me.koDivPE2.PLCAddressVisible = "USORT1_PE_UD"
-        Me.koDivPE2.Size = New System.Drawing.Size(29, 28)
+        Me.koDivPE2.Size = New System.Drawing.Size(22, 23)
         Me.koDivPE2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.koDivPE2.TabIndex = 1471
         Me.koDivPE2.TabStop = False
@@ -1298,12 +1318,13 @@ Partial Class MachineDisplay
         Me.sortPE2.KeypadScaleFactor = 1.0R
         Me.sortPE2.KeypadText = Nothing
         Me.sortPE2.KeypadWidth = 300
-        Me.sortPE2.Location = New System.Drawing.Point(1575, 292)
+        Me.sortPE2.Location = New System.Drawing.Point(1181, 237)
         Me.sortPE2.LocationOffsetX = 0
         Me.sortPE2.LocationOffsetY = 0
+        Me.sortPE2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.sortPE2.Name = "sortPE2"
         Me.sortPE2.PLCAddressVisible = "UIND_PE_UD"
-        Me.sortPE2.Size = New System.Drawing.Size(29, 28)
+        Me.sortPE2.Size = New System.Drawing.Size(22, 23)
         Me.sortPE2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.sortPE2.TabIndex = 1472
         Me.sortPE2.TabStop = False
@@ -1356,12 +1377,13 @@ Partial Class MachineDisplay
         Me.vefInPE2.KeypadScaleFactor = 1.0R
         Me.vefInPE2.KeypadText = Nothing
         Me.vefInPE2.KeypadWidth = 300
-        Me.vefInPE2.Location = New System.Drawing.Point(1380, 292)
+        Me.vefInPE2.Location = New System.Drawing.Point(1035, 237)
         Me.vefInPE2.LocationOffsetX = 0
         Me.vefInPE2.LocationOffsetY = 0
+        Me.vefInPE2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.vefInPE2.Name = "vefInPE2"
         Me.vefInPE2.PLCAddressVisible = "UIND_PE_IND"
-        Me.vefInPE2.Size = New System.Drawing.Size(29, 28)
+        Me.vefInPE2.Size = New System.Drawing.Size(22, 23)
         Me.vefInPE2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.vefInPE2.TabIndex = 1473
         Me.vefInPE2.TabStop = False
@@ -1414,12 +1436,13 @@ Partial Class MachineDisplay
         Me.prtTwoPE2.KeypadScaleFactor = 1.0R
         Me.prtTwoPE2.KeypadText = Nothing
         Me.prtTwoPE2.KeypadWidth = 300
-        Me.prtTwoPE2.Location = New System.Drawing.Point(1110, 292)
+        Me.prtTwoPE2.Location = New System.Drawing.Point(832, 237)
         Me.prtTwoPE2.LocationOffsetX = 0
         Me.prtTwoPE2.LocationOffsetY = 0
+        Me.prtTwoPE2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.prtTwoPE2.Name = "prtTwoPE2"
         Me.prtTwoPE2.PLCAddressVisible = "UPTR2_PE_XFR"
-        Me.prtTwoPE2.Size = New System.Drawing.Size(29, 28)
+        Me.prtTwoPE2.Size = New System.Drawing.Size(22, 23)
         Me.prtTwoPE2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.prtTwoPE2.TabIndex = 1474
         Me.prtTwoPE2.TabStop = False
@@ -1472,12 +1495,13 @@ Partial Class MachineDisplay
         Me.prtOnePE2.KeypadScaleFactor = 1.0R
         Me.prtOnePE2.KeypadText = Nothing
         Me.prtOnePE2.KeypadWidth = 300
-        Me.prtOnePE2.Location = New System.Drawing.Point(840, 292)
+        Me.prtOnePE2.Location = New System.Drawing.Point(630, 237)
         Me.prtOnePE2.LocationOffsetX = 0
         Me.prtOnePE2.LocationOffsetY = 0
+        Me.prtOnePE2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.prtOnePE2.Name = "prtOnePE2"
         Me.prtOnePE2.PLCAddressVisible = "UPTR1_PE_XFR"
-        Me.prtOnePE2.Size = New System.Drawing.Size(29, 28)
+        Me.prtOnePE2.Size = New System.Drawing.Size(22, 23)
         Me.prtOnePE2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.prtOnePE2.TabIndex = 1475
         Me.prtOnePE2.TabStop = False
@@ -1530,12 +1554,13 @@ Partial Class MachineDisplay
         Me.scExPE2.KeypadScaleFactor = 1.0R
         Me.scExPE2.KeypadText = Nothing
         Me.scExPE2.KeypadWidth = 300
-        Me.scExPE2.Location = New System.Drawing.Point(240, 292)
+        Me.scExPE2.Location = New System.Drawing.Point(180, 237)
         Me.scExPE2.LocationOffsetX = 0
         Me.scExPE2.LocationOffsetY = 0
+        Me.scExPE2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.scExPE2.Name = "scExPE2"
         Me.scExPE2.PLCAddressVisible = "USCALE_PE_P"
-        Me.scExPE2.Size = New System.Drawing.Size(29, 28)
+        Me.scExPE2.Size = New System.Drawing.Size(22, 23)
         Me.scExPE2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.scExPE2.TabIndex = 1476
         Me.scExPE2.TabStop = False
@@ -1588,12 +1613,13 @@ Partial Class MachineDisplay
         Me.scInPE2.KeypadScaleFactor = 1.0R
         Me.scInPE2.KeypadText = Nothing
         Me.scInPE2.KeypadWidth = 300
-        Me.scInPE2.Location = New System.Drawing.Point(15, 292)
+        Me.scInPE2.Location = New System.Drawing.Point(11, 237)
         Me.scInPE2.LocationOffsetX = 0
         Me.scInPE2.LocationOffsetY = 0
+        Me.scInPE2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.scInPE2.Name = "scInPE2"
         Me.scInPE2.PLCAddressVisible = "USCALE_PE_IND"
-        Me.scInPE2.Size = New System.Drawing.Size(29, 28)
+        Me.scInPE2.Size = New System.Drawing.Size(22, 23)
         Me.scInPE2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.scInPE2.TabIndex = 1477
         Me.scInPE2.TabStop = False
@@ -1646,11 +1672,12 @@ Partial Class MachineDisplay
         Me.AnimatingPictureBox2.KeypadScaleFactor = 1.0R
         Me.AnimatingPictureBox2.KeypadText = Nothing
         Me.AnimatingPictureBox2.KeypadWidth = 300
-        Me.AnimatingPictureBox2.Location = New System.Drawing.Point(765, 24)
+        Me.AnimatingPictureBox2.Location = New System.Drawing.Point(574, 20)
         Me.AnimatingPictureBox2.LocationOffsetX = 0
         Me.AnimatingPictureBox2.LocationOffsetY = 0
+        Me.AnimatingPictureBox2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.AnimatingPictureBox2.Name = "AnimatingPictureBox2"
-        Me.AnimatingPictureBox2.Size = New System.Drawing.Size(275, 150)
+        Me.AnimatingPictureBox2.Size = New System.Drawing.Size(206, 122)
         Me.AnimatingPictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.AnimatingPictureBox2.TabIndex = 1478
         Me.AnimatingPictureBox2.TabStop = False
@@ -1703,11 +1730,12 @@ Partial Class MachineDisplay
         Me.AnimatingPictureBox3.KeypadScaleFactor = 1.0R
         Me.AnimatingPictureBox3.KeypadText = Nothing
         Me.AnimatingPictureBox3.KeypadWidth = 300
-        Me.AnimatingPictureBox3.Location = New System.Drawing.Point(1046, 24)
+        Me.AnimatingPictureBox3.Location = New System.Drawing.Point(784, 20)
         Me.AnimatingPictureBox3.LocationOffsetX = 0
         Me.AnimatingPictureBox3.LocationOffsetY = 0
+        Me.AnimatingPictureBox3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.AnimatingPictureBox3.Name = "AnimatingPictureBox3"
-        Me.AnimatingPictureBox3.Size = New System.Drawing.Size(275, 150)
+        Me.AnimatingPictureBox3.Size = New System.Drawing.Size(206, 122)
         Me.AnimatingPictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.AnimatingPictureBox3.TabIndex = 1479
         Me.AnimatingPictureBox3.TabStop = False
@@ -1760,12 +1788,13 @@ Partial Class MachineDisplay
         Me.AnimatingPictureBox10.KeypadScaleFactor = 1.0R
         Me.AnimatingPictureBox10.KeypadText = Nothing
         Me.AnimatingPictureBox10.KeypadWidth = 300
-        Me.AnimatingPictureBox10.Location = New System.Drawing.Point(1053, 3)
+        Me.AnimatingPictureBox10.Location = New System.Drawing.Point(790, 2)
         Me.AnimatingPictureBox10.LocationOffsetX = 0
         Me.AnimatingPictureBox10.LocationOffsetY = 0
+        Me.AnimatingPictureBox10.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.AnimatingPictureBox10.Name = "AnimatingPictureBox10"
         Me.AnimatingPictureBox10.PLCAddressVisible = "UPTR2_PE_XFR"
-        Me.AnimatingPictureBox10.Size = New System.Drawing.Size(250, 200)
+        Me.AnimatingPictureBox10.Size = New System.Drawing.Size(188, 162)
         Me.AnimatingPictureBox10.TabIndex = 1480
         Me.AnimatingPictureBox10.TabStop = False
         Me.AnimatingPictureBox10.Visible = False
@@ -1818,11 +1847,12 @@ Partial Class MachineDisplay
         Me.Prt1RodEx.KeypadScaleFactor = 1.0R
         Me.Prt1RodEx.KeypadText = Nothing
         Me.Prt1RodEx.KeypadWidth = 300
-        Me.Prt1RodEx.Location = New System.Drawing.Point(772, 3)
+        Me.Prt1RodEx.Location = New System.Drawing.Point(579, 2)
         Me.Prt1RodEx.LocationOffsetX = 0
         Me.Prt1RodEx.LocationOffsetY = 0
+        Me.Prt1RodEx.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Prt1RodEx.Name = "Prt1RodEx"
-        Me.Prt1RodEx.Size = New System.Drawing.Size(250, 200)
+        Me.Prt1RodEx.Size = New System.Drawing.Size(188, 162)
         Me.Prt1RodEx.TabIndex = 1481
         Me.Prt1RodEx.TabStop = False
         '
@@ -1835,14 +1865,15 @@ Partial Class MachineDisplay
         Me.showSlams.ForeColorAltername = System.Drawing.Color.Black
         Me.showSlams.Highlight = False
         Me.showSlams.HighlightColor = System.Drawing.Color.Green
-        Me.showSlams.Location = New System.Drawing.Point(578, 457)
+        Me.showSlams.Location = New System.Drawing.Point(434, 371)
+        Me.showSlams.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.showSlams.MaximumHoldTime = 3000
         Me.showSlams.MinimumHoldTime = 500
         Me.showSlams.Name = "showSlams"
         Me.showSlams.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
         Me.showSlams.PLCAddressClick = ""
         Me.showSlams.SelectTextAlternate = False
-        Me.showSlams.Size = New System.Drawing.Size(384, 56)
+        Me.showSlams.Size = New System.Drawing.Size(288, 46)
         Me.showSlams.TabIndex = 1482
         Me.showSlams.Text = "Show Slam Page"
         Me.showSlams.TextAlternate = Nothing
@@ -1851,11 +1882,11 @@ Partial Class MachineDisplay
         '
         'MachineDisplay
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoSize = True
         Me.BackColor = System.Drawing.Color.Gray
-        Me.ClientSize = New System.Drawing.Size(1765, 525)
+        Me.ClientSize = New System.Drawing.Size(1324, 427)
         Me.Controls.Add(Me.showSlams)
         Me.Controls.Add(Me.AnimatingPictureBox3)
         Me.Controls.Add(Me.AnimatingPictureBox2)
@@ -1888,6 +1919,8 @@ Partial Class MachineDisplay
         Me.Controls.Add(Me.AnimatingPictureBox10)
         Me.Controls.Add(Me.Prt1RodEx)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Name = "MachineDisplay"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = " "

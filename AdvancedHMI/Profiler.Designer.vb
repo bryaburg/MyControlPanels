@@ -51,9 +51,10 @@ Partial Class Profiler
         Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, CType(((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic) _
                 Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label9.ForeColor = System.Drawing.Color.DarkSeaGreen
-        Me.Label9.Location = New System.Drawing.Point(323, 9)
+        Me.Label9.Location = New System.Drawing.Point(242, 7)
+        Me.Label9.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(114, 32)
+        Me.Label9.Size = New System.Drawing.Size(89, 26)
         Me.Label9.TabIndex = 35
         Me.Label9.Text = "Profiler"
         '
@@ -63,9 +64,10 @@ Partial Class Profiler
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, CType(((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic) _
                 Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.ForeColor = System.Drawing.Color.DeepSkyBlue
-        Me.Label6.Location = New System.Drawing.Point(28, 332)
+        Me.Label6.Location = New System.Drawing.Point(21, 270)
+        Me.Label6.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(142, 20)
+        Me.Label6.Size = New System.Drawing.Size(122, 17)
         Me.Label6.TabIndex = 36
         Me.Label6.Text = "Label Definition"
         '
@@ -75,9 +77,10 @@ Partial Class Profiler
         Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, CType(((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic) _
                 Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label8.ForeColor = System.Drawing.Color.MediumSlateBlue
-        Me.Label8.Location = New System.Drawing.Point(535, 332)
+        Me.Label8.Location = New System.Drawing.Point(401, 270)
+        Me.Label8.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(162, 20)
+        Me.Label8.Size = New System.Drawing.Size(140, 17)
         Me.Label8.TabIndex = 37
         Me.Label8.Text = "Package Defintion"
         '
@@ -97,7 +100,8 @@ Partial Class Profiler
         Me.lenInc.KeypadScaleFactor = 1.0R
         Me.lenInc.KeypadText = Nothing
         Me.lenInc.KeypadWidth = 300
-        Me.lenInc.Location = New System.Drawing.Point(27, 365)
+        Me.lenInc.Location = New System.Drawing.Point(20, 297)
+        Me.lenInc.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lenInc.Name = "lenInc"
         Me.lenInc.NumericFormat = Nothing
         Me.lenInc.PLCAddressKeypad = "HMI_LabelLength"
@@ -106,7 +110,7 @@ Partial Class Profiler
         Me.lenInc.PLCAddressValueLimitUpper = Nothing
         Me.lenInc.PLCAddressVisible = Nothing
         Me.lenInc.ShowValue = True
-        Me.lenInc.Size = New System.Drawing.Size(202, 25)
+        Me.lenInc.Size = New System.Drawing.Size(169, 20)
         Me.lenInc.TabIndex = 38
         Me.lenInc.Text = "Length 0000 Inches"
         Me.lenInc.Value = "0000"
@@ -146,7 +150,8 @@ Partial Class Profiler
         Me.offInc.KeypadScaleFactor = 1.0R
         Me.offInc.KeypadText = Nothing
         Me.offInc.KeypadWidth = 300
-        Me.offInc.Location = New System.Drawing.Point(27, 399)
+        Me.offInc.Location = New System.Drawing.Point(20, 324)
+        Me.offInc.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.offInc.Name = "offInc"
         Me.offInc.NumericFormat = Nothing
         Me.offInc.PLCAddressKeypad = "HMI_LabelZoneOffset"
@@ -155,7 +160,7 @@ Partial Class Profiler
         Me.offInc.PLCAddressValueLimitUpper = Nothing
         Me.offInc.PLCAddressVisible = Nothing
         Me.offInc.ShowValue = True
-        Me.offInc.Size = New System.Drawing.Size(194, 25)
+        Me.offInc.Size = New System.Drawing.Size(163, 20)
         Me.offInc.TabIndex = 39
         Me.offInc.Text = "Offset 0000 Inches"
         Me.offInc.Value = "0000"
@@ -181,7 +186,8 @@ Partial Class Profiler
         Me.minLenInc.KeypadScaleFactor = 1.0R
         Me.minLenInc.KeypadText = Nothing
         Me.minLenInc.KeypadWidth = 300
-        Me.minLenInc.Location = New System.Drawing.Point(534, 399)
+        Me.minLenInc.Location = New System.Drawing.Point(400, 324)
+        Me.minLenInc.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.minLenInc.Name = "minLenInc"
         Me.minLenInc.NumericFormat = Nothing
         Me.minLenInc.PLCAddressKeypad = "HMI_MinPackageLength"
@@ -190,7 +196,7 @@ Partial Class Profiler
         Me.minLenInc.PLCAddressValueLimitUpper = Nothing
         Me.minLenInc.PLCAddressVisible = Nothing
         Me.minLenInc.ShowValue = True
-        Me.minLenInc.Size = New System.Drawing.Size(243, 25)
+        Me.minLenInc.Size = New System.Drawing.Size(202, 20)
         Me.minLenInc.TabIndex = 41
         Me.minLenInc.Text = "Min Length 0000 Inches"
         Me.minLenInc.Value = "0000"
@@ -216,7 +222,8 @@ Partial Class Profiler
         Me.maxLenInc.KeypadScaleFactor = 1.0R
         Me.maxLenInc.KeypadText = Nothing
         Me.maxLenInc.KeypadWidth = 300
-        Me.maxLenInc.Location = New System.Drawing.Point(534, 365)
+        Me.maxLenInc.Location = New System.Drawing.Point(400, 297)
+        Me.maxLenInc.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.maxLenInc.Name = "maxLenInc"
         Me.maxLenInc.NumericFormat = Nothing
         Me.maxLenInc.PLCAddressKeypad = "HMI_LongestExpectedPackage"
@@ -225,7 +232,7 @@ Partial Class Profiler
         Me.maxLenInc.PLCAddressValueLimitUpper = Nothing
         Me.maxLenInc.PLCAddressVisible = Nothing
         Me.maxLenInc.ShowValue = True
-        Me.maxLenInc.Size = New System.Drawing.Size(249, 25)
+        Me.maxLenInc.Size = New System.Drawing.Size(206, 20)
         Me.maxLenInc.TabIndex = 40
         Me.maxLenInc.Text = "Max Length 0000 Inches"
         Me.maxLenInc.Value = "0000"
@@ -244,14 +251,15 @@ Partial Class Profiler
         Me.Pro_Exit.ForeColorAltername = System.Drawing.Color.Black
         Me.Pro_Exit.Highlight = False
         Me.Pro_Exit.HighlightColor = System.Drawing.Color.Green
-        Me.Pro_Exit.Location = New System.Drawing.Point(278, 344)
+        Me.Pro_Exit.Location = New System.Drawing.Point(208, 280)
+        Me.Pro_Exit.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Pro_Exit.MaximumHoldTime = 3000
         Me.Pro_Exit.MinimumHoldTime = 500
         Me.Pro_Exit.Name = "Pro_Exit"
         Me.Pro_Exit.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
         Me.Pro_Exit.PLCAddressClick = ""
         Me.Pro_Exit.SelectTextAlternate = False
-        Me.Pro_Exit.Size = New System.Drawing.Size(212, 80)
+        Me.Pro_Exit.Size = New System.Drawing.Size(159, 65)
         Me.Pro_Exit.TabIndex = 42
         Me.Pro_Exit.Text = "Exit Profiler"
         Me.Pro_Exit.TextAlternate = Nothing
@@ -272,7 +280,8 @@ Partial Class Profiler
         Me.ChartBySampling1.ComComponent = Me.EthernetIPforCLXCom1
         Legend1.Name = "Legend1"
         Me.ChartBySampling1.Legends.Add(Legend1)
-        Me.ChartBySampling1.Location = New System.Drawing.Point(12, 47)
+        Me.ChartBySampling1.Location = New System.Drawing.Point(9, 38)
+        Me.ChartBySampling1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.ChartBySampling1.MaximumActivePoints = 30
         Me.ChartBySampling1.Name = "ChartBySampling1"
         Me.ChartBySampling1.PLCAddressItems.Add(CType(resources.GetObject("ChartBySampling1.PLCAddressItems"), MfgControl.AdvancedHMI.Drivers.PLCAddressItem))
@@ -296,7 +305,7 @@ Partial Class Profiler
         Series2.XValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.DateTime
         Me.ChartBySampling1.Series.Add(Series1)
         Me.ChartBySampling1.Series.Add(Series2)
-        Me.ChartBySampling1.Size = New System.Drawing.Size(776, 271)
+        Me.ChartBySampling1.Size = New System.Drawing.Size(582, 220)
         Me.ChartBySampling1.TabIndex = 10
         Me.ChartBySampling1.Text = "ChartBySampling1"
         Me.ChartBySampling1.YAxisMax = 600.0R
@@ -312,9 +321,10 @@ Partial Class Profiler
         Me.LbDate.AutoSize = True
         Me.LbDate.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LbDate.ForeColor = System.Drawing.Color.GhostWhite
-        Me.LbDate.Location = New System.Drawing.Point(658, 3)
+        Me.LbDate.Location = New System.Drawing.Point(494, 2)
+        Me.LbDate.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.LbDate.Name = "LbDate"
-        Me.LbDate.Size = New System.Drawing.Size(114, 25)
+        Me.LbDate.Size = New System.Drawing.Size(83, 20)
         Me.LbDate.TabIndex = 1446
         Me.LbDate.Text = "xx/xx/xxxx"
         '
@@ -323,18 +333,19 @@ Partial Class Profiler
         Me.LbClk.AutoSize = True
         Me.LbClk.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LbClk.ForeColor = System.Drawing.Color.GhostWhite
-        Me.LbClk.Location = New System.Drawing.Point(658, 28)
+        Me.LbClk.Location = New System.Drawing.Point(494, 23)
+        Me.LbClk.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.LbClk.Name = "LbClk"
-        Me.LbClk.Size = New System.Drawing.Size(130, 25)
+        Me.LbClk.Size = New System.Drawing.Size(97, 20)
         Me.LbClk.TabIndex = 1445
         Me.LbClk.Text = "xx:xx:xx PM"
         '
         'Profiler
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.MidnightBlue
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(600, 366)
         Me.Controls.Add(Me.LbDate)
         Me.Controls.Add(Me.LbClk)
         Me.Controls.Add(Me.ChartBySampling1)
@@ -346,6 +357,8 @@ Partial Class Profiler
         Me.Controls.Add(Me.Label8)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Label9)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Name = "Profiler"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Profiler"

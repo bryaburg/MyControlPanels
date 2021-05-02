@@ -73,7 +73,8 @@ Partial Class BeltSpeeds
         Me.cmdScSp.KeypadScaleFactor = 1.0R
         Me.cmdScSp.KeypadText = Nothing
         Me.cmdScSp.KeypadWidth = 300
-        Me.cmdScSp.Location = New System.Drawing.Point(57, 106)
+        Me.cmdScSp.Location = New System.Drawing.Point(43, 86)
+        Me.cmdScSp.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.cmdScSp.Name = "cmdScSp"
         Me.cmdScSp.NumericFormat = Nothing
         Me.cmdScSp.PLCAddressKeypad = "HMI_ScaleVelocity_CMD"
@@ -82,7 +83,7 @@ Partial Class BeltSpeeds
         Me.cmdScSp.PLCAddressValueLimitUpper = Nothing
         Me.cmdScSp.PLCAddressVisible = Nothing
         Me.cmdScSp.ShowValue = True
-        Me.cmdScSp.Size = New System.Drawing.Size(161, 17)
+        Me.cmdScSp.Size = New System.Drawing.Size(127, 13)
         Me.cmdScSp.TabIndex = 0
         Me.cmdScSp.Text = "Command   000  FPM"
         Me.cmdScSp.Value = "000"
@@ -112,9 +113,10 @@ Partial Class BeltSpeeds
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, CType(((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic) _
                 Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.Silver
-        Me.Label1.Location = New System.Drawing.Point(56, 77)
+        Me.Label1.Location = New System.Drawing.Point(42, 63)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(114, 20)
+        Me.Label1.Size = New System.Drawing.Size(99, 17)
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "Scale Speed"
         '
@@ -134,7 +136,8 @@ Partial Class BeltSpeeds
         Me.actScSp.KeypadScaleFactor = 1.0R
         Me.actScSp.KeypadText = Nothing
         Me.actScSp.KeypadWidth = 300
-        Me.actScSp.Location = New System.Drawing.Point(57, 123)
+        Me.actScSp.Location = New System.Drawing.Point(43, 100)
+        Me.actScSp.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.actScSp.Name = "actScSp"
         Me.actScSp.NumericFormat = Nothing
         Me.actScSp.PLCAddressKeypad = ""
@@ -143,7 +146,7 @@ Partial Class BeltSpeeds
         Me.actScSp.PLCAddressValueLimitUpper = Nothing
         Me.actScSp.PLCAddressVisible = Nothing
         Me.actScSp.ShowValue = True
-        Me.actScSp.Size = New System.Drawing.Size(131, 17)
+        Me.actScSp.Size = New System.Drawing.Size(105, 13)
         Me.actScSp.TabIndex = 2
         Me.actScSp.Text = "Actual  000  FPM"
         Me.actScSp.Value = "000"
@@ -162,14 +165,15 @@ Partial Class BeltSpeeds
         Me.BS_Exit.ForeColorAltername = System.Drawing.Color.Black
         Me.BS_Exit.Highlight = False
         Me.BS_Exit.HighlightColor = System.Drawing.Color.Green
-        Me.BS_Exit.Location = New System.Drawing.Point(287, 347)
+        Me.BS_Exit.Location = New System.Drawing.Point(215, 282)
+        Me.BS_Exit.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.BS_Exit.MaximumHoldTime = 3000
         Me.BS_Exit.MinimumHoldTime = 500
         Me.BS_Exit.Name = "BS_Exit"
         Me.BS_Exit.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
         Me.BS_Exit.PLCAddressClick = ""
         Me.BS_Exit.SelectTextAlternate = False
-        Me.BS_Exit.Size = New System.Drawing.Size(212, 80)
+        Me.BS_Exit.Size = New System.Drawing.Size(159, 65)
         Me.BS_Exit.TabIndex = 12
         Me.BS_Exit.Text = "Exit Belt Speeds"
         Me.BS_Exit.TextAlternate = Nothing
@@ -192,7 +196,8 @@ Partial Class BeltSpeeds
         Me.AnalogValueDisplay1.KeypadScaleFactor = 1.0R
         Me.AnalogValueDisplay1.KeypadText = Nothing
         Me.AnalogValueDisplay1.KeypadWidth = 300
-        Me.AnalogValueDisplay1.Location = New System.Drawing.Point(57, 206)
+        Me.AnalogValueDisplay1.Location = New System.Drawing.Point(43, 167)
+        Me.AnalogValueDisplay1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.AnalogValueDisplay1.Name = "AnalogValueDisplay1"
         Me.AnalogValueDisplay1.NumericFormat = Nothing
         Me.AnalogValueDisplay1.PLCAddressKeypad = ""
@@ -201,7 +206,7 @@ Partial Class BeltSpeeds
         Me.AnalogValueDisplay1.PLCAddressValueLimitUpper = Nothing
         Me.AnalogValueDisplay1.PLCAddressVisible = Nothing
         Me.AnalogValueDisplay1.ShowValue = True
-        Me.AnalogValueDisplay1.Size = New System.Drawing.Size(131, 17)
+        Me.AnalogValueDisplay1.Size = New System.Drawing.Size(105, 13)
         Me.AnalogValueDisplay1.TabIndex = 15
         Me.AnalogValueDisplay1.Text = "Actual  000  FPM"
         Me.AnalogValueDisplay1.Value = "000"
@@ -217,9 +222,10 @@ Partial Class BeltSpeeds
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, CType(((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic) _
                 Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.Gold
-        Me.Label2.Location = New System.Drawing.Point(56, 160)
+        Me.Label2.Location = New System.Drawing.Point(42, 130)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(119, 20)
+        Me.Label2.Size = New System.Drawing.Size(103, 17)
         Me.Label2.TabIndex = 14
         Me.Label2.Text = "Buffer Speed"
         '
@@ -239,7 +245,8 @@ Partial Class BeltSpeeds
         Me.cmdBuSp.KeypadScaleFactor = 1.0R
         Me.cmdBuSp.KeypadText = Nothing
         Me.cmdBuSp.KeypadWidth = 300
-        Me.cmdBuSp.Location = New System.Drawing.Point(57, 189)
+        Me.cmdBuSp.Location = New System.Drawing.Point(43, 154)
+        Me.cmdBuSp.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.cmdBuSp.Name = "cmdBuSp"
         Me.cmdBuSp.NumericFormat = Nothing
         Me.cmdBuSp.PLCAddressKeypad = "HMI_BufferVelocity_CMD"
@@ -248,7 +255,7 @@ Partial Class BeltSpeeds
         Me.cmdBuSp.PLCAddressValueLimitUpper = Nothing
         Me.cmdBuSp.PLCAddressVisible = Nothing
         Me.cmdBuSp.ShowValue = True
-        Me.cmdBuSp.Size = New System.Drawing.Size(161, 17)
+        Me.cmdBuSp.Size = New System.Drawing.Size(127, 13)
         Me.cmdBuSp.TabIndex = 13
         Me.cmdBuSp.Text = "Command   000  FPM"
         Me.cmdBuSp.Value = "000"
@@ -274,7 +281,8 @@ Partial Class BeltSpeeds
         Me.AnalogValueDisplay3.KeypadScaleFactor = 1.0R
         Me.AnalogValueDisplay3.KeypadText = Nothing
         Me.AnalogValueDisplay3.KeypadWidth = 300
-        Me.AnalogValueDisplay3.Location = New System.Drawing.Point(57, 291)
+        Me.AnalogValueDisplay3.Location = New System.Drawing.Point(43, 236)
+        Me.AnalogValueDisplay3.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.AnalogValueDisplay3.Name = "AnalogValueDisplay3"
         Me.AnalogValueDisplay3.NumericFormat = Nothing
         Me.AnalogValueDisplay3.PLCAddressKeypad = ""
@@ -283,7 +291,7 @@ Partial Class BeltSpeeds
         Me.AnalogValueDisplay3.PLCAddressValueLimitUpper = Nothing
         Me.AnalogValueDisplay3.PLCAddressVisible = Nothing
         Me.AnalogValueDisplay3.ShowValue = True
-        Me.AnalogValueDisplay3.Size = New System.Drawing.Size(131, 17)
+        Me.AnalogValueDisplay3.Size = New System.Drawing.Size(105, 13)
         Me.AnalogValueDisplay3.TabIndex = 18
         Me.AnalogValueDisplay3.Text = "Actual  000  FPM"
         Me.AnalogValueDisplay3.Value = "000"
@@ -299,9 +307,10 @@ Partial Class BeltSpeeds
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, CType(((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic) _
                 Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.Green
-        Me.Label3.Location = New System.Drawing.Point(56, 245)
+        Me.Label3.Location = New System.Drawing.Point(42, 199)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(140, 20)
+        Me.Label3.Size = New System.Drawing.Size(122, 17)
         Me.Label3.TabIndex = 17
         Me.Label3.Text = "Printer 1 Speed"
         '
@@ -321,7 +330,8 @@ Partial Class BeltSpeeds
         Me.cmdPrSp.KeypadScaleFactor = 1.0R
         Me.cmdPrSp.KeypadText = Nothing
         Me.cmdPrSp.KeypadWidth = 300
-        Me.cmdPrSp.Location = New System.Drawing.Point(57, 274)
+        Me.cmdPrSp.Location = New System.Drawing.Point(43, 223)
+        Me.cmdPrSp.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.cmdPrSp.Name = "cmdPrSp"
         Me.cmdPrSp.NumericFormat = Nothing
         Me.cmdPrSp.PLCAddressKeypad = "HMI_Apply1Velocity_CMD"
@@ -330,7 +340,7 @@ Partial Class BeltSpeeds
         Me.cmdPrSp.PLCAddressValueLimitUpper = Nothing
         Me.cmdPrSp.PLCAddressVisible = Nothing
         Me.cmdPrSp.ShowValue = True
-        Me.cmdPrSp.Size = New System.Drawing.Size(161, 17)
+        Me.cmdPrSp.Size = New System.Drawing.Size(127, 13)
         Me.cmdPrSp.TabIndex = 16
         Me.cmdPrSp.Text = "Command   000  FPM"
         Me.cmdPrSp.Value = "000"
@@ -356,7 +366,8 @@ Partial Class BeltSpeeds
         Me.AnalogValueDisplay5.KeypadScaleFactor = 1.0R
         Me.AnalogValueDisplay5.KeypadText = Nothing
         Me.AnalogValueDisplay5.KeypadWidth = 300
-        Me.AnalogValueDisplay5.Location = New System.Drawing.Point(315, 123)
+        Me.AnalogValueDisplay5.Location = New System.Drawing.Point(236, 100)
+        Me.AnalogValueDisplay5.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.AnalogValueDisplay5.Name = "AnalogValueDisplay5"
         Me.AnalogValueDisplay5.NumericFormat = Nothing
         Me.AnalogValueDisplay5.PLCAddressKeypad = ""
@@ -365,7 +376,7 @@ Partial Class BeltSpeeds
         Me.AnalogValueDisplay5.PLCAddressValueLimitUpper = Nothing
         Me.AnalogValueDisplay5.PLCAddressVisible = Nothing
         Me.AnalogValueDisplay5.ShowValue = True
-        Me.AnalogValueDisplay5.Size = New System.Drawing.Size(131, 17)
+        Me.AnalogValueDisplay5.Size = New System.Drawing.Size(105, 13)
         Me.AnalogValueDisplay5.TabIndex = 21
         Me.AnalogValueDisplay5.Text = "Actual  000  FPM"
         Me.AnalogValueDisplay5.Value = "000"
@@ -381,9 +392,10 @@ Partial Class BeltSpeeds
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, CType(((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic) _
                 Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.YellowGreen
-        Me.Label4.Location = New System.Drawing.Point(314, 77)
+        Me.Label4.Location = New System.Drawing.Point(236, 63)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(140, 20)
+        Me.Label4.Size = New System.Drawing.Size(122, 17)
         Me.Label4.TabIndex = 20
         Me.Label4.Text = "Printer 2 Speed"
         '
@@ -403,7 +415,8 @@ Partial Class BeltSpeeds
         Me.cmdPrSp2.KeypadScaleFactor = 1.0R
         Me.cmdPrSp2.KeypadText = Nothing
         Me.cmdPrSp2.KeypadWidth = 300
-        Me.cmdPrSp2.Location = New System.Drawing.Point(315, 106)
+        Me.cmdPrSp2.Location = New System.Drawing.Point(236, 86)
+        Me.cmdPrSp2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.cmdPrSp2.Name = "cmdPrSp2"
         Me.cmdPrSp2.NumericFormat = Nothing
         Me.cmdPrSp2.PLCAddressKeypad = "HMI_Apply2Velocity_CMD"
@@ -412,7 +425,7 @@ Partial Class BeltSpeeds
         Me.cmdPrSp2.PLCAddressValueLimitUpper = Nothing
         Me.cmdPrSp2.PLCAddressVisible = Nothing
         Me.cmdPrSp2.ShowValue = True
-        Me.cmdPrSp2.Size = New System.Drawing.Size(161, 17)
+        Me.cmdPrSp2.Size = New System.Drawing.Size(127, 13)
         Me.cmdPrSp2.TabIndex = 19
         Me.cmdPrSp2.Text = "Command   000  FPM"
         Me.cmdPrSp2.Value = "000"
@@ -438,7 +451,8 @@ Partial Class BeltSpeeds
         Me.AnalogValueDisplay7.KeypadScaleFactor = 1.0R
         Me.AnalogValueDisplay7.KeypadText = Nothing
         Me.AnalogValueDisplay7.KeypadWidth = 300
-        Me.AnalogValueDisplay7.Location = New System.Drawing.Point(315, 206)
+        Me.AnalogValueDisplay7.Location = New System.Drawing.Point(236, 167)
+        Me.AnalogValueDisplay7.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.AnalogValueDisplay7.Name = "AnalogValueDisplay7"
         Me.AnalogValueDisplay7.NumericFormat = Nothing
         Me.AnalogValueDisplay7.PLCAddressKeypad = ""
@@ -447,7 +461,7 @@ Partial Class BeltSpeeds
         Me.AnalogValueDisplay7.PLCAddressValueLimitUpper = Nothing
         Me.AnalogValueDisplay7.PLCAddressVisible = Nothing
         Me.AnalogValueDisplay7.ShowValue = True
-        Me.AnalogValueDisplay7.Size = New System.Drawing.Size(131, 17)
+        Me.AnalogValueDisplay7.Size = New System.Drawing.Size(105, 13)
         Me.AnalogValueDisplay7.TabIndex = 24
         Me.AnalogValueDisplay7.Text = "Actual  000  FPM"
         Me.AnalogValueDisplay7.Value = "000"
@@ -463,9 +477,10 @@ Partial Class BeltSpeeds
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, CType(((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic) _
                 Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.Color.Snow
-        Me.Label5.Location = New System.Drawing.Point(314, 160)
+        Me.Label5.Location = New System.Drawing.Point(236, 130)
+        Me.Label5.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(116, 20)
+        Me.Label5.Size = New System.Drawing.Size(101, 17)
         Me.Label5.TabIndex = 23
         Me.Label5.Text = "Verify Speed"
         '
@@ -485,7 +500,8 @@ Partial Class BeltSpeeds
         Me.cmdVeSp.KeypadScaleFactor = 1.0R
         Me.cmdVeSp.KeypadText = Nothing
         Me.cmdVeSp.KeypadWidth = 300
-        Me.cmdVeSp.Location = New System.Drawing.Point(315, 189)
+        Me.cmdVeSp.Location = New System.Drawing.Point(236, 154)
+        Me.cmdVeSp.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.cmdVeSp.Name = "cmdVeSp"
         Me.cmdVeSp.NumericFormat = Nothing
         Me.cmdVeSp.PLCAddressKeypad = "HMI_SorterVelocity_CMD"
@@ -494,7 +510,7 @@ Partial Class BeltSpeeds
         Me.cmdVeSp.PLCAddressValueLimitUpper = Nothing
         Me.cmdVeSp.PLCAddressVisible = Nothing
         Me.cmdVeSp.ShowValue = True
-        Me.cmdVeSp.Size = New System.Drawing.Size(161, 17)
+        Me.cmdVeSp.Size = New System.Drawing.Size(127, 13)
         Me.cmdVeSp.TabIndex = 22
         Me.cmdVeSp.Text = "Command   000  FPM"
         Me.cmdVeSp.Value = "000"
@@ -520,7 +536,8 @@ Partial Class BeltSpeeds
         Me.AnalogValueDisplay9.KeypadScaleFactor = 1.0R
         Me.AnalogValueDisplay9.KeypadText = Nothing
         Me.AnalogValueDisplay9.KeypadWidth = 300
-        Me.AnalogValueDisplay9.Location = New System.Drawing.Point(582, 123)
+        Me.AnalogValueDisplay9.Location = New System.Drawing.Point(436, 100)
+        Me.AnalogValueDisplay9.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.AnalogValueDisplay9.Name = "AnalogValueDisplay9"
         Me.AnalogValueDisplay9.NumericFormat = Nothing
         Me.AnalogValueDisplay9.PLCAddressKeypad = ""
@@ -529,7 +546,7 @@ Partial Class BeltSpeeds
         Me.AnalogValueDisplay9.PLCAddressValueLimitUpper = Nothing
         Me.AnalogValueDisplay9.PLCAddressVisible = Nothing
         Me.AnalogValueDisplay9.ShowValue = True
-        Me.AnalogValueDisplay9.Size = New System.Drawing.Size(131, 17)
+        Me.AnalogValueDisplay9.Size = New System.Drawing.Size(105, 13)
         Me.AnalogValueDisplay9.TabIndex = 27
         Me.AnalogValueDisplay9.Text = "Actual  000  FPM"
         Me.AnalogValueDisplay9.Value = "000"
@@ -545,9 +562,10 @@ Partial Class BeltSpeeds
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, CType(((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic) _
                 Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.ForeColor = System.Drawing.Color.DeepSkyBlue
-        Me.Label6.Location = New System.Drawing.Point(581, 77)
+        Me.Label6.Location = New System.Drawing.Point(436, 63)
+        Me.Label6.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(156, 20)
+        Me.Label6.Size = New System.Drawing.Size(135, 17)
         Me.Label6.TabIndex = 26
         Me.Label6.Text = " Alignment Speed"
         '
@@ -567,7 +585,8 @@ Partial Class BeltSpeeds
         Me.cmdAlSp.KeypadScaleFactor = 1.0R
         Me.cmdAlSp.KeypadText = Nothing
         Me.cmdAlSp.KeypadWidth = 300
-        Me.cmdAlSp.Location = New System.Drawing.Point(582, 106)
+        Me.cmdAlSp.Location = New System.Drawing.Point(436, 86)
+        Me.cmdAlSp.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.cmdAlSp.Name = "cmdAlSp"
         Me.cmdAlSp.NumericFormat = Nothing
         Me.cmdAlSp.PLCAddressKeypad = "HMI_AlignmentVelocity_CMD"
@@ -576,7 +595,7 @@ Partial Class BeltSpeeds
         Me.cmdAlSp.PLCAddressValueLimitUpper = Nothing
         Me.cmdAlSp.PLCAddressVisible = Nothing
         Me.cmdAlSp.ShowValue = True
-        Me.cmdAlSp.Size = New System.Drawing.Size(161, 17)
+        Me.cmdAlSp.Size = New System.Drawing.Size(127, 13)
         Me.cmdAlSp.TabIndex = 25
         Me.cmdAlSp.Text = "Command   000  FPM"
         Me.cmdAlSp.Value = "000"
@@ -602,7 +621,8 @@ Partial Class BeltSpeeds
         Me.AnalogValueDisplay11.KeypadScaleFactor = 1.0R
         Me.AnalogValueDisplay11.KeypadText = Nothing
         Me.AnalogValueDisplay11.KeypadWidth = 300
-        Me.AnalogValueDisplay11.Location = New System.Drawing.Point(582, 206)
+        Me.AnalogValueDisplay11.Location = New System.Drawing.Point(436, 167)
+        Me.AnalogValueDisplay11.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.AnalogValueDisplay11.Name = "AnalogValueDisplay11"
         Me.AnalogValueDisplay11.NumericFormat = Nothing
         Me.AnalogValueDisplay11.PLCAddressKeypad = ""
@@ -611,7 +631,7 @@ Partial Class BeltSpeeds
         Me.AnalogValueDisplay11.PLCAddressValueLimitUpper = Nothing
         Me.AnalogValueDisplay11.PLCAddressVisible = Nothing
         Me.AnalogValueDisplay11.ShowValue = True
-        Me.AnalogValueDisplay11.Size = New System.Drawing.Size(162, 17)
+        Me.AnalogValueDisplay11.Size = New System.Drawing.Size(129, 13)
         Me.AnalogValueDisplay11.TabIndex = 30
         Me.AnalogValueDisplay11.Text = "Actual  000  Seconds"
         Me.AnalogValueDisplay11.Value = "000"
@@ -627,9 +647,10 @@ Partial Class BeltSpeeds
         Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, CType(((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic) _
                 Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label7.ForeColor = System.Drawing.Color.LightSeaGreen
-        Me.Label7.Location = New System.Drawing.Point(581, 160)
+        Me.Label7.Location = New System.Drawing.Point(436, 130)
+        Me.Label7.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(187, 20)
+        Me.Label7.Size = New System.Drawing.Size(157, 17)
         Me.Label7.TabIndex = 29
         Me.Label7.Text = " Scale Acc/Dec Time"
         '
@@ -649,7 +670,8 @@ Partial Class BeltSpeeds
         Me.cmdAcDcTi.KeypadScaleFactor = 1.0R
         Me.cmdAcDcTi.KeypadText = Nothing
         Me.cmdAcDcTi.KeypadWidth = 300
-        Me.cmdAcDcTi.Location = New System.Drawing.Point(582, 189)
+        Me.cmdAcDcTi.Location = New System.Drawing.Point(436, 154)
+        Me.cmdAcDcTi.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.cmdAcDcTi.Name = "cmdAcDcTi"
         Me.cmdAcDcTi.NumericFormat = Nothing
         Me.cmdAcDcTi.PLCAddressKeypad = "HMI_ScaleAccDecTime_CMD"
@@ -658,7 +680,7 @@ Partial Class BeltSpeeds
         Me.cmdAcDcTi.PLCAddressValueLimitUpper = Nothing
         Me.cmdAcDcTi.PLCAddressVisible = Nothing
         Me.cmdAcDcTi.ShowValue = True
-        Me.cmdAcDcTi.Size = New System.Drawing.Size(192, 17)
+        Me.cmdAcDcTi.Size = New System.Drawing.Size(151, 13)
         Me.cmdAcDcTi.TabIndex = 28
         Me.cmdAcDcTi.Text = "Command   000  Seconds"
         Me.cmdAcDcTi.Value = "000"
@@ -684,7 +706,8 @@ Partial Class BeltSpeeds
         Me.AnalogValueDisplay13.KeypadScaleFactor = 1.0R
         Me.AnalogValueDisplay13.KeypadText = Nothing
         Me.AnalogValueDisplay13.KeypadWidth = 300
-        Me.AnalogValueDisplay13.Location = New System.Drawing.Point(582, 291)
+        Me.AnalogValueDisplay13.Location = New System.Drawing.Point(436, 236)
+        Me.AnalogValueDisplay13.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.AnalogValueDisplay13.Name = "AnalogValueDisplay13"
         Me.AnalogValueDisplay13.NumericFormat = Nothing
         Me.AnalogValueDisplay13.PLCAddressKeypad = ""
@@ -693,7 +716,7 @@ Partial Class BeltSpeeds
         Me.AnalogValueDisplay13.PLCAddressValueLimitUpper = Nothing
         Me.AnalogValueDisplay13.PLCAddressVisible = Nothing
         Me.AnalogValueDisplay13.ShowValue = True
-        Me.AnalogValueDisplay13.Size = New System.Drawing.Size(112, 17)
+        Me.AnalogValueDisplay13.Size = New System.Drawing.Size(89, 13)
         Me.AnalogValueDisplay13.TabIndex = 33
         Me.AnalogValueDisplay13.Text = "Actual  000  G"
         Me.AnalogValueDisplay13.Value = "000"
@@ -709,9 +732,10 @@ Partial Class BeltSpeeds
         Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, CType(((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic) _
                 Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label8.ForeColor = System.Drawing.Color.MediumSlateBlue
-        Me.Label8.Location = New System.Drawing.Point(581, 245)
+        Me.Label8.Location = New System.Drawing.Point(436, 199)
+        Me.Label8.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(129, 20)
+        Me.Label8.Size = New System.Drawing.Size(105, 17)
         Me.Label8.TabIndex = 32
         Me.Label8.Text = "DMC Acc/Dec"
         '
@@ -731,7 +755,8 @@ Partial Class BeltSpeeds
         Me.cmdDMC.KeypadScaleFactor = 1.0R
         Me.cmdDMC.KeypadText = Nothing
         Me.cmdDMC.KeypadWidth = 300
-        Me.cmdDMC.Location = New System.Drawing.Point(582, 274)
+        Me.cmdDMC.Location = New System.Drawing.Point(436, 223)
+        Me.cmdDMC.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.cmdDMC.Name = "cmdDMC"
         Me.cmdDMC.NumericFormat = Nothing
         Me.cmdDMC.PLCAddressKeypad = "HMI_DmcAccelDecel_CMD"
@@ -740,7 +765,7 @@ Partial Class BeltSpeeds
         Me.cmdDMC.PLCAddressValueLimitUpper = Nothing
         Me.cmdDMC.PLCAddressVisible = Nothing
         Me.cmdDMC.ShowValue = True
-        Me.cmdDMC.Size = New System.Drawing.Size(142, 17)
+        Me.cmdDMC.Size = New System.Drawing.Size(111, 13)
         Me.cmdDMC.TabIndex = 31
         Me.cmdDMC.Text = "Command   000  G"
         Me.cmdDMC.Value = "000"
@@ -756,9 +781,10 @@ Partial Class BeltSpeeds
         Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, CType(((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic) _
                 Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label9.ForeColor = System.Drawing.Color.Yellow
-        Me.Label9.Location = New System.Drawing.Point(312, 9)
+        Me.Label9.Location = New System.Drawing.Point(234, 7)
+        Me.Label9.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(180, 32)
+        Me.Label9.Size = New System.Drawing.Size(141, 26)
         Me.Label9.TabIndex = 34
         Me.Label9.Text = "Belt Speeds"
         '
@@ -772,9 +798,10 @@ Partial Class BeltSpeeds
         Me.LbDate.AutoSize = True
         Me.LbDate.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LbDate.ForeColor = System.Drawing.Color.GhostWhite
-        Me.LbDate.Location = New System.Drawing.Point(638, 377)
+        Me.LbDate.Location = New System.Drawing.Point(478, 306)
+        Me.LbDate.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.LbDate.Name = "LbDate"
-        Me.LbDate.Size = New System.Drawing.Size(114, 25)
+        Me.LbDate.Size = New System.Drawing.Size(83, 20)
         Me.LbDate.TabIndex = 1446
         Me.LbDate.Text = "xx/xx/xxxx"
         '
@@ -783,18 +810,19 @@ Partial Class BeltSpeeds
         Me.LbClk.AutoSize = True
         Me.LbClk.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LbClk.ForeColor = System.Drawing.Color.GhostWhite
-        Me.LbClk.Location = New System.Drawing.Point(638, 402)
+        Me.LbClk.Location = New System.Drawing.Point(478, 327)
+        Me.LbClk.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.LbClk.Name = "LbClk"
-        Me.LbClk.Size = New System.Drawing.Size(130, 25)
+        Me.LbClk.Size = New System.Drawing.Size(97, 20)
         Me.LbClk.TabIndex = 1445
         Me.LbClk.Text = "xx:xx:xx PM"
         '
         'BeltSpeeds
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.MidnightBlue
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(600, 366)
         Me.Controls.Add(Me.LbDate)
         Me.Controls.Add(Me.LbClk)
         Me.Controls.Add(Me.Label9)
@@ -823,6 +851,8 @@ Partial Class BeltSpeeds
         Me.Controls.Add(Me.actScSp)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.cmdScSp)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Name = "BeltSpeeds"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "BeltSpeeds"
