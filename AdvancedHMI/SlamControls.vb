@@ -26,12 +26,12 @@ Public Class SlamControls
     Private Sub TiClk_Tick(sender As Object, e As EventArgs) Handles TiClk.Tick
         Dim cuDate As Date = Date.Now
         Dim sDate As String = cuDate.ToString("MMM-dd-yyyy")
-        LbDate.Text = sDate
-        LbClk.Text = TimeOfDay
+        LabDate.Text = sDate
+        LabTime.Text = TimeOfDay
     End Sub
 
     '//Button to Load Chosen Slam!
-    Private Sub BasicButton1_Click(sender As Object, e As EventArgs) Handles BasicButton1.Click
+    Private Sub BasicButton1_Click(sender As Object, e As EventArgs) Handles ChooseSlam.Click
         Try
             input = InputBox("101 = Slam 1.    102 = Slam 2." & vbCrLf &
                          "103 = Slam 3.    304 = Slam 4." & vbCrLf &
@@ -547,7 +547,7 @@ Public Class SlamControls
 
     End Sub
 
-    Private Sub opsExit_Click(sender As Object, e As EventArgs) Handles opsExit.Click
+    Private Sub opsExit_Click(sender As Object, e As EventArgs)
         Try
             btnSlamOps.Visible = True
             bOpenBCR.Visible = False
@@ -640,7 +640,7 @@ Public Class SlamControls
         Me.Hide()
     End Sub
 
-    Private Sub LbDate_Click(sender As Object, e As EventArgs) Handles LbDate.Click
+    Private Sub LbDate_Click(sender As Object, e As EventArgs) 
 
     End Sub
 

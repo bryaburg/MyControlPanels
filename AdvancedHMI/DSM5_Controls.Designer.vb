@@ -23,6 +23,7 @@ Partial Class DSM5_Controls
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(DSM5_Controls))
         Me.EthernetIPforCLXCom23 = New AdvancedHMIDrivers.EthernetIPforCLXCom(Me.components)
         Me.PilotLight213 = New AdvancedHMIControls.PilotLight()
         Me.EthernetIPforCLXCom33 = New AdvancedHMIDrivers.EthernetIPforCLXCom(Me.components)
@@ -315,44 +316,44 @@ Partial Class DSM5_Controls
         Me.LbClk = New System.Windows.Forms.Label()
         Me.TiClk = New System.Windows.Forms.Timer(Me.components)
         Me.LbDate = New System.Windows.Forms.Label()
-        CType(Me.EthernetIPforCLXCom23, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.EthernetIPforCLXCom33, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.EthernetIPforCLXCom25, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.EthernetIPforCLXCom32, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.EthernetIPforCLXCom26, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.EthernetIPforCLXCom31, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.EthernetIPforCLXCom27, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.EthernetIPforCLXCom30, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.EthernetIPforCLXCom28, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.EthernetIPforCLXCom24, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.EthernetIPforCLXCom29, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.EthernetIPforCLXCom22, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.EthernetIPforCLXCom21, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.EthernetIPforCLXCom1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.EthernetIPforCLXCom37, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.EthernetIPforCLXCom36, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.EthernetIPforCLXCom35, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.EthernetIPforCLXCom34, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.EthernetIPforCLXCom3, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.EthernetIPforCLXCom2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.EthernetIPforCLXCom4, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.EthernetIPforCLXCom5, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.EthernetIPforCLXCom6, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.EthernetIPforCLXCom7, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.EthernetIPforCLXCom11, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.EthernetIPforCLXCom19, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.EthernetIPforCLXCom9, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.EthernetIPforCLXCom8, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.EthernetIPforCLXCom10, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.EthernetIPforCLXCom20, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.EthernetIPforCLXCom18, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.EthernetIPforCLXCom16, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.EthernetIPforCLXCom17, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.EthernetIPforCLXCom15, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.EthernetIPforCLXCom14, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.EthernetIPforCLXCom13, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.EthernetIPforCLXCom12, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.SuspendLayout()
+        CType(Me.EthernetIPforCLXCom23, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.EthernetIPforCLXCom33, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.EthernetIPforCLXCom25, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.EthernetIPforCLXCom32, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.EthernetIPforCLXCom26, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.EthernetIPforCLXCom31, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.EthernetIPforCLXCom27, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.EthernetIPforCLXCom30, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.EthernetIPforCLXCom28, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.EthernetIPforCLXCom24, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.EthernetIPforCLXCom29, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.EthernetIPforCLXCom22, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.EthernetIPforCLXCom21, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.EthernetIPforCLXCom1, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.EthernetIPforCLXCom37, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.EthernetIPforCLXCom36, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.EthernetIPforCLXCom35, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.EthernetIPforCLXCom34, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.EthernetIPforCLXCom3, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.EthernetIPforCLXCom2, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.EthernetIPforCLXCom4, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.EthernetIPforCLXCom5, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.EthernetIPforCLXCom6, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.EthernetIPforCLXCom7, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.EthernetIPforCLXCom11, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.EthernetIPforCLXCom19, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.EthernetIPforCLXCom9, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.EthernetIPforCLXCom8, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.EthernetIPforCLXCom10, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.EthernetIPforCLXCom20, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.EthernetIPforCLXCom18, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.EthernetIPforCLXCom16, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.EthernetIPforCLXCom17, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.EthernetIPforCLXCom15, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.EthernetIPforCLXCom14, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.EthernetIPforCLXCom13, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.EthernetIPforCLXCom12, System.ComponentModel.ISupportInitialize).BeginInit
+        Me.SuspendLayout
         '
         'EthernetIPforCLXCom23
         '
@@ -7211,48 +7212,49 @@ Partial Class DSM5_Controls
         Me.Controls.Add(Me.PilotLight2)
         Me.Controls.Add(Me.PilotLight1)
         Me.Controls.Add(Me.Label1)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "DSM5_Controls"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "DSM5_Controls"
-        CType(Me.EthernetIPforCLXCom23, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.EthernetIPforCLXCom33, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.EthernetIPforCLXCom25, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.EthernetIPforCLXCom32, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.EthernetIPforCLXCom26, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.EthernetIPforCLXCom31, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.EthernetIPforCLXCom27, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.EthernetIPforCLXCom30, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.EthernetIPforCLXCom28, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.EthernetIPforCLXCom24, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.EthernetIPforCLXCom29, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.EthernetIPforCLXCom22, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.EthernetIPforCLXCom21, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.EthernetIPforCLXCom1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.EthernetIPforCLXCom37, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.EthernetIPforCLXCom36, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.EthernetIPforCLXCom35, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.EthernetIPforCLXCom34, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.EthernetIPforCLXCom3, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.EthernetIPforCLXCom2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.EthernetIPforCLXCom4, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.EthernetIPforCLXCom5, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.EthernetIPforCLXCom6, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.EthernetIPforCLXCom7, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.EthernetIPforCLXCom11, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.EthernetIPforCLXCom19, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.EthernetIPforCLXCom9, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.EthernetIPforCLXCom8, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.EthernetIPforCLXCom10, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.EthernetIPforCLXCom20, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.EthernetIPforCLXCom18, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.EthernetIPforCLXCom16, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.EthernetIPforCLXCom17, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.EthernetIPforCLXCom15, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.EthernetIPforCLXCom14, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.EthernetIPforCLXCom13, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.EthernetIPforCLXCom12, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.EthernetIPforCLXCom23, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.EthernetIPforCLXCom33, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.EthernetIPforCLXCom25, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.EthernetIPforCLXCom32, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.EthernetIPforCLXCom26, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.EthernetIPforCLXCom31, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.EthernetIPforCLXCom27, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.EthernetIPforCLXCom30, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.EthernetIPforCLXCom28, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.EthernetIPforCLXCom24, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.EthernetIPforCLXCom29, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.EthernetIPforCLXCom22, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.EthernetIPforCLXCom21, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.EthernetIPforCLXCom1, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.EthernetIPforCLXCom37, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.EthernetIPforCLXCom36, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.EthernetIPforCLXCom35, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.EthernetIPforCLXCom34, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.EthernetIPforCLXCom3, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.EthernetIPforCLXCom2, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.EthernetIPforCLXCom4, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.EthernetIPforCLXCom5, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.EthernetIPforCLXCom6, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.EthernetIPforCLXCom7, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.EthernetIPforCLXCom11, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.EthernetIPforCLXCom19, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.EthernetIPforCLXCom9, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.EthernetIPforCLXCom8, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.EthernetIPforCLXCom10, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.EthernetIPforCLXCom20, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.EthernetIPforCLXCom18, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.EthernetIPforCLXCom16, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.EthernetIPforCLXCom17, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.EthernetIPforCLXCom15, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.EthernetIPforCLXCom14, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.EthernetIPforCLXCom13, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.EthernetIPforCLXCom12, System.ComponentModel.ISupportInitialize).EndInit
         Me.ResumeLayout(False)
-        Me.PerformLayout()
+        Me.PerformLayout
 
     End Sub
 

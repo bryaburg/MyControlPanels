@@ -23,12 +23,12 @@ Partial Class SlamControls
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(SlamControls))
         Me.DigitalPanelMeter44 = New AdvancedHMIControls.DigitalPanelMeter()
         Me.EthernetIPforCLXCom1 = New AdvancedHMIDrivers.EthernetIPforCLXCom(Me.components)
         Me.DigitalPanelMeter45 = New AdvancedHMIControls.DigitalPanelMeter()
         Me.DigitalPanelMeter43 = New AdvancedHMIControls.DigitalPanelMeter()
         Me.DigitalPanelMeter46 = New AdvancedHMIControls.DigitalPanelMeter()
-        Me.opsExit = New AdvancedHMIControls.BasicButton()
         Me.btnSlamOps = New AdvancedHMIControls.BasicButton()
         Me.openPtrCMD = New AdvancedHMIControls.BasicButton()
         Me.openComms = New AdvancedHMIControls.BasicButton()
@@ -38,7 +38,7 @@ Partial Class SlamControls
         Me.bOpenPro = New AdvancedHMIControls.BasicButton()
         Me.openBeltSpeeds = New AdvancedHMIControls.BasicButton()
         Me.bOpenBCR = New AdvancedHMIControls.BasicButton()
-        Me.BasicButton1 = New AdvancedHMIControls.BasicButton()
+        Me.ChooseSlam = New AdvancedHMIControls.BasicButton()
         Me.BasicIndicator369 = New AdvancedHMIControls.BasicIndicator()
         Me.BasicIndicator368 = New AdvancedHMIControls.BasicIndicator()
         Me.BasicIndicator367 = New AdvancedHMIControls.BasicIndicator()
@@ -215,12 +215,13 @@ Partial Class SlamControls
         Me.plStop = New AdvancedHMIControls.PilotLight()
         Me.openDSM5 = New AdvancedHMIControls.BasicButton()
         Me.rstCount = New AdvancedHMIControls.BasicButton()
-        Me.LbClk = New System.Windows.Forms.Label()
         Me.TiClk = New System.Windows.Forms.Timer(Me.components)
-        Me.LbDate = New System.Windows.Forms.Label()
         Me.opExChBox = New System.Windows.Forms.CheckBox()
         Me.biKO = New AdvancedHMIControls.BasicIndicator()
         Me.openMacDis = New AdvancedHMIControls.BasicButton()
+        Me.LabDate = New System.Windows.Forms.Label()
+        Me.LabTime = New System.Windows.Forms.Label()
+        Me.opsExit = New AdvancedHMIControls.BasicButton()
         CType(Me.EthernetIPforCLXCom1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DataSubscriber23, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DataSubscriber22, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -352,30 +353,6 @@ Partial Class SlamControls
         Me.DigitalPanelMeter46.ValueScaleFactor = New Decimal(New Integer() {1, 0, 0, 0})
         Me.DigitalPanelMeter46.ValueScaleOffset = New Decimal(New Integer() {0, 0, 0, 0})
         '
-        'opsExit
-        '
-        Me.opsExit.BackColor = System.Drawing.Color.Black
-        Me.opsExit.ComComponent = Me.EthernetIPforCLXCom1
-        Me.opsExit.ForeColor = System.Drawing.Color.Black
-        Me.opsExit.ForeColorAltername = System.Drawing.Color.Black
-        Me.opsExit.Highlight = False
-        Me.opsExit.HighlightColor = System.Drawing.Color.Green
-        Me.opsExit.Location = New System.Drawing.Point(2067, 306)
-        Me.opsExit.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
-        Me.opsExit.MaximumHoldTime = 3000
-        Me.opsExit.MinimumHoldTime = 500
-        Me.opsExit.Name = "opsExit"
-        Me.opsExit.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
-        Me.opsExit.PLCAddressClick = ""
-        Me.opsExit.SelectTextAlternate = False
-        Me.opsExit.Size = New System.Drawing.Size(112, 82)
-        Me.opsExit.TabIndex = 1435
-        Me.opsExit.Text = "Exit Slam Options"
-        Me.opsExit.TextAlternate = Nothing
-        Me.opsExit.UseVisualStyleBackColor = True
-        Me.opsExit.ValueToWrite = 0
-        Me.opsExit.Visible = False
-        '
         'btnSlamOps
         '
         Me.btnSlamOps.BackColor = System.Drawing.Color.Blue
@@ -385,7 +362,7 @@ Partial Class SlamControls
         Me.btnSlamOps.ForeColorAltername = System.Drawing.Color.Black
         Me.btnSlamOps.Highlight = False
         Me.btnSlamOps.HighlightColor = System.Drawing.Color.Green
-        Me.btnSlamOps.Location = New System.Drawing.Point(1388, 34)
+        Me.btnSlamOps.Location = New System.Drawing.Point(1386, 34)
         Me.btnSlamOps.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.btnSlamOps.MaximumHoldTime = 3000
         Me.btnSlamOps.MinimumHoldTime = 500
@@ -432,7 +409,7 @@ Partial Class SlamControls
         Me.openComms.ForeColorAltername = System.Drawing.Color.Black
         Me.openComms.Highlight = False
         Me.openComms.HighlightColor = System.Drawing.Color.Green
-        Me.openComms.Location = New System.Drawing.Point(1388, 689)
+        Me.openComms.Location = New System.Drawing.Point(1388, 690)
         Me.openComms.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.openComms.MaximumHoldTime = 3000
         Me.openComms.MinimumHoldTime = 500
@@ -592,29 +569,29 @@ Partial Class SlamControls
         Me.bOpenBCR.ValueToWrite = 0
         Me.bOpenBCR.Visible = False
         '
-        'BasicButton1
+        'ChooseSlam
         '
-        Me.BasicButton1.BackColor = System.Drawing.Color.Blue
-        Me.BasicButton1.ComComponent = Me.EthernetIPforCLXCom1
-        Me.BasicButton1.Font = New System.Drawing.Font("Magneto", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BasicButton1.ForeColor = System.Drawing.Color.GhostWhite
-        Me.BasicButton1.ForeColorAltername = System.Drawing.Color.Black
-        Me.BasicButton1.Highlight = False
-        Me.BasicButton1.HighlightColor = System.Drawing.Color.Green
-        Me.BasicButton1.Location = New System.Drawing.Point(20, 182)
-        Me.BasicButton1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.BasicButton1.MaximumHoldTime = 3000
-        Me.BasicButton1.MinimumHoldTime = 500
-        Me.BasicButton1.Name = "BasicButton1"
-        Me.BasicButton1.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
-        Me.BasicButton1.PLCAddressClick = ""
-        Me.BasicButton1.SelectTextAlternate = False
-        Me.BasicButton1.Size = New System.Drawing.Size(220, 146)
-        Me.BasicButton1.TabIndex = 1422
-        Me.BasicButton1.Text = "Choose Slam"
-        Me.BasicButton1.TextAlternate = Nothing
-        Me.BasicButton1.UseVisualStyleBackColor = False
-        Me.BasicButton1.ValueToWrite = 0
+        Me.ChooseSlam.BackColor = System.Drawing.Color.Blue
+        Me.ChooseSlam.ComComponent = Me.EthernetIPforCLXCom1
+        Me.ChooseSlam.Font = New System.Drawing.Font("Magneto", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ChooseSlam.ForeColor = System.Drawing.Color.GhostWhite
+        Me.ChooseSlam.ForeColorAltername = System.Drawing.Color.Black
+        Me.ChooseSlam.Highlight = False
+        Me.ChooseSlam.HighlightColor = System.Drawing.Color.Green
+        Me.ChooseSlam.Location = New System.Drawing.Point(20, 182)
+        Me.ChooseSlam.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.ChooseSlam.MaximumHoldTime = 3000
+        Me.ChooseSlam.MinimumHoldTime = 500
+        Me.ChooseSlam.Name = "ChooseSlam"
+        Me.ChooseSlam.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.ChooseSlam.PLCAddressClick = ""
+        Me.ChooseSlam.SelectTextAlternate = False
+        Me.ChooseSlam.Size = New System.Drawing.Size(220, 146)
+        Me.ChooseSlam.TabIndex = 1422
+        Me.ChooseSlam.Text = "Choose Slam"
+        Me.ChooseSlam.TextAlternate = Nothing
+        Me.ChooseSlam.UseVisualStyleBackColor = False
+        Me.ChooseSlam.ValueToWrite = 0
         '
         'BasicIndicator369
         '
@@ -4460,34 +4437,10 @@ Partial Class SlamControls
         Me.rstCount.ValueToWrite = 0
         Me.rstCount.Visible = False
         '
-        'LbClk
-        '
-        Me.LbClk.AutoSize = True
-        Me.LbClk.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LbClk.ForeColor = System.Drawing.Color.GhostWhite
-        Me.LbClk.Location = New System.Drawing.Point(2031, 1008)
-        Me.LbClk.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.LbClk.Name = "LbClk"
-        Me.LbClk.Size = New System.Drawing.Size(130, 25)
-        Me.LbClk.TabIndex = 1438
-        Me.LbClk.Text = "xx:xx:xx PM"
-        '
         'TiClk
         '
         Me.TiClk.Enabled = True
         Me.TiClk.Interval = 1000
-        '
-        'LbDate
-        '
-        Me.LbDate.AutoSize = True
-        Me.LbDate.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LbDate.ForeColor = System.Drawing.Color.GhostWhite
-        Me.LbDate.Location = New System.Drawing.Point(2031, 970)
-        Me.LbDate.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.LbDate.Name = "LbDate"
-        Me.LbDate.Size = New System.Drawing.Size(114, 25)
-        Me.LbDate.TabIndex = 1439
-        Me.LbDate.Text = "xx/xx/xxxx"
         '
         'opExChBox
         '
@@ -4550,19 +4503,65 @@ Partial Class SlamControls
         Me.openMacDis.ValueToWrite = 0
         Me.openMacDis.Visible = False
         '
+        'LabDate
+        '
+        Me.LabDate.AutoSize = True
+        Me.LabDate.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabDate.ForeColor = System.Drawing.Color.GhostWhite
+        Me.LabDate.Location = New System.Drawing.Point(15, 784)
+        Me.LabDate.Name = "LabDate"
+        Me.LabDate.Size = New System.Drawing.Size(114, 25)
+        Me.LabDate.TabIndex = 2078
+        Me.LabDate.Text = "xx/xx/xxxx"
+        '
+        'LabTime
+        '
+        Me.LabTime.AutoSize = True
+        Me.LabTime.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabTime.ForeColor = System.Drawing.Color.GhostWhite
+        Me.LabTime.Location = New System.Drawing.Point(15, 809)
+        Me.LabTime.Name = "LabTime"
+        Me.LabTime.Size = New System.Drawing.Size(130, 25)
+        Me.LabTime.TabIndex = 2077
+        Me.LabTime.Text = "xx:xx:xx PM"
+        '
+        'opsExit
+        '
+        Me.opsExit.BackColor = System.Drawing.Color.Black
+        Me.opsExit.ComComponent = Me.EthernetIPforCLXCom1
+        Me.opsExit.ForeColor = System.Drawing.Color.Black
+        Me.opsExit.ForeColorAltername = System.Drawing.Color.Black
+        Me.opsExit.Highlight = False
+        Me.opsExit.HighlightColor = System.Drawing.Color.Green
+        Me.opsExit.Location = New System.Drawing.Point(1549, 356)
+        Me.opsExit.Margin = New System.Windows.Forms.Padding(4)
+        Me.opsExit.MaximumHoldTime = 3000
+        Me.opsExit.MinimumHoldTime = 500
+        Me.opsExit.Name = "opsExit"
+        Me.opsExit.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.opsExit.PLCAddressClick = ""
+        Me.opsExit.SelectTextAlternate = False
+        Me.opsExit.Size = New System.Drawing.Size(112, 82)
+        Me.opsExit.TabIndex = 2079
+        Me.opsExit.Text = "Exit Slam Options"
+        Me.opsExit.TextAlternate = Nothing
+        Me.opsExit.UseVisualStyleBackColor = True
+        Me.opsExit.ValueToWrite = 0
+        Me.opsExit.Visible = False
+        '
         'SlamControls
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoSize = True
         Me.BackColor = System.Drawing.Color.MidnightBlue
-        Me.ClientSize = New System.Drawing.Size(1924, 1050)
-        Me.Controls.Add(Me.LbDate)
-        Me.Controls.Add(Me.LbClk)
+        Me.ClientSize = New System.Drawing.Size(1682, 853)
+        Me.Controls.Add(Me.opsExit)
+        Me.Controls.Add(Me.LabDate)
+        Me.Controls.Add(Me.LabTime)
         Me.Controls.Add(Me.btnSlamOps)
         Me.Controls.Add(Me.rstCount)
         Me.Controls.Add(Me.openDSM5)
-        Me.Controls.Add(Me.opsExit)
         Me.Controls.Add(Me.openPtrCMD)
         Me.Controls.Add(Me.openComms)
         Me.Controls.Add(Me.openSortOvRide)
@@ -4571,7 +4570,7 @@ Partial Class SlamControls
         Me.Controls.Add(Me.bOpenPro)
         Me.Controls.Add(Me.openBeltSpeeds)
         Me.Controls.Add(Me.bOpenBCR)
-        Me.Controls.Add(Me.BasicButton1)
+        Me.Controls.Add(Me.ChooseSlam)
         Me.Controls.Add(Me.BasicIndicator369)
         Me.Controls.Add(Me.BasicIndicator368)
         Me.Controls.Add(Me.BasicIndicator367)
@@ -4744,6 +4743,7 @@ Partial Class SlamControls
         Me.Controls.Add(Me.DigitalPanelMeter45)
         Me.Controls.Add(Me.DigitalPanelMeter43)
         Me.Controls.Add(Me.DigitalPanelMeter46)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Name = "SlamControls"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
@@ -4765,7 +4765,6 @@ Partial Class SlamControls
     Friend WithEvents DigitalPanelMeter45 As AdvancedHMIControls.DigitalPanelMeter
     Friend WithEvents DigitalPanelMeter43 As AdvancedHMIControls.DigitalPanelMeter
     Friend WithEvents DigitalPanelMeter46 As AdvancedHMIControls.DigitalPanelMeter
-    Friend WithEvents opsExit As AdvancedHMIControls.BasicButton
     Friend WithEvents btnSlamOps As AdvancedHMIControls.BasicButton
     Friend WithEvents openPtrCMD As AdvancedHMIControls.BasicButton
     Friend WithEvents openComms As AdvancedHMIControls.BasicButton
@@ -4775,7 +4774,7 @@ Partial Class SlamControls
     Friend WithEvents bOpenPro As AdvancedHMIControls.BasicButton
     Friend WithEvents openBeltSpeeds As AdvancedHMIControls.BasicButton
     Friend WithEvents bOpenBCR As AdvancedHMIControls.BasicButton
-    Friend WithEvents BasicButton1 As AdvancedHMIControls.BasicButton
+    Friend WithEvents ChooseSlam As AdvancedHMIControls.BasicButton
     Friend WithEvents BasicIndicator369 As AdvancedHMIControls.BasicIndicator
     Friend WithEvents BasicIndicator368 As AdvancedHMIControls.BasicIndicator
     Friend WithEvents BasicIndicator367 As AdvancedHMIControls.BasicIndicator
@@ -4952,10 +4951,11 @@ Partial Class SlamControls
     Friend WithEvents DataSubscriber24 As AdvancedHMIControls.DataSubscriber2
     Friend WithEvents openDSM5 As AdvancedHMIControls.BasicButton
     Friend WithEvents rstCount As AdvancedHMIControls.BasicButton
-    Friend WithEvents LbClk As Label
     Friend WithEvents TiClk As Timer
-    Friend WithEvents LbDate As Label
     Friend WithEvents opExChBox As CheckBox
     Friend WithEvents biKO As AdvancedHMIControls.BasicIndicator
     Friend WithEvents openMacDis As AdvancedHMIControls.BasicButton
+    Friend WithEvents LabDate As Label
+    Friend WithEvents LabTime As Label
+    Friend WithEvents opsExit As AdvancedHMIControls.BasicButton
 End Class
