@@ -24,12 +24,17 @@ Partial Class SlamControls
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(SlamControls))
-        Me.DigitalPanelMeter44 = New AdvancedHMIControls.DigitalPanelMeter()
+        Me.TiClk = New System.Windows.Forms.Timer(Me.components)
+        Me.opExChBox = New System.Windows.Forms.CheckBox()
+        Me.LabDate = New System.Windows.Forms.Label()
+        Me.LabTime = New System.Windows.Forms.Label()
+        Me.openMacDis1 = New AdvancedHMIControls.BasicButton()
         Me.EthernetIPforCLXCom1 = New AdvancedHMIDrivers.EthernetIPforCLXCom(Me.components)
-        Me.DigitalPanelMeter45 = New AdvancedHMIControls.DigitalPanelMeter()
-        Me.DigitalPanelMeter43 = New AdvancedHMIControls.DigitalPanelMeter()
-        Me.DigitalPanelMeter46 = New AdvancedHMIControls.DigitalPanelMeter()
+        Me.opExChBox1 = New AdvancedHMIControls.CheckBox()
+        Me.opsExit = New AdvancedHMIControls.BasicButton()
         Me.btnSlamOps = New AdvancedHMIControls.BasicButton()
+        Me.rstCount = New AdvancedHMIControls.BasicButton()
+        Me.openDSM5 = New AdvancedHMIControls.BasicButton()
         Me.openPtrCMD = New AdvancedHMIControls.BasicButton()
         Me.openComms = New AdvancedHMIControls.BasicButton()
         Me.openSortOvRide = New AdvancedHMIControls.BasicButton()
@@ -140,12 +145,6 @@ Partial Class SlamControls
         Me.BasicIndicator247 = New AdvancedHMIControls.BasicIndicator()
         Me.BasicIndicator246 = New AdvancedHMIControls.BasicIndicator()
         Me.BasicIndicator245 = New AdvancedHMIControls.BasicIndicator()
-        Me.DataSubscriber23 = New AdvancedHMIControls.DataSubscriber2(Me.components)
-        Me.DataSubscriber22 = New AdvancedHMIControls.DataSubscriber2(Me.components)
-        Me.DataSubscriber21 = New AdvancedHMIControls.DataSubscriber2(Me.components)
-        Me.DataSubscriber211 = New AdvancedHMIControls.DataSubscriber2(Me.components)
-        Me.DataSubscriber210 = New AdvancedHMIControls.DataSubscriber2(Me.components)
-        Me.DataSubscriber24 = New AdvancedHMIControls.DataSubscriber2(Me.components)
         Me.BasicIndicator244 = New AdvancedHMIControls.BasicIndicator()
         Me.BasicIndicator243 = New AdvancedHMIControls.BasicIndicator()
         Me.BasicIndicator242 = New AdvancedHMIControls.BasicIndicator()
@@ -179,7 +178,6 @@ Partial Class SlamControls
         Me.BasicIndicator47 = New AdvancedHMIControls.BasicIndicator()
         Me.BasicIndicator45 = New AdvancedHMIControls.BasicIndicator()
         Me.BasicIndicator43 = New AdvancedHMIControls.BasicIndicator()
-        Me.BasicIndicator41 = New AdvancedHMIControls.BasicIndicator()
         Me.BasicIndicator39 = New AdvancedHMIControls.BasicIndicator()
         Me.BasicIndicator37 = New AdvancedHMIControls.BasicIndicator()
         Me.BasicIndicator35 = New AdvancedHMIControls.BasicIndicator()
@@ -213,17 +211,19 @@ Partial Class SlamControls
         Me.plReset = New AdvancedHMIControls.PilotLight()
         Me.plStart = New AdvancedHMIControls.PilotLight()
         Me.plStop = New AdvancedHMIControls.PilotLight()
-        Me.openDSM5 = New AdvancedHMIControls.BasicButton()
-        Me.rstCount = New AdvancedHMIControls.BasicButton()
-        Me.TiClk = New System.Windows.Forms.Timer(Me.components)
-        Me.opExChBox = New System.Windows.Forms.CheckBox()
+        Me.DigitalPanelMeter44 = New AdvancedHMIControls.DigitalPanelMeter()
+        Me.DigitalPanelMeter45 = New AdvancedHMIControls.DigitalPanelMeter()
+        Me.DigitalPanelMeter43 = New AdvancedHMIControls.DigitalPanelMeter()
+        Me.DigitalPanelMeter46 = New AdvancedHMIControls.DigitalPanelMeter()
+        Me.DataSubscriber23 = New AdvancedHMIControls.DataSubscriber2(Me.components)
+        Me.DataSubscriber22 = New AdvancedHMIControls.DataSubscriber2(Me.components)
+        Me.DataSubscriber21 = New AdvancedHMIControls.DataSubscriber2(Me.components)
+        Me.DataSubscriber211 = New AdvancedHMIControls.DataSubscriber2(Me.components)
+        Me.DataSubscriber210 = New AdvancedHMIControls.DataSubscriber2(Me.components)
+        Me.DataSubscriber24 = New AdvancedHMIControls.DataSubscriber2(Me.components)
         Me.biKO = New AdvancedHMIControls.BasicIndicator()
         Me.openMacDis = New AdvancedHMIControls.BasicButton()
-        Me.LabDate = New System.Windows.Forms.Label()
-        Me.LabTime = New System.Windows.Forms.Label()
-        Me.opsExit = New AdvancedHMIControls.BasicButton()
-        Me.opExChBox1 = New AdvancedHMIControls.CheckBox()
-        Me.openMacDis1 = New AdvancedHMIControls.BasicButton()
+        Me.BasicIndicator41 = New AdvancedHMIControls.BasicIndicator()
         CType(Me.EthernetIPforCLXCom1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DataSubscriber23, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DataSubscriber22, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -233,32 +233,65 @@ Partial Class SlamControls
         CType(Me.DataSubscriber24, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
-        'DigitalPanelMeter44
+        'TiClk
         '
-        Me.DigitalPanelMeter44.BackColor = System.Drawing.Color.Transparent
-        Me.DigitalPanelMeter44.ComComponent = Me.EthernetIPforCLXCom1
-        Me.DigitalPanelMeter44.DecimalPosition = 0
-        Me.DigitalPanelMeter44.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DigitalPanelMeter44.ForeColor = System.Drawing.Color.Gold
-        Me.DigitalPanelMeter44.KeypadFontColor = System.Drawing.Color.WhiteSmoke
-        Me.DigitalPanelMeter44.KeypadMaxValue = 0R
-        Me.DigitalPanelMeter44.KeypadMinValue = 0R
-        Me.DigitalPanelMeter44.KeypadScaleFactor = 1.0R
-        Me.DigitalPanelMeter44.KeypadText = Nothing
-        Me.DigitalPanelMeter44.KeypadWidth = 300
-        Me.DigitalPanelMeter44.Location = New System.Drawing.Point(671, 142)
-        Me.DigitalPanelMeter44.Margin = New System.Windows.Forms.Padding(2)
-        Me.DigitalPanelMeter44.Name = "DigitalPanelMeter44"
-        Me.DigitalPanelMeter44.NumberOfDigits = 5
-        Me.DigitalPanelMeter44.PLCAddressKeypad = ""
-        Me.DigitalPanelMeter44.PLCAddressValue = "HMI_ShipLabelReadRate"
-        Me.DigitalPanelMeter44.Resolution = New Decimal(New Integer() {1, 0, 0, 0})
-        Me.DigitalPanelMeter44.Size = New System.Drawing.Size(205, 89)
-        Me.DigitalPanelMeter44.TabIndex = 1267
-        Me.DigitalPanelMeter44.Text = "SHIP LABEL RR%"
-        Me.DigitalPanelMeter44.Value = 0R
-        Me.DigitalPanelMeter44.ValueScaleFactor = New Decimal(New Integer() {1, 0, 0, 0})
-        Me.DigitalPanelMeter44.ValueScaleOffset = New Decimal(New Integer() {0, 0, 0, 0})
+        Me.TiClk.Enabled = True
+        Me.TiClk.Interval = 1000
+        '
+        'opExChBox
+        '
+        Me.opExChBox.Location = New System.Drawing.Point(0, 0)
+        Me.opExChBox.Name = "opExChBox"
+        Me.opExChBox.Size = New System.Drawing.Size(104, 24)
+        Me.opExChBox.TabIndex = 0
+        '
+        'LabDate
+        '
+        Me.LabDate.AutoSize = True
+        Me.LabDate.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabDate.ForeColor = System.Drawing.Color.GhostWhite
+        Me.LabDate.Location = New System.Drawing.Point(11, 637)
+        Me.LabDate.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.LabDate.Name = "LabDate"
+        Me.LabDate.Size = New System.Drawing.Size(83, 20)
+        Me.LabDate.TabIndex = 2078
+        Me.LabDate.Text = "xx/xx/xxxx"
+        '
+        'LabTime
+        '
+        Me.LabTime.AutoSize = True
+        Me.LabTime.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabTime.ForeColor = System.Drawing.Color.GhostWhite
+        Me.LabTime.Location = New System.Drawing.Point(11, 657)
+        Me.LabTime.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.LabTime.Name = "LabTime"
+        Me.LabTime.Size = New System.Drawing.Size(97, 20)
+        Me.LabTime.TabIndex = 2077
+        Me.LabTime.Text = "xx:xx:xx PM"
+        '
+        'openMacDis1
+        '
+        Me.openMacDis1.BackColor = System.Drawing.Color.Black
+        Me.openMacDis1.ComComponent = Me.EthernetIPforCLXCom1
+        Me.openMacDis1.ForeColor = System.Drawing.Color.Black
+        Me.openMacDis1.ForeColorAltername = System.Drawing.Color.Black
+        Me.openMacDis1.Highlight = False
+        Me.openMacDis1.HighlightColor = System.Drawing.Color.Green
+        Me.openMacDis1.Location = New System.Drawing.Point(1162, 202)
+        Me.openMacDis1.Margin = New System.Windows.Forms.Padding(2)
+        Me.openMacDis1.MaximumHoldTime = 3000
+        Me.openMacDis1.MinimumHoldTime = 500
+        Me.openMacDis1.Name = "openMacDis1"
+        Me.openMacDis1.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.openMacDis1.PLCAddressClick = ""
+        Me.openMacDis1.SelectTextAlternate = False
+        Me.openMacDis1.Size = New System.Drawing.Size(84, 67)
+        Me.openMacDis1.TabIndex = 2081
+        Me.openMacDis1.Text = "Open Machine Display"
+        Me.openMacDis1.TextAlternate = Nothing
+        Me.openMacDis1.UseVisualStyleBackColor = True
+        Me.openMacDis1.ValueToWrite = 0
+        Me.openMacDis1.Visible = False
         '
         'EthernetIPforCLXCom1
         '
@@ -274,86 +307,48 @@ Partial Class SlamControls
         Me.EthernetIPforCLXCom1.RoutePath = Nothing
         Me.EthernetIPforCLXCom1.Timeout = 4000
         '
-        'DigitalPanelMeter45
+        'opExChBox1
         '
-        Me.DigitalPanelMeter45.BackColor = System.Drawing.Color.Transparent
-        Me.DigitalPanelMeter45.ComComponent = Me.EthernetIPforCLXCom1
-        Me.DigitalPanelMeter45.DecimalPosition = 0
-        Me.DigitalPanelMeter45.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DigitalPanelMeter45.ForeColor = System.Drawing.Color.Gold
-        Me.DigitalPanelMeter45.KeypadFontColor = System.Drawing.Color.WhiteSmoke
-        Me.DigitalPanelMeter45.KeypadMaxValue = 0R
-        Me.DigitalPanelMeter45.KeypadMinValue = 0R
-        Me.DigitalPanelMeter45.KeypadScaleFactor = 1.0R
-        Me.DigitalPanelMeter45.KeypadText = Nothing
-        Me.DigitalPanelMeter45.KeypadWidth = 300
-        Me.DigitalPanelMeter45.Location = New System.Drawing.Point(671, 249)
-        Me.DigitalPanelMeter45.Margin = New System.Windows.Forms.Padding(2)
-        Me.DigitalPanelMeter45.Name = "DigitalPanelMeter45"
-        Me.DigitalPanelMeter45.NumberOfDigits = 5
-        Me.DigitalPanelMeter45.PLCAddressKeypad = ""
-        Me.DigitalPanelMeter45.PLCAddressValue = "HMI_BoxCodeReadRate"
-        Me.DigitalPanelMeter45.Resolution = New Decimal(New Integer() {1, 0, 0, 0})
-        Me.DigitalPanelMeter45.Size = New System.Drawing.Size(205, 89)
-        Me.DigitalPanelMeter45.TabIndex = 1266
-        Me.DigitalPanelMeter45.Text = "BOX CODE RR%"
-        Me.DigitalPanelMeter45.Value = 0R
-        Me.DigitalPanelMeter45.ValueScaleFactor = New Decimal(New Integer() {1, 0, 0, 0})
-        Me.DigitalPanelMeter45.ValueScaleOffset = New Decimal(New Integer() {0, 0, 0, 0})
+        Me.opExChBox1.Appearance = System.Windows.Forms.Appearance.Button
+        Me.opExChBox1.AutoSize = True
+        Me.opExChBox1.BackColor = System.Drawing.Color.Blue
+        Me.opExChBox1.ComComponent = Me.EthernetIPforCLXCom1
+        Me.opExChBox1.Font = New System.Drawing.Font("Magneto", 18.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.opExChBox1.ForeColor = System.Drawing.Color.GhostWhite
+        Me.opExChBox1.Location = New System.Drawing.Point(15, 284)
+        Me.opExChBox1.Name = "opExChBox1"
+        Me.opExChBox1.PLCAddressCheckChanged = ""
+        Me.opExChBox1.PLCAddressChecked = ""
+        Me.opExChBox1.PLCAddressText = ""
+        Me.opExChBox1.PLCAddressVisible = ""
+        Me.opExChBox1.Size = New System.Drawing.Size(168, 38)
+        Me.opExChBox1.TabIndex = 2080
+        Me.opExChBox1.Text = "Open Excel"
+        Me.opExChBox1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.opExChBox1.UseVisualStyleBackColor = False
         '
-        'DigitalPanelMeter43
+        'opsExit
         '
-        Me.DigitalPanelMeter43.BackColor = System.Drawing.Color.Transparent
-        Me.DigitalPanelMeter43.ComComponent = Me.EthernetIPforCLXCom1
-        Me.DigitalPanelMeter43.DecimalPosition = 0
-        Me.DigitalPanelMeter43.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DigitalPanelMeter43.ForeColor = System.Drawing.Color.Gold
-        Me.DigitalPanelMeter43.KeypadFontColor = System.Drawing.Color.WhiteSmoke
-        Me.DigitalPanelMeter43.KeypadMaxValue = 0R
-        Me.DigitalPanelMeter43.KeypadMinValue = 0R
-        Me.DigitalPanelMeter43.KeypadScaleFactor = 1.0R
-        Me.DigitalPanelMeter43.KeypadText = Nothing
-        Me.DigitalPanelMeter43.KeypadWidth = 300
-        Me.DigitalPanelMeter43.Location = New System.Drawing.Point(671, 363)
-        Me.DigitalPanelMeter43.Margin = New System.Windows.Forms.Padding(2)
-        Me.DigitalPanelMeter43.Name = "DigitalPanelMeter43"
-        Me.DigitalPanelMeter43.NumberOfDigits = 5
-        Me.DigitalPanelMeter43.PLCAddressKeypad = ""
-        Me.DigitalPanelMeter43.PLCAddressValue = "HMI_VerifySpooReadRate"
-        Me.DigitalPanelMeter43.Resolution = New Decimal(New Integer() {1, 0, 0, 0})
-        Me.DigitalPanelMeter43.Size = New System.Drawing.Size(205, 89)
-        Me.DigitalPanelMeter43.TabIndex = 1268
-        Me.DigitalPanelMeter43.Text = "VERIFY SPOO RR%"
-        Me.DigitalPanelMeter43.Value = 0R
-        Me.DigitalPanelMeter43.ValueScaleFactor = New Decimal(New Integer() {1, 0, 0, 0})
-        Me.DigitalPanelMeter43.ValueScaleOffset = New Decimal(New Integer() {0, 0, 0, 0})
-        '
-        'DigitalPanelMeter46
-        '
-        Me.DigitalPanelMeter46.BackColor = System.Drawing.Color.Transparent
-        Me.DigitalPanelMeter46.ComComponent = Me.EthernetIPforCLXCom1
-        Me.DigitalPanelMeter46.DecimalPosition = 0
-        Me.DigitalPanelMeter46.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DigitalPanelMeter46.ForeColor = System.Drawing.Color.Gold
-        Me.DigitalPanelMeter46.KeypadFontColor = System.Drawing.Color.WhiteSmoke
-        Me.DigitalPanelMeter46.KeypadMaxValue = 0R
-        Me.DigitalPanelMeter46.KeypadMinValue = 0R
-        Me.DigitalPanelMeter46.KeypadScaleFactor = 1.0R
-        Me.DigitalPanelMeter46.KeypadText = Nothing
-        Me.DigitalPanelMeter46.KeypadWidth = 300
-        Me.DigitalPanelMeter46.Location = New System.Drawing.Point(671, 471)
-        Me.DigitalPanelMeter46.Margin = New System.Windows.Forms.Padding(2)
-        Me.DigitalPanelMeter46.Name = "DigitalPanelMeter46"
-        Me.DigitalPanelMeter46.NumberOfDigits = 5
-        Me.DigitalPanelMeter46.PLCAddressKeypad = ""
-        Me.DigitalPanelMeter46.PLCAddressValue = "HMI_ScaleSpooReadRate"
-        Me.DigitalPanelMeter46.Resolution = New Decimal(New Integer() {1, 0, 0, 0})
-        Me.DigitalPanelMeter46.Size = New System.Drawing.Size(205, 89)
-        Me.DigitalPanelMeter46.TabIndex = 1265
-        Me.DigitalPanelMeter46.Text = "SCALE SPOO RR%"
-        Me.DigitalPanelMeter46.Value = 0R
-        Me.DigitalPanelMeter46.ValueScaleFactor = New Decimal(New Integer() {1, 0, 0, 0})
-        Me.DigitalPanelMeter46.ValueScaleOffset = New Decimal(New Integer() {0, 0, 0, 0})
+        Me.opsExit.BackColor = System.Drawing.Color.Black
+        Me.opsExit.ComComponent = Me.EthernetIPforCLXCom1
+        Me.opsExit.ForeColor = System.Drawing.Color.Black
+        Me.opsExit.ForeColorAltername = System.Drawing.Color.Black
+        Me.opsExit.Highlight = False
+        Me.opsExit.HighlightColor = System.Drawing.Color.Green
+        Me.opsExit.Location = New System.Drawing.Point(1162, 289)
+        Me.opsExit.MaximumHoldTime = 3000
+        Me.opsExit.MinimumHoldTime = 500
+        Me.opsExit.Name = "opsExit"
+        Me.opsExit.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.opsExit.PLCAddressClick = ""
+        Me.opsExit.SelectTextAlternate = False
+        Me.opsExit.Size = New System.Drawing.Size(84, 67)
+        Me.opsExit.TabIndex = 2079
+        Me.opsExit.Text = "Exit Slam Options"
+        Me.opsExit.TextAlternate = Nothing
+        Me.opsExit.UseVisualStyleBackColor = True
+        Me.opsExit.ValueToWrite = 0
+        Me.opsExit.Visible = False
         '
         'btnSlamOps
         '
@@ -378,6 +373,55 @@ Partial Class SlamControls
         Me.btnSlamOps.TextAlternate = Nothing
         Me.btnSlamOps.UseVisualStyleBackColor = False
         Me.btnSlamOps.ValueToWrite = 0
+        '
+        'rstCount
+        '
+        Me.rstCount.BackColor = System.Drawing.Color.Black
+        Me.rstCount.ComComponent = Me.EthernetIPforCLXCom1
+        Me.rstCount.ForeColor = System.Drawing.Color.Black
+        Me.rstCount.ForeColorAltername = System.Drawing.Color.Black
+        Me.rstCount.Highlight = False
+        Me.rstCount.HighlightColor = System.Drawing.Color.Green
+        Me.rstCount.Location = New System.Drawing.Point(1162, 112)
+        Me.rstCount.Margin = New System.Windows.Forms.Padding(2)
+        Me.rstCount.MaximumHoldTime = 3000
+        Me.rstCount.MinimumHoldTime = 500
+        Me.rstCount.Name = "rstCount"
+        Me.rstCount.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentaryReset
+        Me.rstCount.PLCAddressClick = "HMI_RunCountReset"
+        Me.rstCount.PLCAddressSelectTextAlternate = "HMI_RunCountReset"
+        Me.rstCount.SelectTextAlternate = False
+        Me.rstCount.Size = New System.Drawing.Size(84, 67)
+        Me.rstCount.TabIndex = 1437
+        Me.rstCount.Text = "Reset Counters"
+        Me.rstCount.TextAlternate = "Counter Reset"
+        Me.rstCount.UseVisualStyleBackColor = True
+        Me.rstCount.ValueToWrite = 0
+        Me.rstCount.Visible = False
+        '
+        'openDSM5
+        '
+        Me.openDSM5.BackColor = System.Drawing.Color.Blue
+        Me.openDSM5.ComComponent = Me.EthernetIPforCLXCom1
+        Me.openDSM5.Font = New System.Drawing.Font("Magneto", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.openDSM5.ForeColor = System.Drawing.Color.GhostWhite
+        Me.openDSM5.ForeColorAltername = System.Drawing.Color.Black
+        Me.openDSM5.Highlight = False
+        Me.openDSM5.HighlightColor = System.Drawing.Color.Green
+        Me.openDSM5.Location = New System.Drawing.Point(15, 12)
+        Me.openDSM5.Margin = New System.Windows.Forms.Padding(2)
+        Me.openDSM5.MaximumHoldTime = 3000
+        Me.openDSM5.MinimumHoldTime = 500
+        Me.openDSM5.Name = "openDSM5"
+        Me.openDSM5.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.openDSM5.PLCAddressClick = ""
+        Me.openDSM5.SelectTextAlternate = False
+        Me.openDSM5.Size = New System.Drawing.Size(165, 119)
+        Me.openDSM5.TabIndex = 1436
+        Me.openDSM5.Text = "DSM5 Controls"
+        Me.openDSM5.TextAlternate = Nothing
+        Me.openDSM5.UseVisualStyleBackColor = False
+        Me.openDSM5.ValueToWrite = 0
         '
         'openPtrCMD
         '
@@ -2819,48 +2863,6 @@ Partial Class SlamControls
         Me.BasicIndicator245.TabIndex = 1321
         Me.BasicIndicator245.Text = "Abort Requested"
         '
-        'DataSubscriber23
-        '
-        Me.DataSubscriber23.ComComponent = Me.EthernetIPforCLXCom1
-        Me.DataSubscriber23.PollRate = 2000
-        Me.DataSubscriber23.SynchronizingObject = Me
-        Me.DataSubscriber23.Value = Nothing
-        '
-        'DataSubscriber22
-        '
-        Me.DataSubscriber22.ComComponent = Me.EthernetIPforCLXCom1
-        Me.DataSubscriber22.PollRate = 2000
-        Me.DataSubscriber22.SynchronizingObject = Me
-        Me.DataSubscriber22.Value = Nothing
-        '
-        'DataSubscriber21
-        '
-        Me.DataSubscriber21.ComComponent = Me.EthernetIPforCLXCom1
-        Me.DataSubscriber21.PollRate = 2000
-        Me.DataSubscriber21.SynchronizingObject = Me
-        Me.DataSubscriber21.Value = Nothing
-        '
-        'DataSubscriber211
-        '
-        Me.DataSubscriber211.ComComponent = Me.EthernetIPforCLXCom1
-        Me.DataSubscriber211.PollRate = 2000
-        Me.DataSubscriber211.SynchronizingObject = Me
-        Me.DataSubscriber211.Value = Nothing
-        '
-        'DataSubscriber210
-        '
-        Me.DataSubscriber210.ComComponent = Me.EthernetIPforCLXCom1
-        Me.DataSubscriber210.PollRate = 2000
-        Me.DataSubscriber210.SynchronizingObject = Me
-        Me.DataSubscriber210.Value = Nothing
-        '
-        'DataSubscriber24
-        '
-        Me.DataSubscriber24.ComComponent = Me.EthernetIPforCLXCom1
-        Me.DataSubscriber24.PollRate = 2000
-        Me.DataSubscriber24.SynchronizingObject = Me
-        Me.DataSubscriber24.Value = Nothing
-        '
         'BasicIndicator244
         '
         Me.BasicIndicator244.Color1 = System.Drawing.Color.Red
@@ -3586,28 +3588,6 @@ Partial Class SlamControls
         Me.BasicIndicator43.Size = New System.Drawing.Size(156, 19)
         Me.BasicIndicator43.TabIndex = 1288
         Me.BasicIndicator43.Text = "Scale Induct Loss"
-        '
-        'BasicIndicator41
-        '
-        Me.BasicIndicator41.Color1 = System.Drawing.Color.Red
-        Me.BasicIndicator41.Color2 = System.Drawing.Color.Green
-        Me.BasicIndicator41.Color3 = System.Drawing.Color.Red
-        Me.BasicIndicator41.ComComponent = Me.EthernetIPforCLXCom1
-        Me.BasicIndicator41.ForeColor = System.Drawing.Color.Yellow
-        Me.BasicIndicator41.Location = New System.Drawing.Point(751, 392)
-        Me.BasicIndicator41.Margin = New System.Windows.Forms.Padding(2)
-        Me.BasicIndicator41.Name = "BasicIndicator41"
-        Me.BasicIndicator41.OutlineColor = System.Drawing.Color.Transparent
-        Me.BasicIndicator41.OutlineWidth = 1
-        Me.BasicIndicator41.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
-        Me.BasicIndicator41.PLCAddressClick = "fe_LabelRequestLoss"
-        Me.BasicIndicator41.PLCAddressVisible = "fe_LabelRequestLoss"
-        Me.BasicIndicator41.SelectColor2 = False
-        Me.BasicIndicator41.SelectColor3 = False
-        Me.BasicIndicator41.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Round
-        Me.BasicIndicator41.Size = New System.Drawing.Size(156, 19)
-        Me.BasicIndicator41.TabIndex = 1287
-        Me.BasicIndicator41.Text = "Label Request Loss"
         '
         'BasicIndicator39
         '
@@ -4390,66 +4370,155 @@ Partial Class SlamControls
         Me.plStop.Value = False
         Me.plStop.ValueToWrite = 1
         '
-        'openDSM5
+        'DigitalPanelMeter44
         '
-        Me.openDSM5.BackColor = System.Drawing.Color.Blue
-        Me.openDSM5.ComComponent = Me.EthernetIPforCLXCom1
-        Me.openDSM5.Font = New System.Drawing.Font("Magneto", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.openDSM5.ForeColor = System.Drawing.Color.GhostWhite
-        Me.openDSM5.ForeColorAltername = System.Drawing.Color.Black
-        Me.openDSM5.Highlight = False
-        Me.openDSM5.HighlightColor = System.Drawing.Color.Green
-        Me.openDSM5.Location = New System.Drawing.Point(15, 12)
-        Me.openDSM5.Margin = New System.Windows.Forms.Padding(2)
-        Me.openDSM5.MaximumHoldTime = 3000
-        Me.openDSM5.MinimumHoldTime = 500
-        Me.openDSM5.Name = "openDSM5"
-        Me.openDSM5.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
-        Me.openDSM5.PLCAddressClick = ""
-        Me.openDSM5.SelectTextAlternate = False
-        Me.openDSM5.Size = New System.Drawing.Size(165, 119)
-        Me.openDSM5.TabIndex = 1436
-        Me.openDSM5.Text = "DSM5 Controls"
-        Me.openDSM5.TextAlternate = Nothing
-        Me.openDSM5.UseVisualStyleBackColor = False
-        Me.openDSM5.ValueToWrite = 0
+        Me.DigitalPanelMeter44.BackColor = System.Drawing.Color.Transparent
+        Me.DigitalPanelMeter44.ComComponent = Me.EthernetIPforCLXCom1
+        Me.DigitalPanelMeter44.DecimalPosition = 0
+        Me.DigitalPanelMeter44.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DigitalPanelMeter44.ForeColor = System.Drawing.Color.Gold
+        Me.DigitalPanelMeter44.KeypadFontColor = System.Drawing.Color.WhiteSmoke
+        Me.DigitalPanelMeter44.KeypadMaxValue = 0R
+        Me.DigitalPanelMeter44.KeypadMinValue = 0R
+        Me.DigitalPanelMeter44.KeypadScaleFactor = 1.0R
+        Me.DigitalPanelMeter44.KeypadText = Nothing
+        Me.DigitalPanelMeter44.KeypadWidth = 300
+        Me.DigitalPanelMeter44.Location = New System.Drawing.Point(671, 142)
+        Me.DigitalPanelMeter44.Margin = New System.Windows.Forms.Padding(2)
+        Me.DigitalPanelMeter44.Name = "DigitalPanelMeter44"
+        Me.DigitalPanelMeter44.NumberOfDigits = 5
+        Me.DigitalPanelMeter44.PLCAddressKeypad = ""
+        Me.DigitalPanelMeter44.PLCAddressValue = "HMI_ShipLabelReadRate"
+        Me.DigitalPanelMeter44.Resolution = New Decimal(New Integer() {1, 0, 0, 0})
+        Me.DigitalPanelMeter44.Size = New System.Drawing.Size(205, 89)
+        Me.DigitalPanelMeter44.TabIndex = 1267
+        Me.DigitalPanelMeter44.Text = "SHIP LABEL RR%"
+        Me.DigitalPanelMeter44.Value = 0R
+        Me.DigitalPanelMeter44.ValueScaleFactor = New Decimal(New Integer() {1, 0, 0, 0})
+        Me.DigitalPanelMeter44.ValueScaleOffset = New Decimal(New Integer() {0, 0, 0, 0})
         '
-        'rstCount
+        'DigitalPanelMeter45
         '
-        Me.rstCount.BackColor = System.Drawing.Color.Black
-        Me.rstCount.ComComponent = Me.EthernetIPforCLXCom1
-        Me.rstCount.ForeColor = System.Drawing.Color.Black
-        Me.rstCount.ForeColorAltername = System.Drawing.Color.Black
-        Me.rstCount.Highlight = False
-        Me.rstCount.HighlightColor = System.Drawing.Color.Green
-        Me.rstCount.Location = New System.Drawing.Point(1162, 112)
-        Me.rstCount.Margin = New System.Windows.Forms.Padding(2)
-        Me.rstCount.MaximumHoldTime = 3000
-        Me.rstCount.MinimumHoldTime = 500
-        Me.rstCount.Name = "rstCount"
-        Me.rstCount.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentaryReset
-        Me.rstCount.PLCAddressClick = "HMI_RunCountReset"
-        Me.rstCount.PLCAddressSelectTextAlternate = "HMI_RunCountReset"
-        Me.rstCount.SelectTextAlternate = False
-        Me.rstCount.Size = New System.Drawing.Size(84, 67)
-        Me.rstCount.TabIndex = 1437
-        Me.rstCount.Text = "Reset Counters"
-        Me.rstCount.TextAlternate = "Counter Reset"
-        Me.rstCount.UseVisualStyleBackColor = True
-        Me.rstCount.ValueToWrite = 0
-        Me.rstCount.Visible = False
+        Me.DigitalPanelMeter45.BackColor = System.Drawing.Color.Transparent
+        Me.DigitalPanelMeter45.ComComponent = Me.EthernetIPforCLXCom1
+        Me.DigitalPanelMeter45.DecimalPosition = 0
+        Me.DigitalPanelMeter45.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DigitalPanelMeter45.ForeColor = System.Drawing.Color.Gold
+        Me.DigitalPanelMeter45.KeypadFontColor = System.Drawing.Color.WhiteSmoke
+        Me.DigitalPanelMeter45.KeypadMaxValue = 0R
+        Me.DigitalPanelMeter45.KeypadMinValue = 0R
+        Me.DigitalPanelMeter45.KeypadScaleFactor = 1.0R
+        Me.DigitalPanelMeter45.KeypadText = Nothing
+        Me.DigitalPanelMeter45.KeypadWidth = 300
+        Me.DigitalPanelMeter45.Location = New System.Drawing.Point(671, 249)
+        Me.DigitalPanelMeter45.Margin = New System.Windows.Forms.Padding(2)
+        Me.DigitalPanelMeter45.Name = "DigitalPanelMeter45"
+        Me.DigitalPanelMeter45.NumberOfDigits = 5
+        Me.DigitalPanelMeter45.PLCAddressKeypad = ""
+        Me.DigitalPanelMeter45.PLCAddressValue = "HMI_BoxCodeReadRate"
+        Me.DigitalPanelMeter45.Resolution = New Decimal(New Integer() {1, 0, 0, 0})
+        Me.DigitalPanelMeter45.Size = New System.Drawing.Size(205, 89)
+        Me.DigitalPanelMeter45.TabIndex = 1266
+        Me.DigitalPanelMeter45.Text = "BOX CODE RR%"
+        Me.DigitalPanelMeter45.Value = 0R
+        Me.DigitalPanelMeter45.ValueScaleFactor = New Decimal(New Integer() {1, 0, 0, 0})
+        Me.DigitalPanelMeter45.ValueScaleOffset = New Decimal(New Integer() {0, 0, 0, 0})
         '
-        'TiClk
+        'DigitalPanelMeter43
         '
-        Me.TiClk.Enabled = True
-        Me.TiClk.Interval = 1000
+        Me.DigitalPanelMeter43.BackColor = System.Drawing.Color.Transparent
+        Me.DigitalPanelMeter43.ComComponent = Me.EthernetIPforCLXCom1
+        Me.DigitalPanelMeter43.DecimalPosition = 0
+        Me.DigitalPanelMeter43.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DigitalPanelMeter43.ForeColor = System.Drawing.Color.Gold
+        Me.DigitalPanelMeter43.KeypadFontColor = System.Drawing.Color.WhiteSmoke
+        Me.DigitalPanelMeter43.KeypadMaxValue = 0R
+        Me.DigitalPanelMeter43.KeypadMinValue = 0R
+        Me.DigitalPanelMeter43.KeypadScaleFactor = 1.0R
+        Me.DigitalPanelMeter43.KeypadText = Nothing
+        Me.DigitalPanelMeter43.KeypadWidth = 300
+        Me.DigitalPanelMeter43.Location = New System.Drawing.Point(671, 363)
+        Me.DigitalPanelMeter43.Margin = New System.Windows.Forms.Padding(2)
+        Me.DigitalPanelMeter43.Name = "DigitalPanelMeter43"
+        Me.DigitalPanelMeter43.NumberOfDigits = 5
+        Me.DigitalPanelMeter43.PLCAddressKeypad = ""
+        Me.DigitalPanelMeter43.PLCAddressValue = "HMI_VerifySpooReadRate"
+        Me.DigitalPanelMeter43.Resolution = New Decimal(New Integer() {1, 0, 0, 0})
+        Me.DigitalPanelMeter43.Size = New System.Drawing.Size(205, 89)
+        Me.DigitalPanelMeter43.TabIndex = 1268
+        Me.DigitalPanelMeter43.Text = "VERIFY SPOO RR%"
+        Me.DigitalPanelMeter43.Value = 0R
+        Me.DigitalPanelMeter43.ValueScaleFactor = New Decimal(New Integer() {1, 0, 0, 0})
+        Me.DigitalPanelMeter43.ValueScaleOffset = New Decimal(New Integer() {0, 0, 0, 0})
         '
-        'opExChBox
+        'DigitalPanelMeter46
         '
-        Me.opExChBox.Location = New System.Drawing.Point(0, 0)
-        Me.opExChBox.Name = "opExChBox"
-        Me.opExChBox.Size = New System.Drawing.Size(104, 24)
-        Me.opExChBox.TabIndex = 0
+        Me.DigitalPanelMeter46.BackColor = System.Drawing.Color.Transparent
+        Me.DigitalPanelMeter46.ComComponent = Me.EthernetIPforCLXCom1
+        Me.DigitalPanelMeter46.DecimalPosition = 0
+        Me.DigitalPanelMeter46.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DigitalPanelMeter46.ForeColor = System.Drawing.Color.Gold
+        Me.DigitalPanelMeter46.KeypadFontColor = System.Drawing.Color.WhiteSmoke
+        Me.DigitalPanelMeter46.KeypadMaxValue = 0R
+        Me.DigitalPanelMeter46.KeypadMinValue = 0R
+        Me.DigitalPanelMeter46.KeypadScaleFactor = 1.0R
+        Me.DigitalPanelMeter46.KeypadText = Nothing
+        Me.DigitalPanelMeter46.KeypadWidth = 300
+        Me.DigitalPanelMeter46.Location = New System.Drawing.Point(671, 471)
+        Me.DigitalPanelMeter46.Margin = New System.Windows.Forms.Padding(2)
+        Me.DigitalPanelMeter46.Name = "DigitalPanelMeter46"
+        Me.DigitalPanelMeter46.NumberOfDigits = 5
+        Me.DigitalPanelMeter46.PLCAddressKeypad = ""
+        Me.DigitalPanelMeter46.PLCAddressValue = "HMI_ScaleSpooReadRate"
+        Me.DigitalPanelMeter46.Resolution = New Decimal(New Integer() {1, 0, 0, 0})
+        Me.DigitalPanelMeter46.Size = New System.Drawing.Size(205, 89)
+        Me.DigitalPanelMeter46.TabIndex = 1265
+        Me.DigitalPanelMeter46.Text = "SCALE SPOO RR%"
+        Me.DigitalPanelMeter46.Value = 0R
+        Me.DigitalPanelMeter46.ValueScaleFactor = New Decimal(New Integer() {1, 0, 0, 0})
+        Me.DigitalPanelMeter46.ValueScaleOffset = New Decimal(New Integer() {0, 0, 0, 0})
+        '
+        'DataSubscriber23
+        '
+        Me.DataSubscriber23.ComComponent = Me.EthernetIPforCLXCom1
+        Me.DataSubscriber23.PollRate = 2000
+        Me.DataSubscriber23.SynchronizingObject = Me
+        Me.DataSubscriber23.Value = Nothing
+        '
+        'DataSubscriber22
+        '
+        Me.DataSubscriber22.ComComponent = Me.EthernetIPforCLXCom1
+        Me.DataSubscriber22.PollRate = 2000
+        Me.DataSubscriber22.SynchronizingObject = Me
+        Me.DataSubscriber22.Value = Nothing
+        '
+        'DataSubscriber21
+        '
+        Me.DataSubscriber21.ComComponent = Me.EthernetIPforCLXCom1
+        Me.DataSubscriber21.PollRate = 2000
+        Me.DataSubscriber21.SynchronizingObject = Me
+        Me.DataSubscriber21.Value = Nothing
+        '
+        'DataSubscriber211
+        '
+        Me.DataSubscriber211.ComComponent = Me.EthernetIPforCLXCom1
+        Me.DataSubscriber211.PollRate = 2000
+        Me.DataSubscriber211.SynchronizingObject = Me
+        Me.DataSubscriber211.Value = Nothing
+        '
+        'DataSubscriber210
+        '
+        Me.DataSubscriber210.ComComponent = Me.EthernetIPforCLXCom1
+        Me.DataSubscriber210.PollRate = 2000
+        Me.DataSubscriber210.SynchronizingObject = Me
+        Me.DataSubscriber210.Value = Nothing
+        '
+        'DataSubscriber24
+        '
+        Me.DataSubscriber24.ComComponent = Me.EthernetIPforCLXCom1
+        Me.DataSubscriber24.PollRate = 2000
+        Me.DataSubscriber24.SynchronizingObject = Me
+        Me.DataSubscriber24.Value = Nothing
         '
         'biKO
         '
@@ -4494,96 +4563,27 @@ Partial Class SlamControls
         Me.openMacDis.ValueToWrite = 0
         Me.openMacDis.Visible = False
         '
-        'LabDate
+        'BasicIndicator41
         '
-        Me.LabDate.AutoSize = True
-        Me.LabDate.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LabDate.ForeColor = System.Drawing.Color.GhostWhite
-        Me.LabDate.Location = New System.Drawing.Point(11, 637)
-        Me.LabDate.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
-        Me.LabDate.Name = "LabDate"
-        Me.LabDate.Size = New System.Drawing.Size(83, 20)
-        Me.LabDate.TabIndex = 2078
-        Me.LabDate.Text = "xx/xx/xxxx"
-        '
-        'LabTime
-        '
-        Me.LabTime.AutoSize = True
-        Me.LabTime.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LabTime.ForeColor = System.Drawing.Color.GhostWhite
-        Me.LabTime.Location = New System.Drawing.Point(11, 657)
-        Me.LabTime.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
-        Me.LabTime.Name = "LabTime"
-        Me.LabTime.Size = New System.Drawing.Size(97, 20)
-        Me.LabTime.TabIndex = 2077
-        Me.LabTime.Text = "xx:xx:xx PM"
-        '
-        'opsExit
-        '
-        Me.opsExit.BackColor = System.Drawing.Color.Black
-        Me.opsExit.ComComponent = Me.EthernetIPforCLXCom1
-        Me.opsExit.ForeColor = System.Drawing.Color.Black
-        Me.opsExit.ForeColorAltername = System.Drawing.Color.Black
-        Me.opsExit.Highlight = False
-        Me.opsExit.HighlightColor = System.Drawing.Color.Green
-        Me.opsExit.Location = New System.Drawing.Point(1162, 289)
-        Me.opsExit.MaximumHoldTime = 3000
-        Me.opsExit.MinimumHoldTime = 500
-        Me.opsExit.Name = "opsExit"
-        Me.opsExit.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
-        Me.opsExit.PLCAddressClick = ""
-        Me.opsExit.SelectTextAlternate = False
-        Me.opsExit.Size = New System.Drawing.Size(84, 67)
-        Me.opsExit.TabIndex = 2079
-        Me.opsExit.Text = "Exit Slam Options"
-        Me.opsExit.TextAlternate = Nothing
-        Me.opsExit.UseVisualStyleBackColor = True
-        Me.opsExit.ValueToWrite = 0
-        Me.opsExit.Visible = False
-        '
-        'opExChBox1
-        '
-        Me.opExChBox1.Appearance = System.Windows.Forms.Appearance.Button
-        Me.opExChBox1.AutoSize = True
-        Me.opExChBox1.BackColor = System.Drawing.Color.Blue
-        Me.opExChBox1.ComComponent = Me.EthernetIPforCLXCom1
-        Me.opExChBox1.Font = New System.Drawing.Font("Magneto", 18.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.opExChBox1.ForeColor = System.Drawing.Color.GhostWhite
-        Me.opExChBox1.Location = New System.Drawing.Point(15, 284)
-        Me.opExChBox1.Name = "opExChBox1"
-        Me.opExChBox1.PLCAddressCheckChanged = ""
-        Me.opExChBox1.PLCAddressChecked = ""
-        Me.opExChBox1.PLCAddressText = ""
-        Me.opExChBox1.PLCAddressVisible = ""
-        Me.opExChBox1.Size = New System.Drawing.Size(168, 38)
-        Me.opExChBox1.TabIndex = 2080
-        Me.opExChBox1.Text = "Open Excel"
-        Me.opExChBox1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        Me.opExChBox1.UseVisualStyleBackColor = False
-        '
-        'openMacDis1
-        '
-        Me.openMacDis1.BackColor = System.Drawing.Color.Black
-        Me.openMacDis1.ComComponent = Me.EthernetIPforCLXCom1
-        Me.openMacDis1.ForeColor = System.Drawing.Color.Black
-        Me.openMacDis1.ForeColorAltername = System.Drawing.Color.Black
-        Me.openMacDis1.Highlight = False
-        Me.openMacDis1.HighlightColor = System.Drawing.Color.Green
-        Me.openMacDis1.Location = New System.Drawing.Point(1162, 202)
-        Me.openMacDis1.Margin = New System.Windows.Forms.Padding(2)
-        Me.openMacDis1.MaximumHoldTime = 3000
-        Me.openMacDis1.MinimumHoldTime = 500
-        Me.openMacDis1.Name = "openMacDis1"
-        Me.openMacDis1.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
-        Me.openMacDis1.PLCAddressClick = ""
-        Me.openMacDis1.SelectTextAlternate = False
-        Me.openMacDis1.Size = New System.Drawing.Size(84, 67)
-        Me.openMacDis1.TabIndex = 2081
-        Me.openMacDis1.Text = "Open Machine Display"
-        Me.openMacDis1.TextAlternate = Nothing
-        Me.openMacDis1.UseVisualStyleBackColor = True
-        Me.openMacDis1.ValueToWrite = 0
-        Me.openMacDis1.Visible = False
+        Me.BasicIndicator41.Color1 = System.Drawing.Color.Red
+        Me.BasicIndicator41.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator41.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator41.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator41.ForeColor = System.Drawing.Color.Yellow
+        Me.BasicIndicator41.Location = New System.Drawing.Point(751, 392)
+        Me.BasicIndicator41.Margin = New System.Windows.Forms.Padding(2)
+        Me.BasicIndicator41.Name = "BasicIndicator41"
+        Me.BasicIndicator41.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator41.OutlineWidth = 1
+        Me.BasicIndicator41.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator41.PLCAddressClick = "fe_LabelRequestLoss"
+        Me.BasicIndicator41.PLCAddressVisible = "fe_LabelRequestLoss"
+        Me.BasicIndicator41.SelectColor2 = False
+        Me.BasicIndicator41.SelectColor3 = False
+        Me.BasicIndicator41.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Round
+        Me.BasicIndicator41.Size = New System.Drawing.Size(156, 19)
+        Me.BasicIndicator41.TabIndex = 1287
+        Me.BasicIndicator41.Text = "Label Request Loss"
         '
         'SlamControls
         '
@@ -4948,7 +4948,6 @@ Partial Class SlamControls
     Friend WithEvents BasicIndicator47 As AdvancedHMIControls.BasicIndicator
     Friend WithEvents BasicIndicator45 As AdvancedHMIControls.BasicIndicator
     Friend WithEvents BasicIndicator43 As AdvancedHMIControls.BasicIndicator
-    Friend WithEvents BasicIndicator41 As AdvancedHMIControls.BasicIndicator
     Friend WithEvents BasicIndicator39 As AdvancedHMIControls.BasicIndicator
     Friend WithEvents BasicIndicator37 As AdvancedHMIControls.BasicIndicator
     Friend WithEvents BasicIndicator35 As AdvancedHMIControls.BasicIndicator
@@ -4998,4 +4997,5 @@ Partial Class SlamControls
     Friend WithEvents opsExit As AdvancedHMIControls.BasicButton
     Friend WithEvents opExChBox1 As AdvancedHMIControls.CheckBox
     Friend WithEvents openMacDis1 As AdvancedHMIControls.BasicButton
+    Friend WithEvents BasicIndicator41 As AdvancedHMIControls.BasicIndicator
 End Class
