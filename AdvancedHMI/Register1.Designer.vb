@@ -53,7 +53,7 @@ Partial Class Register1
         Me.TbUsRe.Font = New System.Drawing.Font("Magneto", 22.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TbUsRe.ForeColor = System.Drawing.Color.GhostWhite
         Me.TbUsRe.Location = New System.Drawing.Point(143, 162)
-        Me.TbUsRe.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.TbUsRe.Margin = New System.Windows.Forms.Padding(2)
         Me.TbUsRe.Name = "TbUsRe"
         Me.TbUsRe.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.TbUsRe.Size = New System.Drawing.Size(192, 43)
@@ -78,7 +78,7 @@ Partial Class Register1
         Me.TbUsPw1.Font = New System.Drawing.Font("Magneto", 22.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TbUsPw1.ForeColor = System.Drawing.Color.GhostWhite
         Me.TbUsPw1.Location = New System.Drawing.Point(143, 115)
-        Me.TbUsPw1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.TbUsPw1.Margin = New System.Windows.Forms.Padding(2)
         Me.TbUsPw1.Name = "TbUsPw1"
         Me.TbUsPw1.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.TbUsPw1.Size = New System.Drawing.Size(192, 43)
@@ -90,7 +90,7 @@ Partial Class Register1
         Me.TbUsName1.Font = New System.Drawing.Font("Magneto", 22.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TbUsName1.ForeColor = System.Drawing.Color.GhostWhite
         Me.TbUsName1.Location = New System.Drawing.Point(143, 68)
-        Me.TbUsName1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.TbUsName1.Margin = New System.Windows.Forms.Padding(2)
         Me.TbUsName1.Name = "TbUsName1"
         Me.TbUsName1.Size = New System.Drawing.Size(192, 43)
         Me.TbUsName1.TabIndex = 14
@@ -101,7 +101,7 @@ Partial Class Register1
         Me.SaveBtn.Font = New System.Drawing.Font("Magneto", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.SaveBtn.ForeColor = System.Drawing.Color.GhostWhite
         Me.SaveBtn.Location = New System.Drawing.Point(143, 240)
-        Me.SaveBtn.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.SaveBtn.Margin = New System.Windows.Forms.Padding(2)
         Me.SaveBtn.Name = "SaveBtn"
         Me.SaveBtn.Size = New System.Drawing.Size(80, 28)
         Me.SaveBtn.TabIndex = 18
@@ -147,10 +147,10 @@ Partial Class Register1
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
-        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "Register1"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Register1"
+        Me.Text = "Please Register Below"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

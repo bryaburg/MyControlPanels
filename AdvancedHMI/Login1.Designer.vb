@@ -51,7 +51,7 @@ Partial Class Login1
         Me.TbUsPw.Font = New System.Drawing.Font("Magneto", 22.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TbUsPw.ForeColor = System.Drawing.Color.GhostWhite
         Me.TbUsPw.Location = New System.Drawing.Point(130, 149)
-        Me.TbUsPw.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.TbUsPw.Margin = New System.Windows.Forms.Padding(2)
         Me.TbUsPw.Name = "TbUsPw"
         Me.TbUsPw.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.TbUsPw.Size = New System.Drawing.Size(192, 43)
@@ -66,7 +66,7 @@ Partial Class Login1
         Me.TbUsName.Font = New System.Drawing.Font("Magneto", 22.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TbUsName.ForeColor = System.Drawing.Color.GhostWhite
         Me.TbUsName.Location = New System.Drawing.Point(130, 71)
-        Me.TbUsName.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.TbUsName.Margin = New System.Windows.Forms.Padding(2)
         Me.TbUsName.Name = "TbUsName"
         Me.TbUsName.Size = New System.Drawing.Size(192, 43)
         Me.TbUsName.TabIndex = 2
@@ -89,7 +89,7 @@ Partial Class Login1
         Me.LoginBtn.Font = New System.Drawing.Font("Magneto", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LoginBtn.ForeColor = System.Drawing.Color.GhostWhite
         Me.LoginBtn.Location = New System.Drawing.Point(130, 241)
-        Me.LoginBtn.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.LoginBtn.Margin = New System.Windows.Forms.Padding(2)
         Me.LoginBtn.Name = "LoginBtn"
         Me.LoginBtn.Size = New System.Drawing.Size(80, 28)
         Me.LoginBtn.TabIndex = 1
@@ -134,10 +134,10 @@ Partial Class Login1
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
-        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "Login1"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Login1"
+        Me.Text = "Please Login Below"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
