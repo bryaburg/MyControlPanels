@@ -317,6 +317,7 @@ Partial Class DSM5_Controls
         Me.TiClk = New System.Windows.Forms.Timer(Me.components)
         Me.LbDate = New System.Windows.Forms.Label()
         Me.PilotLight249 = New AdvancedHMIControls.PilotLight()
+        Me.EthernetIPforCLXCom38 = New AdvancedHMIDrivers.EthernetIPforCLXCom(Me.components)
         Me.PilotLight250 = New AdvancedHMIControls.PilotLight()
         Me.PilotLight251 = New AdvancedHMIControls.PilotLight()
         Me.PilotLight252 = New AdvancedHMIControls.PilotLight()
@@ -327,7 +328,6 @@ Partial Class DSM5_Controls
         Me.PilotLight257 = New AdvancedHMIControls.PilotLight()
         Me.PilotLight258 = New AdvancedHMIControls.PilotLight()
         Me.PilotLight259 = New AdvancedHMIControls.PilotLight()
-        Me.EthernetIPforCLXCom38 = New AdvancedHMIDrivers.EthernetIPforCLXCom(Me.components)
         CType(Me.EthernetIPforCLXCom23, System.ComponentModel.ISupportInitialize).BeginInit
         CType(Me.EthernetIPforCLXCom33, System.ComponentModel.ISupportInitialize).BeginInit
         CType(Me.EthernetIPforCLXCom25, System.ComponentModel.ISupportInitialize).BeginInit
@@ -393,7 +393,7 @@ Partial Class DSM5_Controls
         Me.PilotLight213.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight213.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight213.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight213.Location = New System.Drawing.Point(1503, 586)
+        Me.PilotLight213.Location = New System.Drawing.Point(1468, 572)
         Me.PilotLight213.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight213.Name = "PilotLight213"
         Me.PilotLight213.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.Toggle
@@ -432,7 +432,7 @@ Partial Class DSM5_Controls
         Me.PilotLight214.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight214.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight214.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight214.Location = New System.Drawing.Point(1438, 586)
+        Me.PilotLight214.Location = New System.Drawing.Point(1403, 572)
         Me.PilotLight214.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight214.Name = "PilotLight214"
         Me.PilotLight214.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -457,7 +457,7 @@ Partial Class DSM5_Controls
         Me.PilotLight215.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight215.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight215.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight215.Location = New System.Drawing.Point(1370, 586)
+        Me.PilotLight215.Location = New System.Drawing.Point(1335, 572)
         Me.PilotLight215.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight215.Name = "PilotLight215"
         Me.PilotLight215.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -482,7 +482,7 @@ Partial Class DSM5_Controls
         Me.PilotLight216.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight216.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight216.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight216.Location = New System.Drawing.Point(1302, 586)
+        Me.PilotLight216.Location = New System.Drawing.Point(1267, 572)
         Me.PilotLight216.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight216.Name = "PilotLight216"
         Me.PilotLight216.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -507,7 +507,7 @@ Partial Class DSM5_Controls
         Me.PilotLight217.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight217.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight217.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight217.Location = New System.Drawing.Point(1234, 586)
+        Me.PilotLight217.Location = New System.Drawing.Point(1199, 572)
         Me.PilotLight217.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight217.Name = "PilotLight217"
         Me.PilotLight217.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -533,7 +533,7 @@ Partial Class DSM5_Controls
         Me.PilotLight218.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight218.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight218.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight218.Location = New System.Drawing.Point(1166, 586)
+        Me.PilotLight218.Location = New System.Drawing.Point(1131, 572)
         Me.PilotLight218.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight218.Name = "PilotLight218"
         Me.PilotLight218.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -572,7 +572,7 @@ Partial Class DSM5_Controls
         Me.PilotLight206.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight206.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight206.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight206.Location = New System.Drawing.Point(1132, 642)
+        Me.PilotLight206.Location = New System.Drawing.Point(1097, 628)
         Me.PilotLight206.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight206.Name = "PilotLight206"
         Me.PilotLight206.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -611,7 +611,7 @@ Partial Class DSM5_Controls
         Me.PilotLight207.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight207.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight207.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight207.Location = New System.Drawing.Point(1132, 586)
+        Me.PilotLight207.Location = New System.Drawing.Point(1097, 572)
         Me.PilotLight207.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight207.Name = "PilotLight207"
         Me.PilotLight207.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.Toggle
@@ -636,7 +636,7 @@ Partial Class DSM5_Controls
         Me.PilotLight208.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight208.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight208.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight208.Location = New System.Drawing.Point(1065, 586)
+        Me.PilotLight208.Location = New System.Drawing.Point(1030, 572)
         Me.PilotLight208.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight208.Name = "PilotLight208"
         Me.PilotLight208.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -661,7 +661,7 @@ Partial Class DSM5_Controls
         Me.PilotLight209.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight209.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight209.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight209.Location = New System.Drawing.Point(997, 586)
+        Me.PilotLight209.Location = New System.Drawing.Point(962, 572)
         Me.PilotLight209.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight209.Name = "PilotLight209"
         Me.PilotLight209.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -686,7 +686,7 @@ Partial Class DSM5_Controls
         Me.PilotLight210.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight210.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight210.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight210.Location = New System.Drawing.Point(929, 586)
+        Me.PilotLight210.Location = New System.Drawing.Point(894, 572)
         Me.PilotLight210.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight210.Name = "PilotLight210"
         Me.PilotLight210.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -711,7 +711,7 @@ Partial Class DSM5_Controls
         Me.PilotLight211.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight211.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight211.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight211.Location = New System.Drawing.Point(861, 586)
+        Me.PilotLight211.Location = New System.Drawing.Point(826, 572)
         Me.PilotLight211.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight211.Name = "PilotLight211"
         Me.PilotLight211.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -737,7 +737,7 @@ Partial Class DSM5_Controls
         Me.PilotLight212.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight212.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight212.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight212.Location = New System.Drawing.Point(793, 586)
+        Me.PilotLight212.Location = New System.Drawing.Point(758, 572)
         Me.PilotLight212.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight212.Name = "PilotLight212"
         Me.PilotLight212.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -776,7 +776,7 @@ Partial Class DSM5_Controls
         Me.PilotLight155.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight155.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight155.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight155.Location = New System.Drawing.Point(758, 586)
+        Me.PilotLight155.Location = New System.Drawing.Point(723, 572)
         Me.PilotLight155.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight155.Name = "PilotLight155"
         Me.PilotLight155.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.Toggle
@@ -815,7 +815,7 @@ Partial Class DSM5_Controls
         Me.PilotLight201.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight201.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight201.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight201.Location = New System.Drawing.Point(689, 586)
+        Me.PilotLight201.Location = New System.Drawing.Point(654, 572)
         Me.PilotLight201.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight201.Name = "PilotLight201"
         Me.PilotLight201.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -840,7 +840,7 @@ Partial Class DSM5_Controls
         Me.PilotLight202.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight202.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight202.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight202.Location = New System.Drawing.Point(621, 586)
+        Me.PilotLight202.Location = New System.Drawing.Point(586, 572)
         Me.PilotLight202.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight202.Name = "PilotLight202"
         Me.PilotLight202.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -865,7 +865,7 @@ Partial Class DSM5_Controls
         Me.PilotLight203.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight203.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight203.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight203.Location = New System.Drawing.Point(553, 586)
+        Me.PilotLight203.Location = New System.Drawing.Point(518, 572)
         Me.PilotLight203.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight203.Name = "PilotLight203"
         Me.PilotLight203.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -890,7 +890,7 @@ Partial Class DSM5_Controls
         Me.PilotLight204.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight204.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight204.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight204.Location = New System.Drawing.Point(485, 586)
+        Me.PilotLight204.Location = New System.Drawing.Point(450, 572)
         Me.PilotLight204.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight204.Name = "PilotLight204"
         Me.PilotLight204.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -916,7 +916,7 @@ Partial Class DSM5_Controls
         Me.PilotLight205.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight205.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight205.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight205.Location = New System.Drawing.Point(417, 586)
+        Me.PilotLight205.Location = New System.Drawing.Point(382, 572)
         Me.PilotLight205.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight205.Name = "PilotLight205"
         Me.PilotLight205.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -955,7 +955,7 @@ Partial Class DSM5_Controls
         Me.PilotLight195.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight195.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight195.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight195.Location = New System.Drawing.Point(383, 586)
+        Me.PilotLight195.Location = New System.Drawing.Point(348, 572)
         Me.PilotLight195.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight195.Name = "PilotLight195"
         Me.PilotLight195.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.Toggle
@@ -994,7 +994,7 @@ Partial Class DSM5_Controls
         Me.PilotLight196.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight196.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight196.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight196.Location = New System.Drawing.Point(314, 586)
+        Me.PilotLight196.Location = New System.Drawing.Point(279, 572)
         Me.PilotLight196.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight196.Name = "PilotLight196"
         Me.PilotLight196.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -1019,7 +1019,7 @@ Partial Class DSM5_Controls
         Me.PilotLight197.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight197.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight197.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight197.Location = New System.Drawing.Point(246, 586)
+        Me.PilotLight197.Location = New System.Drawing.Point(211, 572)
         Me.PilotLight197.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight197.Name = "PilotLight197"
         Me.PilotLight197.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -1044,7 +1044,7 @@ Partial Class DSM5_Controls
         Me.PilotLight198.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight198.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight198.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight198.Location = New System.Drawing.Point(178, 586)
+        Me.PilotLight198.Location = New System.Drawing.Point(143, 572)
         Me.PilotLight198.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight198.Name = "PilotLight198"
         Me.PilotLight198.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -1069,7 +1069,7 @@ Partial Class DSM5_Controls
         Me.PilotLight199.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight199.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight199.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight199.Location = New System.Drawing.Point(110, 586)
+        Me.PilotLight199.Location = New System.Drawing.Point(75, 572)
         Me.PilotLight199.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight199.Name = "PilotLight199"
         Me.PilotLight199.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -1095,7 +1095,7 @@ Partial Class DSM5_Controls
         Me.PilotLight200.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight200.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight200.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight200.Location = New System.Drawing.Point(42, 586)
+        Me.PilotLight200.Location = New System.Drawing.Point(7, 572)
         Me.PilotLight200.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight200.Name = "PilotLight200"
         Me.PilotLight200.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -1188,7 +1188,7 @@ Partial Class DSM5_Controls
         Me.BasicButton1.ForeColorAltername = System.Drawing.Color.Black
         Me.BasicButton1.Highlight = False
         Me.BasicButton1.HighlightColor = System.Drawing.Color.Green
-        Me.BasicButton1.Location = New System.Drawing.Point(1639, 926)
+        Me.BasicButton1.Location = New System.Drawing.Point(1604, 902)
         Me.BasicButton1.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.BasicButton1.MaximumHoldTime = 3000
         Me.BasicButton1.MinimumHoldTime = 500
@@ -1228,7 +1228,7 @@ Partial Class DSM5_Controls
         Me.PilotLight243.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight243.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight243.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight243.Location = New System.Drawing.Point(1883, 813)
+        Me.PilotLight243.Location = New System.Drawing.Point(1848, 799)
         Me.PilotLight243.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight243.Name = "PilotLight243"
         Me.PilotLight243.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.Toggle
@@ -1267,7 +1267,7 @@ Partial Class DSM5_Controls
         Me.PilotLight244.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight244.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight244.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight244.Location = New System.Drawing.Point(1814, 813)
+        Me.PilotLight244.Location = New System.Drawing.Point(1779, 799)
         Me.PilotLight244.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight244.Name = "PilotLight244"
         Me.PilotLight244.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -1292,7 +1292,7 @@ Partial Class DSM5_Controls
         Me.PilotLight245.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight245.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight245.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight245.Location = New System.Drawing.Point(1746, 813)
+        Me.PilotLight245.Location = New System.Drawing.Point(1711, 799)
         Me.PilotLight245.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight245.Name = "PilotLight245"
         Me.PilotLight245.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -1317,7 +1317,7 @@ Partial Class DSM5_Controls
         Me.PilotLight246.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight246.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight246.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight246.Location = New System.Drawing.Point(1678, 813)
+        Me.PilotLight246.Location = New System.Drawing.Point(1643, 799)
         Me.PilotLight246.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight246.Name = "PilotLight246"
         Me.PilotLight246.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -1342,7 +1342,7 @@ Partial Class DSM5_Controls
         Me.PilotLight247.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight247.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight247.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight247.Location = New System.Drawing.Point(1610, 813)
+        Me.PilotLight247.Location = New System.Drawing.Point(1575, 799)
         Me.PilotLight247.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight247.Name = "PilotLight247"
         Me.PilotLight247.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -1368,7 +1368,7 @@ Partial Class DSM5_Controls
         Me.PilotLight248.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight248.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight248.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight248.Location = New System.Drawing.Point(1542, 813)
+        Me.PilotLight248.Location = New System.Drawing.Point(1507, 799)
         Me.PilotLight248.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight248.Name = "PilotLight248"
         Me.PilotLight248.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -1393,7 +1393,7 @@ Partial Class DSM5_Controls
         Me.PilotLight237.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight237.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight237.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight237.Location = New System.Drawing.Point(383, 926)
+        Me.PilotLight237.Location = New System.Drawing.Point(348, 912)
         Me.PilotLight237.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight237.Name = "PilotLight237"
         Me.PilotLight237.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.Toggle
@@ -1432,7 +1432,7 @@ Partial Class DSM5_Controls
         Me.PilotLight238.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight238.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight238.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight238.Location = New System.Drawing.Point(314, 926)
+        Me.PilotLight238.Location = New System.Drawing.Point(279, 912)
         Me.PilotLight238.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight238.Name = "PilotLight238"
         Me.PilotLight238.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -1457,7 +1457,7 @@ Partial Class DSM5_Controls
         Me.PilotLight239.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight239.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight239.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight239.Location = New System.Drawing.Point(246, 926)
+        Me.PilotLight239.Location = New System.Drawing.Point(211, 912)
         Me.PilotLight239.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight239.Name = "PilotLight239"
         Me.PilotLight239.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -1482,7 +1482,7 @@ Partial Class DSM5_Controls
         Me.PilotLight240.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight240.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight240.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight240.Location = New System.Drawing.Point(178, 926)
+        Me.PilotLight240.Location = New System.Drawing.Point(143, 912)
         Me.PilotLight240.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight240.Name = "PilotLight240"
         Me.PilotLight240.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -1507,7 +1507,7 @@ Partial Class DSM5_Controls
         Me.PilotLight241.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight241.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight241.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight241.Location = New System.Drawing.Point(110, 926)
+        Me.PilotLight241.Location = New System.Drawing.Point(75, 912)
         Me.PilotLight241.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight241.Name = "PilotLight241"
         Me.PilotLight241.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -1533,7 +1533,7 @@ Partial Class DSM5_Controls
         Me.PilotLight242.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight242.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight242.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight242.Location = New System.Drawing.Point(42, 926)
+        Me.PilotLight242.Location = New System.Drawing.Point(7, 912)
         Me.PilotLight242.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight242.Name = "PilotLight242"
         Me.PilotLight242.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -1558,7 +1558,7 @@ Partial Class DSM5_Controls
         Me.PilotLight231.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight231.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight231.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight231.Location = New System.Drawing.Point(1503, 813)
+        Me.PilotLight231.Location = New System.Drawing.Point(1468, 799)
         Me.PilotLight231.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight231.Name = "PilotLight231"
         Me.PilotLight231.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.Toggle
@@ -1583,7 +1583,7 @@ Partial Class DSM5_Controls
         Me.PilotLight232.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight232.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight232.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight232.Location = New System.Drawing.Point(1438, 813)
+        Me.PilotLight232.Location = New System.Drawing.Point(1403, 799)
         Me.PilotLight232.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight232.Name = "PilotLight232"
         Me.PilotLight232.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -1608,7 +1608,7 @@ Partial Class DSM5_Controls
         Me.PilotLight233.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight233.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight233.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight233.Location = New System.Drawing.Point(1370, 813)
+        Me.PilotLight233.Location = New System.Drawing.Point(1335, 799)
         Me.PilotLight233.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight233.Name = "PilotLight233"
         Me.PilotLight233.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -1633,7 +1633,7 @@ Partial Class DSM5_Controls
         Me.PilotLight234.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight234.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight234.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight234.Location = New System.Drawing.Point(1302, 813)
+        Me.PilotLight234.Location = New System.Drawing.Point(1267, 799)
         Me.PilotLight234.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight234.Name = "PilotLight234"
         Me.PilotLight234.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -1658,7 +1658,7 @@ Partial Class DSM5_Controls
         Me.PilotLight235.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight235.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight235.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight235.Location = New System.Drawing.Point(1234, 813)
+        Me.PilotLight235.Location = New System.Drawing.Point(1199, 799)
         Me.PilotLight235.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight235.Name = "PilotLight235"
         Me.PilotLight235.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -1684,7 +1684,7 @@ Partial Class DSM5_Controls
         Me.PilotLight236.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight236.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight236.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight236.Location = New System.Drawing.Point(1166, 813)
+        Me.PilotLight236.Location = New System.Drawing.Point(1131, 799)
         Me.PilotLight236.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight236.Name = "PilotLight236"
         Me.PilotLight236.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -1709,7 +1709,7 @@ Partial Class DSM5_Controls
         Me.PilotLight225.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight225.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight225.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight225.Location = New System.Drawing.Point(1132, 813)
+        Me.PilotLight225.Location = New System.Drawing.Point(1097, 799)
         Me.PilotLight225.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight225.Name = "PilotLight225"
         Me.PilotLight225.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.Toggle
@@ -1748,7 +1748,7 @@ Partial Class DSM5_Controls
         Me.PilotLight226.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight226.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight226.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight226.Location = New System.Drawing.Point(1065, 813)
+        Me.PilotLight226.Location = New System.Drawing.Point(1030, 799)
         Me.PilotLight226.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight226.Name = "PilotLight226"
         Me.PilotLight226.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -1773,7 +1773,7 @@ Partial Class DSM5_Controls
         Me.PilotLight227.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight227.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight227.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight227.Location = New System.Drawing.Point(997, 813)
+        Me.PilotLight227.Location = New System.Drawing.Point(962, 799)
         Me.PilotLight227.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight227.Name = "PilotLight227"
         Me.PilotLight227.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -1798,7 +1798,7 @@ Partial Class DSM5_Controls
         Me.PilotLight228.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight228.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight228.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight228.Location = New System.Drawing.Point(929, 813)
+        Me.PilotLight228.Location = New System.Drawing.Point(894, 799)
         Me.PilotLight228.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight228.Name = "PilotLight228"
         Me.PilotLight228.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -1823,7 +1823,7 @@ Partial Class DSM5_Controls
         Me.PilotLight229.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight229.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight229.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight229.Location = New System.Drawing.Point(861, 813)
+        Me.PilotLight229.Location = New System.Drawing.Point(826, 799)
         Me.PilotLight229.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight229.Name = "PilotLight229"
         Me.PilotLight229.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -1849,7 +1849,7 @@ Partial Class DSM5_Controls
         Me.PilotLight230.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight230.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight230.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight230.Location = New System.Drawing.Point(793, 813)
+        Me.PilotLight230.Location = New System.Drawing.Point(758, 799)
         Me.PilotLight230.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight230.Name = "PilotLight230"
         Me.PilotLight230.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -1874,7 +1874,7 @@ Partial Class DSM5_Controls
         Me.PilotLight219.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight219.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight219.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight219.Location = New System.Drawing.Point(383, 813)
+        Me.PilotLight219.Location = New System.Drawing.Point(348, 799)
         Me.PilotLight219.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight219.Name = "PilotLight219"
         Me.PilotLight219.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.Toggle
@@ -1913,7 +1913,7 @@ Partial Class DSM5_Controls
         Me.PilotLight220.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight220.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight220.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight220.Location = New System.Drawing.Point(314, 813)
+        Me.PilotLight220.Location = New System.Drawing.Point(279, 799)
         Me.PilotLight220.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight220.Name = "PilotLight220"
         Me.PilotLight220.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -1938,7 +1938,7 @@ Partial Class DSM5_Controls
         Me.PilotLight221.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight221.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight221.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight221.Location = New System.Drawing.Point(246, 813)
+        Me.PilotLight221.Location = New System.Drawing.Point(211, 799)
         Me.PilotLight221.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight221.Name = "PilotLight221"
         Me.PilotLight221.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -1963,7 +1963,7 @@ Partial Class DSM5_Controls
         Me.PilotLight222.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight222.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight222.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight222.Location = New System.Drawing.Point(178, 813)
+        Me.PilotLight222.Location = New System.Drawing.Point(143, 799)
         Me.PilotLight222.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight222.Name = "PilotLight222"
         Me.PilotLight222.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -1988,7 +1988,7 @@ Partial Class DSM5_Controls
         Me.PilotLight223.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight223.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight223.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight223.Location = New System.Drawing.Point(110, 813)
+        Me.PilotLight223.Location = New System.Drawing.Point(75, 799)
         Me.PilotLight223.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight223.Name = "PilotLight223"
         Me.PilotLight223.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -2014,7 +2014,7 @@ Partial Class DSM5_Controls
         Me.PilotLight224.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight224.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight224.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight224.Location = New System.Drawing.Point(42, 813)
+        Me.PilotLight224.Location = New System.Drawing.Point(7, 799)
         Me.PilotLight224.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight224.Name = "PilotLight224"
         Me.PilotLight224.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -2039,7 +2039,7 @@ Partial Class DSM5_Controls
         Me.PilotLight189.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight189.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight189.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight189.Location = New System.Drawing.Point(1132, 474)
+        Me.PilotLight189.Location = New System.Drawing.Point(1097, 460)
         Me.PilotLight189.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight189.Name = "PilotLight189"
         Me.PilotLight189.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.Toggle
@@ -2064,7 +2064,7 @@ Partial Class DSM5_Controls
         Me.PilotLight177.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight177.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight177.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight177.Location = New System.Drawing.Point(758, 360)
+        Me.PilotLight177.Location = New System.Drawing.Point(723, 346)
         Me.PilotLight177.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight177.Name = "PilotLight177"
         Me.PilotLight177.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.Toggle
@@ -2089,7 +2089,7 @@ Partial Class DSM5_Controls
         Me.PilotLight121.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight121.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight121.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight121.Location = New System.Drawing.Point(1883, 132)
+        Me.PilotLight121.Location = New System.Drawing.Point(1848, 118)
         Me.PilotLight121.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight121.Name = "PilotLight121"
         Me.PilotLight121.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.Toggle
@@ -2114,7 +2114,7 @@ Partial Class DSM5_Controls
         Me.PilotLight122.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight122.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight122.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight122.Location = New System.Drawing.Point(1814, 132)
+        Me.PilotLight122.Location = New System.Drawing.Point(1779, 118)
         Me.PilotLight122.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight122.Name = "PilotLight122"
         Me.PilotLight122.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -2139,7 +2139,7 @@ Partial Class DSM5_Controls
         Me.PilotLight129.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight129.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight129.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight129.Location = New System.Drawing.Point(1610, 132)
+        Me.PilotLight129.Location = New System.Drawing.Point(1575, 118)
         Me.PilotLight129.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight129.Name = "PilotLight129"
         Me.PilotLight129.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -2164,7 +2164,7 @@ Partial Class DSM5_Controls
         Me.PilotLight136.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight136.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight136.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight136.Location = New System.Drawing.Point(1678, 132)
+        Me.PilotLight136.Location = New System.Drawing.Point(1643, 118)
         Me.PilotLight136.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight136.Name = "PilotLight136"
         Me.PilotLight136.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -2189,7 +2189,7 @@ Partial Class DSM5_Controls
         Me.PilotLight174.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight174.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight174.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight174.Location = New System.Drawing.Point(1746, 132)
+        Me.PilotLight174.Location = New System.Drawing.Point(1711, 118)
         Me.PilotLight174.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight174.Name = "PilotLight174"
         Me.PilotLight174.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -2215,7 +2215,7 @@ Partial Class DSM5_Controls
         Me.PilotLight175.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight175.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight175.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight175.Location = New System.Drawing.Point(1542, 132)
+        Me.PilotLight175.Location = New System.Drawing.Point(1507, 118)
         Me.PilotLight175.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight175.Name = "PilotLight175"
         Me.PilotLight175.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -2240,7 +2240,7 @@ Partial Class DSM5_Controls
         Me.PilotLight162.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight162.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight162.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight162.Location = New System.Drawing.Point(1883, 474)
+        Me.PilotLight162.Location = New System.Drawing.Point(1848, 460)
         Me.PilotLight162.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight162.Name = "PilotLight162"
         Me.PilotLight162.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.Toggle
@@ -2265,7 +2265,7 @@ Partial Class DSM5_Controls
         Me.PilotLight169.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight169.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight169.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight169.Location = New System.Drawing.Point(1814, 474)
+        Me.PilotLight169.Location = New System.Drawing.Point(1779, 460)
         Me.PilotLight169.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight169.Name = "PilotLight169"
         Me.PilotLight169.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -2290,7 +2290,7 @@ Partial Class DSM5_Controls
         Me.PilotLight170.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight170.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight170.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight170.Location = New System.Drawing.Point(1746, 474)
+        Me.PilotLight170.Location = New System.Drawing.Point(1711, 460)
         Me.PilotLight170.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight170.Name = "PilotLight170"
         Me.PilotLight170.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -2315,7 +2315,7 @@ Partial Class DSM5_Controls
         Me.PilotLight171.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight171.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight171.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight171.Location = New System.Drawing.Point(1678, 474)
+        Me.PilotLight171.Location = New System.Drawing.Point(1643, 460)
         Me.PilotLight171.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight171.Name = "PilotLight171"
         Me.PilotLight171.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -2340,7 +2340,7 @@ Partial Class DSM5_Controls
         Me.PilotLight172.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight172.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight172.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight172.Location = New System.Drawing.Point(1610, 474)
+        Me.PilotLight172.Location = New System.Drawing.Point(1575, 460)
         Me.PilotLight172.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight172.Name = "PilotLight172"
         Me.PilotLight172.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -2366,7 +2366,7 @@ Partial Class DSM5_Controls
         Me.PilotLight173.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight173.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight173.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight173.Location = New System.Drawing.Point(1542, 474)
+        Me.PilotLight173.Location = New System.Drawing.Point(1507, 460)
         Me.PilotLight173.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight173.Name = "PilotLight173"
         Me.PilotLight173.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -2391,7 +2391,7 @@ Partial Class DSM5_Controls
         Me.PilotLight190.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight190.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight190.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight190.Location = New System.Drawing.Point(1065, 474)
+        Me.PilotLight190.Location = New System.Drawing.Point(1030, 460)
         Me.PilotLight190.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight190.Name = "PilotLight190"
         Me.PilotLight190.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -2416,7 +2416,7 @@ Partial Class DSM5_Controls
         Me.PilotLight191.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight191.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight191.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight191.Location = New System.Drawing.Point(997, 474)
+        Me.PilotLight191.Location = New System.Drawing.Point(962, 460)
         Me.PilotLight191.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight191.Name = "PilotLight191"
         Me.PilotLight191.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -2441,7 +2441,7 @@ Partial Class DSM5_Controls
         Me.PilotLight192.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight192.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight192.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight192.Location = New System.Drawing.Point(929, 474)
+        Me.PilotLight192.Location = New System.Drawing.Point(894, 460)
         Me.PilotLight192.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight192.Name = "PilotLight192"
         Me.PilotLight192.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -2466,7 +2466,7 @@ Partial Class DSM5_Controls
         Me.PilotLight193.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight193.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight193.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight193.Location = New System.Drawing.Point(861, 474)
+        Me.PilotLight193.Location = New System.Drawing.Point(826, 460)
         Me.PilotLight193.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight193.Name = "PilotLight193"
         Me.PilotLight193.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -2492,7 +2492,7 @@ Partial Class DSM5_Controls
         Me.PilotLight194.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight194.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight194.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight194.Location = New System.Drawing.Point(793, 474)
+        Me.PilotLight194.Location = New System.Drawing.Point(758, 460)
         Me.PilotLight194.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight194.Name = "PilotLight194"
         Me.PilotLight194.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -2517,7 +2517,7 @@ Partial Class DSM5_Controls
         Me.PilotLight183.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight183.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight183.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight183.Location = New System.Drawing.Point(383, 474)
+        Me.PilotLight183.Location = New System.Drawing.Point(348, 460)
         Me.PilotLight183.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight183.Name = "PilotLight183"
         Me.PilotLight183.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.Toggle
@@ -2542,7 +2542,7 @@ Partial Class DSM5_Controls
         Me.PilotLight184.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight184.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight184.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight184.Location = New System.Drawing.Point(314, 474)
+        Me.PilotLight184.Location = New System.Drawing.Point(279, 460)
         Me.PilotLight184.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight184.Name = "PilotLight184"
         Me.PilotLight184.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -2567,7 +2567,7 @@ Partial Class DSM5_Controls
         Me.PilotLight185.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight185.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight185.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight185.Location = New System.Drawing.Point(246, 474)
+        Me.PilotLight185.Location = New System.Drawing.Point(211, 460)
         Me.PilotLight185.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight185.Name = "PilotLight185"
         Me.PilotLight185.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -2592,7 +2592,7 @@ Partial Class DSM5_Controls
         Me.PilotLight186.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight186.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight186.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight186.Location = New System.Drawing.Point(178, 474)
+        Me.PilotLight186.Location = New System.Drawing.Point(143, 460)
         Me.PilotLight186.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight186.Name = "PilotLight186"
         Me.PilotLight186.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -2617,7 +2617,7 @@ Partial Class DSM5_Controls
         Me.PilotLight187.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight187.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight187.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight187.Location = New System.Drawing.Point(110, 474)
+        Me.PilotLight187.Location = New System.Drawing.Point(75, 460)
         Me.PilotLight187.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight187.Name = "PilotLight187"
         Me.PilotLight187.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -2643,7 +2643,7 @@ Partial Class DSM5_Controls
         Me.PilotLight188.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight188.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight188.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight188.Location = New System.Drawing.Point(42, 474)
+        Me.PilotLight188.Location = New System.Drawing.Point(7, 460)
         Me.PilotLight188.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight188.Name = "PilotLight188"
         Me.PilotLight188.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -2668,7 +2668,7 @@ Partial Class DSM5_Controls
         Me.PilotLight176.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight176.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight176.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight176.Location = New System.Drawing.Point(1505, 416)
+        Me.PilotLight176.Location = New System.Drawing.Point(1470, 402)
         Me.PilotLight176.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight176.Name = "PilotLight176"
         Me.PilotLight176.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -2707,7 +2707,7 @@ Partial Class DSM5_Controls
         Me.PilotLight178.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight178.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight178.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight178.Location = New System.Drawing.Point(689, 360)
+        Me.PilotLight178.Location = New System.Drawing.Point(654, 346)
         Me.PilotLight178.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight178.Name = "PilotLight178"
         Me.PilotLight178.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -2732,7 +2732,7 @@ Partial Class DSM5_Controls
         Me.PilotLight179.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight179.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight179.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight179.Location = New System.Drawing.Point(621, 360)
+        Me.PilotLight179.Location = New System.Drawing.Point(586, 346)
         Me.PilotLight179.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight179.Name = "PilotLight179"
         Me.PilotLight179.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -2757,7 +2757,7 @@ Partial Class DSM5_Controls
         Me.PilotLight180.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight180.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight180.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight180.Location = New System.Drawing.Point(553, 360)
+        Me.PilotLight180.Location = New System.Drawing.Point(518, 346)
         Me.PilotLight180.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight180.Name = "PilotLight180"
         Me.PilotLight180.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -2782,7 +2782,7 @@ Partial Class DSM5_Controls
         Me.PilotLight181.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight181.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight181.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight181.Location = New System.Drawing.Point(485, 360)
+        Me.PilotLight181.Location = New System.Drawing.Point(450, 346)
         Me.PilotLight181.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight181.Name = "PilotLight181"
         Me.PilotLight181.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -2808,7 +2808,7 @@ Partial Class DSM5_Controls
         Me.PilotLight182.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight182.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight182.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight182.Location = New System.Drawing.Point(417, 360)
+        Me.PilotLight182.Location = New System.Drawing.Point(382, 346)
         Me.PilotLight182.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight182.Name = "PilotLight182"
         Me.PilotLight182.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -2833,7 +2833,7 @@ Partial Class DSM5_Controls
         Me.PilotLight163.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight163.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight163.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight163.Location = New System.Drawing.Point(1505, 474)
+        Me.PilotLight163.Location = New System.Drawing.Point(1470, 460)
         Me.PilotLight163.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight163.Name = "PilotLight163"
         Me.PilotLight163.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.Toggle
@@ -2858,7 +2858,7 @@ Partial Class DSM5_Controls
         Me.PilotLight165.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight165.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight165.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight165.Location = New System.Drawing.Point(1370, 474)
+        Me.PilotLight165.Location = New System.Drawing.Point(1335, 460)
         Me.PilotLight165.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight165.Name = "PilotLight165"
         Me.PilotLight165.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -2883,7 +2883,7 @@ Partial Class DSM5_Controls
         Me.PilotLight164.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight164.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight164.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight164.Location = New System.Drawing.Point(1438, 474)
+        Me.PilotLight164.Location = New System.Drawing.Point(1403, 460)
         Me.PilotLight164.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight164.Name = "PilotLight164"
         Me.PilotLight164.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -2908,7 +2908,7 @@ Partial Class DSM5_Controls
         Me.PilotLight166.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight166.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight166.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight166.Location = New System.Drawing.Point(1302, 474)
+        Me.PilotLight166.Location = New System.Drawing.Point(1267, 460)
         Me.PilotLight166.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight166.Name = "PilotLight166"
         Me.PilotLight166.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -2933,7 +2933,7 @@ Partial Class DSM5_Controls
         Me.PilotLight167.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight167.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight167.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight167.Location = New System.Drawing.Point(1234, 474)
+        Me.PilotLight167.Location = New System.Drawing.Point(1199, 460)
         Me.PilotLight167.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight167.Name = "PilotLight167"
         Me.PilotLight167.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -2959,7 +2959,7 @@ Partial Class DSM5_Controls
         Me.PilotLight168.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight168.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight168.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight168.Location = New System.Drawing.Point(1166, 474)
+        Me.PilotLight168.Location = New System.Drawing.Point(1131, 460)
         Me.PilotLight168.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight168.Name = "PilotLight168"
         Me.PilotLight168.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -2984,7 +2984,7 @@ Partial Class DSM5_Controls
         Me.PilotLight156.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight156.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight156.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight156.Location = New System.Drawing.Point(1132, 360)
+        Me.PilotLight156.Location = New System.Drawing.Point(1097, 346)
         Me.PilotLight156.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight156.Name = "PilotLight156"
         Me.PilotLight156.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.Toggle
@@ -3009,7 +3009,7 @@ Partial Class DSM5_Controls
         Me.PilotLight157.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight157.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight157.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight157.Location = New System.Drawing.Point(1065, 360)
+        Me.PilotLight157.Location = New System.Drawing.Point(1030, 346)
         Me.PilotLight157.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight157.Name = "PilotLight157"
         Me.PilotLight157.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -3034,7 +3034,7 @@ Partial Class DSM5_Controls
         Me.PilotLight158.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight158.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight158.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight158.Location = New System.Drawing.Point(997, 360)
+        Me.PilotLight158.Location = New System.Drawing.Point(962, 346)
         Me.PilotLight158.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight158.Name = "PilotLight158"
         Me.PilotLight158.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -3059,7 +3059,7 @@ Partial Class DSM5_Controls
         Me.PilotLight159.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight159.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight159.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight159.Location = New System.Drawing.Point(929, 360)
+        Me.PilotLight159.Location = New System.Drawing.Point(894, 346)
         Me.PilotLight159.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight159.Name = "PilotLight159"
         Me.PilotLight159.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -3084,7 +3084,7 @@ Partial Class DSM5_Controls
         Me.PilotLight160.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight160.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight160.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight160.Location = New System.Drawing.Point(861, 360)
+        Me.PilotLight160.Location = New System.Drawing.Point(826, 346)
         Me.PilotLight160.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight160.Name = "PilotLight160"
         Me.PilotLight160.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -3110,7 +3110,7 @@ Partial Class DSM5_Controls
         Me.PilotLight161.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight161.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight161.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight161.Location = New System.Drawing.Point(793, 360)
+        Me.PilotLight161.Location = New System.Drawing.Point(758, 346)
         Me.PilotLight161.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight161.Name = "PilotLight161"
         Me.PilotLight161.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -3135,7 +3135,7 @@ Partial Class DSM5_Controls
         Me.PilotLight143.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight143.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight143.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight143.Location = New System.Drawing.Point(383, 360)
+        Me.PilotLight143.Location = New System.Drawing.Point(348, 346)
         Me.PilotLight143.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight143.Name = "PilotLight143"
         Me.PilotLight143.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.Toggle
@@ -3160,7 +3160,7 @@ Partial Class DSM5_Controls
         Me.PilotLight150.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight150.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight150.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight150.Location = New System.Drawing.Point(314, 360)
+        Me.PilotLight150.Location = New System.Drawing.Point(279, 346)
         Me.PilotLight150.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight150.Name = "PilotLight150"
         Me.PilotLight150.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -3185,7 +3185,7 @@ Partial Class DSM5_Controls
         Me.PilotLight151.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight151.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight151.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight151.Location = New System.Drawing.Point(246, 360)
+        Me.PilotLight151.Location = New System.Drawing.Point(211, 346)
         Me.PilotLight151.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight151.Name = "PilotLight151"
         Me.PilotLight151.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -3210,7 +3210,7 @@ Partial Class DSM5_Controls
         Me.PilotLight152.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight152.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight152.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight152.Location = New System.Drawing.Point(178, 360)
+        Me.PilotLight152.Location = New System.Drawing.Point(143, 346)
         Me.PilotLight152.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight152.Name = "PilotLight152"
         Me.PilotLight152.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -3235,7 +3235,7 @@ Partial Class DSM5_Controls
         Me.PilotLight153.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight153.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight153.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight153.Location = New System.Drawing.Point(110, 360)
+        Me.PilotLight153.Location = New System.Drawing.Point(75, 346)
         Me.PilotLight153.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight153.Name = "PilotLight153"
         Me.PilotLight153.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -3261,7 +3261,7 @@ Partial Class DSM5_Controls
         Me.PilotLight154.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight154.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight154.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight154.Location = New System.Drawing.Point(42, 360)
+        Me.PilotLight154.Location = New System.Drawing.Point(7, 346)
         Me.PilotLight154.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight154.Name = "PilotLight154"
         Me.PilotLight154.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -3286,7 +3286,7 @@ Partial Class DSM5_Controls
         Me.PilotLight144.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight144.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight144.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight144.Location = New System.Drawing.Point(1883, 245)
+        Me.PilotLight144.Location = New System.Drawing.Point(1848, 231)
         Me.PilotLight144.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight144.Name = "PilotLight144"
         Me.PilotLight144.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.Toggle
@@ -3311,7 +3311,7 @@ Partial Class DSM5_Controls
         Me.PilotLight145.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight145.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight145.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight145.Location = New System.Drawing.Point(1814, 245)
+        Me.PilotLight145.Location = New System.Drawing.Point(1779, 231)
         Me.PilotLight145.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight145.Name = "PilotLight145"
         Me.PilotLight145.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -3336,7 +3336,7 @@ Partial Class DSM5_Controls
         Me.PilotLight146.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight146.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight146.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight146.Location = New System.Drawing.Point(1746, 245)
+        Me.PilotLight146.Location = New System.Drawing.Point(1711, 231)
         Me.PilotLight146.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight146.Name = "PilotLight146"
         Me.PilotLight146.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -3361,7 +3361,7 @@ Partial Class DSM5_Controls
         Me.PilotLight147.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight147.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight147.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight147.Location = New System.Drawing.Point(1678, 245)
+        Me.PilotLight147.Location = New System.Drawing.Point(1643, 231)
         Me.PilotLight147.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight147.Name = "PilotLight147"
         Me.PilotLight147.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -3386,7 +3386,7 @@ Partial Class DSM5_Controls
         Me.PilotLight148.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight148.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight148.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight148.Location = New System.Drawing.Point(1610, 245)
+        Me.PilotLight148.Location = New System.Drawing.Point(1575, 231)
         Me.PilotLight148.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight148.Name = "PilotLight148"
         Me.PilotLight148.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -3412,7 +3412,7 @@ Partial Class DSM5_Controls
         Me.PilotLight149.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight149.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight149.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight149.Location = New System.Drawing.Point(1542, 245)
+        Me.PilotLight149.Location = New System.Drawing.Point(1507, 231)
         Me.PilotLight149.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight149.Name = "PilotLight149"
         Me.PilotLight149.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -3437,7 +3437,7 @@ Partial Class DSM5_Controls
         Me.PilotLight137.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight137.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight137.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight137.Location = New System.Drawing.Point(1508, 245)
+        Me.PilotLight137.Location = New System.Drawing.Point(1473, 231)
         Me.PilotLight137.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight137.Name = "PilotLight137"
         Me.PilotLight137.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.Toggle
@@ -3462,7 +3462,7 @@ Partial Class DSM5_Controls
         Me.PilotLight138.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight138.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight138.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight138.Location = New System.Drawing.Point(1438, 245)
+        Me.PilotLight138.Location = New System.Drawing.Point(1403, 231)
         Me.PilotLight138.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight138.Name = "PilotLight138"
         Me.PilotLight138.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -3487,7 +3487,7 @@ Partial Class DSM5_Controls
         Me.PilotLight139.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight139.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight139.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight139.Location = New System.Drawing.Point(1370, 245)
+        Me.PilotLight139.Location = New System.Drawing.Point(1335, 231)
         Me.PilotLight139.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight139.Name = "PilotLight139"
         Me.PilotLight139.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -3512,7 +3512,7 @@ Partial Class DSM5_Controls
         Me.PilotLight140.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight140.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight140.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight140.Location = New System.Drawing.Point(1302, 245)
+        Me.PilotLight140.Location = New System.Drawing.Point(1267, 231)
         Me.PilotLight140.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight140.Name = "PilotLight140"
         Me.PilotLight140.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -3537,7 +3537,7 @@ Partial Class DSM5_Controls
         Me.PilotLight141.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight141.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight141.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight141.Location = New System.Drawing.Point(1234, 245)
+        Me.PilotLight141.Location = New System.Drawing.Point(1199, 231)
         Me.PilotLight141.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight141.Name = "PilotLight141"
         Me.PilotLight141.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -3563,7 +3563,7 @@ Partial Class DSM5_Controls
         Me.PilotLight142.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight142.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight142.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight142.Location = New System.Drawing.Point(1166, 245)
+        Me.PilotLight142.Location = New System.Drawing.Point(1131, 231)
         Me.PilotLight142.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight142.Name = "PilotLight142"
         Me.PilotLight142.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -3588,7 +3588,7 @@ Partial Class DSM5_Controls
         Me.PilotLight130.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight130.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight130.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight130.Location = New System.Drawing.Point(1132, 245)
+        Me.PilotLight130.Location = New System.Drawing.Point(1097, 231)
         Me.PilotLight130.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight130.Name = "PilotLight130"
         Me.PilotLight130.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.Toggle
@@ -3613,7 +3613,7 @@ Partial Class DSM5_Controls
         Me.PilotLight131.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight131.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight131.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight131.Location = New System.Drawing.Point(1065, 245)
+        Me.PilotLight131.Location = New System.Drawing.Point(1030, 231)
         Me.PilotLight131.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight131.Name = "PilotLight131"
         Me.PilotLight131.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -3638,7 +3638,7 @@ Partial Class DSM5_Controls
         Me.PilotLight132.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight132.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight132.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight132.Location = New System.Drawing.Point(997, 245)
+        Me.PilotLight132.Location = New System.Drawing.Point(962, 231)
         Me.PilotLight132.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight132.Name = "PilotLight132"
         Me.PilotLight132.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -3663,7 +3663,7 @@ Partial Class DSM5_Controls
         Me.PilotLight133.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight133.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight133.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight133.Location = New System.Drawing.Point(929, 245)
+        Me.PilotLight133.Location = New System.Drawing.Point(894, 231)
         Me.PilotLight133.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight133.Name = "PilotLight133"
         Me.PilotLight133.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -3688,7 +3688,7 @@ Partial Class DSM5_Controls
         Me.PilotLight134.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight134.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight134.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight134.Location = New System.Drawing.Point(861, 245)
+        Me.PilotLight134.Location = New System.Drawing.Point(826, 231)
         Me.PilotLight134.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight134.Name = "PilotLight134"
         Me.PilotLight134.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -3714,7 +3714,7 @@ Partial Class DSM5_Controls
         Me.PilotLight135.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight135.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight135.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight135.Location = New System.Drawing.Point(793, 245)
+        Me.PilotLight135.Location = New System.Drawing.Point(758, 231)
         Me.PilotLight135.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight135.Name = "PilotLight135"
         Me.PilotLight135.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -3739,7 +3739,7 @@ Partial Class DSM5_Controls
         Me.PilotLight123.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight123.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight123.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight123.Location = New System.Drawing.Point(759, 245)
+        Me.PilotLight123.Location = New System.Drawing.Point(724, 231)
         Me.PilotLight123.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight123.Name = "PilotLight123"
         Me.PilotLight123.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.Toggle
@@ -3764,7 +3764,7 @@ Partial Class DSM5_Controls
         Me.PilotLight124.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight124.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight124.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight124.Location = New System.Drawing.Point(689, 245)
+        Me.PilotLight124.Location = New System.Drawing.Point(654, 231)
         Me.PilotLight124.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight124.Name = "PilotLight124"
         Me.PilotLight124.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -3817,7 +3817,7 @@ Partial Class DSM5_Controls
         Me.PilotLight125.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight125.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight125.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight125.Location = New System.Drawing.Point(621, 245)
+        Me.PilotLight125.Location = New System.Drawing.Point(586, 231)
         Me.PilotLight125.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight125.Name = "PilotLight125"
         Me.PilotLight125.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -3842,7 +3842,7 @@ Partial Class DSM5_Controls
         Me.PilotLight126.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight126.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight126.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight126.Location = New System.Drawing.Point(553, 245)
+        Me.PilotLight126.Location = New System.Drawing.Point(518, 231)
         Me.PilotLight126.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight126.Name = "PilotLight126"
         Me.PilotLight126.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -3867,7 +3867,7 @@ Partial Class DSM5_Controls
         Me.PilotLight127.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight127.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight127.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight127.Location = New System.Drawing.Point(485, 245)
+        Me.PilotLight127.Location = New System.Drawing.Point(450, 231)
         Me.PilotLight127.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight127.Name = "PilotLight127"
         Me.PilotLight127.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -3893,7 +3893,7 @@ Partial Class DSM5_Controls
         Me.PilotLight128.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight128.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight128.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight128.Location = New System.Drawing.Point(417, 245)
+        Me.PilotLight128.Location = New System.Drawing.Point(382, 231)
         Me.PilotLight128.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight128.Name = "PilotLight128"
         Me.PilotLight128.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -3974,7 +3974,7 @@ Partial Class DSM5_Controls
         Me.PilotLight109.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight109.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight109.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight109.Location = New System.Drawing.Point(383, 245)
+        Me.PilotLight109.Location = New System.Drawing.Point(348, 231)
         Me.PilotLight109.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight109.Name = "PilotLight109"
         Me.PilotLight109.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.Toggle
@@ -4027,7 +4027,7 @@ Partial Class DSM5_Controls
         Me.PilotLight110.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight110.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight110.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight110.Location = New System.Drawing.Point(314, 245)
+        Me.PilotLight110.Location = New System.Drawing.Point(279, 231)
         Me.PilotLight110.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight110.Name = "PilotLight110"
         Me.PilotLight110.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -4052,7 +4052,7 @@ Partial Class DSM5_Controls
         Me.PilotLight111.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight111.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight111.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight111.Location = New System.Drawing.Point(246, 245)
+        Me.PilotLight111.Location = New System.Drawing.Point(211, 231)
         Me.PilotLight111.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight111.Name = "PilotLight111"
         Me.PilotLight111.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -4077,7 +4077,7 @@ Partial Class DSM5_Controls
         Me.PilotLight112.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight112.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight112.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight112.Location = New System.Drawing.Point(178, 245)
+        Me.PilotLight112.Location = New System.Drawing.Point(143, 231)
         Me.PilotLight112.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight112.Name = "PilotLight112"
         Me.PilotLight112.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -4130,7 +4130,7 @@ Partial Class DSM5_Controls
         Me.PilotLight113.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight113.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight113.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight113.Location = New System.Drawing.Point(110, 245)
+        Me.PilotLight113.Location = New System.Drawing.Point(75, 231)
         Me.PilotLight113.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight113.Name = "PilotLight113"
         Me.PilotLight113.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -4156,7 +4156,7 @@ Partial Class DSM5_Controls
         Me.PilotLight114.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight114.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight114.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight114.Location = New System.Drawing.Point(42, 245)
+        Me.PilotLight114.Location = New System.Drawing.Point(7, 231)
         Me.PilotLight114.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight114.Name = "PilotLight114"
         Me.PilotLight114.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -4181,7 +4181,7 @@ Partial Class DSM5_Controls
         Me.PilotLight115.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight115.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight115.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight115.Location = New System.Drawing.Point(758, 926)
+        Me.PilotLight115.Location = New System.Drawing.Point(723, 912)
         Me.PilotLight115.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight115.Name = "PilotLight115"
         Me.PilotLight115.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.Toggle
@@ -4220,7 +4220,7 @@ Partial Class DSM5_Controls
         Me.PilotLight116.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight116.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight116.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight116.Location = New System.Drawing.Point(689, 926)
+        Me.PilotLight116.Location = New System.Drawing.Point(654, 912)
         Me.PilotLight116.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight116.Name = "PilotLight116"
         Me.PilotLight116.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -4245,7 +4245,7 @@ Partial Class DSM5_Controls
         Me.PilotLight117.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight117.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight117.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight117.Location = New System.Drawing.Point(621, 926)
+        Me.PilotLight117.Location = New System.Drawing.Point(586, 912)
         Me.PilotLight117.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight117.Name = "PilotLight117"
         Me.PilotLight117.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -4270,7 +4270,7 @@ Partial Class DSM5_Controls
         Me.PilotLight118.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight118.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight118.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight118.Location = New System.Drawing.Point(553, 926)
+        Me.PilotLight118.Location = New System.Drawing.Point(518, 912)
         Me.PilotLight118.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight118.Name = "PilotLight118"
         Me.PilotLight118.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -4295,7 +4295,7 @@ Partial Class DSM5_Controls
         Me.PilotLight119.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight119.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight119.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight119.Location = New System.Drawing.Point(485, 926)
+        Me.PilotLight119.Location = New System.Drawing.Point(450, 912)
         Me.PilotLight119.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight119.Name = "PilotLight119"
         Me.PilotLight119.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -4321,7 +4321,7 @@ Partial Class DSM5_Controls
         Me.PilotLight120.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight120.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight120.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight120.Location = New System.Drawing.Point(417, 926)
+        Me.PilotLight120.Location = New System.Drawing.Point(382, 912)
         Me.PilotLight120.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight120.Name = "PilotLight120"
         Me.PilotLight120.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -4346,7 +4346,7 @@ Partial Class DSM5_Controls
         Me.PilotLight103.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight103.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight103.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight103.Location = New System.Drawing.Point(758, 813)
+        Me.PilotLight103.Location = New System.Drawing.Point(723, 799)
         Me.PilotLight103.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight103.Name = "PilotLight103"
         Me.PilotLight103.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.Toggle
@@ -4385,7 +4385,7 @@ Partial Class DSM5_Controls
         Me.PilotLight104.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight104.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight104.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight104.Location = New System.Drawing.Point(689, 813)
+        Me.PilotLight104.Location = New System.Drawing.Point(654, 799)
         Me.PilotLight104.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight104.Name = "PilotLight104"
         Me.PilotLight104.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -4410,7 +4410,7 @@ Partial Class DSM5_Controls
         Me.PilotLight105.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight105.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight105.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight105.Location = New System.Drawing.Point(621, 813)
+        Me.PilotLight105.Location = New System.Drawing.Point(586, 799)
         Me.PilotLight105.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight105.Name = "PilotLight105"
         Me.PilotLight105.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -4435,7 +4435,7 @@ Partial Class DSM5_Controls
         Me.PilotLight106.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight106.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight106.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight106.Location = New System.Drawing.Point(553, 813)
+        Me.PilotLight106.Location = New System.Drawing.Point(518, 799)
         Me.PilotLight106.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight106.Name = "PilotLight106"
         Me.PilotLight106.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -4460,7 +4460,7 @@ Partial Class DSM5_Controls
         Me.PilotLight107.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight107.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight107.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight107.Location = New System.Drawing.Point(485, 813)
+        Me.PilotLight107.Location = New System.Drawing.Point(450, 799)
         Me.PilotLight107.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight107.Name = "PilotLight107"
         Me.PilotLight107.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -4486,7 +4486,7 @@ Partial Class DSM5_Controls
         Me.PilotLight108.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight108.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight108.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight108.Location = New System.Drawing.Point(417, 813)
+        Me.PilotLight108.Location = New System.Drawing.Point(382, 799)
         Me.PilotLight108.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight108.Name = "PilotLight108"
         Me.PilotLight108.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -4511,7 +4511,7 @@ Partial Class DSM5_Controls
         Me.PilotLight97.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight97.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight97.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight97.Location = New System.Drawing.Point(1883, 699)
+        Me.PilotLight97.Location = New System.Drawing.Point(1848, 685)
         Me.PilotLight97.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight97.Name = "PilotLight97"
         Me.PilotLight97.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.Toggle
@@ -4550,7 +4550,7 @@ Partial Class DSM5_Controls
         Me.PilotLight98.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight98.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight98.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight98.Location = New System.Drawing.Point(1814, 699)
+        Me.PilotLight98.Location = New System.Drawing.Point(1779, 685)
         Me.PilotLight98.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight98.Name = "PilotLight98"
         Me.PilotLight98.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -4589,7 +4589,7 @@ Partial Class DSM5_Controls
         Me.PilotLight99.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight99.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight99.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight99.Location = New System.Drawing.Point(1746, 699)
+        Me.PilotLight99.Location = New System.Drawing.Point(1711, 685)
         Me.PilotLight99.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight99.Name = "PilotLight99"
         Me.PilotLight99.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -4614,7 +4614,7 @@ Partial Class DSM5_Controls
         Me.PilotLight100.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight100.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight100.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight100.Location = New System.Drawing.Point(1678, 699)
+        Me.PilotLight100.Location = New System.Drawing.Point(1643, 685)
         Me.PilotLight100.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight100.Name = "PilotLight100"
         Me.PilotLight100.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -4639,7 +4639,7 @@ Partial Class DSM5_Controls
         Me.PilotLight101.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight101.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight101.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight101.Location = New System.Drawing.Point(1610, 699)
+        Me.PilotLight101.Location = New System.Drawing.Point(1575, 685)
         Me.PilotLight101.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight101.Name = "PilotLight101"
         Me.PilotLight101.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -4665,7 +4665,7 @@ Partial Class DSM5_Controls
         Me.PilotLight102.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight102.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight102.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight102.Location = New System.Drawing.Point(1542, 699)
+        Me.PilotLight102.Location = New System.Drawing.Point(1507, 685)
         Me.PilotLight102.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight102.Name = "PilotLight102"
         Me.PilotLight102.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -4690,7 +4690,7 @@ Partial Class DSM5_Controls
         Me.PilotLight91.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight91.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight91.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight91.Location = New System.Drawing.Point(1505, 699)
+        Me.PilotLight91.Location = New System.Drawing.Point(1470, 685)
         Me.PilotLight91.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight91.Name = "PilotLight91"
         Me.PilotLight91.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.Toggle
@@ -4715,7 +4715,7 @@ Partial Class DSM5_Controls
         Me.PilotLight92.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight92.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight92.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight92.Location = New System.Drawing.Point(1438, 699)
+        Me.PilotLight92.Location = New System.Drawing.Point(1403, 685)
         Me.PilotLight92.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight92.Name = "PilotLight92"
         Me.PilotLight92.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -4740,7 +4740,7 @@ Partial Class DSM5_Controls
         Me.PilotLight93.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight93.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight93.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight93.Location = New System.Drawing.Point(1370, 699)
+        Me.PilotLight93.Location = New System.Drawing.Point(1335, 685)
         Me.PilotLight93.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight93.Name = "PilotLight93"
         Me.PilotLight93.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -4765,7 +4765,7 @@ Partial Class DSM5_Controls
         Me.PilotLight85.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight85.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight85.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight85.Location = New System.Drawing.Point(1132, 699)
+        Me.PilotLight85.Location = New System.Drawing.Point(1097, 685)
         Me.PilotLight85.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight85.Name = "PilotLight85"
         Me.PilotLight85.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.Toggle
@@ -4804,7 +4804,7 @@ Partial Class DSM5_Controls
         Me.PilotLight86.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight86.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight86.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight86.Location = New System.Drawing.Point(1065, 699)
+        Me.PilotLight86.Location = New System.Drawing.Point(1030, 685)
         Me.PilotLight86.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight86.Name = "PilotLight86"
         Me.PilotLight86.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -4829,7 +4829,7 @@ Partial Class DSM5_Controls
         Me.PilotLight94.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight94.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight94.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight94.Location = New System.Drawing.Point(1302, 699)
+        Me.PilotLight94.Location = New System.Drawing.Point(1267, 685)
         Me.PilotLight94.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight94.Name = "PilotLight94"
         Me.PilotLight94.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -4854,7 +4854,7 @@ Partial Class DSM5_Controls
         Me.PilotLight95.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight95.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight95.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight95.Location = New System.Drawing.Point(1234, 699)
+        Me.PilotLight95.Location = New System.Drawing.Point(1199, 685)
         Me.PilotLight95.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight95.Name = "PilotLight95"
         Me.PilotLight95.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -4880,7 +4880,7 @@ Partial Class DSM5_Controls
         Me.PilotLight96.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight96.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight96.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight96.Location = New System.Drawing.Point(1166, 699)
+        Me.PilotLight96.Location = New System.Drawing.Point(1131, 685)
         Me.PilotLight96.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight96.Name = "PilotLight96"
         Me.PilotLight96.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -4905,7 +4905,7 @@ Partial Class DSM5_Controls
         Me.PilotLight87.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight87.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight87.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight87.Location = New System.Drawing.Point(997, 699)
+        Me.PilotLight87.Location = New System.Drawing.Point(962, 685)
         Me.PilotLight87.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight87.Name = "PilotLight87"
         Me.PilotLight87.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -4930,7 +4930,7 @@ Partial Class DSM5_Controls
         Me.PilotLight88.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight88.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight88.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight88.Location = New System.Drawing.Point(929, 699)
+        Me.PilotLight88.Location = New System.Drawing.Point(894, 685)
         Me.PilotLight88.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight88.Name = "PilotLight88"
         Me.PilotLight88.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -4955,7 +4955,7 @@ Partial Class DSM5_Controls
         Me.PilotLight89.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight89.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight89.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight89.Location = New System.Drawing.Point(861, 699)
+        Me.PilotLight89.Location = New System.Drawing.Point(826, 685)
         Me.PilotLight89.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight89.Name = "PilotLight89"
         Me.PilotLight89.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -4981,7 +4981,7 @@ Partial Class DSM5_Controls
         Me.PilotLight90.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight90.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight90.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight90.Location = New System.Drawing.Point(793, 699)
+        Me.PilotLight90.Location = New System.Drawing.Point(758, 685)
         Me.PilotLight90.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight90.Name = "PilotLight90"
         Me.PilotLight90.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -5006,7 +5006,7 @@ Partial Class DSM5_Controls
         Me.PilotLight79.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight79.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight79.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight79.Location = New System.Drawing.Point(758, 699)
+        Me.PilotLight79.Location = New System.Drawing.Point(723, 685)
         Me.PilotLight79.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight79.Name = "PilotLight79"
         Me.PilotLight79.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.Toggle
@@ -5045,7 +5045,7 @@ Partial Class DSM5_Controls
         Me.PilotLight80.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight80.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight80.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight80.Location = New System.Drawing.Point(689, 699)
+        Me.PilotLight80.Location = New System.Drawing.Point(654, 685)
         Me.PilotLight80.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight80.Name = "PilotLight80"
         Me.PilotLight80.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -5070,7 +5070,7 @@ Partial Class DSM5_Controls
         Me.PilotLight81.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight81.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight81.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight81.Location = New System.Drawing.Point(621, 699)
+        Me.PilotLight81.Location = New System.Drawing.Point(586, 685)
         Me.PilotLight81.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight81.Name = "PilotLight81"
         Me.PilotLight81.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -5095,7 +5095,7 @@ Partial Class DSM5_Controls
         Me.PilotLight82.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight82.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight82.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight82.Location = New System.Drawing.Point(553, 699)
+        Me.PilotLight82.Location = New System.Drawing.Point(518, 685)
         Me.PilotLight82.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight82.Name = "PilotLight82"
         Me.PilotLight82.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -5120,7 +5120,7 @@ Partial Class DSM5_Controls
         Me.PilotLight83.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight83.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight83.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight83.Location = New System.Drawing.Point(485, 699)
+        Me.PilotLight83.Location = New System.Drawing.Point(450, 685)
         Me.PilotLight83.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight83.Name = "PilotLight83"
         Me.PilotLight83.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -5146,7 +5146,7 @@ Partial Class DSM5_Controls
         Me.PilotLight84.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight84.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight84.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight84.Location = New System.Drawing.Point(417, 699)
+        Me.PilotLight84.Location = New System.Drawing.Point(382, 685)
         Me.PilotLight84.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight84.Name = "PilotLight84"
         Me.PilotLight84.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -5171,7 +5171,7 @@ Partial Class DSM5_Controls
         Me.PilotLight73.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight73.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight73.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight73.Location = New System.Drawing.Point(383, 699)
+        Me.PilotLight73.Location = New System.Drawing.Point(348, 685)
         Me.PilotLight73.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight73.Name = "PilotLight73"
         Me.PilotLight73.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.Toggle
@@ -5210,7 +5210,7 @@ Partial Class DSM5_Controls
         Me.PilotLight74.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight74.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight74.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight74.Location = New System.Drawing.Point(314, 699)
+        Me.PilotLight74.Location = New System.Drawing.Point(279, 685)
         Me.PilotLight74.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight74.Name = "PilotLight74"
         Me.PilotLight74.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -5235,7 +5235,7 @@ Partial Class DSM5_Controls
         Me.PilotLight75.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight75.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight75.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight75.Location = New System.Drawing.Point(246, 699)
+        Me.PilotLight75.Location = New System.Drawing.Point(211, 685)
         Me.PilotLight75.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight75.Name = "PilotLight75"
         Me.PilotLight75.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -5260,7 +5260,7 @@ Partial Class DSM5_Controls
         Me.PilotLight76.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight76.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight76.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight76.Location = New System.Drawing.Point(178, 699)
+        Me.PilotLight76.Location = New System.Drawing.Point(143, 685)
         Me.PilotLight76.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight76.Name = "PilotLight76"
         Me.PilotLight76.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -5285,7 +5285,7 @@ Partial Class DSM5_Controls
         Me.PilotLight77.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight77.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight77.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight77.Location = New System.Drawing.Point(110, 699)
+        Me.PilotLight77.Location = New System.Drawing.Point(75, 685)
         Me.PilotLight77.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight77.Name = "PilotLight77"
         Me.PilotLight77.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -5311,7 +5311,7 @@ Partial Class DSM5_Controls
         Me.PilotLight78.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight78.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight78.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight78.Location = New System.Drawing.Point(42, 699)
+        Me.PilotLight78.Location = New System.Drawing.Point(7, 685)
         Me.PilotLight78.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight78.Name = "PilotLight78"
         Me.PilotLight78.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -5336,7 +5336,7 @@ Partial Class DSM5_Controls
         Me.PilotLight67.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight67.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight67.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight67.Location = New System.Drawing.Point(1883, 586)
+        Me.PilotLight67.Location = New System.Drawing.Point(1848, 572)
         Me.PilotLight67.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight67.Name = "PilotLight67"
         Me.PilotLight67.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.Toggle
@@ -5375,7 +5375,7 @@ Partial Class DSM5_Controls
         Me.PilotLight68.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight68.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight68.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight68.Location = New System.Drawing.Point(1814, 586)
+        Me.PilotLight68.Location = New System.Drawing.Point(1779, 572)
         Me.PilotLight68.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight68.Name = "PilotLight68"
         Me.PilotLight68.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -5400,7 +5400,7 @@ Partial Class DSM5_Controls
         Me.PilotLight69.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight69.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight69.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight69.Location = New System.Drawing.Point(1746, 586)
+        Me.PilotLight69.Location = New System.Drawing.Point(1711, 572)
         Me.PilotLight69.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight69.Name = "PilotLight69"
         Me.PilotLight69.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -5425,7 +5425,7 @@ Partial Class DSM5_Controls
         Me.PilotLight70.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight70.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight70.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight70.Location = New System.Drawing.Point(1678, 586)
+        Me.PilotLight70.Location = New System.Drawing.Point(1643, 572)
         Me.PilotLight70.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight70.Name = "PilotLight70"
         Me.PilotLight70.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -5450,7 +5450,7 @@ Partial Class DSM5_Controls
         Me.PilotLight71.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight71.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight71.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight71.Location = New System.Drawing.Point(1610, 586)
+        Me.PilotLight71.Location = New System.Drawing.Point(1575, 572)
         Me.PilotLight71.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight71.Name = "PilotLight71"
         Me.PilotLight71.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -5476,7 +5476,7 @@ Partial Class DSM5_Controls
         Me.PilotLight72.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight72.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight72.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight72.Location = New System.Drawing.Point(1542, 586)
+        Me.PilotLight72.Location = New System.Drawing.Point(1507, 572)
         Me.PilotLight72.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight72.Name = "PilotLight72"
         Me.PilotLight72.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -5501,7 +5501,7 @@ Partial Class DSM5_Controls
         Me.PilotLight61.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight61.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight61.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight61.Location = New System.Drawing.Point(759, 132)
+        Me.PilotLight61.Location = New System.Drawing.Point(724, 118)
         Me.PilotLight61.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight61.Name = "PilotLight61"
         Me.PilotLight61.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.Toggle
@@ -5526,7 +5526,7 @@ Partial Class DSM5_Controls
         Me.PilotLight62.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight62.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight62.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight62.Location = New System.Drawing.Point(689, 132)
+        Me.PilotLight62.Location = New System.Drawing.Point(654, 118)
         Me.PilotLight62.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight62.Name = "PilotLight62"
         Me.PilotLight62.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -5551,7 +5551,7 @@ Partial Class DSM5_Controls
         Me.PilotLight63.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight63.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight63.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight63.Location = New System.Drawing.Point(621, 132)
+        Me.PilotLight63.Location = New System.Drawing.Point(586, 118)
         Me.PilotLight63.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight63.Name = "PilotLight63"
         Me.PilotLight63.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -5576,7 +5576,7 @@ Partial Class DSM5_Controls
         Me.PilotLight64.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight64.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight64.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight64.Location = New System.Drawing.Point(553, 132)
+        Me.PilotLight64.Location = New System.Drawing.Point(518, 118)
         Me.PilotLight64.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight64.Name = "PilotLight64"
         Me.PilotLight64.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -5601,7 +5601,7 @@ Partial Class DSM5_Controls
         Me.PilotLight65.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight65.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight65.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight65.Location = New System.Drawing.Point(485, 132)
+        Me.PilotLight65.Location = New System.Drawing.Point(450, 118)
         Me.PilotLight65.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight65.Name = "PilotLight65"
         Me.PilotLight65.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -5627,7 +5627,7 @@ Partial Class DSM5_Controls
         Me.PilotLight66.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight66.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight66.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight66.Location = New System.Drawing.Point(417, 132)
+        Me.PilotLight66.Location = New System.Drawing.Point(382, 118)
         Me.PilotLight66.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight66.Name = "PilotLight66"
         Me.PilotLight66.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -5652,7 +5652,7 @@ Partial Class DSM5_Controls
         Me.PilotLight55.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight55.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight55.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight55.Location = New System.Drawing.Point(383, 132)
+        Me.PilotLight55.Location = New System.Drawing.Point(348, 118)
         Me.PilotLight55.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight55.Name = "PilotLight55"
         Me.PilotLight55.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.Toggle
@@ -5677,7 +5677,7 @@ Partial Class DSM5_Controls
         Me.PilotLight56.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight56.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight56.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight56.Location = New System.Drawing.Point(314, 132)
+        Me.PilotLight56.Location = New System.Drawing.Point(279, 118)
         Me.PilotLight56.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight56.Name = "PilotLight56"
         Me.PilotLight56.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -5702,7 +5702,7 @@ Partial Class DSM5_Controls
         Me.PilotLight57.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight57.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight57.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight57.Location = New System.Drawing.Point(246, 132)
+        Me.PilotLight57.Location = New System.Drawing.Point(211, 118)
         Me.PilotLight57.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight57.Name = "PilotLight57"
         Me.PilotLight57.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -5727,7 +5727,7 @@ Partial Class DSM5_Controls
         Me.PilotLight58.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight58.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight58.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight58.Location = New System.Drawing.Point(178, 132)
+        Me.PilotLight58.Location = New System.Drawing.Point(143, 118)
         Me.PilotLight58.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight58.Name = "PilotLight58"
         Me.PilotLight58.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -5752,7 +5752,7 @@ Partial Class DSM5_Controls
         Me.PilotLight59.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight59.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight59.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight59.Location = New System.Drawing.Point(110, 132)
+        Me.PilotLight59.Location = New System.Drawing.Point(75, 118)
         Me.PilotLight59.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight59.Name = "PilotLight59"
         Me.PilotLight59.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -5778,7 +5778,7 @@ Partial Class DSM5_Controls
         Me.PilotLight60.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight60.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight60.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight60.Location = New System.Drawing.Point(42, 132)
+        Me.PilotLight60.Location = New System.Drawing.Point(7, 118)
         Me.PilotLight60.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight60.Name = "PilotLight60"
         Me.PilotLight60.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -5803,7 +5803,7 @@ Partial Class DSM5_Controls
         Me.PilotLight49.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight49.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight49.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight49.Location = New System.Drawing.Point(1262, -49)
+        Me.PilotLight49.Location = New System.Drawing.Point(1227, -63)
         Me.PilotLight49.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight49.Name = "PilotLight49"
         Me.PilotLight49.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.Toggle
@@ -5828,7 +5828,7 @@ Partial Class DSM5_Controls
         Me.PilotLight50.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight50.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight50.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight50.Location = New System.Drawing.Point(1814, 21)
+        Me.PilotLight50.Location = New System.Drawing.Point(1779, 7)
         Me.PilotLight50.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight50.Name = "PilotLight50"
         Me.PilotLight50.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -5853,7 +5853,7 @@ Partial Class DSM5_Controls
         Me.PilotLight51.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight51.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight51.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight51.Location = New System.Drawing.Point(1746, 21)
+        Me.PilotLight51.Location = New System.Drawing.Point(1711, 7)
         Me.PilotLight51.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight51.Name = "PilotLight51"
         Me.PilotLight51.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -5878,7 +5878,7 @@ Partial Class DSM5_Controls
         Me.PilotLight52.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight52.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight52.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight52.Location = New System.Drawing.Point(1678, 21)
+        Me.PilotLight52.Location = New System.Drawing.Point(1643, 7)
         Me.PilotLight52.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight52.Name = "PilotLight52"
         Me.PilotLight52.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -5903,7 +5903,7 @@ Partial Class DSM5_Controls
         Me.PilotLight53.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight53.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight53.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight53.Location = New System.Drawing.Point(1610, 21)
+        Me.PilotLight53.Location = New System.Drawing.Point(1575, 7)
         Me.PilotLight53.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight53.Name = "PilotLight53"
         Me.PilotLight53.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -5929,7 +5929,7 @@ Partial Class DSM5_Controls
         Me.PilotLight54.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight54.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight54.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight54.Location = New System.Drawing.Point(1542, 21)
+        Me.PilotLight54.Location = New System.Drawing.Point(1507, 7)
         Me.PilotLight54.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight54.Name = "PilotLight54"
         Me.PilotLight54.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -5954,7 +5954,7 @@ Partial Class DSM5_Controls
         Me.PilotLight43.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight43.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight43.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight43.Location = New System.Drawing.Point(1132, 132)
+        Me.PilotLight43.Location = New System.Drawing.Point(1097, 118)
         Me.PilotLight43.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight43.Name = "PilotLight43"
         Me.PilotLight43.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.Toggle
@@ -5979,7 +5979,7 @@ Partial Class DSM5_Controls
         Me.PilotLight44.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight44.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight44.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight44.Location = New System.Drawing.Point(1065, 132)
+        Me.PilotLight44.Location = New System.Drawing.Point(1030, 118)
         Me.PilotLight44.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight44.Name = "PilotLight44"
         Me.PilotLight44.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -6004,7 +6004,7 @@ Partial Class DSM5_Controls
         Me.PilotLight45.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight45.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight45.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight45.Location = New System.Drawing.Point(997, 132)
+        Me.PilotLight45.Location = New System.Drawing.Point(962, 118)
         Me.PilotLight45.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight45.Name = "PilotLight45"
         Me.PilotLight45.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -6029,7 +6029,7 @@ Partial Class DSM5_Controls
         Me.PilotLight46.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight46.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight46.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight46.Location = New System.Drawing.Point(929, 132)
+        Me.PilotLight46.Location = New System.Drawing.Point(894, 118)
         Me.PilotLight46.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight46.Name = "PilotLight46"
         Me.PilotLight46.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -6054,7 +6054,7 @@ Partial Class DSM5_Controls
         Me.PilotLight47.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight47.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight47.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight47.Location = New System.Drawing.Point(861, 132)
+        Me.PilotLight47.Location = New System.Drawing.Point(826, 118)
         Me.PilotLight47.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight47.Name = "PilotLight47"
         Me.PilotLight47.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -6080,7 +6080,7 @@ Partial Class DSM5_Controls
         Me.PilotLight48.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight48.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight48.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight48.Location = New System.Drawing.Point(793, 132)
+        Me.PilotLight48.Location = New System.Drawing.Point(758, 118)
         Me.PilotLight48.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight48.Name = "PilotLight48"
         Me.PilotLight48.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -6105,7 +6105,7 @@ Partial Class DSM5_Controls
         Me.PilotLight37.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight37.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight37.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight37.Location = New System.Drawing.Point(992, -51)
+        Me.PilotLight37.Location = New System.Drawing.Point(957, -65)
         Me.PilotLight37.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight37.Name = "PilotLight37"
         Me.PilotLight37.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.Toggle
@@ -6130,7 +6130,7 @@ Partial Class DSM5_Controls
         Me.PilotLight38.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight38.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight38.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight38.Location = New System.Drawing.Point(1438, 21)
+        Me.PilotLight38.Location = New System.Drawing.Point(1403, 7)
         Me.PilotLight38.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight38.Name = "PilotLight38"
         Me.PilotLight38.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -6155,7 +6155,7 @@ Partial Class DSM5_Controls
         Me.PilotLight39.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight39.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight39.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight39.Location = New System.Drawing.Point(1370, 21)
+        Me.PilotLight39.Location = New System.Drawing.Point(1335, 7)
         Me.PilotLight39.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight39.Name = "PilotLight39"
         Me.PilotLight39.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -6180,7 +6180,7 @@ Partial Class DSM5_Controls
         Me.PilotLight40.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight40.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight40.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight40.Location = New System.Drawing.Point(1302, 21)
+        Me.PilotLight40.Location = New System.Drawing.Point(1267, 7)
         Me.PilotLight40.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight40.Name = "PilotLight40"
         Me.PilotLight40.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -6205,7 +6205,7 @@ Partial Class DSM5_Controls
         Me.PilotLight41.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight41.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight41.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight41.Location = New System.Drawing.Point(1234, 21)
+        Me.PilotLight41.Location = New System.Drawing.Point(1199, 7)
         Me.PilotLight41.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight41.Name = "PilotLight41"
         Me.PilotLight41.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -6231,7 +6231,7 @@ Partial Class DSM5_Controls
         Me.PilotLight42.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight42.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight42.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight42.Location = New System.Drawing.Point(1166, 21)
+        Me.PilotLight42.Location = New System.Drawing.Point(1131, 7)
         Me.PilotLight42.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight42.Name = "PilotLight42"
         Me.PilotLight42.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -6256,7 +6256,7 @@ Partial Class DSM5_Controls
         Me.PilotLight31.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight31.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight31.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight31.Location = New System.Drawing.Point(730, -51)
+        Me.PilotLight31.Location = New System.Drawing.Point(695, -65)
         Me.PilotLight31.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight31.Name = "PilotLight31"
         Me.PilotLight31.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.Toggle
@@ -6281,7 +6281,7 @@ Partial Class DSM5_Controls
         Me.PilotLight32.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight32.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight32.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight32.Location = New System.Drawing.Point(1065, 21)
+        Me.PilotLight32.Location = New System.Drawing.Point(1030, 7)
         Me.PilotLight32.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight32.Name = "PilotLight32"
         Me.PilotLight32.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -6306,7 +6306,7 @@ Partial Class DSM5_Controls
         Me.PilotLight33.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight33.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight33.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight33.Location = New System.Drawing.Point(997, 21)
+        Me.PilotLight33.Location = New System.Drawing.Point(962, 7)
         Me.PilotLight33.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight33.Name = "PilotLight33"
         Me.PilotLight33.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -6331,7 +6331,7 @@ Partial Class DSM5_Controls
         Me.PilotLight34.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight34.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight34.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight34.Location = New System.Drawing.Point(929, 21)
+        Me.PilotLight34.Location = New System.Drawing.Point(894, 7)
         Me.PilotLight34.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight34.Name = "PilotLight34"
         Me.PilotLight34.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -6356,7 +6356,7 @@ Partial Class DSM5_Controls
         Me.PilotLight35.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight35.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight35.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight35.Location = New System.Drawing.Point(861, 21)
+        Me.PilotLight35.Location = New System.Drawing.Point(826, 7)
         Me.PilotLight35.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight35.Name = "PilotLight35"
         Me.PilotLight35.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -6382,7 +6382,7 @@ Partial Class DSM5_Controls
         Me.PilotLight36.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight36.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight36.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight36.Location = New System.Drawing.Point(793, 21)
+        Me.PilotLight36.Location = New System.Drawing.Point(758, 7)
         Me.PilotLight36.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight36.Name = "PilotLight36"
         Me.PilotLight36.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -6407,7 +6407,7 @@ Partial Class DSM5_Controls
         Me.PilotLight30.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight30.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight30.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight30.Location = New System.Drawing.Point(476, -51)
+        Me.PilotLight30.Location = New System.Drawing.Point(441, -65)
         Me.PilotLight30.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight30.Name = "PilotLight30"
         Me.PilotLight30.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.Toggle
@@ -6432,7 +6432,7 @@ Partial Class DSM5_Controls
         Me.PilotLight29.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight29.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight29.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight29.Location = New System.Drawing.Point(689, 21)
+        Me.PilotLight29.Location = New System.Drawing.Point(654, 7)
         Me.PilotLight29.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight29.Name = "PilotLight29"
         Me.PilotLight29.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -6457,7 +6457,7 @@ Partial Class DSM5_Controls
         Me.PilotLight28.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight28.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight28.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight28.Location = New System.Drawing.Point(621, 21)
+        Me.PilotLight28.Location = New System.Drawing.Point(586, 7)
         Me.PilotLight28.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight28.Name = "PilotLight28"
         Me.PilotLight28.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -6482,7 +6482,7 @@ Partial Class DSM5_Controls
         Me.PilotLight27.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight27.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight27.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight27.Location = New System.Drawing.Point(553, 21)
+        Me.PilotLight27.Location = New System.Drawing.Point(518, 7)
         Me.PilotLight27.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight27.Name = "PilotLight27"
         Me.PilotLight27.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -6507,7 +6507,7 @@ Partial Class DSM5_Controls
         Me.PilotLight26.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight26.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight26.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight26.Location = New System.Drawing.Point(485, 21)
+        Me.PilotLight26.Location = New System.Drawing.Point(450, 7)
         Me.PilotLight26.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight26.Name = "PilotLight26"
         Me.PilotLight26.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -6533,7 +6533,7 @@ Partial Class DSM5_Controls
         Me.PilotLight25.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight25.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight25.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight25.Location = New System.Drawing.Point(417, 21)
+        Me.PilotLight25.Location = New System.Drawing.Point(382, 7)
         Me.PilotLight25.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight25.Name = "PilotLight25"
         Me.PilotLight25.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -6558,7 +6558,7 @@ Partial Class DSM5_Controls
         Me.PilotLight24.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight24.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight24.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight24.Location = New System.Drawing.Point(218, -51)
+        Me.PilotLight24.Location = New System.Drawing.Point(183, -65)
         Me.PilotLight24.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight24.Name = "PilotLight24"
         Me.PilotLight24.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.Toggle
@@ -6583,7 +6583,7 @@ Partial Class DSM5_Controls
         Me.PilotLight23.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight23.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight23.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight23.Location = New System.Drawing.Point(314, 21)
+        Me.PilotLight23.Location = New System.Drawing.Point(279, 7)
         Me.PilotLight23.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight23.Name = "PilotLight23"
         Me.PilotLight23.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -6608,7 +6608,7 @@ Partial Class DSM5_Controls
         Me.PilotLight22.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight22.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight22.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight22.Location = New System.Drawing.Point(246, 21)
+        Me.PilotLight22.Location = New System.Drawing.Point(211, 7)
         Me.PilotLight22.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight22.Name = "PilotLight22"
         Me.PilotLight22.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -6633,7 +6633,7 @@ Partial Class DSM5_Controls
         Me.PilotLight21.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight21.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight21.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight21.Location = New System.Drawing.Point(178, 21)
+        Me.PilotLight21.Location = New System.Drawing.Point(143, 7)
         Me.PilotLight21.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight21.Name = "PilotLight21"
         Me.PilotLight21.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -6658,7 +6658,7 @@ Partial Class DSM5_Controls
         Me.PilotLight20.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight20.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight20.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight20.Location = New System.Drawing.Point(110, 21)
+        Me.PilotLight20.Location = New System.Drawing.Point(75, 7)
         Me.PilotLight20.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight20.Name = "PilotLight20"
         Me.PilotLight20.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -6684,7 +6684,7 @@ Partial Class DSM5_Controls
         Me.PilotLight19.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight19.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight19.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight19.Location = New System.Drawing.Point(42, 21)
+        Me.PilotLight19.Location = New System.Drawing.Point(7, 7)
         Me.PilotLight19.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight19.Name = "PilotLight19"
         Me.PilotLight19.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -6709,7 +6709,7 @@ Partial Class DSM5_Controls
         Me.PilotLight18.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight18.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight18.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight18.Location = New System.Drawing.Point(1505, 360)
+        Me.PilotLight18.Location = New System.Drawing.Point(1470, 346)
         Me.PilotLight18.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight18.Name = "PilotLight18"
         Me.PilotLight18.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.Toggle
@@ -6734,7 +6734,7 @@ Partial Class DSM5_Controls
         Me.PilotLight17.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight17.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight17.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight17.Location = New System.Drawing.Point(1438, 360)
+        Me.PilotLight17.Location = New System.Drawing.Point(1403, 346)
         Me.PilotLight17.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight17.Name = "PilotLight17"
         Me.PilotLight17.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -6759,7 +6759,7 @@ Partial Class DSM5_Controls
         Me.PilotLight16.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight16.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight16.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight16.Location = New System.Drawing.Point(1370, 360)
+        Me.PilotLight16.Location = New System.Drawing.Point(1335, 346)
         Me.PilotLight16.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight16.Name = "PilotLight16"
         Me.PilotLight16.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -6784,7 +6784,7 @@ Partial Class DSM5_Controls
         Me.PilotLight15.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight15.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight15.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight15.Location = New System.Drawing.Point(1302, 360)
+        Me.PilotLight15.Location = New System.Drawing.Point(1267, 346)
         Me.PilotLight15.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight15.Name = "PilotLight15"
         Me.PilotLight15.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -6809,7 +6809,7 @@ Partial Class DSM5_Controls
         Me.PilotLight14.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight14.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight14.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight14.Location = New System.Drawing.Point(1234, 360)
+        Me.PilotLight14.Location = New System.Drawing.Point(1199, 346)
         Me.PilotLight14.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight14.Name = "PilotLight14"
         Me.PilotLight14.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -6835,7 +6835,7 @@ Partial Class DSM5_Controls
         Me.PilotLight13.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight13.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight13.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight13.Location = New System.Drawing.Point(1166, 360)
+        Me.PilotLight13.Location = New System.Drawing.Point(1131, 346)
         Me.PilotLight13.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight13.Name = "PilotLight13"
         Me.PilotLight13.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -6860,7 +6860,7 @@ Partial Class DSM5_Controls
         Me.PilotLight12.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight12.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight12.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight12.Location = New System.Drawing.Point(1884, 360)
+        Me.PilotLight12.Location = New System.Drawing.Point(1849, 346)
         Me.PilotLight12.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight12.Name = "PilotLight12"
         Me.PilotLight12.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.Toggle
@@ -6885,7 +6885,7 @@ Partial Class DSM5_Controls
         Me.PilotLight11.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight11.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight11.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight11.Location = New System.Drawing.Point(1814, 360)
+        Me.PilotLight11.Location = New System.Drawing.Point(1779, 346)
         Me.PilotLight11.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight11.Name = "PilotLight11"
         Me.PilotLight11.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -6910,7 +6910,7 @@ Partial Class DSM5_Controls
         Me.PilotLight10.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight10.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight10.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight10.Location = New System.Drawing.Point(1746, 360)
+        Me.PilotLight10.Location = New System.Drawing.Point(1711, 346)
         Me.PilotLight10.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight10.Name = "PilotLight10"
         Me.PilotLight10.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -6935,7 +6935,7 @@ Partial Class DSM5_Controls
         Me.PilotLight9.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight9.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight9.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight9.Location = New System.Drawing.Point(1678, 360)
+        Me.PilotLight9.Location = New System.Drawing.Point(1643, 346)
         Me.PilotLight9.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight9.Name = "PilotLight9"
         Me.PilotLight9.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -6960,7 +6960,7 @@ Partial Class DSM5_Controls
         Me.PilotLight8.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight8.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight8.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight8.Location = New System.Drawing.Point(1610, 360)
+        Me.PilotLight8.Location = New System.Drawing.Point(1575, 346)
         Me.PilotLight8.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight8.Name = "PilotLight8"
         Me.PilotLight8.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -6986,7 +6986,7 @@ Partial Class DSM5_Controls
         Me.PilotLight6.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight6.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight6.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight6.Location = New System.Drawing.Point(1542, 360)
+        Me.PilotLight6.Location = New System.Drawing.Point(1507, 346)
         Me.PilotLight6.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight6.Name = "PilotLight6"
         Me.PilotLight6.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -7011,7 +7011,7 @@ Partial Class DSM5_Controls
         Me.PilotLight7.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight7.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight7.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight7.Location = New System.Drawing.Point(1508, 132)
+        Me.PilotLight7.Location = New System.Drawing.Point(1473, 118)
         Me.PilotLight7.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight7.Name = "PilotLight7"
         Me.PilotLight7.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.Toggle
@@ -7036,7 +7036,7 @@ Partial Class DSM5_Controls
         Me.PilotLight5.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight5.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight5.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight5.Location = New System.Drawing.Point(1438, 132)
+        Me.PilotLight5.Location = New System.Drawing.Point(1403, 118)
         Me.PilotLight5.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight5.Name = "PilotLight5"
         Me.PilotLight5.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -7061,7 +7061,7 @@ Partial Class DSM5_Controls
         Me.PilotLight4.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight4.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight4.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight4.Location = New System.Drawing.Point(1234, 132)
+        Me.PilotLight4.Location = New System.Drawing.Point(1199, 118)
         Me.PilotLight4.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight4.Name = "PilotLight4"
         Me.PilotLight4.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -7086,7 +7086,7 @@ Partial Class DSM5_Controls
         Me.PilotLight3.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight3.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight3.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight3.Location = New System.Drawing.Point(1302, 132)
+        Me.PilotLight3.Location = New System.Drawing.Point(1267, 118)
         Me.PilotLight3.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight3.Name = "PilotLight3"
         Me.PilotLight3.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -7111,7 +7111,7 @@ Partial Class DSM5_Controls
         Me.PilotLight2.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight2.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight2.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight2.Location = New System.Drawing.Point(1370, 132)
+        Me.PilotLight2.Location = New System.Drawing.Point(1335, 118)
         Me.PilotLight2.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight2.Name = "PilotLight2"
         Me.PilotLight2.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -7137,7 +7137,7 @@ Partial Class DSM5_Controls
         Me.PilotLight1.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight1.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight1.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight1.Location = New System.Drawing.Point(1166, 132)
+        Me.PilotLight1.Location = New System.Drawing.Point(1131, 118)
         Me.PilotLight1.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight1.Name = "PilotLight1"
         Me.PilotLight1.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -7157,7 +7157,7 @@ Partial Class DSM5_Controls
         Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!)
         Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Label1.Location = New System.Drawing.Point(8, 1064)
+        Me.Label1.Location = New System.Drawing.Point(-27, 1030)
         Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(146, 26)
@@ -7174,7 +7174,7 @@ Partial Class DSM5_Controls
         Me.openSlamCon.ForeColorAltername = System.Drawing.Color.Black
         Me.openSlamCon.Highlight = False
         Me.openSlamCon.HighlightColor = System.Drawing.Color.Green
-        Me.openSlamCon.Location = New System.Drawing.Point(1465, 926)
+        Me.openSlamCon.Location = New System.Drawing.Point(1430, 902)
         Me.openSlamCon.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.openSlamCon.MaximumHoldTime = 3000
         Me.openSlamCon.MinimumHoldTime = 500
@@ -7194,7 +7194,7 @@ Partial Class DSM5_Controls
         Me.LbClk.AutoSize = True
         Me.LbClk.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LbClk.ForeColor = System.Drawing.Color.GhostWhite
-        Me.LbClk.Location = New System.Drawing.Point(1810, 1016)
+        Me.LbClk.Location = New System.Drawing.Point(1766, 992)
         Me.LbClk.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.LbClk.Name = "LbClk"
         Me.LbClk.Size = New System.Drawing.Size(97, 20)
@@ -7211,7 +7211,7 @@ Partial Class DSM5_Controls
         Me.LbDate.AutoSize = True
         Me.LbDate.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LbDate.ForeColor = System.Drawing.Color.GhostWhite
-        Me.LbDate.Location = New System.Drawing.Point(1810, 988)
+        Me.LbDate.Location = New System.Drawing.Point(1766, 964)
         Me.LbDate.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.LbDate.Name = "LbDate"
         Me.LbDate.Size = New System.Drawing.Size(83, 20)
@@ -7229,7 +7229,7 @@ Partial Class DSM5_Controls
         Me.PilotLight249.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight249.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight249.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight249.Location = New System.Drawing.Point(758, 474)
+        Me.PilotLight249.Location = New System.Drawing.Point(723, 460)
         Me.PilotLight249.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight249.Name = "PilotLight249"
         Me.PilotLight249.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.Toggle
@@ -7243,6 +7243,20 @@ Partial Class DSM5_Controls
         Me.PilotLight249.Value = False
         Me.PilotLight249.ValueToWrite = 1
         '
+        'EthernetIPforCLXCom38
+        '
+        Me.EthernetIPforCLXCom38.CIPConnectionSize = 508
+        Me.EthernetIPforCLXCom38.DisableMultiServiceRequest = False
+        Me.EthernetIPforCLXCom38.DisableSubscriptions = False
+        Me.EthernetIPforCLXCom38.IniFileName = ""
+        Me.EthernetIPforCLXCom38.IniFileSection = Nothing
+        Me.EthernetIPforCLXCom38.IPAddress = "10.8.236.153"
+        Me.EthernetIPforCLXCom38.PollRateOverride = 500
+        Me.EthernetIPforCLXCom38.Port = 44818
+        Me.EthernetIPforCLXCom38.ProcessorSlot = 0
+        Me.EthernetIPforCLXCom38.RoutePath = Nothing
+        Me.EthernetIPforCLXCom38.Timeout = 4000
+        '
         'PilotLight250
         '
         Me.PilotLight250.AccessibleDescription = "ALARM HORN"
@@ -7254,7 +7268,7 @@ Partial Class DSM5_Controls
         Me.PilotLight250.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight250.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight250.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight250.Location = New System.Drawing.Point(689, 474)
+        Me.PilotLight250.Location = New System.Drawing.Point(654, 460)
         Me.PilotLight250.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight250.Name = "PilotLight250"
         Me.PilotLight250.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -7279,7 +7293,7 @@ Partial Class DSM5_Controls
         Me.PilotLight251.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight251.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight251.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight251.Location = New System.Drawing.Point(621, 474)
+        Me.PilotLight251.Location = New System.Drawing.Point(586, 460)
         Me.PilotLight251.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight251.Name = "PilotLight251"
         Me.PilotLight251.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -7304,7 +7318,7 @@ Partial Class DSM5_Controls
         Me.PilotLight252.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight252.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight252.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight252.Location = New System.Drawing.Point(553, 474)
+        Me.PilotLight252.Location = New System.Drawing.Point(518, 460)
         Me.PilotLight252.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight252.Name = "PilotLight252"
         Me.PilotLight252.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -7329,7 +7343,7 @@ Partial Class DSM5_Controls
         Me.PilotLight253.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight253.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight253.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight253.Location = New System.Drawing.Point(485, 474)
+        Me.PilotLight253.Location = New System.Drawing.Point(450, 460)
         Me.PilotLight253.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight253.Name = "PilotLight253"
         Me.PilotLight253.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -7355,7 +7369,7 @@ Partial Class DSM5_Controls
         Me.PilotLight254.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight254.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight254.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight254.Location = New System.Drawing.Point(417, 474)
+        Me.PilotLight254.Location = New System.Drawing.Point(382, 460)
         Me.PilotLight254.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight254.Name = "PilotLight254"
         Me.PilotLight254.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
@@ -7380,7 +7394,7 @@ Partial Class DSM5_Controls
         Me.PilotLight255.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight255.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight255.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight255.Location = New System.Drawing.Point(383, 21)
+        Me.PilotLight255.Location = New System.Drawing.Point(348, 7)
         Me.PilotLight255.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight255.Name = "PilotLight255"
         Me.PilotLight255.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.Toggle
@@ -7405,7 +7419,7 @@ Partial Class DSM5_Controls
         Me.PilotLight256.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight256.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight256.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight256.Location = New System.Drawing.Point(758, 21)
+        Me.PilotLight256.Location = New System.Drawing.Point(723, 7)
         Me.PilotLight256.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight256.Name = "PilotLight256"
         Me.PilotLight256.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.Toggle
@@ -7430,7 +7444,7 @@ Partial Class DSM5_Controls
         Me.PilotLight257.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight257.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight257.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight257.Location = New System.Drawing.Point(1132, 21)
+        Me.PilotLight257.Location = New System.Drawing.Point(1097, 7)
         Me.PilotLight257.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight257.Name = "PilotLight257"
         Me.PilotLight257.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.Toggle
@@ -7455,7 +7469,7 @@ Partial Class DSM5_Controls
         Me.PilotLight258.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight258.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight258.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight258.Location = New System.Drawing.Point(1508, 21)
+        Me.PilotLight258.Location = New System.Drawing.Point(1473, 7)
         Me.PilotLight258.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight258.Name = "PilotLight258"
         Me.PilotLight258.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.Toggle
@@ -7480,7 +7494,7 @@ Partial Class DSM5_Controls
         Me.PilotLight259.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
         Me.PilotLight259.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
         Me.PilotLight259.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight259.Location = New System.Drawing.Point(1883, 21)
+        Me.PilotLight259.Location = New System.Drawing.Point(1848, 7)
         Me.PilotLight259.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.PilotLight259.Name = "PilotLight259"
         Me.PilotLight259.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.Toggle
@@ -7494,27 +7508,13 @@ Partial Class DSM5_Controls
         Me.PilotLight259.Value = False
         Me.PilotLight259.ValueToWrite = 1
         '
-        'EthernetIPforCLXCom38
-        '
-        Me.EthernetIPforCLXCom38.CIPConnectionSize = 508
-        Me.EthernetIPforCLXCom38.DisableMultiServiceRequest = False
-        Me.EthernetIPforCLXCom38.DisableSubscriptions = False
-        Me.EthernetIPforCLXCom38.IniFileName = ""
-        Me.EthernetIPforCLXCom38.IniFileSection = Nothing
-        Me.EthernetIPforCLXCom38.IPAddress = "10.8.236.153"
-        Me.EthernetIPforCLXCom38.PollRateOverride = 500
-        Me.EthernetIPforCLXCom38.Port = 44818
-        Me.EthernetIPforCLXCom38.ProcessorSlot = 0
-        Me.EthernetIPforCLXCom38.RoutePath = Nothing
-        Me.EthernetIPforCLXCom38.Timeout = 4000
-        '
         'DSM5_Controls
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoSize = True
         Me.BackColor = System.Drawing.Color.MidnightBlue
-        Me.ClientSize = New System.Drawing.Size(1924, 1041)
+        Me.ClientSize = New System.Drawing.Size(1884, 1021)
         Me.Controls.Add(Me.PilotLight259)
         Me.Controls.Add(Me.PilotLight258)
         Me.Controls.Add(Me.PilotLight257)
