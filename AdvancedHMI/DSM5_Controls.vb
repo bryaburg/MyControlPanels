@@ -67,4 +67,12 @@ Public Class DSM5_Controls
             index += 1
         End While
     End Sub
+
+    Private Sub LbDate_Click(sender As Object, e As EventArgs) Handles LbDate.Click
+
+    End Sub
+
+    Private Sub PilotLight243_Click(sender As Object, e As EventArgs) Handles PilotLight243.Click
+
+    End Sub
 End Class
