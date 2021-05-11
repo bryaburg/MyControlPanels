@@ -327,6 +327,7 @@ Partial Class DSM5_Controls
         Me.PilotLight257 = New AdvancedHMIControls.PilotLight()
         Me.PilotLight258 = New AdvancedHMIControls.PilotLight()
         Me.PilotLight259 = New AdvancedHMIControls.PilotLight()
+        Me.EthernetIPforCLXCom38 = New AdvancedHMIDrivers.EthernetIPforCLXCom(Me.components)
         CType(Me.EthernetIPforCLXCom23, System.ComponentModel.ISupportInitialize).BeginInit
         CType(Me.EthernetIPforCLXCom33, System.ComponentModel.ISupportInitialize).BeginInit
         CType(Me.EthernetIPforCLXCom25, System.ComponentModel.ISupportInitialize).BeginInit
@@ -364,6 +365,7 @@ Partial Class DSM5_Controls
         CType(Me.EthernetIPforCLXCom14, System.ComponentModel.ISupportInitialize).BeginInit
         CType(Me.EthernetIPforCLXCom13, System.ComponentModel.ISupportInitialize).BeginInit
         CType(Me.EthernetIPforCLXCom12, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.EthernetIPforCLXCom38, System.ComponentModel.ISupportInitialize).BeginInit
         Me.SuspendLayout
         '
         'EthernetIPforCLXCom23
@@ -1186,7 +1188,7 @@ Partial Class DSM5_Controls
         Me.BasicButton1.ForeColorAltername = System.Drawing.Color.Black
         Me.BasicButton1.Highlight = False
         Me.BasicButton1.HighlightColor = System.Drawing.Color.Green
-        Me.BasicButton1.Location = New System.Drawing.Point(1641, 946)
+        Me.BasicButton1.Location = New System.Drawing.Point(1639, 926)
         Me.BasicButton1.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.BasicButton1.MaximumHoldTime = 3000
         Me.BasicButton1.MinimumHoldTime = 500
@@ -7155,7 +7157,7 @@ Partial Class DSM5_Controls
         Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!)
         Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Label1.Location = New System.Drawing.Point(8, 1084)
+        Me.Label1.Location = New System.Drawing.Point(8, 1064)
         Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(146, 26)
@@ -7172,7 +7174,7 @@ Partial Class DSM5_Controls
         Me.openSlamCon.ForeColorAltername = System.Drawing.Color.Black
         Me.openSlamCon.Highlight = False
         Me.openSlamCon.HighlightColor = System.Drawing.Color.Green
-        Me.openSlamCon.Location = New System.Drawing.Point(1473, 946)
+        Me.openSlamCon.Location = New System.Drawing.Point(1465, 926)
         Me.openSlamCon.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.openSlamCon.MaximumHoldTime = 3000
         Me.openSlamCon.MinimumHoldTime = 500
@@ -7192,7 +7194,7 @@ Partial Class DSM5_Controls
         Me.LbClk.AutoSize = True
         Me.LbClk.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LbClk.ForeColor = System.Drawing.Color.GhostWhite
-        Me.LbClk.Location = New System.Drawing.Point(1810, 1034)
+        Me.LbClk.Location = New System.Drawing.Point(1810, 1016)
         Me.LbClk.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.LbClk.Name = "LbClk"
         Me.LbClk.Size = New System.Drawing.Size(97, 20)
@@ -7209,7 +7211,7 @@ Partial Class DSM5_Controls
         Me.LbDate.AutoSize = True
         Me.LbDate.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LbDate.ForeColor = System.Drawing.Color.GhostWhite
-        Me.LbDate.Location = New System.Drawing.Point(1810, 1006)
+        Me.LbDate.Location = New System.Drawing.Point(1810, 988)
         Me.LbDate.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.LbDate.Name = "LbDate"
         Me.LbDate.Size = New System.Drawing.Size(83, 20)
@@ -7221,7 +7223,7 @@ Partial Class DSM5_Controls
         Me.PilotLight249.AccessibleDescription = "ALARM HORN"
         Me.PilotLight249.AccessibleName = "HORN"
         Me.PilotLight249.Blink = False
-        Me.PilotLight249.ComComponent = Me.EthernetIPforCLXCom28
+        Me.PilotLight249.ComComponent = Me.EthernetIPforCLXCom38
         Me.PilotLight249.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.PilotLight249.ForeColor = System.Drawing.Color.DodgerBlue
         Me.PilotLight249.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
@@ -7246,7 +7248,7 @@ Partial Class DSM5_Controls
         Me.PilotLight250.AccessibleDescription = "ALARM HORN"
         Me.PilotLight250.AccessibleName = "HORN"
         Me.PilotLight250.Blink = False
-        Me.PilotLight250.ComComponent = Me.EthernetIPforCLXCom28
+        Me.PilotLight250.ComComponent = Me.EthernetIPforCLXCom38
         Me.PilotLight250.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.PilotLight250.ForeColor = System.Drawing.Color.Green
         Me.PilotLight250.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
@@ -7271,7 +7273,7 @@ Partial Class DSM5_Controls
         Me.PilotLight251.AccessibleDescription = "MTR RESET"
         Me.PilotLight251.AccessibleName = "MTR RESET"
         Me.PilotLight251.Blink = False
-        Me.PilotLight251.ComComponent = Me.EthernetIPforCLXCom28
+        Me.PilotLight251.ComComponent = Me.EthernetIPforCLXCom38
         Me.PilotLight251.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.PilotLight251.ForeColor = System.Drawing.Color.DarkRed
         Me.PilotLight251.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
@@ -7296,7 +7298,7 @@ Partial Class DSM5_Controls
         Me.PilotLight252.AccessibleDescription = "JAM RESET"
         Me.PilotLight252.AccessibleName = "JAM "
         Me.PilotLight252.Blink = False
-        Me.PilotLight252.ComComponent = Me.EthernetIPforCLXCom28
+        Me.PilotLight252.ComComponent = Me.EthernetIPforCLXCom38
         Me.PilotLight252.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.PilotLight252.ForeColor = System.Drawing.Color.DarkOrange
         Me.PilotLight252.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
@@ -7321,7 +7323,7 @@ Partial Class DSM5_Controls
         Me.PilotLight253.AccessibleDescription = "STARTLIGHT"
         Me.PilotLight253.AccessibleName = "START"
         Me.PilotLight253.Blink = False
-        Me.PilotLight253.ComComponent = Me.EthernetIPforCLXCom28
+        Me.PilotLight253.ComComponent = Me.EthernetIPforCLXCom38
         Me.PilotLight253.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.PilotLight253.ForeColor = System.Drawing.Color.DeepSkyBlue
         Me.PilotLight253.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
@@ -7347,7 +7349,7 @@ Partial Class DSM5_Controls
         Me.PilotLight254.AccessibleName = "STOP"
         Me.PilotLight254.BackColor = System.Drawing.Color.Gold
         Me.PilotLight254.Blink = False
-        Me.PilotLight254.ComComponent = Me.EthernetIPforCLXCom28
+        Me.PilotLight254.ComComponent = Me.EthernetIPforCLXCom38
         Me.PilotLight254.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.PilotLight254.ForeColor = System.Drawing.Color.SteelBlue
         Me.PilotLight254.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
@@ -7372,7 +7374,7 @@ Partial Class DSM5_Controls
         Me.PilotLight255.AccessibleDescription = "ALARM HORN"
         Me.PilotLight255.AccessibleName = "HORN"
         Me.PilotLight255.Blink = False
-        Me.PilotLight255.ComComponent = Me.EthernetIPforCLXCom9
+        Me.PilotLight255.ComComponent = Me.EthernetIPforCLXCom4
         Me.PilotLight255.Font = New System.Drawing.Font("Arial", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.PilotLight255.ForeColor = System.Drawing.Color.DodgerBlue
         Me.PilotLight255.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
@@ -7397,7 +7399,7 @@ Partial Class DSM5_Controls
         Me.PilotLight256.AccessibleDescription = "ALARM HORN"
         Me.PilotLight256.AccessibleName = "HORN"
         Me.PilotLight256.Blink = False
-        Me.PilotLight256.ComComponent = Me.EthernetIPforCLXCom9
+        Me.PilotLight256.ComComponent = Me.EthernetIPforCLXCom5
         Me.PilotLight256.Font = New System.Drawing.Font("Arial", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.PilotLight256.ForeColor = System.Drawing.Color.DodgerBlue
         Me.PilotLight256.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
@@ -7422,7 +7424,7 @@ Partial Class DSM5_Controls
         Me.PilotLight257.AccessibleDescription = "ALARM HORN"
         Me.PilotLight257.AccessibleName = "HORN"
         Me.PilotLight257.Blink = False
-        Me.PilotLight257.ComComponent = Me.EthernetIPforCLXCom9
+        Me.PilotLight257.ComComponent = Me.EthernetIPforCLXCom6
         Me.PilotLight257.Font = New System.Drawing.Font("Arial", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.PilotLight257.ForeColor = System.Drawing.Color.DodgerBlue
         Me.PilotLight257.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
@@ -7447,7 +7449,7 @@ Partial Class DSM5_Controls
         Me.PilotLight258.AccessibleDescription = "ALARM HORN"
         Me.PilotLight258.AccessibleName = "HORN"
         Me.PilotLight258.Blink = False
-        Me.PilotLight258.ComComponent = Me.EthernetIPforCLXCom1
+        Me.PilotLight258.ComComponent = Me.EthernetIPforCLXCom7
         Me.PilotLight258.Font = New System.Drawing.Font("Arial", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.PilotLight258.ForeColor = System.Drawing.Color.DodgerBlue
         Me.PilotLight258.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
@@ -7472,7 +7474,7 @@ Partial Class DSM5_Controls
         Me.PilotLight259.AccessibleDescription = "ALARM HORN"
         Me.PilotLight259.AccessibleName = "HORN"
         Me.PilotLight259.Blink = False
-        Me.PilotLight259.ComComponent = Me.EthernetIPforCLXCom1
+        Me.PilotLight259.ComComponent = Me.EthernetIPforCLXCom8
         Me.PilotLight259.Font = New System.Drawing.Font("Arial", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.PilotLight259.ForeColor = System.Drawing.Color.DodgerBlue
         Me.PilotLight259.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
@@ -7492,13 +7494,27 @@ Partial Class DSM5_Controls
         Me.PilotLight259.Value = False
         Me.PilotLight259.ValueToWrite = 1
         '
+        'EthernetIPforCLXCom38
+        '
+        Me.EthernetIPforCLXCom38.CIPConnectionSize = 508
+        Me.EthernetIPforCLXCom38.DisableMultiServiceRequest = False
+        Me.EthernetIPforCLXCom38.DisableSubscriptions = False
+        Me.EthernetIPforCLXCom38.IniFileName = ""
+        Me.EthernetIPforCLXCom38.IniFileSection = Nothing
+        Me.EthernetIPforCLXCom38.IPAddress = "10.8.236.153"
+        Me.EthernetIPforCLXCom38.PollRateOverride = 500
+        Me.EthernetIPforCLXCom38.Port = 44818
+        Me.EthernetIPforCLXCom38.ProcessorSlot = 0
+        Me.EthernetIPforCLXCom38.RoutePath = Nothing
+        Me.EthernetIPforCLXCom38.Timeout = 4000
+        '
         'DSM5_Controls
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoSize = True
         Me.BackColor = System.Drawing.Color.MidnightBlue
-        Me.ClientSize = New System.Drawing.Size(1924, 1061)
+        Me.ClientSize = New System.Drawing.Size(1924, 1041)
         Me.Controls.Add(Me.PilotLight259)
         Me.Controls.Add(Me.PilotLight258)
         Me.Controls.Add(Me.PilotLight257)
@@ -7805,6 +7821,7 @@ Partial Class DSM5_Controls
         CType(Me.EthernetIPforCLXCom14, System.ComponentModel.ISupportInitialize).EndInit
         CType(Me.EthernetIPforCLXCom13, System.ComponentModel.ISupportInitialize).EndInit
         CType(Me.EthernetIPforCLXCom12, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.EthernetIPforCLXCom38, System.ComponentModel.ISupportInitialize).EndInit
         Me.ResumeLayout(False)
         Me.PerformLayout
 
@@ -8113,4 +8130,5 @@ Partial Class DSM5_Controls
     Friend WithEvents PilotLight257 As AdvancedHMIControls.PilotLight
     Friend WithEvents PilotLight258 As AdvancedHMIControls.PilotLight
     Friend WithEvents PilotLight259 As AdvancedHMIControls.PilotLight
+    Friend WithEvents EthernetIPforCLXCom38 As AdvancedHMIDrivers.EthernetIPforCLXCom
 End Class
