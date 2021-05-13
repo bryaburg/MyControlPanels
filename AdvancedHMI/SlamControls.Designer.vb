@@ -4111,11 +4111,11 @@ Partial Class SlamControls
         Me.DigitalPanelMeter51.Name = "DigitalPanelMeter51"
         Me.DigitalPanelMeter51.NumberOfDigits = 5
         Me.DigitalPanelMeter51.PLCAddressKeypad = ""
-        Me.DigitalPanelMeter51.PLCAddressValue = "KickoutbyPrinters"
+        Me.DigitalPanelMeter51.PLCAddressValue = "HMI_KickoutCount"
         Me.DigitalPanelMeter51.Resolution = New Decimal(New Integer() {1, 0, 0, 0})
         Me.DigitalPanelMeter51.Size = New System.Drawing.Size(205, 89)
         Me.DigitalPanelMeter51.TabIndex = 1260
-        Me.DigitalPanelMeter51.Text = "TOTAL KO's"
+        Me.DigitalPanelMeter51.Text = "TOTAL KO's "
         Me.DigitalPanelMeter51.Value = 0R
         Me.DigitalPanelMeter51.ValueScaleFactor = New Decimal(New Integer() {1, 0, 0, 0})
         Me.DigitalPanelMeter51.ValueScaleOffset = New Decimal(New Integer() {0, 0, 0, 0})
@@ -4549,6 +4549,7 @@ Partial Class SlamControls
         Me.DataSubscriber24.PLCAddressValueItems.Add(CType(resources.GetObject("DataSubscriber24.PLCAddressValueItems"), MfgControl.AdvancedHMI.Drivers.PLCAddressItem))
         Me.DataSubscriber24.PLCAddressValueItems.Add(CType(resources.GetObject("DataSubscriber24.PLCAddressValueItems1"), MfgControl.AdvancedHMI.Drivers.PLCAddressItem))
         Me.DataSubscriber24.PLCAddressValueItems.Add(CType(resources.GetObject("DataSubscriber24.PLCAddressValueItems2"), MfgControl.AdvancedHMI.Drivers.PLCAddressItem))
+        Me.DataSubscriber24.PLCAddressValueItems.Add(CType(resources.GetObject("DataSubscriber24.PLCAddressValueItems3"), MfgControl.AdvancedHMI.Drivers.PLCAddressItem))
         Me.DataSubscriber24.PollRate = 2000
         Me.DataSubscriber24.SynchronizingObject = Me
         Me.DataSubscriber24.Value = Nothing

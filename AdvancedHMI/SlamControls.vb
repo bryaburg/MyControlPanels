@@ -245,7 +245,7 @@ Public Class SlamControls
         If btnBool = True Then
             Try
                 clxVal = e.PlcAddress
-                plcAdd = {"HMI_ParcelCount", "HMI_KickoutCount", "AuditValueDint[0]"}
+                plcAdd = {"HMI_ParcelCount", "HMI_KickoutCount", "KickoutbyPrinters", "AuditValueDint[0]"}
                 cVal = cSh.Cells
                 pVal = e.Values(0)
                 cX = 3
@@ -253,7 +253,7 @@ Public Class SlamControls
                     If clxVal = index Then
                         cVal(cX, 6) = pVal
                     End If
-                    If cX = 4 Then
+                    If cX = 5 Then
                         cX += 2
                     Else
                         cX += 1
