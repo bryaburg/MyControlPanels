@@ -254,7 +254,7 @@ Public Class SlamControls
                         cVal(cX, 6) = pVal
                     End If
                     If cX = 5 Then
-                        cX += 2
+                        cX += 3
                     Else
                         cX += 1
                     End If
