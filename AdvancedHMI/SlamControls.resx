@@ -3598,15 +3598,115 @@
   <metadata name="DataSubscriber21.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>737, 34</value>
   </metadata>
+  <assembly alias="MfgControl.AdvancedHMI.Drivers" name="MfgControl.AdvancedHMI.Drivers, Version=3.99.19.2, Culture=neutral, PublicKeyToken=null" />
+  <data name="DataSubscriber21.PLCAddressValueItems" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>Event_ActiveEvents[0]</value>
+  </data>
+  <data name="DataSubscriber21.PLCAddressValueItems1" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>Event_ActiveEvents[1]</value>
+  </data>
+  <data name="DataSubscriber21.PLCAddressValueItems2" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>Event_ActiveEvents[2]</value>
+  </data>
+  <data name="DataSubscriber21.PLCAddressValueItems3" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>Event_ActiveEvents[3]</value>
+  </data>
+  <data name="DataSubscriber21.PLCAddressValueItems4" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>Event_ActiveEvents[4]</value>
+  </data>
+  <data name="DataSubscriber21.PLCAddressValueItems5" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>Event_ActiveEvents[5]</value>
+  </data>
+  <data name="DataSubscriber21.PLCAddressValueItems6" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>Event_ActiveEvents[6]</value>
+  </data>
+  <data name="DataSubscriber21.PLCAddressValueItems7" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>Event_ActiveEvents[7]</value>
+  </data>
+  <data name="DataSubscriber21.PLCAddressValueItems8" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>Event_ActiveEvents[8]</value>
+  </data>
+  <data name="DataSubscriber21.PLCAddressValueItems9" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>Event_ActiveEvents[9]</value>
+  </data>
   <metadata name="DataSubscriber211.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>912, 35</value>
   </metadata>
+  <data name="DataSubscriber211.PLCAddressValueItems" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>HMI_Last10Time[0]</value>
+  </data>
+  <data name="DataSubscriber211.PLCAddressValueItems1" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>HMI_Last10Time[1]</value>
+  </data>
+  <data name="DataSubscriber211.PLCAddressValueItems2" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>HMI_Last10Time[2]</value>
+  </data>
+  <data name="DataSubscriber211.PLCAddressValueItems3" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>HMI_Last10Time[3]</value>
+  </data>
+  <data name="DataSubscriber211.PLCAddressValueItems4" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>HMI_Last10Time[4]</value>
+  </data>
+  <data name="DataSubscriber211.PLCAddressValueItems5" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>HMI_Last10Time[5]</value>
+  </data>
+  <data name="DataSubscriber211.PLCAddressValueItems6" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>HMI_Last10Time[6]</value>
+  </data>
+  <data name="DataSubscriber211.PLCAddressValueItems7" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>HMI_Last10Time[7]</value>
+  </data>
+  <data name="DataSubscriber211.PLCAddressValueItems8" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>HMI_Last10Time[8]</value>
+  </data>
+  <data name="DataSubscriber211.PLCAddressValueItems9" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>HMI_Last10Time[9]</value>
+  </data>
   <metadata name="DataSubscriber210.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>1093, 35</value>
   </metadata>
+  <data name="DataSubscriber210.PLCAddressValueItems" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>HMI_Last10KO[0]</value>
+  </data>
+  <data name="DataSubscriber210.PLCAddressValueItems1" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>HMI_Last10KO[1]</value>
+  </data>
+  <data name="DataSubscriber210.PLCAddressValueItems2" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>HMI_Last10KO[2]</value>
+  </data>
+  <data name="DataSubscriber210.PLCAddressValueItems3" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>HMI_Last10KO[3]</value>
+  </data>
+  <data name="DataSubscriber210.PLCAddressValueItems4" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>HMI_Last10KO[4]</value>
+  </data>
+  <data name="DataSubscriber210.PLCAddressValueItems5" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>HMI_Last10KO[5]</value>
+  </data>
+  <data name="DataSubscriber210.PLCAddressValueItems6" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>HMI_Last10KO[6]</value>
+  </data>
+  <data name="DataSubscriber210.PLCAddressValueItems7" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>HMI_Last10KO[7]</value>
+  </data>
+  <data name="DataSubscriber210.PLCAddressValueItems8" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>HMI_Last10KO[8]</value>
+  </data>
+  <data name="DataSubscriber210.PLCAddressValueItems9" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>HMI_Last10KO[9]</value>
+  </data>
   <metadata name="DataSubscriber24.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>1273, 38</value>
   </metadata>
+  <data name="DataSubscriber24.PLCAddressValueItems" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>HMI_ParcelCount</value>
+  </data>
+  <data name="DataSubscriber24.PLCAddressValueItems1" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>HMI_KickoutCount</value>
+  </data>
+  <data name="DataSubscriber24.PLCAddressValueItems2" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>AuditValueDint[0]</value>
+  </data>
   <metadata name="biKO.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>

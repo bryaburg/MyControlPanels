@@ -4495,6 +4495,16 @@ Partial Class SlamControls
         'DataSubscriber21
         '
         Me.DataSubscriber21.ComComponent = Me.EthernetIPforCLXCom1
+        Me.DataSubscriber21.PLCAddressValueItems.Add(CType(resources.GetObject("DataSubscriber21.PLCAddressValueItems"), MfgControl.AdvancedHMI.Drivers.PLCAddressItem))
+        Me.DataSubscriber21.PLCAddressValueItems.Add(CType(resources.GetObject("DataSubscriber21.PLCAddressValueItems1"), MfgControl.AdvancedHMI.Drivers.PLCAddressItem))
+        Me.DataSubscriber21.PLCAddressValueItems.Add(CType(resources.GetObject("DataSubscriber21.PLCAddressValueItems2"), MfgControl.AdvancedHMI.Drivers.PLCAddressItem))
+        Me.DataSubscriber21.PLCAddressValueItems.Add(CType(resources.GetObject("DataSubscriber21.PLCAddressValueItems3"), MfgControl.AdvancedHMI.Drivers.PLCAddressItem))
+        Me.DataSubscriber21.PLCAddressValueItems.Add(CType(resources.GetObject("DataSubscriber21.PLCAddressValueItems4"), MfgControl.AdvancedHMI.Drivers.PLCAddressItem))
+        Me.DataSubscriber21.PLCAddressValueItems.Add(CType(resources.GetObject("DataSubscriber21.PLCAddressValueItems5"), MfgControl.AdvancedHMI.Drivers.PLCAddressItem))
+        Me.DataSubscriber21.PLCAddressValueItems.Add(CType(resources.GetObject("DataSubscriber21.PLCAddressValueItems6"), MfgControl.AdvancedHMI.Drivers.PLCAddressItem))
+        Me.DataSubscriber21.PLCAddressValueItems.Add(CType(resources.GetObject("DataSubscriber21.PLCAddressValueItems7"), MfgControl.AdvancedHMI.Drivers.PLCAddressItem))
+        Me.DataSubscriber21.PLCAddressValueItems.Add(CType(resources.GetObject("DataSubscriber21.PLCAddressValueItems8"), MfgControl.AdvancedHMI.Drivers.PLCAddressItem))
+        Me.DataSubscriber21.PLCAddressValueItems.Add(CType(resources.GetObject("DataSubscriber21.PLCAddressValueItems9"), MfgControl.AdvancedHMI.Drivers.PLCAddressItem))
         Me.DataSubscriber21.PollRate = 2000
         Me.DataSubscriber21.SynchronizingObject = Me
         Me.DataSubscriber21.Value = Nothing
@@ -4502,6 +4512,16 @@ Partial Class SlamControls
         'DataSubscriber211
         '
         Me.DataSubscriber211.ComComponent = Me.EthernetIPforCLXCom1
+        Me.DataSubscriber211.PLCAddressValueItems.Add(CType(resources.GetObject("DataSubscriber211.PLCAddressValueItems"), MfgControl.AdvancedHMI.Drivers.PLCAddressItem))
+        Me.DataSubscriber211.PLCAddressValueItems.Add(CType(resources.GetObject("DataSubscriber211.PLCAddressValueItems1"), MfgControl.AdvancedHMI.Drivers.PLCAddressItem))
+        Me.DataSubscriber211.PLCAddressValueItems.Add(CType(resources.GetObject("DataSubscriber211.PLCAddressValueItems2"), MfgControl.AdvancedHMI.Drivers.PLCAddressItem))
+        Me.DataSubscriber211.PLCAddressValueItems.Add(CType(resources.GetObject("DataSubscriber211.PLCAddressValueItems3"), MfgControl.AdvancedHMI.Drivers.PLCAddressItem))
+        Me.DataSubscriber211.PLCAddressValueItems.Add(CType(resources.GetObject("DataSubscriber211.PLCAddressValueItems4"), MfgControl.AdvancedHMI.Drivers.PLCAddressItem))
+        Me.DataSubscriber211.PLCAddressValueItems.Add(CType(resources.GetObject("DataSubscriber211.PLCAddressValueItems5"), MfgControl.AdvancedHMI.Drivers.PLCAddressItem))
+        Me.DataSubscriber211.PLCAddressValueItems.Add(CType(resources.GetObject("DataSubscriber211.PLCAddressValueItems6"), MfgControl.AdvancedHMI.Drivers.PLCAddressItem))
+        Me.DataSubscriber211.PLCAddressValueItems.Add(CType(resources.GetObject("DataSubscriber211.PLCAddressValueItems7"), MfgControl.AdvancedHMI.Drivers.PLCAddressItem))
+        Me.DataSubscriber211.PLCAddressValueItems.Add(CType(resources.GetObject("DataSubscriber211.PLCAddressValueItems8"), MfgControl.AdvancedHMI.Drivers.PLCAddressItem))
+        Me.DataSubscriber211.PLCAddressValueItems.Add(CType(resources.GetObject("DataSubscriber211.PLCAddressValueItems9"), MfgControl.AdvancedHMI.Drivers.PLCAddressItem))
         Me.DataSubscriber211.PollRate = 2000
         Me.DataSubscriber211.SynchronizingObject = Me
         Me.DataSubscriber211.Value = Nothing
@@ -4509,6 +4529,16 @@ Partial Class SlamControls
         'DataSubscriber210
         '
         Me.DataSubscriber210.ComComponent = Me.EthernetIPforCLXCom1
+        Me.DataSubscriber210.PLCAddressValueItems.Add(CType(resources.GetObject("DataSubscriber210.PLCAddressValueItems"), MfgControl.AdvancedHMI.Drivers.PLCAddressItem))
+        Me.DataSubscriber210.PLCAddressValueItems.Add(CType(resources.GetObject("DataSubscriber210.PLCAddressValueItems1"), MfgControl.AdvancedHMI.Drivers.PLCAddressItem))
+        Me.DataSubscriber210.PLCAddressValueItems.Add(CType(resources.GetObject("DataSubscriber210.PLCAddressValueItems2"), MfgControl.AdvancedHMI.Drivers.PLCAddressItem))
+        Me.DataSubscriber210.PLCAddressValueItems.Add(CType(resources.GetObject("DataSubscriber210.PLCAddressValueItems3"), MfgControl.AdvancedHMI.Drivers.PLCAddressItem))
+        Me.DataSubscriber210.PLCAddressValueItems.Add(CType(resources.GetObject("DataSubscriber210.PLCAddressValueItems4"), MfgControl.AdvancedHMI.Drivers.PLCAddressItem))
+        Me.DataSubscriber210.PLCAddressValueItems.Add(CType(resources.GetObject("DataSubscriber210.PLCAddressValueItems5"), MfgControl.AdvancedHMI.Drivers.PLCAddressItem))
+        Me.DataSubscriber210.PLCAddressValueItems.Add(CType(resources.GetObject("DataSubscriber210.PLCAddressValueItems6"), MfgControl.AdvancedHMI.Drivers.PLCAddressItem))
+        Me.DataSubscriber210.PLCAddressValueItems.Add(CType(resources.GetObject("DataSubscriber210.PLCAddressValueItems7"), MfgControl.AdvancedHMI.Drivers.PLCAddressItem))
+        Me.DataSubscriber210.PLCAddressValueItems.Add(CType(resources.GetObject("DataSubscriber210.PLCAddressValueItems8"), MfgControl.AdvancedHMI.Drivers.PLCAddressItem))
+        Me.DataSubscriber210.PLCAddressValueItems.Add(CType(resources.GetObject("DataSubscriber210.PLCAddressValueItems9"), MfgControl.AdvancedHMI.Drivers.PLCAddressItem))
         Me.DataSubscriber210.PollRate = 2000
         Me.DataSubscriber210.SynchronizingObject = Me
         Me.DataSubscriber210.Value = Nothing
@@ -4516,6 +4546,9 @@ Partial Class SlamControls
         'DataSubscriber24
         '
         Me.DataSubscriber24.ComComponent = Me.EthernetIPforCLXCom1
+        Me.DataSubscriber24.PLCAddressValueItems.Add(CType(resources.GetObject("DataSubscriber24.PLCAddressValueItems"), MfgControl.AdvancedHMI.Drivers.PLCAddressItem))
+        Me.DataSubscriber24.PLCAddressValueItems.Add(CType(resources.GetObject("DataSubscriber24.PLCAddressValueItems1"), MfgControl.AdvancedHMI.Drivers.PLCAddressItem))
+        Me.DataSubscriber24.PLCAddressValueItems.Add(CType(resources.GetObject("DataSubscriber24.PLCAddressValueItems2"), MfgControl.AdvancedHMI.Drivers.PLCAddressItem))
         Me.DataSubscriber24.PollRate = 2000
         Me.DataSubscriber24.SynchronizingObject = Me
         Me.DataSubscriber24.Value = Nothing
