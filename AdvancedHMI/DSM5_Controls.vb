@@ -79,7 +79,7 @@ Public Class DSM5_Controls
     Private Sub PanelContent_Click(sender As Object, e As EventArgs) Handles PanelContent.Click
         Dim myInput As String
         Try
-            myInput = InputBox("Please Enter Desired Control Panel", "PANEL CONTENTS", "Enter CP#", vbOKCancel)
+            myInput = InputBox("Please Enter Desired Control Panel", "PANEL CONTENTS", "Enter CP#", 780, 500)
             Select Case myInput
                 Case "01"
                     CP01.Show()
