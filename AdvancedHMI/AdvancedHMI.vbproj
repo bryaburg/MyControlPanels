@@ -113,6 +113,12 @@
     <Compile Include="Communications.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="CP01.Designer.vb">
+      <DependentUpon>CP01.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CP01.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="DSM5_Controls.Designer.vb">
       <DependentUpon>DSM5_Controls.vb</DependentUpon>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -216,6 +222,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Communications.resx">
       <DependentUpon>Communications.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CP01.resx">
+      <DependentUpon>CP01.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DSM5_Controls.resx">
       <DependentUpon>DSM5_Controls.vb</DependentUpon>

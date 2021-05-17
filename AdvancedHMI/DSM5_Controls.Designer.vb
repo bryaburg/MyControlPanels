@@ -328,6 +328,7 @@ Partial Class DSM5_Controls
         Me.PilotLight257 = New AdvancedHMIControls.PilotLight()
         Me.PilotLight258 = New AdvancedHMIControls.PilotLight()
         Me.PilotLight259 = New AdvancedHMIControls.PilotLight()
+        Me.PanelContent = New AdvancedHMIControls.BasicButton()
         CType(Me.EthernetIPforCLXCom23, System.ComponentModel.ISupportInitialize).BeginInit
         CType(Me.EthernetIPforCLXCom33, System.ComponentModel.ISupportInitialize).BeginInit
         CType(Me.EthernetIPforCLXCom25, System.ComponentModel.ISupportInitialize).BeginInit
@@ -7508,6 +7509,30 @@ Partial Class DSM5_Controls
         Me.PilotLight259.Value = False
         Me.PilotLight259.ValueToWrite = 1
         '
+        'PanelContent
+        '
+        Me.PanelContent.BackColor = System.Drawing.Color.Blue
+        Me.PanelContent.ComComponent = Me.EthernetIPforCLXCom1
+        Me.PanelContent.Font = New System.Drawing.Font("Magneto", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.PanelContent.ForeColor = System.Drawing.Color.GhostWhite
+        Me.PanelContent.ForeColorAltername = System.Drawing.Color.Black
+        Me.PanelContent.Highlight = False
+        Me.PanelContent.HighlightColor = System.Drawing.Color.Green
+        Me.PanelContent.Location = New System.Drawing.Point(1255, 902)
+        Me.PanelContent.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
+        Me.PanelContent.MaximumHoldTime = 3000
+        Me.PanelContent.MinimumHoldTime = 500
+        Me.PanelContent.Name = "PanelContent"
+        Me.PanelContent.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.PanelContent.PLCAddressClick = ""
+        Me.PanelContent.SelectTextAlternate = False
+        Me.PanelContent.Size = New System.Drawing.Size(158, 110)
+        Me.PanelContent.TabIndex = 2088
+        Me.PanelContent.Text = "Panel Contents"
+        Me.PanelContent.TextAlternate = Nothing
+        Me.PanelContent.UseVisualStyleBackColor = False
+        Me.PanelContent.ValueToWrite = 0
+        '
         'DSM5_Controls
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -7515,6 +7540,7 @@ Partial Class DSM5_Controls
         Me.AutoSize = True
         Me.BackColor = System.Drawing.Color.MidnightBlue
         Me.ClientSize = New System.Drawing.Size(1884, 1021)
+        Me.Controls.Add(Me.PanelContent)
         Me.Controls.Add(Me.PilotLight259)
         Me.Controls.Add(Me.PilotLight258)
         Me.Controls.Add(Me.PilotLight257)
@@ -8131,4 +8157,5 @@ Partial Class DSM5_Controls
     Friend WithEvents PilotLight258 As AdvancedHMIControls.PilotLight
     Friend WithEvents PilotLight259 As AdvancedHMIControls.PilotLight
     Friend WithEvents EthernetIPforCLXCom38 As AdvancedHMIDrivers.EthernetIPforCLXCom
+    Friend WithEvents PanelContent As AdvancedHMIControls.BasicButton
 End Class

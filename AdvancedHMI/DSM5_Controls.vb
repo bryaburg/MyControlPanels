@@ -75,4 +75,17 @@ Public Class DSM5_Controls
     Private Sub PilotLight243_Click(sender As Object, e As EventArgs) Handles PilotLight243.Click
 
     End Sub
+
+    Private Sub PanelContent_Click(sender As Object, e As EventArgs) Handles PanelContent.Click
+        Dim myInput As String
+        Try
+            myInput = InputBox("Please Enter Desired Control Panel", "PANEL CONTENTS", "Enter CP#", vbOKCancel)
+            Select Case myInput
+                Case "01"
+                    CP01.Show()
+            End Select
+        Catch ex As Exception
+            MsgBox("Error", ex.Message)
+        End Try
+    End Sub
 End Class
