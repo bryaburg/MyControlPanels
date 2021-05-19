@@ -119,6 +119,252 @@
     <Compile Include="CP01.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="CP02.Designer.vb">
+      <DependentUpon>CP02.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CP02.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CP11.Designer.vb">
+      <DependentUpon>CP11.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CP11.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CP12.Designer.vb">
+      <DependentUpon>CP12.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CP12.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CP13.Designer.vb">
+      <DependentUpon>CP13.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CP13.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CP14.Designer.vb">
+      <DependentUpon>CP14.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CP14.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CP15.Designer.vb">
+      <DependentUpon>CP15.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CP15.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CP16.Designer.vb">
+      <DependentUpon>CP16.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CP16.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CP31.Designer.vb">
+      <DependentUpon>CP31.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CP31.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CP32.Designer.vb">
+      <DependentUpon>CP32.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CP32.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CP41.Designer.vb">
+      <DependentUpon>CP41.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CP41.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CP42.Designer.vb">
+      <DependentUpon>CP42.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CP42.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CP43.Designer.vb">
+      <DependentUpon>CP43.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CP43.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CP44.Designer.vb">
+      <DependentUpon>CP44.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CP44.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CP45.Designer.vb">
+      <DependentUpon>CP45.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CP45.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CP46.Designer.vb">
+      <DependentUpon>CP46.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CP46.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CP47.Designer.vb">
+      <DependentUpon>CP47.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CP47.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CP48.Designer.vb">
+      <DependentUpon>CP48.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CP48.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CP49.Designer.vb">
+      <DependentUpon>CP49.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CP49.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CP51.Designer.vb">
+      <DependentUpon>CP51.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CP51.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CP52.Designer.vb">
+      <DependentUpon>CP52.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CP52.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CP53.Designer.vb">
+      <DependentUpon>CP53.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CP53.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CP54.Designer.vb">
+      <DependentUpon>CP54.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CP54.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CP55.Designer.vb">
+      <DependentUpon>CP55.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CP55.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CP56.Designer.vb">
+      <DependentUpon>CP56.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CP56.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CP57.Designer.vb">
+      <DependentUpon>CP57.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CP57.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CP58.Designer.vb">
+      <DependentUpon>CP58.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CP58.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CP59.Designer.vb">
+      <DependentUpon>CP59.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CP59.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CP61.Designer.vb">
+      <DependentUpon>CP61.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CP61.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CP62.Designer.vb">
+      <DependentUpon>CP62.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CP62.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CP63.Designer.vb">
+      <DependentUpon>CP63.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CP63.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CP64.Designer.vb">
+      <DependentUpon>CP64.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CP64.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CP72.Designer.vb">
+      <DependentUpon>CP72.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CP72.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CP80.Designer.vb">
+      <DependentUpon>CP80.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CP80.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CP81.Designer.vb">
+      <DependentUpon>CP81.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CP81.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CP88.Designer.vb">
+      <DependentUpon>CP88.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CP88.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CP89.Designer.vb">
+      <DependentUpon>CP89.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CP89.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CP90.Designer.vb">
+      <DependentUpon>CP90.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CP90.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CP91.Designer.vb">
+      <DependentUpon>CP91.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CP91.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CP92.Designer.vb">
+      <DependentUpon>CP92.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CP92.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CP93.Designer.vb">
+      <DependentUpon>CP93.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CP93.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CP94.Designer.vb">
+      <DependentUpon>CP94.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CP94.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="DSM5_Controls.Designer.vb">
       <DependentUpon>DSM5_Controls.vb</DependentUpon>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -141,6 +387,12 @@
     </Compile>
     <Compile Include="FormChangeControls\MainMenuDriven\MainMenuButton.vb">
       <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="InfoSheet.Designer.vb">
+      <DependentUpon>InfoSheet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="InfoSheet.vb">
+      <SubType>Form</SubType>
     </Compile>
     <Compile Include="Login1.Designer.vb">
       <DependentUpon>Login1.vb</DependentUpon>
@@ -226,12 +478,138 @@
     <EmbeddedResource Include="CP01.resx">
       <DependentUpon>CP01.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="CP02.resx">
+      <DependentUpon>CP02.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CP11.resx">
+      <DependentUpon>CP11.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CP12.resx">
+      <DependentUpon>CP12.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CP13.resx">
+      <DependentUpon>CP13.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CP14.resx">
+      <DependentUpon>CP14.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CP15.resx">
+      <DependentUpon>CP15.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CP16.resx">
+      <DependentUpon>CP16.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CP31.resx">
+      <DependentUpon>CP31.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CP32.resx">
+      <DependentUpon>CP32.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CP41.resx">
+      <DependentUpon>CP41.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CP42.resx">
+      <DependentUpon>CP42.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CP43.resx">
+      <DependentUpon>CP43.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CP44.resx">
+      <DependentUpon>CP44.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CP45.resx">
+      <DependentUpon>CP45.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CP46.resx">
+      <DependentUpon>CP46.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CP47.resx">
+      <DependentUpon>CP47.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CP48.resx">
+      <DependentUpon>CP48.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CP49.resx">
+      <DependentUpon>CP49.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CP51.resx">
+      <DependentUpon>CP51.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CP52.resx">
+      <DependentUpon>CP52.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CP53.resx">
+      <DependentUpon>CP53.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CP54.resx">
+      <DependentUpon>CP54.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CP55.resx">
+      <DependentUpon>CP55.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CP56.resx">
+      <DependentUpon>CP56.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CP57.resx">
+      <DependentUpon>CP57.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CP58.resx">
+      <DependentUpon>CP58.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CP59.resx">
+      <DependentUpon>CP59.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CP61.resx">
+      <DependentUpon>CP61.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CP62.resx">
+      <DependentUpon>CP62.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CP63.resx">
+      <DependentUpon>CP63.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CP64.resx">
+      <DependentUpon>CP64.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CP72.resx">
+      <DependentUpon>CP72.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CP80.resx">
+      <DependentUpon>CP80.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CP81.resx">
+      <DependentUpon>CP81.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CP88.resx">
+      <DependentUpon>CP88.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CP89.resx">
+      <DependentUpon>CP89.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CP90.resx">
+      <DependentUpon>CP90.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CP91.resx">
+      <DependentUpon>CP91.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CP92.resx">
+      <DependentUpon>CP92.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CP93.resx">
+      <DependentUpon>CP93.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CP94.resx">
+      <DependentUpon>CP94.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DSM5_Controls.resx">
       <DependentUpon>DSM5_Controls.vb</DependentUpon>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="FormChangeControls\MainMenuDriven\MainMenu.resx">
       <DependentUpon>MainMenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InfoSheet.resx">
+      <DependentUpon>InfoSheet.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login1.resx">
       <DependentUpon>Login1.vb</DependentUpon>

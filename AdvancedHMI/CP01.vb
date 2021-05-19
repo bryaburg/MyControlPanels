@@ -31,4 +31,17 @@
                         "MDR's That Have E-STOP = Green is Good!!", "Conveyor Box Legend", MessageBoxButtons.OKCancel)
 
     End Sub
+
+    'Handles All CheckBox Events!
+    Private Sub VB01305_CheckedChanged(sender As Object, e As EventArgs) Handles VB01305.CheckedChanged
+        InfoSheet.Show()
+    End Sub
+
+    Private Sub VB01405_CheckedChanged(sender As Object, e As EventArgs) Handles VB01405.CheckedChanged
+        InfoSheet.Show()
+    End Sub
+
+    Private Sub VB01505_CheckedChanged(sender As Object, e As EventArgs) Handles VB01505.CheckedChanged
+        InfoSheet.Show()
+    End Sub
 End Class

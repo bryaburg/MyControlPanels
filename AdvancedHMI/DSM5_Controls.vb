@@ -83,6 +83,90 @@ Public Class DSM5_Controls
             Select Case myInput
                 Case "01"
                     CP01.Show()
+                Case "02"
+                    CP02.Show()
+                Case "11"
+                    CP11.Show()
+                Case "12"
+                    CP12.Show()
+                Case "13"
+                    CP13.Show()
+                Case "14"
+                    CP14.Show()
+                Case "15"
+                    CP15.Show()
+                Case "16"
+                    CP16.Show()
+                Case "31"
+                    CP31.Show()
+                Case "32"
+                    CP32.Show()
+                Case "41"
+                    CP41.Show()
+                Case "42"
+                    CP42.Show()
+                Case "43"
+                    CP43.Show()
+                Case "44"
+                    CP44.Show()
+                Case "45"
+                    CP45.Show()
+                Case "46"
+                    CP46.Show()
+                Case "47"
+                    CP47.Show()
+                Case "48"
+                    CP48.Show()
+                Case "49"
+                    CP49.Show()
+                Case "51"
+                    CP51.Show()
+                Case "52"
+                    CP52.Show()
+                Case "53"
+                    CP53.Show()
+                Case "54"
+                    CP54.Show()
+                Case "55"
+                    CP55.Show()
+                Case "56"
+                    CP56.Show()
+                Case "57"
+                    CP57.Show()
+                Case "58"
+                    CP58.Show()
+                Case "59"
+                    CP59.Show()
+                Case "61"
+                    CP61.Show()
+                Case "62"
+                    CP62.Show()
+                Case "63"
+                    CP63.Show()
+                Case "64"
+                    CP64.Show()
+                Case "72"
+                    CP72.Show()
+                Case "80"
+                    CP80.Show()
+                Case "81"
+                    CP81.Show()
+                Case "88"
+                    CP88.Show()
+                Case "89"
+                    CP89.Show()
+                Case "90"
+                    CP90.Show()
+                Case "91"
+                    CP91.Show()
+                Case "92"
+                    CP92.Show()
+                Case "93"
+                    CP93.Show()
+                Case "94"
+                    CP94.Show()
+                Case Else
+                    MessageBox.Show("Please Enter Just the Control Panel Number!!!", "Invalid Format!!")
             End Select
         Catch ex As Exception
             MsgBox("Error", ex.Message)
