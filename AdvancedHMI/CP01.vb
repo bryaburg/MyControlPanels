@@ -44,4 +44,53 @@
     Private Sub VB01505_CheckedChanged(sender As Object, e As EventArgs) Handles VB01505.CheckedChanged
         InfoSheet.Show()
     End Sub
+
+    Private Sub BasicIndicator859_Click(sender As Object, e As EventArgs) Handles BasicIndicator859.Click
+
+    End Sub
+
+    Private Sub BasicIndicator838_Click(sender As Object, e As EventArgs) Handles BasicIndicator838.Click
+
+    End Sub
+
+    Private Sub BasicIndicator839_Click(sender As Object, e As EventArgs) Handles BasicIndicator839.Click
+
+    End Sub
+
+    Private Sub BasicIndicator878_Click(sender As Object, e As EventArgs) Handles BasicIndicator878.Click
+
+    End Sub
+
+    Private Sub BasicIndicator874_Click(sender As Object, e As EventArgs) Handles BasicIndicator874.Click
+
+    End Sub
+
+    Private Sub BasicIndicator868_Click(sender As Object, e As EventArgs) Handles BasicIndicator868.Click
+
+    End Sub
+
+    Private Sub BasicIndicator864_Click(sender As Object, e As EventArgs) Handles BasicIndicator864.Click
+
+    End Sub
+
+    Private Sub BasicIndicator858_Click(sender As Object, e As EventArgs) Handles BasicIndicator858.Click
+
+    End Sub
+
+    Private Sub BasicIndicator863_Click(sender As Object, e As EventArgs) Handles BasicIndicator863.Click
+
+    End Sub
+
+    Private Sub BasicIndicator845_Click(sender As Object, e As EventArgs) Handles BasicIndicator845.Click
+
+    End Sub
+
+    Private Sub BasicIndicator844_Click(sender As Object, e As EventArgs) Handles BasicIndicator844.Click
+
+    End Sub
+
+    Private Sub BasicIndicator840_Click(sender As Object, e As EventArgs) Handles BasicIndicator840.Click
+
+    End Sub
+
 End Class

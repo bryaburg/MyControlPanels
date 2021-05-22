@@ -223,7 +223,7 @@ Partial Class CP01
         Me.BasicIndicator166 = New AdvancedHMIControls.BasicIndicator()
         Me.BasicIndicator167 = New AdvancedHMIControls.BasicIndicator()
         Me.BasicIndicator168 = New AdvancedHMIControls.BasicIndicator()
-        Me.CheckBox3 = New AdvancedHMIControls.CheckBox()
+        Me.MDR0143521 = New AdvancedHMIControls.CheckBox()
         Me.BasicIndicator169 = New AdvancedHMIControls.BasicIndicator()
         Me.BasicIndicator170 = New AdvancedHMIControls.BasicIndicator()
         Me.BasicIndicator171 = New AdvancedHMIControls.BasicIndicator()
@@ -233,7 +233,7 @@ Partial Class CP01
         Me.BasicIndicator174 = New AdvancedHMIControls.BasicIndicator()
         Me.BasicIndicator175 = New AdvancedHMIControls.BasicIndicator()
         Me.BasicIndicator176 = New AdvancedHMIControls.BasicIndicator()
-        Me.CheckBox5 = New AdvancedHMIControls.CheckBox()
+        Me.MDR0143411 = New AdvancedHMIControls.CheckBox()
         Me.BasicIndicator177 = New AdvancedHMIControls.BasicIndicator()
         Me.BasicIndicator178 = New AdvancedHMIControls.BasicIndicator()
         Me.BasicIndicator179 = New AdvancedHMIControls.BasicIndicator()
@@ -1081,11 +1081,12 @@ Partial Class CP01
         '
         'BasicIndicator1
         '
-        Me.BasicIndicator1.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator1.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator1.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator1.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator1.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator1.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator1.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator1.Location = New System.Drawing.Point(379, 187)
         Me.BasicIndicator1.Name = "BasicIndicator1"
         Me.BasicIndicator1.OutlineColor = System.Drawing.Color.Transparent
@@ -1133,11 +1134,12 @@ Partial Class CP01
         '
         'BasicIndicator3
         '
-        Me.BasicIndicator3.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator3.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator3.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator3.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator3.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator3.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator3.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator3.Location = New System.Drawing.Point(604, 187)
         Me.BasicIndicator3.Name = "BasicIndicator3"
         Me.BasicIndicator3.OutlineColor = System.Drawing.Color.Transparent
@@ -1154,11 +1156,12 @@ Partial Class CP01
         '
         'BasicIndicator4
         '
-        Me.BasicIndicator4.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator4.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator4.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator4.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator4.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator4.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator4.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator4.Location = New System.Drawing.Point(559, 187)
         Me.BasicIndicator4.Name = "BasicIndicator4"
         Me.BasicIndicator4.OutlineColor = System.Drawing.Color.Transparent
@@ -1175,11 +1178,12 @@ Partial Class CP01
         '
         'BasicIndicator5
         '
-        Me.BasicIndicator5.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator5.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator5.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator5.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator5.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator5.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator5.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator5.Location = New System.Drawing.Point(514, 187)
         Me.BasicIndicator5.Name = "BasicIndicator5"
         Me.BasicIndicator5.OutlineColor = System.Drawing.Color.Transparent
@@ -1196,11 +1200,12 @@ Partial Class CP01
         '
         'BasicIndicator6
         '
-        Me.BasicIndicator6.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator6.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator6.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator6.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator6.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator6.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator6.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator6.Location = New System.Drawing.Point(469, 187)
         Me.BasicIndicator6.Name = "BasicIndicator6"
         Me.BasicIndicator6.OutlineColor = System.Drawing.Color.Transparent
@@ -1217,11 +1222,12 @@ Partial Class CP01
         '
         'BasicIndicator7
         '
-        Me.BasicIndicator7.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator7.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator7.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator7.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator7.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator7.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator7.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator7.Location = New System.Drawing.Point(424, 187)
         Me.BasicIndicator7.Name = "BasicIndicator7"
         Me.BasicIndicator7.OutlineColor = System.Drawing.Color.Transparent
@@ -1258,11 +1264,12 @@ Partial Class CP01
         '
         'BasicIndicator11
         '
-        Me.BasicIndicator11.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator11.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator11.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator11.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator11.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator11.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator11.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator11.Location = New System.Drawing.Point(739, 187)
         Me.BasicIndicator11.Name = "BasicIndicator11"
         Me.BasicIndicator11.OutlineColor = System.Drawing.Color.Transparent
@@ -1279,11 +1286,12 @@ Partial Class CP01
         '
         'BasicIndicator12
         '
-        Me.BasicIndicator12.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator12.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator12.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator12.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator12.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator12.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator12.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator12.Location = New System.Drawing.Point(694, 187)
         Me.BasicIndicator12.Name = "BasicIndicator12"
         Me.BasicIndicator12.OutlineColor = System.Drawing.Color.Transparent
@@ -1300,11 +1308,12 @@ Partial Class CP01
         '
         'BasicIndicator13
         '
-        Me.BasicIndicator13.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator13.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator13.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator13.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator13.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator13.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator13.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator13.Location = New System.Drawing.Point(649, 187)
         Me.BasicIndicator13.Name = "BasicIndicator13"
         Me.BasicIndicator13.OutlineColor = System.Drawing.Color.Transparent
@@ -1425,11 +1434,12 @@ Partial Class CP01
         '
         'BasicIndicator15
         '
-        Me.BasicIndicator15.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator15.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator15.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator15.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator15.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator15.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator15.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator15.Location = New System.Drawing.Point(651, 207)
         Me.BasicIndicator15.Name = "BasicIndicator15"
         Me.BasicIndicator15.OutlineColor = System.Drawing.Color.Transparent
@@ -1446,11 +1456,12 @@ Partial Class CP01
         '
         'BasicIndicator16
         '
-        Me.BasicIndicator16.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator16.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator16.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator16.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator16.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator16.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator16.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator16.Location = New System.Drawing.Point(696, 207)
         Me.BasicIndicator16.Name = "BasicIndicator16"
         Me.BasicIndicator16.OutlineColor = System.Drawing.Color.Transparent
@@ -1467,11 +1478,12 @@ Partial Class CP01
         '
         'BasicIndicator17
         '
-        Me.BasicIndicator17.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator17.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator17.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator17.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator17.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator17.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator17.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator17.Location = New System.Drawing.Point(741, 207)
         Me.BasicIndicator17.Name = "BasicIndicator17"
         Me.BasicIndicator17.OutlineColor = System.Drawing.Color.Transparent
@@ -1508,11 +1520,12 @@ Partial Class CP01
         '
         'BasicIndicator19
         '
-        Me.BasicIndicator19.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator19.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator19.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator19.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator19.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator19.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator19.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator19.Location = New System.Drawing.Point(426, 207)
         Me.BasicIndicator19.Name = "BasicIndicator19"
         Me.BasicIndicator19.OutlineColor = System.Drawing.Color.Transparent
@@ -1529,11 +1542,12 @@ Partial Class CP01
         '
         'BasicIndicator20
         '
-        Me.BasicIndicator20.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator20.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator20.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator20.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator20.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator20.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator20.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator20.Location = New System.Drawing.Point(471, 207)
         Me.BasicIndicator20.Name = "BasicIndicator20"
         Me.BasicIndicator20.OutlineColor = System.Drawing.Color.Transparent
@@ -1550,11 +1564,12 @@ Partial Class CP01
         '
         'BasicIndicator21
         '
-        Me.BasicIndicator21.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator21.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator21.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator21.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator21.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator21.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator21.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator21.Location = New System.Drawing.Point(516, 207)
         Me.BasicIndicator21.Name = "BasicIndicator21"
         Me.BasicIndicator21.OutlineColor = System.Drawing.Color.Transparent
@@ -1571,11 +1586,12 @@ Partial Class CP01
         '
         'BasicIndicator22
         '
-        Me.BasicIndicator22.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator22.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator22.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator22.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator22.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator22.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator22.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator22.Location = New System.Drawing.Point(561, 207)
         Me.BasicIndicator22.Name = "BasicIndicator22"
         Me.BasicIndicator22.OutlineColor = System.Drawing.Color.Transparent
@@ -1592,11 +1608,12 @@ Partial Class CP01
         '
         'BasicIndicator23
         '
-        Me.BasicIndicator23.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator23.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator23.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator23.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator23.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator23.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator23.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator23.Location = New System.Drawing.Point(606, 207)
         Me.BasicIndicator23.Name = "BasicIndicator23"
         Me.BasicIndicator23.OutlineColor = System.Drawing.Color.Transparent
@@ -1630,11 +1647,12 @@ Partial Class CP01
         '
         'BasicIndicator24
         '
-        Me.BasicIndicator24.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator24.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator24.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator24.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator24.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator24.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator24.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator24.Location = New System.Drawing.Point(381, 207)
         Me.BasicIndicator24.Name = "BasicIndicator24"
         Me.BasicIndicator24.OutlineColor = System.Drawing.Color.Transparent
@@ -1691,11 +1709,12 @@ Partial Class CP01
         '
         'BasicIndicator27
         '
-        Me.BasicIndicator27.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator27.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator27.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator27.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator27.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator27.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator27.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator27.Location = New System.Drawing.Point(651, 227)
         Me.BasicIndicator27.Name = "BasicIndicator27"
         Me.BasicIndicator27.OutlineColor = System.Drawing.Color.Transparent
@@ -1712,11 +1731,12 @@ Partial Class CP01
         '
         'BasicIndicator28
         '
-        Me.BasicIndicator28.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator28.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator28.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator28.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator28.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator28.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator28.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator28.Location = New System.Drawing.Point(696, 227)
         Me.BasicIndicator28.Name = "BasicIndicator28"
         Me.BasicIndicator28.OutlineColor = System.Drawing.Color.Transparent
@@ -1733,11 +1753,12 @@ Partial Class CP01
         '
         'BasicIndicator29
         '
-        Me.BasicIndicator29.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator29.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator29.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator29.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator29.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator29.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator29.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator29.Location = New System.Drawing.Point(741, 227)
         Me.BasicIndicator29.Name = "BasicIndicator29"
         Me.BasicIndicator29.OutlineColor = System.Drawing.Color.Transparent
@@ -1774,11 +1795,12 @@ Partial Class CP01
         '
         'BasicIndicator31
         '
-        Me.BasicIndicator31.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator31.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator31.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator31.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator31.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator31.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator31.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator31.Location = New System.Drawing.Point(426, 227)
         Me.BasicIndicator31.Name = "BasicIndicator31"
         Me.BasicIndicator31.OutlineColor = System.Drawing.Color.Transparent
@@ -1795,11 +1817,12 @@ Partial Class CP01
         '
         'BasicIndicator32
         '
-        Me.BasicIndicator32.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator32.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator32.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator32.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator32.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator32.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator32.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator32.Location = New System.Drawing.Point(471, 227)
         Me.BasicIndicator32.Name = "BasicIndicator32"
         Me.BasicIndicator32.OutlineColor = System.Drawing.Color.Transparent
@@ -1816,11 +1839,12 @@ Partial Class CP01
         '
         'BasicIndicator33
         '
-        Me.BasicIndicator33.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator33.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator33.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator33.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator33.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator33.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator33.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator33.Location = New System.Drawing.Point(516, 227)
         Me.BasicIndicator33.Name = "BasicIndicator33"
         Me.BasicIndicator33.OutlineColor = System.Drawing.Color.Transparent
@@ -1837,11 +1861,12 @@ Partial Class CP01
         '
         'BasicIndicator34
         '
-        Me.BasicIndicator34.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator34.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator34.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator34.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator34.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator34.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator34.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator34.Location = New System.Drawing.Point(561, 227)
         Me.BasicIndicator34.Name = "BasicIndicator34"
         Me.BasicIndicator34.OutlineColor = System.Drawing.Color.Transparent
@@ -1858,11 +1883,12 @@ Partial Class CP01
         '
         'BasicIndicator35
         '
-        Me.BasicIndicator35.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator35.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator35.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator35.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator35.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator35.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator35.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator35.Location = New System.Drawing.Point(606, 227)
         Me.BasicIndicator35.Name = "BasicIndicator35"
         Me.BasicIndicator35.OutlineColor = System.Drawing.Color.Transparent
@@ -1896,11 +1922,12 @@ Partial Class CP01
         '
         'BasicIndicator36
         '
-        Me.BasicIndicator36.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator36.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator36.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator36.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator36.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator36.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator36.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator36.Location = New System.Drawing.Point(381, 227)
         Me.BasicIndicator36.Name = "BasicIndicator36"
         Me.BasicIndicator36.OutlineColor = System.Drawing.Color.Transparent
@@ -1917,11 +1944,12 @@ Partial Class CP01
         '
         'BasicIndicator39
         '
-        Me.BasicIndicator39.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator39.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator39.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator39.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator39.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator39.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator39.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator39.Location = New System.Drawing.Point(432, 247)
         Me.BasicIndicator39.Name = "BasicIndicator39"
         Me.BasicIndicator39.OutlineColor = System.Drawing.Color.Transparent
@@ -1938,11 +1966,12 @@ Partial Class CP01
         '
         'BasicIndicator40
         '
-        Me.BasicIndicator40.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator40.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator40.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator40.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator40.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator40.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator40.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator40.Location = New System.Drawing.Point(477, 247)
         Me.BasicIndicator40.Name = "BasicIndicator40"
         Me.BasicIndicator40.OutlineColor = System.Drawing.Color.Transparent
@@ -1959,11 +1988,12 @@ Partial Class CP01
         '
         'BasicIndicator43
         '
-        Me.BasicIndicator43.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator43.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator43.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator43.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator43.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator43.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator43.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator43.Location = New System.Drawing.Point(207, 247)
         Me.BasicIndicator43.Name = "BasicIndicator43"
         Me.BasicIndicator43.OutlineColor = System.Drawing.Color.Transparent
@@ -1980,11 +2010,12 @@ Partial Class CP01
         '
         'BasicIndicator44
         '
-        Me.BasicIndicator44.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator44.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator44.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator44.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator44.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator44.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator44.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator44.Location = New System.Drawing.Point(252, 247)
         Me.BasicIndicator44.Name = "BasicIndicator44"
         Me.BasicIndicator44.OutlineColor = System.Drawing.Color.Transparent
@@ -2001,11 +2032,12 @@ Partial Class CP01
         '
         'BasicIndicator45
         '
-        Me.BasicIndicator45.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator45.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator45.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator45.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator45.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator45.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator45.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator45.Location = New System.Drawing.Point(297, 247)
         Me.BasicIndicator45.Name = "BasicIndicator45"
         Me.BasicIndicator45.OutlineColor = System.Drawing.Color.Transparent
@@ -2022,11 +2054,12 @@ Partial Class CP01
         '
         'BasicIndicator46
         '
-        Me.BasicIndicator46.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator46.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator46.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator46.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator46.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator46.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator46.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator46.Location = New System.Drawing.Point(342, 247)
         Me.BasicIndicator46.Name = "BasicIndicator46"
         Me.BasicIndicator46.OutlineColor = System.Drawing.Color.Transparent
@@ -2043,11 +2076,12 @@ Partial Class CP01
         '
         'BasicIndicator47
         '
-        Me.BasicIndicator47.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator47.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator47.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator47.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator47.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator47.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator47.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator47.Location = New System.Drawing.Point(387, 247)
         Me.BasicIndicator47.Name = "BasicIndicator47"
         Me.BasicIndicator47.OutlineColor = System.Drawing.Color.Transparent
@@ -2082,11 +2116,12 @@ Partial Class CP01
         '
         'BasicIndicator48
         '
-        Me.BasicIndicator48.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator48.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator48.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator48.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator48.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator48.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator48.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator48.Location = New System.Drawing.Point(162, 247)
         Me.BasicIndicator48.Name = "BasicIndicator48"
         Me.BasicIndicator48.OutlineColor = System.Drawing.Color.Transparent
@@ -2103,11 +2138,12 @@ Partial Class CP01
         '
         'BasicIndicator37
         '
-        Me.BasicIndicator37.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator37.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator37.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator37.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator37.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator37.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator37.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator37.Location = New System.Drawing.Point(432, 267)
         Me.BasicIndicator37.Name = "BasicIndicator37"
         Me.BasicIndicator37.OutlineColor = System.Drawing.Color.Transparent
@@ -2124,11 +2160,12 @@ Partial Class CP01
         '
         'BasicIndicator38
         '
-        Me.BasicIndicator38.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator38.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator38.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator38.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator38.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator38.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator38.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator38.Location = New System.Drawing.Point(477, 267)
         Me.BasicIndicator38.Name = "BasicIndicator38"
         Me.BasicIndicator38.OutlineColor = System.Drawing.Color.Transparent
@@ -2145,11 +2182,12 @@ Partial Class CP01
         '
         'BasicIndicator41
         '
-        Me.BasicIndicator41.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator41.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator41.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator41.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator41.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator41.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator41.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator41.Location = New System.Drawing.Point(207, 267)
         Me.BasicIndicator41.Name = "BasicIndicator41"
         Me.BasicIndicator41.OutlineColor = System.Drawing.Color.Transparent
@@ -2166,11 +2204,12 @@ Partial Class CP01
         '
         'BasicIndicator42
         '
-        Me.BasicIndicator42.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator42.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator42.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator42.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator42.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator42.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator42.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator42.Location = New System.Drawing.Point(252, 267)
         Me.BasicIndicator42.Name = "BasicIndicator42"
         Me.BasicIndicator42.OutlineColor = System.Drawing.Color.Transparent
@@ -2187,11 +2226,12 @@ Partial Class CP01
         '
         'BasicIndicator49
         '
-        Me.BasicIndicator49.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator49.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator49.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator49.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator49.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator49.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator49.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator49.Location = New System.Drawing.Point(297, 267)
         Me.BasicIndicator49.Name = "BasicIndicator49"
         Me.BasicIndicator49.OutlineColor = System.Drawing.Color.Transparent
@@ -2208,11 +2248,12 @@ Partial Class CP01
         '
         'BasicIndicator50
         '
-        Me.BasicIndicator50.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator50.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator50.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator50.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator50.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator50.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator50.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator50.Location = New System.Drawing.Point(342, 267)
         Me.BasicIndicator50.Name = "BasicIndicator50"
         Me.BasicIndicator50.OutlineColor = System.Drawing.Color.Transparent
@@ -2229,11 +2270,12 @@ Partial Class CP01
         '
         'BasicIndicator51
         '
-        Me.BasicIndicator51.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator51.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator51.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator51.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator51.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator51.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator51.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator51.Location = New System.Drawing.Point(387, 267)
         Me.BasicIndicator51.Name = "BasicIndicator51"
         Me.BasicIndicator51.OutlineColor = System.Drawing.Color.Transparent
@@ -2268,11 +2310,12 @@ Partial Class CP01
         '
         'BasicIndicator52
         '
-        Me.BasicIndicator52.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator52.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator52.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator52.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator52.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator52.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator52.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator52.Location = New System.Drawing.Point(162, 267)
         Me.BasicIndicator52.Name = "BasicIndicator52"
         Me.BasicIndicator52.OutlineColor = System.Drawing.Color.Transparent
@@ -2289,11 +2332,12 @@ Partial Class CP01
         '
         'BasicIndicator53
         '
-        Me.BasicIndicator53.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator53.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator53.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator53.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator53.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator53.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator53.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator53.Location = New System.Drawing.Point(431, 287)
         Me.BasicIndicator53.Name = "BasicIndicator53"
         Me.BasicIndicator53.OutlineColor = System.Drawing.Color.Transparent
@@ -2310,11 +2354,12 @@ Partial Class CP01
         '
         'BasicIndicator54
         '
-        Me.BasicIndicator54.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator54.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator54.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator54.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator54.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator54.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator54.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator54.Location = New System.Drawing.Point(476, 287)
         Me.BasicIndicator54.Name = "BasicIndicator54"
         Me.BasicIndicator54.OutlineColor = System.Drawing.Color.Transparent
@@ -2331,11 +2376,12 @@ Partial Class CP01
         '
         'BasicIndicator55
         '
-        Me.BasicIndicator55.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator55.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator55.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator55.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator55.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator55.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator55.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator55.Location = New System.Drawing.Point(206, 287)
         Me.BasicIndicator55.Name = "BasicIndicator55"
         Me.BasicIndicator55.OutlineColor = System.Drawing.Color.Transparent
@@ -2352,11 +2398,12 @@ Partial Class CP01
         '
         'BasicIndicator56
         '
-        Me.BasicIndicator56.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator56.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator56.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator56.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator56.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator56.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator56.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator56.Location = New System.Drawing.Point(251, 287)
         Me.BasicIndicator56.Name = "BasicIndicator56"
         Me.BasicIndicator56.OutlineColor = System.Drawing.Color.Transparent
@@ -2373,11 +2420,12 @@ Partial Class CP01
         '
         'BasicIndicator57
         '
-        Me.BasicIndicator57.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator57.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator57.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator57.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator57.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator57.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator57.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator57.Location = New System.Drawing.Point(296, 287)
         Me.BasicIndicator57.Name = "BasicIndicator57"
         Me.BasicIndicator57.OutlineColor = System.Drawing.Color.Transparent
@@ -2394,11 +2442,12 @@ Partial Class CP01
         '
         'BasicIndicator58
         '
-        Me.BasicIndicator58.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator58.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator58.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator58.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator58.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator58.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator58.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator58.Location = New System.Drawing.Point(341, 287)
         Me.BasicIndicator58.Name = "BasicIndicator58"
         Me.BasicIndicator58.OutlineColor = System.Drawing.Color.Transparent
@@ -2415,11 +2464,12 @@ Partial Class CP01
         '
         'BasicIndicator59
         '
-        Me.BasicIndicator59.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator59.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator59.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator59.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator59.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator59.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator59.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator59.Location = New System.Drawing.Point(386, 287)
         Me.BasicIndicator59.Name = "BasicIndicator59"
         Me.BasicIndicator59.OutlineColor = System.Drawing.Color.Transparent
@@ -2454,11 +2504,12 @@ Partial Class CP01
         '
         'BasicIndicator60
         '
-        Me.BasicIndicator60.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator60.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator60.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator60.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator60.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator60.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator60.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator60.Location = New System.Drawing.Point(161, 287)
         Me.BasicIndicator60.Name = "BasicIndicator60"
         Me.BasicIndicator60.OutlineColor = System.Drawing.Color.Transparent
@@ -2475,11 +2526,12 @@ Partial Class CP01
         '
         'BasicIndicator63
         '
-        Me.BasicIndicator63.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator63.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator63.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator63.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator63.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator63.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator63.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator63.Location = New System.Drawing.Point(190, 8)
         Me.BasicIndicator63.Name = "BasicIndicator63"
         Me.BasicIndicator63.OutlineColor = System.Drawing.Color.Transparent
@@ -2496,11 +2548,12 @@ Partial Class CP01
         '
         'BasicIndicator64
         '
-        Me.BasicIndicator64.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator64.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator64.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator64.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator64.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator64.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator64.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator64.Location = New System.Drawing.Point(235, 8)
         Me.BasicIndicator64.Name = "BasicIndicator64"
         Me.BasicIndicator64.OutlineColor = System.Drawing.Color.Transparent
@@ -2517,11 +2570,12 @@ Partial Class CP01
         '
         'BasicIndicator65
         '
-        Me.BasicIndicator65.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator65.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator65.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator65.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator65.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator65.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator65.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator65.Location = New System.Drawing.Point(280, 8)
         Me.BasicIndicator65.Name = "BasicIndicator65"
         Me.BasicIndicator65.OutlineColor = System.Drawing.Color.Transparent
@@ -2556,11 +2610,12 @@ Partial Class CP01
         '
         'BasicIndicator68
         '
-        Me.BasicIndicator68.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator68.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator68.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator68.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator68.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator68.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator68.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator68.Location = New System.Drawing.Point(145, 8)
         Me.BasicIndicator68.Name = "BasicIndicator68"
         Me.BasicIndicator68.OutlineColor = System.Drawing.Color.Transparent
@@ -2577,11 +2632,12 @@ Partial Class CP01
         '
         'BasicIndicator61
         '
-        Me.BasicIndicator61.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator61.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator61.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator61.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator61.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator61.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator61.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator61.Location = New System.Drawing.Point(189, 48)
         Me.BasicIndicator61.Name = "BasicIndicator61"
         Me.BasicIndicator61.OutlineColor = System.Drawing.Color.Transparent
@@ -2598,11 +2654,12 @@ Partial Class CP01
         '
         'BasicIndicator62
         '
-        Me.BasicIndicator62.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator62.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator62.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator62.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator62.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator62.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator62.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator62.Location = New System.Drawing.Point(234, 48)
         Me.BasicIndicator62.Name = "BasicIndicator62"
         Me.BasicIndicator62.OutlineColor = System.Drawing.Color.Transparent
@@ -2619,11 +2676,12 @@ Partial Class CP01
         '
         'BasicIndicator66
         '
-        Me.BasicIndicator66.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator66.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator66.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator66.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator66.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator66.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator66.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator66.Location = New System.Drawing.Point(279, 48)
         Me.BasicIndicator66.Name = "BasicIndicator66"
         Me.BasicIndicator66.OutlineColor = System.Drawing.Color.Transparent
@@ -2658,11 +2716,12 @@ Partial Class CP01
         '
         'BasicIndicator67
         '
-        Me.BasicIndicator67.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator67.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator67.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator67.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator67.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator67.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator67.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator67.Location = New System.Drawing.Point(144, 48)
         Me.BasicIndicator67.Name = "BasicIndicator67"
         Me.BasicIndicator67.OutlineColor = System.Drawing.Color.Transparent
@@ -2679,11 +2738,12 @@ Partial Class CP01
         '
         'BasicIndicator69
         '
-        Me.BasicIndicator69.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator69.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator69.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator69.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator69.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator69.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator69.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator69.Location = New System.Drawing.Point(190, 28)
         Me.BasicIndicator69.Name = "BasicIndicator69"
         Me.BasicIndicator69.OutlineColor = System.Drawing.Color.Transparent
@@ -2700,11 +2760,12 @@ Partial Class CP01
         '
         'BasicIndicator70
         '
-        Me.BasicIndicator70.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator70.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator70.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator70.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator70.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator70.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator70.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator70.Location = New System.Drawing.Point(235, 28)
         Me.BasicIndicator70.Name = "BasicIndicator70"
         Me.BasicIndicator70.OutlineColor = System.Drawing.Color.Transparent
@@ -2721,11 +2782,12 @@ Partial Class CP01
         '
         'BasicIndicator71
         '
-        Me.BasicIndicator71.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator71.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator71.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator71.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator71.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator71.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator71.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator71.Location = New System.Drawing.Point(280, 28)
         Me.BasicIndicator71.Name = "BasicIndicator71"
         Me.BasicIndicator71.OutlineColor = System.Drawing.Color.Transparent
@@ -2760,11 +2822,12 @@ Partial Class CP01
         '
         'BasicIndicator72
         '
-        Me.BasicIndicator72.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator72.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator72.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator72.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator72.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator72.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator72.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator72.Location = New System.Drawing.Point(145, 28)
         Me.BasicIndicator72.Name = "BasicIndicator72"
         Me.BasicIndicator72.OutlineColor = System.Drawing.Color.Transparent
@@ -2781,11 +2844,12 @@ Partial Class CP01
         '
         'BasicIndicator75
         '
-        Me.BasicIndicator75.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator75.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator75.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator75.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator75.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator75.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator75.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator75.Location = New System.Drawing.Point(338, 67)
         Me.BasicIndicator75.Name = "BasicIndicator75"
         Me.BasicIndicator75.OutlineColor = System.Drawing.Color.Transparent
@@ -2802,11 +2866,12 @@ Partial Class CP01
         '
         'BasicIndicator76
         '
-        Me.BasicIndicator76.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator76.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator76.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator76.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator76.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator76.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator76.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator76.Location = New System.Drawing.Point(203, 67)
         Me.BasicIndicator76.Name = "BasicIndicator76"
         Me.BasicIndicator76.OutlineColor = System.Drawing.Color.Transparent
@@ -2823,11 +2888,12 @@ Partial Class CP01
         '
         'BasicIndicator77
         '
-        Me.BasicIndicator77.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator77.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator77.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator77.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator77.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator77.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator77.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator77.Location = New System.Drawing.Point(248, 67)
         Me.BasicIndicator77.Name = "BasicIndicator77"
         Me.BasicIndicator77.OutlineColor = System.Drawing.Color.Transparent
@@ -2844,11 +2910,12 @@ Partial Class CP01
         '
         'BasicIndicator78
         '
-        Me.BasicIndicator78.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator78.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator78.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator78.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator78.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator78.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator78.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator78.Location = New System.Drawing.Point(293, 67)
         Me.BasicIndicator78.Name = "BasicIndicator78"
         Me.BasicIndicator78.OutlineColor = System.Drawing.Color.Transparent
@@ -2865,11 +2932,12 @@ Partial Class CP01
         '
         'BasicIndicator79
         '
-        Me.BasicIndicator79.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator79.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator79.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator79.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator79.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator79.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator79.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator79.Location = New System.Drawing.Point(158, 67)
         Me.BasicIndicator79.Name = "BasicIndicator79"
         Me.BasicIndicator79.OutlineColor = System.Drawing.Color.Transparent
@@ -2904,11 +2972,12 @@ Partial Class CP01
         '
         'BasicIndicator80
         '
-        Me.BasicIndicator80.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator80.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator80.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator80.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator80.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator80.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator80.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator80.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator80.Location = New System.Drawing.Point(113, 67)
         Me.BasicIndicator80.Name = "BasicIndicator80"
         Me.BasicIndicator80.OutlineColor = System.Drawing.Color.Transparent
@@ -2925,11 +2994,12 @@ Partial Class CP01
         '
         'BasicIndicator73
         '
-        Me.BasicIndicator73.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator73.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator73.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator73.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator73.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator73.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator73.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator73.Location = New System.Drawing.Point(337, 107)
         Me.BasicIndicator73.Name = "BasicIndicator73"
         Me.BasicIndicator73.OutlineColor = System.Drawing.Color.Transparent
@@ -2946,11 +3016,12 @@ Partial Class CP01
         '
         'BasicIndicator74
         '
-        Me.BasicIndicator74.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator74.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator74.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator74.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator74.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator74.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator74.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator74.Location = New System.Drawing.Point(202, 107)
         Me.BasicIndicator74.Name = "BasicIndicator74"
         Me.BasicIndicator74.OutlineColor = System.Drawing.Color.Transparent
@@ -2967,11 +3038,12 @@ Partial Class CP01
         '
         'BasicIndicator81
         '
-        Me.BasicIndicator81.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator81.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator81.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator81.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator81.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator81.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator81.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator81.Location = New System.Drawing.Point(247, 107)
         Me.BasicIndicator81.Name = "BasicIndicator81"
         Me.BasicIndicator81.OutlineColor = System.Drawing.Color.Transparent
@@ -2988,11 +3060,12 @@ Partial Class CP01
         '
         'BasicIndicator82
         '
-        Me.BasicIndicator82.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator82.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator82.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator82.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator82.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator82.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator82.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator82.Location = New System.Drawing.Point(292, 107)
         Me.BasicIndicator82.Name = "BasicIndicator82"
         Me.BasicIndicator82.OutlineColor = System.Drawing.Color.Transparent
@@ -3009,11 +3082,12 @@ Partial Class CP01
         '
         'BasicIndicator83
         '
-        Me.BasicIndicator83.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator83.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator83.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator83.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator83.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator83.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator83.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator83.Location = New System.Drawing.Point(157, 107)
         Me.BasicIndicator83.Name = "BasicIndicator83"
         Me.BasicIndicator83.OutlineColor = System.Drawing.Color.Transparent
@@ -3048,11 +3122,12 @@ Partial Class CP01
         '
         'BasicIndicator84
         '
-        Me.BasicIndicator84.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator84.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator84.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator84.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator84.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator84.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator84.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator84.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator84.Location = New System.Drawing.Point(112, 107)
         Me.BasicIndicator84.Name = "BasicIndicator84"
         Me.BasicIndicator84.OutlineColor = System.Drawing.Color.Transparent
@@ -3069,11 +3144,12 @@ Partial Class CP01
         '
         'BasicIndicator85
         '
-        Me.BasicIndicator85.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator85.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator85.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator85.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator85.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator85.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator85.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator85.Location = New System.Drawing.Point(338, 87)
         Me.BasicIndicator85.Name = "BasicIndicator85"
         Me.BasicIndicator85.OutlineColor = System.Drawing.Color.Transparent
@@ -3090,11 +3166,12 @@ Partial Class CP01
         '
         'BasicIndicator86
         '
-        Me.BasicIndicator86.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator86.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator86.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator86.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator86.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator86.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator86.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator86.Location = New System.Drawing.Point(203, 87)
         Me.BasicIndicator86.Name = "BasicIndicator86"
         Me.BasicIndicator86.OutlineColor = System.Drawing.Color.Transparent
@@ -3111,11 +3188,12 @@ Partial Class CP01
         '
         'BasicIndicator87
         '
-        Me.BasicIndicator87.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator87.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator87.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator87.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator87.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator87.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator87.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator87.Location = New System.Drawing.Point(248, 87)
         Me.BasicIndicator87.Name = "BasicIndicator87"
         Me.BasicIndicator87.OutlineColor = System.Drawing.Color.Transparent
@@ -3132,11 +3210,12 @@ Partial Class CP01
         '
         'BasicIndicator88
         '
-        Me.BasicIndicator88.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator88.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator88.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator88.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator88.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator88.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator88.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator88.Location = New System.Drawing.Point(293, 87)
         Me.BasicIndicator88.Name = "BasicIndicator88"
         Me.BasicIndicator88.OutlineColor = System.Drawing.Color.Transparent
@@ -3153,11 +3232,12 @@ Partial Class CP01
         '
         'BasicIndicator89
         '
-        Me.BasicIndicator89.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator89.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator89.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator89.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator89.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator89.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator89.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator89.Location = New System.Drawing.Point(158, 87)
         Me.BasicIndicator89.Name = "BasicIndicator89"
         Me.BasicIndicator89.OutlineColor = System.Drawing.Color.Transparent
@@ -3192,11 +3272,12 @@ Partial Class CP01
         '
         'BasicIndicator90
         '
-        Me.BasicIndicator90.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator90.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator90.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator90.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator90.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator90.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator90.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator90.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator90.Location = New System.Drawing.Point(113, 87)
         Me.BasicIndicator90.Name = "BasicIndicator90"
         Me.BasicIndicator90.OutlineColor = System.Drawing.Color.Transparent
@@ -3213,11 +3294,12 @@ Partial Class CP01
         '
         'BasicIndicator91
         '
-        Me.BasicIndicator91.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator91.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator91.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator91.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator91.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator91.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator91.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator91.Location = New System.Drawing.Point(330, 127)
         Me.BasicIndicator91.Name = "BasicIndicator91"
         Me.BasicIndicator91.OutlineColor = System.Drawing.Color.Transparent
@@ -3234,11 +3316,12 @@ Partial Class CP01
         '
         'BasicIndicator92
         '
-        Me.BasicIndicator92.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator92.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator92.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator92.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator92.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator92.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator92.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator92.Location = New System.Drawing.Point(192, 127)
         Me.BasicIndicator92.Name = "BasicIndicator92"
         Me.BasicIndicator92.OutlineColor = System.Drawing.Color.Transparent
@@ -3255,11 +3338,12 @@ Partial Class CP01
         '
         'BasicIndicator93
         '
-        Me.BasicIndicator93.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator93.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator93.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator93.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator93.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator93.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator93.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator93.Location = New System.Drawing.Point(238, 127)
         Me.BasicIndicator93.Name = "BasicIndicator93"
         Me.BasicIndicator93.OutlineColor = System.Drawing.Color.Transparent
@@ -3276,11 +3360,12 @@ Partial Class CP01
         '
         'BasicIndicator94
         '
-        Me.BasicIndicator94.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator94.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator94.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator94.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator94.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator94.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator94.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator94.Location = New System.Drawing.Point(284, 127)
         Me.BasicIndicator94.Name = "BasicIndicator94"
         Me.BasicIndicator94.OutlineColor = System.Drawing.Color.Transparent
@@ -3297,11 +3382,12 @@ Partial Class CP01
         '
         'BasicIndicator95
         '
-        Me.BasicIndicator95.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator95.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator95.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator95.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator95.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator95.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator95.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator95.Location = New System.Drawing.Point(146, 127)
         Me.BasicIndicator95.Name = "BasicIndicator95"
         Me.BasicIndicator95.OutlineColor = System.Drawing.Color.Transparent
@@ -3336,11 +3422,12 @@ Partial Class CP01
         '
         'BasicIndicator96
         '
-        Me.BasicIndicator96.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator96.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator96.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator96.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator96.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator96.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator96.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator96.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator96.Location = New System.Drawing.Point(100, 127)
         Me.BasicIndicator96.Name = "BasicIndicator96"
         Me.BasicIndicator96.OutlineColor = System.Drawing.Color.Transparent
@@ -3357,11 +3444,12 @@ Partial Class CP01
         '
         'BasicIndicator97
         '
-        Me.BasicIndicator97.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator97.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator97.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator97.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator97.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator97.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator97.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator97.Location = New System.Drawing.Point(329, 167)
         Me.BasicIndicator97.Name = "BasicIndicator97"
         Me.BasicIndicator97.OutlineColor = System.Drawing.Color.Transparent
@@ -3378,11 +3466,12 @@ Partial Class CP01
         '
         'BasicIndicator98
         '
-        Me.BasicIndicator98.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator98.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator98.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator98.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator98.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator98.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator98.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator98.Location = New System.Drawing.Point(191, 167)
         Me.BasicIndicator98.Name = "BasicIndicator98"
         Me.BasicIndicator98.OutlineColor = System.Drawing.Color.Transparent
@@ -3399,11 +3488,12 @@ Partial Class CP01
         '
         'BasicIndicator99
         '
-        Me.BasicIndicator99.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator99.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator99.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator99.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator99.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator99.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator99.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator99.Location = New System.Drawing.Point(237, 167)
         Me.BasicIndicator99.Name = "BasicIndicator99"
         Me.BasicIndicator99.OutlineColor = System.Drawing.Color.Transparent
@@ -3420,11 +3510,12 @@ Partial Class CP01
         '
         'BasicIndicator100
         '
-        Me.BasicIndicator100.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator100.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator100.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator100.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator100.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator100.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator100.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator100.Location = New System.Drawing.Point(283, 167)
         Me.BasicIndicator100.Name = "BasicIndicator100"
         Me.BasicIndicator100.OutlineColor = System.Drawing.Color.Transparent
@@ -3441,11 +3532,12 @@ Partial Class CP01
         '
         'BasicIndicator101
         '
-        Me.BasicIndicator101.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator101.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator101.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator101.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator101.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator101.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator101.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator101.Location = New System.Drawing.Point(145, 167)
         Me.BasicIndicator101.Name = "BasicIndicator101"
         Me.BasicIndicator101.OutlineColor = System.Drawing.Color.Transparent
@@ -3480,11 +3572,12 @@ Partial Class CP01
         '
         'BasicIndicator102
         '
-        Me.BasicIndicator102.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator102.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator102.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator102.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator102.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator102.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator102.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator102.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator102.Location = New System.Drawing.Point(99, 167)
         Me.BasicIndicator102.Name = "BasicIndicator102"
         Me.BasicIndicator102.OutlineColor = System.Drawing.Color.Transparent
@@ -3501,11 +3594,12 @@ Partial Class CP01
         '
         'BasicIndicator103
         '
-        Me.BasicIndicator103.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator103.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator103.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator103.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator103.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator103.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator103.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator103.Location = New System.Drawing.Point(330, 147)
         Me.BasicIndicator103.Name = "BasicIndicator103"
         Me.BasicIndicator103.OutlineColor = System.Drawing.Color.Transparent
@@ -3522,11 +3616,12 @@ Partial Class CP01
         '
         'BasicIndicator104
         '
-        Me.BasicIndicator104.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator104.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator104.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator104.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator104.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator104.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator104.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator104.Location = New System.Drawing.Point(192, 147)
         Me.BasicIndicator104.Name = "BasicIndicator104"
         Me.BasicIndicator104.OutlineColor = System.Drawing.Color.Transparent
@@ -3543,11 +3638,12 @@ Partial Class CP01
         '
         'BasicIndicator105
         '
-        Me.BasicIndicator105.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator105.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator105.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator105.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator105.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator105.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator105.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator105.Location = New System.Drawing.Point(238, 147)
         Me.BasicIndicator105.Name = "BasicIndicator105"
         Me.BasicIndicator105.OutlineColor = System.Drawing.Color.Transparent
@@ -3564,11 +3660,12 @@ Partial Class CP01
         '
         'BasicIndicator106
         '
-        Me.BasicIndicator106.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator106.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator106.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator106.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator106.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator106.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator106.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator106.Location = New System.Drawing.Point(284, 147)
         Me.BasicIndicator106.Name = "BasicIndicator106"
         Me.BasicIndicator106.OutlineColor = System.Drawing.Color.Transparent
@@ -3585,11 +3682,12 @@ Partial Class CP01
         '
         'BasicIndicator107
         '
-        Me.BasicIndicator107.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator107.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator107.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator107.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator107.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator107.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator107.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator107.Location = New System.Drawing.Point(146, 147)
         Me.BasicIndicator107.Name = "BasicIndicator107"
         Me.BasicIndicator107.OutlineColor = System.Drawing.Color.Transparent
@@ -3624,11 +3722,12 @@ Partial Class CP01
         '
         'BasicIndicator108
         '
-        Me.BasicIndicator108.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator108.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator108.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator108.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator108.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator108.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator108.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator108.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator108.Location = New System.Drawing.Point(100, 147)
         Me.BasicIndicator108.Name = "BasicIndicator108"
         Me.BasicIndicator108.OutlineColor = System.Drawing.Color.Transparent
@@ -3645,11 +3744,12 @@ Partial Class CP01
         '
         'BasicIndicator109
         '
-        Me.BasicIndicator109.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator109.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator109.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator109.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator109.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator109.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator109.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator109.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator109.Location = New System.Drawing.Point(100, 28)
         Me.BasicIndicator109.Name = "BasicIndicator109"
         Me.BasicIndicator109.OutlineColor = System.Drawing.Color.Transparent
@@ -3666,11 +3766,12 @@ Partial Class CP01
         '
         'BasicIndicator110
         '
-        Me.BasicIndicator110.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator110.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator110.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator110.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator110.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator110.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator110.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator110.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator110.Location = New System.Drawing.Point(99, 48)
         Me.BasicIndicator110.Name = "BasicIndicator110"
         Me.BasicIndicator110.OutlineColor = System.Drawing.Color.Transparent
@@ -3687,11 +3788,12 @@ Partial Class CP01
         '
         'BasicIndicator111
         '
-        Me.BasicIndicator111.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator111.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator111.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator111.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator111.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator111.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator111.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator111.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator111.Location = New System.Drawing.Point(100, 8)
         Me.BasicIndicator111.Name = "BasicIndicator111"
         Me.BasicIndicator111.OutlineColor = System.Drawing.Color.Transparent
@@ -3708,11 +3810,12 @@ Partial Class CP01
         '
         'BasicIndicator112
         '
-        Me.BasicIndicator112.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator112.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator112.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator112.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator112.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator112.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator112.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator112.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator112.Location = New System.Drawing.Point(291, 227)
         Me.BasicIndicator112.Name = "BasicIndicator112"
         Me.BasicIndicator112.OutlineColor = System.Drawing.Color.Transparent
@@ -3729,11 +3832,12 @@ Partial Class CP01
         '
         'BasicIndicator113
         '
-        Me.BasicIndicator113.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator113.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator113.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator113.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator113.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator113.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator113.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator113.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator113.Location = New System.Drawing.Point(291, 207)
         Me.BasicIndicator113.Name = "BasicIndicator113"
         Me.BasicIndicator113.OutlineColor = System.Drawing.Color.Transparent
@@ -3750,11 +3854,12 @@ Partial Class CP01
         '
         'BasicIndicator114
         '
-        Me.BasicIndicator114.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator114.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator114.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator114.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator114.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator114.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator114.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator114.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator114.Location = New System.Drawing.Point(289, 187)
         Me.BasicIndicator114.Name = "BasicIndicator114"
         Me.BasicIndicator114.OutlineColor = System.Drawing.Color.Transparent
@@ -3771,11 +3876,12 @@ Partial Class CP01
         '
         'BasicIndicator115
         '
-        Me.BasicIndicator115.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator115.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator115.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator115.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator115.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator115.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator115.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator115.Location = New System.Drawing.Point(336, 227)
         Me.BasicIndicator115.Name = "BasicIndicator115"
         Me.BasicIndicator115.OutlineColor = System.Drawing.Color.Transparent
@@ -3792,11 +3898,12 @@ Partial Class CP01
         '
         'BasicIndicator116
         '
-        Me.BasicIndicator116.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator116.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator116.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator116.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator116.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator116.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator116.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator116.Location = New System.Drawing.Point(336, 207)
         Me.BasicIndicator116.Name = "BasicIndicator116"
         Me.BasicIndicator116.OutlineColor = System.Drawing.Color.Transparent
@@ -3813,11 +3920,12 @@ Partial Class CP01
         '
         'BasicIndicator117
         '
-        Me.BasicIndicator117.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator117.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator117.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator117.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator117.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator117.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator117.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator117.Location = New System.Drawing.Point(334, 187)
         Me.BasicIndicator117.Name = "BasicIndicator117"
         Me.BasicIndicator117.OutlineColor = System.Drawing.Color.Transparent
@@ -3834,11 +3942,12 @@ Partial Class CP01
         '
         'BasicIndicator118
         '
-        Me.BasicIndicator118.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator118.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator118.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator118.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator118.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator118.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator118.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator118.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator118.Location = New System.Drawing.Point(116, 287)
         Me.BasicIndicator118.Name = "BasicIndicator118"
         Me.BasicIndicator118.OutlineColor = System.Drawing.Color.Transparent
@@ -3855,11 +3964,12 @@ Partial Class CP01
         '
         'BasicIndicator119
         '
-        Me.BasicIndicator119.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator119.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator119.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator119.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator119.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator119.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator119.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator119.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator119.Location = New System.Drawing.Point(117, 267)
         Me.BasicIndicator119.Name = "BasicIndicator119"
         Me.BasicIndicator119.OutlineColor = System.Drawing.Color.Transparent
@@ -3876,11 +3986,12 @@ Partial Class CP01
         '
         'BasicIndicator120
         '
-        Me.BasicIndicator120.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator120.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator120.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator120.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator120.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator120.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator120.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator120.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator120.Location = New System.Drawing.Point(117, 247)
         Me.BasicIndicator120.Name = "BasicIndicator120"
         Me.BasicIndicator120.OutlineColor = System.Drawing.Color.Transparent
@@ -3897,11 +4008,12 @@ Partial Class CP01
         '
         'BasicIndicator121
         '
-        Me.BasicIndicator121.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator121.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator121.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator121.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator121.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator121.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator121.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator121.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator121.Location = New System.Drawing.Point(188, 307)
         Me.BasicIndicator121.Name = "BasicIndicator121"
         Me.BasicIndicator121.OutlineColor = System.Drawing.Color.Transparent
@@ -3918,11 +4030,12 @@ Partial Class CP01
         '
         'BasicIndicator122
         '
-        Me.BasicIndicator122.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator122.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator122.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator122.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator122.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator122.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator122.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator122.Location = New System.Drawing.Point(278, 307)
         Me.BasicIndicator122.Name = "BasicIndicator122"
         Me.BasicIndicator122.OutlineColor = System.Drawing.Color.Transparent
@@ -3939,11 +4052,12 @@ Partial Class CP01
         '
         'BasicIndicator123
         '
-        Me.BasicIndicator123.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator123.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator123.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator123.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator123.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator123.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator123.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator123.Location = New System.Drawing.Point(323, 307)
         Me.BasicIndicator123.Name = "BasicIndicator123"
         Me.BasicIndicator123.OutlineColor = System.Drawing.Color.Transparent
@@ -3960,11 +4074,12 @@ Partial Class CP01
         '
         'BasicIndicator124
         '
-        Me.BasicIndicator124.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator124.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator124.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator124.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator124.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator124.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator124.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator124.Location = New System.Drawing.Point(368, 307)
         Me.BasicIndicator124.Name = "BasicIndicator124"
         Me.BasicIndicator124.OutlineColor = System.Drawing.Color.Transparent
@@ -3999,11 +4114,12 @@ Partial Class CP01
         '
         'BasicIndicator125
         '
-        Me.BasicIndicator125.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator125.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator125.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator125.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator125.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator125.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator125.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator125.Location = New System.Drawing.Point(233, 307)
         Me.BasicIndicator125.Name = "BasicIndicator125"
         Me.BasicIndicator125.OutlineColor = System.Drawing.Color.Transparent
@@ -4100,11 +4216,12 @@ Partial Class CP01
         '
         'BasicIndicator130
         '
-        Me.BasicIndicator130.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator130.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator130.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator130.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator130.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator130.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator130.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator130.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator130.Location = New System.Drawing.Point(188, 347)
         Me.BasicIndicator130.Name = "BasicIndicator130"
         Me.BasicIndicator130.OutlineColor = System.Drawing.Color.Transparent
@@ -4121,11 +4238,12 @@ Partial Class CP01
         '
         'BasicIndicator131
         '
-        Me.BasicIndicator131.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator131.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator131.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator131.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator131.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator131.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator131.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator131.Location = New System.Drawing.Point(278, 347)
         Me.BasicIndicator131.Name = "BasicIndicator131"
         Me.BasicIndicator131.OutlineColor = System.Drawing.Color.Transparent
@@ -4142,11 +4260,12 @@ Partial Class CP01
         '
         'BasicIndicator132
         '
-        Me.BasicIndicator132.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator132.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator132.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator132.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator132.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator132.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator132.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator132.Location = New System.Drawing.Point(323, 347)
         Me.BasicIndicator132.Name = "BasicIndicator132"
         Me.BasicIndicator132.OutlineColor = System.Drawing.Color.Transparent
@@ -4163,11 +4282,12 @@ Partial Class CP01
         '
         'BasicIndicator133
         '
-        Me.BasicIndicator133.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator133.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator133.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator133.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator133.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator133.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator133.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator133.Location = New System.Drawing.Point(368, 347)
         Me.BasicIndicator133.Name = "BasicIndicator133"
         Me.BasicIndicator133.OutlineColor = System.Drawing.Color.Transparent
@@ -4202,11 +4322,12 @@ Partial Class CP01
         '
         'BasicIndicator134
         '
-        Me.BasicIndicator134.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator134.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator134.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator134.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator134.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator134.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator134.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator134.Location = New System.Drawing.Point(233, 347)
         Me.BasicIndicator134.Name = "BasicIndicator134"
         Me.BasicIndicator134.OutlineColor = System.Drawing.Color.Transparent
@@ -4263,11 +4384,12 @@ Partial Class CP01
         '
         'BasicIndicator137
         '
-        Me.BasicIndicator137.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator137.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator137.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator137.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator137.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator137.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator137.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator137.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator137.Location = New System.Drawing.Point(188, 327)
         Me.BasicIndicator137.Name = "BasicIndicator137"
         Me.BasicIndicator137.OutlineColor = System.Drawing.Color.Transparent
@@ -4284,11 +4406,12 @@ Partial Class CP01
         '
         'BasicIndicator138
         '
-        Me.BasicIndicator138.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator138.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator138.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator138.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator138.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator138.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator138.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator138.Location = New System.Drawing.Point(278, 327)
         Me.BasicIndicator138.Name = "BasicIndicator138"
         Me.BasicIndicator138.OutlineColor = System.Drawing.Color.Transparent
@@ -4305,11 +4428,12 @@ Partial Class CP01
         '
         'BasicIndicator139
         '
-        Me.BasicIndicator139.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator139.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator139.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator139.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator139.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator139.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator139.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator139.Location = New System.Drawing.Point(323, 327)
         Me.BasicIndicator139.Name = "BasicIndicator139"
         Me.BasicIndicator139.OutlineColor = System.Drawing.Color.Transparent
@@ -4326,11 +4450,12 @@ Partial Class CP01
         '
         'BasicIndicator140
         '
-        Me.BasicIndicator140.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator140.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator140.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator140.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator140.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator140.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator140.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator140.Location = New System.Drawing.Point(368, 327)
         Me.BasicIndicator140.Name = "BasicIndicator140"
         Me.BasicIndicator140.OutlineColor = System.Drawing.Color.Transparent
@@ -4365,11 +4490,12 @@ Partial Class CP01
         '
         'BasicIndicator141
         '
-        Me.BasicIndicator141.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator141.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator141.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator141.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator141.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator141.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator141.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator141.Location = New System.Drawing.Point(233, 327)
         Me.BasicIndicator141.Name = "BasicIndicator141"
         Me.BasicIndicator141.OutlineColor = System.Drawing.Color.Transparent
@@ -4386,11 +4512,12 @@ Partial Class CP01
         '
         'BasicIndicator143
         '
-        Me.BasicIndicator143.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator143.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator143.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator143.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator143.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator143.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator143.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator143.Location = New System.Drawing.Point(303, 367)
         Me.BasicIndicator143.Name = "BasicIndicator143"
         Me.BasicIndicator143.OutlineColor = System.Drawing.Color.Transparent
@@ -4407,11 +4534,12 @@ Partial Class CP01
         '
         'BasicIndicator146
         '
-        Me.BasicIndicator146.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator146.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator146.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator146.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator146.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator146.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator146.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator146.Location = New System.Drawing.Point(248, 367)
         Me.BasicIndicator146.Name = "BasicIndicator146"
         Me.BasicIndicator146.OutlineColor = System.Drawing.Color.Transparent
@@ -4446,11 +4574,12 @@ Partial Class CP01
         '
         'BasicIndicator147
         '
-        Me.BasicIndicator147.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator147.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator147.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator147.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator147.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator147.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator147.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator147.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator147.Location = New System.Drawing.Point(193, 367)
         Me.BasicIndicator147.Name = "BasicIndicator147"
         Me.BasicIndicator147.OutlineColor = System.Drawing.Color.Transparent
@@ -4507,11 +4636,12 @@ Partial Class CP01
         '
         'BasicIndicator145
         '
-        Me.BasicIndicator145.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator145.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator145.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator145.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator145.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator145.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator145.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator145.Location = New System.Drawing.Point(305, 387)
         Me.BasicIndicator145.Name = "BasicIndicator145"
         Me.BasicIndicator145.OutlineColor = System.Drawing.Color.Transparent
@@ -4528,11 +4658,12 @@ Partial Class CP01
         '
         'BasicIndicator149
         '
-        Me.BasicIndicator149.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator149.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator149.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator149.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator149.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator149.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator149.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator149.Location = New System.Drawing.Point(250, 387)
         Me.BasicIndicator149.Name = "BasicIndicator149"
         Me.BasicIndicator149.OutlineColor = System.Drawing.Color.Transparent
@@ -4567,11 +4698,12 @@ Partial Class CP01
         '
         'BasicIndicator151
         '
-        Me.BasicIndicator151.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator151.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator151.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator151.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator151.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator151.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator151.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator151.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator151.Location = New System.Drawing.Point(195, 387)
         Me.BasicIndicator151.Name = "BasicIndicator151"
         Me.BasicIndicator151.OutlineColor = System.Drawing.Color.Transparent
@@ -4608,11 +4740,12 @@ Partial Class CP01
         '
         'BasicIndicator192
         '
-        Me.BasicIndicator192.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator192.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator192.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator192.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator192.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator192.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator192.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator192.Location = New System.Drawing.Point(305, 407)
         Me.BasicIndicator192.Name = "BasicIndicator192"
         Me.BasicIndicator192.OutlineColor = System.Drawing.Color.Transparent
@@ -4629,11 +4762,12 @@ Partial Class CP01
         '
         'BasicIndicator193
         '
-        Me.BasicIndicator193.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator193.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator193.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator193.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator193.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator193.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator193.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator193.Location = New System.Drawing.Point(250, 407)
         Me.BasicIndicator193.Name = "BasicIndicator193"
         Me.BasicIndicator193.OutlineColor = System.Drawing.Color.Transparent
@@ -4668,11 +4802,12 @@ Partial Class CP01
         '
         'BasicIndicator194
         '
-        Me.BasicIndicator194.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator194.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator194.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator194.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator194.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator194.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator194.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator194.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator194.Location = New System.Drawing.Point(195, 407)
         Me.BasicIndicator194.Name = "BasicIndicator194"
         Me.BasicIndicator194.OutlineColor = System.Drawing.Color.Transparent
@@ -4709,11 +4844,12 @@ Partial Class CP01
         '
         'BasicIndicator196
         '
-        Me.BasicIndicator196.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator196.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator196.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator196.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator196.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator196.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator196.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator196.Location = New System.Drawing.Point(307, 427)
         Me.BasicIndicator196.Name = "BasicIndicator196"
         Me.BasicIndicator196.OutlineColor = System.Drawing.Color.Transparent
@@ -4730,11 +4866,12 @@ Partial Class CP01
         '
         'BasicIndicator197
         '
-        Me.BasicIndicator197.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator197.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator197.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator197.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator197.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator197.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator197.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator197.Location = New System.Drawing.Point(252, 427)
         Me.BasicIndicator197.Name = "BasicIndicator197"
         Me.BasicIndicator197.OutlineColor = System.Drawing.Color.Transparent
@@ -4769,11 +4906,12 @@ Partial Class CP01
         '
         'BasicIndicator198
         '
-        Me.BasicIndicator198.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator198.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator198.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator198.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator198.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator198.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator198.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator198.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator198.Location = New System.Drawing.Point(197, 427)
         Me.BasicIndicator198.Name = "BasicIndicator198"
         Me.BasicIndicator198.OutlineColor = System.Drawing.Color.Transparent
@@ -4810,11 +4948,12 @@ Partial Class CP01
         '
         'BasicIndicator200
         '
-        Me.BasicIndicator200.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator200.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator200.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator200.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator200.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator200.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator200.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator200.Location = New System.Drawing.Point(307, 447)
         Me.BasicIndicator200.Name = "BasicIndicator200"
         Me.BasicIndicator200.OutlineColor = System.Drawing.Color.Transparent
@@ -4831,11 +4970,12 @@ Partial Class CP01
         '
         'BasicIndicator201
         '
-        Me.BasicIndicator201.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator201.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator201.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator201.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator201.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator201.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator201.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator201.Location = New System.Drawing.Point(252, 447)
         Me.BasicIndicator201.Name = "BasicIndicator201"
         Me.BasicIndicator201.OutlineColor = System.Drawing.Color.Transparent
@@ -4870,11 +5010,12 @@ Partial Class CP01
         '
         'BasicIndicator202
         '
-        Me.BasicIndicator202.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator202.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator202.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator202.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator202.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator202.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator202.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator202.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator202.Location = New System.Drawing.Point(197, 447)
         Me.BasicIndicator202.Name = "BasicIndicator202"
         Me.BasicIndicator202.OutlineColor = System.Drawing.Color.Transparent
@@ -4911,11 +5052,12 @@ Partial Class CP01
         '
         'BasicIndicator159
         '
-        Me.BasicIndicator159.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator159.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator159.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator159.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator159.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator159.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator159.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator159.Location = New System.Drawing.Point(307, 547)
         Me.BasicIndicator159.Name = "BasicIndicator159"
         Me.BasicIndicator159.OutlineColor = System.Drawing.Color.Transparent
@@ -4932,11 +5074,12 @@ Partial Class CP01
         '
         'BasicIndicator160
         '
-        Me.BasicIndicator160.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator160.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator160.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator160.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator160.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator160.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator160.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator160.Location = New System.Drawing.Point(252, 547)
         Me.BasicIndicator160.Name = "BasicIndicator160"
         Me.BasicIndicator160.OutlineColor = System.Drawing.Color.Transparent
@@ -4971,11 +5114,12 @@ Partial Class CP01
         '
         'BasicIndicator161
         '
-        Me.BasicIndicator161.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator161.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator161.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator161.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator161.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator161.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator161.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator161.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator161.Location = New System.Drawing.Point(197, 547)
         Me.BasicIndicator161.Name = "BasicIndicator161"
         Me.BasicIndicator161.OutlineColor = System.Drawing.Color.Transparent
@@ -5012,11 +5156,12 @@ Partial Class CP01
         '
         'BasicIndicator163
         '
-        Me.BasicIndicator163.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator163.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator163.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator163.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator163.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator163.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator163.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator163.Location = New System.Drawing.Point(307, 527)
         Me.BasicIndicator163.Name = "BasicIndicator163"
         Me.BasicIndicator163.OutlineColor = System.Drawing.Color.Transparent
@@ -5033,11 +5178,12 @@ Partial Class CP01
         '
         'BasicIndicator164
         '
-        Me.BasicIndicator164.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator164.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator164.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator164.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator164.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator164.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator164.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator164.Location = New System.Drawing.Point(252, 527)
         Me.BasicIndicator164.Name = "BasicIndicator164"
         Me.BasicIndicator164.OutlineColor = System.Drawing.Color.Transparent
@@ -5072,11 +5218,12 @@ Partial Class CP01
         '
         'BasicIndicator165
         '
-        Me.BasicIndicator165.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator165.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator165.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator165.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator165.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator165.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator165.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator165.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator165.Location = New System.Drawing.Point(197, 527)
         Me.BasicIndicator165.Name = "BasicIndicator165"
         Me.BasicIndicator165.OutlineColor = System.Drawing.Color.Transparent
@@ -5113,11 +5260,12 @@ Partial Class CP01
         '
         'BasicIndicator167
         '
-        Me.BasicIndicator167.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator167.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator167.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator167.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator167.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator167.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator167.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator167.Location = New System.Drawing.Point(305, 507)
         Me.BasicIndicator167.Name = "BasicIndicator167"
         Me.BasicIndicator167.OutlineColor = System.Drawing.Color.Transparent
@@ -5134,11 +5282,12 @@ Partial Class CP01
         '
         'BasicIndicator168
         '
-        Me.BasicIndicator168.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator168.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator168.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator168.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator168.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator168.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator168.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator168.Location = New System.Drawing.Point(250, 507)
         Me.BasicIndicator168.Name = "BasicIndicator168"
         Me.BasicIndicator168.OutlineColor = System.Drawing.Color.Transparent
@@ -5153,31 +5302,32 @@ Partial Class CP01
         Me.BasicIndicator168.TabIndex = 2338
         Me.BasicIndicator168.Text = "FAULT"
         '
-        'CheckBox3
+        'MDR0143521
         '
-        Me.CheckBox3.AutoSize = True
-        Me.CheckBox3.ComComponent = Me.EthernetIPforCLXCom1
-        Me.CheckBox3.Font = New System.Drawing.Font("Elephant", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckBox3.ForeColor = System.Drawing.Color.GhostWhite
-        Me.CheckBox3.Location = New System.Drawing.Point(9, 503)
-        Me.CheckBox3.Name = "CheckBox3"
-        Me.CheckBox3.PLCAddressCheckChanged = ""
-        Me.CheckBox3.PLCAddressChecked = ""
-        Me.CheckBox3.PLCAddressText = ""
-        Me.CheckBox3.PLCAddressVisible = ""
-        Me.CheckBox3.Size = New System.Drawing.Size(131, 18)
-        Me.CheckBox3.TabIndex = 2337
-        Me.CheckBox3.Text = "MDR 01435.2-1"
-        Me.CheckBox3.TextAlign = System.Drawing.ContentAlignment.BottomLeft
-        Me.CheckBox3.UseVisualStyleBackColor = True
+        Me.MDR0143521.AutoSize = True
+        Me.MDR0143521.ComComponent = Me.EthernetIPforCLXCom1
+        Me.MDR0143521.Font = New System.Drawing.Font("Elephant", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.MDR0143521.ForeColor = System.Drawing.Color.GhostWhite
+        Me.MDR0143521.Location = New System.Drawing.Point(9, 503)
+        Me.MDR0143521.Name = "MDR0143521"
+        Me.MDR0143521.PLCAddressCheckChanged = ""
+        Me.MDR0143521.PLCAddressChecked = ""
+        Me.MDR0143521.PLCAddressText = ""
+        Me.MDR0143521.PLCAddressVisible = ""
+        Me.MDR0143521.Size = New System.Drawing.Size(131, 18)
+        Me.MDR0143521.TabIndex = 2337
+        Me.MDR0143521.Text = "MDR 01435.2-1"
+        Me.MDR0143521.TextAlign = System.Drawing.ContentAlignment.BottomLeft
+        Me.MDR0143521.UseVisualStyleBackColor = True
         '
         'BasicIndicator169
         '
-        Me.BasicIndicator169.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator169.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator169.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator169.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator169.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator169.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator169.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator169.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator169.Location = New System.Drawing.Point(195, 507)
         Me.BasicIndicator169.Name = "BasicIndicator169"
         Me.BasicIndicator169.OutlineColor = System.Drawing.Color.Transparent
@@ -5214,11 +5364,12 @@ Partial Class CP01
         '
         'BasicIndicator171
         '
-        Me.BasicIndicator171.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator171.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator171.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator171.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator171.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator171.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator171.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator171.Location = New System.Drawing.Point(305, 487)
         Me.BasicIndicator171.Name = "BasicIndicator171"
         Me.BasicIndicator171.OutlineColor = System.Drawing.Color.Transparent
@@ -5235,11 +5386,12 @@ Partial Class CP01
         '
         'BasicIndicator172
         '
-        Me.BasicIndicator172.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator172.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator172.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator172.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator172.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator172.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator172.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator172.Location = New System.Drawing.Point(250, 487)
         Me.BasicIndicator172.Name = "BasicIndicator172"
         Me.BasicIndicator172.OutlineColor = System.Drawing.Color.Transparent
@@ -5274,11 +5426,12 @@ Partial Class CP01
         '
         'BasicIndicator173
         '
-        Me.BasicIndicator173.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator173.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator173.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator173.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator173.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator173.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator173.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator173.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator173.Location = New System.Drawing.Point(195, 487)
         Me.BasicIndicator173.Name = "BasicIndicator173"
         Me.BasicIndicator173.OutlineColor = System.Drawing.Color.Transparent
@@ -5315,11 +5468,12 @@ Partial Class CP01
         '
         'BasicIndicator175
         '
-        Me.BasicIndicator175.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator175.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator175.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator175.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator175.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator175.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator175.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator175.Location = New System.Drawing.Point(303, 467)
         Me.BasicIndicator175.Name = "BasicIndicator175"
         Me.BasicIndicator175.OutlineColor = System.Drawing.Color.Transparent
@@ -5336,11 +5490,12 @@ Partial Class CP01
         '
         'BasicIndicator176
         '
-        Me.BasicIndicator176.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator176.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator176.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator176.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator176.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator176.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator176.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator176.Location = New System.Drawing.Point(248, 467)
         Me.BasicIndicator176.Name = "BasicIndicator176"
         Me.BasicIndicator176.OutlineColor = System.Drawing.Color.Transparent
@@ -5355,31 +5510,32 @@ Partial Class CP01
         Me.BasicIndicator176.TabIndex = 2328
         Me.BasicIndicator176.Text = "FAULT"
         '
-        'CheckBox5
+        'MDR0143411
         '
-        Me.CheckBox5.AutoSize = True
-        Me.CheckBox5.ComComponent = Me.EthernetIPforCLXCom1
-        Me.CheckBox5.Font = New System.Drawing.Font("Elephant", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckBox5.ForeColor = System.Drawing.Color.GhostWhite
-        Me.CheckBox5.Location = New System.Drawing.Point(9, 463)
-        Me.CheckBox5.Name = "CheckBox5"
-        Me.CheckBox5.PLCAddressCheckChanged = ""
-        Me.CheckBox5.PLCAddressChecked = ""
-        Me.CheckBox5.PLCAddressText = ""
-        Me.CheckBox5.PLCAddressVisible = ""
-        Me.CheckBox5.Size = New System.Drawing.Size(129, 18)
-        Me.CheckBox5.TabIndex = 2327
-        Me.CheckBox5.Text = "MDR 01435.1-1"
-        Me.CheckBox5.TextAlign = System.Drawing.ContentAlignment.BottomLeft
-        Me.CheckBox5.UseVisualStyleBackColor = True
+        Me.MDR0143411.AutoSize = True
+        Me.MDR0143411.ComComponent = Me.EthernetIPforCLXCom1
+        Me.MDR0143411.Font = New System.Drawing.Font("Elephant", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.MDR0143411.ForeColor = System.Drawing.Color.GhostWhite
+        Me.MDR0143411.Location = New System.Drawing.Point(9, 463)
+        Me.MDR0143411.Name = "MDR0143411"
+        Me.MDR0143411.PLCAddressCheckChanged = ""
+        Me.MDR0143411.PLCAddressChecked = ""
+        Me.MDR0143411.PLCAddressText = ""
+        Me.MDR0143411.PLCAddressVisible = ""
+        Me.MDR0143411.Size = New System.Drawing.Size(129, 18)
+        Me.MDR0143411.TabIndex = 2327
+        Me.MDR0143411.Text = "MDR 01435.1-1"
+        Me.MDR0143411.TextAlign = System.Drawing.ContentAlignment.BottomLeft
+        Me.MDR0143411.UseVisualStyleBackColor = True
         '
         'BasicIndicator177
         '
-        Me.BasicIndicator177.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator177.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator177.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator177.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator177.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator177.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator177.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator177.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator177.Location = New System.Drawing.Point(193, 467)
         Me.BasicIndicator177.Name = "BasicIndicator177"
         Me.BasicIndicator177.OutlineColor = System.Drawing.Color.Transparent
@@ -5416,11 +5572,12 @@ Partial Class CP01
         '
         'BasicIndicator179
         '
-        Me.BasicIndicator179.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator179.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator179.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator179.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator179.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator179.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator179.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator179.Location = New System.Drawing.Point(306, 647)
         Me.BasicIndicator179.Name = "BasicIndicator179"
         Me.BasicIndicator179.OutlineColor = System.Drawing.Color.Transparent
@@ -5437,11 +5594,12 @@ Partial Class CP01
         '
         'BasicIndicator180
         '
-        Me.BasicIndicator180.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator180.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator180.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator180.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator180.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator180.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator180.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator180.Location = New System.Drawing.Point(251, 647)
         Me.BasicIndicator180.Name = "BasicIndicator180"
         Me.BasicIndicator180.OutlineColor = System.Drawing.Color.Transparent
@@ -5476,11 +5634,12 @@ Partial Class CP01
         '
         'BasicIndicator181
         '
-        Me.BasicIndicator181.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator181.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator181.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator181.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator181.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator181.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator181.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator181.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator181.Location = New System.Drawing.Point(196, 647)
         Me.BasicIndicator181.Name = "BasicIndicator181"
         Me.BasicIndicator181.OutlineColor = System.Drawing.Color.Transparent
@@ -5517,11 +5676,12 @@ Partial Class CP01
         '
         'BasicIndicator183
         '
-        Me.BasicIndicator183.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator183.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator183.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator183.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator183.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator183.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator183.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator183.Location = New System.Drawing.Point(306, 627)
         Me.BasicIndicator183.Name = "BasicIndicator183"
         Me.BasicIndicator183.OutlineColor = System.Drawing.Color.Transparent
@@ -5538,11 +5698,12 @@ Partial Class CP01
         '
         'BasicIndicator184
         '
-        Me.BasicIndicator184.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator184.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator184.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator184.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator184.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator184.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator184.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator184.Location = New System.Drawing.Point(251, 627)
         Me.BasicIndicator184.Name = "BasicIndicator184"
         Me.BasicIndicator184.OutlineColor = System.Drawing.Color.Transparent
@@ -5577,11 +5738,12 @@ Partial Class CP01
         '
         'BasicIndicator185
         '
-        Me.BasicIndicator185.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator185.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator185.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator185.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator185.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator185.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator185.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator185.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator185.Location = New System.Drawing.Point(196, 627)
         Me.BasicIndicator185.Name = "BasicIndicator185"
         Me.BasicIndicator185.OutlineColor = System.Drawing.Color.Transparent
@@ -5618,11 +5780,12 @@ Partial Class CP01
         '
         'BasicIndicator187
         '
-        Me.BasicIndicator187.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator187.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator187.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator187.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator187.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator187.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator187.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator187.Location = New System.Drawing.Point(304, 607)
         Me.BasicIndicator187.Name = "BasicIndicator187"
         Me.BasicIndicator187.OutlineColor = System.Drawing.Color.Transparent
@@ -5639,11 +5802,12 @@ Partial Class CP01
         '
         'BasicIndicator188
         '
-        Me.BasicIndicator188.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator188.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator188.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator188.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator188.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator188.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator188.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator188.Location = New System.Drawing.Point(249, 607)
         Me.BasicIndicator188.Name = "BasicIndicator188"
         Me.BasicIndicator188.OutlineColor = System.Drawing.Color.Transparent
@@ -5678,11 +5842,12 @@ Partial Class CP01
         '
         'BasicIndicator189
         '
-        Me.BasicIndicator189.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator189.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator189.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator189.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator189.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator189.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator189.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator189.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator189.Location = New System.Drawing.Point(194, 607)
         Me.BasicIndicator189.Name = "BasicIndicator189"
         Me.BasicIndicator189.OutlineColor = System.Drawing.Color.Transparent
@@ -5719,11 +5884,12 @@ Partial Class CP01
         '
         'BasicIndicator203
         '
-        Me.BasicIndicator203.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator203.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator203.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator203.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator203.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator203.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator203.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator203.Location = New System.Drawing.Point(304, 587)
         Me.BasicIndicator203.Name = "BasicIndicator203"
         Me.BasicIndicator203.OutlineColor = System.Drawing.Color.Transparent
@@ -5740,11 +5906,12 @@ Partial Class CP01
         '
         'BasicIndicator204
         '
-        Me.BasicIndicator204.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator204.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator204.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator204.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator204.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator204.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator204.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator204.Location = New System.Drawing.Point(249, 587)
         Me.BasicIndicator204.Name = "BasicIndicator204"
         Me.BasicIndicator204.OutlineColor = System.Drawing.Color.Transparent
@@ -5779,11 +5946,12 @@ Partial Class CP01
         '
         'BasicIndicator205
         '
-        Me.BasicIndicator205.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator205.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator205.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator205.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator205.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator205.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator205.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator205.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator205.Location = New System.Drawing.Point(194, 587)
         Me.BasicIndicator205.Name = "BasicIndicator205"
         Me.BasicIndicator205.OutlineColor = System.Drawing.Color.Transparent
@@ -5820,11 +5988,12 @@ Partial Class CP01
         '
         'BasicIndicator207
         '
-        Me.BasicIndicator207.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator207.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator207.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator207.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator207.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator207.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator207.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator207.Location = New System.Drawing.Point(302, 567)
         Me.BasicIndicator207.Name = "BasicIndicator207"
         Me.BasicIndicator207.OutlineColor = System.Drawing.Color.Transparent
@@ -5841,11 +6010,12 @@ Partial Class CP01
         '
         'BasicIndicator208
         '
-        Me.BasicIndicator208.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator208.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator208.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator208.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator208.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator208.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator208.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator208.Location = New System.Drawing.Point(247, 567)
         Me.BasicIndicator208.Name = "BasicIndicator208"
         Me.BasicIndicator208.OutlineColor = System.Drawing.Color.Transparent
@@ -5880,11 +6050,12 @@ Partial Class CP01
         '
         'BasicIndicator209
         '
-        Me.BasicIndicator209.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator209.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator209.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator209.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator209.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator209.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator209.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator209.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator209.Location = New System.Drawing.Point(192, 567)
         Me.BasicIndicator209.Name = "BasicIndicator209"
         Me.BasicIndicator209.OutlineColor = System.Drawing.Color.Transparent
@@ -5921,11 +6092,12 @@ Partial Class CP01
         '
         'BasicIndicator148
         '
-        Me.BasicIndicator148.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator148.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator148.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator148.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator148.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator148.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator148.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator148.Location = New System.Drawing.Point(307, 747)
         Me.BasicIndicator148.Name = "BasicIndicator148"
         Me.BasicIndicator148.OutlineColor = System.Drawing.Color.Transparent
@@ -5942,11 +6114,12 @@ Partial Class CP01
         '
         'BasicIndicator152
         '
-        Me.BasicIndicator152.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator152.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator152.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator152.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator152.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator152.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator152.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator152.Location = New System.Drawing.Point(252, 747)
         Me.BasicIndicator152.Name = "BasicIndicator152"
         Me.BasicIndicator152.OutlineColor = System.Drawing.Color.Transparent
@@ -5981,11 +6154,12 @@ Partial Class CP01
         '
         'BasicIndicator153
         '
-        Me.BasicIndicator153.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator153.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator153.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator153.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator153.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator153.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator153.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator153.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator153.Location = New System.Drawing.Point(197, 747)
         Me.BasicIndicator153.Name = "BasicIndicator153"
         Me.BasicIndicator153.OutlineColor = System.Drawing.Color.Transparent
@@ -6022,11 +6196,12 @@ Partial Class CP01
         '
         'BasicIndicator155
         '
-        Me.BasicIndicator155.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator155.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator155.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator155.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator155.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator155.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator155.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator155.Location = New System.Drawing.Point(307, 727)
         Me.BasicIndicator155.Name = "BasicIndicator155"
         Me.BasicIndicator155.OutlineColor = System.Drawing.Color.Transparent
@@ -6043,11 +6218,12 @@ Partial Class CP01
         '
         'BasicIndicator156
         '
-        Me.BasicIndicator156.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator156.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator156.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator156.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator156.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator156.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator156.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator156.Location = New System.Drawing.Point(252, 727)
         Me.BasicIndicator156.Name = "BasicIndicator156"
         Me.BasicIndicator156.OutlineColor = System.Drawing.Color.Transparent
@@ -6082,11 +6258,12 @@ Partial Class CP01
         '
         'BasicIndicator157
         '
-        Me.BasicIndicator157.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator157.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator157.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator157.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator157.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator157.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator157.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator157.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator157.Location = New System.Drawing.Point(197, 727)
         Me.BasicIndicator157.Name = "BasicIndicator157"
         Me.BasicIndicator157.OutlineColor = System.Drawing.Color.Transparent
@@ -6123,11 +6300,12 @@ Partial Class CP01
         '
         'BasicIndicator211
         '
-        Me.BasicIndicator211.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator211.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator211.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator211.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator211.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator211.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator211.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator211.Location = New System.Drawing.Point(305, 707)
         Me.BasicIndicator211.Name = "BasicIndicator211"
         Me.BasicIndicator211.OutlineColor = System.Drawing.Color.Transparent
@@ -6144,11 +6322,12 @@ Partial Class CP01
         '
         'BasicIndicator212
         '
-        Me.BasicIndicator212.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator212.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator212.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator212.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator212.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator212.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator212.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator212.Location = New System.Drawing.Point(250, 707)
         Me.BasicIndicator212.Name = "BasicIndicator212"
         Me.BasicIndicator212.OutlineColor = System.Drawing.Color.Transparent
@@ -6183,11 +6362,12 @@ Partial Class CP01
         '
         'BasicIndicator213
         '
-        Me.BasicIndicator213.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator213.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator213.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator213.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator213.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator213.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator213.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator213.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator213.Location = New System.Drawing.Point(195, 707)
         Me.BasicIndicator213.Name = "BasicIndicator213"
         Me.BasicIndicator213.OutlineColor = System.Drawing.Color.Transparent
@@ -6224,11 +6404,12 @@ Partial Class CP01
         '
         'BasicIndicator215
         '
-        Me.BasicIndicator215.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator215.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator215.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator215.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator215.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator215.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator215.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator215.Location = New System.Drawing.Point(305, 687)
         Me.BasicIndicator215.Name = "BasicIndicator215"
         Me.BasicIndicator215.OutlineColor = System.Drawing.Color.Transparent
@@ -6245,11 +6426,12 @@ Partial Class CP01
         '
         'BasicIndicator216
         '
-        Me.BasicIndicator216.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator216.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator216.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator216.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator216.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator216.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator216.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator216.Location = New System.Drawing.Point(250, 687)
         Me.BasicIndicator216.Name = "BasicIndicator216"
         Me.BasicIndicator216.OutlineColor = System.Drawing.Color.Transparent
@@ -6284,11 +6466,12 @@ Partial Class CP01
         '
         'BasicIndicator217
         '
-        Me.BasicIndicator217.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator217.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator217.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator217.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator217.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator217.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator217.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator217.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator217.Location = New System.Drawing.Point(195, 687)
         Me.BasicIndicator217.Name = "BasicIndicator217"
         Me.BasicIndicator217.OutlineColor = System.Drawing.Color.Transparent
@@ -6325,11 +6508,12 @@ Partial Class CP01
         '
         'BasicIndicator219
         '
-        Me.BasicIndicator219.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator219.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator219.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator219.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator219.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator219.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator219.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator219.Location = New System.Drawing.Point(303, 667)
         Me.BasicIndicator219.Name = "BasicIndicator219"
         Me.BasicIndicator219.OutlineColor = System.Drawing.Color.Transparent
@@ -6346,11 +6530,12 @@ Partial Class CP01
         '
         'BasicIndicator220
         '
-        Me.BasicIndicator220.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator220.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator220.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator220.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator220.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator220.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator220.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator220.Location = New System.Drawing.Point(248, 667)
         Me.BasicIndicator220.Name = "BasicIndicator220"
         Me.BasicIndicator220.OutlineColor = System.Drawing.Color.Transparent
@@ -6385,11 +6570,12 @@ Partial Class CP01
         '
         'BasicIndicator221
         '
-        Me.BasicIndicator221.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator221.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator221.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator221.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator221.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator221.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator221.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator221.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator221.Location = New System.Drawing.Point(193, 667)
         Me.BasicIndicator221.Name = "BasicIndicator221"
         Me.BasicIndicator221.OutlineColor = System.Drawing.Color.Transparent
@@ -6426,11 +6612,12 @@ Partial Class CP01
         '
         'BasicIndicator223
         '
-        Me.BasicIndicator223.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator223.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator223.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator223.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator223.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator223.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator223.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator223.Location = New System.Drawing.Point(307, 767)
         Me.BasicIndicator223.Name = "BasicIndicator223"
         Me.BasicIndicator223.OutlineColor = System.Drawing.Color.Transparent
@@ -6447,11 +6634,12 @@ Partial Class CP01
         '
         'BasicIndicator224
         '
-        Me.BasicIndicator224.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator224.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator224.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator224.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator224.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator224.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator224.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator224.Location = New System.Drawing.Point(252, 767)
         Me.BasicIndicator224.Name = "BasicIndicator224"
         Me.BasicIndicator224.OutlineColor = System.Drawing.Color.Transparent
@@ -6486,11 +6674,12 @@ Partial Class CP01
         '
         'BasicIndicator225
         '
-        Me.BasicIndicator225.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator225.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator225.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator225.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator225.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator225.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator225.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator225.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator225.Location = New System.Drawing.Point(197, 767)
         Me.BasicIndicator225.Name = "BasicIndicator225"
         Me.BasicIndicator225.OutlineColor = System.Drawing.Color.Transparent
@@ -6527,11 +6716,12 @@ Partial Class CP01
         '
         'BasicIndicator227
         '
-        Me.BasicIndicator227.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator227.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator227.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator227.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator227.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator227.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator227.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator227.Location = New System.Drawing.Point(305, 808)
         Me.BasicIndicator227.Name = "BasicIndicator227"
         Me.BasicIndicator227.OutlineColor = System.Drawing.Color.Transparent
@@ -6548,11 +6738,12 @@ Partial Class CP01
         '
         'BasicIndicator228
         '
-        Me.BasicIndicator228.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator228.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator228.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator228.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator228.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator228.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator228.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator228.Location = New System.Drawing.Point(250, 808)
         Me.BasicIndicator228.Name = "BasicIndicator228"
         Me.BasicIndicator228.OutlineColor = System.Drawing.Color.Transparent
@@ -6587,11 +6778,12 @@ Partial Class CP01
         '
         'BasicIndicator229
         '
-        Me.BasicIndicator229.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator229.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator229.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator229.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator229.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator229.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator229.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator229.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator229.Location = New System.Drawing.Point(195, 808)
         Me.BasicIndicator229.Name = "BasicIndicator229"
         Me.BasicIndicator229.OutlineColor = System.Drawing.Color.Transparent
@@ -6628,11 +6820,12 @@ Partial Class CP01
         '
         'BasicIndicator231
         '
-        Me.BasicIndicator231.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator231.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator231.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator231.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator231.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator231.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator231.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator231.Location = New System.Drawing.Point(303, 788)
         Me.BasicIndicator231.Name = "BasicIndicator231"
         Me.BasicIndicator231.OutlineColor = System.Drawing.Color.Transparent
@@ -6649,11 +6842,12 @@ Partial Class CP01
         '
         'BasicIndicator232
         '
-        Me.BasicIndicator232.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator232.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator232.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator232.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator232.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator232.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator232.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator232.Location = New System.Drawing.Point(248, 788)
         Me.BasicIndicator232.Name = "BasicIndicator232"
         Me.BasicIndicator232.OutlineColor = System.Drawing.Color.Transparent
@@ -6688,11 +6882,12 @@ Partial Class CP01
         '
         'BasicIndicator233
         '
-        Me.BasicIndicator233.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator233.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator233.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator233.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator233.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator233.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator233.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator233.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator233.Location = New System.Drawing.Point(193, 788)
         Me.BasicIndicator233.Name = "BasicIndicator233"
         Me.BasicIndicator233.OutlineColor = System.Drawing.Color.Transparent
@@ -6729,11 +6924,12 @@ Partial Class CP01
         '
         'BasicIndicator235
         '
-        Me.BasicIndicator235.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator235.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator235.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator235.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator235.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator235.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator235.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator235.Location = New System.Drawing.Point(305, 848)
         Me.BasicIndicator235.Name = "BasicIndicator235"
         Me.BasicIndicator235.OutlineColor = System.Drawing.Color.Transparent
@@ -6750,11 +6946,12 @@ Partial Class CP01
         '
         'BasicIndicator236
         '
-        Me.BasicIndicator236.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator236.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator236.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator236.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator236.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator236.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator236.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator236.Location = New System.Drawing.Point(250, 848)
         Me.BasicIndicator236.Name = "BasicIndicator236"
         Me.BasicIndicator236.OutlineColor = System.Drawing.Color.Transparent
@@ -6789,11 +6986,12 @@ Partial Class CP01
         '
         'BasicIndicator237
         '
-        Me.BasicIndicator237.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator237.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator237.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator237.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator237.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator237.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator237.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator237.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator237.Location = New System.Drawing.Point(195, 848)
         Me.BasicIndicator237.Name = "BasicIndicator237"
         Me.BasicIndicator237.OutlineColor = System.Drawing.Color.Transparent
@@ -6830,11 +7028,12 @@ Partial Class CP01
         '
         'BasicIndicator239
         '
-        Me.BasicIndicator239.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator239.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator239.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator239.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator239.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator239.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator239.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator239.Location = New System.Drawing.Point(303, 828)
         Me.BasicIndicator239.Name = "BasicIndicator239"
         Me.BasicIndicator239.OutlineColor = System.Drawing.Color.Transparent
@@ -6851,11 +7050,12 @@ Partial Class CP01
         '
         'BasicIndicator240
         '
-        Me.BasicIndicator240.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator240.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator240.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator240.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator240.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator240.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator240.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator240.Location = New System.Drawing.Point(248, 828)
         Me.BasicIndicator240.Name = "BasicIndicator240"
         Me.BasicIndicator240.OutlineColor = System.Drawing.Color.Transparent
@@ -6890,11 +7090,12 @@ Partial Class CP01
         '
         'BasicIndicator241
         '
-        Me.BasicIndicator241.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator241.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator241.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator241.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator241.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator241.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator241.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator241.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator241.Location = New System.Drawing.Point(193, 828)
         Me.BasicIndicator241.Name = "BasicIndicator241"
         Me.BasicIndicator241.OutlineColor = System.Drawing.Color.Transparent
@@ -6931,11 +7132,12 @@ Partial Class CP01
         '
         'BasicIndicator243
         '
-        Me.BasicIndicator243.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator243.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator243.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator243.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator243.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator243.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator243.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator243.Location = New System.Drawing.Point(718, 407)
         Me.BasicIndicator243.Name = "BasicIndicator243"
         Me.BasicIndicator243.OutlineColor = System.Drawing.Color.Transparent
@@ -6952,11 +7154,12 @@ Partial Class CP01
         '
         'BasicIndicator244
         '
-        Me.BasicIndicator244.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator244.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator244.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator244.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator244.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator244.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator244.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator244.Location = New System.Drawing.Point(663, 407)
         Me.BasicIndicator244.Name = "BasicIndicator244"
         Me.BasicIndicator244.OutlineColor = System.Drawing.Color.Transparent
@@ -6991,11 +7194,12 @@ Partial Class CP01
         '
         'BasicIndicator245
         '
-        Me.BasicIndicator245.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator245.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator245.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator245.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator245.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator245.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator245.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator245.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator245.Location = New System.Drawing.Point(608, 407)
         Me.BasicIndicator245.Name = "BasicIndicator245"
         Me.BasicIndicator245.OutlineColor = System.Drawing.Color.Transparent
@@ -7032,11 +7236,12 @@ Partial Class CP01
         '
         'BasicIndicator247
         '
-        Me.BasicIndicator247.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator247.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator247.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator247.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator247.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator247.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator247.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator247.Location = New System.Drawing.Point(716, 387)
         Me.BasicIndicator247.Name = "BasicIndicator247"
         Me.BasicIndicator247.OutlineColor = System.Drawing.Color.Transparent
@@ -7053,11 +7258,12 @@ Partial Class CP01
         '
         'BasicIndicator248
         '
-        Me.BasicIndicator248.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator248.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator248.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator248.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator248.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator248.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator248.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator248.Location = New System.Drawing.Point(661, 387)
         Me.BasicIndicator248.Name = "BasicIndicator248"
         Me.BasicIndicator248.OutlineColor = System.Drawing.Color.Transparent
@@ -7092,11 +7298,12 @@ Partial Class CP01
         '
         'BasicIndicator249
         '
-        Me.BasicIndicator249.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator249.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator249.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator249.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator249.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator249.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator249.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator249.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator249.Location = New System.Drawing.Point(606, 387)
         Me.BasicIndicator249.Name = "BasicIndicator249"
         Me.BasicIndicator249.OutlineColor = System.Drawing.Color.Transparent
@@ -7133,11 +7340,12 @@ Partial Class CP01
         '
         'BasicIndicator251
         '
-        Me.BasicIndicator251.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator251.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator251.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator251.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator251.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator251.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator251.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator251.Location = New System.Drawing.Point(718, 367)
         Me.BasicIndicator251.Name = "BasicIndicator251"
         Me.BasicIndicator251.OutlineColor = System.Drawing.Color.Transparent
@@ -7154,11 +7362,12 @@ Partial Class CP01
         '
         'BasicIndicator252
         '
-        Me.BasicIndicator252.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator252.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator252.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator252.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator252.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator252.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator252.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator252.Location = New System.Drawing.Point(663, 367)
         Me.BasicIndicator252.Name = "BasicIndicator252"
         Me.BasicIndicator252.OutlineColor = System.Drawing.Color.Transparent
@@ -7193,11 +7402,12 @@ Partial Class CP01
         '
         'BasicIndicator253
         '
-        Me.BasicIndicator253.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator253.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator253.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator253.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator253.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator253.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator253.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator253.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator253.Location = New System.Drawing.Point(608, 367)
         Me.BasicIndicator253.Name = "BasicIndicator253"
         Me.BasicIndicator253.OutlineColor = System.Drawing.Color.Transparent
@@ -7234,11 +7444,12 @@ Partial Class CP01
         '
         'BasicIndicator255
         '
-        Me.BasicIndicator255.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator255.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator255.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator255.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator255.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator255.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator255.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator255.Location = New System.Drawing.Point(303, 989)
         Me.BasicIndicator255.Name = "BasicIndicator255"
         Me.BasicIndicator255.OutlineColor = System.Drawing.Color.Transparent
@@ -7255,11 +7466,12 @@ Partial Class CP01
         '
         'BasicIndicator256
         '
-        Me.BasicIndicator256.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator256.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator256.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator256.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator256.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator256.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator256.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator256.Location = New System.Drawing.Point(248, 989)
         Me.BasicIndicator256.Name = "BasicIndicator256"
         Me.BasicIndicator256.OutlineColor = System.Drawing.Color.Transparent
@@ -7294,11 +7506,12 @@ Partial Class CP01
         '
         'BasicIndicator257
         '
-        Me.BasicIndicator257.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator257.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator257.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator257.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator257.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator257.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator257.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator257.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator257.Location = New System.Drawing.Point(193, 989)
         Me.BasicIndicator257.Name = "BasicIndicator257"
         Me.BasicIndicator257.OutlineColor = System.Drawing.Color.Transparent
@@ -7335,11 +7548,12 @@ Partial Class CP01
         '
         'BasicIndicator259
         '
-        Me.BasicIndicator259.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator259.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator259.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator259.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator259.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator259.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator259.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator259.Location = New System.Drawing.Point(307, 968)
         Me.BasicIndicator259.Name = "BasicIndicator259"
         Me.BasicIndicator259.OutlineColor = System.Drawing.Color.Transparent
@@ -7356,11 +7570,12 @@ Partial Class CP01
         '
         'BasicIndicator260
         '
-        Me.BasicIndicator260.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator260.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator260.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator260.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator260.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator260.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator260.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator260.Location = New System.Drawing.Point(252, 968)
         Me.BasicIndicator260.Name = "BasicIndicator260"
         Me.BasicIndicator260.OutlineColor = System.Drawing.Color.Transparent
@@ -7395,11 +7610,12 @@ Partial Class CP01
         '
         'BasicIndicator261
         '
-        Me.BasicIndicator261.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator261.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator261.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator261.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator261.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator261.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator261.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator261.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator261.Location = New System.Drawing.Point(197, 968)
         Me.BasicIndicator261.Name = "BasicIndicator261"
         Me.BasicIndicator261.OutlineColor = System.Drawing.Color.Transparent
@@ -7436,11 +7652,12 @@ Partial Class CP01
         '
         'BasicIndicator263
         '
-        Me.BasicIndicator263.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator263.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator263.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator263.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator263.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator263.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator263.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator263.Location = New System.Drawing.Point(307, 948)
         Me.BasicIndicator263.Name = "BasicIndicator263"
         Me.BasicIndicator263.OutlineColor = System.Drawing.Color.Transparent
@@ -7457,11 +7674,12 @@ Partial Class CP01
         '
         'BasicIndicator264
         '
-        Me.BasicIndicator264.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator264.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator264.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator264.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator264.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator264.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator264.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator264.Location = New System.Drawing.Point(252, 948)
         Me.BasicIndicator264.Name = "BasicIndicator264"
         Me.BasicIndicator264.OutlineColor = System.Drawing.Color.Transparent
@@ -7496,11 +7714,12 @@ Partial Class CP01
         '
         'BasicIndicator265
         '
-        Me.BasicIndicator265.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator265.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator265.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator265.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator265.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator265.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator265.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator265.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator265.Location = New System.Drawing.Point(197, 948)
         Me.BasicIndicator265.Name = "BasicIndicator265"
         Me.BasicIndicator265.OutlineColor = System.Drawing.Color.Transparent
@@ -7537,11 +7756,12 @@ Partial Class CP01
         '
         'BasicIndicator267
         '
-        Me.BasicIndicator267.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator267.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator267.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator267.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator267.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator267.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator267.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator267.Location = New System.Drawing.Point(307, 928)
         Me.BasicIndicator267.Name = "BasicIndicator267"
         Me.BasicIndicator267.OutlineColor = System.Drawing.Color.Transparent
@@ -7558,11 +7778,12 @@ Partial Class CP01
         '
         'BasicIndicator268
         '
-        Me.BasicIndicator268.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator268.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator268.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator268.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator268.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator268.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator268.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator268.Location = New System.Drawing.Point(252, 928)
         Me.BasicIndicator268.Name = "BasicIndicator268"
         Me.BasicIndicator268.OutlineColor = System.Drawing.Color.Transparent
@@ -7597,11 +7818,12 @@ Partial Class CP01
         '
         'BasicIndicator269
         '
-        Me.BasicIndicator269.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator269.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator269.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator269.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator269.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator269.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator269.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator269.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator269.Location = New System.Drawing.Point(197, 928)
         Me.BasicIndicator269.Name = "BasicIndicator269"
         Me.BasicIndicator269.OutlineColor = System.Drawing.Color.Transparent
@@ -7638,11 +7860,12 @@ Partial Class CP01
         '
         'BasicIndicator271
         '
-        Me.BasicIndicator271.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator271.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator271.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator271.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator271.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator271.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator271.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator271.Location = New System.Drawing.Point(305, 908)
         Me.BasicIndicator271.Name = "BasicIndicator271"
         Me.BasicIndicator271.OutlineColor = System.Drawing.Color.Transparent
@@ -7659,11 +7882,12 @@ Partial Class CP01
         '
         'BasicIndicator272
         '
-        Me.BasicIndicator272.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator272.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator272.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator272.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator272.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator272.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator272.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator272.Location = New System.Drawing.Point(250, 908)
         Me.BasicIndicator272.Name = "BasicIndicator272"
         Me.BasicIndicator272.OutlineColor = System.Drawing.Color.Transparent
@@ -7698,11 +7922,12 @@ Partial Class CP01
         '
         'BasicIndicator273
         '
-        Me.BasicIndicator273.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator273.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator273.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator273.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator273.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator273.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator273.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator273.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator273.Location = New System.Drawing.Point(195, 908)
         Me.BasicIndicator273.Name = "BasicIndicator273"
         Me.BasicIndicator273.OutlineColor = System.Drawing.Color.Transparent
@@ -7739,11 +7964,12 @@ Partial Class CP01
         '
         'BasicIndicator275
         '
-        Me.BasicIndicator275.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator275.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator275.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator275.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator275.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator275.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator275.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator275.Location = New System.Drawing.Point(305, 888)
         Me.BasicIndicator275.Name = "BasicIndicator275"
         Me.BasicIndicator275.OutlineColor = System.Drawing.Color.Transparent
@@ -7760,11 +7986,12 @@ Partial Class CP01
         '
         'BasicIndicator276
         '
-        Me.BasicIndicator276.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator276.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator276.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator276.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator276.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator276.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator276.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator276.Location = New System.Drawing.Point(250, 888)
         Me.BasicIndicator276.Name = "BasicIndicator276"
         Me.BasicIndicator276.OutlineColor = System.Drawing.Color.Transparent
@@ -7799,11 +8026,12 @@ Partial Class CP01
         '
         'BasicIndicator277
         '
-        Me.BasicIndicator277.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator277.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator277.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator277.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator277.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator277.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator277.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator277.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator277.Location = New System.Drawing.Point(195, 888)
         Me.BasicIndicator277.Name = "BasicIndicator277"
         Me.BasicIndicator277.OutlineColor = System.Drawing.Color.Transparent
@@ -7840,11 +8068,12 @@ Partial Class CP01
         '
         'BasicIndicator279
         '
-        Me.BasicIndicator279.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator279.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator279.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator279.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator279.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator279.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator279.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator279.Location = New System.Drawing.Point(303, 868)
         Me.BasicIndicator279.Name = "BasicIndicator279"
         Me.BasicIndicator279.OutlineColor = System.Drawing.Color.Transparent
@@ -7861,11 +8090,12 @@ Partial Class CP01
         '
         'BasicIndicator280
         '
-        Me.BasicIndicator280.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator280.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator280.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator280.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator280.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator280.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator280.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator280.Location = New System.Drawing.Point(248, 868)
         Me.BasicIndicator280.Name = "BasicIndicator280"
         Me.BasicIndicator280.OutlineColor = System.Drawing.Color.Transparent
@@ -7900,11 +8130,12 @@ Partial Class CP01
         '
         'BasicIndicator281
         '
-        Me.BasicIndicator281.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator281.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator281.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator281.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator281.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator281.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator281.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator281.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator281.Location = New System.Drawing.Point(193, 868)
         Me.BasicIndicator281.Name = "BasicIndicator281"
         Me.BasicIndicator281.OutlineColor = System.Drawing.Color.Transparent
@@ -7941,11 +8172,12 @@ Partial Class CP01
         '
         'BasicIndicator283
         '
-        Me.BasicIndicator283.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator283.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator283.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator283.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator283.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator283.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator283.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator283.Location = New System.Drawing.Point(716, 608)
         Me.BasicIndicator283.Name = "BasicIndicator283"
         Me.BasicIndicator283.OutlineColor = System.Drawing.Color.Transparent
@@ -7962,11 +8194,12 @@ Partial Class CP01
         '
         'BasicIndicator284
         '
-        Me.BasicIndicator284.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator284.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator284.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator284.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator284.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator284.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator284.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator284.Location = New System.Drawing.Point(661, 608)
         Me.BasicIndicator284.Name = "BasicIndicator284"
         Me.BasicIndicator284.OutlineColor = System.Drawing.Color.Transparent
@@ -8001,11 +8234,12 @@ Partial Class CP01
         '
         'BasicIndicator285
         '
-        Me.BasicIndicator285.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator285.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator285.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator285.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator285.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator285.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator285.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator285.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator285.Location = New System.Drawing.Point(606, 608)
         Me.BasicIndicator285.Name = "BasicIndicator285"
         Me.BasicIndicator285.OutlineColor = System.Drawing.Color.Transparent
@@ -8042,11 +8276,12 @@ Partial Class CP01
         '
         'BasicIndicator287
         '
-        Me.BasicIndicator287.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator287.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator287.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator287.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator287.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator287.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator287.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator287.Location = New System.Drawing.Point(714, 588)
         Me.BasicIndicator287.Name = "BasicIndicator287"
         Me.BasicIndicator287.OutlineColor = System.Drawing.Color.Transparent
@@ -8063,11 +8298,12 @@ Partial Class CP01
         '
         'BasicIndicator288
         '
-        Me.BasicIndicator288.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator288.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator288.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator288.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator288.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator288.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator288.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator288.Location = New System.Drawing.Point(659, 588)
         Me.BasicIndicator288.Name = "BasicIndicator288"
         Me.BasicIndicator288.OutlineColor = System.Drawing.Color.Transparent
@@ -8102,11 +8338,12 @@ Partial Class CP01
         '
         'BasicIndicator289
         '
-        Me.BasicIndicator289.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator289.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator289.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator289.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator289.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator289.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator289.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator289.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator289.Location = New System.Drawing.Point(604, 588)
         Me.BasicIndicator289.Name = "BasicIndicator289"
         Me.BasicIndicator289.OutlineColor = System.Drawing.Color.Transparent
@@ -8143,11 +8380,12 @@ Partial Class CP01
         '
         'BasicIndicator291
         '
-        Me.BasicIndicator291.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator291.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator291.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator291.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator291.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator291.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator291.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator291.Location = New System.Drawing.Point(716, 568)
         Me.BasicIndicator291.Name = "BasicIndicator291"
         Me.BasicIndicator291.OutlineColor = System.Drawing.Color.Transparent
@@ -8164,11 +8402,12 @@ Partial Class CP01
         '
         'BasicIndicator292
         '
-        Me.BasicIndicator292.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator292.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator292.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator292.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator292.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator292.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator292.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator292.Location = New System.Drawing.Point(661, 568)
         Me.BasicIndicator292.Name = "BasicIndicator292"
         Me.BasicIndicator292.OutlineColor = System.Drawing.Color.Transparent
@@ -8203,11 +8442,12 @@ Partial Class CP01
         '
         'BasicIndicator293
         '
-        Me.BasicIndicator293.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator293.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator293.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator293.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator293.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator293.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator293.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator293.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator293.Location = New System.Drawing.Point(606, 568)
         Me.BasicIndicator293.Name = "BasicIndicator293"
         Me.BasicIndicator293.OutlineColor = System.Drawing.Color.Transparent
@@ -8244,11 +8484,12 @@ Partial Class CP01
         '
         'BasicIndicator295
         '
-        Me.BasicIndicator295.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator295.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator295.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator295.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator295.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator295.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator295.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator295.Location = New System.Drawing.Point(714, 548)
         Me.BasicIndicator295.Name = "BasicIndicator295"
         Me.BasicIndicator295.OutlineColor = System.Drawing.Color.Transparent
@@ -8265,11 +8506,12 @@ Partial Class CP01
         '
         'BasicIndicator296
         '
-        Me.BasicIndicator296.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator296.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator296.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator296.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator296.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator296.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator296.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator296.Location = New System.Drawing.Point(659, 548)
         Me.BasicIndicator296.Name = "BasicIndicator296"
         Me.BasicIndicator296.OutlineColor = System.Drawing.Color.Transparent
@@ -8304,11 +8546,12 @@ Partial Class CP01
         '
         'BasicIndicator297
         '
-        Me.BasicIndicator297.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator297.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator297.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator297.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator297.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator297.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator297.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator297.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator297.Location = New System.Drawing.Point(604, 548)
         Me.BasicIndicator297.Name = "BasicIndicator297"
         Me.BasicIndicator297.OutlineColor = System.Drawing.Color.Transparent
@@ -8345,11 +8588,12 @@ Partial Class CP01
         '
         'BasicIndicator299
         '
-        Me.BasicIndicator299.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator299.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator299.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator299.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator299.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator299.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator299.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator299.Location = New System.Drawing.Point(718, 527)
         Me.BasicIndicator299.Name = "BasicIndicator299"
         Me.BasicIndicator299.OutlineColor = System.Drawing.Color.Transparent
@@ -8366,11 +8610,12 @@ Partial Class CP01
         '
         'BasicIndicator300
         '
-        Me.BasicIndicator300.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator300.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator300.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator300.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator300.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator300.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator300.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator300.Location = New System.Drawing.Point(663, 527)
         Me.BasicIndicator300.Name = "BasicIndicator300"
         Me.BasicIndicator300.OutlineColor = System.Drawing.Color.Transparent
@@ -8405,11 +8650,12 @@ Partial Class CP01
         '
         'BasicIndicator301
         '
-        Me.BasicIndicator301.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator301.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator301.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator301.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator301.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator301.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator301.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator301.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator301.Location = New System.Drawing.Point(608, 527)
         Me.BasicIndicator301.Name = "BasicIndicator301"
         Me.BasicIndicator301.OutlineColor = System.Drawing.Color.Transparent
@@ -8446,11 +8692,12 @@ Partial Class CP01
         '
         'BasicIndicator303
         '
-        Me.BasicIndicator303.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator303.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator303.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator303.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator303.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator303.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator303.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator303.Location = New System.Drawing.Point(718, 507)
         Me.BasicIndicator303.Name = "BasicIndicator303"
         Me.BasicIndicator303.OutlineColor = System.Drawing.Color.Transparent
@@ -8467,11 +8714,12 @@ Partial Class CP01
         '
         'BasicIndicator304
         '
-        Me.BasicIndicator304.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator304.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator304.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator304.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator304.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator304.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator304.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator304.Location = New System.Drawing.Point(663, 507)
         Me.BasicIndicator304.Name = "BasicIndicator304"
         Me.BasicIndicator304.OutlineColor = System.Drawing.Color.Transparent
@@ -8506,11 +8754,12 @@ Partial Class CP01
         '
         'BasicIndicator305
         '
-        Me.BasicIndicator305.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator305.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator305.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator305.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator305.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator305.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator305.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator305.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator305.Location = New System.Drawing.Point(608, 507)
         Me.BasicIndicator305.Name = "BasicIndicator305"
         Me.BasicIndicator305.OutlineColor = System.Drawing.Color.Transparent
@@ -8547,11 +8796,12 @@ Partial Class CP01
         '
         'BasicIndicator307
         '
-        Me.BasicIndicator307.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator307.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator307.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator307.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator307.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator307.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator307.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator307.Location = New System.Drawing.Point(718, 487)
         Me.BasicIndicator307.Name = "BasicIndicator307"
         Me.BasicIndicator307.OutlineColor = System.Drawing.Color.Transparent
@@ -8568,11 +8818,12 @@ Partial Class CP01
         '
         'BasicIndicator308
         '
-        Me.BasicIndicator308.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator308.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator308.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator308.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator308.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator308.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator308.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator308.Location = New System.Drawing.Point(663, 487)
         Me.BasicIndicator308.Name = "BasicIndicator308"
         Me.BasicIndicator308.OutlineColor = System.Drawing.Color.Transparent
@@ -8607,11 +8858,12 @@ Partial Class CP01
         '
         'BasicIndicator309
         '
-        Me.BasicIndicator309.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator309.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator309.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator309.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator309.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator309.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator309.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator309.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator309.Location = New System.Drawing.Point(608, 487)
         Me.BasicIndicator309.Name = "BasicIndicator309"
         Me.BasicIndicator309.OutlineColor = System.Drawing.Color.Transparent
@@ -8648,11 +8900,12 @@ Partial Class CP01
         '
         'BasicIndicator311
         '
-        Me.BasicIndicator311.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator311.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator311.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator311.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator311.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator311.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator311.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator311.Location = New System.Drawing.Point(716, 467)
         Me.BasicIndicator311.Name = "BasicIndicator311"
         Me.BasicIndicator311.OutlineColor = System.Drawing.Color.Transparent
@@ -8669,11 +8922,12 @@ Partial Class CP01
         '
         'BasicIndicator312
         '
-        Me.BasicIndicator312.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator312.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator312.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator312.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator312.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator312.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator312.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator312.Location = New System.Drawing.Point(661, 467)
         Me.BasicIndicator312.Name = "BasicIndicator312"
         Me.BasicIndicator312.OutlineColor = System.Drawing.Color.Transparent
@@ -8708,11 +8962,12 @@ Partial Class CP01
         '
         'BasicIndicator313
         '
-        Me.BasicIndicator313.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator313.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator313.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator313.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator313.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator313.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator313.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator313.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator313.Location = New System.Drawing.Point(606, 467)
         Me.BasicIndicator313.Name = "BasicIndicator313"
         Me.BasicIndicator313.OutlineColor = System.Drawing.Color.Transparent
@@ -8749,11 +9004,12 @@ Partial Class CP01
         '
         'BasicIndicator315
         '
-        Me.BasicIndicator315.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator315.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator315.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator315.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator315.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator315.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator315.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator315.Location = New System.Drawing.Point(716, 447)
         Me.BasicIndicator315.Name = "BasicIndicator315"
         Me.BasicIndicator315.OutlineColor = System.Drawing.Color.Transparent
@@ -8770,11 +9026,12 @@ Partial Class CP01
         '
         'BasicIndicator316
         '
-        Me.BasicIndicator316.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator316.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator316.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator316.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator316.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator316.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator316.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator316.Location = New System.Drawing.Point(661, 447)
         Me.BasicIndicator316.Name = "BasicIndicator316"
         Me.BasicIndicator316.OutlineColor = System.Drawing.Color.Transparent
@@ -8809,11 +9066,12 @@ Partial Class CP01
         '
         'BasicIndicator317
         '
-        Me.BasicIndicator317.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator317.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator317.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator317.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator317.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator317.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator317.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator317.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator317.Location = New System.Drawing.Point(606, 447)
         Me.BasicIndicator317.Name = "BasicIndicator317"
         Me.BasicIndicator317.OutlineColor = System.Drawing.Color.Transparent
@@ -8850,11 +9108,12 @@ Partial Class CP01
         '
         'BasicIndicator319
         '
-        Me.BasicIndicator319.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator319.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator319.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator319.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator319.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator319.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator319.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator319.Location = New System.Drawing.Point(714, 427)
         Me.BasicIndicator319.Name = "BasicIndicator319"
         Me.BasicIndicator319.OutlineColor = System.Drawing.Color.Transparent
@@ -8871,11 +9130,12 @@ Partial Class CP01
         '
         'BasicIndicator320
         '
-        Me.BasicIndicator320.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator320.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator320.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator320.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator320.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator320.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator320.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator320.Location = New System.Drawing.Point(659, 427)
         Me.BasicIndicator320.Name = "BasicIndicator320"
         Me.BasicIndicator320.OutlineColor = System.Drawing.Color.Transparent
@@ -8910,11 +9170,12 @@ Partial Class CP01
         '
         'BasicIndicator321
         '
-        Me.BasicIndicator321.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator321.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator321.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator321.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator321.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator321.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator321.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator321.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator321.Location = New System.Drawing.Point(604, 427)
         Me.BasicIndicator321.Name = "BasicIndicator321"
         Me.BasicIndicator321.OutlineColor = System.Drawing.Color.Transparent
@@ -8931,11 +9192,12 @@ Partial Class CP01
         '
         'BasicIndicator322
         '
-        Me.BasicIndicator322.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator322.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator322.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator322.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator322.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator322.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator322.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator322.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator322.Location = New System.Drawing.Point(514, 627)
         Me.BasicIndicator322.Name = "BasicIndicator322"
         Me.BasicIndicator322.OutlineColor = System.Drawing.Color.Transparent
@@ -8952,11 +9214,12 @@ Partial Class CP01
         '
         'BasicIndicator323
         '
-        Me.BasicIndicator323.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator323.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator323.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator323.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator323.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator323.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator323.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator323.Location = New System.Drawing.Point(604, 627)
         Me.BasicIndicator323.Name = "BasicIndicator323"
         Me.BasicIndicator323.OutlineColor = System.Drawing.Color.Transparent
@@ -8973,11 +9236,12 @@ Partial Class CP01
         '
         'BasicIndicator324
         '
-        Me.BasicIndicator324.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator324.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator324.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator324.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator324.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator324.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator324.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator324.Location = New System.Drawing.Point(649, 627)
         Me.BasicIndicator324.Name = "BasicIndicator324"
         Me.BasicIndicator324.OutlineColor = System.Drawing.Color.Transparent
@@ -8994,11 +9258,12 @@ Partial Class CP01
         '
         'BasicIndicator325
         '
-        Me.BasicIndicator325.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator325.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator325.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator325.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator325.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator325.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator325.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator325.Location = New System.Drawing.Point(694, 627)
         Me.BasicIndicator325.Name = "BasicIndicator325"
         Me.BasicIndicator325.OutlineColor = System.Drawing.Color.Transparent
@@ -9033,11 +9298,12 @@ Partial Class CP01
         '
         'BasicIndicator326
         '
-        Me.BasicIndicator326.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator326.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator326.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator326.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator326.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator326.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator326.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator326.Location = New System.Drawing.Point(559, 627)
         Me.BasicIndicator326.Name = "BasicIndicator326"
         Me.BasicIndicator326.OutlineColor = System.Drawing.Color.Transparent
@@ -9074,11 +9340,12 @@ Partial Class CP01
         '
         'BasicIndicator328
         '
-        Me.BasicIndicator328.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator328.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator328.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator328.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator328.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator328.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator328.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator328.Location = New System.Drawing.Point(774, 647)
         Me.BasicIndicator328.Name = "BasicIndicator328"
         Me.BasicIndicator328.OutlineColor = System.Drawing.Color.Transparent
@@ -9095,11 +9362,12 @@ Partial Class CP01
         '
         'BasicIndicator329
         '
-        Me.BasicIndicator329.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator329.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator329.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator329.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator329.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator329.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator329.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator329.Location = New System.Drawing.Point(719, 647)
         Me.BasicIndicator329.Name = "BasicIndicator329"
         Me.BasicIndicator329.OutlineColor = System.Drawing.Color.Transparent
@@ -9134,11 +9402,12 @@ Partial Class CP01
         '
         'BasicIndicator330
         '
-        Me.BasicIndicator330.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator330.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator330.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator330.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator330.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator330.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator330.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator330.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator330.Location = New System.Drawing.Point(664, 647)
         Me.BasicIndicator330.Name = "BasicIndicator330"
         Me.BasicIndicator330.OutlineColor = System.Drawing.Color.Transparent
@@ -9215,11 +9484,12 @@ Partial Class CP01
         '
         'BasicIndicator334
         '
-        Me.BasicIndicator334.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator334.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator334.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator334.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator334.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator334.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator334.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator334.Location = New System.Drawing.Point(774, 667)
         Me.BasicIndicator334.Name = "BasicIndicator334"
         Me.BasicIndicator334.OutlineColor = System.Drawing.Color.Transparent
@@ -9236,11 +9506,12 @@ Partial Class CP01
         '
         'BasicIndicator335
         '
-        Me.BasicIndicator335.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator335.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator335.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator335.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator335.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator335.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator335.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator335.Location = New System.Drawing.Point(719, 667)
         Me.BasicIndicator335.Name = "BasicIndicator335"
         Me.BasicIndicator335.OutlineColor = System.Drawing.Color.Transparent
@@ -9275,11 +9546,12 @@ Partial Class CP01
         '
         'BasicIndicator336
         '
-        Me.BasicIndicator336.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator336.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator336.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator336.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator336.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator336.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator336.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator336.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator336.Location = New System.Drawing.Point(664, 667)
         Me.BasicIndicator336.Name = "BasicIndicator336"
         Me.BasicIndicator336.OutlineColor = System.Drawing.Color.Transparent
@@ -9316,11 +9588,12 @@ Partial Class CP01
         '
         'BasicIndicator338
         '
-        Me.BasicIndicator338.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator338.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator338.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator338.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator338.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator338.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator338.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator338.Location = New System.Drawing.Point(714, 687)
         Me.BasicIndicator338.Name = "BasicIndicator338"
         Me.BasicIndicator338.OutlineColor = System.Drawing.Color.Transparent
@@ -9337,11 +9610,12 @@ Partial Class CP01
         '
         'BasicIndicator339
         '
-        Me.BasicIndicator339.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator339.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator339.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator339.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator339.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator339.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator339.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator339.Location = New System.Drawing.Point(659, 687)
         Me.BasicIndicator339.Name = "BasicIndicator339"
         Me.BasicIndicator339.OutlineColor = System.Drawing.Color.Transparent
@@ -9376,11 +9650,12 @@ Partial Class CP01
         '
         'BasicIndicator340
         '
-        Me.BasicIndicator340.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator340.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator340.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator340.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator340.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator340.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator340.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator340.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator340.Location = New System.Drawing.Point(604, 687)
         Me.BasicIndicator340.Name = "BasicIndicator340"
         Me.BasicIndicator340.OutlineColor = System.Drawing.Color.Transparent
@@ -9417,11 +9692,12 @@ Partial Class CP01
         '
         'BasicIndicator342
         '
-        Me.BasicIndicator342.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator342.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator342.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator342.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator342.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator342.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator342.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator342.Location = New System.Drawing.Point(714, 707)
         Me.BasicIndicator342.Name = "BasicIndicator342"
         Me.BasicIndicator342.OutlineColor = System.Drawing.Color.Transparent
@@ -9438,11 +9714,12 @@ Partial Class CP01
         '
         'BasicIndicator343
         '
-        Me.BasicIndicator343.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator343.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator343.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator343.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator343.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator343.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator343.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator343.Location = New System.Drawing.Point(659, 707)
         Me.BasicIndicator343.Name = "BasicIndicator343"
         Me.BasicIndicator343.OutlineColor = System.Drawing.Color.Transparent
@@ -9477,11 +9754,12 @@ Partial Class CP01
         '
         'BasicIndicator344
         '
-        Me.BasicIndicator344.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator344.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator344.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator344.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator344.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator344.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator344.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator344.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator344.Location = New System.Drawing.Point(604, 707)
         Me.BasicIndicator344.Name = "BasicIndicator344"
         Me.BasicIndicator344.OutlineColor = System.Drawing.Color.Transparent
@@ -9518,11 +9796,12 @@ Partial Class CP01
         '
         'BasicIndicator347
         '
-        Me.BasicIndicator347.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator347.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator347.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator347.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator347.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator347.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator347.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator347.Location = New System.Drawing.Point(608, 727)
         Me.BasicIndicator347.Name = "BasicIndicator347"
         Me.BasicIndicator347.OutlineColor = System.Drawing.Color.Transparent
@@ -9557,11 +9836,12 @@ Partial Class CP01
         '
         'BasicIndicator348
         '
-        Me.BasicIndicator348.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator348.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator348.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator348.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator348.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator348.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator348.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator348.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator348.Location = New System.Drawing.Point(553, 727)
         Me.BasicIndicator348.Name = "BasicIndicator348"
         Me.BasicIndicator348.OutlineColor = System.Drawing.Color.Transparent
@@ -9598,11 +9878,12 @@ Partial Class CP01
         '
         'BasicIndicator349
         '
-        Me.BasicIndicator349.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator349.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator349.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator349.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator349.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator349.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator349.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator349.Location = New System.Drawing.Point(609, 791)
         Me.BasicIndicator349.Name = "BasicIndicator349"
         Me.BasicIndicator349.OutlineColor = System.Drawing.Color.Transparent
@@ -9637,11 +9918,12 @@ Partial Class CP01
         '
         'BasicIndicator350
         '
-        Me.BasicIndicator350.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator350.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator350.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator350.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator350.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator350.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator350.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator350.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator350.Location = New System.Drawing.Point(554, 791)
         Me.BasicIndicator350.Name = "BasicIndicator350"
         Me.BasicIndicator350.OutlineColor = System.Drawing.Color.Transparent
@@ -9678,11 +9960,12 @@ Partial Class CP01
         '
         'BasicIndicator352
         '
-        Me.BasicIndicator352.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator352.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator352.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator352.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator352.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator352.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator352.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator352.Location = New System.Drawing.Point(904, 775)
         Me.BasicIndicator352.Name = "BasicIndicator352"
         Me.BasicIndicator352.OutlineColor = System.Drawing.Color.Transparent
@@ -9717,11 +10000,12 @@ Partial Class CP01
         '
         'BasicIndicator353
         '
-        Me.BasicIndicator353.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator353.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator353.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator353.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator353.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator353.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator353.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator353.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator353.Location = New System.Drawing.Point(849, 775)
         Me.BasicIndicator353.Name = "BasicIndicator353"
         Me.BasicIndicator353.OutlineColor = System.Drawing.Color.Transparent
@@ -9758,11 +10042,12 @@ Partial Class CP01
         '
         'BasicIndicator355
         '
-        Me.BasicIndicator355.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator355.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator355.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator355.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator355.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator355.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator355.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator355.Location = New System.Drawing.Point(608, 775)
         Me.BasicIndicator355.Name = "BasicIndicator355"
         Me.BasicIndicator355.OutlineColor = System.Drawing.Color.Transparent
@@ -9797,11 +10082,12 @@ Partial Class CP01
         '
         'BasicIndicator356
         '
-        Me.BasicIndicator356.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator356.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator356.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator356.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator356.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator356.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator356.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator356.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator356.Location = New System.Drawing.Point(553, 775)
         Me.BasicIndicator356.Name = "BasicIndicator356"
         Me.BasicIndicator356.OutlineColor = System.Drawing.Color.Transparent
@@ -9838,11 +10124,12 @@ Partial Class CP01
         '
         'BasicIndicator358
         '
-        Me.BasicIndicator358.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator358.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator358.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator358.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator358.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator358.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator358.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator358.Location = New System.Drawing.Point(904, 759)
         Me.BasicIndicator358.Name = "BasicIndicator358"
         Me.BasicIndicator358.OutlineColor = System.Drawing.Color.Transparent
@@ -9877,11 +10164,12 @@ Partial Class CP01
         '
         'BasicIndicator359
         '
-        Me.BasicIndicator359.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator359.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator359.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator359.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator359.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator359.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator359.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator359.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator359.Location = New System.Drawing.Point(849, 759)
         Me.BasicIndicator359.Name = "BasicIndicator359"
         Me.BasicIndicator359.OutlineColor = System.Drawing.Color.Transparent
@@ -9918,11 +10206,12 @@ Partial Class CP01
         '
         'BasicIndicator361
         '
-        Me.BasicIndicator361.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator361.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator361.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator361.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator361.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator361.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator361.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator361.Location = New System.Drawing.Point(608, 759)
         Me.BasicIndicator361.Name = "BasicIndicator361"
         Me.BasicIndicator361.OutlineColor = System.Drawing.Color.Transparent
@@ -9957,11 +10246,12 @@ Partial Class CP01
         '
         'BasicIndicator362
         '
-        Me.BasicIndicator362.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator362.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator362.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator362.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator362.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator362.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator362.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator362.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator362.Location = New System.Drawing.Point(553, 759)
         Me.BasicIndicator362.Name = "BasicIndicator362"
         Me.BasicIndicator362.OutlineColor = System.Drawing.Color.Transparent
@@ -9998,11 +10288,12 @@ Partial Class CP01
         '
         'BasicIndicator364
         '
-        Me.BasicIndicator364.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator364.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator364.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator364.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator364.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator364.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator364.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator364.Location = New System.Drawing.Point(904, 743)
         Me.BasicIndicator364.Name = "BasicIndicator364"
         Me.BasicIndicator364.OutlineColor = System.Drawing.Color.Transparent
@@ -10037,11 +10328,12 @@ Partial Class CP01
         '
         'BasicIndicator365
         '
-        Me.BasicIndicator365.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator365.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator365.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator365.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator365.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator365.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator365.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator365.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator365.Location = New System.Drawing.Point(849, 743)
         Me.BasicIndicator365.Name = "BasicIndicator365"
         Me.BasicIndicator365.OutlineColor = System.Drawing.Color.Transparent
@@ -10078,11 +10370,12 @@ Partial Class CP01
         '
         'BasicIndicator367
         '
-        Me.BasicIndicator367.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator367.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator367.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator367.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator367.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator367.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator367.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator367.Location = New System.Drawing.Point(608, 743)
         Me.BasicIndicator367.Name = "BasicIndicator367"
         Me.BasicIndicator367.OutlineColor = System.Drawing.Color.Transparent
@@ -10117,11 +10410,12 @@ Partial Class CP01
         '
         'BasicIndicator368
         '
-        Me.BasicIndicator368.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator368.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator368.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator368.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator368.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator368.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator368.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator368.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator368.Location = New System.Drawing.Point(553, 743)
         Me.BasicIndicator368.Name = "BasicIndicator368"
         Me.BasicIndicator368.OutlineColor = System.Drawing.Color.Transparent
@@ -10158,11 +10452,12 @@ Partial Class CP01
         '
         'BasicIndicator370
         '
-        Me.BasicIndicator370.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator370.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator370.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator370.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator370.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator370.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator370.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator370.Location = New System.Drawing.Point(904, 727)
         Me.BasicIndicator370.Name = "BasicIndicator370"
         Me.BasicIndicator370.OutlineColor = System.Drawing.Color.Transparent
@@ -10197,11 +10492,12 @@ Partial Class CP01
         '
         'BasicIndicator371
         '
-        Me.BasicIndicator371.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator371.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator371.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator371.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator371.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator371.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator371.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator371.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator371.Location = New System.Drawing.Point(849, 727)
         Me.BasicIndicator371.Name = "BasicIndicator371"
         Me.BasicIndicator371.OutlineColor = System.Drawing.Color.Transparent
@@ -10238,11 +10534,12 @@ Partial Class CP01
         '
         'BasicIndicator373
         '
-        Me.BasicIndicator373.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator373.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator373.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator373.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator373.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator373.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator373.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator373.Location = New System.Drawing.Point(905, 808)
         Me.BasicIndicator373.Name = "BasicIndicator373"
         Me.BasicIndicator373.OutlineColor = System.Drawing.Color.Transparent
@@ -10277,11 +10574,12 @@ Partial Class CP01
         '
         'BasicIndicator374
         '
-        Me.BasicIndicator374.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator374.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator374.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator374.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator374.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator374.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator374.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator374.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator374.Location = New System.Drawing.Point(850, 808)
         Me.BasicIndicator374.Name = "BasicIndicator374"
         Me.BasicIndicator374.OutlineColor = System.Drawing.Color.Transparent
@@ -10318,11 +10616,12 @@ Partial Class CP01
         '
         'BasicIndicator376
         '
-        Me.BasicIndicator376.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator376.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator376.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator376.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator376.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator376.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator376.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator376.Location = New System.Drawing.Point(609, 824)
         Me.BasicIndicator376.Name = "BasicIndicator376"
         Me.BasicIndicator376.OutlineColor = System.Drawing.Color.Transparent
@@ -10357,11 +10656,12 @@ Partial Class CP01
         '
         'BasicIndicator377
         '
-        Me.BasicIndicator377.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator377.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator377.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator377.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator377.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator377.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator377.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator377.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator377.Location = New System.Drawing.Point(554, 824)
         Me.BasicIndicator377.Name = "BasicIndicator377"
         Me.BasicIndicator377.OutlineColor = System.Drawing.Color.Transparent
@@ -10398,11 +10698,12 @@ Partial Class CP01
         '
         'BasicIndicator379
         '
-        Me.BasicIndicator379.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator379.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator379.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator379.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator379.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator379.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator379.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator379.Location = New System.Drawing.Point(905, 824)
         Me.BasicIndicator379.Name = "BasicIndicator379"
         Me.BasicIndicator379.OutlineColor = System.Drawing.Color.Transparent
@@ -10437,11 +10738,12 @@ Partial Class CP01
         '
         'BasicIndicator380
         '
-        Me.BasicIndicator380.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator380.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator380.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator380.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator380.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator380.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator380.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator380.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator380.Location = New System.Drawing.Point(850, 824)
         Me.BasicIndicator380.Name = "BasicIndicator380"
         Me.BasicIndicator380.OutlineColor = System.Drawing.Color.Transparent
@@ -10478,11 +10780,12 @@ Partial Class CP01
         '
         'BasicIndicator382
         '
-        Me.BasicIndicator382.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator382.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator382.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator382.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator382.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator382.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator382.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator382.Location = New System.Drawing.Point(609, 840)
         Me.BasicIndicator382.Name = "BasicIndicator382"
         Me.BasicIndicator382.OutlineColor = System.Drawing.Color.Transparent
@@ -10517,11 +10820,12 @@ Partial Class CP01
         '
         'BasicIndicator383
         '
-        Me.BasicIndicator383.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator383.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator383.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator383.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator383.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator383.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator383.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator383.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator383.Location = New System.Drawing.Point(554, 840)
         Me.BasicIndicator383.Name = "BasicIndicator383"
         Me.BasicIndicator383.OutlineColor = System.Drawing.Color.Transparent
@@ -10558,11 +10862,12 @@ Partial Class CP01
         '
         'BasicIndicator385
         '
-        Me.BasicIndicator385.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator385.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator385.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator385.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator385.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator385.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator385.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator385.Location = New System.Drawing.Point(905, 840)
         Me.BasicIndicator385.Name = "BasicIndicator385"
         Me.BasicIndicator385.OutlineColor = System.Drawing.Color.Transparent
@@ -10597,11 +10902,12 @@ Partial Class CP01
         '
         'BasicIndicator386
         '
-        Me.BasicIndicator386.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator386.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator386.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator386.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator386.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator386.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator386.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator386.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator386.Location = New System.Drawing.Point(850, 840)
         Me.BasicIndicator386.Name = "BasicIndicator386"
         Me.BasicIndicator386.OutlineColor = System.Drawing.Color.Transparent
@@ -10638,11 +10944,12 @@ Partial Class CP01
         '
         'BasicIndicator388
         '
-        Me.BasicIndicator388.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator388.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator388.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator388.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator388.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator388.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator388.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator388.Location = New System.Drawing.Point(609, 856)
         Me.BasicIndicator388.Name = "BasicIndicator388"
         Me.BasicIndicator388.OutlineColor = System.Drawing.Color.Transparent
@@ -10677,11 +10984,12 @@ Partial Class CP01
         '
         'BasicIndicator389
         '
-        Me.BasicIndicator389.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator389.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator389.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator389.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator389.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator389.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator389.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator389.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator389.Location = New System.Drawing.Point(554, 856)
         Me.BasicIndicator389.Name = "BasicIndicator389"
         Me.BasicIndicator389.OutlineColor = System.Drawing.Color.Transparent
@@ -10718,11 +11026,12 @@ Partial Class CP01
         '
         'BasicIndicator391
         '
-        Me.BasicIndicator391.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator391.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator391.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator391.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator391.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator391.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator391.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator391.Location = New System.Drawing.Point(905, 856)
         Me.BasicIndicator391.Name = "BasicIndicator391"
         Me.BasicIndicator391.OutlineColor = System.Drawing.Color.Transparent
@@ -10757,11 +11066,12 @@ Partial Class CP01
         '
         'BasicIndicator392
         '
-        Me.BasicIndicator392.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator392.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator392.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator392.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator392.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator392.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator392.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator392.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator392.Location = New System.Drawing.Point(850, 856)
         Me.BasicIndicator392.Name = "BasicIndicator392"
         Me.BasicIndicator392.OutlineColor = System.Drawing.Color.Transparent
@@ -10798,11 +11108,12 @@ Partial Class CP01
         '
         'BasicIndicator394
         '
-        Me.BasicIndicator394.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator394.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator394.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator394.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator394.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator394.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator394.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator394.Location = New System.Drawing.Point(610, 872)
         Me.BasicIndicator394.Name = "BasicIndicator394"
         Me.BasicIndicator394.OutlineColor = System.Drawing.Color.Transparent
@@ -10837,11 +11148,12 @@ Partial Class CP01
         '
         'BasicIndicator395
         '
-        Me.BasicIndicator395.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator395.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator395.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator395.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator395.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator395.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator395.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator395.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator395.Location = New System.Drawing.Point(555, 872)
         Me.BasicIndicator395.Name = "BasicIndicator395"
         Me.BasicIndicator395.OutlineColor = System.Drawing.Color.Transparent
@@ -10878,11 +11190,12 @@ Partial Class CP01
         '
         'BasicIndicator397
         '
-        Me.BasicIndicator397.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator397.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator397.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator397.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator397.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator397.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator397.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator397.Location = New System.Drawing.Point(609, 808)
         Me.BasicIndicator397.Name = "BasicIndicator397"
         Me.BasicIndicator397.OutlineColor = System.Drawing.Color.Transparent
@@ -10917,11 +11230,12 @@ Partial Class CP01
         '
         'BasicIndicator398
         '
-        Me.BasicIndicator398.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator398.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator398.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator398.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator398.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator398.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator398.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator398.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator398.Location = New System.Drawing.Point(554, 808)
         Me.BasicIndicator398.Name = "BasicIndicator398"
         Me.BasicIndicator398.OutlineColor = System.Drawing.Color.Transparent
@@ -10958,11 +11272,12 @@ Partial Class CP01
         '
         'BasicIndicator400
         '
-        Me.BasicIndicator400.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator400.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator400.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator400.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator400.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator400.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator400.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator400.Location = New System.Drawing.Point(906, 889)
         Me.BasicIndicator400.Name = "BasicIndicator400"
         Me.BasicIndicator400.OutlineColor = System.Drawing.Color.Transparent
@@ -10997,11 +11312,12 @@ Partial Class CP01
         '
         'BasicIndicator401
         '
-        Me.BasicIndicator401.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator401.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator401.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator401.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator401.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator401.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator401.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator401.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator401.Location = New System.Drawing.Point(851, 889)
         Me.BasicIndicator401.Name = "BasicIndicator401"
         Me.BasicIndicator401.OutlineColor = System.Drawing.Color.Transparent
@@ -11038,11 +11354,12 @@ Partial Class CP01
         '
         'BasicIndicator403
         '
-        Me.BasicIndicator403.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator403.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator403.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator403.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator403.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator403.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator403.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator403.Location = New System.Drawing.Point(610, 905)
         Me.BasicIndicator403.Name = "BasicIndicator403"
         Me.BasicIndicator403.OutlineColor = System.Drawing.Color.Transparent
@@ -11077,11 +11394,12 @@ Partial Class CP01
         '
         'BasicIndicator404
         '
-        Me.BasicIndicator404.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator404.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator404.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator404.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator404.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator404.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator404.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator404.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator404.Location = New System.Drawing.Point(555, 905)
         Me.BasicIndicator404.Name = "BasicIndicator404"
         Me.BasicIndicator404.OutlineColor = System.Drawing.Color.Transparent
@@ -11118,11 +11436,12 @@ Partial Class CP01
         '
         'BasicIndicator406
         '
-        Me.BasicIndicator406.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator406.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator406.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator406.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator406.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator406.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator406.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator406.Location = New System.Drawing.Point(906, 905)
         Me.BasicIndicator406.Name = "BasicIndicator406"
         Me.BasicIndicator406.OutlineColor = System.Drawing.Color.Transparent
@@ -11157,11 +11476,12 @@ Partial Class CP01
         '
         'BasicIndicator407
         '
-        Me.BasicIndicator407.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator407.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator407.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator407.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator407.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator407.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator407.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator407.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator407.Location = New System.Drawing.Point(851, 905)
         Me.BasicIndicator407.Name = "BasicIndicator407"
         Me.BasicIndicator407.OutlineColor = System.Drawing.Color.Transparent
@@ -11198,11 +11518,12 @@ Partial Class CP01
         '
         'BasicIndicator409
         '
-        Me.BasicIndicator409.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator409.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator409.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator409.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator409.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator409.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator409.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator409.Location = New System.Drawing.Point(610, 921)
         Me.BasicIndicator409.Name = "BasicIndicator409"
         Me.BasicIndicator409.OutlineColor = System.Drawing.Color.Transparent
@@ -11237,11 +11558,12 @@ Partial Class CP01
         '
         'BasicIndicator410
         '
-        Me.BasicIndicator410.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator410.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator410.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator410.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator410.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator410.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator410.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator410.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator410.Location = New System.Drawing.Point(555, 921)
         Me.BasicIndicator410.Name = "BasicIndicator410"
         Me.BasicIndicator410.OutlineColor = System.Drawing.Color.Transparent
@@ -11278,11 +11600,12 @@ Partial Class CP01
         '
         'BasicIndicator412
         '
-        Me.BasicIndicator412.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator412.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator412.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator412.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator412.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator412.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator412.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator412.Location = New System.Drawing.Point(906, 921)
         Me.BasicIndicator412.Name = "BasicIndicator412"
         Me.BasicIndicator412.OutlineColor = System.Drawing.Color.Transparent
@@ -11317,11 +11640,12 @@ Partial Class CP01
         '
         'BasicIndicator413
         '
-        Me.BasicIndicator413.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator413.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator413.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator413.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator413.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator413.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator413.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator413.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator413.Location = New System.Drawing.Point(851, 921)
         Me.BasicIndicator413.Name = "BasicIndicator413"
         Me.BasicIndicator413.OutlineColor = System.Drawing.Color.Transparent
@@ -11358,11 +11682,12 @@ Partial Class CP01
         '
         'BasicIndicator415
         '
-        Me.BasicIndicator415.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator415.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator415.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator415.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator415.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator415.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator415.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator415.Location = New System.Drawing.Point(610, 937)
         Me.BasicIndicator415.Name = "BasicIndicator415"
         Me.BasicIndicator415.OutlineColor = System.Drawing.Color.Transparent
@@ -11397,11 +11722,12 @@ Partial Class CP01
         '
         'BasicIndicator416
         '
-        Me.BasicIndicator416.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator416.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator416.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator416.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator416.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator416.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator416.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator416.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator416.Location = New System.Drawing.Point(555, 937)
         Me.BasicIndicator416.Name = "BasicIndicator416"
         Me.BasicIndicator416.OutlineColor = System.Drawing.Color.Transparent
@@ -11438,11 +11764,12 @@ Partial Class CP01
         '
         'BasicIndicator418
         '
-        Me.BasicIndicator418.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator418.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator418.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator418.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator418.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator418.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator418.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator418.Location = New System.Drawing.Point(906, 937)
         Me.BasicIndicator418.Name = "BasicIndicator418"
         Me.BasicIndicator418.OutlineColor = System.Drawing.Color.Transparent
@@ -11477,11 +11804,12 @@ Partial Class CP01
         '
         'BasicIndicator419
         '
-        Me.BasicIndicator419.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator419.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator419.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator419.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator419.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator419.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator419.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator419.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator419.Location = New System.Drawing.Point(851, 937)
         Me.BasicIndicator419.Name = "BasicIndicator419"
         Me.BasicIndicator419.OutlineColor = System.Drawing.Color.Transparent
@@ -11518,11 +11846,12 @@ Partial Class CP01
         '
         'BasicIndicator421
         '
-        Me.BasicIndicator421.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator421.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator421.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator421.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator421.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator421.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator421.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator421.Location = New System.Drawing.Point(611, 953)
         Me.BasicIndicator421.Name = "BasicIndicator421"
         Me.BasicIndicator421.OutlineColor = System.Drawing.Color.Transparent
@@ -11557,11 +11886,12 @@ Partial Class CP01
         '
         'BasicIndicator422
         '
-        Me.BasicIndicator422.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator422.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator422.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator422.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator422.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator422.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator422.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator422.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator422.Location = New System.Drawing.Point(556, 953)
         Me.BasicIndicator422.Name = "BasicIndicator422"
         Me.BasicIndicator422.OutlineColor = System.Drawing.Color.Transparent
@@ -11598,11 +11928,12 @@ Partial Class CP01
         '
         'BasicIndicator424
         '
-        Me.BasicIndicator424.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator424.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator424.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator424.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator424.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator424.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator424.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator424.Location = New System.Drawing.Point(610, 889)
         Me.BasicIndicator424.Name = "BasicIndicator424"
         Me.BasicIndicator424.OutlineColor = System.Drawing.Color.Transparent
@@ -11637,11 +11968,12 @@ Partial Class CP01
         '
         'BasicIndicator425
         '
-        Me.BasicIndicator425.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator425.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator425.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator425.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator425.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator425.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator425.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator425.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator425.Location = New System.Drawing.Point(555, 889)
         Me.BasicIndicator425.Name = "BasicIndicator425"
         Me.BasicIndicator425.OutlineColor = System.Drawing.Color.Transparent
@@ -11658,11 +11990,12 @@ Partial Class CP01
         '
         'BasicIndicator426
         '
-        Me.BasicIndicator426.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator426.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator426.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator426.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator426.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator426.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator426.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator426.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator426.Location = New System.Drawing.Point(1014, 12)
         Me.BasicIndicator426.Name = "BasicIndicator426"
         Me.BasicIndicator426.OutlineColor = System.Drawing.Color.Transparent
@@ -11679,11 +12012,12 @@ Partial Class CP01
         '
         'BasicIndicator427
         '
-        Me.BasicIndicator427.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator427.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator427.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator427.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator427.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator427.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator427.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator427.Location = New System.Drawing.Point(1194, 12)
         Me.BasicIndicator427.Name = "BasicIndicator427"
         Me.BasicIndicator427.OutlineColor = System.Drawing.Color.Transparent
@@ -11700,11 +12034,12 @@ Partial Class CP01
         '
         'BasicIndicator430
         '
-        Me.BasicIndicator430.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator430.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator430.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator430.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator430.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator430.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator430.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator430.Location = New System.Drawing.Point(1059, 12)
         Me.BasicIndicator430.Name = "BasicIndicator430"
         Me.BasicIndicator430.OutlineColor = System.Drawing.Color.Transparent
@@ -11721,11 +12056,12 @@ Partial Class CP01
         '
         'BasicIndicator432
         '
-        Me.BasicIndicator432.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator432.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator432.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator432.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator432.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator432.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator432.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator432.Location = New System.Drawing.Point(1104, 12)
         Me.BasicIndicator432.Name = "BasicIndicator432"
         Me.BasicIndicator432.OutlineColor = System.Drawing.Color.Transparent
@@ -11742,11 +12078,12 @@ Partial Class CP01
         '
         'BasicIndicator433
         '
-        Me.BasicIndicator433.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator433.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator433.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator433.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator433.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator433.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator433.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator433.Location = New System.Drawing.Point(1149, 12)
         Me.BasicIndicator433.Name = "BasicIndicator433"
         Me.BasicIndicator433.OutlineColor = System.Drawing.Color.Transparent
@@ -11781,11 +12118,12 @@ Partial Class CP01
         '
         'BasicIndicator435
         '
-        Me.BasicIndicator435.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator435.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator435.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator435.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator435.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator435.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator435.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator435.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator435.Location = New System.Drawing.Point(1014, 32)
         Me.BasicIndicator435.Name = "BasicIndicator435"
         Me.BasicIndicator435.OutlineColor = System.Drawing.Color.Transparent
@@ -11802,11 +12140,12 @@ Partial Class CP01
         '
         'BasicIndicator436
         '
-        Me.BasicIndicator436.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator436.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator436.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator436.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator436.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator436.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator436.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator436.Location = New System.Drawing.Point(1194, 32)
         Me.BasicIndicator436.Name = "BasicIndicator436"
         Me.BasicIndicator436.OutlineColor = System.Drawing.Color.Transparent
@@ -11823,11 +12162,12 @@ Partial Class CP01
         '
         'BasicIndicator439
         '
-        Me.BasicIndicator439.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator439.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator439.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator439.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator439.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator439.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator439.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator439.Location = New System.Drawing.Point(1059, 32)
         Me.BasicIndicator439.Name = "BasicIndicator439"
         Me.BasicIndicator439.OutlineColor = System.Drawing.Color.Transparent
@@ -11844,11 +12184,12 @@ Partial Class CP01
         '
         'BasicIndicator441
         '
-        Me.BasicIndicator441.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator441.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator441.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator441.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator441.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator441.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator441.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator441.Location = New System.Drawing.Point(1104, 32)
         Me.BasicIndicator441.Name = "BasicIndicator441"
         Me.BasicIndicator441.OutlineColor = System.Drawing.Color.Transparent
@@ -11865,11 +12206,12 @@ Partial Class CP01
         '
         'BasicIndicator442
         '
-        Me.BasicIndicator442.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator442.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator442.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator442.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator442.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator442.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator442.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator442.Location = New System.Drawing.Point(1149, 32)
         Me.BasicIndicator442.Name = "BasicIndicator442"
         Me.BasicIndicator442.OutlineColor = System.Drawing.Color.Transparent
@@ -11904,11 +12246,12 @@ Partial Class CP01
         '
         'BasicIndicator444
         '
-        Me.BasicIndicator444.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator444.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator444.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator444.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator444.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator444.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator444.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator444.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator444.Location = New System.Drawing.Point(1013, 52)
         Me.BasicIndicator444.Name = "BasicIndicator444"
         Me.BasicIndicator444.OutlineColor = System.Drawing.Color.Transparent
@@ -11925,11 +12268,12 @@ Partial Class CP01
         '
         'BasicIndicator445
         '
-        Me.BasicIndicator445.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator445.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator445.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator445.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator445.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator445.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator445.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator445.Location = New System.Drawing.Point(1193, 52)
         Me.BasicIndicator445.Name = "BasicIndicator445"
         Me.BasicIndicator445.OutlineColor = System.Drawing.Color.Transparent
@@ -11946,11 +12290,12 @@ Partial Class CP01
         '
         'BasicIndicator448
         '
-        Me.BasicIndicator448.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator448.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator448.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator448.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator448.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator448.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator448.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator448.Location = New System.Drawing.Point(1058, 52)
         Me.BasicIndicator448.Name = "BasicIndicator448"
         Me.BasicIndicator448.OutlineColor = System.Drawing.Color.Transparent
@@ -11967,11 +12312,12 @@ Partial Class CP01
         '
         'BasicIndicator450
         '
-        Me.BasicIndicator450.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator450.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator450.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator450.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator450.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator450.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator450.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator450.Location = New System.Drawing.Point(1103, 52)
         Me.BasicIndicator450.Name = "BasicIndicator450"
         Me.BasicIndicator450.OutlineColor = System.Drawing.Color.Transparent
@@ -11988,11 +12334,12 @@ Partial Class CP01
         '
         'BasicIndicator451
         '
-        Me.BasicIndicator451.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator451.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator451.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator451.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator451.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator451.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator451.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator451.Location = New System.Drawing.Point(1148, 52)
         Me.BasicIndicator451.Name = "BasicIndicator451"
         Me.BasicIndicator451.OutlineColor = System.Drawing.Color.Transparent
@@ -12027,11 +12374,12 @@ Partial Class CP01
         '
         'BasicIndicator453
         '
-        Me.BasicIndicator453.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator453.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator453.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator453.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator453.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator453.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator453.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator453.Location = New System.Drawing.Point(1329, 72)
         Me.BasicIndicator453.Name = "BasicIndicator453"
         Me.BasicIndicator453.OutlineColor = System.Drawing.Color.Transparent
@@ -12048,11 +12396,12 @@ Partial Class CP01
         '
         'BasicIndicator454
         '
-        Me.BasicIndicator454.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator454.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator454.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator454.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator454.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator454.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator454.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator454.Location = New System.Drawing.Point(1194, 72)
         Me.BasicIndicator454.Name = "BasicIndicator454"
         Me.BasicIndicator454.OutlineColor = System.Drawing.Color.Transparent
@@ -12069,11 +12418,12 @@ Partial Class CP01
         '
         'BasicIndicator455
         '
-        Me.BasicIndicator455.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator455.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator455.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator455.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator455.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator455.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator455.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator455.Location = New System.Drawing.Point(1239, 72)
         Me.BasicIndicator455.Name = "BasicIndicator455"
         Me.BasicIndicator455.OutlineColor = System.Drawing.Color.Transparent
@@ -12090,11 +12440,12 @@ Partial Class CP01
         '
         'BasicIndicator456
         '
-        Me.BasicIndicator456.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator456.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator456.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator456.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator456.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator456.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator456.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator456.Location = New System.Drawing.Point(1284, 72)
         Me.BasicIndicator456.Name = "BasicIndicator456"
         Me.BasicIndicator456.OutlineColor = System.Drawing.Color.Transparent
@@ -12129,11 +12480,12 @@ Partial Class CP01
         '
         'BasicIndicator458
         '
-        Me.BasicIndicator458.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator458.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator458.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator458.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator458.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator458.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator458.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator458.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator458.Location = New System.Drawing.Point(1149, 72)
         Me.BasicIndicator458.Name = "BasicIndicator458"
         Me.BasicIndicator458.OutlineColor = System.Drawing.Color.Transparent
@@ -12270,11 +12622,12 @@ Partial Class CP01
         '
         'BasicIndicator464
         '
-        Me.BasicIndicator464.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator464.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator464.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator464.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator464.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator464.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator464.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator464.Location = New System.Drawing.Point(1329, 92)
         Me.BasicIndicator464.Name = "BasicIndicator464"
         Me.BasicIndicator464.OutlineColor = System.Drawing.Color.Transparent
@@ -12291,11 +12644,12 @@ Partial Class CP01
         '
         'BasicIndicator465
         '
-        Me.BasicIndicator465.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator465.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator465.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator465.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator465.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator465.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator465.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator465.Location = New System.Drawing.Point(1194, 92)
         Me.BasicIndicator465.Name = "BasicIndicator465"
         Me.BasicIndicator465.OutlineColor = System.Drawing.Color.Transparent
@@ -12312,11 +12666,12 @@ Partial Class CP01
         '
         'BasicIndicator466
         '
-        Me.BasicIndicator466.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator466.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator466.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator466.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator466.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator466.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator466.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator466.Location = New System.Drawing.Point(1239, 92)
         Me.BasicIndicator466.Name = "BasicIndicator466"
         Me.BasicIndicator466.OutlineColor = System.Drawing.Color.Transparent
@@ -12333,11 +12688,12 @@ Partial Class CP01
         '
         'BasicIndicator467
         '
-        Me.BasicIndicator467.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator467.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator467.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator467.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator467.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator467.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator467.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator467.Location = New System.Drawing.Point(1284, 92)
         Me.BasicIndicator467.Name = "BasicIndicator467"
         Me.BasicIndicator467.OutlineColor = System.Drawing.Color.Transparent
@@ -12372,11 +12728,12 @@ Partial Class CP01
         '
         'BasicIndicator468
         '
-        Me.BasicIndicator468.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator468.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator468.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator468.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator468.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator468.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator468.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator468.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator468.Location = New System.Drawing.Point(1149, 92)
         Me.BasicIndicator468.Name = "BasicIndicator468"
         Me.BasicIndicator468.OutlineColor = System.Drawing.Color.Transparent
@@ -12453,11 +12810,12 @@ Partial Class CP01
         '
         'BasicIndicator472
         '
-        Me.BasicIndicator472.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator472.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator472.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator472.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator472.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator472.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator472.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator472.Location = New System.Drawing.Point(1329, 112)
         Me.BasicIndicator472.Name = "BasicIndicator472"
         Me.BasicIndicator472.OutlineColor = System.Drawing.Color.Transparent
@@ -12474,11 +12832,12 @@ Partial Class CP01
         '
         'BasicIndicator473
         '
-        Me.BasicIndicator473.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator473.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator473.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator473.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator473.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator473.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator473.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator473.Location = New System.Drawing.Point(1194, 112)
         Me.BasicIndicator473.Name = "BasicIndicator473"
         Me.BasicIndicator473.OutlineColor = System.Drawing.Color.Transparent
@@ -12495,11 +12854,12 @@ Partial Class CP01
         '
         'BasicIndicator474
         '
-        Me.BasicIndicator474.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator474.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator474.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator474.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator474.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator474.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator474.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator474.Location = New System.Drawing.Point(1239, 112)
         Me.BasicIndicator474.Name = "BasicIndicator474"
         Me.BasicIndicator474.OutlineColor = System.Drawing.Color.Transparent
@@ -12516,11 +12876,12 @@ Partial Class CP01
         '
         'BasicIndicator475
         '
-        Me.BasicIndicator475.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator475.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator475.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator475.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator475.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator475.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator475.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator475.Location = New System.Drawing.Point(1284, 112)
         Me.BasicIndicator475.Name = "BasicIndicator475"
         Me.BasicIndicator475.OutlineColor = System.Drawing.Color.Transparent
@@ -12555,11 +12916,12 @@ Partial Class CP01
         '
         'BasicIndicator476
         '
-        Me.BasicIndicator476.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator476.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator476.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator476.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator476.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator476.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator476.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator476.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator476.Location = New System.Drawing.Point(1149, 112)
         Me.BasicIndicator476.Name = "BasicIndicator476"
         Me.BasicIndicator476.OutlineColor = System.Drawing.Color.Transparent
@@ -12576,11 +12938,12 @@ Partial Class CP01
         '
         'BasicIndicator477
         '
-        Me.BasicIndicator477.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator477.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator477.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator477.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator477.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator477.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator477.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator477.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator477.Location = New System.Drawing.Point(995, 132)
         Me.BasicIndicator477.Name = "BasicIndicator477"
         Me.BasicIndicator477.OutlineColor = System.Drawing.Color.Transparent
@@ -12597,11 +12960,12 @@ Partial Class CP01
         '
         'BasicIndicator478
         '
-        Me.BasicIndicator478.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator478.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator478.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator478.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator478.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator478.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator478.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator478.Location = New System.Drawing.Point(1085, 132)
         Me.BasicIndicator478.Name = "BasicIndicator478"
         Me.BasicIndicator478.OutlineColor = System.Drawing.Color.Transparent
@@ -12618,11 +12982,12 @@ Partial Class CP01
         '
         'BasicIndicator479
         '
-        Me.BasicIndicator479.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator479.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator479.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator479.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator479.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator479.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator479.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator479.Location = New System.Drawing.Point(1130, 132)
         Me.BasicIndicator479.Name = "BasicIndicator479"
         Me.BasicIndicator479.OutlineColor = System.Drawing.Color.Transparent
@@ -12639,11 +13004,12 @@ Partial Class CP01
         '
         'BasicIndicator480
         '
-        Me.BasicIndicator480.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator480.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator480.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator480.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator480.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator480.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator480.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator480.Location = New System.Drawing.Point(1175, 132)
         Me.BasicIndicator480.Name = "BasicIndicator480"
         Me.BasicIndicator480.OutlineColor = System.Drawing.Color.Transparent
@@ -12678,11 +13044,12 @@ Partial Class CP01
         '
         'BasicIndicator481
         '
-        Me.BasicIndicator481.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator481.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator481.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator481.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator481.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator481.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator481.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator481.Location = New System.Drawing.Point(1040, 132)
         Me.BasicIndicator481.Name = "BasicIndicator481"
         Me.BasicIndicator481.OutlineColor = System.Drawing.Color.Transparent
@@ -12739,11 +13106,12 @@ Partial Class CP01
         '
         'BasicIndicator485
         '
-        Me.BasicIndicator485.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator485.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator485.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator485.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator485.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator485.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator485.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator485.Location = New System.Drawing.Point(1278, 152)
         Me.BasicIndicator485.Name = "BasicIndicator485"
         Me.BasicIndicator485.OutlineColor = System.Drawing.Color.Transparent
@@ -12760,11 +13128,12 @@ Partial Class CP01
         '
         'BasicIndicator486
         '
-        Me.BasicIndicator486.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator486.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator486.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator486.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator486.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator486.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator486.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator486.Location = New System.Drawing.Point(1143, 152)
         Me.BasicIndicator486.Name = "BasicIndicator486"
         Me.BasicIndicator486.OutlineColor = System.Drawing.Color.Transparent
@@ -12781,11 +13150,12 @@ Partial Class CP01
         '
         'BasicIndicator487
         '
-        Me.BasicIndicator487.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator487.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator487.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator487.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator487.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator487.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator487.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator487.Location = New System.Drawing.Point(1188, 152)
         Me.BasicIndicator487.Name = "BasicIndicator487"
         Me.BasicIndicator487.OutlineColor = System.Drawing.Color.Transparent
@@ -12802,11 +13172,12 @@ Partial Class CP01
         '
         'BasicIndicator488
         '
-        Me.BasicIndicator488.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator488.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator488.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator488.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator488.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator488.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator488.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator488.Location = New System.Drawing.Point(1233, 152)
         Me.BasicIndicator488.Name = "BasicIndicator488"
         Me.BasicIndicator488.OutlineColor = System.Drawing.Color.Transparent
@@ -12841,11 +13212,12 @@ Partial Class CP01
         '
         'BasicIndicator489
         '
-        Me.BasicIndicator489.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator489.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator489.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator489.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator489.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator489.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator489.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator489.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator489.Location = New System.Drawing.Point(1098, 152)
         Me.BasicIndicator489.Name = "BasicIndicator489"
         Me.BasicIndicator489.OutlineColor = System.Drawing.Color.Transparent
@@ -12862,11 +13234,12 @@ Partial Class CP01
         '
         'BasicIndicator482
         '
-        Me.BasicIndicator482.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator482.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator482.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator482.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator482.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator482.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator482.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator482.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator482.Location = New System.Drawing.Point(1055, 172)
         Me.BasicIndicator482.Name = "BasicIndicator482"
         Me.BasicIndicator482.OutlineColor = System.Drawing.Color.Transparent
@@ -12883,11 +13256,12 @@ Partial Class CP01
         '
         'BasicIndicator490
         '
-        Me.BasicIndicator490.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator490.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator490.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator490.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator490.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator490.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator490.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator490.Location = New System.Drawing.Point(1370, 172)
         Me.BasicIndicator490.Name = "BasicIndicator490"
         Me.BasicIndicator490.OutlineColor = System.Drawing.Color.Transparent
@@ -12904,11 +13278,12 @@ Partial Class CP01
         '
         'BasicIndicator491
         '
-        Me.BasicIndicator491.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator491.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator491.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator491.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator491.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator491.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator491.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator491.Location = New System.Drawing.Point(1415, 172)
         Me.BasicIndicator491.Name = "BasicIndicator491"
         Me.BasicIndicator491.OutlineColor = System.Drawing.Color.Transparent
@@ -12925,11 +13300,12 @@ Partial Class CP01
         '
         'BasicIndicator492
         '
-        Me.BasicIndicator492.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator492.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator492.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator492.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator492.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator492.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator492.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator492.Location = New System.Drawing.Point(1145, 172)
         Me.BasicIndicator492.Name = "BasicIndicator492"
         Me.BasicIndicator492.OutlineColor = System.Drawing.Color.Transparent
@@ -12946,11 +13322,12 @@ Partial Class CP01
         '
         'BasicIndicator493
         '
-        Me.BasicIndicator493.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator493.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator493.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator493.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator493.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator493.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator493.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator493.Location = New System.Drawing.Point(1190, 172)
         Me.BasicIndicator493.Name = "BasicIndicator493"
         Me.BasicIndicator493.OutlineColor = System.Drawing.Color.Transparent
@@ -12967,11 +13344,12 @@ Partial Class CP01
         '
         'BasicIndicator494
         '
-        Me.BasicIndicator494.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator494.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator494.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator494.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator494.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator494.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator494.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator494.Location = New System.Drawing.Point(1235, 172)
         Me.BasicIndicator494.Name = "BasicIndicator494"
         Me.BasicIndicator494.OutlineColor = System.Drawing.Color.Transparent
@@ -12988,11 +13366,12 @@ Partial Class CP01
         '
         'BasicIndicator495
         '
-        Me.BasicIndicator495.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator495.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator495.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator495.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator495.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator495.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator495.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator495.Location = New System.Drawing.Point(1280, 172)
         Me.BasicIndicator495.Name = "BasicIndicator495"
         Me.BasicIndicator495.OutlineColor = System.Drawing.Color.Transparent
@@ -13009,11 +13388,12 @@ Partial Class CP01
         '
         'BasicIndicator496
         '
-        Me.BasicIndicator496.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator496.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator496.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator496.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator496.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator496.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator496.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator496.Location = New System.Drawing.Point(1325, 172)
         Me.BasicIndicator496.Name = "BasicIndicator496"
         Me.BasicIndicator496.OutlineColor = System.Drawing.Color.Transparent
@@ -13048,11 +13428,12 @@ Partial Class CP01
         '
         'BasicIndicator497
         '
-        Me.BasicIndicator497.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator497.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator497.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator497.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator497.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator497.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator497.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator497.Location = New System.Drawing.Point(1100, 172)
         Me.BasicIndicator497.Name = "BasicIndicator497"
         Me.BasicIndicator497.OutlineColor = System.Drawing.Color.Transparent
@@ -13089,11 +13470,12 @@ Partial Class CP01
         '
         'BasicIndicator428
         '
-        Me.BasicIndicator428.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator428.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator428.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator428.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator428.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator428.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator428.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator428.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator428.Location = New System.Drawing.Point(995, 192)
         Me.BasicIndicator428.Name = "BasicIndicator428"
         Me.BasicIndicator428.OutlineColor = System.Drawing.Color.Transparent
@@ -13110,11 +13492,12 @@ Partial Class CP01
         '
         'BasicIndicator429
         '
-        Me.BasicIndicator429.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator429.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator429.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator429.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator429.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator429.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator429.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator429.Location = New System.Drawing.Point(1085, 192)
         Me.BasicIndicator429.Name = "BasicIndicator429"
         Me.BasicIndicator429.OutlineColor = System.Drawing.Color.Transparent
@@ -13131,11 +13514,12 @@ Partial Class CP01
         '
         'BasicIndicator431
         '
-        Me.BasicIndicator431.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator431.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator431.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator431.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator431.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator431.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator431.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator431.Location = New System.Drawing.Point(1130, 192)
         Me.BasicIndicator431.Name = "BasicIndicator431"
         Me.BasicIndicator431.OutlineColor = System.Drawing.Color.Transparent
@@ -13152,11 +13536,12 @@ Partial Class CP01
         '
         'BasicIndicator434
         '
-        Me.BasicIndicator434.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator434.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator434.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator434.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator434.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator434.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator434.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator434.Location = New System.Drawing.Point(1175, 192)
         Me.BasicIndicator434.Name = "BasicIndicator434"
         Me.BasicIndicator434.OutlineColor = System.Drawing.Color.Transparent
@@ -13191,11 +13576,12 @@ Partial Class CP01
         '
         'BasicIndicator437
         '
-        Me.BasicIndicator437.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator437.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator437.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator437.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator437.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator437.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator437.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator437.Location = New System.Drawing.Point(1040, 192)
         Me.BasicIndicator437.Name = "BasicIndicator437"
         Me.BasicIndicator437.OutlineColor = System.Drawing.Color.Transparent
@@ -13212,11 +13598,12 @@ Partial Class CP01
         '
         'BasicIndicator438
         '
-        Me.BasicIndicator438.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator438.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator438.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator438.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator438.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator438.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator438.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator438.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator438.Location = New System.Drawing.Point(1040, 232)
         Me.BasicIndicator438.Name = "BasicIndicator438"
         Me.BasicIndicator438.OutlineColor = System.Drawing.Color.Transparent
@@ -13233,11 +13620,12 @@ Partial Class CP01
         '
         'BasicIndicator440
         '
-        Me.BasicIndicator440.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator440.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator440.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator440.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator440.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator440.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator440.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator440.Location = New System.Drawing.Point(1130, 232)
         Me.BasicIndicator440.Name = "BasicIndicator440"
         Me.BasicIndicator440.OutlineColor = System.Drawing.Color.Transparent
@@ -13254,11 +13642,12 @@ Partial Class CP01
         '
         'BasicIndicator443
         '
-        Me.BasicIndicator443.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator443.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator443.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator443.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator443.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator443.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator443.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator443.Location = New System.Drawing.Point(1175, 232)
         Me.BasicIndicator443.Name = "BasicIndicator443"
         Me.BasicIndicator443.OutlineColor = System.Drawing.Color.Transparent
@@ -13275,11 +13664,12 @@ Partial Class CP01
         '
         'BasicIndicator446
         '
-        Me.BasicIndicator446.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator446.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator446.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator446.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator446.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator446.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator446.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator446.Location = New System.Drawing.Point(1220, 232)
         Me.BasicIndicator446.Name = "BasicIndicator446"
         Me.BasicIndicator446.OutlineColor = System.Drawing.Color.Transparent
@@ -13314,11 +13704,12 @@ Partial Class CP01
         '
         'BasicIndicator447
         '
-        Me.BasicIndicator447.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator447.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator447.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator447.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator447.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator447.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator447.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator447.Location = New System.Drawing.Point(1085, 232)
         Me.BasicIndicator447.Name = "BasicIndicator447"
         Me.BasicIndicator447.OutlineColor = System.Drawing.Color.Transparent
@@ -13355,11 +13746,12 @@ Partial Class CP01
         '
         'BasicIndicator452
         '
-        Me.BasicIndicator452.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator452.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator452.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator452.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator452.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator452.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator452.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator452.Location = New System.Drawing.Point(323, 28)
         Me.BasicIndicator452.Name = "BasicIndicator452"
         Me.BasicIndicator452.OutlineColor = System.Drawing.Color.Transparent
@@ -13376,11 +13768,12 @@ Partial Class CP01
         '
         'BasicIndicator499
         '
-        Me.BasicIndicator499.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator499.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator499.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator499.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator499.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator499.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator499.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator499.Location = New System.Drawing.Point(322, 48)
         Me.BasicIndicator499.Name = "BasicIndicator499"
         Me.BasicIndicator499.OutlineColor = System.Drawing.Color.Transparent
@@ -13397,11 +13790,12 @@ Partial Class CP01
         '
         'BasicIndicator500
         '
-        Me.BasicIndicator500.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator500.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator500.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator500.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator500.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator500.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator500.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator500.Location = New System.Drawing.Point(323, 8)
         Me.BasicIndicator500.Name = "BasicIndicator500"
         Me.BasicIndicator500.OutlineColor = System.Drawing.Color.Transparent
@@ -13418,11 +13812,12 @@ Partial Class CP01
         '
         'BasicIndicator501
         '
-        Me.BasicIndicator501.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator501.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator501.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator501.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator501.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator501.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator501.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator501.Location = New System.Drawing.Point(413, 327)
         Me.BasicIndicator501.Name = "BasicIndicator501"
         Me.BasicIndicator501.OutlineColor = System.Drawing.Color.Transparent
@@ -13439,11 +13834,12 @@ Partial Class CP01
         '
         'BasicIndicator502
         '
-        Me.BasicIndicator502.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator502.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator502.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator502.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator502.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator502.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator502.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator502.Location = New System.Drawing.Point(412, 347)
         Me.BasicIndicator502.Name = "BasicIndicator502"
         Me.BasicIndicator502.OutlineColor = System.Drawing.Color.Transparent
@@ -13460,11 +13856,12 @@ Partial Class CP01
         '
         'BasicIndicator503
         '
-        Me.BasicIndicator503.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator503.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator503.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator503.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator503.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator503.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator503.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator503.Location = New System.Drawing.Point(413, 307)
         Me.BasicIndicator503.Name = "BasicIndicator503"
         Me.BasicIndicator503.OutlineColor = System.Drawing.Color.Transparent
@@ -13481,11 +13878,12 @@ Partial Class CP01
         '
         'BasicIndicator504
         '
-        Me.BasicIndicator504.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator504.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator504.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator504.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator504.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator504.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator504.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator504.Location = New System.Drawing.Point(522, 267)
         Me.BasicIndicator504.Name = "BasicIndicator504"
         Me.BasicIndicator504.OutlineColor = System.Drawing.Color.Transparent
@@ -13502,11 +13900,12 @@ Partial Class CP01
         '
         'BasicIndicator505
         '
-        Me.BasicIndicator505.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator505.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator505.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator505.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator505.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator505.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator505.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator505.Location = New System.Drawing.Point(521, 287)
         Me.BasicIndicator505.Name = "BasicIndicator505"
         Me.BasicIndicator505.OutlineColor = System.Drawing.Color.Transparent
@@ -13523,11 +13922,12 @@ Partial Class CP01
         '
         'BasicIndicator506
         '
-        Me.BasicIndicator506.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator506.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator506.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator506.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator506.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator506.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator506.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator506.Location = New System.Drawing.Point(522, 247)
         Me.BasicIndicator506.Name = "BasicIndicator506"
         Me.BasicIndicator506.OutlineColor = System.Drawing.Color.Transparent
@@ -13544,11 +13944,12 @@ Partial Class CP01
         '
         'BasicIndicator508
         '
-        Me.BasicIndicator508.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator508.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator508.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator508.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator508.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator508.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator508.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator508.Location = New System.Drawing.Point(739, 627)
         Me.BasicIndicator508.Name = "BasicIndicator508"
         Me.BasicIndicator508.OutlineColor = System.Drawing.Color.Transparent
@@ -13565,11 +13966,12 @@ Partial Class CP01
         '
         'BasicIndicator507
         '
-        Me.BasicIndicator507.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator507.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator507.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator507.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator507.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator507.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator507.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator507.Location = New System.Drawing.Point(1265, 232)
         Me.BasicIndicator507.Name = "BasicIndicator507"
         Me.BasicIndicator507.OutlineColor = System.Drawing.Color.Transparent
@@ -13586,11 +13988,12 @@ Partial Class CP01
         '
         'BasicIndicator509
         '
-        Me.BasicIndicator509.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator509.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator509.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator509.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator509.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator509.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator509.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator509.Location = New System.Drawing.Point(1220, 192)
         Me.BasicIndicator509.Name = "BasicIndicator509"
         Me.BasicIndicator509.OutlineColor = System.Drawing.Color.Transparent
@@ -13607,11 +14010,12 @@ Partial Class CP01
         '
         'BasicIndicator510
         '
-        Me.BasicIndicator510.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator510.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator510.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator510.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator510.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator510.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator510.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator510.Location = New System.Drawing.Point(1220, 132)
         Me.BasicIndicator510.Name = "BasicIndicator510"
         Me.BasicIndicator510.OutlineColor = System.Drawing.Color.Transparent
@@ -13628,11 +14032,12 @@ Partial Class CP01
         '
         'BasicIndicator511
         '
-        Me.BasicIndicator511.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator511.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator511.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator511.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator511.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator511.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator511.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator511.Location = New System.Drawing.Point(1460, 172)
         Me.BasicIndicator511.Name = "BasicIndicator511"
         Me.BasicIndicator511.OutlineColor = System.Drawing.Color.Transparent
@@ -13649,11 +14054,12 @@ Partial Class CP01
         '
         'BasicIndicator512
         '
-        Me.BasicIndicator512.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator512.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator512.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator512.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator512.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator512.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator512.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator512.Location = New System.Drawing.Point(1239, 12)
         Me.BasicIndicator512.Name = "BasicIndicator512"
         Me.BasicIndicator512.OutlineColor = System.Drawing.Color.Transparent
@@ -13670,11 +14076,12 @@ Partial Class CP01
         '
         'BasicIndicator513
         '
-        Me.BasicIndicator513.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator513.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator513.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator513.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator513.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator513.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator513.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator513.Location = New System.Drawing.Point(1239, 32)
         Me.BasicIndicator513.Name = "BasicIndicator513"
         Me.BasicIndicator513.OutlineColor = System.Drawing.Color.Transparent
@@ -13691,11 +14098,12 @@ Partial Class CP01
         '
         'BasicIndicator514
         '
-        Me.BasicIndicator514.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator514.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator514.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator514.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator514.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator514.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator514.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator514.Location = New System.Drawing.Point(1238, 52)
         Me.BasicIndicator514.Name = "BasicIndicator514"
         Me.BasicIndicator514.OutlineColor = System.Drawing.Color.Transparent
@@ -13712,11 +14120,12 @@ Partial Class CP01
         '
         'BasicIndicator515
         '
-        Me.BasicIndicator515.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator515.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator515.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator515.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator515.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator515.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator515.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator515.Location = New System.Drawing.Point(784, 207)
         Me.BasicIndicator515.Name = "BasicIndicator515"
         Me.BasicIndicator515.OutlineColor = System.Drawing.Color.Transparent
@@ -13733,11 +14142,12 @@ Partial Class CP01
         '
         'BasicIndicator516
         '
-        Me.BasicIndicator516.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator516.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator516.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator516.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator516.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator516.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator516.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator516.Location = New System.Drawing.Point(783, 227)
         Me.BasicIndicator516.Name = "BasicIndicator516"
         Me.BasicIndicator516.OutlineColor = System.Drawing.Color.Transparent
@@ -13754,11 +14164,12 @@ Partial Class CP01
         '
         'BasicIndicator517
         '
-        Me.BasicIndicator517.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator517.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator517.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator517.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator517.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator517.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator517.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator517.Location = New System.Drawing.Point(784, 187)
         Me.BasicIndicator517.Name = "BasicIndicator517"
         Me.BasicIndicator517.OutlineColor = System.Drawing.Color.Transparent
@@ -13775,11 +14186,12 @@ Partial Class CP01
         '
         'BasicIndicator518
         '
-        Me.BasicIndicator518.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator518.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator518.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator518.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator518.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator518.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator518.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator518.Location = New System.Drawing.Point(1460, 212)
         Me.BasicIndicator518.Name = "BasicIndicator518"
         Me.BasicIndicator518.OutlineColor = System.Drawing.Color.Transparent
@@ -13816,11 +14228,12 @@ Partial Class CP01
         '
         'BasicIndicator520
         '
-        Me.BasicIndicator520.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator520.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator520.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator520.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator520.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator520.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator520.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator520.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator520.Location = New System.Drawing.Point(1055, 212)
         Me.BasicIndicator520.Name = "BasicIndicator520"
         Me.BasicIndicator520.OutlineColor = System.Drawing.Color.Transparent
@@ -13837,11 +14250,12 @@ Partial Class CP01
         '
         'BasicIndicator521
         '
-        Me.BasicIndicator521.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator521.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator521.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator521.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator521.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator521.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator521.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator521.Location = New System.Drawing.Point(1370, 212)
         Me.BasicIndicator521.Name = "BasicIndicator521"
         Me.BasicIndicator521.OutlineColor = System.Drawing.Color.Transparent
@@ -13858,11 +14272,12 @@ Partial Class CP01
         '
         'BasicIndicator522
         '
-        Me.BasicIndicator522.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator522.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator522.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator522.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator522.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator522.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator522.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator522.Location = New System.Drawing.Point(1415, 212)
         Me.BasicIndicator522.Name = "BasicIndicator522"
         Me.BasicIndicator522.OutlineColor = System.Drawing.Color.Transparent
@@ -13879,11 +14294,12 @@ Partial Class CP01
         '
         'BasicIndicator523
         '
-        Me.BasicIndicator523.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator523.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator523.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator523.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator523.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator523.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator523.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator523.Location = New System.Drawing.Point(1145, 212)
         Me.BasicIndicator523.Name = "BasicIndicator523"
         Me.BasicIndicator523.OutlineColor = System.Drawing.Color.Transparent
@@ -13900,11 +14316,12 @@ Partial Class CP01
         '
         'BasicIndicator524
         '
-        Me.BasicIndicator524.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator524.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator524.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator524.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator524.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator524.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator524.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator524.Location = New System.Drawing.Point(1190, 212)
         Me.BasicIndicator524.Name = "BasicIndicator524"
         Me.BasicIndicator524.OutlineColor = System.Drawing.Color.Transparent
@@ -13921,11 +14338,12 @@ Partial Class CP01
         '
         'BasicIndicator525
         '
-        Me.BasicIndicator525.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator525.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator525.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator525.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator525.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator525.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator525.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator525.Location = New System.Drawing.Point(1235, 212)
         Me.BasicIndicator525.Name = "BasicIndicator525"
         Me.BasicIndicator525.OutlineColor = System.Drawing.Color.Transparent
@@ -13942,11 +14360,12 @@ Partial Class CP01
         '
         'BasicIndicator526
         '
-        Me.BasicIndicator526.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator526.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator526.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator526.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator526.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator526.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator526.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator526.Location = New System.Drawing.Point(1280, 212)
         Me.BasicIndicator526.Name = "BasicIndicator526"
         Me.BasicIndicator526.OutlineColor = System.Drawing.Color.Transparent
@@ -13963,11 +14382,12 @@ Partial Class CP01
         '
         'BasicIndicator527
         '
-        Me.BasicIndicator527.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator527.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator527.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator527.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator527.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator527.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator527.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator527.Location = New System.Drawing.Point(1325, 212)
         Me.BasicIndicator527.Name = "BasicIndicator527"
         Me.BasicIndicator527.OutlineColor = System.Drawing.Color.Transparent
@@ -14002,11 +14422,12 @@ Partial Class CP01
         '
         'BasicIndicator528
         '
-        Me.BasicIndicator528.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator528.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator528.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator528.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator528.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator528.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator528.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator528.Location = New System.Drawing.Point(1100, 212)
         Me.BasicIndicator528.Name = "BasicIndicator528"
         Me.BasicIndicator528.OutlineColor = System.Drawing.Color.Transparent
@@ -14047,11 +14468,12 @@ Partial Class CP01
         '
         'BasicIndicator529
         '
-        Me.BasicIndicator529.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator529.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator529.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator529.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator529.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator529.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator529.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator529.Location = New System.Drawing.Point(1460, 252)
         Me.BasicIndicator529.Name = "BasicIndicator529"
         Me.BasicIndicator529.OutlineColor = System.Drawing.Color.Transparent
@@ -14088,11 +14510,12 @@ Partial Class CP01
         '
         'BasicIndicator531
         '
-        Me.BasicIndicator531.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator531.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator531.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator531.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator531.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator531.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator531.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator531.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator531.Location = New System.Drawing.Point(1055, 252)
         Me.BasicIndicator531.Name = "BasicIndicator531"
         Me.BasicIndicator531.OutlineColor = System.Drawing.Color.Transparent
@@ -14109,11 +14532,12 @@ Partial Class CP01
         '
         'BasicIndicator532
         '
-        Me.BasicIndicator532.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator532.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator532.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator532.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator532.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator532.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator532.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator532.Location = New System.Drawing.Point(1370, 252)
         Me.BasicIndicator532.Name = "BasicIndicator532"
         Me.BasicIndicator532.OutlineColor = System.Drawing.Color.Transparent
@@ -14130,11 +14554,12 @@ Partial Class CP01
         '
         'BasicIndicator533
         '
-        Me.BasicIndicator533.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator533.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator533.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator533.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator533.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator533.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator533.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator533.Location = New System.Drawing.Point(1415, 252)
         Me.BasicIndicator533.Name = "BasicIndicator533"
         Me.BasicIndicator533.OutlineColor = System.Drawing.Color.Transparent
@@ -14151,11 +14576,12 @@ Partial Class CP01
         '
         'BasicIndicator534
         '
-        Me.BasicIndicator534.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator534.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator534.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator534.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator534.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator534.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator534.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator534.Location = New System.Drawing.Point(1145, 252)
         Me.BasicIndicator534.Name = "BasicIndicator534"
         Me.BasicIndicator534.OutlineColor = System.Drawing.Color.Transparent
@@ -14172,11 +14598,12 @@ Partial Class CP01
         '
         'BasicIndicator535
         '
-        Me.BasicIndicator535.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator535.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator535.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator535.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator535.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator535.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator535.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator535.Location = New System.Drawing.Point(1190, 252)
         Me.BasicIndicator535.Name = "BasicIndicator535"
         Me.BasicIndicator535.OutlineColor = System.Drawing.Color.Transparent
@@ -14193,11 +14620,12 @@ Partial Class CP01
         '
         'BasicIndicator536
         '
-        Me.BasicIndicator536.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator536.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator536.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator536.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator536.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator536.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator536.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator536.Location = New System.Drawing.Point(1235, 252)
         Me.BasicIndicator536.Name = "BasicIndicator536"
         Me.BasicIndicator536.OutlineColor = System.Drawing.Color.Transparent
@@ -14214,11 +14642,12 @@ Partial Class CP01
         '
         'BasicIndicator537
         '
-        Me.BasicIndicator537.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator537.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator537.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator537.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator537.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator537.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator537.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator537.Location = New System.Drawing.Point(1280, 252)
         Me.BasicIndicator537.Name = "BasicIndicator537"
         Me.BasicIndicator537.OutlineColor = System.Drawing.Color.Transparent
@@ -14235,11 +14664,12 @@ Partial Class CP01
         '
         'BasicIndicator538
         '
-        Me.BasicIndicator538.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator538.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator538.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator538.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator538.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator538.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator538.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator538.Location = New System.Drawing.Point(1325, 252)
         Me.BasicIndicator538.Name = "BasicIndicator538"
         Me.BasicIndicator538.OutlineColor = System.Drawing.Color.Transparent
@@ -14274,11 +14704,12 @@ Partial Class CP01
         '
         'BasicIndicator539
         '
-        Me.BasicIndicator539.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator539.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator539.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator539.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator539.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator539.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator539.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator539.Location = New System.Drawing.Point(1100, 252)
         Me.BasicIndicator539.Name = "BasicIndicator539"
         Me.BasicIndicator539.OutlineColor = System.Drawing.Color.Transparent
@@ -14315,11 +14746,12 @@ Partial Class CP01
         '
         'BasicIndicator542
         '
-        Me.BasicIndicator542.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator542.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator542.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator542.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator542.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator542.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator542.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator542.Location = New System.Drawing.Point(1231, 272)
         Me.BasicIndicator542.Name = "BasicIndicator542"
         Me.BasicIndicator542.OutlineColor = System.Drawing.Color.Transparent
@@ -14336,11 +14768,12 @@ Partial Class CP01
         '
         'BasicIndicator543
         '
-        Me.BasicIndicator543.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator543.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator543.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator543.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator543.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator543.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator543.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator543.Location = New System.Drawing.Point(1096, 272)
         Me.BasicIndicator543.Name = "BasicIndicator543"
         Me.BasicIndicator543.OutlineColor = System.Drawing.Color.Transparent
@@ -14357,11 +14790,12 @@ Partial Class CP01
         '
         'BasicIndicator544
         '
-        Me.BasicIndicator544.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator544.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator544.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator544.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator544.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator544.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator544.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator544.Location = New System.Drawing.Point(1141, 272)
         Me.BasicIndicator544.Name = "BasicIndicator544"
         Me.BasicIndicator544.OutlineColor = System.Drawing.Color.Transparent
@@ -14378,11 +14812,12 @@ Partial Class CP01
         '
         'BasicIndicator545
         '
-        Me.BasicIndicator545.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator545.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator545.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator545.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator545.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator545.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator545.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator545.Location = New System.Drawing.Point(1186, 272)
         Me.BasicIndicator545.Name = "BasicIndicator545"
         Me.BasicIndicator545.OutlineColor = System.Drawing.Color.Transparent
@@ -14417,11 +14852,12 @@ Partial Class CP01
         '
         'BasicIndicator546
         '
-        Me.BasicIndicator546.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator546.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator546.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator546.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator546.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator546.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator546.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator546.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator546.Location = New System.Drawing.Point(1051, 272)
         Me.BasicIndicator546.Name = "BasicIndicator546"
         Me.BasicIndicator546.OutlineColor = System.Drawing.Color.Transparent
@@ -14438,11 +14874,12 @@ Partial Class CP01
         '
         'BasicIndicator540
         '
-        Me.BasicIndicator540.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator540.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator540.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator540.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator540.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator540.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator540.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator540.Location = New System.Drawing.Point(1265, 292)
         Me.BasicIndicator540.Name = "BasicIndicator540"
         Me.BasicIndicator540.OutlineColor = System.Drawing.Color.Transparent
@@ -14479,11 +14916,12 @@ Partial Class CP01
         '
         'BasicIndicator548
         '
-        Me.BasicIndicator548.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator548.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator548.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator548.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator548.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator548.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator548.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator548.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator548.Location = New System.Drawing.Point(1040, 292)
         Me.BasicIndicator548.Name = "BasicIndicator548"
         Me.BasicIndicator548.OutlineColor = System.Drawing.Color.Transparent
@@ -14500,11 +14938,12 @@ Partial Class CP01
         '
         'BasicIndicator549
         '
-        Me.BasicIndicator549.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator549.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator549.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator549.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator549.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator549.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator549.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator549.Location = New System.Drawing.Point(1130, 292)
         Me.BasicIndicator549.Name = "BasicIndicator549"
         Me.BasicIndicator549.OutlineColor = System.Drawing.Color.Transparent
@@ -14521,11 +14960,12 @@ Partial Class CP01
         '
         'BasicIndicator550
         '
-        Me.BasicIndicator550.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator550.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator550.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator550.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator550.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator550.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator550.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator550.Location = New System.Drawing.Point(1175, 292)
         Me.BasicIndicator550.Name = "BasicIndicator550"
         Me.BasicIndicator550.OutlineColor = System.Drawing.Color.Transparent
@@ -14542,11 +14982,12 @@ Partial Class CP01
         '
         'BasicIndicator551
         '
-        Me.BasicIndicator551.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator551.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator551.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator551.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator551.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator551.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator551.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator551.Location = New System.Drawing.Point(1220, 292)
         Me.BasicIndicator551.Name = "BasicIndicator551"
         Me.BasicIndicator551.OutlineColor = System.Drawing.Color.Transparent
@@ -14581,11 +15022,12 @@ Partial Class CP01
         '
         'BasicIndicator552
         '
-        Me.BasicIndicator552.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator552.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator552.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator552.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator552.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator552.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator552.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator552.Location = New System.Drawing.Point(1085, 292)
         Me.BasicIndicator552.Name = "BasicIndicator552"
         Me.BasicIndicator552.OutlineColor = System.Drawing.Color.Transparent
@@ -14602,11 +15044,12 @@ Partial Class CP01
         '
         'BasicIndicator553
         '
-        Me.BasicIndicator553.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator553.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator553.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator553.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator553.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator553.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator553.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator553.Location = New System.Drawing.Point(1218, 312)
         Me.BasicIndicator553.Name = "BasicIndicator553"
         Me.BasicIndicator553.OutlineColor = System.Drawing.Color.Transparent
@@ -14623,11 +15066,12 @@ Partial Class CP01
         '
         'BasicIndicator554
         '
-        Me.BasicIndicator554.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator554.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator554.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator554.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator554.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator554.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator554.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator554.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator554.Location = New System.Drawing.Point(995, 312)
         Me.BasicIndicator554.Name = "BasicIndicator554"
         Me.BasicIndicator554.OutlineColor = System.Drawing.Color.Transparent
@@ -14644,11 +15088,12 @@ Partial Class CP01
         '
         'BasicIndicator555
         '
-        Me.BasicIndicator555.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator555.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator555.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator555.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator555.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator555.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator555.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator555.Location = New System.Drawing.Point(1085, 312)
         Me.BasicIndicator555.Name = "BasicIndicator555"
         Me.BasicIndicator555.OutlineColor = System.Drawing.Color.Transparent
@@ -14665,11 +15110,12 @@ Partial Class CP01
         '
         'BasicIndicator556
         '
-        Me.BasicIndicator556.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator556.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator556.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator556.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator556.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator556.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator556.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator556.Location = New System.Drawing.Point(1130, 312)
         Me.BasicIndicator556.Name = "BasicIndicator556"
         Me.BasicIndicator556.OutlineColor = System.Drawing.Color.Transparent
@@ -14686,11 +15132,12 @@ Partial Class CP01
         '
         'BasicIndicator557
         '
-        Me.BasicIndicator557.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator557.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator557.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator557.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator557.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator557.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator557.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator557.Location = New System.Drawing.Point(1175, 312)
         Me.BasicIndicator557.Name = "BasicIndicator557"
         Me.BasicIndicator557.OutlineColor = System.Drawing.Color.Transparent
@@ -14725,11 +15172,12 @@ Partial Class CP01
         '
         'BasicIndicator558
         '
-        Me.BasicIndicator558.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator558.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator558.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator558.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator558.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator558.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator558.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator558.Location = New System.Drawing.Point(1040, 312)
         Me.BasicIndicator558.Name = "BasicIndicator558"
         Me.BasicIndicator558.OutlineColor = System.Drawing.Color.Transparent
@@ -14766,11 +15214,12 @@ Partial Class CP01
         '
         'BasicIndicator560
         '
-        Me.BasicIndicator560.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator560.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator560.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator560.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator560.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator560.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator560.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator560.Location = New System.Drawing.Point(1231, 332)
         Me.BasicIndicator560.Name = "BasicIndicator560"
         Me.BasicIndicator560.OutlineColor = System.Drawing.Color.Transparent
@@ -14787,11 +15236,12 @@ Partial Class CP01
         '
         'BasicIndicator561
         '
-        Me.BasicIndicator561.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator561.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator561.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator561.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator561.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator561.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator561.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator561.Location = New System.Drawing.Point(1096, 332)
         Me.BasicIndicator561.Name = "BasicIndicator561"
         Me.BasicIndicator561.OutlineColor = System.Drawing.Color.Transparent
@@ -14808,11 +15258,12 @@ Partial Class CP01
         '
         'BasicIndicator562
         '
-        Me.BasicIndicator562.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator562.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator562.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator562.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator562.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator562.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator562.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator562.Location = New System.Drawing.Point(1141, 332)
         Me.BasicIndicator562.Name = "BasicIndicator562"
         Me.BasicIndicator562.OutlineColor = System.Drawing.Color.Transparent
@@ -14829,11 +15280,12 @@ Partial Class CP01
         '
         'BasicIndicator563
         '
-        Me.BasicIndicator563.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator563.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator563.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator563.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator563.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator563.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator563.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator563.Location = New System.Drawing.Point(1186, 332)
         Me.BasicIndicator563.Name = "BasicIndicator563"
         Me.BasicIndicator563.OutlineColor = System.Drawing.Color.Transparent
@@ -14868,11 +15320,12 @@ Partial Class CP01
         '
         'BasicIndicator564
         '
-        Me.BasicIndicator564.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator564.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator564.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator564.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator564.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator564.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator564.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator564.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator564.Location = New System.Drawing.Point(1051, 332)
         Me.BasicIndicator564.Name = "BasicIndicator564"
         Me.BasicIndicator564.OutlineColor = System.Drawing.Color.Transparent
@@ -14909,11 +15362,12 @@ Partial Class CP01
         '
         'BasicIndicator567
         '
-        Me.BasicIndicator567.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator567.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator567.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator567.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator567.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator567.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator567.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator567.Location = New System.Drawing.Point(1231, 353)
         Me.BasicIndicator567.Name = "BasicIndicator567"
         Me.BasicIndicator567.OutlineColor = System.Drawing.Color.Transparent
@@ -14930,11 +15384,12 @@ Partial Class CP01
         '
         'BasicIndicator568
         '
-        Me.BasicIndicator568.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator568.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator568.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator568.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator568.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator568.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator568.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator568.Location = New System.Drawing.Point(1096, 353)
         Me.BasicIndicator568.Name = "BasicIndicator568"
         Me.BasicIndicator568.OutlineColor = System.Drawing.Color.Transparent
@@ -14951,11 +15406,12 @@ Partial Class CP01
         '
         'BasicIndicator569
         '
-        Me.BasicIndicator569.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator569.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator569.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator569.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator569.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator569.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator569.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator569.Location = New System.Drawing.Point(1141, 353)
         Me.BasicIndicator569.Name = "BasicIndicator569"
         Me.BasicIndicator569.OutlineColor = System.Drawing.Color.Transparent
@@ -14972,11 +15428,12 @@ Partial Class CP01
         '
         'BasicIndicator570
         '
-        Me.BasicIndicator570.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator570.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator570.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator570.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator570.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator570.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator570.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator570.Location = New System.Drawing.Point(1186, 353)
         Me.BasicIndicator570.Name = "BasicIndicator570"
         Me.BasicIndicator570.OutlineColor = System.Drawing.Color.Transparent
@@ -15011,11 +15468,12 @@ Partial Class CP01
         '
         'BasicIndicator571
         '
-        Me.BasicIndicator571.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator571.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator571.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator571.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator571.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator571.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator571.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator571.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator571.Location = New System.Drawing.Point(1051, 353)
         Me.BasicIndicator571.Name = "BasicIndicator571"
         Me.BasicIndicator571.OutlineColor = System.Drawing.Color.Transparent
@@ -15032,11 +15490,12 @@ Partial Class CP01
         '
         'BasicIndicator565
         '
-        Me.BasicIndicator565.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator565.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator565.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator565.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator565.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator565.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator565.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator565.Location = New System.Drawing.Point(1460, 373)
         Me.BasicIndicator565.Name = "BasicIndicator565"
         Me.BasicIndicator565.OutlineColor = System.Drawing.Color.Transparent
@@ -15073,11 +15532,12 @@ Partial Class CP01
         '
         'BasicIndicator573
         '
-        Me.BasicIndicator573.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator573.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator573.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator573.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator573.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator573.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator573.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator573.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator573.Location = New System.Drawing.Point(1055, 373)
         Me.BasicIndicator573.Name = "BasicIndicator573"
         Me.BasicIndicator573.OutlineColor = System.Drawing.Color.Transparent
@@ -15094,11 +15554,12 @@ Partial Class CP01
         '
         'BasicIndicator574
         '
-        Me.BasicIndicator574.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator574.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator574.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator574.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator574.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator574.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator574.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator574.Location = New System.Drawing.Point(1370, 373)
         Me.BasicIndicator574.Name = "BasicIndicator574"
         Me.BasicIndicator574.OutlineColor = System.Drawing.Color.Transparent
@@ -15115,11 +15576,12 @@ Partial Class CP01
         '
         'BasicIndicator575
         '
-        Me.BasicIndicator575.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator575.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator575.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator575.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator575.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator575.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator575.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator575.Location = New System.Drawing.Point(1415, 373)
         Me.BasicIndicator575.Name = "BasicIndicator575"
         Me.BasicIndicator575.OutlineColor = System.Drawing.Color.Transparent
@@ -15136,11 +15598,12 @@ Partial Class CP01
         '
         'BasicIndicator576
         '
-        Me.BasicIndicator576.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator576.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator576.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator576.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator576.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator576.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator576.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator576.Location = New System.Drawing.Point(1145, 373)
         Me.BasicIndicator576.Name = "BasicIndicator576"
         Me.BasicIndicator576.OutlineColor = System.Drawing.Color.Transparent
@@ -15157,11 +15620,12 @@ Partial Class CP01
         '
         'BasicIndicator577
         '
-        Me.BasicIndicator577.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator577.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator577.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator577.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator577.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator577.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator577.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator577.Location = New System.Drawing.Point(1190, 373)
         Me.BasicIndicator577.Name = "BasicIndicator577"
         Me.BasicIndicator577.OutlineColor = System.Drawing.Color.Transparent
@@ -15178,11 +15642,12 @@ Partial Class CP01
         '
         'BasicIndicator578
         '
-        Me.BasicIndicator578.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator578.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator578.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator578.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator578.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator578.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator578.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator578.Location = New System.Drawing.Point(1235, 373)
         Me.BasicIndicator578.Name = "BasicIndicator578"
         Me.BasicIndicator578.OutlineColor = System.Drawing.Color.Transparent
@@ -15199,11 +15664,12 @@ Partial Class CP01
         '
         'BasicIndicator579
         '
-        Me.BasicIndicator579.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator579.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator579.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator579.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator579.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator579.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator579.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator579.Location = New System.Drawing.Point(1280, 373)
         Me.BasicIndicator579.Name = "BasicIndicator579"
         Me.BasicIndicator579.OutlineColor = System.Drawing.Color.Transparent
@@ -15220,11 +15686,12 @@ Partial Class CP01
         '
         'BasicIndicator580
         '
-        Me.BasicIndicator580.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator580.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator580.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator580.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator580.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator580.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator580.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator580.Location = New System.Drawing.Point(1325, 373)
         Me.BasicIndicator580.Name = "BasicIndicator580"
         Me.BasicIndicator580.OutlineColor = System.Drawing.Color.Transparent
@@ -15259,11 +15726,12 @@ Partial Class CP01
         '
         'BasicIndicator581
         '
-        Me.BasicIndicator581.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator581.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator581.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator581.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator581.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator581.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator581.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator581.Location = New System.Drawing.Point(1100, 373)
         Me.BasicIndicator581.Name = "BasicIndicator581"
         Me.BasicIndicator581.OutlineColor = System.Drawing.Color.Transparent
@@ -15280,11 +15748,12 @@ Partial Class CP01
         '
         'BasicIndicator582
         '
-        Me.BasicIndicator582.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator582.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator582.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator582.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator582.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator582.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator582.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator582.Location = New System.Drawing.Point(1265, 393)
         Me.BasicIndicator582.Name = "BasicIndicator582"
         Me.BasicIndicator582.OutlineColor = System.Drawing.Color.Transparent
@@ -15321,11 +15790,12 @@ Partial Class CP01
         '
         'BasicIndicator584
         '
-        Me.BasicIndicator584.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator584.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator584.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator584.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator584.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator584.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator584.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator584.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator584.Location = New System.Drawing.Point(1040, 393)
         Me.BasicIndicator584.Name = "BasicIndicator584"
         Me.BasicIndicator584.OutlineColor = System.Drawing.Color.Transparent
@@ -15342,11 +15812,12 @@ Partial Class CP01
         '
         'BasicIndicator585
         '
-        Me.BasicIndicator585.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator585.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator585.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator585.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator585.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator585.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator585.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator585.Location = New System.Drawing.Point(1130, 393)
         Me.BasicIndicator585.Name = "BasicIndicator585"
         Me.BasicIndicator585.OutlineColor = System.Drawing.Color.Transparent
@@ -15363,11 +15834,12 @@ Partial Class CP01
         '
         'BasicIndicator586
         '
-        Me.BasicIndicator586.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator586.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator586.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator586.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator586.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator586.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator586.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator586.Location = New System.Drawing.Point(1175, 393)
         Me.BasicIndicator586.Name = "BasicIndicator586"
         Me.BasicIndicator586.OutlineColor = System.Drawing.Color.Transparent
@@ -15384,11 +15856,12 @@ Partial Class CP01
         '
         'BasicIndicator587
         '
-        Me.BasicIndicator587.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator587.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator587.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator587.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator587.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator587.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator587.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator587.Location = New System.Drawing.Point(1220, 393)
         Me.BasicIndicator587.Name = "BasicIndicator587"
         Me.BasicIndicator587.OutlineColor = System.Drawing.Color.Transparent
@@ -15423,11 +15896,12 @@ Partial Class CP01
         '
         'BasicIndicator588
         '
-        Me.BasicIndicator588.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator588.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator588.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator588.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator588.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator588.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator588.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator588.Location = New System.Drawing.Point(1085, 393)
         Me.BasicIndicator588.Name = "BasicIndicator588"
         Me.BasicIndicator588.OutlineColor = System.Drawing.Color.Transparent
@@ -15444,11 +15918,12 @@ Partial Class CP01
         '
         'BasicIndicator589
         '
-        Me.BasicIndicator589.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator589.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator589.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator589.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator589.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator589.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator589.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator589.Location = New System.Drawing.Point(1220, 413)
         Me.BasicIndicator589.Name = "BasicIndicator589"
         Me.BasicIndicator589.OutlineColor = System.Drawing.Color.Transparent
@@ -15465,11 +15940,12 @@ Partial Class CP01
         '
         'BasicIndicator590
         '
-        Me.BasicIndicator590.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator590.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator590.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator590.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator590.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator590.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator590.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator590.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator590.Location = New System.Drawing.Point(995, 413)
         Me.BasicIndicator590.Name = "BasicIndicator590"
         Me.BasicIndicator590.OutlineColor = System.Drawing.Color.Transparent
@@ -15486,11 +15962,12 @@ Partial Class CP01
         '
         'BasicIndicator591
         '
-        Me.BasicIndicator591.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator591.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator591.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator591.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator591.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator591.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator591.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator591.Location = New System.Drawing.Point(1085, 413)
         Me.BasicIndicator591.Name = "BasicIndicator591"
         Me.BasicIndicator591.OutlineColor = System.Drawing.Color.Transparent
@@ -15507,11 +15984,12 @@ Partial Class CP01
         '
         'BasicIndicator592
         '
-        Me.BasicIndicator592.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator592.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator592.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator592.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator592.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator592.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator592.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator592.Location = New System.Drawing.Point(1130, 413)
         Me.BasicIndicator592.Name = "BasicIndicator592"
         Me.BasicIndicator592.OutlineColor = System.Drawing.Color.Transparent
@@ -15528,11 +16006,12 @@ Partial Class CP01
         '
         'BasicIndicator593
         '
-        Me.BasicIndicator593.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator593.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator593.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator593.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator593.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator593.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator593.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator593.Location = New System.Drawing.Point(1175, 413)
         Me.BasicIndicator593.Name = "BasicIndicator593"
         Me.BasicIndicator593.OutlineColor = System.Drawing.Color.Transparent
@@ -15567,11 +16046,12 @@ Partial Class CP01
         '
         'BasicIndicator594
         '
-        Me.BasicIndicator594.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator594.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator594.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator594.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator594.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator594.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator594.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator594.Location = New System.Drawing.Point(1040, 413)
         Me.BasicIndicator594.Name = "BasicIndicator594"
         Me.BasicIndicator594.OutlineColor = System.Drawing.Color.Transparent
@@ -15588,11 +16068,12 @@ Partial Class CP01
         '
         'BasicIndicator595
         '
-        Me.BasicIndicator595.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator595.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator595.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator595.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator595.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator595.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator595.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator595.Location = New System.Drawing.Point(1417, 433)
         Me.BasicIndicator595.Name = "BasicIndicator595"
         Me.BasicIndicator595.OutlineColor = System.Drawing.Color.Transparent
@@ -15609,11 +16090,12 @@ Partial Class CP01
         '
         'BasicIndicator596
         '
-        Me.BasicIndicator596.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator596.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator596.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator596.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator596.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator596.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator596.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator596.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator596.Location = New System.Drawing.Point(1012, 433)
         Me.BasicIndicator596.Name = "BasicIndicator596"
         Me.BasicIndicator596.OutlineColor = System.Drawing.Color.Transparent
@@ -15630,11 +16112,12 @@ Partial Class CP01
         '
         'BasicIndicator597
         '
-        Me.BasicIndicator597.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator597.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator597.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator597.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator597.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator597.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator597.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator597.Location = New System.Drawing.Point(1327, 433)
         Me.BasicIndicator597.Name = "BasicIndicator597"
         Me.BasicIndicator597.OutlineColor = System.Drawing.Color.Transparent
@@ -15651,11 +16134,12 @@ Partial Class CP01
         '
         'BasicIndicator598
         '
-        Me.BasicIndicator598.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator598.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator598.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator598.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator598.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator598.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator598.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator598.Location = New System.Drawing.Point(1372, 433)
         Me.BasicIndicator598.Name = "BasicIndicator598"
         Me.BasicIndicator598.OutlineColor = System.Drawing.Color.Transparent
@@ -15672,11 +16156,12 @@ Partial Class CP01
         '
         'BasicIndicator599
         '
-        Me.BasicIndicator599.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator599.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator599.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator599.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator599.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator599.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator599.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator599.Location = New System.Drawing.Point(1102, 433)
         Me.BasicIndicator599.Name = "BasicIndicator599"
         Me.BasicIndicator599.OutlineColor = System.Drawing.Color.Transparent
@@ -15693,11 +16178,12 @@ Partial Class CP01
         '
         'BasicIndicator600
         '
-        Me.BasicIndicator600.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator600.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator600.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator600.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator600.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator600.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator600.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator600.Location = New System.Drawing.Point(1147, 433)
         Me.BasicIndicator600.Name = "BasicIndicator600"
         Me.BasicIndicator600.OutlineColor = System.Drawing.Color.Transparent
@@ -15714,11 +16200,12 @@ Partial Class CP01
         '
         'BasicIndicator601
         '
-        Me.BasicIndicator601.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator601.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator601.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator601.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator601.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator601.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator601.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator601.Location = New System.Drawing.Point(1192, 433)
         Me.BasicIndicator601.Name = "BasicIndicator601"
         Me.BasicIndicator601.OutlineColor = System.Drawing.Color.Transparent
@@ -15735,11 +16222,12 @@ Partial Class CP01
         '
         'BasicIndicator602
         '
-        Me.BasicIndicator602.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator602.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator602.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator602.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator602.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator602.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator602.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator602.Location = New System.Drawing.Point(1237, 433)
         Me.BasicIndicator602.Name = "BasicIndicator602"
         Me.BasicIndicator602.OutlineColor = System.Drawing.Color.Transparent
@@ -15756,11 +16244,12 @@ Partial Class CP01
         '
         'BasicIndicator603
         '
-        Me.BasicIndicator603.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator603.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator603.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator603.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator603.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator603.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator603.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator603.Location = New System.Drawing.Point(1282, 433)
         Me.BasicIndicator603.Name = "BasicIndicator603"
         Me.BasicIndicator603.OutlineColor = System.Drawing.Color.Transparent
@@ -15795,11 +16284,12 @@ Partial Class CP01
         '
         'BasicIndicator604
         '
-        Me.BasicIndicator604.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator604.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator604.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator604.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator604.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator604.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator604.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator604.Location = New System.Drawing.Point(1057, 433)
         Me.BasicIndicator604.Name = "BasicIndicator604"
         Me.BasicIndicator604.OutlineColor = System.Drawing.Color.Transparent
@@ -15816,11 +16306,12 @@ Partial Class CP01
         '
         'BasicIndicator605
         '
-        Me.BasicIndicator605.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator605.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator605.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator605.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator605.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator605.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator605.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator605.Location = New System.Drawing.Point(1329, 453)
         Me.BasicIndicator605.Name = "BasicIndicator605"
         Me.BasicIndicator605.OutlineColor = System.Drawing.Color.Transparent
@@ -15837,11 +16328,12 @@ Partial Class CP01
         '
         'BasicIndicator606
         '
-        Me.BasicIndicator606.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator606.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator606.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator606.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator606.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator606.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator606.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator606.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator606.Location = New System.Drawing.Point(1104, 453)
         Me.BasicIndicator606.Name = "BasicIndicator606"
         Me.BasicIndicator606.OutlineColor = System.Drawing.Color.Transparent
@@ -15858,11 +16350,12 @@ Partial Class CP01
         '
         'BasicIndicator607
         '
-        Me.BasicIndicator607.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator607.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator607.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator607.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator607.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator607.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator607.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator607.Location = New System.Drawing.Point(1284, 453)
         Me.BasicIndicator607.Name = "BasicIndicator607"
         Me.BasicIndicator607.OutlineColor = System.Drawing.Color.Transparent
@@ -15879,11 +16372,12 @@ Partial Class CP01
         '
         'BasicIndicator608
         '
-        Me.BasicIndicator608.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator608.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator608.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator608.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator608.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator608.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator608.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator608.Location = New System.Drawing.Point(1149, 453)
         Me.BasicIndicator608.Name = "BasicIndicator608"
         Me.BasicIndicator608.OutlineColor = System.Drawing.Color.Transparent
@@ -15900,11 +16394,12 @@ Partial Class CP01
         '
         'BasicIndicator609
         '
-        Me.BasicIndicator609.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator609.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator609.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator609.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator609.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator609.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator609.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator609.Location = New System.Drawing.Point(1194, 453)
         Me.BasicIndicator609.Name = "BasicIndicator609"
         Me.BasicIndicator609.OutlineColor = System.Drawing.Color.Transparent
@@ -15921,11 +16416,12 @@ Partial Class CP01
         '
         'BasicIndicator610
         '
-        Me.BasicIndicator610.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator610.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator610.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator610.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator610.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator610.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator610.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator610.Location = New System.Drawing.Point(1239, 453)
         Me.BasicIndicator610.Name = "BasicIndicator610"
         Me.BasicIndicator610.OutlineColor = System.Drawing.Color.Transparent
@@ -16000,11 +16496,12 @@ Partial Class CP01
         '
         'BasicIndicator613
         '
-        Me.BasicIndicator613.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator613.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator613.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator613.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator613.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator613.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator613.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator613.Location = New System.Drawing.Point(1220, 473)
         Me.BasicIndicator613.Name = "BasicIndicator613"
         Me.BasicIndicator613.OutlineColor = System.Drawing.Color.Transparent
@@ -16021,11 +16518,12 @@ Partial Class CP01
         '
         'BasicIndicator614
         '
-        Me.BasicIndicator614.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator614.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator614.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator614.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator614.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator614.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator614.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator614.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator614.Location = New System.Drawing.Point(995, 473)
         Me.BasicIndicator614.Name = "BasicIndicator614"
         Me.BasicIndicator614.OutlineColor = System.Drawing.Color.Transparent
@@ -16042,11 +16540,12 @@ Partial Class CP01
         '
         'BasicIndicator615
         '
-        Me.BasicIndicator615.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator615.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator615.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator615.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator615.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator615.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator615.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator615.Location = New System.Drawing.Point(1085, 473)
         Me.BasicIndicator615.Name = "BasicIndicator615"
         Me.BasicIndicator615.OutlineColor = System.Drawing.Color.Transparent
@@ -16063,11 +16562,12 @@ Partial Class CP01
         '
         'BasicIndicator616
         '
-        Me.BasicIndicator616.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator616.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator616.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator616.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator616.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator616.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator616.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator616.Location = New System.Drawing.Point(1130, 473)
         Me.BasicIndicator616.Name = "BasicIndicator616"
         Me.BasicIndicator616.OutlineColor = System.Drawing.Color.Transparent
@@ -16084,11 +16584,12 @@ Partial Class CP01
         '
         'BasicIndicator617
         '
-        Me.BasicIndicator617.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator617.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator617.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator617.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator617.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator617.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator617.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator617.Location = New System.Drawing.Point(1175, 473)
         Me.BasicIndicator617.Name = "BasicIndicator617"
         Me.BasicIndicator617.OutlineColor = System.Drawing.Color.Transparent
@@ -16123,11 +16624,12 @@ Partial Class CP01
         '
         'BasicIndicator618
         '
-        Me.BasicIndicator618.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator618.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator618.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator618.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator618.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator618.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator618.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator618.Location = New System.Drawing.Point(1040, 473)
         Me.BasicIndicator618.Name = "BasicIndicator618"
         Me.BasicIndicator618.OutlineColor = System.Drawing.Color.Transparent
@@ -16144,11 +16646,12 @@ Partial Class CP01
         '
         'BasicIndicator620
         '
-        Me.BasicIndicator620.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator620.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator620.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator620.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator620.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator620.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator620.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator620.Location = New System.Drawing.Point(1190, 493)
         Me.BasicIndicator620.Name = "BasicIndicator620"
         Me.BasicIndicator620.OutlineColor = System.Drawing.Color.Transparent
@@ -16165,11 +16668,12 @@ Partial Class CP01
         '
         'BasicIndicator621
         '
-        Me.BasicIndicator621.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator621.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator621.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator621.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator621.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator621.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator621.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator621.Location = New System.Drawing.Point(1055, 493)
         Me.BasicIndicator621.Name = "BasicIndicator621"
         Me.BasicIndicator621.OutlineColor = System.Drawing.Color.Transparent
@@ -16186,11 +16690,12 @@ Partial Class CP01
         '
         'BasicIndicator622
         '
-        Me.BasicIndicator622.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator622.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator622.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator622.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator622.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator622.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator622.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator622.Location = New System.Drawing.Point(1100, 493)
         Me.BasicIndicator622.Name = "BasicIndicator622"
         Me.BasicIndicator622.OutlineColor = System.Drawing.Color.Transparent
@@ -16207,11 +16712,12 @@ Partial Class CP01
         '
         'BasicIndicator623
         '
-        Me.BasicIndicator623.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator623.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator623.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator623.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator623.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator623.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator623.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator623.Location = New System.Drawing.Point(1145, 493)
         Me.BasicIndicator623.Name = "BasicIndicator623"
         Me.BasicIndicator623.OutlineColor = System.Drawing.Color.Transparent
@@ -16246,11 +16752,12 @@ Partial Class CP01
         '
         'BasicIndicator624
         '
-        Me.BasicIndicator624.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator624.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator624.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator624.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator624.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator624.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator624.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator624.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator624.Location = New System.Drawing.Point(1010, 493)
         Me.BasicIndicator624.Name = "BasicIndicator624"
         Me.BasicIndicator624.OutlineColor = System.Drawing.Color.Transparent
@@ -16267,11 +16774,12 @@ Partial Class CP01
         '
         'BasicIndicator619
         '
-        Me.BasicIndicator619.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator619.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator619.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator619.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator619.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator619.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator619.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator619.Location = New System.Drawing.Point(1220, 513)
         Me.BasicIndicator619.Name = "BasicIndicator619"
         Me.BasicIndicator619.OutlineColor = System.Drawing.Color.Transparent
@@ -16288,11 +16796,12 @@ Partial Class CP01
         '
         'BasicIndicator625
         '
-        Me.BasicIndicator625.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator625.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator625.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator625.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator625.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator625.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator625.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator625.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator625.Location = New System.Drawing.Point(995, 513)
         Me.BasicIndicator625.Name = "BasicIndicator625"
         Me.BasicIndicator625.OutlineColor = System.Drawing.Color.Transparent
@@ -16309,11 +16818,12 @@ Partial Class CP01
         '
         'BasicIndicator626
         '
-        Me.BasicIndicator626.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator626.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator626.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator626.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator626.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator626.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator626.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator626.Location = New System.Drawing.Point(1085, 513)
         Me.BasicIndicator626.Name = "BasicIndicator626"
         Me.BasicIndicator626.OutlineColor = System.Drawing.Color.Transparent
@@ -16330,11 +16840,12 @@ Partial Class CP01
         '
         'BasicIndicator627
         '
-        Me.BasicIndicator627.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator627.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator627.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator627.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator627.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator627.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator627.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator627.Location = New System.Drawing.Point(1130, 513)
         Me.BasicIndicator627.Name = "BasicIndicator627"
         Me.BasicIndicator627.OutlineColor = System.Drawing.Color.Transparent
@@ -16351,11 +16862,12 @@ Partial Class CP01
         '
         'BasicIndicator628
         '
-        Me.BasicIndicator628.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator628.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator628.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator628.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator628.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator628.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator628.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator628.Location = New System.Drawing.Point(1175, 513)
         Me.BasicIndicator628.Name = "BasicIndicator628"
         Me.BasicIndicator628.OutlineColor = System.Drawing.Color.Transparent
@@ -16390,11 +16902,12 @@ Partial Class CP01
         '
         'BasicIndicator629
         '
-        Me.BasicIndicator629.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator629.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator629.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator629.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator629.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator629.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator629.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator629.Location = New System.Drawing.Point(1040, 513)
         Me.BasicIndicator629.Name = "BasicIndicator629"
         Me.BasicIndicator629.OutlineColor = System.Drawing.Color.Transparent
@@ -16431,11 +16944,12 @@ Partial Class CP01
         '
         'BasicIndicator631
         '
-        Me.BasicIndicator631.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator631.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator631.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator631.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator631.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator631.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator631.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator631.Location = New System.Drawing.Point(1231, 533)
         Me.BasicIndicator631.Name = "BasicIndicator631"
         Me.BasicIndicator631.OutlineColor = System.Drawing.Color.Transparent
@@ -16452,11 +16966,12 @@ Partial Class CP01
         '
         'BasicIndicator632
         '
-        Me.BasicIndicator632.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator632.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator632.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator632.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator632.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator632.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator632.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator632.Location = New System.Drawing.Point(1096, 533)
         Me.BasicIndicator632.Name = "BasicIndicator632"
         Me.BasicIndicator632.OutlineColor = System.Drawing.Color.Transparent
@@ -16473,11 +16988,12 @@ Partial Class CP01
         '
         'BasicIndicator633
         '
-        Me.BasicIndicator633.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator633.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator633.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator633.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator633.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator633.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator633.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator633.Location = New System.Drawing.Point(1141, 533)
         Me.BasicIndicator633.Name = "BasicIndicator633"
         Me.BasicIndicator633.OutlineColor = System.Drawing.Color.Transparent
@@ -16494,11 +17010,12 @@ Partial Class CP01
         '
         'BasicIndicator634
         '
-        Me.BasicIndicator634.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator634.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator634.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator634.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator634.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator634.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator634.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator634.Location = New System.Drawing.Point(1186, 533)
         Me.BasicIndicator634.Name = "BasicIndicator634"
         Me.BasicIndicator634.OutlineColor = System.Drawing.Color.Transparent
@@ -16533,11 +17050,12 @@ Partial Class CP01
         '
         'BasicIndicator635
         '
-        Me.BasicIndicator635.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator635.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator635.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator635.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator635.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator635.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator635.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator635.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator635.Location = New System.Drawing.Point(1051, 533)
         Me.BasicIndicator635.Name = "BasicIndicator635"
         Me.BasicIndicator635.OutlineColor = System.Drawing.Color.Transparent
@@ -16554,11 +17072,12 @@ Partial Class CP01
         '
         'BasicIndicator636
         '
-        Me.BasicIndicator636.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator636.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator636.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator636.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator636.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator636.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator636.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator636.Location = New System.Drawing.Point(1508, 553)
         Me.BasicIndicator636.Name = "BasicIndicator636"
         Me.BasicIndicator636.OutlineColor = System.Drawing.Color.Transparent
@@ -16575,11 +17094,12 @@ Partial Class CP01
         '
         'BasicIndicator637
         '
-        Me.BasicIndicator637.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator637.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator637.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator637.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator637.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator637.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator637.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator637.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator637.Location = New System.Drawing.Point(1103, 553)
         Me.BasicIndicator637.Name = "BasicIndicator637"
         Me.BasicIndicator637.OutlineColor = System.Drawing.Color.Transparent
@@ -16596,11 +17116,12 @@ Partial Class CP01
         '
         'BasicIndicator638
         '
-        Me.BasicIndicator638.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator638.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator638.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator638.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator638.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator638.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator638.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator638.Location = New System.Drawing.Point(1418, 553)
         Me.BasicIndicator638.Name = "BasicIndicator638"
         Me.BasicIndicator638.OutlineColor = System.Drawing.Color.Transparent
@@ -16617,11 +17138,12 @@ Partial Class CP01
         '
         'BasicIndicator639
         '
-        Me.BasicIndicator639.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator639.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator639.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator639.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator639.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator639.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator639.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator639.Location = New System.Drawing.Point(1463, 553)
         Me.BasicIndicator639.Name = "BasicIndicator639"
         Me.BasicIndicator639.OutlineColor = System.Drawing.Color.Transparent
@@ -16638,11 +17160,12 @@ Partial Class CP01
         '
         'BasicIndicator640
         '
-        Me.BasicIndicator640.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator640.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator640.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator640.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator640.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator640.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator640.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator640.Location = New System.Drawing.Point(1193, 553)
         Me.BasicIndicator640.Name = "BasicIndicator640"
         Me.BasicIndicator640.OutlineColor = System.Drawing.Color.Transparent
@@ -16659,11 +17182,12 @@ Partial Class CP01
         '
         'BasicIndicator641
         '
-        Me.BasicIndicator641.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator641.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator641.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator641.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator641.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator641.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator641.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator641.Location = New System.Drawing.Point(1238, 553)
         Me.BasicIndicator641.Name = "BasicIndicator641"
         Me.BasicIndicator641.OutlineColor = System.Drawing.Color.Transparent
@@ -16680,11 +17204,12 @@ Partial Class CP01
         '
         'BasicIndicator642
         '
-        Me.BasicIndicator642.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator642.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator642.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator642.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator642.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator642.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator642.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator642.Location = New System.Drawing.Point(1283, 553)
         Me.BasicIndicator642.Name = "BasicIndicator642"
         Me.BasicIndicator642.OutlineColor = System.Drawing.Color.Transparent
@@ -16701,11 +17226,12 @@ Partial Class CP01
         '
         'BasicIndicator643
         '
-        Me.BasicIndicator643.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator643.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator643.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator643.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator643.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator643.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator643.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator643.Location = New System.Drawing.Point(1328, 553)
         Me.BasicIndicator643.Name = "BasicIndicator643"
         Me.BasicIndicator643.OutlineColor = System.Drawing.Color.Transparent
@@ -16722,11 +17248,12 @@ Partial Class CP01
         '
         'BasicIndicator644
         '
-        Me.BasicIndicator644.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator644.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator644.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator644.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator644.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator644.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator644.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator644.Location = New System.Drawing.Point(1373, 553)
         Me.BasicIndicator644.Name = "BasicIndicator644"
         Me.BasicIndicator644.OutlineColor = System.Drawing.Color.Transparent
@@ -16761,11 +17288,12 @@ Partial Class CP01
         '
         'BasicIndicator645
         '
-        Me.BasicIndicator645.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator645.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator645.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator645.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator645.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator645.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator645.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator645.Location = New System.Drawing.Point(1148, 553)
         Me.BasicIndicator645.Name = "BasicIndicator645"
         Me.BasicIndicator645.OutlineColor = System.Drawing.Color.Transparent
@@ -16842,11 +17370,12 @@ Partial Class CP01
         '
         'BasicIndicator649
         '
-        Me.BasicIndicator649.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator649.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator649.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator649.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator649.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator649.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator649.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator649.Location = New System.Drawing.Point(1231, 573)
         Me.BasicIndicator649.Name = "BasicIndicator649"
         Me.BasicIndicator649.OutlineColor = System.Drawing.Color.Transparent
@@ -16863,11 +17392,12 @@ Partial Class CP01
         '
         'BasicIndicator650
         '
-        Me.BasicIndicator650.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator650.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator650.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator650.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator650.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator650.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator650.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator650.Location = New System.Drawing.Point(1096, 573)
         Me.BasicIndicator650.Name = "BasicIndicator650"
         Me.BasicIndicator650.OutlineColor = System.Drawing.Color.Transparent
@@ -16884,11 +17414,12 @@ Partial Class CP01
         '
         'BasicIndicator651
         '
-        Me.BasicIndicator651.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator651.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator651.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator651.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator651.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator651.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator651.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator651.Location = New System.Drawing.Point(1141, 573)
         Me.BasicIndicator651.Name = "BasicIndicator651"
         Me.BasicIndicator651.OutlineColor = System.Drawing.Color.Transparent
@@ -16905,11 +17436,12 @@ Partial Class CP01
         '
         'BasicIndicator652
         '
-        Me.BasicIndicator652.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator652.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator652.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator652.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator652.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator652.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator652.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator652.Location = New System.Drawing.Point(1186, 573)
         Me.BasicIndicator652.Name = "BasicIndicator652"
         Me.BasicIndicator652.OutlineColor = System.Drawing.Color.Transparent
@@ -16944,11 +17476,12 @@ Partial Class CP01
         '
         'BasicIndicator653
         '
-        Me.BasicIndicator653.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator653.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator653.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator653.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator653.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator653.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator653.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator653.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator653.Location = New System.Drawing.Point(1051, 573)
         Me.BasicIndicator653.Name = "BasicIndicator653"
         Me.BasicIndicator653.OutlineColor = System.Drawing.Color.Transparent
@@ -16985,11 +17518,12 @@ Partial Class CP01
         '
         'BasicIndicator655
         '
-        Me.BasicIndicator655.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator655.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator655.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator655.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator655.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator655.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator655.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator655.Location = New System.Drawing.Point(1231, 593)
         Me.BasicIndicator655.Name = "BasicIndicator655"
         Me.BasicIndicator655.OutlineColor = System.Drawing.Color.Transparent
@@ -17006,11 +17540,12 @@ Partial Class CP01
         '
         'BasicIndicator656
         '
-        Me.BasicIndicator656.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator656.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator656.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator656.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator656.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator656.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator656.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator656.Location = New System.Drawing.Point(1096, 593)
         Me.BasicIndicator656.Name = "BasicIndicator656"
         Me.BasicIndicator656.OutlineColor = System.Drawing.Color.Transparent
@@ -17027,11 +17562,12 @@ Partial Class CP01
         '
         'BasicIndicator657
         '
-        Me.BasicIndicator657.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator657.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator657.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator657.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator657.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator657.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator657.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator657.Location = New System.Drawing.Point(1141, 593)
         Me.BasicIndicator657.Name = "BasicIndicator657"
         Me.BasicIndicator657.OutlineColor = System.Drawing.Color.Transparent
@@ -17048,11 +17584,12 @@ Partial Class CP01
         '
         'BasicIndicator658
         '
-        Me.BasicIndicator658.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator658.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator658.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator658.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator658.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator658.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator658.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator658.Location = New System.Drawing.Point(1186, 593)
         Me.BasicIndicator658.Name = "BasicIndicator658"
         Me.BasicIndicator658.OutlineColor = System.Drawing.Color.Transparent
@@ -17087,11 +17624,12 @@ Partial Class CP01
         '
         'BasicIndicator659
         '
-        Me.BasicIndicator659.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator659.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator659.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator659.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator659.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator659.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator659.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator659.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator659.Location = New System.Drawing.Point(1051, 593)
         Me.BasicIndicator659.Name = "BasicIndicator659"
         Me.BasicIndicator659.OutlineColor = System.Drawing.Color.Transparent
@@ -17128,11 +17666,12 @@ Partial Class CP01
         '
         'BasicIndicator661
         '
-        Me.BasicIndicator661.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator661.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator661.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator661.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator661.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator661.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator661.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator661.Location = New System.Drawing.Point(1231, 613)
         Me.BasicIndicator661.Name = "BasicIndicator661"
         Me.BasicIndicator661.OutlineColor = System.Drawing.Color.Transparent
@@ -17149,11 +17688,12 @@ Partial Class CP01
         '
         'BasicIndicator662
         '
-        Me.BasicIndicator662.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator662.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator662.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator662.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator662.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator662.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator662.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator662.Location = New System.Drawing.Point(1096, 613)
         Me.BasicIndicator662.Name = "BasicIndicator662"
         Me.BasicIndicator662.OutlineColor = System.Drawing.Color.Transparent
@@ -17170,11 +17710,12 @@ Partial Class CP01
         '
         'BasicIndicator663
         '
-        Me.BasicIndicator663.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator663.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator663.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator663.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator663.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator663.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator663.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator663.Location = New System.Drawing.Point(1141, 613)
         Me.BasicIndicator663.Name = "BasicIndicator663"
         Me.BasicIndicator663.OutlineColor = System.Drawing.Color.Transparent
@@ -17191,11 +17732,12 @@ Partial Class CP01
         '
         'BasicIndicator664
         '
-        Me.BasicIndicator664.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator664.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator664.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator664.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator664.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator664.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator664.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator664.Location = New System.Drawing.Point(1186, 613)
         Me.BasicIndicator664.Name = "BasicIndicator664"
         Me.BasicIndicator664.OutlineColor = System.Drawing.Color.Transparent
@@ -17230,11 +17772,12 @@ Partial Class CP01
         '
         'BasicIndicator665
         '
-        Me.BasicIndicator665.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator665.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator665.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator665.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator665.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator665.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator665.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator665.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator665.Location = New System.Drawing.Point(1051, 613)
         Me.BasicIndicator665.Name = "BasicIndicator665"
         Me.BasicIndicator665.OutlineColor = System.Drawing.Color.Transparent
@@ -17271,11 +17814,12 @@ Partial Class CP01
         '
         'BasicIndicator667
         '
-        Me.BasicIndicator667.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator667.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator667.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator667.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator667.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator667.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator667.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator667.Location = New System.Drawing.Point(1385, 740)
         Me.BasicIndicator667.Name = "BasicIndicator667"
         Me.BasicIndicator667.OutlineColor = System.Drawing.Color.Transparent
@@ -17292,11 +17836,12 @@ Partial Class CP01
         '
         'BasicIndicator668
         '
-        Me.BasicIndicator668.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator668.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator668.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator668.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator668.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator668.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator668.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator668.Location = New System.Drawing.Point(1250, 740)
         Me.BasicIndicator668.Name = "BasicIndicator668"
         Me.BasicIndicator668.OutlineColor = System.Drawing.Color.Transparent
@@ -17313,11 +17858,12 @@ Partial Class CP01
         '
         'BasicIndicator669
         '
-        Me.BasicIndicator669.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator669.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator669.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator669.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator669.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator669.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator669.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator669.Location = New System.Drawing.Point(1295, 740)
         Me.BasicIndicator669.Name = "BasicIndicator669"
         Me.BasicIndicator669.OutlineColor = System.Drawing.Color.Transparent
@@ -17334,11 +17880,12 @@ Partial Class CP01
         '
         'BasicIndicator670
         '
-        Me.BasicIndicator670.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator670.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator670.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator670.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator670.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator670.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator670.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator670.Location = New System.Drawing.Point(1340, 740)
         Me.BasicIndicator670.Name = "BasicIndicator670"
         Me.BasicIndicator670.OutlineColor = System.Drawing.Color.Transparent
@@ -17373,11 +17920,12 @@ Partial Class CP01
         '
         'BasicIndicator671
         '
-        Me.BasicIndicator671.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator671.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator671.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator671.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator671.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator671.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator671.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator671.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator671.Location = New System.Drawing.Point(1205, 740)
         Me.BasicIndicator671.Name = "BasicIndicator671"
         Me.BasicIndicator671.OutlineColor = System.Drawing.Color.Transparent
@@ -17494,11 +18042,12 @@ Partial Class CP01
         '
         'BasicIndicator677
         '
-        Me.BasicIndicator677.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator677.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator677.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator677.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator677.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator677.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator677.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator677.Location = New System.Drawing.Point(1231, 633)
         Me.BasicIndicator677.Name = "BasicIndicator677"
         Me.BasicIndicator677.OutlineColor = System.Drawing.Color.Transparent
@@ -17515,11 +18064,12 @@ Partial Class CP01
         '
         'BasicIndicator678
         '
-        Me.BasicIndicator678.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator678.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator678.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator678.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator678.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator678.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator678.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator678.Location = New System.Drawing.Point(1096, 633)
         Me.BasicIndicator678.Name = "BasicIndicator678"
         Me.BasicIndicator678.OutlineColor = System.Drawing.Color.Transparent
@@ -17536,11 +18086,12 @@ Partial Class CP01
         '
         'BasicIndicator679
         '
-        Me.BasicIndicator679.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator679.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator679.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator679.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator679.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator679.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator679.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator679.Location = New System.Drawing.Point(1141, 633)
         Me.BasicIndicator679.Name = "BasicIndicator679"
         Me.BasicIndicator679.OutlineColor = System.Drawing.Color.Transparent
@@ -17557,11 +18108,12 @@ Partial Class CP01
         '
         'BasicIndicator680
         '
-        Me.BasicIndicator680.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator680.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator680.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator680.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator680.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator680.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator680.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator680.Location = New System.Drawing.Point(1186, 633)
         Me.BasicIndicator680.Name = "BasicIndicator680"
         Me.BasicIndicator680.OutlineColor = System.Drawing.Color.Transparent
@@ -17596,11 +18148,12 @@ Partial Class CP01
         '
         'BasicIndicator681
         '
-        Me.BasicIndicator681.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator681.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator681.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator681.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator681.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator681.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator681.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator681.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator681.Location = New System.Drawing.Point(1051, 633)
         Me.BasicIndicator681.Name = "BasicIndicator681"
         Me.BasicIndicator681.OutlineColor = System.Drawing.Color.Transparent
@@ -17637,11 +18190,12 @@ Partial Class CP01
         '
         'BasicIndicator683
         '
-        Me.BasicIndicator683.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator683.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator683.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator683.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator683.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator683.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator683.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator683.Location = New System.Drawing.Point(1277, 653)
         Me.BasicIndicator683.Name = "BasicIndicator683"
         Me.BasicIndicator683.OutlineColor = System.Drawing.Color.Transparent
@@ -17658,11 +18212,12 @@ Partial Class CP01
         '
         'BasicIndicator684
         '
-        Me.BasicIndicator684.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator684.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator684.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator684.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator684.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator684.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator684.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator684.Location = New System.Drawing.Point(1142, 653)
         Me.BasicIndicator684.Name = "BasicIndicator684"
         Me.BasicIndicator684.OutlineColor = System.Drawing.Color.Transparent
@@ -17679,11 +18234,12 @@ Partial Class CP01
         '
         'BasicIndicator685
         '
-        Me.BasicIndicator685.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator685.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator685.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator685.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator685.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator685.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator685.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator685.Location = New System.Drawing.Point(1187, 653)
         Me.BasicIndicator685.Name = "BasicIndicator685"
         Me.BasicIndicator685.OutlineColor = System.Drawing.Color.Transparent
@@ -17700,11 +18256,12 @@ Partial Class CP01
         '
         'BasicIndicator686
         '
-        Me.BasicIndicator686.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator686.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator686.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator686.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator686.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator686.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator686.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator686.Location = New System.Drawing.Point(1232, 653)
         Me.BasicIndicator686.Name = "BasicIndicator686"
         Me.BasicIndicator686.OutlineColor = System.Drawing.Color.Transparent
@@ -17739,11 +18296,12 @@ Partial Class CP01
         '
         'BasicIndicator687
         '
-        Me.BasicIndicator687.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator687.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator687.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator687.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator687.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator687.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator687.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator687.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator687.Location = New System.Drawing.Point(1097, 653)
         Me.BasicIndicator687.Name = "BasicIndicator687"
         Me.BasicIndicator687.OutlineColor = System.Drawing.Color.Transparent
@@ -17840,11 +18398,12 @@ Partial Class CP01
         '
         'BasicIndicator694
         '
-        Me.BasicIndicator694.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator694.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator694.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator694.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator694.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator694.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator694.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator694.Location = New System.Drawing.Point(1340, 772)
         Me.BasicIndicator694.Name = "BasicIndicator694"
         Me.BasicIndicator694.OutlineColor = System.Drawing.Color.Transparent
@@ -17861,11 +18420,12 @@ Partial Class CP01
         '
         'BasicIndicator695
         '
-        Me.BasicIndicator695.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator695.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator695.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator695.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator695.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator695.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator695.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator695.Location = New System.Drawing.Point(1205, 772)
         Me.BasicIndicator695.Name = "BasicIndicator695"
         Me.BasicIndicator695.OutlineColor = System.Drawing.Color.Transparent
@@ -17882,11 +18442,12 @@ Partial Class CP01
         '
         'BasicIndicator696
         '
-        Me.BasicIndicator696.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator696.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator696.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator696.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator696.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator696.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator696.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator696.Location = New System.Drawing.Point(1250, 772)
         Me.BasicIndicator696.Name = "BasicIndicator696"
         Me.BasicIndicator696.OutlineColor = System.Drawing.Color.Transparent
@@ -17903,11 +18464,12 @@ Partial Class CP01
         '
         'BasicIndicator697
         '
-        Me.BasicIndicator697.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator697.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator697.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator697.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator697.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator697.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator697.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator697.Location = New System.Drawing.Point(1295, 772)
         Me.BasicIndicator697.Name = "BasicIndicator697"
         Me.BasicIndicator697.OutlineColor = System.Drawing.Color.Transparent
@@ -17942,11 +18504,12 @@ Partial Class CP01
         '
         'BasicIndicator698
         '
-        Me.BasicIndicator698.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator698.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator698.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator698.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator698.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator698.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator698.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator698.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator698.Location = New System.Drawing.Point(1160, 772)
         Me.BasicIndicator698.Name = "BasicIndicator698"
         Me.BasicIndicator698.OutlineColor = System.Drawing.Color.Transparent
@@ -18023,11 +18586,12 @@ Partial Class CP01
         '
         'BasicIndicator700
         '
-        Me.BasicIndicator700.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator700.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator700.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator700.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator700.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator700.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator700.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator700.Location = New System.Drawing.Point(1385, 804)
         Me.BasicIndicator700.Name = "BasicIndicator700"
         Me.BasicIndicator700.OutlineColor = System.Drawing.Color.Transparent
@@ -18044,11 +18608,12 @@ Partial Class CP01
         '
         'BasicIndicator701
         '
-        Me.BasicIndicator701.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator701.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator701.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator701.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator701.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator701.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator701.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator701.Location = New System.Drawing.Point(1250, 804)
         Me.BasicIndicator701.Name = "BasicIndicator701"
         Me.BasicIndicator701.OutlineColor = System.Drawing.Color.Transparent
@@ -18065,11 +18630,12 @@ Partial Class CP01
         '
         'BasicIndicator702
         '
-        Me.BasicIndicator702.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator702.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator702.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator702.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator702.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator702.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator702.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator702.Location = New System.Drawing.Point(1295, 804)
         Me.BasicIndicator702.Name = "BasicIndicator702"
         Me.BasicIndicator702.OutlineColor = System.Drawing.Color.Transparent
@@ -18086,11 +18652,12 @@ Partial Class CP01
         '
         'BasicIndicator703
         '
-        Me.BasicIndicator703.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator703.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator703.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator703.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator703.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator703.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator703.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator703.Location = New System.Drawing.Point(1340, 804)
         Me.BasicIndicator703.Name = "BasicIndicator703"
         Me.BasicIndicator703.OutlineColor = System.Drawing.Color.Transparent
@@ -18125,11 +18692,12 @@ Partial Class CP01
         '
         'BasicIndicator704
         '
-        Me.BasicIndicator704.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator704.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator704.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator704.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator704.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator704.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator704.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator704.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator704.Location = New System.Drawing.Point(1160, 804)
         Me.BasicIndicator704.Name = "BasicIndicator704"
         Me.BasicIndicator704.OutlineColor = System.Drawing.Color.Transparent
@@ -18146,11 +18714,12 @@ Partial Class CP01
         '
         'BasicIndicator705
         '
-        Me.BasicIndicator705.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator705.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator705.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator705.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator705.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator705.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator705.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator705.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator705.Location = New System.Drawing.Point(1205, 804)
         Me.BasicIndicator705.Name = "BasicIndicator705"
         Me.BasicIndicator705.OutlineColor = System.Drawing.Color.Transparent
@@ -18207,11 +18776,12 @@ Partial Class CP01
         '
         'BasicIndicator708
         '
-        Me.BasicIndicator708.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator708.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator708.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator708.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator708.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator708.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator708.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator708.Location = New System.Drawing.Point(1277, 673)
         Me.BasicIndicator708.Name = "BasicIndicator708"
         Me.BasicIndicator708.OutlineColor = System.Drawing.Color.Transparent
@@ -18228,11 +18798,12 @@ Partial Class CP01
         '
         'BasicIndicator709
         '
-        Me.BasicIndicator709.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator709.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator709.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator709.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator709.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator709.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator709.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator709.Location = New System.Drawing.Point(1142, 673)
         Me.BasicIndicator709.Name = "BasicIndicator709"
         Me.BasicIndicator709.OutlineColor = System.Drawing.Color.Transparent
@@ -18249,11 +18820,12 @@ Partial Class CP01
         '
         'BasicIndicator710
         '
-        Me.BasicIndicator710.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator710.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator710.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator710.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator710.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator710.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator710.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator710.Location = New System.Drawing.Point(1187, 673)
         Me.BasicIndicator710.Name = "BasicIndicator710"
         Me.BasicIndicator710.OutlineColor = System.Drawing.Color.Transparent
@@ -18270,11 +18842,12 @@ Partial Class CP01
         '
         'BasicIndicator711
         '
-        Me.BasicIndicator711.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator711.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator711.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator711.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator711.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator711.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator711.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator711.Location = New System.Drawing.Point(1232, 673)
         Me.BasicIndicator711.Name = "BasicIndicator711"
         Me.BasicIndicator711.OutlineColor = System.Drawing.Color.Transparent
@@ -18309,11 +18882,12 @@ Partial Class CP01
         '
         'BasicIndicator712
         '
-        Me.BasicIndicator712.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator712.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator712.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator712.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator712.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator712.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator712.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator712.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator712.Location = New System.Drawing.Point(1097, 673)
         Me.BasicIndicator712.Name = "BasicIndicator712"
         Me.BasicIndicator712.OutlineColor = System.Drawing.Color.Transparent
@@ -18370,11 +18944,12 @@ Partial Class CP01
         '
         'BasicIndicator715
         '
-        Me.BasicIndicator715.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator715.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator715.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator715.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator715.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator715.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator715.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator715.Location = New System.Drawing.Point(1277, 693)
         Me.BasicIndicator715.Name = "BasicIndicator715"
         Me.BasicIndicator715.OutlineColor = System.Drawing.Color.Transparent
@@ -18391,11 +18966,12 @@ Partial Class CP01
         '
         'BasicIndicator716
         '
-        Me.BasicIndicator716.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator716.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator716.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator716.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator716.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator716.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator716.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator716.Location = New System.Drawing.Point(1142, 693)
         Me.BasicIndicator716.Name = "BasicIndicator716"
         Me.BasicIndicator716.OutlineColor = System.Drawing.Color.Transparent
@@ -18412,11 +18988,12 @@ Partial Class CP01
         '
         'BasicIndicator717
         '
-        Me.BasicIndicator717.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator717.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator717.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator717.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator717.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator717.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator717.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator717.Location = New System.Drawing.Point(1187, 693)
         Me.BasicIndicator717.Name = "BasicIndicator717"
         Me.BasicIndicator717.OutlineColor = System.Drawing.Color.Transparent
@@ -18433,11 +19010,12 @@ Partial Class CP01
         '
         'BasicIndicator718
         '
-        Me.BasicIndicator718.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator718.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator718.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator718.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator718.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator718.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator718.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator718.Location = New System.Drawing.Point(1232, 693)
         Me.BasicIndicator718.Name = "BasicIndicator718"
         Me.BasicIndicator718.OutlineColor = System.Drawing.Color.Transparent
@@ -18472,11 +19050,12 @@ Partial Class CP01
         '
         'BasicIndicator719
         '
-        Me.BasicIndicator719.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator719.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator719.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator719.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator719.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator719.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator719.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator719.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator719.Location = New System.Drawing.Point(1097, 693)
         Me.BasicIndicator719.Name = "BasicIndicator719"
         Me.BasicIndicator719.OutlineColor = System.Drawing.Color.Transparent
@@ -18533,11 +19112,12 @@ Partial Class CP01
         '
         'BasicIndicator722
         '
-        Me.BasicIndicator722.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator722.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator722.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator722.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator722.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator722.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator722.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator722.Location = New System.Drawing.Point(1277, 713)
         Me.BasicIndicator722.Name = "BasicIndicator722"
         Me.BasicIndicator722.OutlineColor = System.Drawing.Color.Transparent
@@ -18554,11 +19134,12 @@ Partial Class CP01
         '
         'BasicIndicator723
         '
-        Me.BasicIndicator723.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator723.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator723.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator723.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator723.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator723.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator723.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator723.Location = New System.Drawing.Point(1142, 713)
         Me.BasicIndicator723.Name = "BasicIndicator723"
         Me.BasicIndicator723.OutlineColor = System.Drawing.Color.Transparent
@@ -18575,11 +19156,12 @@ Partial Class CP01
         '
         'BasicIndicator724
         '
-        Me.BasicIndicator724.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator724.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator724.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator724.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator724.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator724.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator724.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator724.Location = New System.Drawing.Point(1187, 713)
         Me.BasicIndicator724.Name = "BasicIndicator724"
         Me.BasicIndicator724.OutlineColor = System.Drawing.Color.Transparent
@@ -18596,11 +19178,12 @@ Partial Class CP01
         '
         'BasicIndicator725
         '
-        Me.BasicIndicator725.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator725.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator725.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator725.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator725.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator725.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator725.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator725.Location = New System.Drawing.Point(1232, 713)
         Me.BasicIndicator725.Name = "BasicIndicator725"
         Me.BasicIndicator725.OutlineColor = System.Drawing.Color.Transparent
@@ -18635,11 +19218,12 @@ Partial Class CP01
         '
         'BasicIndicator726
         '
-        Me.BasicIndicator726.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator726.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator726.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator726.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator726.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator726.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator726.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator726.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator726.Location = New System.Drawing.Point(1097, 713)
         Me.BasicIndicator726.Name = "BasicIndicator726"
         Me.BasicIndicator726.OutlineColor = System.Drawing.Color.Transparent
@@ -18676,11 +19260,12 @@ Partial Class CP01
         '
         'BasicIndicator728
         '
-        Me.BasicIndicator728.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator728.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator728.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator728.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator728.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator728.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator728.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator728.Location = New System.Drawing.Point(1805, 32)
         Me.BasicIndicator728.Name = "BasicIndicator728"
         Me.BasicIndicator728.OutlineColor = System.Drawing.Color.Transparent
@@ -18697,11 +19282,12 @@ Partial Class CP01
         '
         'BasicIndicator729
         '
-        Me.BasicIndicator729.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator729.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator729.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator729.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator729.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator729.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator729.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator729.Location = New System.Drawing.Point(1750, 32)
         Me.BasicIndicator729.Name = "BasicIndicator729"
         Me.BasicIndicator729.OutlineColor = System.Drawing.Color.Transparent
@@ -18736,11 +19322,12 @@ Partial Class CP01
         '
         'BasicIndicator730
         '
-        Me.BasicIndicator730.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator730.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator730.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator730.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator730.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator730.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator730.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator730.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator730.Location = New System.Drawing.Point(1695, 32)
         Me.BasicIndicator730.Name = "BasicIndicator730"
         Me.BasicIndicator730.OutlineColor = System.Drawing.Color.Transparent
@@ -18777,11 +19364,12 @@ Partial Class CP01
         '
         'BasicIndicator732
         '
-        Me.BasicIndicator732.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator732.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator732.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator732.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator732.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator732.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator732.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator732.Location = New System.Drawing.Point(1803, 12)
         Me.BasicIndicator732.Name = "BasicIndicator732"
         Me.BasicIndicator732.OutlineColor = System.Drawing.Color.Transparent
@@ -18798,11 +19386,12 @@ Partial Class CP01
         '
         'BasicIndicator733
         '
-        Me.BasicIndicator733.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator733.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator733.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator733.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator733.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator733.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator733.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator733.Location = New System.Drawing.Point(1748, 12)
         Me.BasicIndicator733.Name = "BasicIndicator733"
         Me.BasicIndicator733.OutlineColor = System.Drawing.Color.Transparent
@@ -18837,11 +19426,12 @@ Partial Class CP01
         '
         'BasicIndicator734
         '
-        Me.BasicIndicator734.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator734.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator734.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator734.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator734.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator734.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator734.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator734.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator734.Location = New System.Drawing.Point(1693, 12)
         Me.BasicIndicator734.Name = "BasicIndicator734"
         Me.BasicIndicator734.OutlineColor = System.Drawing.Color.Transparent
@@ -18878,11 +19468,12 @@ Partial Class CP01
         '
         'BasicIndicator736
         '
-        Me.BasicIndicator736.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator736.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator736.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator736.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator736.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator736.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator736.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator736.Location = New System.Drawing.Point(1807, 92)
         Me.BasicIndicator736.Name = "BasicIndicator736"
         Me.BasicIndicator736.OutlineColor = System.Drawing.Color.Transparent
@@ -18899,11 +19490,12 @@ Partial Class CP01
         '
         'BasicIndicator737
         '
-        Me.BasicIndicator737.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator737.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator737.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator737.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator737.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator737.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator737.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator737.Location = New System.Drawing.Point(1752, 92)
         Me.BasicIndicator737.Name = "BasicIndicator737"
         Me.BasicIndicator737.OutlineColor = System.Drawing.Color.Transparent
@@ -18938,11 +19530,12 @@ Partial Class CP01
         '
         'BasicIndicator738
         '
-        Me.BasicIndicator738.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator738.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator738.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator738.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator738.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator738.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator738.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator738.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator738.Location = New System.Drawing.Point(1697, 92)
         Me.BasicIndicator738.Name = "BasicIndicator738"
         Me.BasicIndicator738.OutlineColor = System.Drawing.Color.Transparent
@@ -18979,11 +19572,12 @@ Partial Class CP01
         '
         'BasicIndicator740
         '
-        Me.BasicIndicator740.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator740.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator740.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator740.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator740.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator740.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator740.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator740.Location = New System.Drawing.Point(1807, 72)
         Me.BasicIndicator740.Name = "BasicIndicator740"
         Me.BasicIndicator740.OutlineColor = System.Drawing.Color.Transparent
@@ -19000,11 +19594,12 @@ Partial Class CP01
         '
         'BasicIndicator741
         '
-        Me.BasicIndicator741.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator741.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator741.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator741.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator741.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator741.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator741.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator741.Location = New System.Drawing.Point(1752, 72)
         Me.BasicIndicator741.Name = "BasicIndicator741"
         Me.BasicIndicator741.OutlineColor = System.Drawing.Color.Transparent
@@ -19039,11 +19634,12 @@ Partial Class CP01
         '
         'BasicIndicator742
         '
-        Me.BasicIndicator742.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator742.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator742.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator742.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator742.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator742.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator742.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator742.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator742.Location = New System.Drawing.Point(1697, 72)
         Me.BasicIndicator742.Name = "BasicIndicator742"
         Me.BasicIndicator742.OutlineColor = System.Drawing.Color.Transparent
@@ -19080,11 +19676,12 @@ Partial Class CP01
         '
         'BasicIndicator744
         '
-        Me.BasicIndicator744.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator744.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator744.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator744.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator744.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator744.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator744.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator744.Location = New System.Drawing.Point(1805, 52)
         Me.BasicIndicator744.Name = "BasicIndicator744"
         Me.BasicIndicator744.OutlineColor = System.Drawing.Color.Transparent
@@ -19101,11 +19698,12 @@ Partial Class CP01
         '
         'BasicIndicator745
         '
-        Me.BasicIndicator745.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator745.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator745.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator745.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator745.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator745.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator745.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator745.Location = New System.Drawing.Point(1750, 52)
         Me.BasicIndicator745.Name = "BasicIndicator745"
         Me.BasicIndicator745.OutlineColor = System.Drawing.Color.Transparent
@@ -19140,11 +19738,12 @@ Partial Class CP01
         '
         'BasicIndicator746
         '
-        Me.BasicIndicator746.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator746.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator746.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator746.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator746.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator746.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator746.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator746.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator746.Location = New System.Drawing.Point(1695, 52)
         Me.BasicIndicator746.Name = "BasicIndicator746"
         Me.BasicIndicator746.OutlineColor = System.Drawing.Color.Transparent
@@ -19181,11 +19780,12 @@ Partial Class CP01
         '
         'BasicIndicator748
         '
-        Me.BasicIndicator748.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator748.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator748.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator748.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator748.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator748.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator748.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator748.Location = New System.Drawing.Point(1805, 132)
         Me.BasicIndicator748.Name = "BasicIndicator748"
         Me.BasicIndicator748.OutlineColor = System.Drawing.Color.Transparent
@@ -19202,11 +19802,12 @@ Partial Class CP01
         '
         'BasicIndicator749
         '
-        Me.BasicIndicator749.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator749.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator749.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator749.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator749.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator749.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator749.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator749.Location = New System.Drawing.Point(1750, 132)
         Me.BasicIndicator749.Name = "BasicIndicator749"
         Me.BasicIndicator749.OutlineColor = System.Drawing.Color.Transparent
@@ -19241,11 +19842,12 @@ Partial Class CP01
         '
         'BasicIndicator750
         '
-        Me.BasicIndicator750.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator750.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator750.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator750.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator750.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator750.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator750.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator750.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator750.Location = New System.Drawing.Point(1695, 132)
         Me.BasicIndicator750.Name = "BasicIndicator750"
         Me.BasicIndicator750.OutlineColor = System.Drawing.Color.Transparent
@@ -19282,11 +19884,12 @@ Partial Class CP01
         '
         'BasicIndicator752
         '
-        Me.BasicIndicator752.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator752.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator752.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator752.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator752.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator752.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator752.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator752.Location = New System.Drawing.Point(1803, 112)
         Me.BasicIndicator752.Name = "BasicIndicator752"
         Me.BasicIndicator752.OutlineColor = System.Drawing.Color.Transparent
@@ -19303,11 +19906,12 @@ Partial Class CP01
         '
         'BasicIndicator753
         '
-        Me.BasicIndicator753.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator753.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator753.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator753.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator753.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator753.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator753.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator753.Location = New System.Drawing.Point(1748, 112)
         Me.BasicIndicator753.Name = "BasicIndicator753"
         Me.BasicIndicator753.OutlineColor = System.Drawing.Color.Transparent
@@ -19342,11 +19946,12 @@ Partial Class CP01
         '
         'BasicIndicator754
         '
-        Me.BasicIndicator754.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator754.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator754.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator754.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator754.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator754.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator754.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator754.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator754.Location = New System.Drawing.Point(1693, 112)
         Me.BasicIndicator754.Name = "BasicIndicator754"
         Me.BasicIndicator754.OutlineColor = System.Drawing.Color.Transparent
@@ -19383,11 +19988,12 @@ Partial Class CP01
         '
         'BasicIndicator756
         '
-        Me.BasicIndicator756.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator756.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator756.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator756.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator756.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator756.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator756.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator756.Location = New System.Drawing.Point(1807, 192)
         Me.BasicIndicator756.Name = "BasicIndicator756"
         Me.BasicIndicator756.OutlineColor = System.Drawing.Color.Transparent
@@ -19404,11 +20010,12 @@ Partial Class CP01
         '
         'BasicIndicator757
         '
-        Me.BasicIndicator757.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator757.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator757.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator757.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator757.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator757.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator757.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator757.Location = New System.Drawing.Point(1752, 192)
         Me.BasicIndicator757.Name = "BasicIndicator757"
         Me.BasicIndicator757.OutlineColor = System.Drawing.Color.Transparent
@@ -19443,11 +20050,12 @@ Partial Class CP01
         '
         'BasicIndicator758
         '
-        Me.BasicIndicator758.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator758.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator758.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator758.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator758.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator758.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator758.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator758.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator758.Location = New System.Drawing.Point(1697, 192)
         Me.BasicIndicator758.Name = "BasicIndicator758"
         Me.BasicIndicator758.OutlineColor = System.Drawing.Color.Transparent
@@ -19484,11 +20092,12 @@ Partial Class CP01
         '
         'BasicIndicator760
         '
-        Me.BasicIndicator760.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator760.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator760.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator760.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator760.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator760.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator760.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator760.Location = New System.Drawing.Point(1807, 172)
         Me.BasicIndicator760.Name = "BasicIndicator760"
         Me.BasicIndicator760.OutlineColor = System.Drawing.Color.Transparent
@@ -19505,11 +20114,12 @@ Partial Class CP01
         '
         'BasicIndicator761
         '
-        Me.BasicIndicator761.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator761.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator761.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator761.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator761.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator761.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator761.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator761.Location = New System.Drawing.Point(1752, 172)
         Me.BasicIndicator761.Name = "BasicIndicator761"
         Me.BasicIndicator761.OutlineColor = System.Drawing.Color.Transparent
@@ -19544,11 +20154,12 @@ Partial Class CP01
         '
         'BasicIndicator762
         '
-        Me.BasicIndicator762.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator762.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator762.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator762.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator762.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator762.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator762.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator762.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator762.Location = New System.Drawing.Point(1697, 172)
         Me.BasicIndicator762.Name = "BasicIndicator762"
         Me.BasicIndicator762.OutlineColor = System.Drawing.Color.Transparent
@@ -19585,11 +20196,12 @@ Partial Class CP01
         '
         'BasicIndicator764
         '
-        Me.BasicIndicator764.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator764.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator764.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator764.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator764.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator764.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator764.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator764.Location = New System.Drawing.Point(1805, 152)
         Me.BasicIndicator764.Name = "BasicIndicator764"
         Me.BasicIndicator764.OutlineColor = System.Drawing.Color.Transparent
@@ -19606,11 +20218,12 @@ Partial Class CP01
         '
         'BasicIndicator765
         '
-        Me.BasicIndicator765.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator765.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator765.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator765.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator765.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator765.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator765.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator765.Location = New System.Drawing.Point(1750, 152)
         Me.BasicIndicator765.Name = "BasicIndicator765"
         Me.BasicIndicator765.OutlineColor = System.Drawing.Color.Transparent
@@ -19645,11 +20258,12 @@ Partial Class CP01
         '
         'BasicIndicator766
         '
-        Me.BasicIndicator766.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator766.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator766.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator766.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator766.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator766.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator766.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator766.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator766.Location = New System.Drawing.Point(1695, 152)
         Me.BasicIndicator766.Name = "BasicIndicator766"
         Me.BasicIndicator766.OutlineColor = System.Drawing.Color.Transparent
@@ -19686,11 +20300,12 @@ Partial Class CP01
         '
         'BasicIndicator768
         '
-        Me.BasicIndicator768.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator768.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator768.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator768.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator768.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator768.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator768.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator768.Location = New System.Drawing.Point(1805, 232)
         Me.BasicIndicator768.Name = "BasicIndicator768"
         Me.BasicIndicator768.OutlineColor = System.Drawing.Color.Transparent
@@ -19707,11 +20322,12 @@ Partial Class CP01
         '
         'BasicIndicator769
         '
-        Me.BasicIndicator769.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator769.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator769.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator769.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator769.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator769.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator769.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator769.Location = New System.Drawing.Point(1750, 232)
         Me.BasicIndicator769.Name = "BasicIndicator769"
         Me.BasicIndicator769.OutlineColor = System.Drawing.Color.Transparent
@@ -19746,11 +20362,12 @@ Partial Class CP01
         '
         'BasicIndicator770
         '
-        Me.BasicIndicator770.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator770.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator770.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator770.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator770.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator770.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator770.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator770.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator770.Location = New System.Drawing.Point(1695, 232)
         Me.BasicIndicator770.Name = "BasicIndicator770"
         Me.BasicIndicator770.OutlineColor = System.Drawing.Color.Transparent
@@ -19787,11 +20404,12 @@ Partial Class CP01
         '
         'BasicIndicator772
         '
-        Me.BasicIndicator772.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator772.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator772.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator772.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator772.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator772.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator772.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator772.Location = New System.Drawing.Point(1803, 212)
         Me.BasicIndicator772.Name = "BasicIndicator772"
         Me.BasicIndicator772.OutlineColor = System.Drawing.Color.Transparent
@@ -19808,11 +20426,12 @@ Partial Class CP01
         '
         'BasicIndicator773
         '
-        Me.BasicIndicator773.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator773.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator773.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator773.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator773.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator773.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator773.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator773.Location = New System.Drawing.Point(1748, 212)
         Me.BasicIndicator773.Name = "BasicIndicator773"
         Me.BasicIndicator773.OutlineColor = System.Drawing.Color.Transparent
@@ -19847,11 +20466,12 @@ Partial Class CP01
         '
         'BasicIndicator774
         '
-        Me.BasicIndicator774.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator774.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator774.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator774.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator774.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator774.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator774.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator774.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator774.Location = New System.Drawing.Point(1693, 212)
         Me.BasicIndicator774.Name = "BasicIndicator774"
         Me.BasicIndicator774.OutlineColor = System.Drawing.Color.Transparent
@@ -19888,11 +20508,12 @@ Partial Class CP01
         '
         'BasicIndicator776
         '
-        Me.BasicIndicator776.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator776.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator776.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator776.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator776.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator776.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator776.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator776.Location = New System.Drawing.Point(1807, 292)
         Me.BasicIndicator776.Name = "BasicIndicator776"
         Me.BasicIndicator776.OutlineColor = System.Drawing.Color.Transparent
@@ -19909,11 +20530,12 @@ Partial Class CP01
         '
         'BasicIndicator777
         '
-        Me.BasicIndicator777.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator777.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator777.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator777.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator777.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator777.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator777.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator777.Location = New System.Drawing.Point(1752, 292)
         Me.BasicIndicator777.Name = "BasicIndicator777"
         Me.BasicIndicator777.OutlineColor = System.Drawing.Color.Transparent
@@ -19948,11 +20570,12 @@ Partial Class CP01
         '
         'BasicIndicator778
         '
-        Me.BasicIndicator778.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator778.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator778.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator778.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator778.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator778.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator778.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator778.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator778.Location = New System.Drawing.Point(1697, 292)
         Me.BasicIndicator778.Name = "BasicIndicator778"
         Me.BasicIndicator778.OutlineColor = System.Drawing.Color.Transparent
@@ -19989,11 +20612,12 @@ Partial Class CP01
         '
         'BasicIndicator780
         '
-        Me.BasicIndicator780.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator780.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator780.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator780.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator780.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator780.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator780.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator780.Location = New System.Drawing.Point(1807, 272)
         Me.BasicIndicator780.Name = "BasicIndicator780"
         Me.BasicIndicator780.OutlineColor = System.Drawing.Color.Transparent
@@ -20010,11 +20634,12 @@ Partial Class CP01
         '
         'BasicIndicator781
         '
-        Me.BasicIndicator781.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator781.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator781.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator781.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator781.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator781.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator781.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator781.Location = New System.Drawing.Point(1752, 272)
         Me.BasicIndicator781.Name = "BasicIndicator781"
         Me.BasicIndicator781.OutlineColor = System.Drawing.Color.Transparent
@@ -20049,11 +20674,12 @@ Partial Class CP01
         '
         'BasicIndicator782
         '
-        Me.BasicIndicator782.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator782.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator782.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator782.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator782.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator782.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator782.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator782.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator782.Location = New System.Drawing.Point(1697, 272)
         Me.BasicIndicator782.Name = "BasicIndicator782"
         Me.BasicIndicator782.OutlineColor = System.Drawing.Color.Transparent
@@ -20090,11 +20716,12 @@ Partial Class CP01
         '
         'BasicIndicator784
         '
-        Me.BasicIndicator784.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator784.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator784.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator784.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator784.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator784.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator784.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator784.Location = New System.Drawing.Point(1805, 252)
         Me.BasicIndicator784.Name = "BasicIndicator784"
         Me.BasicIndicator784.OutlineColor = System.Drawing.Color.Transparent
@@ -20111,11 +20738,12 @@ Partial Class CP01
         '
         'BasicIndicator785
         '
-        Me.BasicIndicator785.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator785.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator785.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator785.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator785.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator785.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator785.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator785.Location = New System.Drawing.Point(1750, 252)
         Me.BasicIndicator785.Name = "BasicIndicator785"
         Me.BasicIndicator785.OutlineColor = System.Drawing.Color.Transparent
@@ -20150,11 +20778,12 @@ Partial Class CP01
         '
         'BasicIndicator786
         '
-        Me.BasicIndicator786.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator786.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator786.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator786.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator786.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator786.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator786.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator786.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator786.Location = New System.Drawing.Point(1695, 252)
         Me.BasicIndicator786.Name = "BasicIndicator786"
         Me.BasicIndicator786.OutlineColor = System.Drawing.Color.Transparent
@@ -20191,11 +20820,12 @@ Partial Class CP01
         '
         'BasicIndicator788
         '
-        Me.BasicIndicator788.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator788.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator788.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator788.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator788.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator788.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator788.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator788.Location = New System.Drawing.Point(1805, 332)
         Me.BasicIndicator788.Name = "BasicIndicator788"
         Me.BasicIndicator788.OutlineColor = System.Drawing.Color.Transparent
@@ -20212,11 +20842,12 @@ Partial Class CP01
         '
         'BasicIndicator789
         '
-        Me.BasicIndicator789.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator789.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator789.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator789.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator789.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator789.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator789.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator789.Location = New System.Drawing.Point(1750, 332)
         Me.BasicIndicator789.Name = "BasicIndicator789"
         Me.BasicIndicator789.OutlineColor = System.Drawing.Color.Transparent
@@ -20251,11 +20882,12 @@ Partial Class CP01
         '
         'BasicIndicator790
         '
-        Me.BasicIndicator790.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator790.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator790.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator790.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator790.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator790.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator790.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator790.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator790.Location = New System.Drawing.Point(1695, 332)
         Me.BasicIndicator790.Name = "BasicIndicator790"
         Me.BasicIndicator790.OutlineColor = System.Drawing.Color.Transparent
@@ -20292,11 +20924,12 @@ Partial Class CP01
         '
         'BasicIndicator792
         '
-        Me.BasicIndicator792.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator792.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator792.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator792.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator792.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator792.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator792.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator792.Location = New System.Drawing.Point(1803, 312)
         Me.BasicIndicator792.Name = "BasicIndicator792"
         Me.BasicIndicator792.OutlineColor = System.Drawing.Color.Transparent
@@ -20313,11 +20946,12 @@ Partial Class CP01
         '
         'BasicIndicator793
         '
-        Me.BasicIndicator793.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator793.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator793.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator793.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator793.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator793.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator793.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator793.Location = New System.Drawing.Point(1748, 312)
         Me.BasicIndicator793.Name = "BasicIndicator793"
         Me.BasicIndicator793.OutlineColor = System.Drawing.Color.Transparent
@@ -20352,11 +20986,12 @@ Partial Class CP01
         '
         'BasicIndicator794
         '
-        Me.BasicIndicator794.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator794.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator794.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator794.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator794.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator794.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator794.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator794.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator794.Location = New System.Drawing.Point(1693, 312)
         Me.BasicIndicator794.Name = "BasicIndicator794"
         Me.BasicIndicator794.OutlineColor = System.Drawing.Color.Transparent
@@ -20393,11 +21028,12 @@ Partial Class CP01
         '
         'BasicIndicator796
         '
-        Me.BasicIndicator796.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator796.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator796.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator796.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator796.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator796.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator796.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator796.Location = New System.Drawing.Point(1807, 392)
         Me.BasicIndicator796.Name = "BasicIndicator796"
         Me.BasicIndicator796.OutlineColor = System.Drawing.Color.Transparent
@@ -20414,11 +21050,12 @@ Partial Class CP01
         '
         'BasicIndicator797
         '
-        Me.BasicIndicator797.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator797.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator797.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator797.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator797.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator797.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator797.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator797.Location = New System.Drawing.Point(1752, 392)
         Me.BasicIndicator797.Name = "BasicIndicator797"
         Me.BasicIndicator797.OutlineColor = System.Drawing.Color.Transparent
@@ -20453,11 +21090,12 @@ Partial Class CP01
         '
         'BasicIndicator798
         '
-        Me.BasicIndicator798.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator798.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator798.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator798.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator798.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator798.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator798.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator798.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator798.Location = New System.Drawing.Point(1697, 392)
         Me.BasicIndicator798.Name = "BasicIndicator798"
         Me.BasicIndicator798.OutlineColor = System.Drawing.Color.Transparent
@@ -20494,11 +21132,12 @@ Partial Class CP01
         '
         'BasicIndicator800
         '
-        Me.BasicIndicator800.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator800.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator800.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator800.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator800.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator800.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator800.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator800.Location = New System.Drawing.Point(1807, 372)
         Me.BasicIndicator800.Name = "BasicIndicator800"
         Me.BasicIndicator800.OutlineColor = System.Drawing.Color.Transparent
@@ -20515,11 +21154,12 @@ Partial Class CP01
         '
         'BasicIndicator801
         '
-        Me.BasicIndicator801.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator801.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator801.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator801.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator801.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator801.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator801.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator801.Location = New System.Drawing.Point(1752, 372)
         Me.BasicIndicator801.Name = "BasicIndicator801"
         Me.BasicIndicator801.OutlineColor = System.Drawing.Color.Transparent
@@ -20554,11 +21194,12 @@ Partial Class CP01
         '
         'BasicIndicator802
         '
-        Me.BasicIndicator802.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator802.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator802.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator802.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator802.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator802.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator802.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator802.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator802.Location = New System.Drawing.Point(1697, 372)
         Me.BasicIndicator802.Name = "BasicIndicator802"
         Me.BasicIndicator802.OutlineColor = System.Drawing.Color.Transparent
@@ -20595,11 +21236,12 @@ Partial Class CP01
         '
         'BasicIndicator804
         '
-        Me.BasicIndicator804.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator804.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator804.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator804.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator804.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator804.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator804.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator804.Location = New System.Drawing.Point(1805, 352)
         Me.BasicIndicator804.Name = "BasicIndicator804"
         Me.BasicIndicator804.OutlineColor = System.Drawing.Color.Transparent
@@ -20616,11 +21258,12 @@ Partial Class CP01
         '
         'BasicIndicator805
         '
-        Me.BasicIndicator805.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator805.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator805.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator805.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator805.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator805.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator805.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator805.Location = New System.Drawing.Point(1750, 352)
         Me.BasicIndicator805.Name = "BasicIndicator805"
         Me.BasicIndicator805.OutlineColor = System.Drawing.Color.Transparent
@@ -20655,11 +21298,12 @@ Partial Class CP01
         '
         'BasicIndicator806
         '
-        Me.BasicIndicator806.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator806.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator806.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator806.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator806.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator806.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator806.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator806.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator806.Location = New System.Drawing.Point(1695, 352)
         Me.BasicIndicator806.Name = "BasicIndicator806"
         Me.BasicIndicator806.OutlineColor = System.Drawing.Color.Transparent
@@ -20696,11 +21340,12 @@ Partial Class CP01
         '
         'BasicIndicator808
         '
-        Me.BasicIndicator808.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator808.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator808.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator808.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator808.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator808.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator808.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator808.Location = New System.Drawing.Point(1805, 432)
         Me.BasicIndicator808.Name = "BasicIndicator808"
         Me.BasicIndicator808.OutlineColor = System.Drawing.Color.Transparent
@@ -20717,11 +21362,12 @@ Partial Class CP01
         '
         'BasicIndicator809
         '
-        Me.BasicIndicator809.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator809.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator809.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator809.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator809.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator809.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator809.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator809.Location = New System.Drawing.Point(1750, 432)
         Me.BasicIndicator809.Name = "BasicIndicator809"
         Me.BasicIndicator809.OutlineColor = System.Drawing.Color.Transparent
@@ -20756,11 +21402,12 @@ Partial Class CP01
         '
         'BasicIndicator810
         '
-        Me.BasicIndicator810.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator810.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator810.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator810.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator810.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator810.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator810.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator810.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator810.Location = New System.Drawing.Point(1695, 432)
         Me.BasicIndicator810.Name = "BasicIndicator810"
         Me.BasicIndicator810.OutlineColor = System.Drawing.Color.Transparent
@@ -20797,11 +21444,12 @@ Partial Class CP01
         '
         'BasicIndicator812
         '
-        Me.BasicIndicator812.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator812.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator812.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator812.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator812.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator812.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator812.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator812.Location = New System.Drawing.Point(1803, 412)
         Me.BasicIndicator812.Name = "BasicIndicator812"
         Me.BasicIndicator812.OutlineColor = System.Drawing.Color.Transparent
@@ -20818,11 +21466,12 @@ Partial Class CP01
         '
         'BasicIndicator813
         '
-        Me.BasicIndicator813.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator813.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator813.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator813.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator813.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator813.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator813.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator813.Location = New System.Drawing.Point(1748, 412)
         Me.BasicIndicator813.Name = "BasicIndicator813"
         Me.BasicIndicator813.OutlineColor = System.Drawing.Color.Transparent
@@ -20857,11 +21506,12 @@ Partial Class CP01
         '
         'BasicIndicator814
         '
-        Me.BasicIndicator814.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator814.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator814.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator814.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator814.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator814.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator814.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator814.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator814.Location = New System.Drawing.Point(1693, 412)
         Me.BasicIndicator814.Name = "BasicIndicator814"
         Me.BasicIndicator814.OutlineColor = System.Drawing.Color.Transparent
@@ -20898,11 +21548,12 @@ Partial Class CP01
         '
         'BasicIndicator816
         '
-        Me.BasicIndicator816.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator816.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator816.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator816.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator816.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator816.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator816.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator816.Location = New System.Drawing.Point(1803, 452)
         Me.BasicIndicator816.Name = "BasicIndicator816"
         Me.BasicIndicator816.OutlineColor = System.Drawing.Color.Transparent
@@ -20919,11 +21570,12 @@ Partial Class CP01
         '
         'BasicIndicator817
         '
-        Me.BasicIndicator817.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator817.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator817.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator817.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator817.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator817.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator817.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator817.Location = New System.Drawing.Point(1748, 452)
         Me.BasicIndicator817.Name = "BasicIndicator817"
         Me.BasicIndicator817.OutlineColor = System.Drawing.Color.Transparent
@@ -20958,11 +21610,12 @@ Partial Class CP01
         '
         'BasicIndicator818
         '
-        Me.BasicIndicator818.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator818.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator818.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator818.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator818.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator818.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator818.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator818.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator818.Location = New System.Drawing.Point(1693, 452)
         Me.BasicIndicator818.Name = "BasicIndicator818"
         Me.BasicIndicator818.OutlineColor = System.Drawing.Color.Transparent
@@ -20999,11 +21652,12 @@ Partial Class CP01
         '
         'BasicIndicator820
         '
-        Me.BasicIndicator820.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator820.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator820.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator820.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator820.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator820.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator820.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator820.Location = New System.Drawing.Point(1803, 473)
         Me.BasicIndicator820.Name = "BasicIndicator820"
         Me.BasicIndicator820.OutlineColor = System.Drawing.Color.Transparent
@@ -21020,11 +21674,12 @@ Partial Class CP01
         '
         'BasicIndicator821
         '
-        Me.BasicIndicator821.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator821.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator821.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator821.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator821.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator821.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator821.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator821.Location = New System.Drawing.Point(1748, 473)
         Me.BasicIndicator821.Name = "BasicIndicator821"
         Me.BasicIndicator821.OutlineColor = System.Drawing.Color.Transparent
@@ -21059,11 +21714,12 @@ Partial Class CP01
         '
         'BasicIndicator822
         '
-        Me.BasicIndicator822.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator822.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator822.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator822.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator822.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator822.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator822.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator822.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator822.Location = New System.Drawing.Point(1693, 473)
         Me.BasicIndicator822.Name = "BasicIndicator822"
         Me.BasicIndicator822.OutlineColor = System.Drawing.Color.Transparent
@@ -21100,11 +21756,12 @@ Partial Class CP01
         '
         'BasicIndicator824
         '
-        Me.BasicIndicator824.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator824.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator824.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator824.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator824.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator824.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator824.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator824.Location = New System.Drawing.Point(1807, 513)
         Me.BasicIndicator824.Name = "BasicIndicator824"
         Me.BasicIndicator824.OutlineColor = System.Drawing.Color.Transparent
@@ -21121,11 +21778,12 @@ Partial Class CP01
         '
         'BasicIndicator825
         '
-        Me.BasicIndicator825.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator825.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator825.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator825.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator825.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator825.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator825.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator825.Location = New System.Drawing.Point(1752, 513)
         Me.BasicIndicator825.Name = "BasicIndicator825"
         Me.BasicIndicator825.OutlineColor = System.Drawing.Color.Transparent
@@ -21160,11 +21818,12 @@ Partial Class CP01
         '
         'BasicIndicator826
         '
-        Me.BasicIndicator826.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator826.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator826.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator826.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator826.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator826.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator826.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator826.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator826.Location = New System.Drawing.Point(1697, 513)
         Me.BasicIndicator826.Name = "BasicIndicator826"
         Me.BasicIndicator826.OutlineColor = System.Drawing.Color.Transparent
@@ -21201,11 +21860,12 @@ Partial Class CP01
         '
         'BasicIndicator828
         '
-        Me.BasicIndicator828.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator828.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator828.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator828.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator828.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator828.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator828.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator828.Location = New System.Drawing.Point(1805, 493)
         Me.BasicIndicator828.Name = "BasicIndicator828"
         Me.BasicIndicator828.OutlineColor = System.Drawing.Color.Transparent
@@ -21222,11 +21882,12 @@ Partial Class CP01
         '
         'BasicIndicator829
         '
-        Me.BasicIndicator829.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator829.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator829.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator829.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator829.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator829.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator829.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator829.Location = New System.Drawing.Point(1750, 493)
         Me.BasicIndicator829.Name = "BasicIndicator829"
         Me.BasicIndicator829.OutlineColor = System.Drawing.Color.Transparent
@@ -21261,11 +21922,12 @@ Partial Class CP01
         '
         'BasicIndicator830
         '
-        Me.BasicIndicator830.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator830.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator830.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator830.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator830.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator830.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator830.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator830.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator830.Location = New System.Drawing.Point(1695, 493)
         Me.BasicIndicator830.Name = "BasicIndicator830"
         Me.BasicIndicator830.OutlineColor = System.Drawing.Color.Transparent
@@ -21302,11 +21964,12 @@ Partial Class CP01
         '
         'BasicIndicator832
         '
-        Me.BasicIndicator832.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator832.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator832.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator832.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator832.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator832.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator832.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator832.Location = New System.Drawing.Point(1805, 533)
         Me.BasicIndicator832.Name = "BasicIndicator832"
         Me.BasicIndicator832.OutlineColor = System.Drawing.Color.Transparent
@@ -21323,11 +21986,12 @@ Partial Class CP01
         '
         'BasicIndicator833
         '
-        Me.BasicIndicator833.Color1 = System.Drawing.Color.DarkGray
+        Me.BasicIndicator833.Color1 = System.Drawing.Color.Red
         Me.BasicIndicator833.Color2 = System.Drawing.Color.Green
         Me.BasicIndicator833.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator833.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator833.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator833.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator833.Location = New System.Drawing.Point(1750, 533)
         Me.BasicIndicator833.Name = "BasicIndicator833"
         Me.BasicIndicator833.OutlineColor = System.Drawing.Color.Transparent
@@ -21362,11 +22026,12 @@ Partial Class CP01
         '
         'BasicIndicator834
         '
-        Me.BasicIndicator834.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator834.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator834.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator834.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator834.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator834.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator834.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator834.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator834.Location = New System.Drawing.Point(1695, 533)
         Me.BasicIndicator834.Name = "BasicIndicator834"
         Me.BasicIndicator834.OutlineColor = System.Drawing.Color.Transparent
@@ -21461,11 +22126,12 @@ Partial Class CP01
         '
         'BasicIndicator838
         '
-        Me.BasicIndicator838.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator838.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator838.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator838.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator838.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator838.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator838.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator838.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator838.Location = New System.Drawing.Point(1521, 593)
         Me.BasicIndicator838.Name = "BasicIndicator838"
         Me.BasicIndicator838.OutlineColor = System.Drawing.Color.Transparent
@@ -21487,6 +22153,7 @@ Partial Class CP01
         Me.BasicIndicator839.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator839.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator839.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator839.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator839.Location = New System.Drawing.Point(1566, 593)
         Me.BasicIndicator839.Name = "BasicIndicator839"
         Me.BasicIndicator839.OutlineColor = System.Drawing.Color.Transparent
@@ -21508,6 +22175,7 @@ Partial Class CP01
         Me.BasicIndicator840.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator840.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator840.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator840.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator840.Location = New System.Drawing.Point(1807, 613)
         Me.BasicIndicator840.Name = "BasicIndicator840"
         Me.BasicIndicator840.OutlineColor = System.Drawing.Color.Transparent
@@ -21602,11 +22270,12 @@ Partial Class CP01
         '
         'BasicIndicator844
         '
-        Me.BasicIndicator844.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator844.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator844.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator844.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator844.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator844.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator844.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator844.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator844.Location = New System.Drawing.Point(1762, 613)
         Me.BasicIndicator844.Name = "BasicIndicator844"
         Me.BasicIndicator844.OutlineColor = System.Drawing.Color.Transparent
@@ -21862,6 +22531,7 @@ Partial Class CP01
         Me.BasicIndicator845.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator845.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator845.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator845.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator845.Location = New System.Drawing.Point(1807, 683)
         Me.BasicIndicator845.Name = "BasicIndicator845"
         Me.BasicIndicator845.OutlineColor = System.Drawing.Color.Transparent
@@ -21956,11 +22626,12 @@ Partial Class CP01
         '
         'BasicIndicator858
         '
-        Me.BasicIndicator858.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator858.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator858.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator858.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator858.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator858.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator858.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator858.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator858.Location = New System.Drawing.Point(1762, 683)
         Me.BasicIndicator858.Name = "BasicIndicator858"
         Me.BasicIndicator858.OutlineColor = System.Drawing.Color.Transparent
@@ -21982,6 +22653,7 @@ Partial Class CP01
         Me.BasicIndicator859.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator859.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator859.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator859.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator859.Location = New System.Drawing.Point(1566, 697)
         Me.BasicIndicator859.Name = "BasicIndicator859"
         Me.BasicIndicator859.OutlineColor = System.Drawing.Color.Transparent
@@ -22076,11 +22748,12 @@ Partial Class CP01
         '
         'BasicIndicator863
         '
-        Me.BasicIndicator863.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator863.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator863.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator863.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator863.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator863.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator863.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator863.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator863.Location = New System.Drawing.Point(1521, 697)
         Me.BasicIndicator863.Name = "BasicIndicator863"
         Me.BasicIndicator863.OutlineColor = System.Drawing.Color.Transparent
@@ -22102,6 +22775,7 @@ Partial Class CP01
         Me.BasicIndicator864.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator864.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator864.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator864.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator864.Location = New System.Drawing.Point(1807, 717)
         Me.BasicIndicator864.Name = "BasicIndicator864"
         Me.BasicIndicator864.OutlineColor = System.Drawing.Color.Transparent
@@ -22196,11 +22870,12 @@ Partial Class CP01
         '
         'BasicIndicator868
         '
-        Me.BasicIndicator868.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator868.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator868.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator868.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator868.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator868.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator868.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator868.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator868.Location = New System.Drawing.Point(1762, 717)
         Me.BasicIndicator868.Name = "BasicIndicator868"
         Me.BasicIndicator868.OutlineColor = System.Drawing.Color.Transparent
@@ -22222,6 +22897,7 @@ Partial Class CP01
         Me.BasicIndicator869.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator869.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator869.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator869.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator869.Location = New System.Drawing.Point(1671, 747)
         Me.BasicIndicator869.Name = "BasicIndicator869"
         Me.BasicIndicator869.OutlineColor = System.Drawing.Color.Transparent
@@ -22316,11 +22992,12 @@ Partial Class CP01
         '
         'BasicIndicator873
         '
-        Me.BasicIndicator873.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator873.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator873.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator873.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator873.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator873.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator873.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator873.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator873.Location = New System.Drawing.Point(1626, 747)
         Me.BasicIndicator873.Name = "BasicIndicator873"
         Me.BasicIndicator873.OutlineColor = System.Drawing.Color.Transparent
@@ -22342,6 +23019,7 @@ Partial Class CP01
         Me.BasicIndicator874.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator874.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator874.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator874.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator874.Location = New System.Drawing.Point(1807, 780)
         Me.BasicIndicator874.Name = "BasicIndicator874"
         Me.BasicIndicator874.OutlineColor = System.Drawing.Color.Transparent
@@ -22436,11 +23114,12 @@ Partial Class CP01
         '
         'BasicIndicator878
         '
-        Me.BasicIndicator878.Color1 = System.Drawing.Color.DarkGray
-        Me.BasicIndicator878.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator878.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator878.Color2 = System.Drawing.Color.YellowGreen
         Me.BasicIndicator878.Color3 = System.Drawing.Color.Red
         Me.BasicIndicator878.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator878.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator878.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BasicIndicator878.Location = New System.Drawing.Point(1762, 780)
         Me.BasicIndicator878.Name = "BasicIndicator878"
         Me.BasicIndicator878.OutlineColor = System.Drawing.Color.Transparent
@@ -23316,7 +23995,7 @@ Partial Class CP01
         Me.Controls.Add(Me.BasicIndicator166)
         Me.Controls.Add(Me.BasicIndicator167)
         Me.Controls.Add(Me.BasicIndicator168)
-        Me.Controls.Add(Me.CheckBox3)
+        Me.Controls.Add(Me.MDR0143521)
         Me.Controls.Add(Me.BasicIndicator169)
         Me.Controls.Add(Me.BasicIndicator170)
         Me.Controls.Add(Me.BasicIndicator171)
@@ -23326,7 +24005,7 @@ Partial Class CP01
         Me.Controls.Add(Me.BasicIndicator174)
         Me.Controls.Add(Me.BasicIndicator175)
         Me.Controls.Add(Me.BasicIndicator176)
-        Me.Controls.Add(Me.CheckBox5)
+        Me.Controls.Add(Me.MDR0143411)
         Me.Controls.Add(Me.BasicIndicator177)
         Me.Controls.Add(Me.BasicIndicator199)
         Me.Controls.Add(Me.BasicIndicator200)
@@ -23724,7 +24403,7 @@ Partial Class CP01
     Friend WithEvents BasicIndicator166 As AdvancedHMIControls.BasicIndicator
     Friend WithEvents BasicIndicator167 As AdvancedHMIControls.BasicIndicator
     Friend WithEvents BasicIndicator168 As AdvancedHMIControls.BasicIndicator
-    Friend WithEvents CheckBox3 As AdvancedHMIControls.CheckBox
+    Friend WithEvents MDR0143521 As AdvancedHMIControls.CheckBox
     Friend WithEvents BasicIndicator169 As AdvancedHMIControls.BasicIndicator
     Friend WithEvents BasicIndicator170 As AdvancedHMIControls.BasicIndicator
     Friend WithEvents BasicIndicator171 As AdvancedHMIControls.BasicIndicator
@@ -23734,7 +24413,7 @@ Partial Class CP01
     Friend WithEvents BasicIndicator174 As AdvancedHMIControls.BasicIndicator
     Friend WithEvents BasicIndicator175 As AdvancedHMIControls.BasicIndicator
     Friend WithEvents BasicIndicator176 As AdvancedHMIControls.BasicIndicator
-    Friend WithEvents CheckBox5 As AdvancedHMIControls.CheckBox
+    Friend WithEvents MDR0143411 As AdvancedHMIControls.CheckBox
     Friend WithEvents BasicIndicator177 As AdvancedHMIControls.BasicIndicator
     Friend WithEvents BasicIndicator178 As AdvancedHMIControls.BasicIndicator
     Friend WithEvents BasicIndicator179 As AdvancedHMIControls.BasicIndicator
