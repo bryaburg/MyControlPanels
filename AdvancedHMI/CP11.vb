@@ -35,11 +35,13 @@
 
     End Sub
 
-    Private Sub OkToFeed_Click(sender As Object, e As EventArgs) Handles OkToFeed.Click
-        If OkToFeed.SelectColor2 = True Then
-            OkToFeed.Text = "FEED"
-        Else
-            OkToFeed.Text = "NOT OK"
-        End If
+    'Handles GRS Text Change!
+    Private Sub OkToFeed1_TextChanged(sender As Object, e As EventArgs) Handles OkToFeed1.TextChanged
+        OkToFeed1.Text = "FEED"
     End Sub
+
+    Private Sub OkToFeed_TextChanged(sender As Object, e As EventArgs) Handles OkToFeed.TextChanged
+        OkToFeed.Text = "FEED"
+    End Sub
+
 End Class
