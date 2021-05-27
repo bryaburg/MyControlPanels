@@ -1,7 +1,8 @@
 ﻿Public Class CP11
     Private Sub CP11_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        MessageBox.Show("THIS PAGE IS UNDER CONSTRUCTION!!", "WARNING!!", MessageBoxButtons.OK)
-        If MessageBoxButtons.OK = 0 Then
+        Dim mBox As VariantType
+        mBox = MsgBox("THIS PAGE IS UNDER CONSTRUCTION!!", vbYesNo, "WARNING!!")
+        If mBox = vbYes Then
             Me.Show()
         Else
             Me.Close()
@@ -35,13 +36,92 @@
 
     End Sub
 
-    'Handles GRS Text Change!
-    Private Sub OkToFeed1_TextChanged(sender As Object, e As EventArgs) Handles OkToFeed1.TextChanged
-        OkToFeed1.Text = "FEED"
+    'Handles All Text Change!
+    Private Sub OkToFeedDS_DataChanged(sender As Object, e As Drivers.Common.PlcComEventArgs) Handles OkToFeedDS.DataChanged
+        If e.Values(0) = True Then
+            OkToFeed.Text = "FEED!"
+        Else
+            OkToFeed.Text = "NOT OK"
+        End If
     End Sub
 
-    Private Sub OkToFeed_TextChanged(sender As Object, e As EventArgs) Handles OkToFeed.TextChanged
-        OkToFeed.Text = "FEED"
+    Private Sub OkToFeed1DS_DataChanged(sender As Object, e As Drivers.Common.PlcComEventArgs) Handles OkToFeed1DS.DataChanged
+        If e.Values(0) = True Then
+            OkToFeed1.Text = "FEED!"
+        Else
+            OkToFeed1.Text = "NOT OK"
+        End If
     End Sub
 
+    Private Sub ArReadyToReceive11010_DataChanged(sender As Object, e As Drivers.Common.PlcComEventArgs) Handles ArReadyToReceive11010.DataChanged
+        If e.Values(0) = True Then
+            AR11010.Text = "READY"
+        Else
+            AR11010.Text = "NOT OK"
+        End If
+    End Sub
+
+    Private Sub ArReadyToReceive11020_DataChanged(sender As Object, e As Drivers.Common.PlcComEventArgs) Handles ArReadyToReceive11020.DataChanged
+        If e.Values(0) = True Then
+            AR11020.Text = "READY"
+        Else
+            AR11020.Text = "NOT OK"
+        End If
+    End Sub
+
+    Private Sub ArReadyToReceive11030_DataChanged(sender As Object, e As Drivers.Common.PlcComEventArgs) Handles ArReadyToReceive11030.DataChanged
+        If e.Values(0) = True Then
+            AR11030.Text = "READY"
+        Else
+            AR11030.Text = "NOT OK"
+        End If
+    End Sub
+
+    Private Sub ArReadyToReceive11040_DataChanged(sender As Object, e As Drivers.Common.PlcComEventArgs) Handles ArReadyToReceive11040.DataChanged
+        If e.Values(0) = True Then
+            AR11040.Text = "READY"
+        Else
+            AR11040.Text = "NOT OK"
+        End If
+    End Sub
+
+    Private Sub ArReadyToReceive11060_DataChanged(sender As Object, e As Drivers.Common.PlcComEventArgs) Handles ArReadyToReceive11060.DataChanged
+        If e.Values(0) = True Then
+            AR11060.Text = "READY"
+        Else
+            AR11060.Text = "NOT OK"
+        End If
+    End Sub
+
+    Private Sub ArReadyToReceive11070_DataChanged(sender As Object, e As Drivers.Common.PlcComEventArgs) Handles ArReadyToReceive11070.DataChanged
+        If e.Values(0) = True Then
+            AR11070.Text = "READY"
+        Else
+            AR11070.Text = "NOT OK"
+        End If
+    End Sub
+
+    Private Sub ArReadyToReceive11080_DataChanged(sender As Object, e As Drivers.Common.PlcComEventArgs) Handles ArReadyToReceive11080.DataChanged
+        If e.Values(0) = True Then
+            AR11080.Text = "READY"
+        Else
+            AR11080.Text = "NOT OK"
+        End If
+    End Sub
+
+    Private Sub ArReadyToReceive11090_DataChanged(sender As Object, e As Drivers.Common.PlcComEventArgs) Handles ArReadyToReceive11090.DataChanged
+        If e.Values(0) = True Then
+            AR11090.Text = "READY"
+        Else
+            AR11090.Text = "NOT OK"
+        End If
+    End Sub
+
+    Private Sub ArReadyToReceive11100_DataChanged(sender As Object, e As Drivers.Common.PlcComEventArgs) Handles ArReadyToReceive11100.DataChanged
+        If e.Values(0) = True Then
+            AR11100.Text = "READY"
+        Else
+            AR11100.Text = "NOT OK"
+        End If
+    End Sub
 End Class

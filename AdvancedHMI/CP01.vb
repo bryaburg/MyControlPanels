@@ -1,7 +1,13 @@
 ﻿Public Class CP01
 
     Private Sub CP01_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
+        Dim mBox As VariantType
+        mBox = MsgBox("THIS PAGE IS UNDER CONSTRUCTION!!", vbYesNo, "WARNING!!")
+        If mBox = vbYes Then
+            Me.Show()
+        Else
+            Me.Close()
+        End If
     End Sub
 
     'Handles Closing CP01

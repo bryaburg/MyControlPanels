@@ -2,8 +2,9 @@
 
     'Handles Loading CP02 Form!
     Private Sub CP02_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        MessageBox.Show("THIS PAGE IS UNDER CONSTRUCTION!!", "WARNING!!", MessageBoxButtons.OK)
-        If MessageBoxButtons.OK = 0 Then
+        Dim mBox As VariantType
+        mBox = MsgBox("THIS PAGE IS UNDER CONSTRUCTION!!", vbYesNo, "WARNING!!")
+        If mBox = vbYes Then
             Me.Show()
         Else
             Me.Close()
