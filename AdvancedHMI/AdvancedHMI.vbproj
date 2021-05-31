@@ -131,6 +131,12 @@
     <Compile Include="CP11.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="CP11p2.Designer.vb">
+      <DependentUpon>CP11p2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CP11p2.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="CP12.Designer.vb">
       <DependentUpon>CP12.vb</DependentUpon>
     </Compile>
@@ -483,6 +489,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="CP11.resx">
       <DependentUpon>CP11.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CP11p2.resx">
+      <DependentUpon>CP11p2.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CP12.resx">
       <DependentUpon>CP12.vb</DependentUpon>

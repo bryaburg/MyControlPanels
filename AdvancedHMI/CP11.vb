@@ -1,4 +1,5 @@
 ﻿Public Class CP11
+    'Handles My Load Events!
     Private Sub CP11_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Dim mBox As VariantType
         mBox = MsgBox("THIS PAGE IS UNDER CONSTRUCTION!!", vbYesNo, "WARNING!!")
@@ -9,10 +10,12 @@
         End If
     End Sub
 
+    'Handles Closing Form!
     Private Sub CP11_Close_Click(sender As Object, e As EventArgs) Handles CP11_Close.Click
         Me.Close()
     End Sub
 
+    'Handles Legend!
     Private Sub btnLegend_Click(sender As Object, e As EventArgs) Handles btnLegend.Click
 
         MessageBox.Show("JAM = Conveyor is Jammed!" & vbCrLf &
@@ -32,7 +35,14 @@
                         "Gold Box = Specific PhotoEye is Clear." & vbCrLf &
                         "Black Box = Specific PhotoEye is Blocked." & vbCrLf &
                         "MDR's PhotoEyes Are Gold When Product is Present!" & vbCrLf &
-                        "MDR's That Have E-STOP = Green is Good!!", "Conveyor Box Legend", MessageBoxButtons.OKCancel)
+                        "MDR's That Have E-STOP = Green is Good!!" & vbCrLf &
+                        "V.N.F.D = VFD Not Running Fault!" & vbCrLf &
+                        "M.S.D = Missing Slat Detected!" & vbCrLf &
+                        "O.L.W = Chain Overlength Warning!" & vbCrLf &
+                        "VFD-F = VFD Faulted!" & vbCrLf &
+                        "BR-CH = Broken Chain!" & vbCrLf &
+                        "P.R.R = Panel Reset Required" & vbCrLf &
+                        "PROD or FIRE = The Product Detect eye and the Firedoor PhotoEyes", "Conveyor Box Legend", MessageBoxButtons.OKCancel)
 
     End Sub
 
@@ -123,5 +133,10 @@
         Else
             AR11100.Text = "NOT OK"
         End If
+    End Sub
+
+    'Handles Opening Page 2!
+    Private Sub CP_11_2_Open_Click(sender As Object, e As EventArgs) Handles CP_11_2_Open.Click
+        CP11p2.Show()
     End Sub
 End Class

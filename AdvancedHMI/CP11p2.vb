@@ -1,19 +1,17 @@
-﻿Public Class CP02
+﻿Public Class CP11p2
 
-    'Handles Loading CP02 Form!
-    Private Sub CP02_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        Dim mBox As VariantType
-        mBox = MsgBox("THIS PAGE IS UNDER CONSTRUCTION!!", vbYesNo, "WARNING!!")
-        If mBox = vbYes Then
-            Me.Show()
-        Else
-            Me.Close()
-        End If
+    'Handles Loading the Form
+    Private Sub CP11p2_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
     End Sub
 
-    'Handles opening the Legend!
-    Private Sub btnLegend_Click(sender As Object, e As EventArgs) Handles btnLegend.Click
+    'Handles Closing Form!
+    Private Sub CP11_2_Close_Click(sender As Object, e As EventArgs) Handles CP11_2_Close.Click
+        Me.Close()
+    End Sub
 
+    'Handles The Legend!
+    Private Sub btnLegend_Click(sender As Object, e As EventArgs) Handles btnLegend.Click
         MessageBox.Show("JAM = Conveyor is Jammed!" & vbCrLf &
                         "JAM 2 = Downstream Jam!" & vbCrLf &
                         "RUN = Conveyor is Running!" & vbCrLf &
@@ -39,12 +37,5 @@
                         "BR-CH = Broken Chain!" & vbCrLf &
                         "P.R.R = Panel Reset Required" & vbCrLf &
                         "PROD or FIRE = The Product Detect eye and the Firedoor PhotoEyes", "Conveyor Box Legend", MessageBoxButtons.OKCancel)
-
     End Sub
-
-    'Handles Closing CP02!
-    Private Sub CP02_Close_Click(sender As Object, e As EventArgs) Handles CP02_Close.Click
-        Me.Close()
-    End Sub
-
 End Class
