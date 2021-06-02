@@ -125,5 +125,4 @@
             AR12100.Text = "NOT OK"
         End If
     End Sub
-
 End Class
