@@ -746,7 +746,7 @@ Partial Class CP12
         Me.CheckBox125 = New AdvancedHMIControls.CheckBox()
         Me.BasicIndicator1198 = New AdvancedHMIControls.BasicIndicator()
         Me.BasicIndicator20 = New AdvancedHMIControls.BasicIndicator()
-        Me.BasicIndicator21 = New AdvancedHMIControls.BasicIndicator()
+        Me.AR12100 = New AdvancedHMIControls.BasicIndicator()
         Me.BasicIndicator22 = New AdvancedHMIControls.BasicIndicator()
         Me.BasicIndicator23 = New AdvancedHMIControls.BasicIndicator()
         Me.BasicIndicator44 = New AdvancedHMIControls.BasicIndicator()
@@ -754,7 +754,7 @@ Partial Class CP12
         Me.CheckBox1 = New AdvancedHMIControls.CheckBox()
         Me.BasicIndicator46 = New AdvancedHMIControls.BasicIndicator()
         Me.BasicIndicator47 = New AdvancedHMIControls.BasicIndicator()
-        Me.BasicIndicator48 = New AdvancedHMIControls.BasicIndicator()
+        Me.AR12090 = New AdvancedHMIControls.BasicIndicator()
         Me.BasicIndicator49 = New AdvancedHMIControls.BasicIndicator()
         Me.BasicIndicator50 = New AdvancedHMIControls.BasicIndicator()
         Me.BasicIndicator51 = New AdvancedHMIControls.BasicIndicator()
@@ -762,7 +762,7 @@ Partial Class CP12
         Me.CheckBox2 = New AdvancedHMIControls.CheckBox()
         Me.BasicIndicator53 = New AdvancedHMIControls.BasicIndicator()
         Me.BasicIndicator54 = New AdvancedHMIControls.BasicIndicator()
-        Me.BasicIndicator55 = New AdvancedHMIControls.BasicIndicator()
+        Me.AR12080 = New AdvancedHMIControls.BasicIndicator()
         Me.BasicIndicator56 = New AdvancedHMIControls.BasicIndicator()
         Me.BasicIndicator57 = New AdvancedHMIControls.BasicIndicator()
         Me.BasicIndicator58 = New AdvancedHMIControls.BasicIndicator()
@@ -890,7 +890,7 @@ Partial Class CP12
         Me.CheckBox149 = New AdvancedHMIControls.CheckBox()
         Me.BasicIndicator169 = New AdvancedHMIControls.BasicIndicator()
         Me.BasicIndicator170 = New AdvancedHMIControls.BasicIndicator()
-        Me.BasicIndicator171 = New AdvancedHMIControls.BasicIndicator()
+        Me.AR12070 = New AdvancedHMIControls.BasicIndicator()
         Me.BasicIndicator172 = New AdvancedHMIControls.BasicIndicator()
         Me.BasicIndicator173 = New AdvancedHMIControls.BasicIndicator()
         Me.BasicIndicator174 = New AdvancedHMIControls.BasicIndicator()
@@ -898,7 +898,7 @@ Partial Class CP12
         Me.CheckBox150 = New AdvancedHMIControls.CheckBox()
         Me.BasicIndicator176 = New AdvancedHMIControls.BasicIndicator()
         Me.BasicIndicator177 = New AdvancedHMIControls.BasicIndicator()
-        Me.BasicIndicator178 = New AdvancedHMIControls.BasicIndicator()
+        Me.AR12060 = New AdvancedHMIControls.BasicIndicator()
         Me.BasicIndicator179 = New AdvancedHMIControls.BasicIndicator()
         Me.BasicIndicator180 = New AdvancedHMIControls.BasicIndicator()
         Me.BasicIndicator181 = New AdvancedHMIControls.BasicIndicator()
@@ -906,7 +906,7 @@ Partial Class CP12
         Me.CheckBox151 = New AdvancedHMIControls.CheckBox()
         Me.BasicIndicator183 = New AdvancedHMIControls.BasicIndicator()
         Me.BasicIndicator184 = New AdvancedHMIControls.BasicIndicator()
-        Me.BasicIndicator185 = New AdvancedHMIControls.BasicIndicator()
+        Me.AR12040 = New AdvancedHMIControls.BasicIndicator()
         Me.BasicIndicator186 = New AdvancedHMIControls.BasicIndicator()
         Me.BasicIndicator187 = New AdvancedHMIControls.BasicIndicator()
         Me.BasicIndicator188 = New AdvancedHMIControls.BasicIndicator()
@@ -914,7 +914,7 @@ Partial Class CP12
         Me.CheckBox152 = New AdvancedHMIControls.CheckBox()
         Me.BasicIndicator190 = New AdvancedHMIControls.BasicIndicator()
         Me.BasicIndicator191 = New AdvancedHMIControls.BasicIndicator()
-        Me.BasicIndicator192 = New AdvancedHMIControls.BasicIndicator()
+        Me.AR12030 = New AdvancedHMIControls.BasicIndicator()
         Me.BasicIndicator193 = New AdvancedHMIControls.BasicIndicator()
         Me.BasicIndicator194 = New AdvancedHMIControls.BasicIndicator()
         Me.BasicIndicator195 = New AdvancedHMIControls.BasicIndicator()
@@ -942,7 +942,7 @@ Partial Class CP12
         Me.CheckBox157 = New AdvancedHMIControls.CheckBox()
         Me.BasicIndicator635 = New AdvancedHMIControls.BasicIndicator()
         Me.BasicIndicator914 = New AdvancedHMIControls.BasicIndicator()
-        Me.BasicIndicator915 = New AdvancedHMIControls.BasicIndicator()
+        Me.AR12020 = New AdvancedHMIControls.BasicIndicator()
         Me.BasicIndicator916 = New AdvancedHMIControls.BasicIndicator()
         Me.BasicIndicator917 = New AdvancedHMIControls.BasicIndicator()
         Me.BasicIndicator926 = New AdvancedHMIControls.BasicIndicator()
@@ -970,7 +970,7 @@ Partial Class CP12
         Me.CheckBox162 = New AdvancedHMIControls.CheckBox()
         Me.BasicIndicator944 = New AdvancedHMIControls.BasicIndicator()
         Me.BasicIndicator945 = New AdvancedHMIControls.BasicIndicator()
-        Me.BasicIndicator946 = New AdvancedHMIControls.BasicIndicator()
+        Me.AR12010 = New AdvancedHMIControls.BasicIndicator()
         Me.BasicIndicator947 = New AdvancedHMIControls.BasicIndicator()
         Me.BasicIndicator948 = New AdvancedHMIControls.BasicIndicator()
         Me.BasicIndicator949 = New AdvancedHMIControls.BasicIndicator()
@@ -1014,7 +1014,7 @@ Partial Class CP12
         Me.BasicIndicator1221 = New AdvancedHMIControls.BasicIndicator()
         Me.CheckBox170 = New AdvancedHMIControls.CheckBox()
         Me.BasicIndicator1222 = New AdvancedHMIControls.BasicIndicator()
-        Me.BasicIndicator1223 = New AdvancedHMIControls.BasicIndicator()
+        Me.OkToFeed1 = New AdvancedHMIControls.BasicIndicator()
         Me.BasicIndicator1224 = New AdvancedHMIControls.BasicIndicator()
         Me.BasicIndicator1225 = New AdvancedHMIControls.BasicIndicator()
         Me.BasicIndicator1226 = New AdvancedHMIControls.BasicIndicator()
@@ -16289,25 +16289,25 @@ Partial Class CP12
         Me.BasicIndicator20.TabIndex = 8658
         Me.BasicIndicator20.Text = "SP-AV"
         '
-        'BasicIndicator21
+        'AR12100
         '
-        Me.BasicIndicator21.Color1 = System.Drawing.Color.Red
-        Me.BasicIndicator21.Color2 = System.Drawing.Color.YellowGreen
-        Me.BasicIndicator21.Color3 = System.Drawing.Color.Red
-        Me.BasicIndicator21.ComComponent = Me.EthernetIPforCLXCom1
-        Me.BasicIndicator21.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BasicIndicator21.Location = New System.Drawing.Point(172, 678)
-        Me.BasicIndicator21.Name = "BasicIndicator21"
-        Me.BasicIndicator21.OutlineColor = System.Drawing.Color.Transparent
-        Me.BasicIndicator21.OutlineWidth = 1
-        Me.BasicIndicator21.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
-        Me.BasicIndicator21.PLCAddressSelectColor2 = "ARSAW12100_AOI.TO_ARSAW_READY_TO_RECIEVE"
-        Me.BasicIndicator21.SelectColor2 = False
-        Me.BasicIndicator21.SelectColor3 = False
-        Me.BasicIndicator21.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
-        Me.BasicIndicator21.Size = New System.Drawing.Size(45, 14)
-        Me.BasicIndicator21.TabIndex = 8657
-        Me.BasicIndicator21.Text = "READY"
+        Me.AR12100.Color1 = System.Drawing.Color.Red
+        Me.AR12100.Color2 = System.Drawing.Color.YellowGreen
+        Me.AR12100.Color3 = System.Drawing.Color.Red
+        Me.AR12100.ComComponent = Me.EthernetIPforCLXCom1
+        Me.AR12100.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.AR12100.Location = New System.Drawing.Point(172, 678)
+        Me.AR12100.Name = "AR12100"
+        Me.AR12100.OutlineColor = System.Drawing.Color.Transparent
+        Me.AR12100.OutlineWidth = 1
+        Me.AR12100.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.AR12100.PLCAddressSelectColor2 = "ARSAW12100_AOI.TO_ARSAW_READY_TO_RECIEVE"
+        Me.AR12100.SelectColor2 = False
+        Me.AR12100.SelectColor3 = False
+        Me.AR12100.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.AR12100.Size = New System.Drawing.Size(45, 14)
+        Me.AR12100.TabIndex = 8657
+        Me.AR12100.Text = "READY"
         '
         'BasicIndicator22
         '
@@ -16453,25 +16453,25 @@ Partial Class CP12
         Me.BasicIndicator47.TabIndex = 8650
         Me.BasicIndicator47.Text = "SP-AV"
         '
-        'BasicIndicator48
+        'AR12090
         '
-        Me.BasicIndicator48.Color1 = System.Drawing.Color.Red
-        Me.BasicIndicator48.Color2 = System.Drawing.Color.YellowGreen
-        Me.BasicIndicator48.Color3 = System.Drawing.Color.Red
-        Me.BasicIndicator48.ComComponent = Me.EthernetIPforCLXCom1
-        Me.BasicIndicator48.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BasicIndicator48.Location = New System.Drawing.Point(172, 659)
-        Me.BasicIndicator48.Name = "BasicIndicator48"
-        Me.BasicIndicator48.OutlineColor = System.Drawing.Color.Transparent
-        Me.BasicIndicator48.OutlineWidth = 1
-        Me.BasicIndicator48.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
-        Me.BasicIndicator48.PLCAddressSelectColor2 = "ARSAW12090_AOI.TO_ARSAW_READY_TO_RECIEVE"
-        Me.BasicIndicator48.SelectColor2 = False
-        Me.BasicIndicator48.SelectColor3 = False
-        Me.BasicIndicator48.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
-        Me.BasicIndicator48.Size = New System.Drawing.Size(45, 14)
-        Me.BasicIndicator48.TabIndex = 8649
-        Me.BasicIndicator48.Text = "READY"
+        Me.AR12090.Color1 = System.Drawing.Color.Red
+        Me.AR12090.Color2 = System.Drawing.Color.YellowGreen
+        Me.AR12090.Color3 = System.Drawing.Color.Red
+        Me.AR12090.ComComponent = Me.EthernetIPforCLXCom1
+        Me.AR12090.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.AR12090.Location = New System.Drawing.Point(172, 659)
+        Me.AR12090.Name = "AR12090"
+        Me.AR12090.OutlineColor = System.Drawing.Color.Transparent
+        Me.AR12090.OutlineWidth = 1
+        Me.AR12090.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.AR12090.PLCAddressSelectColor2 = "ARSAW12090_AOI.TO_ARSAW_READY_TO_RECIEVE"
+        Me.AR12090.SelectColor2 = False
+        Me.AR12090.SelectColor3 = False
+        Me.AR12090.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.AR12090.Size = New System.Drawing.Size(45, 14)
+        Me.AR12090.TabIndex = 8649
+        Me.AR12090.Text = "READY"
         '
         'BasicIndicator49
         '
@@ -16617,25 +16617,25 @@ Partial Class CP12
         Me.BasicIndicator54.TabIndex = 8642
         Me.BasicIndicator54.Text = "SP-AV"
         '
-        'BasicIndicator55
+        'AR12080
         '
-        Me.BasicIndicator55.Color1 = System.Drawing.Color.Red
-        Me.BasicIndicator55.Color2 = System.Drawing.Color.YellowGreen
-        Me.BasicIndicator55.Color3 = System.Drawing.Color.Red
-        Me.BasicIndicator55.ComComponent = Me.EthernetIPforCLXCom1
-        Me.BasicIndicator55.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BasicIndicator55.Location = New System.Drawing.Point(172, 639)
-        Me.BasicIndicator55.Name = "BasicIndicator55"
-        Me.BasicIndicator55.OutlineColor = System.Drawing.Color.Transparent
-        Me.BasicIndicator55.OutlineWidth = 1
-        Me.BasicIndicator55.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
-        Me.BasicIndicator55.PLCAddressSelectColor2 = "ARSAW12080_AOI.TO_ARSAW_READY_TO_RECIEVE"
-        Me.BasicIndicator55.SelectColor2 = False
-        Me.BasicIndicator55.SelectColor3 = False
-        Me.BasicIndicator55.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
-        Me.BasicIndicator55.Size = New System.Drawing.Size(45, 14)
-        Me.BasicIndicator55.TabIndex = 8641
-        Me.BasicIndicator55.Text = "READY"
+        Me.AR12080.Color1 = System.Drawing.Color.Red
+        Me.AR12080.Color2 = System.Drawing.Color.YellowGreen
+        Me.AR12080.Color3 = System.Drawing.Color.Red
+        Me.AR12080.ComComponent = Me.EthernetIPforCLXCom1
+        Me.AR12080.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.AR12080.Location = New System.Drawing.Point(172, 639)
+        Me.AR12080.Name = "AR12080"
+        Me.AR12080.OutlineColor = System.Drawing.Color.Transparent
+        Me.AR12080.OutlineWidth = 1
+        Me.AR12080.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.AR12080.PLCAddressSelectColor2 = "ARSAW12080_AOI.TO_ARSAW_READY_TO_RECIEVE"
+        Me.AR12080.SelectColor2 = False
+        Me.AR12080.SelectColor3 = False
+        Me.AR12080.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.AR12080.Size = New System.Drawing.Size(45, 14)
+        Me.AR12080.TabIndex = 8641
+        Me.AR12080.Text = "READY"
         '
         'BasicIndicator56
         '
@@ -19301,25 +19301,25 @@ Partial Class CP12
         Me.BasicIndicator170.TabIndex = 8514
         Me.BasicIndicator170.Text = "SP-AV"
         '
-        'BasicIndicator171
+        'AR12070
         '
-        Me.BasicIndicator171.Color1 = System.Drawing.Color.Red
-        Me.BasicIndicator171.Color2 = System.Drawing.Color.YellowGreen
-        Me.BasicIndicator171.Color3 = System.Drawing.Color.Red
-        Me.BasicIndicator171.ComComponent = Me.EthernetIPforCLXCom1
-        Me.BasicIndicator171.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BasicIndicator171.Location = New System.Drawing.Point(172, 463)
-        Me.BasicIndicator171.Name = "BasicIndicator171"
-        Me.BasicIndicator171.OutlineColor = System.Drawing.Color.Transparent
-        Me.BasicIndicator171.OutlineWidth = 1
-        Me.BasicIndicator171.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
-        Me.BasicIndicator171.PLCAddressSelectColor2 = "ARSAW12070_AOI.TO_ARSAW_READY_TO_RECIEVE"
-        Me.BasicIndicator171.SelectColor2 = False
-        Me.BasicIndicator171.SelectColor3 = False
-        Me.BasicIndicator171.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
-        Me.BasicIndicator171.Size = New System.Drawing.Size(45, 14)
-        Me.BasicIndicator171.TabIndex = 8513
-        Me.BasicIndicator171.Text = "READY"
+        Me.AR12070.Color1 = System.Drawing.Color.Red
+        Me.AR12070.Color2 = System.Drawing.Color.YellowGreen
+        Me.AR12070.Color3 = System.Drawing.Color.Red
+        Me.AR12070.ComComponent = Me.EthernetIPforCLXCom1
+        Me.AR12070.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.AR12070.Location = New System.Drawing.Point(172, 463)
+        Me.AR12070.Name = "AR12070"
+        Me.AR12070.OutlineColor = System.Drawing.Color.Transparent
+        Me.AR12070.OutlineWidth = 1
+        Me.AR12070.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.AR12070.PLCAddressSelectColor2 = "ARSAW12070_AOI.TO_ARSAW_READY_TO_RECIEVE"
+        Me.AR12070.SelectColor2 = False
+        Me.AR12070.SelectColor3 = False
+        Me.AR12070.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.AR12070.Size = New System.Drawing.Size(45, 14)
+        Me.AR12070.TabIndex = 8513
+        Me.AR12070.Text = "READY"
         '
         'BasicIndicator172
         '
@@ -19465,25 +19465,25 @@ Partial Class CP12
         Me.BasicIndicator177.TabIndex = 8506
         Me.BasicIndicator177.Text = "SP-AV"
         '
-        'BasicIndicator178
+        'AR12060
         '
-        Me.BasicIndicator178.Color1 = System.Drawing.Color.Red
-        Me.BasicIndicator178.Color2 = System.Drawing.Color.YellowGreen
-        Me.BasicIndicator178.Color3 = System.Drawing.Color.Red
-        Me.BasicIndicator178.ComComponent = Me.EthernetIPforCLXCom1
-        Me.BasicIndicator178.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BasicIndicator178.Location = New System.Drawing.Point(172, 444)
-        Me.BasicIndicator178.Name = "BasicIndicator178"
-        Me.BasicIndicator178.OutlineColor = System.Drawing.Color.Transparent
-        Me.BasicIndicator178.OutlineWidth = 1
-        Me.BasicIndicator178.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
-        Me.BasicIndicator178.PLCAddressSelectColor2 = "ARSAW12060_AOI.TO_ARSAW_READY_TO_RECIEVE"
-        Me.BasicIndicator178.SelectColor2 = False
-        Me.BasicIndicator178.SelectColor3 = False
-        Me.BasicIndicator178.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
-        Me.BasicIndicator178.Size = New System.Drawing.Size(45, 14)
-        Me.BasicIndicator178.TabIndex = 8505
-        Me.BasicIndicator178.Text = "READY"
+        Me.AR12060.Color1 = System.Drawing.Color.Red
+        Me.AR12060.Color2 = System.Drawing.Color.YellowGreen
+        Me.AR12060.Color3 = System.Drawing.Color.Red
+        Me.AR12060.ComComponent = Me.EthernetIPforCLXCom1
+        Me.AR12060.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.AR12060.Location = New System.Drawing.Point(172, 444)
+        Me.AR12060.Name = "AR12060"
+        Me.AR12060.OutlineColor = System.Drawing.Color.Transparent
+        Me.AR12060.OutlineWidth = 1
+        Me.AR12060.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.AR12060.PLCAddressSelectColor2 = "ARSAW12060_AOI.TO_ARSAW_READY_TO_RECIEVE"
+        Me.AR12060.SelectColor2 = False
+        Me.AR12060.SelectColor3 = False
+        Me.AR12060.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.AR12060.Size = New System.Drawing.Size(45, 14)
+        Me.AR12060.TabIndex = 8505
+        Me.AR12060.Text = "READY"
         '
         'BasicIndicator179
         '
@@ -19629,25 +19629,25 @@ Partial Class CP12
         Me.BasicIndicator184.TabIndex = 8498
         Me.BasicIndicator184.Text = "SP-AV"
         '
-        'BasicIndicator185
+        'AR12040
         '
-        Me.BasicIndicator185.Color1 = System.Drawing.Color.Red
-        Me.BasicIndicator185.Color2 = System.Drawing.Color.YellowGreen
-        Me.BasicIndicator185.Color3 = System.Drawing.Color.Red
-        Me.BasicIndicator185.ComComponent = Me.EthernetIPforCLXCom1
-        Me.BasicIndicator185.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BasicIndicator185.Location = New System.Drawing.Point(172, 424)
-        Me.BasicIndicator185.Name = "BasicIndicator185"
-        Me.BasicIndicator185.OutlineColor = System.Drawing.Color.Transparent
-        Me.BasicIndicator185.OutlineWidth = 1
-        Me.BasicIndicator185.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
-        Me.BasicIndicator185.PLCAddressSelectColor2 = "ARSAW12040_AND_LINE12845_AOI.TO_ARSAW_READY_TO_RECIEVE"
-        Me.BasicIndicator185.SelectColor2 = False
-        Me.BasicIndicator185.SelectColor3 = False
-        Me.BasicIndicator185.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
-        Me.BasicIndicator185.Size = New System.Drawing.Size(45, 14)
-        Me.BasicIndicator185.TabIndex = 8497
-        Me.BasicIndicator185.Text = "READY"
+        Me.AR12040.Color1 = System.Drawing.Color.Red
+        Me.AR12040.Color2 = System.Drawing.Color.YellowGreen
+        Me.AR12040.Color3 = System.Drawing.Color.Red
+        Me.AR12040.ComComponent = Me.EthernetIPforCLXCom1
+        Me.AR12040.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.AR12040.Location = New System.Drawing.Point(172, 424)
+        Me.AR12040.Name = "AR12040"
+        Me.AR12040.OutlineColor = System.Drawing.Color.Transparent
+        Me.AR12040.OutlineWidth = 1
+        Me.AR12040.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.AR12040.PLCAddressSelectColor2 = "ARSAW12040_AND_LINE12845_AOI.TO_ARSAW_READY_TO_RECIEVE"
+        Me.AR12040.SelectColor2 = False
+        Me.AR12040.SelectColor3 = False
+        Me.AR12040.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.AR12040.Size = New System.Drawing.Size(45, 14)
+        Me.AR12040.TabIndex = 8497
+        Me.AR12040.Text = "READY"
         '
         'BasicIndicator186
         '
@@ -19793,25 +19793,25 @@ Partial Class CP12
         Me.BasicIndicator191.TabIndex = 8490
         Me.BasicIndicator191.Text = "SP-AV"
         '
-        'BasicIndicator192
+        'AR12030
         '
-        Me.BasicIndicator192.Color1 = System.Drawing.Color.Red
-        Me.BasicIndicator192.Color2 = System.Drawing.Color.YellowGreen
-        Me.BasicIndicator192.Color3 = System.Drawing.Color.Red
-        Me.BasicIndicator192.ComComponent = Me.EthernetIPforCLXCom1
-        Me.BasicIndicator192.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BasicIndicator192.Location = New System.Drawing.Point(172, 404)
-        Me.BasicIndicator192.Name = "BasicIndicator192"
-        Me.BasicIndicator192.OutlineColor = System.Drawing.Color.Transparent
-        Me.BasicIndicator192.OutlineWidth = 1
-        Me.BasicIndicator192.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
-        Me.BasicIndicator192.PLCAddressSelectColor2 = "ARSAW12030_AOI.TO_ARSAW_READY_TO_RECIEVE"
-        Me.BasicIndicator192.SelectColor2 = False
-        Me.BasicIndicator192.SelectColor3 = False
-        Me.BasicIndicator192.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
-        Me.BasicIndicator192.Size = New System.Drawing.Size(45, 14)
-        Me.BasicIndicator192.TabIndex = 8489
-        Me.BasicIndicator192.Text = "READY"
+        Me.AR12030.Color1 = System.Drawing.Color.Red
+        Me.AR12030.Color2 = System.Drawing.Color.YellowGreen
+        Me.AR12030.Color3 = System.Drawing.Color.Red
+        Me.AR12030.ComComponent = Me.EthernetIPforCLXCom1
+        Me.AR12030.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.AR12030.Location = New System.Drawing.Point(172, 404)
+        Me.AR12030.Name = "AR12030"
+        Me.AR12030.OutlineColor = System.Drawing.Color.Transparent
+        Me.AR12030.OutlineWidth = 1
+        Me.AR12030.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.AR12030.PLCAddressSelectColor2 = "ARSAW12030_AOI.TO_ARSAW_READY_TO_RECIEVE"
+        Me.AR12030.SelectColor2 = False
+        Me.AR12030.SelectColor3 = False
+        Me.AR12030.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.AR12030.Size = New System.Drawing.Size(45, 14)
+        Me.AR12030.TabIndex = 8489
+        Me.AR12030.Text = "READY"
         '
         'BasicIndicator193
         '
@@ -20377,25 +20377,25 @@ Partial Class CP12
         Me.BasicIndicator914.TabIndex = 8462
         Me.BasicIndicator914.Text = "SP-AV"
         '
-        'BasicIndicator915
+        'AR12020
         '
-        Me.BasicIndicator915.Color1 = System.Drawing.Color.Red
-        Me.BasicIndicator915.Color2 = System.Drawing.Color.YellowGreen
-        Me.BasicIndicator915.Color3 = System.Drawing.Color.Red
-        Me.BasicIndicator915.ComComponent = Me.EthernetIPforCLXCom1
-        Me.BasicIndicator915.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BasicIndicator915.Location = New System.Drawing.Point(174, 344)
-        Me.BasicIndicator915.Name = "BasicIndicator915"
-        Me.BasicIndicator915.OutlineColor = System.Drawing.Color.Transparent
-        Me.BasicIndicator915.OutlineWidth = 1
-        Me.BasicIndicator915.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
-        Me.BasicIndicator915.PLCAddressSelectColor2 = "ARSAW12020_AND_LINE12835_AOI.TO_ARSAW_READY_TO_RECIEVE"
-        Me.BasicIndicator915.SelectColor2 = False
-        Me.BasicIndicator915.SelectColor3 = False
-        Me.BasicIndicator915.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
-        Me.BasicIndicator915.Size = New System.Drawing.Size(45, 14)
-        Me.BasicIndicator915.TabIndex = 8461
-        Me.BasicIndicator915.Text = "READY"
+        Me.AR12020.Color1 = System.Drawing.Color.Red
+        Me.AR12020.Color2 = System.Drawing.Color.YellowGreen
+        Me.AR12020.Color3 = System.Drawing.Color.Red
+        Me.AR12020.ComComponent = Me.EthernetIPforCLXCom1
+        Me.AR12020.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.AR12020.Location = New System.Drawing.Point(174, 344)
+        Me.AR12020.Name = "AR12020"
+        Me.AR12020.OutlineColor = System.Drawing.Color.Transparent
+        Me.AR12020.OutlineWidth = 1
+        Me.AR12020.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.AR12020.PLCAddressSelectColor2 = "ARSAW12020_AND_LINE12835_AOI.TO_ARSAW_READY_TO_RECIEVE"
+        Me.AR12020.SelectColor2 = False
+        Me.AR12020.SelectColor3 = False
+        Me.AR12020.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.AR12020.Size = New System.Drawing.Size(45, 14)
+        Me.AR12020.TabIndex = 8461
+        Me.AR12020.Text = "READY"
         '
         'BasicIndicator916
         '
@@ -20961,25 +20961,25 @@ Partial Class CP12
         Me.BasicIndicator945.TabIndex = 8434
         Me.BasicIndicator945.Text = "SP-AV"
         '
-        'BasicIndicator946
+        'AR12010
         '
-        Me.BasicIndicator946.Color1 = System.Drawing.Color.Red
-        Me.BasicIndicator946.Color2 = System.Drawing.Color.YellowGreen
-        Me.BasicIndicator946.Color3 = System.Drawing.Color.Red
-        Me.BasicIndicator946.ComComponent = Me.EthernetIPforCLXCom1
-        Me.BasicIndicator946.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BasicIndicator946.Location = New System.Drawing.Point(175, 284)
-        Me.BasicIndicator946.Name = "BasicIndicator946"
-        Me.BasicIndicator946.OutlineColor = System.Drawing.Color.Transparent
-        Me.BasicIndicator946.OutlineWidth = 1
-        Me.BasicIndicator946.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
-        Me.BasicIndicator946.PLCAddressSelectColor2 = "ARSAW12010_AOI.TO_ARSAW_READY_TO_RECIEVE"
-        Me.BasicIndicator946.SelectColor2 = False
-        Me.BasicIndicator946.SelectColor3 = False
-        Me.BasicIndicator946.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
-        Me.BasicIndicator946.Size = New System.Drawing.Size(45, 14)
-        Me.BasicIndicator946.TabIndex = 8433
-        Me.BasicIndicator946.Text = "READY"
+        Me.AR12010.Color1 = System.Drawing.Color.Red
+        Me.AR12010.Color2 = System.Drawing.Color.YellowGreen
+        Me.AR12010.Color3 = System.Drawing.Color.Red
+        Me.AR12010.ComComponent = Me.EthernetIPforCLXCom1
+        Me.AR12010.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.AR12010.Location = New System.Drawing.Point(175, 284)
+        Me.AR12010.Name = "AR12010"
+        Me.AR12010.OutlineColor = System.Drawing.Color.Transparent
+        Me.AR12010.OutlineWidth = 1
+        Me.AR12010.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.AR12010.PLCAddressSelectColor2 = "ARSAW12010_AOI.TO_ARSAW_READY_TO_RECIEVE"
+        Me.AR12010.SelectColor2 = False
+        Me.AR12010.SelectColor3 = False
+        Me.AR12010.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.AR12010.Size = New System.Drawing.Size(45, 14)
+        Me.AR12010.TabIndex = 8433
+        Me.AR12010.Text = "READY"
         '
         'BasicIndicator947
         '
@@ -21881,26 +21881,26 @@ Partial Class CP12
         Me.BasicIndicator1222.TabIndex = 8390
         Me.BasicIndicator1222.Text = "RUN"
         '
-        'BasicIndicator1223
+        'OkToFeed1
         '
-        Me.BasicIndicator1223.Color1 = System.Drawing.Color.Red
-        Me.BasicIndicator1223.Color2 = System.Drawing.Color.YellowGreen
-        Me.BasicIndicator1223.Color3 = System.Drawing.Color.Red
-        Me.BasicIndicator1223.ComComponent = Me.EthernetIPforCLXCom1
-        Me.BasicIndicator1223.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BasicIndicator1223.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.BasicIndicator1223.Location = New System.Drawing.Point(699, 246)
-        Me.BasicIndicator1223.Name = "BasicIndicator1223"
-        Me.BasicIndicator1223.OutlineColor = System.Drawing.Color.Transparent
-        Me.BasicIndicator1223.OutlineWidth = 1
-        Me.BasicIndicator1223.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
-        Me.BasicIndicator1223.PLCAddressSelectColor2 = "GRS12945.OK_TO_FEED"
-        Me.BasicIndicator1223.SelectColor2 = False
-        Me.BasicIndicator1223.SelectColor3 = False
-        Me.BasicIndicator1223.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
-        Me.BasicIndicator1223.Size = New System.Drawing.Size(45, 14)
-        Me.BasicIndicator1223.TabIndex = 8389
-        Me.BasicIndicator1223.Text = "NOT OK"
+        Me.OkToFeed1.Color1 = System.Drawing.Color.Red
+        Me.OkToFeed1.Color2 = System.Drawing.Color.YellowGreen
+        Me.OkToFeed1.Color3 = System.Drawing.Color.Red
+        Me.OkToFeed1.ComComponent = Me.EthernetIPforCLXCom1
+        Me.OkToFeed1.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.OkToFeed1.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.OkToFeed1.Location = New System.Drawing.Point(699, 246)
+        Me.OkToFeed1.Name = "OkToFeed1"
+        Me.OkToFeed1.OutlineColor = System.Drawing.Color.Transparent
+        Me.OkToFeed1.OutlineWidth = 1
+        Me.OkToFeed1.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.OkToFeed1.PLCAddressSelectColor2 = "GRS12945.OK_TO_FEED"
+        Me.OkToFeed1.SelectColor2 = False
+        Me.OkToFeed1.SelectColor3 = False
+        Me.OkToFeed1.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.OkToFeed1.Size = New System.Drawing.Size(45, 14)
+        Me.OkToFeed1.TabIndex = 8389
+        Me.OkToFeed1.Text = "NOT OK"
         '
         'BasicIndicator1224
         '
@@ -27236,7 +27236,7 @@ Partial Class CP12
         Me.Controls.Add(Me.CheckBox213)
         Me.Controls.Add(Me.BasicIndicator486)
         Me.Controls.Add(Me.BasicIndicator20)
-        Me.Controls.Add(Me.BasicIndicator21)
+        Me.Controls.Add(Me.AR12100)
         Me.Controls.Add(Me.BasicIndicator22)
         Me.Controls.Add(Me.BasicIndicator23)
         Me.Controls.Add(Me.BasicIndicator44)
@@ -27244,7 +27244,7 @@ Partial Class CP12
         Me.Controls.Add(Me.CheckBox1)
         Me.Controls.Add(Me.BasicIndicator46)
         Me.Controls.Add(Me.BasicIndicator47)
-        Me.Controls.Add(Me.BasicIndicator48)
+        Me.Controls.Add(Me.AR12090)
         Me.Controls.Add(Me.BasicIndicator49)
         Me.Controls.Add(Me.BasicIndicator50)
         Me.Controls.Add(Me.BasicIndicator51)
@@ -27252,7 +27252,7 @@ Partial Class CP12
         Me.Controls.Add(Me.CheckBox2)
         Me.Controls.Add(Me.BasicIndicator53)
         Me.Controls.Add(Me.BasicIndicator54)
-        Me.Controls.Add(Me.BasicIndicator55)
+        Me.Controls.Add(Me.AR12080)
         Me.Controls.Add(Me.BasicIndicator56)
         Me.Controls.Add(Me.BasicIndicator57)
         Me.Controls.Add(Me.BasicIndicator58)
@@ -27380,7 +27380,7 @@ Partial Class CP12
         Me.Controls.Add(Me.CheckBox149)
         Me.Controls.Add(Me.BasicIndicator169)
         Me.Controls.Add(Me.BasicIndicator170)
-        Me.Controls.Add(Me.BasicIndicator171)
+        Me.Controls.Add(Me.AR12070)
         Me.Controls.Add(Me.BasicIndicator172)
         Me.Controls.Add(Me.BasicIndicator173)
         Me.Controls.Add(Me.BasicIndicator174)
@@ -27388,7 +27388,7 @@ Partial Class CP12
         Me.Controls.Add(Me.CheckBox150)
         Me.Controls.Add(Me.BasicIndicator176)
         Me.Controls.Add(Me.BasicIndicator177)
-        Me.Controls.Add(Me.BasicIndicator178)
+        Me.Controls.Add(Me.AR12060)
         Me.Controls.Add(Me.BasicIndicator179)
         Me.Controls.Add(Me.BasicIndicator180)
         Me.Controls.Add(Me.BasicIndicator181)
@@ -27396,7 +27396,7 @@ Partial Class CP12
         Me.Controls.Add(Me.CheckBox151)
         Me.Controls.Add(Me.BasicIndicator183)
         Me.Controls.Add(Me.BasicIndicator184)
-        Me.Controls.Add(Me.BasicIndicator185)
+        Me.Controls.Add(Me.AR12040)
         Me.Controls.Add(Me.BasicIndicator186)
         Me.Controls.Add(Me.BasicIndicator187)
         Me.Controls.Add(Me.BasicIndicator188)
@@ -27404,7 +27404,7 @@ Partial Class CP12
         Me.Controls.Add(Me.CheckBox152)
         Me.Controls.Add(Me.BasicIndicator190)
         Me.Controls.Add(Me.BasicIndicator191)
-        Me.Controls.Add(Me.BasicIndicator192)
+        Me.Controls.Add(Me.AR12030)
         Me.Controls.Add(Me.BasicIndicator193)
         Me.Controls.Add(Me.BasicIndicator194)
         Me.Controls.Add(Me.BasicIndicator195)
@@ -27432,7 +27432,7 @@ Partial Class CP12
         Me.Controls.Add(Me.CheckBox157)
         Me.Controls.Add(Me.BasicIndicator635)
         Me.Controls.Add(Me.BasicIndicator914)
-        Me.Controls.Add(Me.BasicIndicator915)
+        Me.Controls.Add(Me.AR12020)
         Me.Controls.Add(Me.BasicIndicator916)
         Me.Controls.Add(Me.BasicIndicator917)
         Me.Controls.Add(Me.BasicIndicator926)
@@ -27460,7 +27460,7 @@ Partial Class CP12
         Me.Controls.Add(Me.CheckBox162)
         Me.Controls.Add(Me.BasicIndicator944)
         Me.Controls.Add(Me.BasicIndicator945)
-        Me.Controls.Add(Me.BasicIndicator946)
+        Me.Controls.Add(Me.AR12010)
         Me.Controls.Add(Me.BasicIndicator947)
         Me.Controls.Add(Me.BasicIndicator948)
         Me.Controls.Add(Me.BasicIndicator949)
@@ -27504,7 +27504,7 @@ Partial Class CP12
         Me.Controls.Add(Me.BasicIndicator1221)
         Me.Controls.Add(Me.CheckBox170)
         Me.Controls.Add(Me.BasicIndicator1222)
-        Me.Controls.Add(Me.BasicIndicator1223)
+        Me.Controls.Add(Me.OkToFeed1)
         Me.Controls.Add(Me.BasicIndicator1224)
         Me.Controls.Add(Me.BasicIndicator1225)
         Me.Controls.Add(Me.BasicIndicator1226)
@@ -29054,7 +29054,7 @@ Partial Class CP12
     Friend WithEvents CheckBox125 As AdvancedHMIControls.CheckBox
     Friend WithEvents BasicIndicator1198 As AdvancedHMIControls.BasicIndicator
     Friend WithEvents BasicIndicator20 As AdvancedHMIControls.BasicIndicator
-    Friend WithEvents BasicIndicator21 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents AR12100 As AdvancedHMIControls.BasicIndicator
     Friend WithEvents BasicIndicator22 As AdvancedHMIControls.BasicIndicator
     Friend WithEvents BasicIndicator23 As AdvancedHMIControls.BasicIndicator
     Friend WithEvents BasicIndicator44 As AdvancedHMIControls.BasicIndicator
@@ -29062,7 +29062,7 @@ Partial Class CP12
     Friend WithEvents CheckBox1 As AdvancedHMIControls.CheckBox
     Friend WithEvents BasicIndicator46 As AdvancedHMIControls.BasicIndicator
     Friend WithEvents BasicIndicator47 As AdvancedHMIControls.BasicIndicator
-    Friend WithEvents BasicIndicator48 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents AR12090 As AdvancedHMIControls.BasicIndicator
     Friend WithEvents BasicIndicator49 As AdvancedHMIControls.BasicIndicator
     Friend WithEvents BasicIndicator50 As AdvancedHMIControls.BasicIndicator
     Friend WithEvents BasicIndicator51 As AdvancedHMIControls.BasicIndicator
@@ -29070,7 +29070,7 @@ Partial Class CP12
     Friend WithEvents CheckBox2 As AdvancedHMIControls.CheckBox
     Friend WithEvents BasicIndicator53 As AdvancedHMIControls.BasicIndicator
     Friend WithEvents BasicIndicator54 As AdvancedHMIControls.BasicIndicator
-    Friend WithEvents BasicIndicator55 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents AR12080 As AdvancedHMIControls.BasicIndicator
     Friend WithEvents BasicIndicator56 As AdvancedHMIControls.BasicIndicator
     Friend WithEvents BasicIndicator57 As AdvancedHMIControls.BasicIndicator
     Friend WithEvents BasicIndicator58 As AdvancedHMIControls.BasicIndicator
@@ -29198,7 +29198,7 @@ Partial Class CP12
     Friend WithEvents CheckBox149 As AdvancedHMIControls.CheckBox
     Friend WithEvents BasicIndicator169 As AdvancedHMIControls.BasicIndicator
     Friend WithEvents BasicIndicator170 As AdvancedHMIControls.BasicIndicator
-    Friend WithEvents BasicIndicator171 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents AR12070 As AdvancedHMIControls.BasicIndicator
     Friend WithEvents BasicIndicator172 As AdvancedHMIControls.BasicIndicator
     Friend WithEvents BasicIndicator173 As AdvancedHMIControls.BasicIndicator
     Friend WithEvents BasicIndicator174 As AdvancedHMIControls.BasicIndicator
@@ -29206,7 +29206,7 @@ Partial Class CP12
     Friend WithEvents CheckBox150 As AdvancedHMIControls.CheckBox
     Friend WithEvents BasicIndicator176 As AdvancedHMIControls.BasicIndicator
     Friend WithEvents BasicIndicator177 As AdvancedHMIControls.BasicIndicator
-    Friend WithEvents BasicIndicator178 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents AR12060 As AdvancedHMIControls.BasicIndicator
     Friend WithEvents BasicIndicator179 As AdvancedHMIControls.BasicIndicator
     Friend WithEvents BasicIndicator180 As AdvancedHMIControls.BasicIndicator
     Friend WithEvents BasicIndicator181 As AdvancedHMIControls.BasicIndicator
@@ -29214,7 +29214,7 @@ Partial Class CP12
     Friend WithEvents CheckBox151 As AdvancedHMIControls.CheckBox
     Friend WithEvents BasicIndicator183 As AdvancedHMIControls.BasicIndicator
     Friend WithEvents BasicIndicator184 As AdvancedHMIControls.BasicIndicator
-    Friend WithEvents BasicIndicator185 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents AR12040 As AdvancedHMIControls.BasicIndicator
     Friend WithEvents BasicIndicator186 As AdvancedHMIControls.BasicIndicator
     Friend WithEvents BasicIndicator187 As AdvancedHMIControls.BasicIndicator
     Friend WithEvents BasicIndicator188 As AdvancedHMIControls.BasicIndicator
@@ -29222,7 +29222,7 @@ Partial Class CP12
     Friend WithEvents CheckBox152 As AdvancedHMIControls.CheckBox
     Friend WithEvents BasicIndicator190 As AdvancedHMIControls.BasicIndicator
     Friend WithEvents BasicIndicator191 As AdvancedHMIControls.BasicIndicator
-    Friend WithEvents BasicIndicator192 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents AR12030 As AdvancedHMIControls.BasicIndicator
     Friend WithEvents BasicIndicator193 As AdvancedHMIControls.BasicIndicator
     Friend WithEvents BasicIndicator194 As AdvancedHMIControls.BasicIndicator
     Friend WithEvents BasicIndicator195 As AdvancedHMIControls.BasicIndicator
@@ -29250,7 +29250,7 @@ Partial Class CP12
     Friend WithEvents CheckBox157 As AdvancedHMIControls.CheckBox
     Friend WithEvents BasicIndicator635 As AdvancedHMIControls.BasicIndicator
     Friend WithEvents BasicIndicator914 As AdvancedHMIControls.BasicIndicator
-    Friend WithEvents BasicIndicator915 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents AR12020 As AdvancedHMIControls.BasicIndicator
     Friend WithEvents BasicIndicator916 As AdvancedHMIControls.BasicIndicator
     Friend WithEvents BasicIndicator917 As AdvancedHMIControls.BasicIndicator
     Friend WithEvents BasicIndicator926 As AdvancedHMIControls.BasicIndicator
@@ -29278,7 +29278,7 @@ Partial Class CP12
     Friend WithEvents CheckBox162 As AdvancedHMIControls.CheckBox
     Friend WithEvents BasicIndicator944 As AdvancedHMIControls.BasicIndicator
     Friend WithEvents BasicIndicator945 As AdvancedHMIControls.BasicIndicator
-    Friend WithEvents BasicIndicator946 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents AR12010 As AdvancedHMIControls.BasicIndicator
     Friend WithEvents BasicIndicator947 As AdvancedHMIControls.BasicIndicator
     Friend WithEvents BasicIndicator948 As AdvancedHMIControls.BasicIndicator
     Friend WithEvents BasicIndicator949 As AdvancedHMIControls.BasicIndicator
@@ -29322,7 +29322,7 @@ Partial Class CP12
     Friend WithEvents BasicIndicator1221 As AdvancedHMIControls.BasicIndicator
     Friend WithEvents CheckBox170 As AdvancedHMIControls.CheckBox
     Friend WithEvents BasicIndicator1222 As AdvancedHMIControls.BasicIndicator
-    Friend WithEvents BasicIndicator1223 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents OkToFeed1 As AdvancedHMIControls.BasicIndicator
     Friend WithEvents BasicIndicator1224 As AdvancedHMIControls.BasicIndicator
     Friend WithEvents BasicIndicator1225 As AdvancedHMIControls.BasicIndicator
     Friend WithEvents BasicIndicator1226 As AdvancedHMIControls.BasicIndicator
