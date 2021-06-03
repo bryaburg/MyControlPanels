@@ -843,7 +843,6 @@ Partial Class CP12
         Me.BasicIndicator252 = New AdvancedHMIControls.BasicIndicator()
         Me.CheckBox15 = New AdvancedHMIControls.CheckBox()
         Me.BasicIndicator253 = New AdvancedHMIControls.BasicIndicator()
-        Me.EthernetIPforCLXCom2 = New AdvancedHMIDrivers.EthernetIPforCLXCom(Me.components)
         Me.BasicIndicator255 = New AdvancedHMIControls.BasicIndicator()
         Me.BasicIndicator256 = New AdvancedHMIControls.BasicIndicator()
         Me.BasicIndicator257 = New AdvancedHMIControls.BasicIndicator()
@@ -1064,6 +1063,205 @@ Partial Class CP12
         Me.BasicIndicator579 = New AdvancedHMIControls.BasicIndicator()
         Me.CheckBox55 = New AdvancedHMIControls.CheckBox()
         Me.BasicIndicator580 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator581 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator582 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator583 = New AdvancedHMIControls.BasicIndicator()
+        Me.CheckBox56 = New AdvancedHMIControls.CheckBox()
+        Me.BasicIndicator593 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator599 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator600 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator601 = New AdvancedHMIControls.BasicIndicator()
+        Me.CheckBox57 = New AdvancedHMIControls.CheckBox()
+        Me.BasicIndicator602 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator603 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator604 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator605 = New AdvancedHMIControls.BasicIndicator()
+        Me.CheckBox58 = New AdvancedHMIControls.CheckBox()
+        Me.BasicIndicator719 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator746 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator747 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator748 = New AdvancedHMIControls.BasicIndicator()
+        Me.CheckBox59 = New AdvancedHMIControls.CheckBox()
+        Me.BasicIndicator749 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator750 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator751 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator752 = New AdvancedHMIControls.BasicIndicator()
+        Me.CheckBox60 = New AdvancedHMIControls.CheckBox()
+        Me.BasicIndicator753 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator754 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator755 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator756 = New AdvancedHMIControls.BasicIndicator()
+        Me.CheckBox61 = New AdvancedHMIControls.CheckBox()
+        Me.BasicIndicator757 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator758 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator759 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator760 = New AdvancedHMIControls.BasicIndicator()
+        Me.CheckBox62 = New AdvancedHMIControls.CheckBox()
+        Me.BasicIndicator761 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator762 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator763 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator764 = New AdvancedHMIControls.BasicIndicator()
+        Me.CheckBox63 = New AdvancedHMIControls.CheckBox()
+        Me.BasicIndicator765 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator766 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator767 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator768 = New AdvancedHMIControls.BasicIndicator()
+        Me.CheckBox64 = New AdvancedHMIControls.CheckBox()
+        Me.BasicIndicator769 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator770 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator771 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator772 = New AdvancedHMIControls.BasicIndicator()
+        Me.CheckBox65 = New AdvancedHMIControls.CheckBox()
+        Me.BasicIndicator773 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator774 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator775 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator776 = New AdvancedHMIControls.BasicIndicator()
+        Me.CheckBox66 = New AdvancedHMIControls.CheckBox()
+        Me.BasicIndicator777 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator778 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator779 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator780 = New AdvancedHMIControls.BasicIndicator()
+        Me.CheckBox67 = New AdvancedHMIControls.CheckBox()
+        Me.BasicIndicator781 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator782 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator786 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator790 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator791 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator792 = New AdvancedHMIControls.BasicIndicator()
+        Me.CheckBox70 = New AdvancedHMIControls.CheckBox()
+        Me.BasicIndicator793 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator794 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator795 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator796 = New AdvancedHMIControls.BasicIndicator()
+        Me.CheckBox71 = New AdvancedHMIControls.CheckBox()
+        Me.BasicIndicator797 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator798 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator799 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator800 = New AdvancedHMIControls.BasicIndicator()
+        Me.CheckBox72 = New AdvancedHMIControls.CheckBox()
+        Me.BasicIndicator801 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator802 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator803 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator804 = New AdvancedHMIControls.BasicIndicator()
+        Me.CheckBox73 = New AdvancedHMIControls.CheckBox()
+        Me.BasicIndicator805 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator806 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator807 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator808 = New AdvancedHMIControls.BasicIndicator()
+        Me.CheckBox74 = New AdvancedHMIControls.CheckBox()
+        Me.BasicIndicator809 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator810 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator811 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator812 = New AdvancedHMIControls.BasicIndicator()
+        Me.CheckBox75 = New AdvancedHMIControls.CheckBox()
+        Me.BasicIndicator813 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator814 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator815 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator816 = New AdvancedHMIControls.BasicIndicator()
+        Me.CheckBox76 = New AdvancedHMIControls.CheckBox()
+        Me.BasicIndicator817 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator818 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator819 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator820 = New AdvancedHMIControls.BasicIndicator()
+        Me.CheckBox77 = New AdvancedHMIControls.CheckBox()
+        Me.BasicIndicator821 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator822 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator823 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator824 = New AdvancedHMIControls.BasicIndicator()
+        Me.CheckBox78 = New AdvancedHMIControls.CheckBox()
+        Me.BasicIndicator825 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator826 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator827 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator828 = New AdvancedHMIControls.BasicIndicator()
+        Me.CheckBox79 = New AdvancedHMIControls.CheckBox()
+        Me.BasicIndicator829 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator830 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator831 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator832 = New AdvancedHMIControls.BasicIndicator()
+        Me.CheckBox80 = New AdvancedHMIControls.CheckBox()
+        Me.BasicIndicator833 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator834 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator835 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator836 = New AdvancedHMIControls.BasicIndicator()
+        Me.CheckBox81 = New AdvancedHMIControls.CheckBox()
+        Me.BasicIndicator837 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator838 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator839 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator840 = New AdvancedHMIControls.BasicIndicator()
+        Me.CheckBox82 = New AdvancedHMIControls.CheckBox()
+        Me.BasicIndicator841 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator842 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator843 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator844 = New AdvancedHMIControls.BasicIndicator()
+        Me.CheckBox83 = New AdvancedHMIControls.CheckBox()
+        Me.BasicIndicator845 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator846 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator958 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator962 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator963 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator964 = New AdvancedHMIControls.BasicIndicator()
+        Me.CheckBox86 = New AdvancedHMIControls.CheckBox()
+        Me.BasicIndicator965 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator783 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator784 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator785 = New AdvancedHMIControls.BasicIndicator()
+        Me.CheckBox68 = New AdvancedHMIControls.CheckBox()
+        Me.BasicIndicator787 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator788 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator789 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator847 = New AdvancedHMIControls.BasicIndicator()
+        Me.CheckBox69 = New AdvancedHMIControls.CheckBox()
+        Me.BasicIndicator848 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator849 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator959 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator960 = New AdvancedHMIControls.BasicIndicator()
+        Me.CheckBox84 = New AdvancedHMIControls.CheckBox()
+        Me.BasicIndicator961 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator966 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator967 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator968 = New AdvancedHMIControls.BasicIndicator()
+        Me.CheckBox85 = New AdvancedHMIControls.CheckBox()
+        Me.BasicIndicator969 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator970 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator971 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator972 = New AdvancedHMIControls.BasicIndicator()
+        Me.CheckBox87 = New AdvancedHMIControls.CheckBox()
+        Me.BasicIndicator973 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator974 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator975 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator976 = New AdvancedHMIControls.BasicIndicator()
+        Me.CheckBox88 = New AdvancedHMIControls.CheckBox()
+        Me.BasicIndicator977 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator978 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator979 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator980 = New AdvancedHMIControls.BasicIndicator()
+        Me.CheckBox89 = New AdvancedHMIControls.CheckBox()
+        Me.BasicIndicator981 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator982 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator983 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator984 = New AdvancedHMIControls.BasicIndicator()
+        Me.CheckBox90 = New AdvancedHMIControls.CheckBox()
+        Me.BasicIndicator985 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator986 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator987 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator988 = New AdvancedHMIControls.BasicIndicator()
+        Me.CheckBox91 = New AdvancedHMIControls.CheckBox()
+        Me.BasicIndicator989 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator990 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator991 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator992 = New AdvancedHMIControls.BasicIndicator()
+        Me.CheckBox92 = New AdvancedHMIControls.CheckBox()
+        Me.BasicIndicator993 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator994 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator995 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator996 = New AdvancedHMIControls.BasicIndicator()
+        Me.CheckBox93 = New AdvancedHMIControls.CheckBox()
+        Me.BasicIndicator997 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator998 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator999 = New AdvancedHMIControls.BasicIndicator()
+        Me.BasicIndicator1000 = New AdvancedHMIControls.BasicIndicator()
+        Me.CheckBox94 = New AdvancedHMIControls.CheckBox()
+        Me.BasicIndicator1001 = New AdvancedHMIControls.BasicIndicator()
         CType(Me.EthernetIPforCLXCom1, System.ComponentModel.ISupportInitialize).BeginInit
         CType(Me.ArReadyToReceive12080, System.ComponentModel.ISupportInitialize).BeginInit
         CType(Me.ArReadyToReceive12070, System.ComponentModel.ISupportInitialize).BeginInit
@@ -1075,7 +1273,6 @@ Partial Class CP12
         CType(Me.ArReadyToReceive12030, System.ComponentModel.ISupportInitialize).BeginInit
         CType(Me.ArReadyToReceive12040, System.ComponentModel.ISupportInitialize).BeginInit
         CType(Me.ArReadyToReceive12060, System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.EthernetIPforCLXCom2, System.ComponentModel.ISupportInitialize).BeginInit
         Me.SuspendLayout
         '
         'CP_12_2_Open
@@ -18038,7 +18235,6 @@ Partial Class CP12
         'CheckBox15
         '
         Me.CheckBox15.AutoSize = True
-        Me.CheckBox15.ComComponent = Me.EthernetIPforCLXCom2
         Me.CheckBox15.Font = New System.Drawing.Font("Elephant", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CheckBox15.ForeColor = System.Drawing.Color.GhostWhite
         Me.CheckBox15.Location = New System.Drawing.Point(803, 472)
@@ -18074,20 +18270,6 @@ Partial Class CP12
         Me.BasicIndicator253.Size = New System.Drawing.Size(45, 14)
         Me.BasicIndicator253.TabIndex = 6388
         Me.BasicIndicator253.Text = "RUN"
-        '
-        'EthernetIPforCLXCom2
-        '
-        Me.EthernetIPforCLXCom2.CIPConnectionSize = 508
-        Me.EthernetIPforCLXCom2.DisableMultiServiceRequest = False
-        Me.EthernetIPforCLXCom2.DisableSubscriptions = False
-        Me.EthernetIPforCLXCom2.IniFileName = ""
-        Me.EthernetIPforCLXCom2.IniFileSection = Nothing
-        Me.EthernetIPforCLXCom2.IPAddress = "192.168.0.10"
-        Me.EthernetIPforCLXCom2.PollRateOverride = 500
-        Me.EthernetIPforCLXCom2.Port = 44818
-        Me.EthernetIPforCLXCom2.ProcessorSlot = 0
-        Me.EthernetIPforCLXCom2.RoutePath = Nothing
-        Me.EthernetIPforCLXCom2.Timeout = 4000
         '
         'BasicIndicator255
         '
@@ -18265,7 +18447,6 @@ Partial Class CP12
         'CheckBox16
         '
         Me.CheckBox16.AutoSize = True
-        Me.CheckBox16.ComComponent = Me.EthernetIPforCLXCom2
         Me.CheckBox16.Font = New System.Drawing.Font("Elephant", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CheckBox16.ForeColor = System.Drawing.Color.GhostWhite
         Me.CheckBox16.Location = New System.Drawing.Point(803, 492)
@@ -18478,7 +18659,6 @@ Partial Class CP12
         'CheckBox10
         '
         Me.CheckBox10.AutoSize = True
-        Me.CheckBox10.ComComponent = Me.EthernetIPforCLXCom2
         Me.CheckBox10.Font = New System.Drawing.Font("Elephant", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CheckBox10.ForeColor = System.Drawing.Color.GhostWhite
         Me.CheckBox10.Location = New System.Drawing.Point(804, 512)
@@ -18691,7 +18871,6 @@ Partial Class CP12
         'CheckBox17
         '
         Me.CheckBox17.AutoSize = True
-        Me.CheckBox17.ComComponent = Me.EthernetIPforCLXCom2
         Me.CheckBox17.Font = New System.Drawing.Font("Elephant", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CheckBox17.ForeColor = System.Drawing.Color.GhostWhite
         Me.CheckBox17.Location = New System.Drawing.Point(804, 532)
@@ -22621,7 +22800,7 @@ Partial Class CP12
         Me.BasicIndicator577.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator577.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BasicIndicator577.ForeColor = System.Drawing.Color.GhostWhite
-        Me.BasicIndicator577.Location = New System.Drawing.Point(1649, 176)
+        Me.BasicIndicator577.Location = New System.Drawing.Point(1649, 155)
         Me.BasicIndicator577.Name = "BasicIndicator577"
         Me.BasicIndicator577.OutlineColor = System.Drawing.Color.Transparent
         Me.BasicIndicator577.OutlineWidth = 1
@@ -22642,7 +22821,7 @@ Partial Class CP12
         Me.BasicIndicator578.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator578.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BasicIndicator578.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.BasicIndicator578.Location = New System.Drawing.Point(1814, 176)
+        Me.BasicIndicator578.Location = New System.Drawing.Point(1814, 155)
         Me.BasicIndicator578.Name = "BasicIndicator578"
         Me.BasicIndicator578.OutlineColor = System.Drawing.Color.Transparent
         Me.BasicIndicator578.OutlineWidth = 1
@@ -22664,7 +22843,7 @@ Partial Class CP12
         Me.BasicIndicator579.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator579.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BasicIndicator579.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.BasicIndicator579.Location = New System.Drawing.Point(1759, 176)
+        Me.BasicIndicator579.Location = New System.Drawing.Point(1759, 155)
         Me.BasicIndicator579.Name = "BasicIndicator579"
         Me.BasicIndicator579.OutlineColor = System.Drawing.Color.Transparent
         Me.BasicIndicator579.OutlineWidth = 1
@@ -22684,7 +22863,7 @@ Partial Class CP12
         Me.CheckBox55.ComComponent = Me.EthernetIPforCLXCom1
         Me.CheckBox55.Font = New System.Drawing.Font("Elephant", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CheckBox55.ForeColor = System.Drawing.Color.GhostWhite
-        Me.CheckBox55.Location = New System.Drawing.Point(1519, 172)
+        Me.CheckBox55.Location = New System.Drawing.Point(1519, 151)
         Me.CheckBox55.Name = "CheckBox55"
         Me.CheckBox55.PLCAddressCheckChanged = ""
         Me.CheckBox55.PLCAddressChecked = ""
@@ -22704,7 +22883,7 @@ Partial Class CP12
         Me.BasicIndicator580.ComComponent = Me.EthernetIPforCLXCom1
         Me.BasicIndicator580.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BasicIndicator580.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.BasicIndicator580.Location = New System.Drawing.Point(1704, 176)
+        Me.BasicIndicator580.Location = New System.Drawing.Point(1704, 155)
         Me.BasicIndicator580.Name = "BasicIndicator580"
         Me.BasicIndicator580.OutlineColor = System.Drawing.Color.Transparent
         Me.BasicIndicator580.OutlineWidth = 1
@@ -22718,6 +22897,4185 @@ Partial Class CP12
         Me.BasicIndicator580.TabIndex = 6633
         Me.BasicIndicator580.Text = "RUN"
         '
+        'BasicIndicator581
+        '
+        Me.BasicIndicator581.Color1 = System.Drawing.Color.Black
+        Me.BasicIndicator581.Color2 = System.Drawing.Color.Gold
+        Me.BasicIndicator581.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator581.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator581.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator581.ForeColor = System.Drawing.Color.GhostWhite
+        Me.BasicIndicator581.Location = New System.Drawing.Point(1291, 993)
+        Me.BasicIndicator581.Name = "BasicIndicator581"
+        Me.BasicIndicator581.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator581.OutlineWidth = 1
+        Me.BasicIndicator581.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator581.PLCAddressSelectColor2 = "EEM12615_02_4"
+        Me.BasicIndicator581.SelectColor2 = False
+        Me.BasicIndicator581.SelectColor3 = False
+        Me.BasicIndicator581.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator581.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator581.TabIndex = 6657
+        Me.BasicIndicator581.Text = "12625.2-4"
+        '
+        'BasicIndicator582
+        '
+        Me.BasicIndicator582.Color1 = System.Drawing.Color.Red
+        Me.BasicIndicator582.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator582.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator582.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator582.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator582.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator582.Location = New System.Drawing.Point(1456, 993)
+        Me.BasicIndicator582.Name = "BasicIndicator582"
+        Me.BasicIndicator582.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator582.OutlineWidth = 1
+        Me.BasicIndicator582.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator582.PLCAddressSelectColor3 = "MDR12625_02.Z4_JAM_BIT"
+        Me.BasicIndicator582.PLCAddressVisible = "MDR12625_02.Z4_JAM_BIT"
+        Me.BasicIndicator582.SelectColor2 = False
+        Me.BasicIndicator582.SelectColor3 = False
+        Me.BasicIndicator582.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator582.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator582.TabIndex = 6656
+        Me.BasicIndicator582.Text = "JAM "
+        '
+        'BasicIndicator583
+        '
+        Me.BasicIndicator583.Color1 = System.Drawing.Color.Red
+        Me.BasicIndicator583.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator583.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator583.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator583.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator583.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator583.Location = New System.Drawing.Point(1401, 993)
+        Me.BasicIndicator583.Name = "BasicIndicator583"
+        Me.BasicIndicator583.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator583.OutlineWidth = 1
+        Me.BasicIndicator583.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator583.PLCAddressSelectColor3 = "MDR12625_02.Z4_FAULT"
+        Me.BasicIndicator583.PLCAddressVisible = "MDR12625_02.Z4_FAULT"
+        Me.BasicIndicator583.SelectColor2 = False
+        Me.BasicIndicator583.SelectColor3 = False
+        Me.BasicIndicator583.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator583.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator583.TabIndex = 6655
+        Me.BasicIndicator583.Text = "FAULT"
+        '
+        'CheckBox56
+        '
+        Me.CheckBox56.AutoSize = True
+        Me.CheckBox56.ComComponent = Me.EthernetIPforCLXCom1
+        Me.CheckBox56.Font = New System.Drawing.Font("Elephant", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox56.ForeColor = System.Drawing.Color.GhostWhite
+        Me.CheckBox56.Location = New System.Drawing.Point(1161, 989)
+        Me.CheckBox56.Name = "CheckBox56"
+        Me.CheckBox56.PLCAddressCheckChanged = ""
+        Me.CheckBox56.PLCAddressChecked = ""
+        Me.CheckBox56.PLCAddressText = ""
+        Me.CheckBox56.PLCAddressVisible = ""
+        Me.CheckBox56.Size = New System.Drawing.Size(133, 18)
+        Me.CheckBox56.TabIndex = 6654
+        Me.CheckBox56.Text = "MDR 12625.2-4"
+        Me.CheckBox56.TextAlign = System.Drawing.ContentAlignment.BottomLeft
+        Me.CheckBox56.UseVisualStyleBackColor = True
+        '
+        'BasicIndicator593
+        '
+        Me.BasicIndicator593.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator593.Color2 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator593.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator593.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator593.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator593.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator593.Location = New System.Drawing.Point(1346, 993)
+        Me.BasicIndicator593.Name = "BasicIndicator593"
+        Me.BasicIndicator593.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator593.OutlineWidth = 1
+        Me.BasicIndicator593.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator593.PLCAddressSelectColor2 = "MDR12625_02.Z4_MTR_RUNNING"
+        Me.BasicIndicator593.PLCAddressVisible = "MDR12625_02.Z4_MTR_RUNNING"
+        Me.BasicIndicator593.SelectColor2 = False
+        Me.BasicIndicator593.SelectColor3 = False
+        Me.BasicIndicator593.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator593.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator593.TabIndex = 6653
+        Me.BasicIndicator593.Text = "RUN"
+        '
+        'BasicIndicator599
+        '
+        Me.BasicIndicator599.Color1 = System.Drawing.Color.Black
+        Me.BasicIndicator599.Color2 = System.Drawing.Color.Gold
+        Me.BasicIndicator599.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator599.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator599.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator599.ForeColor = System.Drawing.Color.GhostWhite
+        Me.BasicIndicator599.Location = New System.Drawing.Point(1291, 973)
+        Me.BasicIndicator599.Name = "BasicIndicator599"
+        Me.BasicIndicator599.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator599.OutlineWidth = 1
+        Me.BasicIndicator599.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator599.PLCAddressSelectColor2 = "EEM12625_02_3"
+        Me.BasicIndicator599.SelectColor2 = False
+        Me.BasicIndicator599.SelectColor3 = False
+        Me.BasicIndicator599.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator599.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator599.TabIndex = 6652
+        Me.BasicIndicator599.Text = "12625.2-3"
+        '
+        'BasicIndicator600
+        '
+        Me.BasicIndicator600.Color1 = System.Drawing.Color.Red
+        Me.BasicIndicator600.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator600.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator600.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator600.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator600.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator600.Location = New System.Drawing.Point(1456, 973)
+        Me.BasicIndicator600.Name = "BasicIndicator600"
+        Me.BasicIndicator600.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator600.OutlineWidth = 1
+        Me.BasicIndicator600.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator600.PLCAddressSelectColor3 = "MDR12625_02.Z3_JAM_BIT"
+        Me.BasicIndicator600.PLCAddressVisible = "MDR12625_02.Z3_JAM_BIT"
+        Me.BasicIndicator600.SelectColor2 = False
+        Me.BasicIndicator600.SelectColor3 = False
+        Me.BasicIndicator600.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator600.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator600.TabIndex = 6651
+        Me.BasicIndicator600.Text = "JAM "
+        '
+        'BasicIndicator601
+        '
+        Me.BasicIndicator601.Color1 = System.Drawing.Color.Red
+        Me.BasicIndicator601.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator601.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator601.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator601.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator601.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator601.Location = New System.Drawing.Point(1401, 973)
+        Me.BasicIndicator601.Name = "BasicIndicator601"
+        Me.BasicIndicator601.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator601.OutlineWidth = 1
+        Me.BasicIndicator601.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator601.PLCAddressSelectColor3 = "MDR12625_02.Z3_FAULT"
+        Me.BasicIndicator601.PLCAddressVisible = "MDR12625_02.Z3_FAULT"
+        Me.BasicIndicator601.SelectColor2 = False
+        Me.BasicIndicator601.SelectColor3 = False
+        Me.BasicIndicator601.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator601.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator601.TabIndex = 6650
+        Me.BasicIndicator601.Text = "FAULT"
+        '
+        'CheckBox57
+        '
+        Me.CheckBox57.AutoSize = True
+        Me.CheckBox57.ComComponent = Me.EthernetIPforCLXCom1
+        Me.CheckBox57.Font = New System.Drawing.Font("Elephant", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox57.ForeColor = System.Drawing.Color.GhostWhite
+        Me.CheckBox57.Location = New System.Drawing.Point(1161, 969)
+        Me.CheckBox57.Name = "CheckBox57"
+        Me.CheckBox57.PLCAddressCheckChanged = ""
+        Me.CheckBox57.PLCAddressChecked = ""
+        Me.CheckBox57.PLCAddressText = ""
+        Me.CheckBox57.PLCAddressVisible = ""
+        Me.CheckBox57.Size = New System.Drawing.Size(133, 18)
+        Me.CheckBox57.TabIndex = 6649
+        Me.CheckBox57.Text = "MDR 12625.2-3"
+        Me.CheckBox57.TextAlign = System.Drawing.ContentAlignment.BottomLeft
+        Me.CheckBox57.UseVisualStyleBackColor = True
+        '
+        'BasicIndicator602
+        '
+        Me.BasicIndicator602.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator602.Color2 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator602.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator602.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator602.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator602.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator602.Location = New System.Drawing.Point(1346, 973)
+        Me.BasicIndicator602.Name = "BasicIndicator602"
+        Me.BasicIndicator602.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator602.OutlineWidth = 1
+        Me.BasicIndicator602.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator602.PLCAddressSelectColor2 = "MDR12625_02.Z3_MTR_RUNNING"
+        Me.BasicIndicator602.PLCAddressVisible = "MDR12625_02.Z3_MTR_RUNNING"
+        Me.BasicIndicator602.SelectColor2 = False
+        Me.BasicIndicator602.SelectColor3 = False
+        Me.BasicIndicator602.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator602.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator602.TabIndex = 6648
+        Me.BasicIndicator602.Text = "RUN"
+        '
+        'BasicIndicator603
+        '
+        Me.BasicIndicator603.Color1 = System.Drawing.Color.Black
+        Me.BasicIndicator603.Color2 = System.Drawing.Color.Gold
+        Me.BasicIndicator603.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator603.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator603.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator603.ForeColor = System.Drawing.Color.GhostWhite
+        Me.BasicIndicator603.Location = New System.Drawing.Point(1291, 954)
+        Me.BasicIndicator603.Name = "BasicIndicator603"
+        Me.BasicIndicator603.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator603.OutlineWidth = 1
+        Me.BasicIndicator603.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator603.PLCAddressSelectColor2 = "EEM12625_02_2"
+        Me.BasicIndicator603.SelectColor2 = False
+        Me.BasicIndicator603.SelectColor3 = False
+        Me.BasicIndicator603.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator603.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator603.TabIndex = 6647
+        Me.BasicIndicator603.Text = "12625.2-2"
+        '
+        'BasicIndicator604
+        '
+        Me.BasicIndicator604.Color1 = System.Drawing.Color.Red
+        Me.BasicIndicator604.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator604.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator604.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator604.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator604.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator604.Location = New System.Drawing.Point(1456, 954)
+        Me.BasicIndicator604.Name = "BasicIndicator604"
+        Me.BasicIndicator604.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator604.OutlineWidth = 1
+        Me.BasicIndicator604.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator604.PLCAddressSelectColor3 = "MDR12625_02.Z2_JAM_BIT"
+        Me.BasicIndicator604.PLCAddressVisible = "MDR12625_02.Z2_JAM_BIT"
+        Me.BasicIndicator604.SelectColor2 = False
+        Me.BasicIndicator604.SelectColor3 = False
+        Me.BasicIndicator604.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator604.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator604.TabIndex = 6646
+        Me.BasicIndicator604.Text = "JAM "
+        '
+        'BasicIndicator605
+        '
+        Me.BasicIndicator605.Color1 = System.Drawing.Color.Red
+        Me.BasicIndicator605.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator605.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator605.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator605.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator605.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator605.Location = New System.Drawing.Point(1401, 954)
+        Me.BasicIndicator605.Name = "BasicIndicator605"
+        Me.BasicIndicator605.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator605.OutlineWidth = 1
+        Me.BasicIndicator605.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator605.PLCAddressSelectColor3 = "MDR12625_02.Z2_FAULT"
+        Me.BasicIndicator605.PLCAddressVisible = "MDR12625_02.Z2_FAULT"
+        Me.BasicIndicator605.SelectColor2 = False
+        Me.BasicIndicator605.SelectColor3 = False
+        Me.BasicIndicator605.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator605.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator605.TabIndex = 6645
+        Me.BasicIndicator605.Text = "FAULT"
+        '
+        'CheckBox58
+        '
+        Me.CheckBox58.AutoSize = True
+        Me.CheckBox58.ComComponent = Me.EthernetIPforCLXCom1
+        Me.CheckBox58.Font = New System.Drawing.Font("Elephant", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox58.ForeColor = System.Drawing.Color.GhostWhite
+        Me.CheckBox58.Location = New System.Drawing.Point(1161, 950)
+        Me.CheckBox58.Name = "CheckBox58"
+        Me.CheckBox58.PLCAddressCheckChanged = ""
+        Me.CheckBox58.PLCAddressChecked = ""
+        Me.CheckBox58.PLCAddressText = ""
+        Me.CheckBox58.PLCAddressVisible = ""
+        Me.CheckBox58.Size = New System.Drawing.Size(133, 18)
+        Me.CheckBox58.TabIndex = 6644
+        Me.CheckBox58.Text = "MDR 12625.2-2"
+        Me.CheckBox58.TextAlign = System.Drawing.ContentAlignment.BottomLeft
+        Me.CheckBox58.UseVisualStyleBackColor = True
+        '
+        'BasicIndicator719
+        '
+        Me.BasicIndicator719.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator719.Color2 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator719.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator719.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator719.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator719.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator719.Location = New System.Drawing.Point(1346, 954)
+        Me.BasicIndicator719.Name = "BasicIndicator719"
+        Me.BasicIndicator719.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator719.OutlineWidth = 1
+        Me.BasicIndicator719.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator719.PLCAddressSelectColor2 = "MDR12625_02.Z2_MTR_RUNNING"
+        Me.BasicIndicator719.PLCAddressVisible = "MDR12625_02.Z2_MTR_RUNNING"
+        Me.BasicIndicator719.SelectColor2 = False
+        Me.BasicIndicator719.SelectColor3 = False
+        Me.BasicIndicator719.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator719.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator719.TabIndex = 6643
+        Me.BasicIndicator719.Text = "RUN"
+        '
+        'BasicIndicator746
+        '
+        Me.BasicIndicator746.Color1 = System.Drawing.Color.Black
+        Me.BasicIndicator746.Color2 = System.Drawing.Color.Gold
+        Me.BasicIndicator746.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator746.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator746.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator746.ForeColor = System.Drawing.Color.GhostWhite
+        Me.BasicIndicator746.Location = New System.Drawing.Point(1292, 934)
+        Me.BasicIndicator746.Name = "BasicIndicator746"
+        Me.BasicIndicator746.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator746.OutlineWidth = 1
+        Me.BasicIndicator746.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator746.PLCAddressSelectColor2 = "EEM12625_02_1"
+        Me.BasicIndicator746.SelectColor2 = False
+        Me.BasicIndicator746.SelectColor3 = False
+        Me.BasicIndicator746.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator746.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator746.TabIndex = 6642
+        Me.BasicIndicator746.Text = "12625.2-1"
+        '
+        'BasicIndicator747
+        '
+        Me.BasicIndicator747.Color1 = System.Drawing.Color.Red
+        Me.BasicIndicator747.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator747.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator747.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator747.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator747.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator747.Location = New System.Drawing.Point(1457, 934)
+        Me.BasicIndicator747.Name = "BasicIndicator747"
+        Me.BasicIndicator747.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator747.OutlineWidth = 1
+        Me.BasicIndicator747.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator747.PLCAddressSelectColor3 = "MDR12625_02.Z1_JAM_BIT"
+        Me.BasicIndicator747.PLCAddressVisible = "MDR12625_02.Z1_JAM_BIT"
+        Me.BasicIndicator747.SelectColor2 = False
+        Me.BasicIndicator747.SelectColor3 = False
+        Me.BasicIndicator747.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator747.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator747.TabIndex = 6641
+        Me.BasicIndicator747.Text = "JAM "
+        '
+        'BasicIndicator748
+        '
+        Me.BasicIndicator748.Color1 = System.Drawing.Color.Red
+        Me.BasicIndicator748.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator748.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator748.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator748.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator748.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator748.Location = New System.Drawing.Point(1402, 934)
+        Me.BasicIndicator748.Name = "BasicIndicator748"
+        Me.BasicIndicator748.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator748.OutlineWidth = 1
+        Me.BasicIndicator748.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator748.PLCAddressSelectColor3 = "MDR12625_02.Z1_FAULT"
+        Me.BasicIndicator748.PLCAddressVisible = "MDR12625_02.Z1_FAULT"
+        Me.BasicIndicator748.SelectColor2 = False
+        Me.BasicIndicator748.SelectColor3 = False
+        Me.BasicIndicator748.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator748.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator748.TabIndex = 6640
+        Me.BasicIndicator748.Text = "FAULT"
+        '
+        'CheckBox59
+        '
+        Me.CheckBox59.AutoSize = True
+        Me.CheckBox59.ComComponent = Me.EthernetIPforCLXCom1
+        Me.CheckBox59.Font = New System.Drawing.Font("Elephant", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox59.ForeColor = System.Drawing.Color.GhostWhite
+        Me.CheckBox59.Location = New System.Drawing.Point(1161, 930)
+        Me.CheckBox59.Name = "CheckBox59"
+        Me.CheckBox59.PLCAddressCheckChanged = ""
+        Me.CheckBox59.PLCAddressChecked = ""
+        Me.CheckBox59.PLCAddressText = ""
+        Me.CheckBox59.PLCAddressVisible = ""
+        Me.CheckBox59.Size = New System.Drawing.Size(131, 18)
+        Me.CheckBox59.TabIndex = 6639
+        Me.CheckBox59.Text = "MDR 12625.2-1"
+        Me.CheckBox59.TextAlign = System.Drawing.ContentAlignment.BottomLeft
+        Me.CheckBox59.UseVisualStyleBackColor = True
+        '
+        'BasicIndicator749
+        '
+        Me.BasicIndicator749.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator749.Color2 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator749.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator749.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator749.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator749.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator749.Location = New System.Drawing.Point(1347, 934)
+        Me.BasicIndicator749.Name = "BasicIndicator749"
+        Me.BasicIndicator749.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator749.OutlineWidth = 1
+        Me.BasicIndicator749.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator749.PLCAddressSelectColor2 = "MDR12625_02.Z1_MTR_RUNNING"
+        Me.BasicIndicator749.PLCAddressVisible = "MDR12625_02.Z1_MTR_RUNNING"
+        Me.BasicIndicator749.SelectColor2 = False
+        Me.BasicIndicator749.SelectColor3 = False
+        Me.BasicIndicator749.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator749.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator749.TabIndex = 6638
+        Me.BasicIndicator749.Text = "RUN"
+        '
+        'BasicIndicator750
+        '
+        Me.BasicIndicator750.Color1 = System.Drawing.Color.Black
+        Me.BasicIndicator750.Color2 = System.Drawing.Color.Gold
+        Me.BasicIndicator750.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator750.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator750.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator750.ForeColor = System.Drawing.Color.GhostWhite
+        Me.BasicIndicator750.Location = New System.Drawing.Point(1649, 135)
+        Me.BasicIndicator750.Name = "BasicIndicator750"
+        Me.BasicIndicator750.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator750.OutlineWidth = 1
+        Me.BasicIndicator750.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator750.PLCAddressSelectColor2 = "EEM12615_02_4"
+        Me.BasicIndicator750.SelectColor2 = False
+        Me.BasicIndicator750.SelectColor3 = False
+        Me.BasicIndicator750.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator750.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator750.TabIndex = 6682
+        Me.BasicIndicator750.Text = "12625.6-4"
+        '
+        'BasicIndicator751
+        '
+        Me.BasicIndicator751.Color1 = System.Drawing.Color.Red
+        Me.BasicIndicator751.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator751.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator751.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator751.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator751.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator751.Location = New System.Drawing.Point(1814, 135)
+        Me.BasicIndicator751.Name = "BasicIndicator751"
+        Me.BasicIndicator751.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator751.OutlineWidth = 1
+        Me.BasicIndicator751.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator751.PLCAddressSelectColor3 = "MDR12625_06.Z4_JAM_BIT"
+        Me.BasicIndicator751.PLCAddressVisible = "MDR12625_06.Z4_JAM_BIT"
+        Me.BasicIndicator751.SelectColor2 = False
+        Me.BasicIndicator751.SelectColor3 = False
+        Me.BasicIndicator751.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator751.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator751.TabIndex = 6681
+        Me.BasicIndicator751.Text = "JAM "
+        '
+        'BasicIndicator752
+        '
+        Me.BasicIndicator752.Color1 = System.Drawing.Color.Red
+        Me.BasicIndicator752.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator752.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator752.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator752.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator752.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator752.Location = New System.Drawing.Point(1759, 135)
+        Me.BasicIndicator752.Name = "BasicIndicator752"
+        Me.BasicIndicator752.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator752.OutlineWidth = 1
+        Me.BasicIndicator752.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator752.PLCAddressSelectColor3 = "MDR12625_06.Z4_FAULT"
+        Me.BasicIndicator752.PLCAddressVisible = "MDR12625_06.Z4_FAULT"
+        Me.BasicIndicator752.SelectColor2 = False
+        Me.BasicIndicator752.SelectColor3 = False
+        Me.BasicIndicator752.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator752.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator752.TabIndex = 6680
+        Me.BasicIndicator752.Text = "FAULT"
+        '
+        'CheckBox60
+        '
+        Me.CheckBox60.AutoSize = True
+        Me.CheckBox60.ComComponent = Me.EthernetIPforCLXCom1
+        Me.CheckBox60.Font = New System.Drawing.Font("Elephant", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox60.ForeColor = System.Drawing.Color.GhostWhite
+        Me.CheckBox60.Location = New System.Drawing.Point(1519, 131)
+        Me.CheckBox60.Name = "CheckBox60"
+        Me.CheckBox60.PLCAddressCheckChanged = ""
+        Me.CheckBox60.PLCAddressChecked = ""
+        Me.CheckBox60.PLCAddressText = ""
+        Me.CheckBox60.PLCAddressVisible = ""
+        Me.CheckBox60.Size = New System.Drawing.Size(133, 18)
+        Me.CheckBox60.TabIndex = 6679
+        Me.CheckBox60.Text = "MDR 12625.6-4"
+        Me.CheckBox60.TextAlign = System.Drawing.ContentAlignment.BottomLeft
+        Me.CheckBox60.UseVisualStyleBackColor = True
+        '
+        'BasicIndicator753
+        '
+        Me.BasicIndicator753.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator753.Color2 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator753.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator753.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator753.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator753.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator753.Location = New System.Drawing.Point(1704, 135)
+        Me.BasicIndicator753.Name = "BasicIndicator753"
+        Me.BasicIndicator753.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator753.OutlineWidth = 1
+        Me.BasicIndicator753.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator753.PLCAddressSelectColor2 = "MDR12625_06.Z4_MTR_RUNNING"
+        Me.BasicIndicator753.PLCAddressVisible = "MDR12625_06.Z4_MTR_RUNNING"
+        Me.BasicIndicator753.SelectColor2 = False
+        Me.BasicIndicator753.SelectColor3 = False
+        Me.BasicIndicator753.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator753.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator753.TabIndex = 6678
+        Me.BasicIndicator753.Text = "RUN"
+        '
+        'BasicIndicator754
+        '
+        Me.BasicIndicator754.Color1 = System.Drawing.Color.Black
+        Me.BasicIndicator754.Color2 = System.Drawing.Color.Gold
+        Me.BasicIndicator754.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator754.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator754.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator754.ForeColor = System.Drawing.Color.GhostWhite
+        Me.BasicIndicator754.Location = New System.Drawing.Point(1649, 115)
+        Me.BasicIndicator754.Name = "BasicIndicator754"
+        Me.BasicIndicator754.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator754.OutlineWidth = 1
+        Me.BasicIndicator754.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator754.PLCAddressSelectColor2 = "EEM12625_06_3"
+        Me.BasicIndicator754.SelectColor2 = False
+        Me.BasicIndicator754.SelectColor3 = False
+        Me.BasicIndicator754.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator754.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator754.TabIndex = 6677
+        Me.BasicIndicator754.Text = "12625.6-3"
+        '
+        'BasicIndicator755
+        '
+        Me.BasicIndicator755.Color1 = System.Drawing.Color.Red
+        Me.BasicIndicator755.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator755.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator755.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator755.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator755.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator755.Location = New System.Drawing.Point(1814, 115)
+        Me.BasicIndicator755.Name = "BasicIndicator755"
+        Me.BasicIndicator755.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator755.OutlineWidth = 1
+        Me.BasicIndicator755.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator755.PLCAddressSelectColor3 = "MDR12625_06.Z3_JAM_BIT"
+        Me.BasicIndicator755.PLCAddressVisible = "MDR12625_06.Z3_JAM_BIT"
+        Me.BasicIndicator755.SelectColor2 = False
+        Me.BasicIndicator755.SelectColor3 = False
+        Me.BasicIndicator755.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator755.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator755.TabIndex = 6676
+        Me.BasicIndicator755.Text = "JAM "
+        '
+        'BasicIndicator756
+        '
+        Me.BasicIndicator756.Color1 = System.Drawing.Color.Red
+        Me.BasicIndicator756.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator756.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator756.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator756.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator756.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator756.Location = New System.Drawing.Point(1759, 115)
+        Me.BasicIndicator756.Name = "BasicIndicator756"
+        Me.BasicIndicator756.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator756.OutlineWidth = 1
+        Me.BasicIndicator756.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator756.PLCAddressSelectColor3 = "MDR12625_06.Z3_FAULT"
+        Me.BasicIndicator756.PLCAddressVisible = "MDR12625_06.Z3_FAULT"
+        Me.BasicIndicator756.SelectColor2 = False
+        Me.BasicIndicator756.SelectColor3 = False
+        Me.BasicIndicator756.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator756.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator756.TabIndex = 6675
+        Me.BasicIndicator756.Text = "FAULT"
+        '
+        'CheckBox61
+        '
+        Me.CheckBox61.AutoSize = True
+        Me.CheckBox61.ComComponent = Me.EthernetIPforCLXCom1
+        Me.CheckBox61.Font = New System.Drawing.Font("Elephant", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox61.ForeColor = System.Drawing.Color.GhostWhite
+        Me.CheckBox61.Location = New System.Drawing.Point(1519, 111)
+        Me.CheckBox61.Name = "CheckBox61"
+        Me.CheckBox61.PLCAddressCheckChanged = ""
+        Me.CheckBox61.PLCAddressChecked = ""
+        Me.CheckBox61.PLCAddressText = ""
+        Me.CheckBox61.PLCAddressVisible = ""
+        Me.CheckBox61.Size = New System.Drawing.Size(133, 18)
+        Me.CheckBox61.TabIndex = 6674
+        Me.CheckBox61.Text = "MDR 12625.6-3"
+        Me.CheckBox61.TextAlign = System.Drawing.ContentAlignment.BottomLeft
+        Me.CheckBox61.UseVisualStyleBackColor = True
+        '
+        'BasicIndicator757
+        '
+        Me.BasicIndicator757.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator757.Color2 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator757.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator757.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator757.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator757.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator757.Location = New System.Drawing.Point(1704, 115)
+        Me.BasicIndicator757.Name = "BasicIndicator757"
+        Me.BasicIndicator757.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator757.OutlineWidth = 1
+        Me.BasicIndicator757.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator757.PLCAddressSelectColor2 = "MDR12625_06.Z3_MTR_RUNNING"
+        Me.BasicIndicator757.PLCAddressVisible = "MDR12625_06.Z3_MTR_RUNNING"
+        Me.BasicIndicator757.SelectColor2 = False
+        Me.BasicIndicator757.SelectColor3 = False
+        Me.BasicIndicator757.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator757.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator757.TabIndex = 6673
+        Me.BasicIndicator757.Text = "RUN"
+        '
+        'BasicIndicator758
+        '
+        Me.BasicIndicator758.Color1 = System.Drawing.Color.Black
+        Me.BasicIndicator758.Color2 = System.Drawing.Color.Gold
+        Me.BasicIndicator758.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator758.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator758.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator758.ForeColor = System.Drawing.Color.GhostWhite
+        Me.BasicIndicator758.Location = New System.Drawing.Point(1649, 96)
+        Me.BasicIndicator758.Name = "BasicIndicator758"
+        Me.BasicIndicator758.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator758.OutlineWidth = 1
+        Me.BasicIndicator758.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator758.PLCAddressSelectColor2 = "EEM12625_06_2"
+        Me.BasicIndicator758.SelectColor2 = False
+        Me.BasicIndicator758.SelectColor3 = False
+        Me.BasicIndicator758.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator758.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator758.TabIndex = 6672
+        Me.BasicIndicator758.Text = "12625.6-2"
+        '
+        'BasicIndicator759
+        '
+        Me.BasicIndicator759.Color1 = System.Drawing.Color.Red
+        Me.BasicIndicator759.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator759.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator759.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator759.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator759.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator759.Location = New System.Drawing.Point(1814, 96)
+        Me.BasicIndicator759.Name = "BasicIndicator759"
+        Me.BasicIndicator759.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator759.OutlineWidth = 1
+        Me.BasicIndicator759.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator759.PLCAddressSelectColor3 = "MDR12625_06.Z2_JAM_BIT"
+        Me.BasicIndicator759.PLCAddressVisible = "MDR12625_06.Z2_JAM_BIT"
+        Me.BasicIndicator759.SelectColor2 = False
+        Me.BasicIndicator759.SelectColor3 = False
+        Me.BasicIndicator759.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator759.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator759.TabIndex = 6671
+        Me.BasicIndicator759.Text = "JAM "
+        '
+        'BasicIndicator760
+        '
+        Me.BasicIndicator760.Color1 = System.Drawing.Color.Red
+        Me.BasicIndicator760.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator760.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator760.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator760.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator760.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator760.Location = New System.Drawing.Point(1759, 96)
+        Me.BasicIndicator760.Name = "BasicIndicator760"
+        Me.BasicIndicator760.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator760.OutlineWidth = 1
+        Me.BasicIndicator760.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator760.PLCAddressSelectColor3 = "MDR12625_06.Z2_FAULT"
+        Me.BasicIndicator760.PLCAddressVisible = "MDR12625_06.Z2_FAULT"
+        Me.BasicIndicator760.SelectColor2 = False
+        Me.BasicIndicator760.SelectColor3 = False
+        Me.BasicIndicator760.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator760.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator760.TabIndex = 6670
+        Me.BasicIndicator760.Text = "FAULT"
+        '
+        'CheckBox62
+        '
+        Me.CheckBox62.AutoSize = True
+        Me.CheckBox62.ComComponent = Me.EthernetIPforCLXCom1
+        Me.CheckBox62.Font = New System.Drawing.Font("Elephant", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox62.ForeColor = System.Drawing.Color.GhostWhite
+        Me.CheckBox62.Location = New System.Drawing.Point(1519, 92)
+        Me.CheckBox62.Name = "CheckBox62"
+        Me.CheckBox62.PLCAddressCheckChanged = ""
+        Me.CheckBox62.PLCAddressChecked = ""
+        Me.CheckBox62.PLCAddressText = ""
+        Me.CheckBox62.PLCAddressVisible = ""
+        Me.CheckBox62.Size = New System.Drawing.Size(133, 18)
+        Me.CheckBox62.TabIndex = 6669
+        Me.CheckBox62.Text = "MDR 12625.6-2"
+        Me.CheckBox62.TextAlign = System.Drawing.ContentAlignment.BottomLeft
+        Me.CheckBox62.UseVisualStyleBackColor = True
+        '
+        'BasicIndicator761
+        '
+        Me.BasicIndicator761.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator761.Color2 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator761.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator761.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator761.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator761.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator761.Location = New System.Drawing.Point(1704, 96)
+        Me.BasicIndicator761.Name = "BasicIndicator761"
+        Me.BasicIndicator761.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator761.OutlineWidth = 1
+        Me.BasicIndicator761.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator761.PLCAddressSelectColor2 = "MDR12625_06.Z2_MTR_RUNNING"
+        Me.BasicIndicator761.PLCAddressVisible = "MDR12625_06.Z2_MTR_RUNNING"
+        Me.BasicIndicator761.SelectColor2 = False
+        Me.BasicIndicator761.SelectColor3 = False
+        Me.BasicIndicator761.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator761.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator761.TabIndex = 6668
+        Me.BasicIndicator761.Text = "RUN"
+        '
+        'BasicIndicator762
+        '
+        Me.BasicIndicator762.Color1 = System.Drawing.Color.Black
+        Me.BasicIndicator762.Color2 = System.Drawing.Color.Gold
+        Me.BasicIndicator762.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator762.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator762.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator762.ForeColor = System.Drawing.Color.GhostWhite
+        Me.BasicIndicator762.Location = New System.Drawing.Point(1650, 76)
+        Me.BasicIndicator762.Name = "BasicIndicator762"
+        Me.BasicIndicator762.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator762.OutlineWidth = 1
+        Me.BasicIndicator762.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator762.PLCAddressSelectColor2 = "EEM12625_06_1"
+        Me.BasicIndicator762.SelectColor2 = False
+        Me.BasicIndicator762.SelectColor3 = False
+        Me.BasicIndicator762.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator762.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator762.TabIndex = 6667
+        Me.BasicIndicator762.Text = "12625.6-1"
+        '
+        'BasicIndicator763
+        '
+        Me.BasicIndicator763.Color1 = System.Drawing.Color.Red
+        Me.BasicIndicator763.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator763.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator763.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator763.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator763.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator763.Location = New System.Drawing.Point(1815, 76)
+        Me.BasicIndicator763.Name = "BasicIndicator763"
+        Me.BasicIndicator763.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator763.OutlineWidth = 1
+        Me.BasicIndicator763.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator763.PLCAddressSelectColor3 = "MDR12625_06.Z1_JAM_BIT"
+        Me.BasicIndicator763.PLCAddressVisible = "MDR12625_06.Z1_JAM_BIT"
+        Me.BasicIndicator763.SelectColor2 = False
+        Me.BasicIndicator763.SelectColor3 = False
+        Me.BasicIndicator763.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator763.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator763.TabIndex = 6666
+        Me.BasicIndicator763.Text = "JAM "
+        '
+        'BasicIndicator764
+        '
+        Me.BasicIndicator764.Color1 = System.Drawing.Color.Red
+        Me.BasicIndicator764.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator764.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator764.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator764.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator764.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator764.Location = New System.Drawing.Point(1760, 76)
+        Me.BasicIndicator764.Name = "BasicIndicator764"
+        Me.BasicIndicator764.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator764.OutlineWidth = 1
+        Me.BasicIndicator764.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator764.PLCAddressSelectColor3 = "MDR12625_06.Z1_FAULT"
+        Me.BasicIndicator764.PLCAddressVisible = "MDR12625_06.Z1_FAULT"
+        Me.BasicIndicator764.SelectColor2 = False
+        Me.BasicIndicator764.SelectColor3 = False
+        Me.BasicIndicator764.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator764.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator764.TabIndex = 6665
+        Me.BasicIndicator764.Text = "FAULT"
+        '
+        'CheckBox63
+        '
+        Me.CheckBox63.AutoSize = True
+        Me.CheckBox63.ComComponent = Me.EthernetIPforCLXCom1
+        Me.CheckBox63.Font = New System.Drawing.Font("Elephant", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox63.ForeColor = System.Drawing.Color.GhostWhite
+        Me.CheckBox63.Location = New System.Drawing.Point(1519, 72)
+        Me.CheckBox63.Name = "CheckBox63"
+        Me.CheckBox63.PLCAddressCheckChanged = ""
+        Me.CheckBox63.PLCAddressChecked = ""
+        Me.CheckBox63.PLCAddressText = ""
+        Me.CheckBox63.PLCAddressVisible = ""
+        Me.CheckBox63.Size = New System.Drawing.Size(131, 18)
+        Me.CheckBox63.TabIndex = 6664
+        Me.CheckBox63.Text = "MDR 12625.6-1"
+        Me.CheckBox63.TextAlign = System.Drawing.ContentAlignment.BottomLeft
+        Me.CheckBox63.UseVisualStyleBackColor = True
+        '
+        'BasicIndicator765
+        '
+        Me.BasicIndicator765.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator765.Color2 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator765.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator765.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator765.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator765.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator765.Location = New System.Drawing.Point(1705, 76)
+        Me.BasicIndicator765.Name = "BasicIndicator765"
+        Me.BasicIndicator765.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator765.OutlineWidth = 1
+        Me.BasicIndicator765.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator765.PLCAddressSelectColor2 = "MDR12625_06.Z1_MTR_RUNNING"
+        Me.BasicIndicator765.PLCAddressVisible = "MDR12625_06.Z1_MTR_RUNNING"
+        Me.BasicIndicator765.SelectColor2 = False
+        Me.BasicIndicator765.SelectColor3 = False
+        Me.BasicIndicator765.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator765.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator765.TabIndex = 6663
+        Me.BasicIndicator765.Text = "RUN"
+        '
+        'BasicIndicator766
+        '
+        Me.BasicIndicator766.Color1 = System.Drawing.Color.Black
+        Me.BasicIndicator766.Color2 = System.Drawing.Color.Gold
+        Me.BasicIndicator766.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator766.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator766.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator766.ForeColor = System.Drawing.Color.GhostWhite
+        Me.BasicIndicator766.Location = New System.Drawing.Point(1649, 234)
+        Me.BasicIndicator766.Name = "BasicIndicator766"
+        Me.BasicIndicator766.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator766.OutlineWidth = 1
+        Me.BasicIndicator766.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator766.PLCAddressSelectColor2 = "EEM12615_02_4"
+        Me.BasicIndicator766.SelectColor2 = False
+        Me.BasicIndicator766.SelectColor3 = False
+        Me.BasicIndicator766.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator766.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator766.TabIndex = 6702
+        Me.BasicIndicator766.Text = "12625.8-4"
+        '
+        'BasicIndicator767
+        '
+        Me.BasicIndicator767.Color1 = System.Drawing.Color.Red
+        Me.BasicIndicator767.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator767.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator767.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator767.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator767.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator767.Location = New System.Drawing.Point(1814, 234)
+        Me.BasicIndicator767.Name = "BasicIndicator767"
+        Me.BasicIndicator767.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator767.OutlineWidth = 1
+        Me.BasicIndicator767.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator767.PLCAddressSelectColor3 = "MDR12625_08.Z4_JAM_BIT"
+        Me.BasicIndicator767.PLCAddressVisible = "MDR12625_08.Z4_JAM_BIT"
+        Me.BasicIndicator767.SelectColor2 = False
+        Me.BasicIndicator767.SelectColor3 = False
+        Me.BasicIndicator767.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator767.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator767.TabIndex = 6701
+        Me.BasicIndicator767.Text = "JAM "
+        '
+        'BasicIndicator768
+        '
+        Me.BasicIndicator768.Color1 = System.Drawing.Color.Red
+        Me.BasicIndicator768.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator768.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator768.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator768.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator768.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator768.Location = New System.Drawing.Point(1759, 234)
+        Me.BasicIndicator768.Name = "BasicIndicator768"
+        Me.BasicIndicator768.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator768.OutlineWidth = 1
+        Me.BasicIndicator768.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator768.PLCAddressSelectColor3 = "MDR12625_08.Z4_FAULT"
+        Me.BasicIndicator768.PLCAddressVisible = "MDR12625_08.Z4_FAULT"
+        Me.BasicIndicator768.SelectColor2 = False
+        Me.BasicIndicator768.SelectColor3 = False
+        Me.BasicIndicator768.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator768.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator768.TabIndex = 6700
+        Me.BasicIndicator768.Text = "FAULT"
+        '
+        'CheckBox64
+        '
+        Me.CheckBox64.AutoSize = True
+        Me.CheckBox64.ComComponent = Me.EthernetIPforCLXCom1
+        Me.CheckBox64.Font = New System.Drawing.Font("Elephant", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox64.ForeColor = System.Drawing.Color.GhostWhite
+        Me.CheckBox64.Location = New System.Drawing.Point(1519, 230)
+        Me.CheckBox64.Name = "CheckBox64"
+        Me.CheckBox64.PLCAddressCheckChanged = ""
+        Me.CheckBox64.PLCAddressChecked = ""
+        Me.CheckBox64.PLCAddressText = ""
+        Me.CheckBox64.PLCAddressVisible = ""
+        Me.CheckBox64.Size = New System.Drawing.Size(133, 18)
+        Me.CheckBox64.TabIndex = 6699
+        Me.CheckBox64.Text = "MDR 12625.8-4"
+        Me.CheckBox64.TextAlign = System.Drawing.ContentAlignment.BottomLeft
+        Me.CheckBox64.UseVisualStyleBackColor = True
+        '
+        'BasicIndicator769
+        '
+        Me.BasicIndicator769.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator769.Color2 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator769.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator769.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator769.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator769.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator769.Location = New System.Drawing.Point(1704, 234)
+        Me.BasicIndicator769.Name = "BasicIndicator769"
+        Me.BasicIndicator769.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator769.OutlineWidth = 1
+        Me.BasicIndicator769.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator769.PLCAddressSelectColor2 = "MDR12625_08.Z4_MTR_RUNNING"
+        Me.BasicIndicator769.PLCAddressVisible = "MDR12625_08.Z4_MTR_RUNNING"
+        Me.BasicIndicator769.SelectColor2 = False
+        Me.BasicIndicator769.SelectColor3 = False
+        Me.BasicIndicator769.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator769.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator769.TabIndex = 6698
+        Me.BasicIndicator769.Text = "RUN"
+        '
+        'BasicIndicator770
+        '
+        Me.BasicIndicator770.Color1 = System.Drawing.Color.Black
+        Me.BasicIndicator770.Color2 = System.Drawing.Color.Gold
+        Me.BasicIndicator770.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator770.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator770.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator770.ForeColor = System.Drawing.Color.GhostWhite
+        Me.BasicIndicator770.Location = New System.Drawing.Point(1649, 214)
+        Me.BasicIndicator770.Name = "BasicIndicator770"
+        Me.BasicIndicator770.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator770.OutlineWidth = 1
+        Me.BasicIndicator770.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator770.PLCAddressSelectColor2 = "EEM12625_08_3"
+        Me.BasicIndicator770.SelectColor2 = False
+        Me.BasicIndicator770.SelectColor3 = False
+        Me.BasicIndicator770.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator770.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator770.TabIndex = 6697
+        Me.BasicIndicator770.Text = "12625.8-3"
+        '
+        'BasicIndicator771
+        '
+        Me.BasicIndicator771.Color1 = System.Drawing.Color.Red
+        Me.BasicIndicator771.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator771.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator771.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator771.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator771.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator771.Location = New System.Drawing.Point(1814, 214)
+        Me.BasicIndicator771.Name = "BasicIndicator771"
+        Me.BasicIndicator771.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator771.OutlineWidth = 1
+        Me.BasicIndicator771.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator771.PLCAddressSelectColor3 = "MDR12625_08.Z3_JAM_BIT"
+        Me.BasicIndicator771.PLCAddressVisible = "MDR12625_08.Z3_JAM_BIT"
+        Me.BasicIndicator771.SelectColor2 = False
+        Me.BasicIndicator771.SelectColor3 = False
+        Me.BasicIndicator771.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator771.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator771.TabIndex = 6696
+        Me.BasicIndicator771.Text = "JAM "
+        '
+        'BasicIndicator772
+        '
+        Me.BasicIndicator772.Color1 = System.Drawing.Color.Red
+        Me.BasicIndicator772.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator772.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator772.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator772.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator772.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator772.Location = New System.Drawing.Point(1759, 214)
+        Me.BasicIndicator772.Name = "BasicIndicator772"
+        Me.BasicIndicator772.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator772.OutlineWidth = 1
+        Me.BasicIndicator772.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator772.PLCAddressSelectColor3 = "MDR12625_08.Z3_FAULT"
+        Me.BasicIndicator772.PLCAddressVisible = "MDR12625_08.Z3_FAULT"
+        Me.BasicIndicator772.SelectColor2 = False
+        Me.BasicIndicator772.SelectColor3 = False
+        Me.BasicIndicator772.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator772.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator772.TabIndex = 6695
+        Me.BasicIndicator772.Text = "FAULT"
+        '
+        'CheckBox65
+        '
+        Me.CheckBox65.AutoSize = True
+        Me.CheckBox65.ComComponent = Me.EthernetIPforCLXCom1
+        Me.CheckBox65.Font = New System.Drawing.Font("Elephant", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox65.ForeColor = System.Drawing.Color.GhostWhite
+        Me.CheckBox65.Location = New System.Drawing.Point(1519, 210)
+        Me.CheckBox65.Name = "CheckBox65"
+        Me.CheckBox65.PLCAddressCheckChanged = ""
+        Me.CheckBox65.PLCAddressChecked = ""
+        Me.CheckBox65.PLCAddressText = ""
+        Me.CheckBox65.PLCAddressVisible = ""
+        Me.CheckBox65.Size = New System.Drawing.Size(133, 18)
+        Me.CheckBox65.TabIndex = 6694
+        Me.CheckBox65.Text = "MDR 12625.8-3"
+        Me.CheckBox65.TextAlign = System.Drawing.ContentAlignment.BottomLeft
+        Me.CheckBox65.UseVisualStyleBackColor = True
+        '
+        'BasicIndicator773
+        '
+        Me.BasicIndicator773.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator773.Color2 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator773.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator773.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator773.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator773.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator773.Location = New System.Drawing.Point(1704, 214)
+        Me.BasicIndicator773.Name = "BasicIndicator773"
+        Me.BasicIndicator773.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator773.OutlineWidth = 1
+        Me.BasicIndicator773.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator773.PLCAddressSelectColor2 = "MDR12625_08.Z3_MTR_RUNNING"
+        Me.BasicIndicator773.PLCAddressVisible = "MDR12625_08.Z3_MTR_RUNNING"
+        Me.BasicIndicator773.SelectColor2 = False
+        Me.BasicIndicator773.SelectColor3 = False
+        Me.BasicIndicator773.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator773.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator773.TabIndex = 6693
+        Me.BasicIndicator773.Text = "RUN"
+        '
+        'BasicIndicator774
+        '
+        Me.BasicIndicator774.Color1 = System.Drawing.Color.Black
+        Me.BasicIndicator774.Color2 = System.Drawing.Color.Gold
+        Me.BasicIndicator774.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator774.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator774.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator774.ForeColor = System.Drawing.Color.GhostWhite
+        Me.BasicIndicator774.Location = New System.Drawing.Point(1649, 195)
+        Me.BasicIndicator774.Name = "BasicIndicator774"
+        Me.BasicIndicator774.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator774.OutlineWidth = 1
+        Me.BasicIndicator774.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator774.PLCAddressSelectColor2 = "EEM12625_08_2"
+        Me.BasicIndicator774.SelectColor2 = False
+        Me.BasicIndicator774.SelectColor3 = False
+        Me.BasicIndicator774.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator774.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator774.TabIndex = 6692
+        Me.BasicIndicator774.Text = "12625.8-2"
+        '
+        'BasicIndicator775
+        '
+        Me.BasicIndicator775.Color1 = System.Drawing.Color.Red
+        Me.BasicIndicator775.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator775.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator775.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator775.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator775.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator775.Location = New System.Drawing.Point(1814, 195)
+        Me.BasicIndicator775.Name = "BasicIndicator775"
+        Me.BasicIndicator775.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator775.OutlineWidth = 1
+        Me.BasicIndicator775.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator775.PLCAddressSelectColor3 = "MDR12625_08.Z2_JAM_BIT"
+        Me.BasicIndicator775.PLCAddressVisible = "MDR12625_08.Z2_JAM_BIT"
+        Me.BasicIndicator775.SelectColor2 = False
+        Me.BasicIndicator775.SelectColor3 = False
+        Me.BasicIndicator775.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator775.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator775.TabIndex = 6691
+        Me.BasicIndicator775.Text = "JAM "
+        '
+        'BasicIndicator776
+        '
+        Me.BasicIndicator776.Color1 = System.Drawing.Color.Red
+        Me.BasicIndicator776.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator776.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator776.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator776.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator776.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator776.Location = New System.Drawing.Point(1759, 195)
+        Me.BasicIndicator776.Name = "BasicIndicator776"
+        Me.BasicIndicator776.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator776.OutlineWidth = 1
+        Me.BasicIndicator776.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator776.PLCAddressSelectColor3 = "MDR12625_08.Z2_FAULT"
+        Me.BasicIndicator776.PLCAddressVisible = "MDR12625_08.Z2_FAULT"
+        Me.BasicIndicator776.SelectColor2 = False
+        Me.BasicIndicator776.SelectColor3 = False
+        Me.BasicIndicator776.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator776.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator776.TabIndex = 6690
+        Me.BasicIndicator776.Text = "FAULT"
+        '
+        'CheckBox66
+        '
+        Me.CheckBox66.AutoSize = True
+        Me.CheckBox66.ComComponent = Me.EthernetIPforCLXCom1
+        Me.CheckBox66.Font = New System.Drawing.Font("Elephant", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox66.ForeColor = System.Drawing.Color.GhostWhite
+        Me.CheckBox66.Location = New System.Drawing.Point(1519, 191)
+        Me.CheckBox66.Name = "CheckBox66"
+        Me.CheckBox66.PLCAddressCheckChanged = ""
+        Me.CheckBox66.PLCAddressChecked = ""
+        Me.CheckBox66.PLCAddressText = ""
+        Me.CheckBox66.PLCAddressVisible = ""
+        Me.CheckBox66.Size = New System.Drawing.Size(133, 18)
+        Me.CheckBox66.TabIndex = 6689
+        Me.CheckBox66.Text = "MDR 12625.8-2"
+        Me.CheckBox66.TextAlign = System.Drawing.ContentAlignment.BottomLeft
+        Me.CheckBox66.UseVisualStyleBackColor = True
+        '
+        'BasicIndicator777
+        '
+        Me.BasicIndicator777.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator777.Color2 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator777.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator777.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator777.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator777.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator777.Location = New System.Drawing.Point(1704, 195)
+        Me.BasicIndicator777.Name = "BasicIndicator777"
+        Me.BasicIndicator777.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator777.OutlineWidth = 1
+        Me.BasicIndicator777.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator777.PLCAddressSelectColor2 = "MDR12625_08.Z2_MTR_RUNNING"
+        Me.BasicIndicator777.PLCAddressVisible = "MDR12625_08.Z2_MTR_RUNNING"
+        Me.BasicIndicator777.SelectColor2 = False
+        Me.BasicIndicator777.SelectColor3 = False
+        Me.BasicIndicator777.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator777.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator777.TabIndex = 6688
+        Me.BasicIndicator777.Text = "RUN"
+        '
+        'BasicIndicator778
+        '
+        Me.BasicIndicator778.Color1 = System.Drawing.Color.Black
+        Me.BasicIndicator778.Color2 = System.Drawing.Color.Gold
+        Me.BasicIndicator778.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator778.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator778.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator778.ForeColor = System.Drawing.Color.GhostWhite
+        Me.BasicIndicator778.Location = New System.Drawing.Point(1650, 175)
+        Me.BasicIndicator778.Name = "BasicIndicator778"
+        Me.BasicIndicator778.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator778.OutlineWidth = 1
+        Me.BasicIndicator778.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator778.PLCAddressSelectColor2 = "EEM12625_08_1"
+        Me.BasicIndicator778.SelectColor2 = False
+        Me.BasicIndicator778.SelectColor3 = False
+        Me.BasicIndicator778.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator778.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator778.TabIndex = 6687
+        Me.BasicIndicator778.Text = "12625.8-1"
+        '
+        'BasicIndicator779
+        '
+        Me.BasicIndicator779.Color1 = System.Drawing.Color.Red
+        Me.BasicIndicator779.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator779.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator779.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator779.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator779.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator779.Location = New System.Drawing.Point(1815, 175)
+        Me.BasicIndicator779.Name = "BasicIndicator779"
+        Me.BasicIndicator779.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator779.OutlineWidth = 1
+        Me.BasicIndicator779.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator779.PLCAddressSelectColor3 = "MDR12625_08.Z1_JAM_BIT"
+        Me.BasicIndicator779.PLCAddressVisible = "MDR12625_08.Z1_JAM_BIT"
+        Me.BasicIndicator779.SelectColor2 = False
+        Me.BasicIndicator779.SelectColor3 = False
+        Me.BasicIndicator779.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator779.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator779.TabIndex = 6686
+        Me.BasicIndicator779.Text = "JAM "
+        '
+        'BasicIndicator780
+        '
+        Me.BasicIndicator780.Color1 = System.Drawing.Color.Red
+        Me.BasicIndicator780.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator780.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator780.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator780.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator780.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator780.Location = New System.Drawing.Point(1760, 175)
+        Me.BasicIndicator780.Name = "BasicIndicator780"
+        Me.BasicIndicator780.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator780.OutlineWidth = 1
+        Me.BasicIndicator780.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator780.PLCAddressSelectColor3 = "MDR12625_08.Z1_FAULT"
+        Me.BasicIndicator780.PLCAddressVisible = "MDR12625_08.Z1_FAULT"
+        Me.BasicIndicator780.SelectColor2 = False
+        Me.BasicIndicator780.SelectColor3 = False
+        Me.BasicIndicator780.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator780.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator780.TabIndex = 6685
+        Me.BasicIndicator780.Text = "FAULT"
+        '
+        'CheckBox67
+        '
+        Me.CheckBox67.AutoSize = True
+        Me.CheckBox67.ComComponent = Me.EthernetIPforCLXCom1
+        Me.CheckBox67.Font = New System.Drawing.Font("Elephant", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox67.ForeColor = System.Drawing.Color.GhostWhite
+        Me.CheckBox67.Location = New System.Drawing.Point(1519, 171)
+        Me.CheckBox67.Name = "CheckBox67"
+        Me.CheckBox67.PLCAddressCheckChanged = ""
+        Me.CheckBox67.PLCAddressChecked = ""
+        Me.CheckBox67.PLCAddressText = ""
+        Me.CheckBox67.PLCAddressVisible = ""
+        Me.CheckBox67.Size = New System.Drawing.Size(131, 18)
+        Me.CheckBox67.TabIndex = 6684
+        Me.CheckBox67.Text = "MDR 12625.8-1"
+        Me.CheckBox67.TextAlign = System.Drawing.ContentAlignment.BottomLeft
+        Me.CheckBox67.UseVisualStyleBackColor = True
+        '
+        'BasicIndicator781
+        '
+        Me.BasicIndicator781.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator781.Color2 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator781.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator781.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator781.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator781.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator781.Location = New System.Drawing.Point(1705, 175)
+        Me.BasicIndicator781.Name = "BasicIndicator781"
+        Me.BasicIndicator781.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator781.OutlineWidth = 1
+        Me.BasicIndicator781.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator781.PLCAddressSelectColor2 = "MDR12625_08.Z1_MTR_RUNNING"
+        Me.BasicIndicator781.PLCAddressVisible = "MDR12625_08.Z1_MTR_RUNNING"
+        Me.BasicIndicator781.SelectColor2 = False
+        Me.BasicIndicator781.SelectColor3 = False
+        Me.BasicIndicator781.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator781.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator781.TabIndex = 6683
+        Me.BasicIndicator781.Text = "RUN"
+        '
+        'BasicIndicator782
+        '
+        Me.BasicIndicator782.Color1 = System.Drawing.Color.Black
+        Me.BasicIndicator782.Color2 = System.Drawing.Color.Gold
+        Me.BasicIndicator782.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator782.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator782.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator782.ForeColor = System.Drawing.Color.GhostWhite
+        Me.BasicIndicator782.Location = New System.Drawing.Point(1706, 250)
+        Me.BasicIndicator782.Name = "BasicIndicator782"
+        Me.BasicIndicator782.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator782.OutlineWidth = 1
+        Me.BasicIndicator782.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator782.PLCAddressSelectColor2 = "EEM12615_02_6"
+        Me.BasicIndicator782.SelectColor2 = False
+        Me.BasicIndicator782.SelectColor3 = False
+        Me.BasicIndicator782.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator782.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator782.TabIndex = 6722
+        Me.BasicIndicator782.Text = "DOWN"
+        '
+        'BasicIndicator786
+        '
+        Me.BasicIndicator786.Color1 = System.Drawing.Color.Black
+        Me.BasicIndicator786.Color2 = System.Drawing.Color.Gold
+        Me.BasicIndicator786.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator786.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator786.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator786.ForeColor = System.Drawing.Color.GhostWhite
+        Me.BasicIndicator786.Location = New System.Drawing.Point(1649, 251)
+        Me.BasicIndicator786.Name = "BasicIndicator786"
+        Me.BasicIndicator786.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator786.OutlineWidth = 1
+        Me.BasicIndicator786.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator786.PLCAddressSelectColor2 = "EEM12625_08_5"
+        Me.BasicIndicator786.SelectColor2 = False
+        Me.BasicIndicator786.SelectColor3 = False
+        Me.BasicIndicator786.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator786.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator786.TabIndex = 6717
+        Me.BasicIndicator786.Text = "UP"
+        '
+        'BasicIndicator790
+        '
+        Me.BasicIndicator790.Color1 = System.Drawing.Color.Black
+        Me.BasicIndicator790.Color2 = System.Drawing.Color.Gold
+        Me.BasicIndicator790.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator790.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator790.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator790.ForeColor = System.Drawing.Color.GhostWhite
+        Me.BasicIndicator790.Location = New System.Drawing.Point(1653, 271)
+        Me.BasicIndicator790.Name = "BasicIndicator790"
+        Me.BasicIndicator790.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator790.OutlineWidth = 1
+        Me.BasicIndicator790.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator790.PLCAddressSelectColor2 = "EEM12630_02_1"
+        Me.BasicIndicator790.SelectColor2 = False
+        Me.BasicIndicator790.SelectColor3 = False
+        Me.BasicIndicator790.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator790.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator790.TabIndex = 6727
+        Me.BasicIndicator790.Text = "12630.2-1"
+        '
+        'BasicIndicator791
+        '
+        Me.BasicIndicator791.Color1 = System.Drawing.Color.Red
+        Me.BasicIndicator791.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator791.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator791.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator791.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator791.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator791.Location = New System.Drawing.Point(1818, 271)
+        Me.BasicIndicator791.Name = "BasicIndicator791"
+        Me.BasicIndicator791.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator791.OutlineWidth = 1
+        Me.BasicIndicator791.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator791.PLCAddressSelectColor3 = "MDR12630_02.Z1_JAM_BIT"
+        Me.BasicIndicator791.PLCAddressVisible = "MDR12630_02.Z1_JAM_BIT"
+        Me.BasicIndicator791.SelectColor2 = False
+        Me.BasicIndicator791.SelectColor3 = False
+        Me.BasicIndicator791.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator791.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator791.TabIndex = 6726
+        Me.BasicIndicator791.Text = "JAM "
+        '
+        'BasicIndicator792
+        '
+        Me.BasicIndicator792.Color1 = System.Drawing.Color.Red
+        Me.BasicIndicator792.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator792.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator792.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator792.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator792.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator792.Location = New System.Drawing.Point(1763, 271)
+        Me.BasicIndicator792.Name = "BasicIndicator792"
+        Me.BasicIndicator792.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator792.OutlineWidth = 1
+        Me.BasicIndicator792.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator792.PLCAddressSelectColor3 = "MDR12630_02.Z1_FAULT"
+        Me.BasicIndicator792.PLCAddressVisible = "MDR12630_02.Z1_FAULT"
+        Me.BasicIndicator792.SelectColor2 = False
+        Me.BasicIndicator792.SelectColor3 = False
+        Me.BasicIndicator792.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator792.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator792.TabIndex = 6725
+        Me.BasicIndicator792.Text = "FAULT"
+        '
+        'CheckBox70
+        '
+        Me.CheckBox70.AutoSize = True
+        Me.CheckBox70.ComComponent = Me.EthernetIPforCLXCom1
+        Me.CheckBox70.Font = New System.Drawing.Font("Elephant", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox70.ForeColor = System.Drawing.Color.GhostWhite
+        Me.CheckBox70.Location = New System.Drawing.Point(1522, 267)
+        Me.CheckBox70.Name = "CheckBox70"
+        Me.CheckBox70.PLCAddressCheckChanged = ""
+        Me.CheckBox70.PLCAddressChecked = ""
+        Me.CheckBox70.PLCAddressText = ""
+        Me.CheckBox70.PLCAddressVisible = ""
+        Me.CheckBox70.Size = New System.Drawing.Size(132, 18)
+        Me.CheckBox70.TabIndex = 6724
+        Me.CheckBox70.Text = "MDR 12630.2-1"
+        Me.CheckBox70.TextAlign = System.Drawing.ContentAlignment.BottomLeft
+        Me.CheckBox70.UseVisualStyleBackColor = True
+        '
+        'BasicIndicator793
+        '
+        Me.BasicIndicator793.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator793.Color2 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator793.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator793.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator793.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator793.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator793.Location = New System.Drawing.Point(1708, 271)
+        Me.BasicIndicator793.Name = "BasicIndicator793"
+        Me.BasicIndicator793.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator793.OutlineWidth = 1
+        Me.BasicIndicator793.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator793.PLCAddressSelectColor2 = "MDR12630_02.Z1_MTR_RUNNING"
+        Me.BasicIndicator793.PLCAddressVisible = "MDR12630_02.Z1_MTR_RUNNING"
+        Me.BasicIndicator793.SelectColor2 = False
+        Me.BasicIndicator793.SelectColor3 = False
+        Me.BasicIndicator793.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator793.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator793.TabIndex = 6723
+        Me.BasicIndicator793.Text = "RUN"
+        '
+        'BasicIndicator794
+        '
+        Me.BasicIndicator794.Color1 = System.Drawing.Color.Black
+        Me.BasicIndicator794.Color2 = System.Drawing.Color.Gold
+        Me.BasicIndicator794.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator794.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator794.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator794.ForeColor = System.Drawing.Color.GhostWhite
+        Me.BasicIndicator794.Location = New System.Drawing.Point(1651, 349)
+        Me.BasicIndicator794.Name = "BasicIndicator794"
+        Me.BasicIndicator794.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator794.OutlineWidth = 1
+        Me.BasicIndicator794.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator794.PLCAddressSelectColor2 = "EEM12615_02_4"
+        Me.BasicIndicator794.SelectColor2 = False
+        Me.BasicIndicator794.SelectColor3 = False
+        Me.BasicIndicator794.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator794.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator794.TabIndex = 6747
+        Me.BasicIndicator794.Text = "12630.3-4"
+        '
+        'BasicIndicator795
+        '
+        Me.BasicIndicator795.Color1 = System.Drawing.Color.Red
+        Me.BasicIndicator795.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator795.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator795.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator795.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator795.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator795.Location = New System.Drawing.Point(1816, 349)
+        Me.BasicIndicator795.Name = "BasicIndicator795"
+        Me.BasicIndicator795.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator795.OutlineWidth = 1
+        Me.BasicIndicator795.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator795.PLCAddressSelectColor3 = "MDR12630_03.Z4_JAM_BIT"
+        Me.BasicIndicator795.PLCAddressVisible = "MDR12630_03.Z4_JAM_BIT"
+        Me.BasicIndicator795.SelectColor2 = False
+        Me.BasicIndicator795.SelectColor3 = False
+        Me.BasicIndicator795.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator795.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator795.TabIndex = 6746
+        Me.BasicIndicator795.Text = "JAM "
+        '
+        'BasicIndicator796
+        '
+        Me.BasicIndicator796.Color1 = System.Drawing.Color.Red
+        Me.BasicIndicator796.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator796.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator796.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator796.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator796.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator796.Location = New System.Drawing.Point(1761, 349)
+        Me.BasicIndicator796.Name = "BasicIndicator796"
+        Me.BasicIndicator796.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator796.OutlineWidth = 1
+        Me.BasicIndicator796.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator796.PLCAddressSelectColor3 = "MDR12630_03.Z4_FAULT"
+        Me.BasicIndicator796.PLCAddressVisible = "MDR12630_03.Z4_FAULT"
+        Me.BasicIndicator796.SelectColor2 = False
+        Me.BasicIndicator796.SelectColor3 = False
+        Me.BasicIndicator796.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator796.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator796.TabIndex = 6745
+        Me.BasicIndicator796.Text = "FAULT"
+        '
+        'CheckBox71
+        '
+        Me.CheckBox71.AutoSize = True
+        Me.CheckBox71.ComComponent = Me.EthernetIPforCLXCom1
+        Me.CheckBox71.Font = New System.Drawing.Font("Elephant", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox71.ForeColor = System.Drawing.Color.GhostWhite
+        Me.CheckBox71.Location = New System.Drawing.Point(1521, 345)
+        Me.CheckBox71.Name = "CheckBox71"
+        Me.CheckBox71.PLCAddressCheckChanged = ""
+        Me.CheckBox71.PLCAddressChecked = ""
+        Me.CheckBox71.PLCAddressText = ""
+        Me.CheckBox71.PLCAddressVisible = ""
+        Me.CheckBox71.Size = New System.Drawing.Size(134, 18)
+        Me.CheckBox71.TabIndex = 6744
+        Me.CheckBox71.Text = "MDR 12630.3-4"
+        Me.CheckBox71.TextAlign = System.Drawing.ContentAlignment.BottomLeft
+        Me.CheckBox71.UseVisualStyleBackColor = True
+        '
+        'BasicIndicator797
+        '
+        Me.BasicIndicator797.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator797.Color2 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator797.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator797.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator797.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator797.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator797.Location = New System.Drawing.Point(1706, 349)
+        Me.BasicIndicator797.Name = "BasicIndicator797"
+        Me.BasicIndicator797.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator797.OutlineWidth = 1
+        Me.BasicIndicator797.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator797.PLCAddressSelectColor2 = "MDR12630_03.Z4_MTR_RUNNING"
+        Me.BasicIndicator797.PLCAddressVisible = "MDR12630_03.Z4_MTR_RUNNING"
+        Me.BasicIndicator797.SelectColor2 = False
+        Me.BasicIndicator797.SelectColor3 = False
+        Me.BasicIndicator797.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator797.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator797.TabIndex = 6743
+        Me.BasicIndicator797.Text = "RUN"
+        '
+        'BasicIndicator798
+        '
+        Me.BasicIndicator798.Color1 = System.Drawing.Color.Black
+        Me.BasicIndicator798.Color2 = System.Drawing.Color.Gold
+        Me.BasicIndicator798.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator798.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator798.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator798.ForeColor = System.Drawing.Color.GhostWhite
+        Me.BasicIndicator798.Location = New System.Drawing.Point(1651, 329)
+        Me.BasicIndicator798.Name = "BasicIndicator798"
+        Me.BasicIndicator798.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator798.OutlineWidth = 1
+        Me.BasicIndicator798.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator798.PLCAddressSelectColor2 = "EEM12630_03_3"
+        Me.BasicIndicator798.SelectColor2 = False
+        Me.BasicIndicator798.SelectColor3 = False
+        Me.BasicIndicator798.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator798.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator798.TabIndex = 6742
+        Me.BasicIndicator798.Text = "12630.3-3"
+        '
+        'BasicIndicator799
+        '
+        Me.BasicIndicator799.Color1 = System.Drawing.Color.Red
+        Me.BasicIndicator799.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator799.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator799.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator799.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator799.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator799.Location = New System.Drawing.Point(1816, 329)
+        Me.BasicIndicator799.Name = "BasicIndicator799"
+        Me.BasicIndicator799.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator799.OutlineWidth = 1
+        Me.BasicIndicator799.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator799.PLCAddressSelectColor3 = "MDR12630_03.Z3_JAM_BIT"
+        Me.BasicIndicator799.PLCAddressVisible = "MDR12630_03.Z3_JAM_BIT"
+        Me.BasicIndicator799.SelectColor2 = False
+        Me.BasicIndicator799.SelectColor3 = False
+        Me.BasicIndicator799.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator799.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator799.TabIndex = 6741
+        Me.BasicIndicator799.Text = "JAM "
+        '
+        'BasicIndicator800
+        '
+        Me.BasicIndicator800.Color1 = System.Drawing.Color.Red
+        Me.BasicIndicator800.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator800.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator800.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator800.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator800.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator800.Location = New System.Drawing.Point(1761, 329)
+        Me.BasicIndicator800.Name = "BasicIndicator800"
+        Me.BasicIndicator800.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator800.OutlineWidth = 1
+        Me.BasicIndicator800.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator800.PLCAddressSelectColor3 = "MDR12630_03.Z3_FAULT"
+        Me.BasicIndicator800.PLCAddressVisible = "MDR12630_03.Z3_FAULT"
+        Me.BasicIndicator800.SelectColor2 = False
+        Me.BasicIndicator800.SelectColor3 = False
+        Me.BasicIndicator800.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator800.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator800.TabIndex = 6740
+        Me.BasicIndicator800.Text = "FAULT"
+        '
+        'CheckBox72
+        '
+        Me.CheckBox72.AutoSize = True
+        Me.CheckBox72.ComComponent = Me.EthernetIPforCLXCom1
+        Me.CheckBox72.Font = New System.Drawing.Font("Elephant", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox72.ForeColor = System.Drawing.Color.GhostWhite
+        Me.CheckBox72.Location = New System.Drawing.Point(1521, 325)
+        Me.CheckBox72.Name = "CheckBox72"
+        Me.CheckBox72.PLCAddressCheckChanged = ""
+        Me.CheckBox72.PLCAddressChecked = ""
+        Me.CheckBox72.PLCAddressText = ""
+        Me.CheckBox72.PLCAddressVisible = ""
+        Me.CheckBox72.Size = New System.Drawing.Size(134, 18)
+        Me.CheckBox72.TabIndex = 6739
+        Me.CheckBox72.Text = "MDR 12630.3-3"
+        Me.CheckBox72.TextAlign = System.Drawing.ContentAlignment.BottomLeft
+        Me.CheckBox72.UseVisualStyleBackColor = True
+        '
+        'BasicIndicator801
+        '
+        Me.BasicIndicator801.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator801.Color2 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator801.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator801.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator801.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator801.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator801.Location = New System.Drawing.Point(1706, 329)
+        Me.BasicIndicator801.Name = "BasicIndicator801"
+        Me.BasicIndicator801.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator801.OutlineWidth = 1
+        Me.BasicIndicator801.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator801.PLCAddressSelectColor2 = "MDR12630_03.Z3_MTR_RUNNING"
+        Me.BasicIndicator801.PLCAddressVisible = "MDR12630_03.Z3_MTR_RUNNING"
+        Me.BasicIndicator801.SelectColor2 = False
+        Me.BasicIndicator801.SelectColor3 = False
+        Me.BasicIndicator801.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator801.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator801.TabIndex = 6738
+        Me.BasicIndicator801.Text = "RUN"
+        '
+        'BasicIndicator802
+        '
+        Me.BasicIndicator802.Color1 = System.Drawing.Color.Black
+        Me.BasicIndicator802.Color2 = System.Drawing.Color.Gold
+        Me.BasicIndicator802.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator802.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator802.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator802.ForeColor = System.Drawing.Color.GhostWhite
+        Me.BasicIndicator802.Location = New System.Drawing.Point(1651, 310)
+        Me.BasicIndicator802.Name = "BasicIndicator802"
+        Me.BasicIndicator802.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator802.OutlineWidth = 1
+        Me.BasicIndicator802.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator802.PLCAddressSelectColor2 = "EEM12630_03_2"
+        Me.BasicIndicator802.SelectColor2 = False
+        Me.BasicIndicator802.SelectColor3 = False
+        Me.BasicIndicator802.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator802.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator802.TabIndex = 6737
+        Me.BasicIndicator802.Text = "12630.3-2"
+        '
+        'BasicIndicator803
+        '
+        Me.BasicIndicator803.Color1 = System.Drawing.Color.Red
+        Me.BasicIndicator803.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator803.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator803.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator803.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator803.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator803.Location = New System.Drawing.Point(1816, 310)
+        Me.BasicIndicator803.Name = "BasicIndicator803"
+        Me.BasicIndicator803.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator803.OutlineWidth = 1
+        Me.BasicIndicator803.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator803.PLCAddressSelectColor3 = "MDR12630_03.Z2_JAM_BIT"
+        Me.BasicIndicator803.PLCAddressVisible = "MDR12630_03.Z2_JAM_BIT"
+        Me.BasicIndicator803.SelectColor2 = False
+        Me.BasicIndicator803.SelectColor3 = False
+        Me.BasicIndicator803.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator803.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator803.TabIndex = 6736
+        Me.BasicIndicator803.Text = "JAM "
+        '
+        'BasicIndicator804
+        '
+        Me.BasicIndicator804.Color1 = System.Drawing.Color.Red
+        Me.BasicIndicator804.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator804.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator804.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator804.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator804.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator804.Location = New System.Drawing.Point(1761, 310)
+        Me.BasicIndicator804.Name = "BasicIndicator804"
+        Me.BasicIndicator804.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator804.OutlineWidth = 1
+        Me.BasicIndicator804.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator804.PLCAddressSelectColor3 = "MDR12630_03.Z2_FAULT"
+        Me.BasicIndicator804.PLCAddressVisible = "MDR12630_03.Z2_FAULT"
+        Me.BasicIndicator804.SelectColor2 = False
+        Me.BasicIndicator804.SelectColor3 = False
+        Me.BasicIndicator804.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator804.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator804.TabIndex = 6735
+        Me.BasicIndicator804.Text = "FAULT"
+        '
+        'CheckBox73
+        '
+        Me.CheckBox73.AutoSize = True
+        Me.CheckBox73.ComComponent = Me.EthernetIPforCLXCom1
+        Me.CheckBox73.Font = New System.Drawing.Font("Elephant", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox73.ForeColor = System.Drawing.Color.GhostWhite
+        Me.CheckBox73.Location = New System.Drawing.Point(1521, 306)
+        Me.CheckBox73.Name = "CheckBox73"
+        Me.CheckBox73.PLCAddressCheckChanged = ""
+        Me.CheckBox73.PLCAddressChecked = ""
+        Me.CheckBox73.PLCAddressText = ""
+        Me.CheckBox73.PLCAddressVisible = ""
+        Me.CheckBox73.Size = New System.Drawing.Size(134, 18)
+        Me.CheckBox73.TabIndex = 6734
+        Me.CheckBox73.Text = "MDR 12630.3-2"
+        Me.CheckBox73.TextAlign = System.Drawing.ContentAlignment.BottomLeft
+        Me.CheckBox73.UseVisualStyleBackColor = True
+        '
+        'BasicIndicator805
+        '
+        Me.BasicIndicator805.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator805.Color2 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator805.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator805.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator805.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator805.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator805.Location = New System.Drawing.Point(1706, 310)
+        Me.BasicIndicator805.Name = "BasicIndicator805"
+        Me.BasicIndicator805.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator805.OutlineWidth = 1
+        Me.BasicIndicator805.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator805.PLCAddressSelectColor2 = "MDR12630_03.Z2_MTR_RUNNING"
+        Me.BasicIndicator805.PLCAddressVisible = "MDR12630_03.Z2_MTR_RUNNING"
+        Me.BasicIndicator805.SelectColor2 = False
+        Me.BasicIndicator805.SelectColor3 = False
+        Me.BasicIndicator805.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator805.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator805.TabIndex = 6733
+        Me.BasicIndicator805.Text = "RUN"
+        '
+        'BasicIndicator806
+        '
+        Me.BasicIndicator806.Color1 = System.Drawing.Color.Black
+        Me.BasicIndicator806.Color2 = System.Drawing.Color.Gold
+        Me.BasicIndicator806.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator806.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator806.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator806.ForeColor = System.Drawing.Color.GhostWhite
+        Me.BasicIndicator806.Location = New System.Drawing.Point(1652, 290)
+        Me.BasicIndicator806.Name = "BasicIndicator806"
+        Me.BasicIndicator806.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator806.OutlineWidth = 1
+        Me.BasicIndicator806.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator806.PLCAddressSelectColor2 = "EEM12630_03_1"
+        Me.BasicIndicator806.SelectColor2 = False
+        Me.BasicIndicator806.SelectColor3 = False
+        Me.BasicIndicator806.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator806.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator806.TabIndex = 6732
+        Me.BasicIndicator806.Text = "12630.3-1"
+        '
+        'BasicIndicator807
+        '
+        Me.BasicIndicator807.Color1 = System.Drawing.Color.Red
+        Me.BasicIndicator807.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator807.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator807.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator807.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator807.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator807.Location = New System.Drawing.Point(1817, 290)
+        Me.BasicIndicator807.Name = "BasicIndicator807"
+        Me.BasicIndicator807.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator807.OutlineWidth = 1
+        Me.BasicIndicator807.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator807.PLCAddressSelectColor3 = "MDR12630_03.Z1_JAM_BIT"
+        Me.BasicIndicator807.PLCAddressVisible = "MDR12630_03.Z1_JAM_BIT"
+        Me.BasicIndicator807.SelectColor2 = False
+        Me.BasicIndicator807.SelectColor3 = False
+        Me.BasicIndicator807.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator807.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator807.TabIndex = 6731
+        Me.BasicIndicator807.Text = "JAM "
+        '
+        'BasicIndicator808
+        '
+        Me.BasicIndicator808.Color1 = System.Drawing.Color.Red
+        Me.BasicIndicator808.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator808.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator808.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator808.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator808.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator808.Location = New System.Drawing.Point(1762, 290)
+        Me.BasicIndicator808.Name = "BasicIndicator808"
+        Me.BasicIndicator808.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator808.OutlineWidth = 1
+        Me.BasicIndicator808.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator808.PLCAddressSelectColor3 = "MDR12630_03.Z1_FAULT"
+        Me.BasicIndicator808.PLCAddressVisible = "MDR12630_03.Z1_FAULT"
+        Me.BasicIndicator808.SelectColor2 = False
+        Me.BasicIndicator808.SelectColor3 = False
+        Me.BasicIndicator808.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator808.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator808.TabIndex = 6730
+        Me.BasicIndicator808.Text = "FAULT"
+        '
+        'CheckBox74
+        '
+        Me.CheckBox74.AutoSize = True
+        Me.CheckBox74.ComComponent = Me.EthernetIPforCLXCom1
+        Me.CheckBox74.Font = New System.Drawing.Font("Elephant", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox74.ForeColor = System.Drawing.Color.GhostWhite
+        Me.CheckBox74.Location = New System.Drawing.Point(1521, 286)
+        Me.CheckBox74.Name = "CheckBox74"
+        Me.CheckBox74.PLCAddressCheckChanged = ""
+        Me.CheckBox74.PLCAddressChecked = ""
+        Me.CheckBox74.PLCAddressText = ""
+        Me.CheckBox74.PLCAddressVisible = ""
+        Me.CheckBox74.Size = New System.Drawing.Size(132, 18)
+        Me.CheckBox74.TabIndex = 6729
+        Me.CheckBox74.Text = "MDR 12630.3-1"
+        Me.CheckBox74.TextAlign = System.Drawing.ContentAlignment.BottomLeft
+        Me.CheckBox74.UseVisualStyleBackColor = True
+        '
+        'BasicIndicator809
+        '
+        Me.BasicIndicator809.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator809.Color2 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator809.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator809.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator809.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator809.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator809.Location = New System.Drawing.Point(1707, 290)
+        Me.BasicIndicator809.Name = "BasicIndicator809"
+        Me.BasicIndicator809.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator809.OutlineWidth = 1
+        Me.BasicIndicator809.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator809.PLCAddressSelectColor2 = "MDR12630_03.Z1_MTR_RUNNING"
+        Me.BasicIndicator809.PLCAddressVisible = "MDR12630_03.Z1_MTR_RUNNING"
+        Me.BasicIndicator809.SelectColor2 = False
+        Me.BasicIndicator809.SelectColor3 = False
+        Me.BasicIndicator809.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator809.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator809.TabIndex = 6728
+        Me.BasicIndicator809.Text = "RUN"
+        '
+        'BasicIndicator810
+        '
+        Me.BasicIndicator810.Color1 = System.Drawing.Color.Black
+        Me.BasicIndicator810.Color2 = System.Drawing.Color.Gold
+        Me.BasicIndicator810.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator810.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator810.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator810.ForeColor = System.Drawing.Color.GhostWhite
+        Me.BasicIndicator810.Location = New System.Drawing.Point(1652, 426)
+        Me.BasicIndicator810.Name = "BasicIndicator810"
+        Me.BasicIndicator810.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator810.OutlineWidth = 1
+        Me.BasicIndicator810.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator810.PLCAddressSelectColor2 = "EEM12615_02_4"
+        Me.BasicIndicator810.SelectColor2 = False
+        Me.BasicIndicator810.SelectColor3 = False
+        Me.BasicIndicator810.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator810.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator810.TabIndex = 6767
+        Me.BasicIndicator810.Text = "12630.4-4"
+        '
+        'BasicIndicator811
+        '
+        Me.BasicIndicator811.Color1 = System.Drawing.Color.Red
+        Me.BasicIndicator811.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator811.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator811.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator811.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator811.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator811.Location = New System.Drawing.Point(1817, 426)
+        Me.BasicIndicator811.Name = "BasicIndicator811"
+        Me.BasicIndicator811.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator811.OutlineWidth = 1
+        Me.BasicIndicator811.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator811.PLCAddressSelectColor3 = "MDR12630_04.Z4_JAM_BIT"
+        Me.BasicIndicator811.PLCAddressVisible = "MDR12630_04.Z4_JAM_BIT"
+        Me.BasicIndicator811.SelectColor2 = False
+        Me.BasicIndicator811.SelectColor3 = False
+        Me.BasicIndicator811.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator811.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator811.TabIndex = 6766
+        Me.BasicIndicator811.Text = "JAM "
+        '
+        'BasicIndicator812
+        '
+        Me.BasicIndicator812.Color1 = System.Drawing.Color.Red
+        Me.BasicIndicator812.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator812.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator812.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator812.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator812.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator812.Location = New System.Drawing.Point(1762, 426)
+        Me.BasicIndicator812.Name = "BasicIndicator812"
+        Me.BasicIndicator812.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator812.OutlineWidth = 1
+        Me.BasicIndicator812.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator812.PLCAddressSelectColor3 = "MDR12630_04.Z4_FAULT"
+        Me.BasicIndicator812.PLCAddressVisible = "MDR12630_04.Z4_FAULT"
+        Me.BasicIndicator812.SelectColor2 = False
+        Me.BasicIndicator812.SelectColor3 = False
+        Me.BasicIndicator812.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator812.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator812.TabIndex = 6765
+        Me.BasicIndicator812.Text = "FAULT"
+        '
+        'CheckBox75
+        '
+        Me.CheckBox75.AutoSize = True
+        Me.CheckBox75.ComComponent = Me.EthernetIPforCLXCom1
+        Me.CheckBox75.Font = New System.Drawing.Font("Elephant", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox75.ForeColor = System.Drawing.Color.GhostWhite
+        Me.CheckBox75.Location = New System.Drawing.Point(1522, 422)
+        Me.CheckBox75.Name = "CheckBox75"
+        Me.CheckBox75.PLCAddressCheckChanged = ""
+        Me.CheckBox75.PLCAddressChecked = ""
+        Me.CheckBox75.PLCAddressText = ""
+        Me.CheckBox75.PLCAddressVisible = ""
+        Me.CheckBox75.Size = New System.Drawing.Size(134, 18)
+        Me.CheckBox75.TabIndex = 6764
+        Me.CheckBox75.Text = "MDR 12630.4-4"
+        Me.CheckBox75.TextAlign = System.Drawing.ContentAlignment.BottomLeft
+        Me.CheckBox75.UseVisualStyleBackColor = True
+        '
+        'BasicIndicator813
+        '
+        Me.BasicIndicator813.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator813.Color2 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator813.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator813.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator813.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator813.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator813.Location = New System.Drawing.Point(1707, 426)
+        Me.BasicIndicator813.Name = "BasicIndicator813"
+        Me.BasicIndicator813.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator813.OutlineWidth = 1
+        Me.BasicIndicator813.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator813.PLCAddressSelectColor2 = "MDR12630_04.Z4_MTR_RUNNING"
+        Me.BasicIndicator813.PLCAddressVisible = "MDR12630_04.Z4_MTR_RUNNING"
+        Me.BasicIndicator813.SelectColor2 = False
+        Me.BasicIndicator813.SelectColor3 = False
+        Me.BasicIndicator813.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator813.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator813.TabIndex = 6763
+        Me.BasicIndicator813.Text = "RUN"
+        '
+        'BasicIndicator814
+        '
+        Me.BasicIndicator814.Color1 = System.Drawing.Color.Black
+        Me.BasicIndicator814.Color2 = System.Drawing.Color.Gold
+        Me.BasicIndicator814.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator814.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator814.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator814.ForeColor = System.Drawing.Color.GhostWhite
+        Me.BasicIndicator814.Location = New System.Drawing.Point(1652, 406)
+        Me.BasicIndicator814.Name = "BasicIndicator814"
+        Me.BasicIndicator814.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator814.OutlineWidth = 1
+        Me.BasicIndicator814.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator814.PLCAddressSelectColor2 = "EEM12630_04_3"
+        Me.BasicIndicator814.SelectColor2 = False
+        Me.BasicIndicator814.SelectColor3 = False
+        Me.BasicIndicator814.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator814.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator814.TabIndex = 6762
+        Me.BasicIndicator814.Text = "12630.4-3"
+        '
+        'BasicIndicator815
+        '
+        Me.BasicIndicator815.Color1 = System.Drawing.Color.Red
+        Me.BasicIndicator815.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator815.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator815.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator815.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator815.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator815.Location = New System.Drawing.Point(1817, 406)
+        Me.BasicIndicator815.Name = "BasicIndicator815"
+        Me.BasicIndicator815.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator815.OutlineWidth = 1
+        Me.BasicIndicator815.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator815.PLCAddressSelectColor3 = "MDR12630_04.Z3_JAM_BIT"
+        Me.BasicIndicator815.PLCAddressVisible = "MDR12630_04.Z3_JAM_BIT"
+        Me.BasicIndicator815.SelectColor2 = False
+        Me.BasicIndicator815.SelectColor3 = False
+        Me.BasicIndicator815.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator815.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator815.TabIndex = 6761
+        Me.BasicIndicator815.Text = "JAM "
+        '
+        'BasicIndicator816
+        '
+        Me.BasicIndicator816.Color1 = System.Drawing.Color.Red
+        Me.BasicIndicator816.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator816.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator816.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator816.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator816.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator816.Location = New System.Drawing.Point(1762, 406)
+        Me.BasicIndicator816.Name = "BasicIndicator816"
+        Me.BasicIndicator816.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator816.OutlineWidth = 1
+        Me.BasicIndicator816.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator816.PLCAddressSelectColor3 = "MDR12630_04.Z3_FAULT"
+        Me.BasicIndicator816.PLCAddressVisible = "MDR12630_04.Z3_FAULT"
+        Me.BasicIndicator816.SelectColor2 = False
+        Me.BasicIndicator816.SelectColor3 = False
+        Me.BasicIndicator816.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator816.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator816.TabIndex = 6760
+        Me.BasicIndicator816.Text = "FAULT"
+        '
+        'CheckBox76
+        '
+        Me.CheckBox76.AutoSize = True
+        Me.CheckBox76.ComComponent = Me.EthernetIPforCLXCom1
+        Me.CheckBox76.Font = New System.Drawing.Font("Elephant", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox76.ForeColor = System.Drawing.Color.GhostWhite
+        Me.CheckBox76.Location = New System.Drawing.Point(1522, 402)
+        Me.CheckBox76.Name = "CheckBox76"
+        Me.CheckBox76.PLCAddressCheckChanged = ""
+        Me.CheckBox76.PLCAddressChecked = ""
+        Me.CheckBox76.PLCAddressText = ""
+        Me.CheckBox76.PLCAddressVisible = ""
+        Me.CheckBox76.Size = New System.Drawing.Size(134, 18)
+        Me.CheckBox76.TabIndex = 6759
+        Me.CheckBox76.Text = "MDR 12630.4-3"
+        Me.CheckBox76.TextAlign = System.Drawing.ContentAlignment.BottomLeft
+        Me.CheckBox76.UseVisualStyleBackColor = True
+        '
+        'BasicIndicator817
+        '
+        Me.BasicIndicator817.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator817.Color2 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator817.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator817.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator817.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator817.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator817.Location = New System.Drawing.Point(1707, 406)
+        Me.BasicIndicator817.Name = "BasicIndicator817"
+        Me.BasicIndicator817.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator817.OutlineWidth = 1
+        Me.BasicIndicator817.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator817.PLCAddressSelectColor2 = "MDR12630_04.Z3_MTR_RUNNING"
+        Me.BasicIndicator817.PLCAddressVisible = "MDR12630_04.Z3_MTR_RUNNING"
+        Me.BasicIndicator817.SelectColor2 = False
+        Me.BasicIndicator817.SelectColor3 = False
+        Me.BasicIndicator817.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator817.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator817.TabIndex = 6758
+        Me.BasicIndicator817.Text = "RUN"
+        '
+        'BasicIndicator818
+        '
+        Me.BasicIndicator818.Color1 = System.Drawing.Color.Black
+        Me.BasicIndicator818.Color2 = System.Drawing.Color.Gold
+        Me.BasicIndicator818.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator818.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator818.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator818.ForeColor = System.Drawing.Color.GhostWhite
+        Me.BasicIndicator818.Location = New System.Drawing.Point(1651, 388)
+        Me.BasicIndicator818.Name = "BasicIndicator818"
+        Me.BasicIndicator818.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator818.OutlineWidth = 1
+        Me.BasicIndicator818.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator818.PLCAddressSelectColor2 = "EEM12630_04_2"
+        Me.BasicIndicator818.SelectColor2 = False
+        Me.BasicIndicator818.SelectColor3 = False
+        Me.BasicIndicator818.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator818.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator818.TabIndex = 6757
+        Me.BasicIndicator818.Text = "12630.4-2"
+        '
+        'BasicIndicator819
+        '
+        Me.BasicIndicator819.Color1 = System.Drawing.Color.Red
+        Me.BasicIndicator819.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator819.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator819.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator819.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator819.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator819.Location = New System.Drawing.Point(1816, 388)
+        Me.BasicIndicator819.Name = "BasicIndicator819"
+        Me.BasicIndicator819.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator819.OutlineWidth = 1
+        Me.BasicIndicator819.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator819.PLCAddressSelectColor3 = "MDR12630_04.Z2_JAM_BIT"
+        Me.BasicIndicator819.PLCAddressVisible = "MDR12630_04.Z2_JAM_BIT"
+        Me.BasicIndicator819.SelectColor2 = False
+        Me.BasicIndicator819.SelectColor3 = False
+        Me.BasicIndicator819.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator819.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator819.TabIndex = 6756
+        Me.BasicIndicator819.Text = "JAM "
+        '
+        'BasicIndicator820
+        '
+        Me.BasicIndicator820.Color1 = System.Drawing.Color.Red
+        Me.BasicIndicator820.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator820.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator820.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator820.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator820.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator820.Location = New System.Drawing.Point(1761, 388)
+        Me.BasicIndicator820.Name = "BasicIndicator820"
+        Me.BasicIndicator820.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator820.OutlineWidth = 1
+        Me.BasicIndicator820.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator820.PLCAddressSelectColor3 = "MDR12630_04.Z2_FAULT"
+        Me.BasicIndicator820.PLCAddressVisible = "MDR12630_04.Z2_FAULT"
+        Me.BasicIndicator820.SelectColor2 = False
+        Me.BasicIndicator820.SelectColor3 = False
+        Me.BasicIndicator820.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator820.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator820.TabIndex = 6755
+        Me.BasicIndicator820.Text = "FAULT"
+        '
+        'CheckBox77
+        '
+        Me.CheckBox77.AutoSize = True
+        Me.CheckBox77.ComComponent = Me.EthernetIPforCLXCom1
+        Me.CheckBox77.Font = New System.Drawing.Font("Elephant", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox77.ForeColor = System.Drawing.Color.GhostWhite
+        Me.CheckBox77.Location = New System.Drawing.Point(1521, 384)
+        Me.CheckBox77.Name = "CheckBox77"
+        Me.CheckBox77.PLCAddressCheckChanged = ""
+        Me.CheckBox77.PLCAddressChecked = ""
+        Me.CheckBox77.PLCAddressText = ""
+        Me.CheckBox77.PLCAddressVisible = ""
+        Me.CheckBox77.Size = New System.Drawing.Size(134, 18)
+        Me.CheckBox77.TabIndex = 6754
+        Me.CheckBox77.Text = "MDR 12630.4-2"
+        Me.CheckBox77.TextAlign = System.Drawing.ContentAlignment.BottomLeft
+        Me.CheckBox77.UseVisualStyleBackColor = True
+        '
+        'BasicIndicator821
+        '
+        Me.BasicIndicator821.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator821.Color2 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator821.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator821.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator821.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator821.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator821.Location = New System.Drawing.Point(1706, 388)
+        Me.BasicIndicator821.Name = "BasicIndicator821"
+        Me.BasicIndicator821.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator821.OutlineWidth = 1
+        Me.BasicIndicator821.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator821.PLCAddressSelectColor2 = "MDR12630_04.Z2_MTR_RUNNING"
+        Me.BasicIndicator821.PLCAddressVisible = "MDR12630_04.Z2_MTR_RUNNING"
+        Me.BasicIndicator821.SelectColor2 = False
+        Me.BasicIndicator821.SelectColor3 = False
+        Me.BasicIndicator821.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator821.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator821.TabIndex = 6753
+        Me.BasicIndicator821.Text = "RUN"
+        '
+        'BasicIndicator822
+        '
+        Me.BasicIndicator822.Color1 = System.Drawing.Color.Black
+        Me.BasicIndicator822.Color2 = System.Drawing.Color.Gold
+        Me.BasicIndicator822.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator822.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator822.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator822.ForeColor = System.Drawing.Color.GhostWhite
+        Me.BasicIndicator822.Location = New System.Drawing.Point(1652, 368)
+        Me.BasicIndicator822.Name = "BasicIndicator822"
+        Me.BasicIndicator822.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator822.OutlineWidth = 1
+        Me.BasicIndicator822.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator822.PLCAddressSelectColor2 = "EEM12630_04_1"
+        Me.BasicIndicator822.SelectColor2 = False
+        Me.BasicIndicator822.SelectColor3 = False
+        Me.BasicIndicator822.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator822.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator822.TabIndex = 6752
+        Me.BasicIndicator822.Text = "12630.4-1"
+        '
+        'BasicIndicator823
+        '
+        Me.BasicIndicator823.Color1 = System.Drawing.Color.Red
+        Me.BasicIndicator823.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator823.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator823.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator823.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator823.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator823.Location = New System.Drawing.Point(1817, 368)
+        Me.BasicIndicator823.Name = "BasicIndicator823"
+        Me.BasicIndicator823.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator823.OutlineWidth = 1
+        Me.BasicIndicator823.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator823.PLCAddressSelectColor3 = "MDR12630_04.Z1_JAM_BIT"
+        Me.BasicIndicator823.PLCAddressVisible = "MDR12630_04.Z1_JAM_BIT"
+        Me.BasicIndicator823.SelectColor2 = False
+        Me.BasicIndicator823.SelectColor3 = False
+        Me.BasicIndicator823.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator823.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator823.TabIndex = 6751
+        Me.BasicIndicator823.Text = "JAM "
+        '
+        'BasicIndicator824
+        '
+        Me.BasicIndicator824.Color1 = System.Drawing.Color.Red
+        Me.BasicIndicator824.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator824.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator824.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator824.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator824.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator824.Location = New System.Drawing.Point(1762, 368)
+        Me.BasicIndicator824.Name = "BasicIndicator824"
+        Me.BasicIndicator824.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator824.OutlineWidth = 1
+        Me.BasicIndicator824.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator824.PLCAddressSelectColor3 = "MDR12630_04.Z1_FAULT"
+        Me.BasicIndicator824.PLCAddressVisible = "MDR12630_04.Z1_FAULT"
+        Me.BasicIndicator824.SelectColor2 = False
+        Me.BasicIndicator824.SelectColor3 = False
+        Me.BasicIndicator824.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator824.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator824.TabIndex = 6750
+        Me.BasicIndicator824.Text = "FAULT"
+        '
+        'CheckBox78
+        '
+        Me.CheckBox78.AutoSize = True
+        Me.CheckBox78.ComComponent = Me.EthernetIPforCLXCom1
+        Me.CheckBox78.Font = New System.Drawing.Font("Elephant", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox78.ForeColor = System.Drawing.Color.GhostWhite
+        Me.CheckBox78.Location = New System.Drawing.Point(1521, 364)
+        Me.CheckBox78.Name = "CheckBox78"
+        Me.CheckBox78.PLCAddressCheckChanged = ""
+        Me.CheckBox78.PLCAddressChecked = ""
+        Me.CheckBox78.PLCAddressText = ""
+        Me.CheckBox78.PLCAddressVisible = ""
+        Me.CheckBox78.Size = New System.Drawing.Size(132, 18)
+        Me.CheckBox78.TabIndex = 6749
+        Me.CheckBox78.Text = "MDR 12630.4-1"
+        Me.CheckBox78.TextAlign = System.Drawing.ContentAlignment.BottomLeft
+        Me.CheckBox78.UseVisualStyleBackColor = True
+        '
+        'BasicIndicator825
+        '
+        Me.BasicIndicator825.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator825.Color2 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator825.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator825.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator825.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator825.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator825.Location = New System.Drawing.Point(1707, 368)
+        Me.BasicIndicator825.Name = "BasicIndicator825"
+        Me.BasicIndicator825.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator825.OutlineWidth = 1
+        Me.BasicIndicator825.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator825.PLCAddressSelectColor2 = "MDR12630_04.Z1_MTR_RUNNING"
+        Me.BasicIndicator825.PLCAddressVisible = "MDR12630_04.Z1_MTR_RUNNING"
+        Me.BasicIndicator825.SelectColor2 = False
+        Me.BasicIndicator825.SelectColor3 = False
+        Me.BasicIndicator825.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator825.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator825.TabIndex = 6748
+        Me.BasicIndicator825.Text = "RUN"
+        '
+        'BasicIndicator826
+        '
+        Me.BasicIndicator826.Color1 = System.Drawing.Color.Black
+        Me.BasicIndicator826.Color2 = System.Drawing.Color.Gold
+        Me.BasicIndicator826.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator826.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator826.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator826.ForeColor = System.Drawing.Color.GhostWhite
+        Me.BasicIndicator826.Location = New System.Drawing.Point(1653, 466)
+        Me.BasicIndicator826.Name = "BasicIndicator826"
+        Me.BasicIndicator826.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator826.OutlineWidth = 1
+        Me.BasicIndicator826.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator826.PLCAddressSelectColor2 = "EEM12630_05_2"
+        Me.BasicIndicator826.SelectColor2 = False
+        Me.BasicIndicator826.SelectColor3 = False
+        Me.BasicIndicator826.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator826.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator826.TabIndex = 6777
+        Me.BasicIndicator826.Text = "12630.5-2"
+        '
+        'BasicIndicator827
+        '
+        Me.BasicIndicator827.Color1 = System.Drawing.Color.Red
+        Me.BasicIndicator827.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator827.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator827.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator827.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator827.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator827.Location = New System.Drawing.Point(1818, 466)
+        Me.BasicIndicator827.Name = "BasicIndicator827"
+        Me.BasicIndicator827.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator827.OutlineWidth = 1
+        Me.BasicIndicator827.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator827.PLCAddressSelectColor3 = "MDR12630_05.Z2_JAM_BIT"
+        Me.BasicIndicator827.PLCAddressVisible = "MDR12630_05.Z2_JAM_BIT"
+        Me.BasicIndicator827.SelectColor2 = False
+        Me.BasicIndicator827.SelectColor3 = False
+        Me.BasicIndicator827.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator827.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator827.TabIndex = 6776
+        Me.BasicIndicator827.Text = "JAM "
+        '
+        'BasicIndicator828
+        '
+        Me.BasicIndicator828.Color1 = System.Drawing.Color.Red
+        Me.BasicIndicator828.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator828.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator828.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator828.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator828.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator828.Location = New System.Drawing.Point(1763, 466)
+        Me.BasicIndicator828.Name = "BasicIndicator828"
+        Me.BasicIndicator828.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator828.OutlineWidth = 1
+        Me.BasicIndicator828.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator828.PLCAddressSelectColor3 = "MDR12630_05.Z2_FAULT"
+        Me.BasicIndicator828.PLCAddressVisible = "MDR12630_05.Z2_FAULT"
+        Me.BasicIndicator828.SelectColor2 = False
+        Me.BasicIndicator828.SelectColor3 = False
+        Me.BasicIndicator828.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator828.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator828.TabIndex = 6775
+        Me.BasicIndicator828.Text = "FAULT"
+        '
+        'CheckBox79
+        '
+        Me.CheckBox79.AutoSize = True
+        Me.CheckBox79.ComComponent = Me.EthernetIPforCLXCom1
+        Me.CheckBox79.Font = New System.Drawing.Font("Elephant", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox79.ForeColor = System.Drawing.Color.GhostWhite
+        Me.CheckBox79.Location = New System.Drawing.Point(1523, 462)
+        Me.CheckBox79.Name = "CheckBox79"
+        Me.CheckBox79.PLCAddressCheckChanged = ""
+        Me.CheckBox79.PLCAddressChecked = ""
+        Me.CheckBox79.PLCAddressText = ""
+        Me.CheckBox79.PLCAddressVisible = ""
+        Me.CheckBox79.Size = New System.Drawing.Size(133, 18)
+        Me.CheckBox79.TabIndex = 6774
+        Me.CheckBox79.Text = "MDR 12630.5-2"
+        Me.CheckBox79.TextAlign = System.Drawing.ContentAlignment.BottomLeft
+        Me.CheckBox79.UseVisualStyleBackColor = True
+        '
+        'BasicIndicator829
+        '
+        Me.BasicIndicator829.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator829.Color2 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator829.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator829.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator829.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator829.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator829.Location = New System.Drawing.Point(1708, 466)
+        Me.BasicIndicator829.Name = "BasicIndicator829"
+        Me.BasicIndicator829.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator829.OutlineWidth = 1
+        Me.BasicIndicator829.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator829.PLCAddressSelectColor2 = "MDR12630_05.Z2_MTR_RUNNING"
+        Me.BasicIndicator829.PLCAddressVisible = "MDR12630_05.Z2_MTR_RUNNING"
+        Me.BasicIndicator829.SelectColor2 = False
+        Me.BasicIndicator829.SelectColor3 = False
+        Me.BasicIndicator829.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator829.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator829.TabIndex = 6773
+        Me.BasicIndicator829.Text = "RUN"
+        '
+        'BasicIndicator830
+        '
+        Me.BasicIndicator830.Color1 = System.Drawing.Color.Black
+        Me.BasicIndicator830.Color2 = System.Drawing.Color.Gold
+        Me.BasicIndicator830.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator830.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator830.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator830.ForeColor = System.Drawing.Color.GhostWhite
+        Me.BasicIndicator830.Location = New System.Drawing.Point(1654, 446)
+        Me.BasicIndicator830.Name = "BasicIndicator830"
+        Me.BasicIndicator830.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator830.OutlineWidth = 1
+        Me.BasicIndicator830.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator830.PLCAddressSelectColor2 = "EEM12630_05_1"
+        Me.BasicIndicator830.SelectColor2 = False
+        Me.BasicIndicator830.SelectColor3 = False
+        Me.BasicIndicator830.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator830.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator830.TabIndex = 6772
+        Me.BasicIndicator830.Text = "12630.5-1"
+        '
+        'BasicIndicator831
+        '
+        Me.BasicIndicator831.Color1 = System.Drawing.Color.Red
+        Me.BasicIndicator831.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator831.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator831.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator831.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator831.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator831.Location = New System.Drawing.Point(1819, 446)
+        Me.BasicIndicator831.Name = "BasicIndicator831"
+        Me.BasicIndicator831.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator831.OutlineWidth = 1
+        Me.BasicIndicator831.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator831.PLCAddressSelectColor3 = "MDR12630_05.Z1_JAM_BIT"
+        Me.BasicIndicator831.PLCAddressVisible = "MDR12630_05.Z1_JAM_BIT"
+        Me.BasicIndicator831.SelectColor2 = False
+        Me.BasicIndicator831.SelectColor3 = False
+        Me.BasicIndicator831.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator831.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator831.TabIndex = 6771
+        Me.BasicIndicator831.Text = "JAM "
+        '
+        'BasicIndicator832
+        '
+        Me.BasicIndicator832.Color1 = System.Drawing.Color.Red
+        Me.BasicIndicator832.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator832.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator832.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator832.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator832.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator832.Location = New System.Drawing.Point(1764, 446)
+        Me.BasicIndicator832.Name = "BasicIndicator832"
+        Me.BasicIndicator832.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator832.OutlineWidth = 1
+        Me.BasicIndicator832.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator832.PLCAddressSelectColor3 = "MDR12630_05.Z1_FAULT"
+        Me.BasicIndicator832.PLCAddressVisible = "MDR12630_05.Z1_FAULT"
+        Me.BasicIndicator832.SelectColor2 = False
+        Me.BasicIndicator832.SelectColor3 = False
+        Me.BasicIndicator832.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator832.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator832.TabIndex = 6770
+        Me.BasicIndicator832.Text = "FAULT"
+        '
+        'CheckBox80
+        '
+        Me.CheckBox80.AutoSize = True
+        Me.CheckBox80.ComComponent = Me.EthernetIPforCLXCom1
+        Me.CheckBox80.Font = New System.Drawing.Font("Elephant", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox80.ForeColor = System.Drawing.Color.GhostWhite
+        Me.CheckBox80.Location = New System.Drawing.Point(1523, 442)
+        Me.CheckBox80.Name = "CheckBox80"
+        Me.CheckBox80.PLCAddressCheckChanged = ""
+        Me.CheckBox80.PLCAddressChecked = ""
+        Me.CheckBox80.PLCAddressText = ""
+        Me.CheckBox80.PLCAddressVisible = ""
+        Me.CheckBox80.Size = New System.Drawing.Size(131, 18)
+        Me.CheckBox80.TabIndex = 6769
+        Me.CheckBox80.Text = "MDR 12630.5-1"
+        Me.CheckBox80.TextAlign = System.Drawing.ContentAlignment.BottomLeft
+        Me.CheckBox80.UseVisualStyleBackColor = True
+        '
+        'BasicIndicator833
+        '
+        Me.BasicIndicator833.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator833.Color2 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator833.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator833.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator833.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator833.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator833.Location = New System.Drawing.Point(1709, 446)
+        Me.BasicIndicator833.Name = "BasicIndicator833"
+        Me.BasicIndicator833.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator833.OutlineWidth = 1
+        Me.BasicIndicator833.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator833.PLCAddressSelectColor2 = "MDR12630_05.Z1_MTR_RUNNING"
+        Me.BasicIndicator833.PLCAddressVisible = "MDR12630_05.Z1_MTR_RUNNING"
+        Me.BasicIndicator833.SelectColor2 = False
+        Me.BasicIndicator833.SelectColor3 = False
+        Me.BasicIndicator833.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator833.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator833.TabIndex = 6768
+        Me.BasicIndicator833.Text = "RUN"
+        '
+        'BasicIndicator834
+        '
+        Me.BasicIndicator834.Color1 = System.Drawing.Color.Black
+        Me.BasicIndicator834.Color2 = System.Drawing.Color.Gold
+        Me.BasicIndicator834.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator834.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator834.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator834.ForeColor = System.Drawing.Color.GhostWhite
+        Me.BasicIndicator834.Location = New System.Drawing.Point(1654, 486)
+        Me.BasicIndicator834.Name = "BasicIndicator834"
+        Me.BasicIndicator834.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator834.OutlineWidth = 1
+        Me.BasicIndicator834.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator834.PLCAddressSelectColor2 = "EEM12630_06_1"
+        Me.BasicIndicator834.SelectColor2 = False
+        Me.BasicIndicator834.SelectColor3 = False
+        Me.BasicIndicator834.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator834.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator834.TabIndex = 6782
+        Me.BasicIndicator834.Text = "12630.6-1"
+        '
+        'BasicIndicator835
+        '
+        Me.BasicIndicator835.Color1 = System.Drawing.Color.Red
+        Me.BasicIndicator835.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator835.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator835.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator835.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator835.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator835.Location = New System.Drawing.Point(1819, 486)
+        Me.BasicIndicator835.Name = "BasicIndicator835"
+        Me.BasicIndicator835.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator835.OutlineWidth = 1
+        Me.BasicIndicator835.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator835.PLCAddressSelectColor3 = "MDR12630_06.Z1_JAM_BIT"
+        Me.BasicIndicator835.PLCAddressVisible = "MDR12630_06.Z1_JAM_BIT"
+        Me.BasicIndicator835.SelectColor2 = False
+        Me.BasicIndicator835.SelectColor3 = False
+        Me.BasicIndicator835.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator835.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator835.TabIndex = 6781
+        Me.BasicIndicator835.Text = "JAM "
+        '
+        'BasicIndicator836
+        '
+        Me.BasicIndicator836.Color1 = System.Drawing.Color.Red
+        Me.BasicIndicator836.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator836.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator836.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator836.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator836.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator836.Location = New System.Drawing.Point(1764, 486)
+        Me.BasicIndicator836.Name = "BasicIndicator836"
+        Me.BasicIndicator836.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator836.OutlineWidth = 1
+        Me.BasicIndicator836.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator836.PLCAddressSelectColor3 = "MDR12630_06.Z1_FAULT"
+        Me.BasicIndicator836.PLCAddressVisible = "MDR12630_06.Z1_FAULT"
+        Me.BasicIndicator836.SelectColor2 = False
+        Me.BasicIndicator836.SelectColor3 = False
+        Me.BasicIndicator836.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator836.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator836.TabIndex = 6780
+        Me.BasicIndicator836.Text = "FAULT"
+        '
+        'CheckBox81
+        '
+        Me.CheckBox81.AutoSize = True
+        Me.CheckBox81.ComComponent = Me.EthernetIPforCLXCom1
+        Me.CheckBox81.Font = New System.Drawing.Font("Elephant", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox81.ForeColor = System.Drawing.Color.GhostWhite
+        Me.CheckBox81.Location = New System.Drawing.Point(1523, 482)
+        Me.CheckBox81.Name = "CheckBox81"
+        Me.CheckBox81.PLCAddressCheckChanged = ""
+        Me.CheckBox81.PLCAddressChecked = ""
+        Me.CheckBox81.PLCAddressText = ""
+        Me.CheckBox81.PLCAddressVisible = ""
+        Me.CheckBox81.Size = New System.Drawing.Size(132, 18)
+        Me.CheckBox81.TabIndex = 6779
+        Me.CheckBox81.Text = "MDR 12630.6-1"
+        Me.CheckBox81.TextAlign = System.Drawing.ContentAlignment.BottomLeft
+        Me.CheckBox81.UseVisualStyleBackColor = True
+        '
+        'BasicIndicator837
+        '
+        Me.BasicIndicator837.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator837.Color2 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator837.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator837.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator837.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator837.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator837.Location = New System.Drawing.Point(1709, 486)
+        Me.BasicIndicator837.Name = "BasicIndicator837"
+        Me.BasicIndicator837.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator837.OutlineWidth = 1
+        Me.BasicIndicator837.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator837.PLCAddressSelectColor2 = "MDR12630_06.Z1_MTR_RUNNING"
+        Me.BasicIndicator837.PLCAddressVisible = "MDR12630_06.Z1_MTR_RUNNING"
+        Me.BasicIndicator837.SelectColor2 = False
+        Me.BasicIndicator837.SelectColor3 = False
+        Me.BasicIndicator837.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator837.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator837.TabIndex = 6778
+        Me.BasicIndicator837.Text = "RUN"
+        '
+        'BasicIndicator838
+        '
+        Me.BasicIndicator838.Color1 = System.Drawing.Color.Black
+        Me.BasicIndicator838.Color2 = System.Drawing.Color.Gold
+        Me.BasicIndicator838.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator838.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator838.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator838.ForeColor = System.Drawing.Color.GhostWhite
+        Me.BasicIndicator838.Location = New System.Drawing.Point(1653, 526)
+        Me.BasicIndicator838.Name = "BasicIndicator838"
+        Me.BasicIndicator838.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator838.OutlineWidth = 1
+        Me.BasicIndicator838.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator838.PLCAddressSelectColor2 = "EEM12630_07_2"
+        Me.BasicIndicator838.SelectColor2 = False
+        Me.BasicIndicator838.SelectColor3 = False
+        Me.BasicIndicator838.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator838.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator838.TabIndex = 6792
+        Me.BasicIndicator838.Text = "12630.7-2"
+        '
+        'BasicIndicator839
+        '
+        Me.BasicIndicator839.Color1 = System.Drawing.Color.Red
+        Me.BasicIndicator839.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator839.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator839.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator839.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator839.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator839.Location = New System.Drawing.Point(1818, 526)
+        Me.BasicIndicator839.Name = "BasicIndicator839"
+        Me.BasicIndicator839.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator839.OutlineWidth = 1
+        Me.BasicIndicator839.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator839.PLCAddressSelectColor3 = "MDR12630_07.Z2_JAM_BIT"
+        Me.BasicIndicator839.PLCAddressVisible = "MDR12630_07.Z2_JAM_BIT"
+        Me.BasicIndicator839.SelectColor2 = False
+        Me.BasicIndicator839.SelectColor3 = False
+        Me.BasicIndicator839.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator839.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator839.TabIndex = 6791
+        Me.BasicIndicator839.Text = "JAM "
+        '
+        'BasicIndicator840
+        '
+        Me.BasicIndicator840.Color1 = System.Drawing.Color.Red
+        Me.BasicIndicator840.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator840.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator840.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator840.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator840.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator840.Location = New System.Drawing.Point(1763, 526)
+        Me.BasicIndicator840.Name = "BasicIndicator840"
+        Me.BasicIndicator840.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator840.OutlineWidth = 1
+        Me.BasicIndicator840.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator840.PLCAddressSelectColor3 = "MDR12630_07.Z2_FAULT"
+        Me.BasicIndicator840.PLCAddressVisible = "MDR12630_07.Z2_FAULT"
+        Me.BasicIndicator840.SelectColor2 = False
+        Me.BasicIndicator840.SelectColor3 = False
+        Me.BasicIndicator840.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator840.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator840.TabIndex = 6790
+        Me.BasicIndicator840.Text = "FAULT"
+        '
+        'CheckBox82
+        '
+        Me.CheckBox82.AutoSize = True
+        Me.CheckBox82.ComComponent = Me.EthernetIPforCLXCom1
+        Me.CheckBox82.Font = New System.Drawing.Font("Elephant", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox82.ForeColor = System.Drawing.Color.GhostWhite
+        Me.CheckBox82.Location = New System.Drawing.Point(1523, 522)
+        Me.CheckBox82.Name = "CheckBox82"
+        Me.CheckBox82.PLCAddressCheckChanged = ""
+        Me.CheckBox82.PLCAddressChecked = ""
+        Me.CheckBox82.PLCAddressText = ""
+        Me.CheckBox82.PLCAddressVisible = ""
+        Me.CheckBox82.Size = New System.Drawing.Size(133, 18)
+        Me.CheckBox82.TabIndex = 6789
+        Me.CheckBox82.Text = "MDR 12630.7-2"
+        Me.CheckBox82.TextAlign = System.Drawing.ContentAlignment.BottomLeft
+        Me.CheckBox82.UseVisualStyleBackColor = True
+        '
+        'BasicIndicator841
+        '
+        Me.BasicIndicator841.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator841.Color2 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator841.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator841.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator841.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator841.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator841.Location = New System.Drawing.Point(1708, 526)
+        Me.BasicIndicator841.Name = "BasicIndicator841"
+        Me.BasicIndicator841.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator841.OutlineWidth = 1
+        Me.BasicIndicator841.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator841.PLCAddressSelectColor2 = "MDR12630_07.Z2_MTR_RUNNING"
+        Me.BasicIndicator841.PLCAddressVisible = "MDR12630_07.Z2_MTR_RUNNING"
+        Me.BasicIndicator841.SelectColor2 = False
+        Me.BasicIndicator841.SelectColor3 = False
+        Me.BasicIndicator841.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator841.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator841.TabIndex = 6788
+        Me.BasicIndicator841.Text = "RUN"
+        '
+        'BasicIndicator842
+        '
+        Me.BasicIndicator842.Color1 = System.Drawing.Color.Black
+        Me.BasicIndicator842.Color2 = System.Drawing.Color.Gold
+        Me.BasicIndicator842.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator842.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator842.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator842.ForeColor = System.Drawing.Color.GhostWhite
+        Me.BasicIndicator842.Location = New System.Drawing.Point(1654, 506)
+        Me.BasicIndicator842.Name = "BasicIndicator842"
+        Me.BasicIndicator842.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator842.OutlineWidth = 1
+        Me.BasicIndicator842.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator842.PLCAddressSelectColor2 = "EEM12630_07_1"
+        Me.BasicIndicator842.SelectColor2 = False
+        Me.BasicIndicator842.SelectColor3 = False
+        Me.BasicIndicator842.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator842.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator842.TabIndex = 6787
+        Me.BasicIndicator842.Text = "12630.7-1"
+        '
+        'BasicIndicator843
+        '
+        Me.BasicIndicator843.Color1 = System.Drawing.Color.Red
+        Me.BasicIndicator843.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator843.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator843.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator843.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator843.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator843.Location = New System.Drawing.Point(1819, 506)
+        Me.BasicIndicator843.Name = "BasicIndicator843"
+        Me.BasicIndicator843.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator843.OutlineWidth = 1
+        Me.BasicIndicator843.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator843.PLCAddressSelectColor3 = "MDR12630_07.Z1_JAM_BIT"
+        Me.BasicIndicator843.PLCAddressVisible = "MDR12630_07.Z1_JAM_BIT"
+        Me.BasicIndicator843.SelectColor2 = False
+        Me.BasicIndicator843.SelectColor3 = False
+        Me.BasicIndicator843.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator843.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator843.TabIndex = 6786
+        Me.BasicIndicator843.Text = "JAM "
+        '
+        'BasicIndicator844
+        '
+        Me.BasicIndicator844.Color1 = System.Drawing.Color.Red
+        Me.BasicIndicator844.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator844.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator844.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator844.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator844.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator844.Location = New System.Drawing.Point(1764, 506)
+        Me.BasicIndicator844.Name = "BasicIndicator844"
+        Me.BasicIndicator844.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator844.OutlineWidth = 1
+        Me.BasicIndicator844.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator844.PLCAddressSelectColor3 = "MDR12630_07.Z1_FAULT"
+        Me.BasicIndicator844.PLCAddressVisible = "MDR12630_07.Z1_FAULT"
+        Me.BasicIndicator844.SelectColor2 = False
+        Me.BasicIndicator844.SelectColor3 = False
+        Me.BasicIndicator844.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator844.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator844.TabIndex = 6785
+        Me.BasicIndicator844.Text = "FAULT"
+        '
+        'CheckBox83
+        '
+        Me.CheckBox83.AutoSize = True
+        Me.CheckBox83.ComComponent = Me.EthernetIPforCLXCom1
+        Me.CheckBox83.Font = New System.Drawing.Font("Elephant", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox83.ForeColor = System.Drawing.Color.GhostWhite
+        Me.CheckBox83.Location = New System.Drawing.Point(1523, 502)
+        Me.CheckBox83.Name = "CheckBox83"
+        Me.CheckBox83.PLCAddressCheckChanged = ""
+        Me.CheckBox83.PLCAddressChecked = ""
+        Me.CheckBox83.PLCAddressText = ""
+        Me.CheckBox83.PLCAddressVisible = ""
+        Me.CheckBox83.Size = New System.Drawing.Size(131, 18)
+        Me.CheckBox83.TabIndex = 6784
+        Me.CheckBox83.Text = "MDR 12630.7-1"
+        Me.CheckBox83.TextAlign = System.Drawing.ContentAlignment.BottomLeft
+        Me.CheckBox83.UseVisualStyleBackColor = True
+        '
+        'BasicIndicator845
+        '
+        Me.BasicIndicator845.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator845.Color2 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator845.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator845.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator845.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator845.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator845.Location = New System.Drawing.Point(1709, 506)
+        Me.BasicIndicator845.Name = "BasicIndicator845"
+        Me.BasicIndicator845.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator845.OutlineWidth = 1
+        Me.BasicIndicator845.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator845.PLCAddressSelectColor2 = "MDR12630_07.Z1_MTR_RUNNING"
+        Me.BasicIndicator845.PLCAddressVisible = "MDR12630_07.Z1_MTR_RUNNING"
+        Me.BasicIndicator845.SelectColor2 = False
+        Me.BasicIndicator845.SelectColor3 = False
+        Me.BasicIndicator845.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator845.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator845.TabIndex = 6783
+        Me.BasicIndicator845.Text = "RUN"
+        '
+        'BasicIndicator846
+        '
+        Me.BasicIndicator846.Color1 = System.Drawing.Color.Black
+        Me.BasicIndicator846.Color2 = System.Drawing.Color.Gold
+        Me.BasicIndicator846.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator846.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator846.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator846.ForeColor = System.Drawing.Color.GhostWhite
+        Me.BasicIndicator846.Location = New System.Drawing.Point(1708, 559)
+        Me.BasicIndicator846.Name = "BasicIndicator846"
+        Me.BasicIndicator846.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator846.OutlineWidth = 1
+        Me.BasicIndicator846.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator846.PLCAddressSelectColor2 = "EEM12615_02_6"
+        Me.BasicIndicator846.SelectColor2 = False
+        Me.BasicIndicator846.SelectColor3 = False
+        Me.BasicIndicator846.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator846.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator846.TabIndex = 6807
+        Me.BasicIndicator846.Text = "DOWN"
+        '
+        'BasicIndicator958
+        '
+        Me.BasicIndicator958.Color1 = System.Drawing.Color.Black
+        Me.BasicIndicator958.Color2 = System.Drawing.Color.Gold
+        Me.BasicIndicator958.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator958.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator958.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator958.ForeColor = System.Drawing.Color.GhostWhite
+        Me.BasicIndicator958.Location = New System.Drawing.Point(1653, 560)
+        Me.BasicIndicator958.Name = "BasicIndicator958"
+        Me.BasicIndicator958.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator958.OutlineWidth = 1
+        Me.BasicIndicator958.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator958.PLCAddressSelectColor2 = "EEM12630_07_5"
+        Me.BasicIndicator958.SelectColor2 = False
+        Me.BasicIndicator958.SelectColor3 = False
+        Me.BasicIndicator958.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator958.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator958.TabIndex = 6802
+        Me.BasicIndicator958.Text = "UP"
+        '
+        'BasicIndicator962
+        '
+        Me.BasicIndicator962.Color1 = System.Drawing.Color.Black
+        Me.BasicIndicator962.Color2 = System.Drawing.Color.Gold
+        Me.BasicIndicator962.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator962.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator962.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator962.ForeColor = System.Drawing.Color.GhostWhite
+        Me.BasicIndicator962.Location = New System.Drawing.Point(1653, 546)
+        Me.BasicIndicator962.Name = "BasicIndicator962"
+        Me.BasicIndicator962.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator962.OutlineWidth = 1
+        Me.BasicIndicator962.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator962.PLCAddressSelectColor2 = "EEM12615_02_4"
+        Me.BasicIndicator962.SelectColor2 = False
+        Me.BasicIndicator962.SelectColor3 = False
+        Me.BasicIndicator962.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator962.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator962.TabIndex = 6797
+        Me.BasicIndicator962.Text = "12630.7-4"
+        '
+        'BasicIndicator963
+        '
+        Me.BasicIndicator963.Color1 = System.Drawing.Color.Red
+        Me.BasicIndicator963.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator963.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator963.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator963.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator963.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator963.Location = New System.Drawing.Point(1818, 546)
+        Me.BasicIndicator963.Name = "BasicIndicator963"
+        Me.BasicIndicator963.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator963.OutlineWidth = 1
+        Me.BasicIndicator963.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator963.PLCAddressSelectColor3 = "MDR12630_07.Z4_JAM_BIT"
+        Me.BasicIndicator963.PLCAddressVisible = "MDR12630_07.Z4_JAM_BIT"
+        Me.BasicIndicator963.SelectColor2 = False
+        Me.BasicIndicator963.SelectColor3 = False
+        Me.BasicIndicator963.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator963.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator963.TabIndex = 6796
+        Me.BasicIndicator963.Text = "JAM "
+        '
+        'BasicIndicator964
+        '
+        Me.BasicIndicator964.Color1 = System.Drawing.Color.Red
+        Me.BasicIndicator964.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator964.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator964.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator964.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator964.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator964.Location = New System.Drawing.Point(1763, 546)
+        Me.BasicIndicator964.Name = "BasicIndicator964"
+        Me.BasicIndicator964.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator964.OutlineWidth = 1
+        Me.BasicIndicator964.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator964.PLCAddressSelectColor3 = "MDR12630_07.Z4_FAULT"
+        Me.BasicIndicator964.PLCAddressVisible = "MDR12630_07.Z4_FAULT"
+        Me.BasicIndicator964.SelectColor2 = False
+        Me.BasicIndicator964.SelectColor3 = False
+        Me.BasicIndicator964.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator964.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator964.TabIndex = 6795
+        Me.BasicIndicator964.Text = "FAULT"
+        '
+        'CheckBox86
+        '
+        Me.CheckBox86.AutoSize = True
+        Me.CheckBox86.ComComponent = Me.EthernetIPforCLXCom1
+        Me.CheckBox86.Font = New System.Drawing.Font("Elephant", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox86.ForeColor = System.Drawing.Color.GhostWhite
+        Me.CheckBox86.Location = New System.Drawing.Point(1523, 542)
+        Me.CheckBox86.Name = "CheckBox86"
+        Me.CheckBox86.PLCAddressCheckChanged = ""
+        Me.CheckBox86.PLCAddressChecked = ""
+        Me.CheckBox86.PLCAddressText = ""
+        Me.CheckBox86.PLCAddressVisible = ""
+        Me.CheckBox86.Size = New System.Drawing.Size(133, 18)
+        Me.CheckBox86.TabIndex = 6794
+        Me.CheckBox86.Text = "MDR 12630.7-4"
+        Me.CheckBox86.TextAlign = System.Drawing.ContentAlignment.BottomLeft
+        Me.CheckBox86.UseVisualStyleBackColor = True
+        '
+        'BasicIndicator965
+        '
+        Me.BasicIndicator965.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator965.Color2 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator965.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator965.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator965.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator965.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator965.Location = New System.Drawing.Point(1708, 546)
+        Me.BasicIndicator965.Name = "BasicIndicator965"
+        Me.BasicIndicator965.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator965.OutlineWidth = 1
+        Me.BasicIndicator965.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator965.PLCAddressSelectColor2 = "MDR12630_07.Z4_MTR_RUNNING"
+        Me.BasicIndicator965.PLCAddressVisible = "MDR12630_07.Z4_MTR_RUNNING"
+        Me.BasicIndicator965.SelectColor2 = False
+        Me.BasicIndicator965.SelectColor3 = False
+        Me.BasicIndicator965.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator965.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator965.TabIndex = 6793
+        Me.BasicIndicator965.Text = "RUN"
+        '
+        'BasicIndicator783
+        '
+        Me.BasicIndicator783.Color1 = System.Drawing.Color.Black
+        Me.BasicIndicator783.Color2 = System.Drawing.Color.Gold
+        Me.BasicIndicator783.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator783.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator783.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator783.ForeColor = System.Drawing.Color.GhostWhite
+        Me.BasicIndicator783.Location = New System.Drawing.Point(1654, 772)
+        Me.BasicIndicator783.Name = "BasicIndicator783"
+        Me.BasicIndicator783.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator783.OutlineWidth = 1
+        Me.BasicIndicator783.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator783.PLCAddressSelectColor2 = "EEM12635_05_2"
+        Me.BasicIndicator783.SelectColor2 = False
+        Me.BasicIndicator783.SelectColor3 = False
+        Me.BasicIndicator783.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator783.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator783.TabIndex = 6817
+        Me.BasicIndicator783.Text = "12635.5-2"
+        '
+        'BasicIndicator784
+        '
+        Me.BasicIndicator784.Color1 = System.Drawing.Color.Red
+        Me.BasicIndicator784.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator784.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator784.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator784.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator784.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator784.Location = New System.Drawing.Point(1819, 772)
+        Me.BasicIndicator784.Name = "BasicIndicator784"
+        Me.BasicIndicator784.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator784.OutlineWidth = 1
+        Me.BasicIndicator784.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator784.PLCAddressSelectColor3 = "MDR12635_05.Z2_JAM_BIT"
+        Me.BasicIndicator784.PLCAddressVisible = "MDR12635_05.Z2_JAM_BIT"
+        Me.BasicIndicator784.SelectColor2 = False
+        Me.BasicIndicator784.SelectColor3 = False
+        Me.BasicIndicator784.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator784.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator784.TabIndex = 6816
+        Me.BasicIndicator784.Text = "JAM "
+        '
+        'BasicIndicator785
+        '
+        Me.BasicIndicator785.Color1 = System.Drawing.Color.Red
+        Me.BasicIndicator785.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator785.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator785.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator785.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator785.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator785.Location = New System.Drawing.Point(1764, 772)
+        Me.BasicIndicator785.Name = "BasicIndicator785"
+        Me.BasicIndicator785.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator785.OutlineWidth = 1
+        Me.BasicIndicator785.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator785.PLCAddressSelectColor3 = "MDR12635_05.Z2_FAULT"
+        Me.BasicIndicator785.PLCAddressVisible = "MDR12635_05.Z2_FAULT"
+        Me.BasicIndicator785.SelectColor2 = False
+        Me.BasicIndicator785.SelectColor3 = False
+        Me.BasicIndicator785.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator785.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator785.TabIndex = 6815
+        Me.BasicIndicator785.Text = "FAULT"
+        '
+        'CheckBox68
+        '
+        Me.CheckBox68.AutoSize = True
+        Me.CheckBox68.ComComponent = Me.EthernetIPforCLXCom1
+        Me.CheckBox68.Font = New System.Drawing.Font("Elephant", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox68.ForeColor = System.Drawing.Color.GhostWhite
+        Me.CheckBox68.Location = New System.Drawing.Point(1524, 768)
+        Me.CheckBox68.Name = "CheckBox68"
+        Me.CheckBox68.PLCAddressCheckChanged = ""
+        Me.CheckBox68.PLCAddressChecked = ""
+        Me.CheckBox68.PLCAddressText = ""
+        Me.CheckBox68.PLCAddressVisible = ""
+        Me.CheckBox68.Size = New System.Drawing.Size(127, 18)
+        Me.CheckBox68.TabIndex = 6814
+        Me.CheckBox68.Text = "RAT 12635.5-2"
+        Me.CheckBox68.TextAlign = System.Drawing.ContentAlignment.BottomLeft
+        Me.CheckBox68.UseVisualStyleBackColor = True
+        '
+        'BasicIndicator787
+        '
+        Me.BasicIndicator787.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator787.Color2 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator787.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator787.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator787.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator787.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator787.Location = New System.Drawing.Point(1709, 772)
+        Me.BasicIndicator787.Name = "BasicIndicator787"
+        Me.BasicIndicator787.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator787.OutlineWidth = 1
+        Me.BasicIndicator787.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator787.PLCAddressSelectColor2 = "MDR12635_05.Z2_MTR_RUNNING"
+        Me.BasicIndicator787.PLCAddressVisible = "MDR12635_05.Z2_MTR_RUNNING"
+        Me.BasicIndicator787.SelectColor2 = False
+        Me.BasicIndicator787.SelectColor3 = False
+        Me.BasicIndicator787.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator787.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator787.TabIndex = 6813
+        Me.BasicIndicator787.Text = "RUN"
+        '
+        'BasicIndicator788
+        '
+        Me.BasicIndicator788.Color1 = System.Drawing.Color.Black
+        Me.BasicIndicator788.Color2 = System.Drawing.Color.Gold
+        Me.BasicIndicator788.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator788.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator788.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator788.ForeColor = System.Drawing.Color.GhostWhite
+        Me.BasicIndicator788.Location = New System.Drawing.Point(1655, 752)
+        Me.BasicIndicator788.Name = "BasicIndicator788"
+        Me.BasicIndicator788.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator788.OutlineWidth = 1
+        Me.BasicIndicator788.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator788.PLCAddressSelectColor2 = "EEM12635_05_1"
+        Me.BasicIndicator788.SelectColor2 = False
+        Me.BasicIndicator788.SelectColor3 = False
+        Me.BasicIndicator788.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator788.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator788.TabIndex = 6812
+        Me.BasicIndicator788.Text = "12635.5-1"
+        '
+        'BasicIndicator789
+        '
+        Me.BasicIndicator789.Color1 = System.Drawing.Color.Red
+        Me.BasicIndicator789.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator789.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator789.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator789.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator789.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator789.Location = New System.Drawing.Point(1820, 752)
+        Me.BasicIndicator789.Name = "BasicIndicator789"
+        Me.BasicIndicator789.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator789.OutlineWidth = 1
+        Me.BasicIndicator789.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator789.PLCAddressSelectColor3 = "MDR12635_05.Z1_JAM_BIT"
+        Me.BasicIndicator789.PLCAddressVisible = "MDR12635_05.Z1_JAM_BIT"
+        Me.BasicIndicator789.SelectColor2 = False
+        Me.BasicIndicator789.SelectColor3 = False
+        Me.BasicIndicator789.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator789.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator789.TabIndex = 6811
+        Me.BasicIndicator789.Text = "JAM "
+        '
+        'BasicIndicator847
+        '
+        Me.BasicIndicator847.Color1 = System.Drawing.Color.Red
+        Me.BasicIndicator847.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator847.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator847.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator847.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator847.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator847.Location = New System.Drawing.Point(1765, 752)
+        Me.BasicIndicator847.Name = "BasicIndicator847"
+        Me.BasicIndicator847.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator847.OutlineWidth = 1
+        Me.BasicIndicator847.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator847.PLCAddressSelectColor3 = "MDR12635_05.Z1_FAULT"
+        Me.BasicIndicator847.PLCAddressVisible = "MDR12635_05.Z1_FAULT"
+        Me.BasicIndicator847.SelectColor2 = False
+        Me.BasicIndicator847.SelectColor3 = False
+        Me.BasicIndicator847.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator847.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator847.TabIndex = 6810
+        Me.BasicIndicator847.Text = "FAULT"
+        '
+        'CheckBox69
+        '
+        Me.CheckBox69.AutoSize = True
+        Me.CheckBox69.ComComponent = Me.EthernetIPforCLXCom1
+        Me.CheckBox69.Font = New System.Drawing.Font("Elephant", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox69.ForeColor = System.Drawing.Color.GhostWhite
+        Me.CheckBox69.Location = New System.Drawing.Point(1524, 748)
+        Me.CheckBox69.Name = "CheckBox69"
+        Me.CheckBox69.PLCAddressCheckChanged = ""
+        Me.CheckBox69.PLCAddressChecked = ""
+        Me.CheckBox69.PLCAddressText = ""
+        Me.CheckBox69.PLCAddressVisible = ""
+        Me.CheckBox69.Size = New System.Drawing.Size(125, 18)
+        Me.CheckBox69.TabIndex = 6809
+        Me.CheckBox69.Text = "RAT 12635.5-1"
+        Me.CheckBox69.TextAlign = System.Drawing.ContentAlignment.BottomLeft
+        Me.CheckBox69.UseVisualStyleBackColor = True
+        '
+        'BasicIndicator848
+        '
+        Me.BasicIndicator848.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator848.Color2 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator848.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator848.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator848.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator848.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator848.Location = New System.Drawing.Point(1710, 752)
+        Me.BasicIndicator848.Name = "BasicIndicator848"
+        Me.BasicIndicator848.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator848.OutlineWidth = 1
+        Me.BasicIndicator848.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator848.PLCAddressSelectColor2 = "MDR12635_05.Z1_MTR_RUNNING"
+        Me.BasicIndicator848.PLCAddressVisible = "MDR12635_05.Z1_MTR_RUNNING"
+        Me.BasicIndicator848.SelectColor2 = False
+        Me.BasicIndicator848.SelectColor3 = False
+        Me.BasicIndicator848.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator848.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator848.TabIndex = 6808
+        Me.BasicIndicator848.Text = "RUN"
+        '
+        'BasicIndicator849
+        '
+        Me.BasicIndicator849.Color1 = System.Drawing.Color.Black
+        Me.BasicIndicator849.Color2 = System.Drawing.Color.Gold
+        Me.BasicIndicator849.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator849.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator849.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator849.ForeColor = System.Drawing.Color.GhostWhite
+        Me.BasicIndicator849.Location = New System.Drawing.Point(1655, 732)
+        Me.BasicIndicator849.Name = "BasicIndicator849"
+        Me.BasicIndicator849.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator849.OutlineWidth = 1
+        Me.BasicIndicator849.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator849.PLCAddressSelectColor2 = "EEM12615_02_4"
+        Me.BasicIndicator849.SelectColor2 = False
+        Me.BasicIndicator849.SelectColor3 = False
+        Me.BasicIndicator849.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator849.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator849.TabIndex = 6837
+        Me.BasicIndicator849.Text = "12635.4-4"
+        '
+        'BasicIndicator959
+        '
+        Me.BasicIndicator959.Color1 = System.Drawing.Color.Red
+        Me.BasicIndicator959.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator959.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator959.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator959.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator959.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator959.Location = New System.Drawing.Point(1820, 732)
+        Me.BasicIndicator959.Name = "BasicIndicator959"
+        Me.BasicIndicator959.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator959.OutlineWidth = 1
+        Me.BasicIndicator959.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator959.PLCAddressSelectColor3 = "MDR12635_04.Z4_JAM_BIT"
+        Me.BasicIndicator959.PLCAddressVisible = "MDR12635_04.Z4_JAM_BIT"
+        Me.BasicIndicator959.SelectColor2 = False
+        Me.BasicIndicator959.SelectColor3 = False
+        Me.BasicIndicator959.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator959.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator959.TabIndex = 6836
+        Me.BasicIndicator959.Text = "JAM "
+        '
+        'BasicIndicator960
+        '
+        Me.BasicIndicator960.Color1 = System.Drawing.Color.Red
+        Me.BasicIndicator960.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator960.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator960.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator960.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator960.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator960.Location = New System.Drawing.Point(1765, 732)
+        Me.BasicIndicator960.Name = "BasicIndicator960"
+        Me.BasicIndicator960.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator960.OutlineWidth = 1
+        Me.BasicIndicator960.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator960.PLCAddressSelectColor3 = "MDR12635_04.Z4_FAULT"
+        Me.BasicIndicator960.PLCAddressVisible = "MDR12635_04.Z4_FAULT"
+        Me.BasicIndicator960.SelectColor2 = False
+        Me.BasicIndicator960.SelectColor3 = False
+        Me.BasicIndicator960.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator960.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator960.TabIndex = 6835
+        Me.BasicIndicator960.Text = "FAULT"
+        '
+        'CheckBox84
+        '
+        Me.CheckBox84.AutoSize = True
+        Me.CheckBox84.ComComponent = Me.EthernetIPforCLXCom1
+        Me.CheckBox84.Font = New System.Drawing.Font("Elephant", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox84.ForeColor = System.Drawing.Color.GhostWhite
+        Me.CheckBox84.Location = New System.Drawing.Point(1525, 728)
+        Me.CheckBox84.Name = "CheckBox84"
+        Me.CheckBox84.PLCAddressCheckChanged = ""
+        Me.CheckBox84.PLCAddressChecked = ""
+        Me.CheckBox84.PLCAddressText = ""
+        Me.CheckBox84.PLCAddressVisible = ""
+        Me.CheckBox84.Size = New System.Drawing.Size(128, 18)
+        Me.CheckBox84.TabIndex = 6834
+        Me.CheckBox84.Text = "RAT 12635.4-4"
+        Me.CheckBox84.TextAlign = System.Drawing.ContentAlignment.BottomLeft
+        Me.CheckBox84.UseVisualStyleBackColor = True
+        '
+        'BasicIndicator961
+        '
+        Me.BasicIndicator961.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator961.Color2 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator961.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator961.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator961.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator961.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator961.Location = New System.Drawing.Point(1710, 732)
+        Me.BasicIndicator961.Name = "BasicIndicator961"
+        Me.BasicIndicator961.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator961.OutlineWidth = 1
+        Me.BasicIndicator961.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator961.PLCAddressSelectColor2 = "MDR12635_04.Z4_MTR_RUNNING"
+        Me.BasicIndicator961.PLCAddressVisible = "MDR12635_04.Z4_MTR_RUNNING"
+        Me.BasicIndicator961.SelectColor2 = False
+        Me.BasicIndicator961.SelectColor3 = False
+        Me.BasicIndicator961.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator961.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator961.TabIndex = 6833
+        Me.BasicIndicator961.Text = "RUN"
+        '
+        'BasicIndicator966
+        '
+        Me.BasicIndicator966.Color1 = System.Drawing.Color.Black
+        Me.BasicIndicator966.Color2 = System.Drawing.Color.Gold
+        Me.BasicIndicator966.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator966.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator966.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator966.ForeColor = System.Drawing.Color.GhostWhite
+        Me.BasicIndicator966.Location = New System.Drawing.Point(1655, 712)
+        Me.BasicIndicator966.Name = "BasicIndicator966"
+        Me.BasicIndicator966.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator966.OutlineWidth = 1
+        Me.BasicIndicator966.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator966.PLCAddressSelectColor2 = "EEM12635_04_3"
+        Me.BasicIndicator966.SelectColor2 = False
+        Me.BasicIndicator966.SelectColor3 = False
+        Me.BasicIndicator966.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator966.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator966.TabIndex = 6832
+        Me.BasicIndicator966.Text = "12635.4-3"
+        '
+        'BasicIndicator967
+        '
+        Me.BasicIndicator967.Color1 = System.Drawing.Color.Red
+        Me.BasicIndicator967.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator967.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator967.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator967.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator967.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator967.Location = New System.Drawing.Point(1820, 712)
+        Me.BasicIndicator967.Name = "BasicIndicator967"
+        Me.BasicIndicator967.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator967.OutlineWidth = 1
+        Me.BasicIndicator967.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator967.PLCAddressSelectColor3 = "MDR12635_04.Z3_JAM_BIT"
+        Me.BasicIndicator967.PLCAddressVisible = "MDR12635_04.Z3_JAM_BIT"
+        Me.BasicIndicator967.SelectColor2 = False
+        Me.BasicIndicator967.SelectColor3 = False
+        Me.BasicIndicator967.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator967.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator967.TabIndex = 6831
+        Me.BasicIndicator967.Text = "JAM "
+        '
+        'BasicIndicator968
+        '
+        Me.BasicIndicator968.Color1 = System.Drawing.Color.Red
+        Me.BasicIndicator968.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator968.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator968.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator968.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator968.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator968.Location = New System.Drawing.Point(1765, 712)
+        Me.BasicIndicator968.Name = "BasicIndicator968"
+        Me.BasicIndicator968.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator968.OutlineWidth = 1
+        Me.BasicIndicator968.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator968.PLCAddressSelectColor3 = "MDR12635_04.Z3_FAULT"
+        Me.BasicIndicator968.PLCAddressVisible = "MDR12635_04.Z3_FAULT"
+        Me.BasicIndicator968.SelectColor2 = False
+        Me.BasicIndicator968.SelectColor3 = False
+        Me.BasicIndicator968.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator968.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator968.TabIndex = 6830
+        Me.BasicIndicator968.Text = "FAULT"
+        '
+        'CheckBox85
+        '
+        Me.CheckBox85.AutoSize = True
+        Me.CheckBox85.ComComponent = Me.EthernetIPforCLXCom1
+        Me.CheckBox85.Font = New System.Drawing.Font("Elephant", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox85.ForeColor = System.Drawing.Color.GhostWhite
+        Me.CheckBox85.Location = New System.Drawing.Point(1525, 708)
+        Me.CheckBox85.Name = "CheckBox85"
+        Me.CheckBox85.PLCAddressCheckChanged = ""
+        Me.CheckBox85.PLCAddressChecked = ""
+        Me.CheckBox85.PLCAddressText = ""
+        Me.CheckBox85.PLCAddressVisible = ""
+        Me.CheckBox85.Size = New System.Drawing.Size(128, 18)
+        Me.CheckBox85.TabIndex = 6829
+        Me.CheckBox85.Text = "RAT 12635.4-3"
+        Me.CheckBox85.TextAlign = System.Drawing.ContentAlignment.BottomLeft
+        Me.CheckBox85.UseVisualStyleBackColor = True
+        '
+        'BasicIndicator969
+        '
+        Me.BasicIndicator969.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator969.Color2 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator969.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator969.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator969.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator969.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator969.Location = New System.Drawing.Point(1710, 712)
+        Me.BasicIndicator969.Name = "BasicIndicator969"
+        Me.BasicIndicator969.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator969.OutlineWidth = 1
+        Me.BasicIndicator969.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator969.PLCAddressSelectColor2 = "MDR12635_04.Z3_MTR_RUNNING"
+        Me.BasicIndicator969.PLCAddressVisible = "MDR12635_04.Z3_MTR_RUNNING"
+        Me.BasicIndicator969.SelectColor2 = False
+        Me.BasicIndicator969.SelectColor3 = False
+        Me.BasicIndicator969.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator969.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator969.TabIndex = 6828
+        Me.BasicIndicator969.Text = "RUN"
+        '
+        'BasicIndicator970
+        '
+        Me.BasicIndicator970.Color1 = System.Drawing.Color.Black
+        Me.BasicIndicator970.Color2 = System.Drawing.Color.Gold
+        Me.BasicIndicator970.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator970.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator970.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator970.ForeColor = System.Drawing.Color.GhostWhite
+        Me.BasicIndicator970.Location = New System.Drawing.Point(1655, 693)
+        Me.BasicIndicator970.Name = "BasicIndicator970"
+        Me.BasicIndicator970.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator970.OutlineWidth = 1
+        Me.BasicIndicator970.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator970.PLCAddressSelectColor2 = "EEM12635_04_2"
+        Me.BasicIndicator970.SelectColor2 = False
+        Me.BasicIndicator970.SelectColor3 = False
+        Me.BasicIndicator970.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator970.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator970.TabIndex = 6827
+        Me.BasicIndicator970.Text = "12635.4-2"
+        '
+        'BasicIndicator971
+        '
+        Me.BasicIndicator971.Color1 = System.Drawing.Color.Red
+        Me.BasicIndicator971.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator971.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator971.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator971.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator971.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator971.Location = New System.Drawing.Point(1820, 693)
+        Me.BasicIndicator971.Name = "BasicIndicator971"
+        Me.BasicIndicator971.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator971.OutlineWidth = 1
+        Me.BasicIndicator971.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator971.PLCAddressSelectColor3 = "MDR12635_04.Z2_JAM_BIT"
+        Me.BasicIndicator971.PLCAddressVisible = "MDR12635_04.Z2_JAM_BIT"
+        Me.BasicIndicator971.SelectColor2 = False
+        Me.BasicIndicator971.SelectColor3 = False
+        Me.BasicIndicator971.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator971.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator971.TabIndex = 6826
+        Me.BasicIndicator971.Text = "JAM "
+        '
+        'BasicIndicator972
+        '
+        Me.BasicIndicator972.Color1 = System.Drawing.Color.Red
+        Me.BasicIndicator972.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator972.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator972.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator972.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator972.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator972.Location = New System.Drawing.Point(1765, 693)
+        Me.BasicIndicator972.Name = "BasicIndicator972"
+        Me.BasicIndicator972.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator972.OutlineWidth = 1
+        Me.BasicIndicator972.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator972.PLCAddressSelectColor3 = "MDR12635_04.Z2_FAULT"
+        Me.BasicIndicator972.PLCAddressVisible = "MDR12635_04.Z2_FAULT"
+        Me.BasicIndicator972.SelectColor2 = False
+        Me.BasicIndicator972.SelectColor3 = False
+        Me.BasicIndicator972.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator972.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator972.TabIndex = 6825
+        Me.BasicIndicator972.Text = "FAULT"
+        '
+        'CheckBox87
+        '
+        Me.CheckBox87.AutoSize = True
+        Me.CheckBox87.ComComponent = Me.EthernetIPforCLXCom1
+        Me.CheckBox87.Font = New System.Drawing.Font("Elephant", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox87.ForeColor = System.Drawing.Color.GhostWhite
+        Me.CheckBox87.Location = New System.Drawing.Point(1525, 689)
+        Me.CheckBox87.Name = "CheckBox87"
+        Me.CheckBox87.PLCAddressCheckChanged = ""
+        Me.CheckBox87.PLCAddressChecked = ""
+        Me.CheckBox87.PLCAddressText = ""
+        Me.CheckBox87.PLCAddressVisible = ""
+        Me.CheckBox87.Size = New System.Drawing.Size(128, 18)
+        Me.CheckBox87.TabIndex = 6824
+        Me.CheckBox87.Text = "RAT 12635.4-2"
+        Me.CheckBox87.TextAlign = System.Drawing.ContentAlignment.BottomLeft
+        Me.CheckBox87.UseVisualStyleBackColor = True
+        '
+        'BasicIndicator973
+        '
+        Me.BasicIndicator973.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator973.Color2 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator973.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator973.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator973.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator973.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator973.Location = New System.Drawing.Point(1710, 693)
+        Me.BasicIndicator973.Name = "BasicIndicator973"
+        Me.BasicIndicator973.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator973.OutlineWidth = 1
+        Me.BasicIndicator973.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator973.PLCAddressSelectColor2 = "MDR12635_04.Z2_MTR_RUNNING"
+        Me.BasicIndicator973.PLCAddressVisible = "MDR12635_04.Z2_MTR_RUNNING"
+        Me.BasicIndicator973.SelectColor2 = False
+        Me.BasicIndicator973.SelectColor3 = False
+        Me.BasicIndicator973.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator973.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator973.TabIndex = 6823
+        Me.BasicIndicator973.Text = "RUN"
+        '
+        'BasicIndicator974
+        '
+        Me.BasicIndicator974.Color1 = System.Drawing.Color.Black
+        Me.BasicIndicator974.Color2 = System.Drawing.Color.Gold
+        Me.BasicIndicator974.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator974.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator974.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator974.ForeColor = System.Drawing.Color.GhostWhite
+        Me.BasicIndicator974.Location = New System.Drawing.Point(1656, 673)
+        Me.BasicIndicator974.Name = "BasicIndicator974"
+        Me.BasicIndicator974.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator974.OutlineWidth = 1
+        Me.BasicIndicator974.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator974.PLCAddressSelectColor2 = "EEM12635_04_1"
+        Me.BasicIndicator974.SelectColor2 = False
+        Me.BasicIndicator974.SelectColor3 = False
+        Me.BasicIndicator974.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator974.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator974.TabIndex = 6822
+        Me.BasicIndicator974.Text = "12635.4-1"
+        '
+        'BasicIndicator975
+        '
+        Me.BasicIndicator975.Color1 = System.Drawing.Color.Red
+        Me.BasicIndicator975.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator975.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator975.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator975.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator975.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator975.Location = New System.Drawing.Point(1821, 673)
+        Me.BasicIndicator975.Name = "BasicIndicator975"
+        Me.BasicIndicator975.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator975.OutlineWidth = 1
+        Me.BasicIndicator975.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator975.PLCAddressSelectColor3 = "MDR12635_04.Z1_JAM_BIT"
+        Me.BasicIndicator975.PLCAddressVisible = "MDR12635_04.Z1_JAM_BIT"
+        Me.BasicIndicator975.SelectColor2 = False
+        Me.BasicIndicator975.SelectColor3 = False
+        Me.BasicIndicator975.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator975.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator975.TabIndex = 6821
+        Me.BasicIndicator975.Text = "JAM "
+        '
+        'BasicIndicator976
+        '
+        Me.BasicIndicator976.Color1 = System.Drawing.Color.Red
+        Me.BasicIndicator976.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator976.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator976.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator976.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator976.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator976.Location = New System.Drawing.Point(1766, 673)
+        Me.BasicIndicator976.Name = "BasicIndicator976"
+        Me.BasicIndicator976.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator976.OutlineWidth = 1
+        Me.BasicIndicator976.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator976.PLCAddressSelectColor3 = "MDR12635_04.Z1_FAULT"
+        Me.BasicIndicator976.PLCAddressVisible = "MDR12635_04.Z1_FAULT"
+        Me.BasicIndicator976.SelectColor2 = False
+        Me.BasicIndicator976.SelectColor3 = False
+        Me.BasicIndicator976.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator976.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator976.TabIndex = 6820
+        Me.BasicIndicator976.Text = "FAULT"
+        '
+        'CheckBox88
+        '
+        Me.CheckBox88.AutoSize = True
+        Me.CheckBox88.ComComponent = Me.EthernetIPforCLXCom1
+        Me.CheckBox88.Font = New System.Drawing.Font("Elephant", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox88.ForeColor = System.Drawing.Color.GhostWhite
+        Me.CheckBox88.Location = New System.Drawing.Point(1525, 669)
+        Me.CheckBox88.Name = "CheckBox88"
+        Me.CheckBox88.PLCAddressCheckChanged = ""
+        Me.CheckBox88.PLCAddressChecked = ""
+        Me.CheckBox88.PLCAddressText = ""
+        Me.CheckBox88.PLCAddressVisible = ""
+        Me.CheckBox88.Size = New System.Drawing.Size(126, 18)
+        Me.CheckBox88.TabIndex = 6819
+        Me.CheckBox88.Text = "RAT 12635.4-1"
+        Me.CheckBox88.TextAlign = System.Drawing.ContentAlignment.BottomLeft
+        Me.CheckBox88.UseVisualStyleBackColor = True
+        '
+        'BasicIndicator977
+        '
+        Me.BasicIndicator977.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator977.Color2 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator977.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator977.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator977.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator977.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator977.Location = New System.Drawing.Point(1711, 673)
+        Me.BasicIndicator977.Name = "BasicIndicator977"
+        Me.BasicIndicator977.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator977.OutlineWidth = 1
+        Me.BasicIndicator977.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator977.PLCAddressSelectColor2 = "MDR12635_04.Z1_MTR_RUNNING"
+        Me.BasicIndicator977.PLCAddressVisible = "MDR12635_04.Z1_MTR_RUNNING"
+        Me.BasicIndicator977.SelectColor2 = False
+        Me.BasicIndicator977.SelectColor3 = False
+        Me.BasicIndicator977.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator977.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator977.TabIndex = 6818
+        Me.BasicIndicator977.Text = "RUN"
+        '
+        'BasicIndicator978
+        '
+        Me.BasicIndicator978.Color1 = System.Drawing.Color.Black
+        Me.BasicIndicator978.Color2 = System.Drawing.Color.Gold
+        Me.BasicIndicator978.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator978.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator978.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator978.ForeColor = System.Drawing.Color.GhostWhite
+        Me.BasicIndicator978.Location = New System.Drawing.Point(1656, 655)
+        Me.BasicIndicator978.Name = "BasicIndicator978"
+        Me.BasicIndicator978.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator978.OutlineWidth = 1
+        Me.BasicIndicator978.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator978.PLCAddressSelectColor2 = "EEM12615_02_4"
+        Me.BasicIndicator978.SelectColor2 = False
+        Me.BasicIndicator978.SelectColor3 = False
+        Me.BasicIndicator978.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator978.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator978.TabIndex = 6857
+        Me.BasicIndicator978.Text = "12635.3-4"
+        '
+        'BasicIndicator979
+        '
+        Me.BasicIndicator979.Color1 = System.Drawing.Color.Red
+        Me.BasicIndicator979.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator979.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator979.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator979.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator979.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator979.Location = New System.Drawing.Point(1821, 655)
+        Me.BasicIndicator979.Name = "BasicIndicator979"
+        Me.BasicIndicator979.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator979.OutlineWidth = 1
+        Me.BasicIndicator979.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator979.PLCAddressSelectColor3 = "MDR12635_03.Z4_JAM_BIT"
+        Me.BasicIndicator979.PLCAddressVisible = "MDR12635_03.Z4_JAM_BIT"
+        Me.BasicIndicator979.SelectColor2 = False
+        Me.BasicIndicator979.SelectColor3 = False
+        Me.BasicIndicator979.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator979.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator979.TabIndex = 6856
+        Me.BasicIndicator979.Text = "JAM "
+        '
+        'BasicIndicator980
+        '
+        Me.BasicIndicator980.Color1 = System.Drawing.Color.Red
+        Me.BasicIndicator980.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator980.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator980.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator980.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator980.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator980.Location = New System.Drawing.Point(1766, 655)
+        Me.BasicIndicator980.Name = "BasicIndicator980"
+        Me.BasicIndicator980.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator980.OutlineWidth = 1
+        Me.BasicIndicator980.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator980.PLCAddressSelectColor3 = "MDR12635_03.Z4_FAULT"
+        Me.BasicIndicator980.PLCAddressVisible = "MDR12635_03.Z4_FAULT"
+        Me.BasicIndicator980.SelectColor2 = False
+        Me.BasicIndicator980.SelectColor3 = False
+        Me.BasicIndicator980.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator980.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator980.TabIndex = 6855
+        Me.BasicIndicator980.Text = "FAULT"
+        '
+        'CheckBox89
+        '
+        Me.CheckBox89.AutoSize = True
+        Me.CheckBox89.ComComponent = Me.EthernetIPforCLXCom1
+        Me.CheckBox89.Font = New System.Drawing.Font("Elephant", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox89.ForeColor = System.Drawing.Color.GhostWhite
+        Me.CheckBox89.Location = New System.Drawing.Point(1526, 651)
+        Me.CheckBox89.Name = "CheckBox89"
+        Me.CheckBox89.PLCAddressCheckChanged = ""
+        Me.CheckBox89.PLCAddressChecked = ""
+        Me.CheckBox89.PLCAddressText = ""
+        Me.CheckBox89.PLCAddressVisible = ""
+        Me.CheckBox89.Size = New System.Drawing.Size(128, 18)
+        Me.CheckBox89.TabIndex = 6854
+        Me.CheckBox89.Text = "RAT 12635.3-4"
+        Me.CheckBox89.TextAlign = System.Drawing.ContentAlignment.BottomLeft
+        Me.CheckBox89.UseVisualStyleBackColor = True
+        '
+        'BasicIndicator981
+        '
+        Me.BasicIndicator981.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator981.Color2 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator981.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator981.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator981.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator981.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator981.Location = New System.Drawing.Point(1711, 655)
+        Me.BasicIndicator981.Name = "BasicIndicator981"
+        Me.BasicIndicator981.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator981.OutlineWidth = 1
+        Me.BasicIndicator981.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator981.PLCAddressSelectColor2 = "MDR12635_03.Z4_MTR_RUNNING"
+        Me.BasicIndicator981.PLCAddressVisible = "MDR12635_03.Z4_MTR_RUNNING"
+        Me.BasicIndicator981.SelectColor2 = False
+        Me.BasicIndicator981.SelectColor3 = False
+        Me.BasicIndicator981.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator981.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator981.TabIndex = 6853
+        Me.BasicIndicator981.Text = "RUN"
+        '
+        'BasicIndicator982
+        '
+        Me.BasicIndicator982.Color1 = System.Drawing.Color.Black
+        Me.BasicIndicator982.Color2 = System.Drawing.Color.Gold
+        Me.BasicIndicator982.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator982.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator982.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator982.ForeColor = System.Drawing.Color.GhostWhite
+        Me.BasicIndicator982.Location = New System.Drawing.Point(1656, 635)
+        Me.BasicIndicator982.Name = "BasicIndicator982"
+        Me.BasicIndicator982.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator982.OutlineWidth = 1
+        Me.BasicIndicator982.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator982.PLCAddressSelectColor2 = "EEM12635_03_3"
+        Me.BasicIndicator982.SelectColor2 = False
+        Me.BasicIndicator982.SelectColor3 = False
+        Me.BasicIndicator982.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator982.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator982.TabIndex = 6852
+        Me.BasicIndicator982.Text = "12635.3-3"
+        '
+        'BasicIndicator983
+        '
+        Me.BasicIndicator983.Color1 = System.Drawing.Color.Red
+        Me.BasicIndicator983.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator983.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator983.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator983.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator983.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator983.Location = New System.Drawing.Point(1821, 635)
+        Me.BasicIndicator983.Name = "BasicIndicator983"
+        Me.BasicIndicator983.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator983.OutlineWidth = 1
+        Me.BasicIndicator983.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator983.PLCAddressSelectColor3 = "MDR12635_03.Z3_JAM_BIT"
+        Me.BasicIndicator983.PLCAddressVisible = "MDR12635_03.Z3_JAM_BIT"
+        Me.BasicIndicator983.SelectColor2 = False
+        Me.BasicIndicator983.SelectColor3 = False
+        Me.BasicIndicator983.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator983.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator983.TabIndex = 6851
+        Me.BasicIndicator983.Text = "JAM "
+        '
+        'BasicIndicator984
+        '
+        Me.BasicIndicator984.Color1 = System.Drawing.Color.Red
+        Me.BasicIndicator984.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator984.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator984.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator984.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator984.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator984.Location = New System.Drawing.Point(1766, 635)
+        Me.BasicIndicator984.Name = "BasicIndicator984"
+        Me.BasicIndicator984.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator984.OutlineWidth = 1
+        Me.BasicIndicator984.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator984.PLCAddressSelectColor3 = "MDR12635_03.Z3_FAULT"
+        Me.BasicIndicator984.PLCAddressVisible = "MDR12635_03.Z3_FAULT"
+        Me.BasicIndicator984.SelectColor2 = False
+        Me.BasicIndicator984.SelectColor3 = False
+        Me.BasicIndicator984.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator984.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator984.TabIndex = 6850
+        Me.BasicIndicator984.Text = "FAULT"
+        '
+        'CheckBox90
+        '
+        Me.CheckBox90.AutoSize = True
+        Me.CheckBox90.ComComponent = Me.EthernetIPforCLXCom1
+        Me.CheckBox90.Font = New System.Drawing.Font("Elephant", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox90.ForeColor = System.Drawing.Color.GhostWhite
+        Me.CheckBox90.Location = New System.Drawing.Point(1526, 631)
+        Me.CheckBox90.Name = "CheckBox90"
+        Me.CheckBox90.PLCAddressCheckChanged = ""
+        Me.CheckBox90.PLCAddressChecked = ""
+        Me.CheckBox90.PLCAddressText = ""
+        Me.CheckBox90.PLCAddressVisible = ""
+        Me.CheckBox90.Size = New System.Drawing.Size(128, 18)
+        Me.CheckBox90.TabIndex = 6849
+        Me.CheckBox90.Text = "RAT 12635.3-3"
+        Me.CheckBox90.TextAlign = System.Drawing.ContentAlignment.BottomLeft
+        Me.CheckBox90.UseVisualStyleBackColor = True
+        '
+        'BasicIndicator985
+        '
+        Me.BasicIndicator985.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator985.Color2 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator985.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator985.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator985.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator985.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator985.Location = New System.Drawing.Point(1711, 635)
+        Me.BasicIndicator985.Name = "BasicIndicator985"
+        Me.BasicIndicator985.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator985.OutlineWidth = 1
+        Me.BasicIndicator985.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator985.PLCAddressSelectColor2 = "MDR12635_03.Z3_MTR_RUNNING"
+        Me.BasicIndicator985.PLCAddressVisible = "MDR12635_03.Z3_MTR_RUNNING"
+        Me.BasicIndicator985.SelectColor2 = False
+        Me.BasicIndicator985.SelectColor3 = False
+        Me.BasicIndicator985.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator985.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator985.TabIndex = 6848
+        Me.BasicIndicator985.Text = "RUN"
+        '
+        'BasicIndicator986
+        '
+        Me.BasicIndicator986.Color1 = System.Drawing.Color.Black
+        Me.BasicIndicator986.Color2 = System.Drawing.Color.Gold
+        Me.BasicIndicator986.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator986.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator986.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator986.ForeColor = System.Drawing.Color.GhostWhite
+        Me.BasicIndicator986.Location = New System.Drawing.Point(1656, 616)
+        Me.BasicIndicator986.Name = "BasicIndicator986"
+        Me.BasicIndicator986.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator986.OutlineWidth = 1
+        Me.BasicIndicator986.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator986.PLCAddressSelectColor2 = "EEM12635_03_2"
+        Me.BasicIndicator986.SelectColor2 = False
+        Me.BasicIndicator986.SelectColor3 = False
+        Me.BasicIndicator986.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator986.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator986.TabIndex = 6847
+        Me.BasicIndicator986.Text = "12635.3-2"
+        '
+        'BasicIndicator987
+        '
+        Me.BasicIndicator987.Color1 = System.Drawing.Color.Red
+        Me.BasicIndicator987.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator987.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator987.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator987.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator987.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator987.Location = New System.Drawing.Point(1821, 616)
+        Me.BasicIndicator987.Name = "BasicIndicator987"
+        Me.BasicIndicator987.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator987.OutlineWidth = 1
+        Me.BasicIndicator987.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator987.PLCAddressSelectColor3 = "MDR12635_03.Z2_JAM_BIT"
+        Me.BasicIndicator987.PLCAddressVisible = "MDR12635_03.Z2_JAM_BIT"
+        Me.BasicIndicator987.SelectColor2 = False
+        Me.BasicIndicator987.SelectColor3 = False
+        Me.BasicIndicator987.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator987.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator987.TabIndex = 6846
+        Me.BasicIndicator987.Text = "JAM "
+        '
+        'BasicIndicator988
+        '
+        Me.BasicIndicator988.Color1 = System.Drawing.Color.Red
+        Me.BasicIndicator988.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator988.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator988.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator988.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator988.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator988.Location = New System.Drawing.Point(1766, 616)
+        Me.BasicIndicator988.Name = "BasicIndicator988"
+        Me.BasicIndicator988.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator988.OutlineWidth = 1
+        Me.BasicIndicator988.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator988.PLCAddressSelectColor3 = "MDR12635_03.Z2_FAULT"
+        Me.BasicIndicator988.PLCAddressVisible = "MDR12635_03.Z2_FAULT"
+        Me.BasicIndicator988.SelectColor2 = False
+        Me.BasicIndicator988.SelectColor3 = False
+        Me.BasicIndicator988.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator988.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator988.TabIndex = 6845
+        Me.BasicIndicator988.Text = "FAULT"
+        '
+        'CheckBox91
+        '
+        Me.CheckBox91.AutoSize = True
+        Me.CheckBox91.ComComponent = Me.EthernetIPforCLXCom1
+        Me.CheckBox91.Font = New System.Drawing.Font("Elephant", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox91.ForeColor = System.Drawing.Color.GhostWhite
+        Me.CheckBox91.Location = New System.Drawing.Point(1526, 612)
+        Me.CheckBox91.Name = "CheckBox91"
+        Me.CheckBox91.PLCAddressCheckChanged = ""
+        Me.CheckBox91.PLCAddressChecked = ""
+        Me.CheckBox91.PLCAddressText = ""
+        Me.CheckBox91.PLCAddressVisible = ""
+        Me.CheckBox91.Size = New System.Drawing.Size(128, 18)
+        Me.CheckBox91.TabIndex = 6844
+        Me.CheckBox91.Text = "RAT 12635.3-2"
+        Me.CheckBox91.TextAlign = System.Drawing.ContentAlignment.BottomLeft
+        Me.CheckBox91.UseVisualStyleBackColor = True
+        '
+        'BasicIndicator989
+        '
+        Me.BasicIndicator989.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator989.Color2 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator989.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator989.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator989.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator989.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator989.Location = New System.Drawing.Point(1711, 616)
+        Me.BasicIndicator989.Name = "BasicIndicator989"
+        Me.BasicIndicator989.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator989.OutlineWidth = 1
+        Me.BasicIndicator989.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator989.PLCAddressSelectColor2 = "MDR12635_03.Z2_MTR_RUNNING"
+        Me.BasicIndicator989.PLCAddressVisible = "MDR12635_03.Z2_MTR_RUNNING"
+        Me.BasicIndicator989.SelectColor2 = False
+        Me.BasicIndicator989.SelectColor3 = False
+        Me.BasicIndicator989.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator989.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator989.TabIndex = 6843
+        Me.BasicIndicator989.Text = "RUN"
+        '
+        'BasicIndicator990
+        '
+        Me.BasicIndicator990.Color1 = System.Drawing.Color.Black
+        Me.BasicIndicator990.Color2 = System.Drawing.Color.Gold
+        Me.BasicIndicator990.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator990.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator990.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator990.ForeColor = System.Drawing.Color.GhostWhite
+        Me.BasicIndicator990.Location = New System.Drawing.Point(1657, 596)
+        Me.BasicIndicator990.Name = "BasicIndicator990"
+        Me.BasicIndicator990.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator990.OutlineWidth = 1
+        Me.BasicIndicator990.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator990.PLCAddressSelectColor2 = "EEM12635_03_1"
+        Me.BasicIndicator990.SelectColor2 = False
+        Me.BasicIndicator990.SelectColor3 = False
+        Me.BasicIndicator990.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator990.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator990.TabIndex = 6842
+        Me.BasicIndicator990.Text = "12635.3-1"
+        '
+        'BasicIndicator991
+        '
+        Me.BasicIndicator991.Color1 = System.Drawing.Color.Red
+        Me.BasicIndicator991.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator991.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator991.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator991.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator991.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator991.Location = New System.Drawing.Point(1822, 596)
+        Me.BasicIndicator991.Name = "BasicIndicator991"
+        Me.BasicIndicator991.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator991.OutlineWidth = 1
+        Me.BasicIndicator991.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator991.PLCAddressSelectColor3 = "MDR12635_03.Z1_JAM_BIT"
+        Me.BasicIndicator991.PLCAddressVisible = "MDR12635_03.Z1_JAM_BIT"
+        Me.BasicIndicator991.SelectColor2 = False
+        Me.BasicIndicator991.SelectColor3 = False
+        Me.BasicIndicator991.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator991.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator991.TabIndex = 6841
+        Me.BasicIndicator991.Text = "JAM "
+        '
+        'BasicIndicator992
+        '
+        Me.BasicIndicator992.Color1 = System.Drawing.Color.Red
+        Me.BasicIndicator992.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator992.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator992.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator992.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator992.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator992.Location = New System.Drawing.Point(1767, 596)
+        Me.BasicIndicator992.Name = "BasicIndicator992"
+        Me.BasicIndicator992.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator992.OutlineWidth = 1
+        Me.BasicIndicator992.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator992.PLCAddressSelectColor3 = "MDR12635_03.Z1_FAULT"
+        Me.BasicIndicator992.PLCAddressVisible = "MDR12635_03.Z1_FAULT"
+        Me.BasicIndicator992.SelectColor2 = False
+        Me.BasicIndicator992.SelectColor3 = False
+        Me.BasicIndicator992.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator992.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator992.TabIndex = 6840
+        Me.BasicIndicator992.Text = "FAULT"
+        '
+        'CheckBox92
+        '
+        Me.CheckBox92.AutoSize = True
+        Me.CheckBox92.ComComponent = Me.EthernetIPforCLXCom1
+        Me.CheckBox92.Font = New System.Drawing.Font("Elephant", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox92.ForeColor = System.Drawing.Color.GhostWhite
+        Me.CheckBox92.Location = New System.Drawing.Point(1526, 592)
+        Me.CheckBox92.Name = "CheckBox92"
+        Me.CheckBox92.PLCAddressCheckChanged = ""
+        Me.CheckBox92.PLCAddressChecked = ""
+        Me.CheckBox92.PLCAddressText = ""
+        Me.CheckBox92.PLCAddressVisible = ""
+        Me.CheckBox92.Size = New System.Drawing.Size(126, 18)
+        Me.CheckBox92.TabIndex = 6839
+        Me.CheckBox92.Text = "RAT 12635.3-1"
+        Me.CheckBox92.TextAlign = System.Drawing.ContentAlignment.BottomLeft
+        Me.CheckBox92.UseVisualStyleBackColor = True
+        '
+        'BasicIndicator993
+        '
+        Me.BasicIndicator993.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator993.Color2 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator993.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator993.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator993.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator993.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator993.Location = New System.Drawing.Point(1712, 596)
+        Me.BasicIndicator993.Name = "BasicIndicator993"
+        Me.BasicIndicator993.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator993.OutlineWidth = 1
+        Me.BasicIndicator993.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator993.PLCAddressSelectColor2 = "MDR12635_03.Z1_MTR_RUNNING"
+        Me.BasicIndicator993.PLCAddressVisible = "MDR12635_03.Z1_MTR_RUNNING"
+        Me.BasicIndicator993.SelectColor2 = False
+        Me.BasicIndicator993.SelectColor3 = False
+        Me.BasicIndicator993.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator993.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator993.TabIndex = 6838
+        Me.BasicIndicator993.Text = "RUN"
+        '
+        'BasicIndicator994
+        '
+        Me.BasicIndicator994.Color1 = System.Drawing.Color.Black
+        Me.BasicIndicator994.Color2 = System.Drawing.Color.Gold
+        Me.BasicIndicator994.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator994.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator994.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator994.ForeColor = System.Drawing.Color.GhostWhite
+        Me.BasicIndicator994.Location = New System.Drawing.Point(1655, 578)
+        Me.BasicIndicator994.Name = "BasicIndicator994"
+        Me.BasicIndicator994.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator994.OutlineWidth = 1
+        Me.BasicIndicator994.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator994.PLCAddressSelectColor2 = "EEM12635_02_1"
+        Me.BasicIndicator994.SelectColor2 = False
+        Me.BasicIndicator994.SelectColor3 = False
+        Me.BasicIndicator994.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator994.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator994.TabIndex = 6862
+        Me.BasicIndicator994.Text = "12635.2-1"
+        '
+        'BasicIndicator995
+        '
+        Me.BasicIndicator995.Color1 = System.Drawing.Color.Red
+        Me.BasicIndicator995.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator995.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator995.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator995.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator995.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator995.Location = New System.Drawing.Point(1820, 578)
+        Me.BasicIndicator995.Name = "BasicIndicator995"
+        Me.BasicIndicator995.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator995.OutlineWidth = 1
+        Me.BasicIndicator995.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator995.PLCAddressSelectColor3 = "MDR12635_02.Z1_JAM_BIT"
+        Me.BasicIndicator995.PLCAddressVisible = "MDR12635_02.Z1_JAM_BIT"
+        Me.BasicIndicator995.SelectColor2 = False
+        Me.BasicIndicator995.SelectColor3 = False
+        Me.BasicIndicator995.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator995.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator995.TabIndex = 6861
+        Me.BasicIndicator995.Text = "JAM "
+        '
+        'BasicIndicator996
+        '
+        Me.BasicIndicator996.Color1 = System.Drawing.Color.Red
+        Me.BasicIndicator996.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator996.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator996.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator996.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator996.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator996.Location = New System.Drawing.Point(1765, 578)
+        Me.BasicIndicator996.Name = "BasicIndicator996"
+        Me.BasicIndicator996.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator996.OutlineWidth = 1
+        Me.BasicIndicator996.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator996.PLCAddressSelectColor3 = "MDR12635_02.Z1_FAULT"
+        Me.BasicIndicator996.PLCAddressVisible = "MDR12635_02.Z1_FAULT"
+        Me.BasicIndicator996.SelectColor2 = False
+        Me.BasicIndicator996.SelectColor3 = False
+        Me.BasicIndicator996.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator996.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator996.TabIndex = 6860
+        Me.BasicIndicator996.Text = "FAULT"
+        '
+        'CheckBox93
+        '
+        Me.CheckBox93.AutoSize = True
+        Me.CheckBox93.ComComponent = Me.EthernetIPforCLXCom1
+        Me.CheckBox93.Font = New System.Drawing.Font("Elephant", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox93.ForeColor = System.Drawing.Color.GhostWhite
+        Me.CheckBox93.Location = New System.Drawing.Point(1524, 574)
+        Me.CheckBox93.Name = "CheckBox93"
+        Me.CheckBox93.PLCAddressCheckChanged = ""
+        Me.CheckBox93.PLCAddressChecked = ""
+        Me.CheckBox93.PLCAddressText = ""
+        Me.CheckBox93.PLCAddressVisible = ""
+        Me.CheckBox93.Size = New System.Drawing.Size(126, 18)
+        Me.CheckBox93.TabIndex = 6859
+        Me.CheckBox93.Text = "RAT 12635.2-1"
+        Me.CheckBox93.TextAlign = System.Drawing.ContentAlignment.BottomLeft
+        Me.CheckBox93.UseVisualStyleBackColor = True
+        '
+        'BasicIndicator997
+        '
+        Me.BasicIndicator997.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator997.Color2 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator997.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator997.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator997.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator997.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator997.Location = New System.Drawing.Point(1710, 578)
+        Me.BasicIndicator997.Name = "BasicIndicator997"
+        Me.BasicIndicator997.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator997.OutlineWidth = 1
+        Me.BasicIndicator997.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator997.PLCAddressSelectColor2 = "MDR12635_02.Z1_MTR_RUNNING"
+        Me.BasicIndicator997.PLCAddressVisible = "MDR12635_02.Z1_MTR_RUNNING"
+        Me.BasicIndicator997.SelectColor2 = False
+        Me.BasicIndicator997.SelectColor3 = False
+        Me.BasicIndicator997.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator997.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator997.TabIndex = 6858
+        Me.BasicIndicator997.Text = "RUN"
+        '
+        'BasicIndicator998
+        '
+        Me.BasicIndicator998.Color1 = System.Drawing.Color.Black
+        Me.BasicIndicator998.Color2 = System.Drawing.Color.Gold
+        Me.BasicIndicator998.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator998.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator998.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator998.ForeColor = System.Drawing.Color.GhostWhite
+        Me.BasicIndicator998.Location = New System.Drawing.Point(1655, 792)
+        Me.BasicIndicator998.Name = "BasicIndicator998"
+        Me.BasicIndicator998.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator998.OutlineWidth = 1
+        Me.BasicIndicator998.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator998.PLCAddressSelectColor2 = "EEM12635_06_1"
+        Me.BasicIndicator998.SelectColor2 = False
+        Me.BasicIndicator998.SelectColor3 = False
+        Me.BasicIndicator998.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator998.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator998.TabIndex = 6867
+        Me.BasicIndicator998.Text = "12635.6-1"
+        '
+        'BasicIndicator999
+        '
+        Me.BasicIndicator999.Color1 = System.Drawing.Color.Red
+        Me.BasicIndicator999.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator999.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator999.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator999.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator999.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator999.Location = New System.Drawing.Point(1820, 792)
+        Me.BasicIndicator999.Name = "BasicIndicator999"
+        Me.BasicIndicator999.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator999.OutlineWidth = 1
+        Me.BasicIndicator999.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator999.PLCAddressSelectColor3 = "MDR12635_06.Z1_JAM_BIT"
+        Me.BasicIndicator999.PLCAddressVisible = "MDR12635_06.Z1_JAM_BIT"
+        Me.BasicIndicator999.SelectColor2 = False
+        Me.BasicIndicator999.SelectColor3 = False
+        Me.BasicIndicator999.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator999.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator999.TabIndex = 6866
+        Me.BasicIndicator999.Text = "JAM "
+        '
+        'BasicIndicator1000
+        '
+        Me.BasicIndicator1000.Color1 = System.Drawing.Color.Red
+        Me.BasicIndicator1000.Color2 = System.Drawing.Color.Green
+        Me.BasicIndicator1000.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator1000.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator1000.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator1000.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator1000.Location = New System.Drawing.Point(1765, 792)
+        Me.BasicIndicator1000.Name = "BasicIndicator1000"
+        Me.BasicIndicator1000.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator1000.OutlineWidth = 1
+        Me.BasicIndicator1000.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator1000.PLCAddressSelectColor3 = "MDR12635_06.Z1_FAULT"
+        Me.BasicIndicator1000.PLCAddressVisible = "MDR12635_06.Z1_FAULT"
+        Me.BasicIndicator1000.SelectColor2 = False
+        Me.BasicIndicator1000.SelectColor3 = False
+        Me.BasicIndicator1000.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator1000.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator1000.TabIndex = 6865
+        Me.BasicIndicator1000.Text = "FAULT"
+        '
+        'CheckBox94
+        '
+        Me.CheckBox94.AutoSize = True
+        Me.CheckBox94.ComComponent = Me.EthernetIPforCLXCom1
+        Me.CheckBox94.Font = New System.Drawing.Font("Elephant", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox94.ForeColor = System.Drawing.Color.GhostWhite
+        Me.CheckBox94.Location = New System.Drawing.Point(1524, 788)
+        Me.CheckBox94.Name = "CheckBox94"
+        Me.CheckBox94.PLCAddressCheckChanged = ""
+        Me.CheckBox94.PLCAddressChecked = ""
+        Me.CheckBox94.PLCAddressText = ""
+        Me.CheckBox94.PLCAddressVisible = ""
+        Me.CheckBox94.Size = New System.Drawing.Size(126, 18)
+        Me.CheckBox94.TabIndex = 6864
+        Me.CheckBox94.Text = "RAT 12635.6-1"
+        Me.CheckBox94.TextAlign = System.Drawing.ContentAlignment.BottomLeft
+        Me.CheckBox94.UseVisualStyleBackColor = True
+        '
+        'BasicIndicator1001
+        '
+        Me.BasicIndicator1001.Color1 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator1001.Color2 = System.Drawing.Color.YellowGreen
+        Me.BasicIndicator1001.Color3 = System.Drawing.Color.Red
+        Me.BasicIndicator1001.ComComponent = Me.EthernetIPforCLXCom1
+        Me.BasicIndicator1001.Font = New System.Drawing.Font("Elephant", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BasicIndicator1001.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BasicIndicator1001.Location = New System.Drawing.Point(1710, 792)
+        Me.BasicIndicator1001.Name = "BasicIndicator1001"
+        Me.BasicIndicator1001.OutlineColor = System.Drawing.Color.Transparent
+        Me.BasicIndicator1001.OutlineWidth = 1
+        Me.BasicIndicator1001.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.BasicIndicator1001.PLCAddressSelectColor2 = "MDR12635_06.Z1_MTR_RUNNING"
+        Me.BasicIndicator1001.PLCAddressVisible = "MDR12635_06.Z1_MTR_RUNNING"
+        Me.BasicIndicator1001.SelectColor2 = False
+        Me.BasicIndicator1001.SelectColor3 = False
+        Me.BasicIndicator1001.Shape = MfgControl.AdvancedHMI.Controls.Indicator.ShapeTypes.Rectangle
+        Me.BasicIndicator1001.Size = New System.Drawing.Size(55, 14)
+        Me.BasicIndicator1001.TabIndex = 6863
+        Me.BasicIndicator1001.Text = "RUN"
+        '
         'CP12
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -22725,6 +27083,206 @@ Partial Class CP12
         Me.AutoSize = True
         Me.BackColor = System.Drawing.Color.MidnightBlue
         Me.ClientSize = New System.Drawing.Size(1884, 1021)
+        Me.Controls.Add(Me.BasicIndicator998)
+        Me.Controls.Add(Me.BasicIndicator999)
+        Me.Controls.Add(Me.BasicIndicator1000)
+        Me.Controls.Add(Me.CheckBox94)
+        Me.Controls.Add(Me.BasicIndicator1001)
+        Me.Controls.Add(Me.BasicIndicator994)
+        Me.Controls.Add(Me.BasicIndicator995)
+        Me.Controls.Add(Me.BasicIndicator996)
+        Me.Controls.Add(Me.CheckBox93)
+        Me.Controls.Add(Me.BasicIndicator997)
+        Me.Controls.Add(Me.BasicIndicator978)
+        Me.Controls.Add(Me.BasicIndicator979)
+        Me.Controls.Add(Me.BasicIndicator980)
+        Me.Controls.Add(Me.CheckBox89)
+        Me.Controls.Add(Me.BasicIndicator981)
+        Me.Controls.Add(Me.BasicIndicator982)
+        Me.Controls.Add(Me.BasicIndicator983)
+        Me.Controls.Add(Me.BasicIndicator984)
+        Me.Controls.Add(Me.CheckBox90)
+        Me.Controls.Add(Me.BasicIndicator985)
+        Me.Controls.Add(Me.BasicIndicator986)
+        Me.Controls.Add(Me.BasicIndicator987)
+        Me.Controls.Add(Me.BasicIndicator988)
+        Me.Controls.Add(Me.CheckBox91)
+        Me.Controls.Add(Me.BasicIndicator989)
+        Me.Controls.Add(Me.BasicIndicator990)
+        Me.Controls.Add(Me.BasicIndicator991)
+        Me.Controls.Add(Me.BasicIndicator992)
+        Me.Controls.Add(Me.CheckBox92)
+        Me.Controls.Add(Me.BasicIndicator993)
+        Me.Controls.Add(Me.BasicIndicator849)
+        Me.Controls.Add(Me.BasicIndicator959)
+        Me.Controls.Add(Me.BasicIndicator960)
+        Me.Controls.Add(Me.CheckBox84)
+        Me.Controls.Add(Me.BasicIndicator961)
+        Me.Controls.Add(Me.BasicIndicator966)
+        Me.Controls.Add(Me.BasicIndicator967)
+        Me.Controls.Add(Me.BasicIndicator968)
+        Me.Controls.Add(Me.CheckBox85)
+        Me.Controls.Add(Me.BasicIndicator969)
+        Me.Controls.Add(Me.BasicIndicator970)
+        Me.Controls.Add(Me.BasicIndicator971)
+        Me.Controls.Add(Me.BasicIndicator972)
+        Me.Controls.Add(Me.CheckBox87)
+        Me.Controls.Add(Me.BasicIndicator973)
+        Me.Controls.Add(Me.BasicIndicator974)
+        Me.Controls.Add(Me.BasicIndicator975)
+        Me.Controls.Add(Me.BasicIndicator976)
+        Me.Controls.Add(Me.CheckBox88)
+        Me.Controls.Add(Me.BasicIndicator977)
+        Me.Controls.Add(Me.BasicIndicator783)
+        Me.Controls.Add(Me.BasicIndicator784)
+        Me.Controls.Add(Me.BasicIndicator785)
+        Me.Controls.Add(Me.CheckBox68)
+        Me.Controls.Add(Me.BasicIndicator787)
+        Me.Controls.Add(Me.BasicIndicator788)
+        Me.Controls.Add(Me.BasicIndicator789)
+        Me.Controls.Add(Me.BasicIndicator847)
+        Me.Controls.Add(Me.CheckBox69)
+        Me.Controls.Add(Me.BasicIndicator848)
+        Me.Controls.Add(Me.BasicIndicator846)
+        Me.Controls.Add(Me.BasicIndicator958)
+        Me.Controls.Add(Me.BasicIndicator962)
+        Me.Controls.Add(Me.BasicIndicator963)
+        Me.Controls.Add(Me.BasicIndicator964)
+        Me.Controls.Add(Me.CheckBox86)
+        Me.Controls.Add(Me.BasicIndicator965)
+        Me.Controls.Add(Me.BasicIndicator838)
+        Me.Controls.Add(Me.BasicIndicator839)
+        Me.Controls.Add(Me.BasicIndicator840)
+        Me.Controls.Add(Me.CheckBox82)
+        Me.Controls.Add(Me.BasicIndicator841)
+        Me.Controls.Add(Me.BasicIndicator842)
+        Me.Controls.Add(Me.BasicIndicator843)
+        Me.Controls.Add(Me.BasicIndicator844)
+        Me.Controls.Add(Me.CheckBox83)
+        Me.Controls.Add(Me.BasicIndicator845)
+        Me.Controls.Add(Me.BasicIndicator834)
+        Me.Controls.Add(Me.BasicIndicator835)
+        Me.Controls.Add(Me.BasicIndicator836)
+        Me.Controls.Add(Me.CheckBox81)
+        Me.Controls.Add(Me.BasicIndicator837)
+        Me.Controls.Add(Me.BasicIndicator826)
+        Me.Controls.Add(Me.BasicIndicator827)
+        Me.Controls.Add(Me.BasicIndicator828)
+        Me.Controls.Add(Me.CheckBox79)
+        Me.Controls.Add(Me.BasicIndicator829)
+        Me.Controls.Add(Me.BasicIndicator830)
+        Me.Controls.Add(Me.BasicIndicator831)
+        Me.Controls.Add(Me.BasicIndicator832)
+        Me.Controls.Add(Me.CheckBox80)
+        Me.Controls.Add(Me.BasicIndicator833)
+        Me.Controls.Add(Me.BasicIndicator59)
+        Me.Controls.Add(Me.BasicIndicator810)
+        Me.Controls.Add(Me.BasicIndicator811)
+        Me.Controls.Add(Me.BasicIndicator812)
+        Me.Controls.Add(Me.CheckBox75)
+        Me.Controls.Add(Me.BasicIndicator813)
+        Me.Controls.Add(Me.BasicIndicator814)
+        Me.Controls.Add(Me.BasicIndicator815)
+        Me.Controls.Add(Me.BasicIndicator816)
+        Me.Controls.Add(Me.CheckBox76)
+        Me.Controls.Add(Me.BasicIndicator817)
+        Me.Controls.Add(Me.BasicIndicator818)
+        Me.Controls.Add(Me.BasicIndicator819)
+        Me.Controls.Add(Me.BasicIndicator820)
+        Me.Controls.Add(Me.CheckBox77)
+        Me.Controls.Add(Me.BasicIndicator821)
+        Me.Controls.Add(Me.BasicIndicator822)
+        Me.Controls.Add(Me.BasicIndicator823)
+        Me.Controls.Add(Me.BasicIndicator824)
+        Me.Controls.Add(Me.CheckBox78)
+        Me.Controls.Add(Me.BasicIndicator825)
+        Me.Controls.Add(Me.BasicIndicator794)
+        Me.Controls.Add(Me.BasicIndicator795)
+        Me.Controls.Add(Me.BasicIndicator796)
+        Me.Controls.Add(Me.CheckBox71)
+        Me.Controls.Add(Me.BasicIndicator797)
+        Me.Controls.Add(Me.BasicIndicator798)
+        Me.Controls.Add(Me.BasicIndicator799)
+        Me.Controls.Add(Me.BasicIndicator800)
+        Me.Controls.Add(Me.CheckBox72)
+        Me.Controls.Add(Me.BasicIndicator801)
+        Me.Controls.Add(Me.BasicIndicator802)
+        Me.Controls.Add(Me.BasicIndicator803)
+        Me.Controls.Add(Me.BasicIndicator804)
+        Me.Controls.Add(Me.CheckBox73)
+        Me.Controls.Add(Me.BasicIndicator805)
+        Me.Controls.Add(Me.BasicIndicator806)
+        Me.Controls.Add(Me.BasicIndicator807)
+        Me.Controls.Add(Me.BasicIndicator808)
+        Me.Controls.Add(Me.CheckBox74)
+        Me.Controls.Add(Me.BasicIndicator809)
+        Me.Controls.Add(Me.BasicIndicator790)
+        Me.Controls.Add(Me.BasicIndicator791)
+        Me.Controls.Add(Me.BasicIndicator792)
+        Me.Controls.Add(Me.CheckBox70)
+        Me.Controls.Add(Me.BasicIndicator793)
+        Me.Controls.Add(Me.BasicIndicator782)
+        Me.Controls.Add(Me.BasicIndicator786)
+        Me.Controls.Add(Me.BasicIndicator766)
+        Me.Controls.Add(Me.BasicIndicator767)
+        Me.Controls.Add(Me.BasicIndicator768)
+        Me.Controls.Add(Me.CheckBox64)
+        Me.Controls.Add(Me.BasicIndicator769)
+        Me.Controls.Add(Me.BasicIndicator770)
+        Me.Controls.Add(Me.BasicIndicator771)
+        Me.Controls.Add(Me.BasicIndicator772)
+        Me.Controls.Add(Me.CheckBox65)
+        Me.Controls.Add(Me.BasicIndicator773)
+        Me.Controls.Add(Me.BasicIndicator774)
+        Me.Controls.Add(Me.BasicIndicator775)
+        Me.Controls.Add(Me.BasicIndicator776)
+        Me.Controls.Add(Me.CheckBox66)
+        Me.Controls.Add(Me.BasicIndicator777)
+        Me.Controls.Add(Me.BasicIndicator778)
+        Me.Controls.Add(Me.BasicIndicator779)
+        Me.Controls.Add(Me.BasicIndicator780)
+        Me.Controls.Add(Me.CheckBox67)
+        Me.Controls.Add(Me.BasicIndicator781)
+        Me.Controls.Add(Me.BasicIndicator750)
+        Me.Controls.Add(Me.BasicIndicator751)
+        Me.Controls.Add(Me.BasicIndicator752)
+        Me.Controls.Add(Me.CheckBox60)
+        Me.Controls.Add(Me.BasicIndicator753)
+        Me.Controls.Add(Me.BasicIndicator754)
+        Me.Controls.Add(Me.BasicIndicator755)
+        Me.Controls.Add(Me.BasicIndicator756)
+        Me.Controls.Add(Me.CheckBox61)
+        Me.Controls.Add(Me.BasicIndicator757)
+        Me.Controls.Add(Me.BasicIndicator758)
+        Me.Controls.Add(Me.BasicIndicator759)
+        Me.Controls.Add(Me.BasicIndicator760)
+        Me.Controls.Add(Me.CheckBox62)
+        Me.Controls.Add(Me.BasicIndicator761)
+        Me.Controls.Add(Me.BasicIndicator762)
+        Me.Controls.Add(Me.BasicIndicator763)
+        Me.Controls.Add(Me.BasicIndicator764)
+        Me.Controls.Add(Me.CheckBox63)
+        Me.Controls.Add(Me.BasicIndicator765)
+        Me.Controls.Add(Me.BasicIndicator581)
+        Me.Controls.Add(Me.BasicIndicator582)
+        Me.Controls.Add(Me.BasicIndicator583)
+        Me.Controls.Add(Me.CheckBox56)
+        Me.Controls.Add(Me.BasicIndicator593)
+        Me.Controls.Add(Me.BasicIndicator599)
+        Me.Controls.Add(Me.BasicIndicator600)
+        Me.Controls.Add(Me.BasicIndicator601)
+        Me.Controls.Add(Me.CheckBox57)
+        Me.Controls.Add(Me.BasicIndicator602)
+        Me.Controls.Add(Me.BasicIndicator603)
+        Me.Controls.Add(Me.BasicIndicator604)
+        Me.Controls.Add(Me.BasicIndicator605)
+        Me.Controls.Add(Me.CheckBox58)
+        Me.Controls.Add(Me.BasicIndicator719)
+        Me.Controls.Add(Me.BasicIndicator746)
+        Me.Controls.Add(Me.BasicIndicator747)
+        Me.Controls.Add(Me.BasicIndicator748)
+        Me.Controls.Add(Me.CheckBox59)
+        Me.Controls.Add(Me.BasicIndicator749)
         Me.Controls.Add(Me.BasicIndicator577)
         Me.Controls.Add(Me.BasicIndicator578)
         Me.Controls.Add(Me.BasicIndicator579)
@@ -23085,7 +27643,6 @@ Partial Class CP12
         Me.Controls.Add(Me.MDR1223534)
         Me.Controls.Add(Me.BasicIndicator149)
         Me.Controls.Add(Me.BasicIndicator72)
-        Me.Controls.Add(Me.BasicIndicator59)
         Me.Controls.Add(Me.BasicIndicator20)
         Me.Controls.Add(Me.BasicIndicator61)
         Me.Controls.Add(Me.BasicIndicator62)
@@ -23767,7 +28324,6 @@ Partial Class CP12
         CType(Me.ArReadyToReceive12030, System.ComponentModel.ISupportInitialize).EndInit
         CType(Me.ArReadyToReceive12040, System.ComponentModel.ISupportInitialize).EndInit
         CType(Me.ArReadyToReceive12060, System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.EthernetIPforCLXCom2, System.ComponentModel.ISupportInitialize).EndInit
         Me.ResumeLayout(False)
         Me.PerformLayout
 
@@ -24590,7 +29146,6 @@ Partial Class CP12
     Friend WithEvents BasicIndicator251 As AdvancedHMIControls.BasicIndicator
     Friend WithEvents BasicIndicator252 As AdvancedHMIControls.BasicIndicator
     Friend WithEvents CheckBox15 As AdvancedHMIControls.CheckBox
-    Friend WithEvents EthernetIPforCLXCom2 As AdvancedHMIDrivers.EthernetIPforCLXCom
     Friend WithEvents BasicIndicator253 As AdvancedHMIControls.BasicIndicator
     Friend WithEvents BasicIndicator255 As AdvancedHMIControls.BasicIndicator
     Friend WithEvents BasicIndicator256 As AdvancedHMIControls.BasicIndicator
@@ -24812,4 +29367,203 @@ Partial Class CP12
     Friend WithEvents BasicIndicator579 As AdvancedHMIControls.BasicIndicator
     Friend WithEvents CheckBox55 As AdvancedHMIControls.CheckBox
     Friend WithEvents BasicIndicator580 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator581 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator582 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator583 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents CheckBox56 As AdvancedHMIControls.CheckBox
+    Friend WithEvents BasicIndicator593 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator599 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator600 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator601 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents CheckBox57 As AdvancedHMIControls.CheckBox
+    Friend WithEvents BasicIndicator602 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator603 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator604 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator605 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents CheckBox58 As AdvancedHMIControls.CheckBox
+    Friend WithEvents BasicIndicator719 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator746 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator747 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator748 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents CheckBox59 As AdvancedHMIControls.CheckBox
+    Friend WithEvents BasicIndicator749 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator750 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator751 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator752 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents CheckBox60 As AdvancedHMIControls.CheckBox
+    Friend WithEvents BasicIndicator753 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator754 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator755 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator756 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents CheckBox61 As AdvancedHMIControls.CheckBox
+    Friend WithEvents BasicIndicator757 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator758 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator759 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator760 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents CheckBox62 As AdvancedHMIControls.CheckBox
+    Friend WithEvents BasicIndicator761 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator762 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator763 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator764 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents CheckBox63 As AdvancedHMIControls.CheckBox
+    Friend WithEvents BasicIndicator765 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator766 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator767 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator768 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents CheckBox64 As AdvancedHMIControls.CheckBox
+    Friend WithEvents BasicIndicator769 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator770 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator771 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator772 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents CheckBox65 As AdvancedHMIControls.CheckBox
+    Friend WithEvents BasicIndicator773 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator774 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator775 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator776 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents CheckBox66 As AdvancedHMIControls.CheckBox
+    Friend WithEvents BasicIndicator777 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator778 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator779 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator780 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents CheckBox67 As AdvancedHMIControls.CheckBox
+    Friend WithEvents BasicIndicator781 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator782 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator786 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator790 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator791 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator792 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents CheckBox70 As AdvancedHMIControls.CheckBox
+    Friend WithEvents BasicIndicator793 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator794 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator795 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator796 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents CheckBox71 As AdvancedHMIControls.CheckBox
+    Friend WithEvents BasicIndicator797 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator798 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator799 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator800 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents CheckBox72 As AdvancedHMIControls.CheckBox
+    Friend WithEvents BasicIndicator801 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator802 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator803 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator804 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents CheckBox73 As AdvancedHMIControls.CheckBox
+    Friend WithEvents BasicIndicator805 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator806 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator807 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator808 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents CheckBox74 As AdvancedHMIControls.CheckBox
+    Friend WithEvents BasicIndicator809 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator810 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator811 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator812 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents CheckBox75 As AdvancedHMIControls.CheckBox
+    Friend WithEvents BasicIndicator813 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator814 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator815 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator816 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents CheckBox76 As AdvancedHMIControls.CheckBox
+    Friend WithEvents BasicIndicator817 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator818 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator819 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator820 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents CheckBox77 As AdvancedHMIControls.CheckBox
+    Friend WithEvents BasicIndicator821 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator822 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator823 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator824 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents CheckBox78 As AdvancedHMIControls.CheckBox
+    Friend WithEvents BasicIndicator825 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator826 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator827 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator828 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents CheckBox79 As AdvancedHMIControls.CheckBox
+    Friend WithEvents BasicIndicator829 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator830 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator831 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator832 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents CheckBox80 As AdvancedHMIControls.CheckBox
+    Friend WithEvents BasicIndicator833 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator834 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator835 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator836 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents CheckBox81 As AdvancedHMIControls.CheckBox
+    Friend WithEvents BasicIndicator837 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator838 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator839 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator840 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents CheckBox82 As AdvancedHMIControls.CheckBox
+    Friend WithEvents BasicIndicator841 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator842 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator843 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator844 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents CheckBox83 As AdvancedHMIControls.CheckBox
+    Friend WithEvents BasicIndicator845 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator846 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator958 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator962 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator963 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator964 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents CheckBox86 As AdvancedHMIControls.CheckBox
+    Friend WithEvents BasicIndicator965 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator783 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator784 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator785 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents CheckBox68 As AdvancedHMIControls.CheckBox
+    Friend WithEvents BasicIndicator787 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator788 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator789 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator847 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents CheckBox69 As AdvancedHMIControls.CheckBox
+    Friend WithEvents BasicIndicator848 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator849 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator959 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator960 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents CheckBox84 As AdvancedHMIControls.CheckBox
+    Friend WithEvents BasicIndicator961 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator966 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator967 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator968 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents CheckBox85 As AdvancedHMIControls.CheckBox
+    Friend WithEvents BasicIndicator969 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator970 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator971 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator972 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents CheckBox87 As AdvancedHMIControls.CheckBox
+    Friend WithEvents BasicIndicator973 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator974 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator975 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator976 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents CheckBox88 As AdvancedHMIControls.CheckBox
+    Friend WithEvents BasicIndicator977 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator978 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator979 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator980 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents CheckBox89 As AdvancedHMIControls.CheckBox
+    Friend WithEvents BasicIndicator981 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator982 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator983 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator984 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents CheckBox90 As AdvancedHMIControls.CheckBox
+    Friend WithEvents BasicIndicator985 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator986 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator987 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator988 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents CheckBox91 As AdvancedHMIControls.CheckBox
+    Friend WithEvents BasicIndicator989 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator990 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator991 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator992 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents CheckBox92 As AdvancedHMIControls.CheckBox
+    Friend WithEvents BasicIndicator993 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator994 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator995 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator996 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents CheckBox93 As AdvancedHMIControls.CheckBox
+    Friend WithEvents BasicIndicator997 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator998 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator999 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents BasicIndicator1000 As AdvancedHMIControls.BasicIndicator
+    Friend WithEvents CheckBox94 As AdvancedHMIControls.CheckBox
+    Friend WithEvents BasicIndicator1001 As AdvancedHMIControls.BasicIndicator
 End Class

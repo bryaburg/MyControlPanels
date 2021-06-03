@@ -126,4 +126,7 @@
         End If
     End Sub
 
+    Private Sub CP_12_2_Open_Click(sender As Object, e As EventArgs) Handles CP_12_2_Open.Click
+        CP12p2.Show()
+    End Sub
 End Class

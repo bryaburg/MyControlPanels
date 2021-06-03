@@ -118,69 +118,20 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <metadata name="EthernetIPforCLXCom1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
+    <value>897, 17</value>
   </metadata>
-  <metadata name="ArReadyToReceive12080.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>392, 19</value>
+  <metadata name="EthernetIPforCLXCom2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1073, 17</value>
   </metadata>
-  <assembly alias="MfgControl.AdvancedHMI.Drivers" name="MfgControl.AdvancedHMI.Drivers, Version=3.99.19.2, Culture=neutral, PublicKeyToken=null" />
-  <data name="ArReadyToReceive12080.PLCAddressValue" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
-    <value>ARSAW12080_AOI.TO_ARSAW_READY_TO_RECIEVE</value>
-  </data>
-  <metadata name="ArReadyToReceive12070.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>572, 20</value>
+  <metadata name="EthernetIPforCLXCom3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1249, 17</value>
   </metadata>
-  <data name="ArReadyToReceive12070.PLCAddressValue" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
-    <value>ARSAW12070_AOI.TO_ARSAW_READY_TO_RECIEVE</value>
-  </data>
-  <metadata name="ArReadyToReceive12090.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>759, 23</value>
+  <metadata name="EthernetIPforCLXCom4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 56</value>
   </metadata>
-  <data name="ArReadyToReceive12090.PLCAddressValue" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
-    <value>ARSAW12090_AOI.TO_ARSAW_READY_TO_RECIEVE</value>
-  </data>
-  <metadata name="ArReadyToReceive12100.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>196, 17</value>
+  <metadata name="EthernetIPforCLXCom5.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>193, 56</value>
   </metadata>
-  <data name="ArReadyToReceive12100.PLCAddressValue" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
-    <value>ARSAW12100_AOI.TO_ARSAW_READY_TO_RECIEVE</value>
-  </data>
-  <metadata name="OkToFeed1DS.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>42, 51</value>
-  </metadata>
-  <data name="OkToFeed1DS.PLCAddressValue" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
-    <value>GRS12945.OK_TO_FEED</value>
-  </data>
-  <metadata name="ArReadyToReceive12010.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>171, 51</value>
-  </metadata>
-  <data name="ArReadyToReceive12010.PLCAddressValue" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
-    <value>ARSAW12010_AOI.TO_ARSAW_READY_TO_RECIEVE</value>
-  </data>
-  <metadata name="ArReadyToReceive12020.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>357, 51</value>
-  </metadata>
-  <data name="ArReadyToReceive12020.PLCAddressValue" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
-    <value>ARSAW12020_AND_LINE11835_AOI.TO_ARSAW_READY_TO_RECIEVE</value>
-  </data>
-  <metadata name="ArReadyToReceive12030.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>543, 51</value>
-  </metadata>
-  <data name="ArReadyToReceive12030.PLCAddressValue" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
-    <value>ARSAW12030_AOI.TO_ARSAW_READY_TO_RECIEVE</value>
-  </data>
-  <metadata name="ArReadyToReceive12040.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>729, 51</value>
-  </metadata>
-  <data name="ArReadyToReceive12040.PLCAddressValue" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
-    <value>ARSAW12040_AND_LINE11845_AOI.TO_ARSAW_READY_TO_RECIEVE</value>
-  </data>
-  <metadata name="ArReadyToReceive12060.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>915, 51</value>
-  </metadata>
-  <data name="ArReadyToReceive12060.PLCAddressValue" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
-    <value>ARSAW12060_AOI.TO_ARSAW_READY_TO_RECIEVE</value>
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
