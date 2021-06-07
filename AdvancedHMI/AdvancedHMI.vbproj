@@ -161,6 +161,12 @@
     <Compile Include="CP14.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="CP14p2.Designer.vb">
+      <DependentUpon>CP14p2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CP14p2.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="CP15.Designer.vb">
       <DependentUpon>CP15.vb</DependentUpon>
     </Compile>
@@ -510,6 +516,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="CP14.resx">
       <DependentUpon>CP14.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CP14p2.resx">
+      <DependentUpon>CP14p2.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CP15.resx">
       <DependentUpon>CP15.vb</DependentUpon>
