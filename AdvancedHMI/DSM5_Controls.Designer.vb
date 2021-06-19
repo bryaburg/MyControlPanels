@@ -329,6 +329,7 @@ Partial Class DSM5_Controls
         Me.PilotLight258 = New AdvancedHMIControls.PilotLight()
         Me.PilotLight259 = New AdvancedHMIControls.PilotLight()
         Me.PanelContent = New AdvancedHMIControls.BasicButton()
+        Me.PilotLight260 = New AdvancedHMIControls.PilotLight()
         CType(Me.EthernetIPforCLXCom23, System.ComponentModel.ISupportInitialize).BeginInit
         CType(Me.EthernetIPforCLXCom33, System.ComponentModel.ISupportInitialize).BeginInit
         CType(Me.EthernetIPforCLXCom25, System.ComponentModel.ISupportInitialize).BeginInit
@@ -7533,6 +7534,31 @@ Partial Class DSM5_Controls
         Me.PanelContent.UseVisualStyleBackColor = False
         Me.PanelContent.ValueToWrite = 0
         '
+        'PilotLight260
+        '
+        Me.PilotLight260.AccessibleDescription = "ALARM HORN"
+        Me.PilotLight260.AccessibleName = "HORN"
+        Me.PilotLight260.Blink = False
+        Me.PilotLight260.ComComponent = Me.EthernetIPforCLXCom14
+        Me.PilotLight260.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.PilotLight260.ForeColor = System.Drawing.Color.DodgerBlue
+        Me.PilotLight260.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Large
+        Me.PilotLight260.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Green
+        Me.PilotLight260.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
+        Me.PilotLight260.Location = New System.Drawing.Point(723, 741)
+        Me.PilotLight260.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
+        Me.PilotLight260.Name = "PilotLight260"
+        Me.PilotLight260.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.Toggle
+        Me.PilotLight260.PLCAddressClick = "ForceCP64OutOff[0].5"
+        Me.PilotLight260.PLCAddressText = ""
+        Me.PilotLight260.PLCAddressValue = "ForceCP64OutOff[0].5"
+        Me.PilotLight260.PLCAddressVisible = ""
+        Me.PilotLight260.Size = New System.Drawing.Size(30, 44)
+        Me.PilotLight260.TabIndex = 2089
+        Me.PilotLight260.Text = "HORN OFF"
+        Me.PilotLight260.Value = False
+        Me.PilotLight260.ValueToWrite = 1
+        '
         'DSM5_Controls
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -7540,6 +7566,7 @@ Partial Class DSM5_Controls
         Me.AutoSize = True
         Me.BackColor = System.Drawing.Color.MidnightBlue
         Me.ClientSize = New System.Drawing.Size(1884, 1021)
+        Me.Controls.Add(Me.PilotLight260)
         Me.Controls.Add(Me.PanelContent)
         Me.Controls.Add(Me.PilotLight259)
         Me.Controls.Add(Me.PilotLight258)
@@ -8158,4 +8185,5 @@ Partial Class DSM5_Controls
     Friend WithEvents PilotLight259 As AdvancedHMIControls.PilotLight
     Friend WithEvents EthernetIPforCLXCom38 As AdvancedHMIDrivers.EthernetIPforCLXCom
     Friend WithEvents PanelContent As AdvancedHMIControls.BasicButton
+    Friend WithEvents PilotLight260 As AdvancedHMIControls.PilotLight
 End Class
